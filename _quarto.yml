@@ -1,0 +1,47 @@
+project:
+  type: book
+
+book:
+  title: "Learning from Arguments"
+  subtitle: "blono remix"
+  author: 
+    -  "Daniel Z. Korman (original)"
+    -  "David Sanson (remix)"
+  chapters:
+    - part: Preface
+      chapters:
+      - index.md
+      - preface-students.md
+      - preface-instructors.md
+    - part: Chapters
+      chapters:
+      - introduction.md
+      - evil.md
+      - wager.md
+      - personal-identity.md
+      - death.md
+      - no-freedom.md
+      - skepticism.md
+      - coercion.md
+      - abortion.md
+      - eating-animals.md
+      - utilitarianism.md
+  appendices:
+    - logic.md
+    - writing.md
+    - theses-and-arguments.md
+  page-navigation: true
+
+format:
+  html:
+    theme:
+      light: 
+        - cosmo
+        - custom.scss
+      dark: 
+        - darkly
+        - custom.scss
+  # pdf:
+  #   documentclass: scrreprt
+
+

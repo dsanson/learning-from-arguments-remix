@@ -1,0 +1,112 @@
+/*-- scss:rules --*/
+
+/* math font size
+
+.math {
+  font-size: 85%;
+}
+
+
+/* definition list formatting */
+
+// dl {
+//   display: grid;
+//   grid-template-columns: max-content auto;
+//   column-gap: 1em;
+//   margin-left:1em;
+// }
+//
+// dt {
+//   grid-column-start: 1;
+// }
+//
+// dd {
+//   grid-column-start: 2;
+// }
+
+/* example float div formatting */
+
+.example,
+figure.quarto-float-exa {
+
+  padding-left: 1em;
+
+  &> figure > div {
+    text-align: left;
+  }
+}
+
+/* argument formatting */
+
+.argument,
+figure.quarto-float-arg {
+
+  padding-left: 1em;
+
+  &> figure > div > ul {
+    text-align: left;
+  }
+
+  &> p {
+    margin-bottom: 0;
+  }
+
+  li {
+    list-style: none;
+    padding-left: 1em;
+    text-indent: -3em;
+  }
+}
+
+/* thesis formatting */
+.thesis li {
+  list-style: none;
+  padding-left: 1em;
+  text-indent: -2em;
+}
+
+/* Chapter title formatting */
+
+.quarto-title .chapter-number {
+  display: block;
+  text-align: center;
+  font-size: smaller;
+
+  &::before {
+    content: 'Chapter ';
+    font-variant: small-caps;
+  }
+}
+
+.quarto-title .chapter-title {
+  display: block;
+  text-align: center;
+}
+
+.authorial-intent {
+  border-bottom: black solid thin;
+  border-top: black solid thin;
+  padding: 1em;
+  margin-bottom: 3em;
+}
+
+/* accessibility tweaks */
+/* don't just use color to indicate to links */
+main a {
+  text-decoration: underline !important;
+}
+/* don't dim blockquotes */
+.blockquote {
+  color: inherit;
+}
+
+/* print tweaks */
+/* don't print header and footer */
+@media print {
+  #quarto-header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
