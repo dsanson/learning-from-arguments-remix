@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>4&nbsp; What Makes You You – Learning from Arguments</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./death.html" rel="next">
+<link href="./wager.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a72ecf755514651c90d48693e10d5022.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-34399099858deb6dd7478e903a26ae0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a72ecf755514651c90d48693e10d5022.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Learning from Arguments</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./personal-identity.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Preface</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the blono remix</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface-students.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface for Students</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface-instructors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface for Instructors</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evil.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wager.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./personal-identity.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./death.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./coercion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./abortion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./logic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Logic</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">4.1</span> Introduction</a></li>
+  <li><a href="#sec-clarifying-personal-identity" id="toc-sec-clarifying-personal-identity" class="nav-link" data-scroll-target="#sec-clarifying-personal-identity"><span class="header-section-number">4.2</span> Clarifying the Question of Personal Identity</a></li>
+  <li><a href="#sec-promising-and-unpromising-answers" id="toc-sec-promising-and-unpromising-answers" class="nav-link" data-scroll-target="#sec-promising-and-unpromising-answers"><span class="header-section-number">4.3</span> Some Promising and Unpromising Answers</a>
+  <ul class="collapse">
+  <li><a href="#sec-physical-answers" id="toc-sec-physical-answers" class="nav-link" data-scroll-target="#sec-physical-answers"><span class="header-section-number">4.3.1</span> Physical Answers</a></li>
+  <li><a href="#sec-psychological-answers" id="toc-sec-psychological-answers" class="nav-link" data-scroll-target="#sec-psychological-answers"><span class="header-section-number">4.3.2</span> Psychological Answers</a></li>
+  </ul></li>
+  <li><a href="#sec-against-same-body" id="toc-sec-against-same-body" class="nav-link" data-scroll-target="#sec-against-same-body"><span class="header-section-number">4.4</span> Against the Same Body Account</a>
+  <ul class="collapse">
+  <li><a href="#sec-conjoined-twins" id="toc-sec-conjoined-twins" class="nav-link" data-scroll-target="#sec-conjoined-twins"><span class="header-section-number">4.4.1</span> Conjoined Twins</a></li>
+  <li><a href="#sec-body-swaps" id="toc-sec-body-swaps" class="nav-link" data-scroll-target="#sec-body-swaps"><span class="header-section-number">4.4.2</span> Body Swaps</a></li>
+  </ul></li>
+  <li><a href="#sec-against-psychological-descendent" id="toc-sec-against-psychological-descendent" class="nav-link" data-scroll-target="#sec-against-psychological-descendent"><span class="header-section-number">4.5</span> Against the Psychological Descendant Account</a>
+  <ul class="collapse">
+  <li><a href="#sec-arguments-from-discontinuity" id="toc-sec-arguments-from-discontinuity" class="nav-link" data-scroll-target="#sec-arguments-from-discontinuity"><span class="header-section-number">4.5.1</span> Arguments from Discontinuity</a></li>
+  <li><a href="#sec-argument-from-fission" id="toc-sec-argument-from-fission" class="nav-link" data-scroll-target="#sec-argument-from-fission"><span class="header-section-number">4.5.2</span> The Argument from Fission</a></li>
+  </ul></li>
+  <li><a href="#sec-souls" id="toc-sec-souls" class="nav-link" data-scroll-target="#sec-souls"><span class="header-section-number">4.6</span> Souls</a></li>
+  <li><a href="#sec-combined-answers" id="toc-sec-combined-answers" class="nav-link" data-scroll-target="#sec-combined-answers"><span class="header-section-number">4.7</span> Combining the Psychological and Bodily Accounts</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">4.8</span> Conclusion</a></li>
+  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection Questions</a></li>
+  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./personal-identity.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-personal-identity" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="authorial-intent">
+<p><em>Views and arguments advanced in this chapter are not necessarily endorsed by the author of the textbook, nor are they original to the author, nor are they meant to be consistent with arguments advanced in other chapters. Different chapters represent different philosophical perspectives.</em></p>
+</div>
+<section id="introduction" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">4.1</span> Introduction</h2>
+<p>In this chapter, I address the question of what makes you the person that you are. In particular, is it your physical aspects or, rather, your psychological aspects that make you the person that you are? I will argue that neither facts about your body, nor facts about your mental life, nor any combination of the two can answer the question of what makes you you, and that this remains an open and challenging—and perhaps unanswerable—question.</p>
+<p>In <a href="#sec-clarifying-personal-identity" class="quarto-xref"><span>Section 4.2</span></a>, I clarify the question that I mean to be asking, and I explain what a satisfactory answer would have to look like. In <a href="#sec-promising-and-unpromising-answers" class="quarto-xref"><span>Section 4.3</span></a>, I present a variety of potential answers to the question, some more promising than others. In <a href="#sec-against-same-body" class="quarto-xref"><span>Section 4.4</span></a>, I closely examine an account according to which it is having the body that you do that makes you the person that you are, and I advance two arguments against that account: an argument from conjoined twins and an argument from the possibility of body swaps. In <a href="#sec-against-psychological-descendent" class="quarto-xref"><span>Section 4.5</span></a>, I show that psychological accounts of personal identity face problems of their own, involving abrupt changes to one’s mental life and cases in which one person’s psychology is replicated in two different bodies. In <a href="#sec-souls" class="quarto-xref"><span>Section 4.6</span></a>, I address the suggestion that your soul is what makes you the person that you are. Finally, in <a href="#sec-combined-answers" class="quarto-xref"><span>Section 4.7</span></a>, I consider and reject the idea that the bodily and psychological accounts can somehow be <em>combined</em> to yield a satisfactory answer to the question of personal identity.</p>
+</section>
+<section id="sec-clarifying-personal-identity" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="sec-clarifying-personal-identity"><span class="header-section-number">4.2</span> Clarifying the Question of Personal Identity</h2>
+<p>Let me begin by clarifying what it is that I am asking when I ask what makes you the person that you are. What I am looking for is a theory that will tell us who’s who at different times. Suppose we’re looking at a picture from a five-year-old’s birthday party. You point at one of the kids in the picture and tell me that it’s you. My question is: what makes that one you? There’s some resemblance, but on the whole you’re physically very different from that little kid. You’re also psychologically very different from the kid, who (judging from the picture) thinks crayons are the most incredibly interesting thing on the face of the earth. You probably have more in common with the adults in the picture than with that kid. So, what is it about that kid that makes her (or him) you?</p>
+<p>More precisely, an answer to the question I’m asking will provide a way to fill in the blank in the following sentence:</p>
+<div id="personal-identity-template" class="thesis">
+<p>A at time t is the same person as B at time t* if and only if ______</p>
+</div>
+<p>In other words, when we’re looking at or thinking about a person at one time, under what conditions should we say that this person and a person who exists at another time are one and the same person? In <a href="#sec-promising-and-unpromising-answers" class="quarto-xref"><span>Section 4.3</span></a>, we’ll consider a number of possible ways of filling in the blank, which will further clarify what it is I’m after. But before we get there, let me head off two potential confusions.</p>
+<p>First, the word ‘same’ is ambiguous, and if you don’t keep an eye on the ambiguity you are liable to get very confused. To see the ambiguity, let’s think about a couple examples. Suppose that Jade buys a Honda Civic, and then Tanner goes out and buys one too. Is it true that Jade and Tanner drive the same car? There are multiple ways of taking that question. I could be asking whether the car that Jade drives and the car that Tanner drives are the same color and make and model, in which case the answer is yes. Alternatively, I could be asking whether there’s a single car that Jade and Tanner share and take turns driving, in which case the answer is no. Another example: Suppose you saw some shirt at the GAP, and you liked it so much that you bought two of them. You wore one yesterday, and the other today. I see you today and say: ‘isn’t that the same shirt you were wearing yesterday?’ In one sense, yes: they’re exactly the same design. In another sense, no: you have changed your shirt since I last saw you.</p>
+<p>To put a label on it, I’ll say that two things, A and B, are <em>qualitatively</em> the same when A and B are very similar to one another. I call this sort of sameness ‘qualitative’ because the idea is that A and B have a lot of the same qualities (color, shape, design, etc.). A and B are <em>numerically</em> the same when A <em>is</em> B. I call this sort of sameness ‘numerical’ because it’s saying that A is the same as B in the way that numbers are sometimes said to be the same number. ‘2<sup>2</sup> = 4’ isn’t just saying that the number 2<sup>2</sup> and the number 4 are incredibly similar; it’s saying that ‘2<sup>2</sup>’ and ‘4’ are two names for one and the same number. The cars Jade and Tanner drive are qualitatively the same, but not numerically the same. The shirts you bought are qualitatively the same, but not numerically the same.</p>
+<p>The same ambiguity arises when talking about whether one person is the same as another. When we’re looking at identical twins and say “you two are exactly the same,” what we mean is that they’re qualitatively the same, not that they’re one and the same person. But when we say that Marilyn Monroe is the same person as Norma Jean Baker, or that Muhammad Ali is the same person as Cassius Clay, we <em>are</em> saying that they are one and the same person; they’re numerically the same.</p>
+<p>The question I am asking in this chapter is a question about numerical sameness, not qualitative sameness. So, whenever I say “A is the same person as B,” that means that A and B are numerically the same. When I do want to talk about qualitative sameness, I’ll describe things as “very similar” or “exactly alike” or “indistinguishable.”</p>
+<p>Here’s how failing to track the distinction between numerical and qualitative sameness is going to get you in trouble. You might think: “Wait a minute! I’m not the same as that kid in the photo. We’re different in all sorts of ways. In fact, I’m changing every second, so I’m not even the same from one <em>moment</em> to the next. I’m not even the same person as the person who started this sentence!” The problem with this line of reasoning is that it runs together qualitative and numerical sameness. Yes, the way you are now isn’t the way the kid in the picture was, and isn’t even exactly the way you were a moment ago. You are not (qualitatively) exactly the same as you were before. But it’s <em>you</em> that was one way then and is a different way now. There’s numerical sameness despite the lack of perfect qualitative sameness from one time to the next.</p>
+<p>The second thing I want to clarify is that I’m looking for an answer that’s more than just a mere <em>rule of thumb</em> for telling who’s who. If that were all that I wanted, then answering the question of personal identity would be easy: A at t is the same person as B at t* when A’s fingerprints and B’s fingerprints are exactly alike. But since I want something absolutely exceptionless, this Fingerprints Account won’t do. To see why that is, consider the following case:</p>
+<div id="exa-leave-no-trace" class="example quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-exa figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-leave-no-trace-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+X4.1: <strong>LEAVE NO TRACE</strong>
+</figcaption>
+<div aria-describedby="exa-leave-no-trace-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>After robbing the mansion, Bekah realizes that she may have left some fingerprints behind. To help ensure that the police can’t prove that she was the burglar, she soaks her fingers in acid, completely searing off her fingerprints. The police track her down and, just as she hoped, they are unable to prove that she committed the burglary.</p>
+</blockquote>
+</div>
+</figure>
+</div>
+<p>It’s the same person, Bekah, both before and after the fingerprints are seared off. But the Fingerprints Account gets it wrong: it says that the fingerprintless person with the seared fingertips is not the same person as the person who burglarized the mansion.</p>
+<p>Moreover, because I’m after an account of what <em>makes</em> people at different times the same person, it’s not enough for an account of personal identity just to get the right result in all <em>actually existing</em> cases. Here’s an analogy to help see why that is. Suppose I wanted to know what makes someone a bachelor, and you say: Person A is a bachelor if and only if A is an unmarried man who is under eighty feet tall. That would not be an accurate account of what a bachelor is. And yet it’s true that every actually existing unmarried man under eighty feet tall is a bachelor, and every actually existing bachelor is an unmarried man under eighty feet tall. So, what’s wrong with your account? The problem is that being under eighty feet tall clearly isn’t <em>required</em> for being a bachelor; height has nothing to do with what makes someone a bachelor. The in-principle, hypothetical possibility of a ninety-foot-tall bachelor is enough to show that this is not a satisfactory account of bachelorhood.</p>
+<p>Likewise, even if no one has <em>actually</em> ever successfully burned off their fingerprints, the mere possibility of a case like LEAVE NO TRACE is enough to show that the Fingerprints Account is no good. That’s because what we’re looking for is an account of personal identity which has no exceptions even in principle. The same is true for other accounts which we will consider below: even merely hypothetical examples can serve as counterexamples to those accounts. (For more on how merely hypothetical cases can still be relevant when assessing philosophical claims, <a href="introduction.html#sec-thought-experiments" class="quarto-xref"><span>Section 1.7</span></a>.)</p>
+</section>
+<section id="sec-promising-and-unpromising-answers" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="sec-promising-and-unpromising-answers"><span class="header-section-number">4.3</span> Some Promising and Unpromising Answers</h2>
+<section id="sec-physical-answers" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="sec-physical-answers"><span class="header-section-number">4.3.1</span> Physical Answers</h3>
+<p>We have already seen one possible answer to the question of personal identity, the Fingerprints Account:</p>
+<dl>
+<dt>The Fingerprints Account</dt>
+<dd>
+A at time t is the same person as B at time t* if and only if A and B have indistinguishable fingerprints
+</dd>
+</dl>
+<p>And we have already seen one good reason to reject the Fingerprints Account: someone with fingerprints can be the same person as someone (at a later time) with no fingerprints at all. That shows that having indistinguishable fingerprints isn’t necessary for being the same person, which makes this a counterexample to the Fingerprints Account.</p>
+<p>Another reason for rejecting the Fingerprints Account is that, at least in principle, two different people could have indistinguishable fingerprints by sheer coincidence or, more gruesomely, because one person grafts another person’s fingerprints onto their own fingertips for some nefarious purpose. That shows that having indistinguishable fingerprints isn’t even sufficient for being the same person.</p>
+<p>What if we focused on DNA instead of fingerprints?</p>
+<dl>
+<dt>The DNA Account</dt>
+<dd>
+A at t is the same person as B at t* if and only if A and B have indistinguishable DNA
+</dd>
+</dl>
+<p>The DNA Account does get around some of the problems that arise for the Fingerprints Account. Bekah’s DNA doesn’t change at all before and after searing off her fingerprints, so the DNA Account delivers the correct verdict that pre-searing Bekah is the same person as post-searing Bekah.</p>
+<p>But the DNA Account has problems of its own. Identical twins have indistinguishable DNA, but this doesn’t make them the same person. (Any identical twins reading this are now nodding along vigorously. In unison.) So, having indistinguishable DNA isn’t sufficient for being the same person. Nor is it necessary. There could, at least in principle, be a medication or performance-enhancing drug you can take that would make some small change to the DNA in every cell of your body. But it would still be <em>you</em> after you took the medication, even though your DNA would be somewhat different.</p>
+<p>Still, these answers may be on the right track by focusing on some physical aspect of you. Perhaps, instead of focusing on some small part of your body, like your fingerprints or DNA, we would do better to focus on the body as a whole:</p>
+<dl>
+<dt>The Same Body Account</dt>
+<dd>
+A at t is the same person as B at t* if and only if A has the same body as B
+</dd>
+</dl>
+<p>‘Body’ is sometimes used to mean just the torso, not including the head and limbs. That’s not how I’m using it. When I say ‘body’, I mean the <em>whole</em> body, including the head and all the other body parts. And when I say that A and B have the same body, I mean that they have <em>numerically</em> the same body. Bodies obviously can change over time—indeed, your body was composed of almost entirely different cells seven years ago—but that’s not to deny that the body you have now is numerically the same as the body you had seven years ago. It’s not as if you used to have some other arms and legs and now you have entirely new ones!</p>
+<p>The Same Body Account is going to avoid all the other problems we mentioned, since you have the same body even if your fingerprints or DNA change, and separate people with indistinguishable DNA or fingerprints don’t have numerically the same body. It’s true that your body won’t be exactly the same <em>qualitatively</em> after your DNA changes, but what’s required by the Same Body Account is numerical sameness, not qualitative sameness. The body <em>is</em> numerically the same after the DNA changes.</p>
+</section>
+<section id="sec-psychological-answers" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="sec-psychological-answers"><span class="header-section-number">4.3.2</span> Psychological Answers</h3>
+<p>We’ll see in the next section that the Same Body Account has problems of its own. But before getting there, we should also consider a different sort of account, one framed in terms of people’s psychological features as opposed to their physical features. By ‘psychological features’, I mean to include any features of a person’s mental life: their memories, their personality, their likes and dislikes, their beliefs, their emotions, and even their current perceptual experiences (how things look, sound, smell, and feel to them).</p>
+<p>So how should we formulate an answer to the question of personal identity in terms of psychological features? As a first stab, we might consider the following account:</p>
+<dl>
+<dt>The Psychological Matching Account</dt>
+<dd>
+A at t is the same person as B at t* if and only if A’s psychological features are exactly the same as B’s psychological features
+</dd>
+</dl>
+<p>But this Psychological Matching Account is obviously far too demanding. Every second that passes, you are forming new memories. For instance, you now have a memory of reading the previous sentence, but you had no memory of it a minute ago (since you hadn’t yet read it a minute ago). You also have slightly different visual experiences now than you had a minute ago, since you’re now looking at different words on the page. Accordingly, the Psychological Matching Account is going to say that the person sitting in your chair a minute ago and the person sitting in your chair now are two different people. But that’s absurd! It was <em>you</em> that was sitting in the chair a minute ago.</p>
+<p>To get around this problem, we might try to loosen things up, so that the account doesn’t require people at different times to have <em>all</em> the same psychological features, but only that they have <em>mostly</em> the same psychological features.</p>
+<dl>
+<dt>The Psychological Overlap Account</dt>
+<dd>
+A at t is the same person as B at t* if and only if A’s psychological features are mostly the same as B’s psychological features
+</dd>
+</dl>
+<p>The Psychological Overlap Account avoids the previous problem. You may not have <em>all</em> the same psychological features you had a moment ago, but you do have mostly the same psychological features (beliefs, memories, personality, etc.).</p>
+<p>But the Psychological Overlap Account gets the wrong results when we reach back further into the past. You and that kid in the photo are the same person. That’s you in the photo. But your current psychological features and the kid’s psychological features when the photo was taken <em>aren’t</em> mostly the same. The kid’s personality and likes and dislikes are completely different from yours. You have very few of the same memories, since you’ve forgotten much of what the kid remembers at that time, and the kid at that time hasn’t yet formed most of the memories you now have. So, the Psychological Overlap Account is going to yield the wrong verdict: it says that the kid in that photo isn’t you.</p>
+<p>What we need is something even <em>more</em> flexible, something that can accommodate the fact that, over a long period of time, a person can gradually undergo a massive change in their psychological features. But we don’t need to abandon the notion of psychological overlap entirely. Rather, we can use it to define the new, more flexible notion that we need.</p>
+<p>To see the way forward, notice that, even though there isn’t much overlap between your current psychological features and your psychological features at the time the photo was taken, there is a great deal of psychological overlap between you now and you a year ago. And there’s a great deal of overlap between you a year ago and you <em>two</em> years ago. And between you two years ago and you three years ago. And so on, going all the way back, year-by-year, to you at age six and the five-year-old in the photo. We can picture this as a long chain—running from you now to that five-year-old—where each link represents a “snapshot” of your psychological features at some time, and each link in the chain has mostly the same psychological features as the links immediately before and after it. And the chain needn’t be year-by-year; it can be day-by-day or even moment-by-moment.</p>
+<p>When there is such a moment-by-moment chain of overlap linking a person at one time to a person at a later time, I’ll say that the person at the earlier time is a <em>psychological ancestor</em> of the person at the later time, and that the person at the later time is a <em>psychological descendant</em> of the ancestor. This gives us:</p>
+<dl>
+<dt>The Psychological Descendant Account</dt>
+<dd>
+A at t is the same person as B at t* if and only if A is either a psychological ancestor or a psychological descendant of B
+</dd>
+</dl>
+<p>This gives us the right results in all of the cases we have been considering. You are a psychological descendant of the kid in the photo, despite sharing very few psychological features with that kid; Bekah pre-searing is a psychological ancestor of Bekah post-searing; and so on.</p>
+<p>We now have two different, initially promising answers to the question of personal identity: the Same Body Account and the Psychological Descendant Account. It may seem like an embarrassment of riches. They both look great, so how are we supposed to choose between them? As we are about to see, however, both answers are deeply flawed, and we should not accept either of them.</p>
+</section>
+</section>
+<section id="sec-against-same-body" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="sec-against-same-body"><span class="header-section-number">4.4</span> Against the Same Body Account</h2>
+<p>According to the Same Body Account, having the same body is sufficient for being the same person. In other words, it is impossible for two different people to have the same body. The account also entails that having the same body is necessary for being the same person. In other words, it is impossible for the same person to have different bodies at different times. In what follows, I develop two arguments against the Same Body Account: an argument from the actual case of conjoined twins, which shows that having the same body isn’t sufficient for personal identity, and an argument from the hypothetical case of swapping bodies, which shows that it isn’t necessary either.</p>
+<p>Some may be tempted by a different kind of argument against the Same Body Account, an argument from dissociative identity disorder, a.k.a. “multiple personality disorder.” Isn’t this a case of more than one person having numerically the same body? Perhaps. But it’s not entirely clear to me that that’s right way to understand the disorder. Another way of thinking about such cases is that there is a single person with a highly disunified mind, a single person who feels and behaves dramatically differently at different times. In any event, I would want to know a lot more about what it is like “from the inside” for those suffering from this disorder before I am prepared to say that such cases literally involve multiple people inhabiting a single body. For that reason, I will set such cases aside and focus on cases that much more clearly pose a problem for the Same Body Account.</p>
+<section id="sec-conjoined-twins" class="level3" data-number="4.4.1">
+<h3 data-number="4.4.1" class="anchored" data-anchor-id="sec-conjoined-twins"><span class="header-section-number">4.4.1</span> Conjoined Twins</h3>
+<p>The first objection I’ll raise against the Same Body Account involves conjoined twins. Abby and Brittany Hensel are dicephalic parapagus twins, which means there are two heads on a single torso. They are alive and well and are currently about 30 years old. It’s easy to see why conjoined twins pose a problem for the Same Body Account. We would naturally describe Abby and Brittany as two people sharing a single body. But the Same Body Account rules that out, since it says that sharing a body is sufficient for being the same person.</p>
+<p>We can make the argument more explicit as follows:</p>
+<div id="arg-CT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-arg figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+A4.1: <strong>The Conjoined Twins Argument</strong>
+</figcaption>
+<div aria-describedby="arg-CT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<ul>
+<li>(CT1) If the Same Body Account is true, then <em>either</em> Abby and Brittany have different bodies or Abby and Brittany are the same person</li>
+<li>(CT2) Abby and Brittany have the same body</li>
+<li>(CT3) Abby and Brittany are not the same person</li>
+<li>(CT4) So, the Same Body Account is false</li>
+</ul>
+</div>
+</figure>
+</div>
+<p>CT1 is merely reporting an implication of the Same Body Account. If <em>same body</em> entails <em>same person</em>, then that either means that Abby and Brittany are two different people in two different bodies or the same person in the same body. Those are the only two ways it can be according to the Same Body Account. CT2 seems true: what we have here is a single, two-headed human organism. (Indeed, there’s a documentary on Abby and Brittany titled, “The Twins Who Share a Body.”) And CT3 seems right as well: Abby and Brittany are different people. Among other things, they have different preferences in food and they excelled in different subjects in school. I bet you didn’t even flinch when I said ‘they’ as opposed to ‘she’.</p>
+<p>I can imagine someone denying CT2 and insisting that, actually, there are <em>two</em> bodies there, split down the middle. First, there’s Abby’s body, consisting of the right arm, right leg, right lung, the right head (the one that says “my name is Abby”) and so on. Second, there’s Brittany’s body, consisting of the left arm, left leg, left lung, left head, and so on.</p>
+<p>I find that completely implausible. For one thing, it would entail that Brittany has no liver (since the liver is on the right side). But surely the correct thing to say is that they <em>share</em> a liver, which requires that the body parts on right side are also parts of Brittany’s body. Additionally, upon encountering a two-headed snake or a two-headed turtle, you would never say that there were two bodies there. There’s just a single animal with two heads; it’s a single, two-headed body. Since that’s what we’d say about nonhuman animals, we should say the same about human animals. To be clear, I am not saying there is only one <em>person</em> there; indeed, I say just the opposite in premise CT3. Rather, the claim is that there’s a single, twoheaded body, which is both Abby’s body and Brittany’s body.</p>
+<p>What about denying CT3 and saying that Abby and Brittany are the same person? That’s certainly a strange thing to say. But maybe what I said above about multiple personalities can be applied to the case of conjoined twins as well: there is just one person there, but her mind is disunified and as a result she behaves in peculiar ways, for instance saying (out of one of her mouths) “I’m good at math” and then saying (out of her other mouth) “I’m terrible at math.”</p>
+<p>But this seems entirely implausible when applied to Abby and Brittany. To see this, consider the following case:</p>
+<div id="exa-conjoined-drama" class="example quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-exa figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-conjoined-drama-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+X4.2: <strong>CONJOINED DRAMA</strong>
+</figcaption>
+<div aria-describedby="exa-conjoined-drama-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Abby is dating Arie. Brittany is secretly in love with Arie and has always been jealous of their relationship. One night, while Abby is sleeping, Brittany confesses her feelings to Arie, and Arie kisses her. Later, when Abby finds out, she strangles Brittany.</p>
+</blockquote>
+</div>
+</figure>
+</div>
+<p>Here’s how we’d naturally describe what happened: Arie cheated on Abby and then Abby killed Brittany. Yet someone who denies CT3, and therefore says that Abby and Brittany are the same person, would have to say that this description is completely inaccurate. Arie didn’t cheat on anyone, since the person he was kissing that night was his own girlfriend Abby (a.k.a. Brittany). Furthermore, the CT3-denier would have to say that Abby didn’t kill anyone, because no one was killed: she strangled herself and she survived (albeit with one fewer functioning head). But surely that’s not the right way to describe what happened.</p>
+</section>
+<section id="sec-body-swaps" class="level3" data-number="4.4.2">
+<h3 data-number="4.4.2" class="anchored" data-anchor-id="sec-body-swaps"><span class="header-section-number">4.4.2</span> Body Swaps</h3>
+<p>Here’s a second argument against the Same Body Account. This one involves an imaginary case, one which may seem familiar if you’ve read John Locke’s chapter on Identity and Diversity in his <em>Essay Concerning Human Understanding</em>. Or if you’ve seen <em>Freaky Friday</em> on the Disney Channel. The case is far-flung, but the fact that nothing like it has ever actually happened and perhaps never will (though I wouldn’t be so sure) is neither here nor there. For, as I explained in <a href="#sec-clarifying-personal-identity" class="quarto-xref"><span>Section 4.2</span></a>, an account of personal identity cannot admit of any exceptions, even in principle.</p>
+<p>Now for the case:</p>
+<div id="exa-body-swap" class="example quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-exa figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-body-swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+X4.3: <strong>BODY SWAP</strong>
+</figcaption>
+<div aria-describedby="exa-body-swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Rachel is a neurotechnologist. Using an fMRI, a supercomputer, and advanced laser technology, she has devised a way to get a complete neuron-for-neuron scan of one person’s brain, and then rewire a second person’s brain to be an exact duplicate of it. She recruits a pair of volunteers to have their wiring “swapped” for a day: a man named Raúl and a woman named June. Rachel’s team performs the procedure on Tuesday night, and the volunteers are awakened on Wednesday. Both stare down at their bodies in disbelief. The person with the male body says ‘my name is June’ and can recount all of June’s memories but knows nothing at all about Raúl’s past. The person with the female body says ‘my name is Raúl’ and can tell you all about Raúl’s past but nothing about June’s.</p>
+</blockquote>
+</div>
+</figure>
+</div>
+<p>I think we can all agree on how we ought to describe what is happening on Wednesday. June is now walking around with a male body, and Raúl is walking around with a female body. The alternative would be to say that June is still the person with the female body but that she is completely delusional: she mistakenly thinks her name is ‘Raúl’, and recalls doing all sorts of things that she has never actually done (but all of which Raúl has done). But that’s not what happened. No one is delusional. Rather, two sane people have switched bodies.</p>
+<p>If that’s right, then the Same Body Account is incorrect. Before stating the argument against the Same Body Account, it will be helpful to introduce some terminology to help us talk and think clearly about the case. I’ll use “MaleT” to refer to the person with the male body on Tuesday; “FemaleT” for the person with the female body on Tuesday; “MaleW” for the person with the male body on Wednesday, and “FemaleW” for the person with the female body on Wednesday. Here, then, is the argument:</p>
+<div id="arg-BS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-arg figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+A4.2: <strong>The Body Swap Argument</strong>
+</figcaption>
+<div aria-describedby="arg-BS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<ul>
+<li>(BS1) MaleT and MaleW have the same body</li>
+<li>(BS2) If MaleT and MaleW have the same body, then: if the Same Body Account is true, then MaleT and MaleW are the same person</li>
+<li>(BS3) MaleT and MaleW are not the same person</li>
+<li>(BS4) So, the Same Body Account is false</li>
+</ul>
+</div>
+</figure>
+</div>
+<p>BS1 is true: it’s the same male body that enters the lab on Tuesday and leaves the lab on Wednesday. No doubt, rewiring its brain to resemble a woman’s brain is going to affect the chemistry of that body in all sorts of ways. But that doesn’t make it a numerically different body, any more than medically modifying all your DNA gives you a numerically different body (see <a href="#sec-physical-answers" class="quarto-xref"><span>Section 4.3.1</span></a>). BS2 is just reporting an implication of the Same Body Account: that account entails that having the same body suffices for being the same person. And BS3 is reporting what we all find perfectly obvious when we think about this case or when we watch a movie like <em>Freaky Friday</em>.</p>
+<p>The Same Body Account yields the wrong verdict about who’s who in BODY SWAP. It wrongly entails that MaleT is the same person as MaleW. It also wrongly entails that MaleT (i.e., the one who was calling himself ‘Raúl’ on Tuesday) and FemaleW (i.e., the one insisting “I’m Raúl!” on Wednesday) are different people. So, the Same Body Account must be rejected.</p>
+<p>The Psychological Descendant Account, by contrast, gets the right answers in this case. FemaleW is a psychological descendant of MaleT: there is massive overlap between the psychological features of the person who woke up with a female body on Wednesday and the person who walked in with a male body on Tuesday. Additionally, MaleW is <em>not</em> a psychological descendant of MaleT: MaleT has virtually nothing in common psychologically with MaleW, nor is there any gradually changing chain of overlap (of the sort described in <a href="#sec-psychological-answers" class="quarto-xref"><span>Section 4.3.2</span></a>) linking MaleT to MaleW. So, the Psychological Descendant Account again gives us the right result, that MaleT is not MaleW.</p>
+<p>Getting one wrong result is enough to show that the Same Body Account is false. But getting a couple correct results is not enough to show that the Psychological Descendant Account is true. So, let us turn now to see whether the Psychological Descendant Account has some problematic consequences of its own. (Spoiler: it does.)</p>
+</section>
+</section>
+<section id="sec-against-psychological-descendent" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="sec-against-psychological-descendent"><span class="header-section-number">4.5</span> Against the Psychological Descendant Account</h2>
+<section id="sec-arguments-from-discontinuity" class="level3" data-number="4.5.1">
+<h3 data-number="4.5.1" class="anchored" data-anchor-id="sec-arguments-from-discontinuity"><span class="header-section-number">4.5.1</span> Arguments from Discontinuity</h3>
+<p>According to the Psychological Descendant Account, A is the same person as B only if one is a psychological descendant of the other. One way to put pressure on this account is to look at cases involving dramatic psychological discontinuities, breaks in the moment-by-moment chain of overlapping psychological features. I’ll look at two such cases: one that I <em>don’t</em> think is conclusive against the Psychological Descendant Account, and then a second case that does seem to be conclusive.</p>
+<p>Our first case involves dramatic memory loss:</p>
+<div id="exa-total-amnesia" class="example quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-exa figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-total-amnesia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+X4.4: <strong>TOTAL AMNESIA</strong>
+</figcaption>
+<div aria-describedby="exa-total-amnesia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Jiwoo is stranded on a deserted island. Adding injury to insult, a coconut fell on Jiwoo’s head at noon today, instantly resulting in total amnesia. She can’t remember how she got on the island or anything else about her past. She can’t even remember her own name.</p>
+</blockquote>
+</div>
+</figure>
+</div>
+<p>To see why this case is supposed to pose a problem for the Psychological Descendant Account, notice that the non-amnesiac immediately before the coconut strike has very different psychological features from the amnesiac immediately after the coconut strike. This would seem to imply that the amnesiac is not a psychological descendant of the non-amnesiac, in which case the Psychological Descendant Account implies that the amnesiac isn’t the same person as the non-amnesiac. But the amnesiac clearly <em>is</em> the same person as the non-amnesiac. After all, the coconut doesn’t <em>kill</em> Jiwoo. But if she’s still around after noon, that means someone on the island after noon must be the same person as her. And the only person on the island after noon is the amnesiac. Jiwoo <em>is</em> the amnesiac.</p>
+<p>I’ve just argued that TOTAL AMNESIA is a counterexample to the Psychological Descendant Account. But I can imagine a plausible reply from a defender of the Psychological Descendant Account. Such a defender might say that the amnesiac <em>is</em> a psychological descendant of the nonamnesiac. To be a descendant, the idea goes, it’s enough for their psychological features to be “mostly the same” before and after the coconut strike. But, differences in memory notwithstanding, there is still a great deal of overlap. The amnesiac and the non-amnesiac both love crossword puzzles, both are afraid of sharks, both have slightly blurry vision (since both are near-sighted), both have an easygoing temperament, and so on. All this similarity in their other psychological features, the idea goes, is enough for their psychological features to count as “mostly the same.”</p>
+<p>Rather than trying to challenge the claim that there is sufficient overlap in TOTAL AMNESIA to count as a case of descendance, I’ll instead shift to a new case, one in which there is <em>no</em> overlap in the mental states, thus rendering this response unavailable. Here is the new case:</p>
+<div id="exa-total-blackout" class="example quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-exa figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa quarto-uncaptioned" id="exa-total-blackout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+X4.5
+</figcaption>
+<div aria-describedby="exa-total-blackout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Minjun is stranded on a deserted island. Adding injury to insult, a coconut fell on Minjun’s head at noon today, temporarily knocking him unconscious. While unconscious, he is not dreaming, nor does he have any thoughts or experiences or any physical sensations whatsoever. He is completely blacked out. When he finally awakens hours later, it will feel as if no time has passed.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>TOTAL BLACKOUT</strong></p>
+</blockquote>
+</div>
+</figure>
+</div>
+<p>Here is how to turn the case into an argument against the Psychological Descendant Account:</p>
+<div id="arg-BL" class="argument quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-arg figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+A4.3: <strong>The Blackout Argument</strong>
+</figcaption>
+<div aria-describedby="arg-BL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<ul>
+<li>(BL1) The unconscious man is not a psychological descendant of the conscious man</li>
+<li>(BL2) If the unconscious man is not a psychological descendant of the conscious man, then: if the Psychological Descendant Account is true, then the conscious man is not the same person as the unconscious man</li>
+<li>(BL3) The conscious man is the same person as the unconscious man</li>
+<li>(BL4) So, the Psychological Descendant Account is false</li>
+</ul>
+</div>
+</figure>
+</div>
+<p>The idea behind BL1 is that the conscious man has a wealth of sensations and emotions and thoughts and desires, whereas the unconscious man has no mental states at all. So, there is no overlap whatsoever in their psychological features. BL2 is reporting an implication of the Psychological Descendant Account: in order to be the same person, on this account, one must be a psychological descendant of the other. And BL3 seems obviously true. One would be right to point to the unconscious man lying on the island and say: that’s Minjun, the very person who was wandering the island earlier today.</p>
+</section>
+<section id="sec-argument-from-fission" class="level3" data-number="4.5.2">
+<h3 data-number="4.5.2" class="anchored" data-anchor-id="sec-argument-from-fission"><span class="header-section-number">4.5.2</span> The Argument from Fission</h3>
+<p>I turn now to a second argument against the Psychological Descendant Account, for which I will once again recruit the help of our neurotechnologist from <a href="#sec-body-swaps" class="quarto-xref"><span>Section 4.4.2</span></a>:</p>
+<div id="exa-double-trouble" class="example quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-exa figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-double-trouble-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+X4.6: <strong>DOUBLE TROUBLE</strong>
+</figcaption>
+<div aria-describedby="exa-double-trouble-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<blockquote class="blockquote">
+<p>Rachel’s rewiring program has been tremendously successful, and she is now performing dozens of body swaps a day. But she’s starting to get a little sloppy. Today, after rewiring Chad’s brain to duplicate JoJo’s, Rachel then accidentally rewires Alex’s brain to duplicate JoJo’s as well. As a result, both the person with Chad’s original body and the person with Alex’s original body wake up and say ‘my name is JoJo’. Both can tell you all about JoJo’s past; neither can tell you anything about Chad or Alex’s past. Rachel’s team also accidently obliterates JoJo’s original body.</p>
+</blockquote>
+</div>
+</figure>
+</div>
+<p>Figuratively speaking, JoJo’s mind has “fissioned” like an amoeba, into two separate bodies. But strictly speaking, how are we supposed to describe what’s happened? In particular, who’s who after the procedure, and which person (if any) is JoJo?</p>
+<p>I’m honestly not sure what to think about the case. But one thing I <em>am</em> sure of is that the Psychological Descendant Account provides us with an incoherent account of what’s happened, and therefore must be incorrect. The problem, in short, is that <em>both</em> of the people who wake up after the procedure are psychological descendants of JoJo. If the Psychological Descendant Account is right, then that means that both of them <em>are</em> JoJo. But that, I contend, is impossible.</p>
+<p>Before we state the argument more explicitly, it will again be helpful to introduce some abbreviations. Let’s use “ChadRW” to refer to the person with the rewired brain in Chad’s original body and “AlexRW” for the person with the rewired brain in Alex’s original body. Now we can state the argument against the Psychological Descendant Account as follows:</p>
+<div id="arg-FS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-arg figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+A4.4: <strong>The Fission Argument</strong>
+</figcaption>
+<div aria-describedby="arg-FS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<ul>
+<li>(FS1) If the Psychological Descendant Account is true, then JoJo is the same person as ChadRW <em>and</em> is the same person as AlexRW</li>
+<li>(FS2) If JoJo is the same person as ChadRW and the same person as AlexRW, then ChadRW is the same person as AlexRW</li>
+<li>(FS3) So, if the Psychological Descendant Account is true, then ChadRW is the same person as AlexRW</li>
+<li>(FS4) ChadRW is not the same person as AlexRW</li>
+<li>(FS5) So the Psychological Descendant Account is false</li>
+</ul>
+</div>
+</figure>
+</div>
+<p>Let’s take the premises one at a time.</p>
+<p>FS1 is indisputable. The psychological features of ChadRW and AlexRW when they first wake up are virtually indistinguishable from those of JoJo, that is, the woman calling herself ‘JoJo’ just prior to the rewiring. In the minutes and hours that follow, ChadRW and AlexRW will of course begin to diverge psychologically from one another. Indeed, they’ll likely begin diverging from one another the moment they wake up! But they will remain psychological <em>descendants</em> of JoJo, linked by an ever-growing, moment-bymoment chain, with each “link” in the chain exhibiting massive psychological overlap with the preceding link. And that’s all we need in order to get FS1. For, so long as each is a psychological descendant of JoJo, the Psychological Descendant Account will entail that each of them is the same person as her.</p>
+<p>FS2 follows from a highly plausible logical principle: the transitivity of identity. According to this principle, if A = B and B = C, then it follows that A = C. (Here, the ‘=’ symbol signifies numerical sameness.) That’s true no matter what you plug in for ‘A’, ‘B’, and ‘C’. Suppose you find out that Chadwick Boseman is the actor who played the Black Panther, and you also find out that the actor who played the Black Panther was also the star of <em>Ma Rainey’s Black Bottom</em>. You wouldn’t then wonder whether Chadwick Boseman is the same person as the star of <em>Ma Rainey’s Black Bottom</em>. That’s because you already have all the information you need in order to <em>deduce</em> that it’s the same guy: if Chadwick Boseman = the actor who played the Black Panther, and the actor who played the Black Panther = the star of <em>Ma Rainey’s Black Bottom</em>, then (by the transitivity of identity) Chadwick Boseman = the star of <em>Ma Rainey’s Black Bottom</em>. By that same indisputable logic, if ChadRW = JoJo and JoJo = AlexRW, then ChadRW = AlexRW. That’s what gives us FS2.</p>
+<p>Premise FS4 is motivated by a different logical principle, which I’ll call ‘The No Difference Principle’, or ‘NDP’ for short:</p>
+<div id="NDP" class="thesis">
+<dl>
+<dt>The No Difference Principle (NDP)</dt>
+<dd>
+If A is numerically the same as B, then at any given time, anything that’s true of A at that time is also true of B at that time
+</dd>
+</dl>
+</div>
+<p>To illustrate the principle, consider Cassius Clay and Muhammad Ali. Cassius Clay <em>is</em> Muhammad Ali, they’re numerically the same. Here’s something that was true of Ali: he was in a boxing ring on October 30, 1974 at 10pm. So, by NDP, the same must be true of Clay: he too was in a boxing ring at that time. And that’s just as it should be. ‘Cassius Clay’ and ‘Muhammad Ali’ are just two names for one and the same guy, so it can’t very well be that “one of them” is in the boxing ring and “the other one” isn’t. There’s just the one guy, and he either was or wasn’t in the boxing ring at that time.</p>
+<p>This principle, NDP, is also a useful tool for demonstrating that two people <em>aren’t</em> numerically the same. NDP tells us that if, at a given time, you can find even a single difference between A and B, then A and B cannot be numerically the same. If you’re wondering whether Emily and Haley are the same person, just notice that Emily is skydiving right now and Haley isn’t, and that settles it: they must be two different people. If they <em>were</em> numerically the same, then anything true of the one would have to be true of the other. But it’s true of Emily that she’s skydiving and that isn’t true of Haley. So, by NDP, they must be two different people.</p>
+<p>Exactly the same logic applies in the case at hand. If you’re wondering whether ChadRW and AlexRW are the same person, just notice that ChadRW is currently walking down the street and AlexRW isn’t currently walking down the street. (AlexRW is still in Rachel’s lab, staring at the ceiling.) That settles it: no one person can both be and not be walking down the street. So ChadRW and AlexRW must be two different people, just as FS4 says.</p>
+<p>I can imagine someone objecting to FS4 by saying that after the rewiring, JoJo is a single person with two bodies. If that were true, that would mean that she has four eyes, two of which are looking down at the sidewalk and two of which are looking up at the ceiling. If you ask her “are you walking down the street right now?” she might say yes or she might say no, depending on which of her two bodies you ask. But when Alex’s original body (which is in the lab) answers ‘no’, that’s a mistake according to the view in question. For on this view, AlexRW <em>is</em> walking down the street, since AlexRW—the person with Alex’s original body—is a person who has two bodies, one of whose bodies—the one that used to belong to Chad—is walking down the street. So, the idea goes, we don’t have a case of a single thing with conflicting properties after all, thus clearing the way to denying FS4 and insisting that ChadRW and AlexRW are the same person, namely JoJo.</p>
+<p>This is an incredibly weird way of thinking about the DOUBLE TROUBLE case. And it can’t be right, for the very same reasons that it can’t be right to say that conjoined twins Abby and Brittany are the same person (see <a href="#sec-conjoined-twins" class="quarto-xref"><span>Section 4.4.1</span></a>). Suppose that ChadRW goes on to marry a man named ‘Emir’. Emir later kisses AlexRW, and then kills ChadRW so he can be with AlexRW. If ChadRW and AlexRW were the same person, then Emir isn’t cheating on ChadRW, since Emir <em>was</em> kissing ChadRW (a.k.a. AlexRW); and Emir didn’t kill anyone, since ChadRW is AlexRW, and ChadRW is still alive (all Emir did, on this view, is destroy one of ChadRW’s two bodies). But surely that’s wrong. Emir did cheat on ChadRW, and the district attorney would be right to charge him with homicide—all of which presupposes that FS4 is right, and that ChadRW and AlexRW are two different people.</p>
+</section>
+</section>
+<section id="sec-souls" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="sec-souls"><span class="header-section-number">4.6</span> Souls</h2>
+<p>Some may feel that I have overlooked an obvious answer to the question of personal identity, namely that it’s your <em>soul</em> that makes you the person that you are. In other words, one might embrace the Same Soul Account of personal identity:</p>
+<dl>
+<dt>The Same Soul Account</dt>
+<dd>
+A at t is the same person as B at t* if and only if A has the same soul as B
+</dd>
+</dl>
+<p>The Same Soul Account could then be put to work in addressing the various challenging cases we have been discussing. Abby and Brittany, one might say, are different people because they have two different souls. The conscious and unconscious man on the island are the same person because they have the same soul. MaleT and MaleW in the BODY SWAP case are different people because Raúl’s soul left the male body and now inhabits the female body.</p>
+<p>But what exactly is “a soul”? I suspect that when people talk about their souls, this is just a roundabout way of talking about themselves. For instance, if you’re talking about souls in the first place, you probably think that your soul is something that will eventually come apart from your body and that will (if you have behaved yourself) go to heaven. Certainly, though, you don’t think it’s something <em>other than you</em> that goes to heaven. It’s you yourself who will go to heaven. In that case, saying “my soul will go to heaven” is just another way of saying “I will go to heaven,” and maybe calling yourself “a soul” is just a way of signaling that you take yourself to be a ghostly thing that merely inhabits—but isn’t the same thing as—your physical body.</p>
+<p>Let’s suppose that’s what you mean: you are your soul. But then the Same Soul Account doesn’t actually answer the question of personal identity. For suppose that “A’s soul” is just a fancy way of referring to A herself, and “B’s soul” is just a fancy way of referring to B herself. In that case, all that the Same Soul Account is saying is: A is the same person as B if and only if A is the same person as B. And while that’s true, it’s also completely trivial and uninformative. It’s like answering the question of what makes someone a bachelor by saying that A is bachelor if and only if A is a bachelor. That’s true, but it’s trivial, and it certainly doesn’t tell us anything about what <em>makes</em> someone a bachelor.</p>
+<p>Nor, in that case, does the Same Soul Account actually shed light on the cases we have been discussing. You say that Abby and Brittany are different people because they have different souls. But that’s just a fancy way of saying that Abby and Brittany are different people because they’re different people, which isn’t much of an explanation at all. The same goes for TOTAL BLACKOUT: saying that the conscious and unconscious man are the same person because they have the same soul is just a roundabout way of making the utterly uninformative claim that they are the same person because they’re the same person. The Same Soul Account is particularly unhelpful in DOUBLE TROUBLE. The Same Soul Account says that whether JoJo is ChadRW or AlexRW depends on which of those two people has JoJo’s soul. But that just means that whether JoJo is ChadRW or AlexRW depends on which of them is JoJo—which is exactly what we’re trying to figure out!</p>
+<p>Perhaps you <em>don’t</em> want to say that a person is the same thing as their soul. Suppose, instead, you want to say that the soul is merely one <em>part</em> of the person (their body being the other part). In that case, saying that Abby and Brittany are different people because they have different souls <em>would</em> be saying something nontrivial, namely that they are different people in virtue of failing to share a certain special immaterial part. Still, there are problems with the account, so understood.</p>
+<p>The first problem is that it’s still entirely unhelpful for settling questions of personal identity. Even if you think JoJo and her soul are two different things, what could possibly determine whether JoJo’s soul went into ChadRW’s body or AlexRW’s body? Both of them think and act just like JoJo, so there would seem to be nothing at all to settle the question of which one acquired her soul. Indeed, the account leaves us with no way to assure ourselves that <em>we</em> persist from one moment to the next. You can check whether you are a psychological descendant of the person who was reading this page a moment ago, or whether you have the same body as that person, but there’s no way to check whether you have the same immaterial part as that person—and therefore (if the Same Soul Account is right) no way to know that you are the same person who was reading this page a moment ago!</p>
+<p>The second problem involves the separability of the soul from the body. If these really are different parts of a person, there should be nothing in</p>
+<p>principle to stop the immaterial part of one person from coming apart from that person and combining with another body at a later time. Suppose it turns out that your immaterial part (your “soul”) is the same one that used to be part of Harriet Tubman. You don’t look like her. You didn’t inherit any of her memories and personality traits. All that’s happened is that an immaterial thing that used to be part of her is now a part of you. Certainly, we shouldn’t say in that case that you <em>are</em> Harriet Tubman. Finding out that your immaterial part used to be a part of her may be exciting, just as it would be exciting to find out that a surprisingly large number of carbon atoms in your body used to be part of her. But neither of these would show that you’re the same person as her.</p>
+<p>For these reasons, I don’t think that the Same Soul Account is any improvement on the physical and psychological accounts we have already considered and dismissed.</p>
+</section>
+<section id="sec-combined-answers" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="sec-combined-answers"><span class="header-section-number">4.7</span> Combining the Psychological and Bodily Accounts</h2>
+<p>I argued in sections <a href="#sec-against-same-body" class="quarto-xref"><span>4.4</span></a> and <a href="#sec-against-psychological-descendent" class="quarto-xref"><span>4.5</span></a> that neither the Same Body Account nor the Psychological Descendant Account can serve as an adequate theory of personal identity. One might suspect that we ran into all this trouble only because we were focusing too narrowly on just physical aspects or just psychological aspects. Perhaps the problems can all be avoided if we had considered hybrid theories of personal identity that involve a <em>combination</em> of physical and psychological factors.</p>
+<p>To quiet these concerns, I’ll conclude this chapter by considering two ways of incorporating physical and psychological considerations into a single account: a Body-And-Mind Account and a Body-Or-Mind Account.</p>
+<div class="thesis">
+<dl>
+<dt><strong>The Body-And-Mind Account</strong></dt>
+<dd>
+A at t is the same person as B at t* if and only if A has the same body as B <em>and</em> A is a psychological ancestor or descendant of B
+</dd>
+</dl>
+</div>
+<div class="thesis">
+<dl>
+<dt><strong>The Body-Or-Mind Account</strong></dt>
+<dd>
+A at t is the same person as B at t* if and only if A has the same body as B <em>or</em> A is a psychological ancestor or descendant of B
+</dd>
+</dl>
+</div>
+<p>Let’s begin with the Body-And-Mind Account. This account does have certain advantages over the earlier accounts. For instance, whereas the Same Body Account wrongly entails that conjoined twins Abby and Brittany are the same person, the Body-And-Mind Account rightly entails that they’re two different people, since Abby isn’t a psychological descendant of Brittany (or vice versa). And whereas the Psychological Descendant Account gets into trouble with DOUBLE TROUBLE on account of having to say that JoJo is numerically the same as two separate people, the Body-And-Mind Account is able to avoid the problem by denying that JoJo is numerically the same as <em>either</em> of those people (since neither has the same body as JoJo).</p>
+<p>But the Body-And-Mind Account does fall victim to some of the other objections we considered. For instance, it gets the wrong result in TOTAL BLACKOUT. The conscious man at the earlier time is neither a psychological ancestor nor a psychological descendant of the unconscious man at the later time. So trivially, it’s not true that the conscious man <em>both</em> has the same body and is an ancestor or descendant of the unconscious man. The Body-And-Mind Account therefore wrongly says that he isn’t the same person as the unconscious man. Or take BODY SWAP. The person with the male body before the rewiring is the same person as the person with the female body after the rewiring. But they don’t have the same body, and thus the Body-And-Mind Account wrongly implies that they aren’t the same person.</p>
+<p>How about the Body-<em>Or</em>-Mind Account? Here we get exactly the opposite results: the Body-Or-Mind Account escapes the problems that plagued the Body-And-Mind Account but is plagued by the problems that the Body-And-Mind Account does escape. The Body-Or-Mind Account correctly says that the conscious man is numerically the same as the unconscious man, since they do at least have the same body, and it correctly says that in BODY SWAP the person with male body on Tuesday is numerically the same as the person with the female body on Wednesday, since the one is at least a psychological descendant of the other. But now we get the wrong results in DOUBLE TROUBLE. The Body-Or-Mind Account says that being a psychological ancestor is enough for personal identity, which is all we need to get the problematic result that JoJo is the same person as two separate people. And it says that having the same body is enough for personal identity, which is all we need to get the problematic result that Abby and Brittany are the same person.</p>
+<p>In a way, it’s no surprise that neither of these hybrid accounts work. The Body-And-Mind Account says that both sameness of body and psychological descendance are necessary for personal identity, but we already knew (from BODY SWAP and TOTAL BLACKOUT) that <em>neither</em> is necessary. The Body-Or-Mind Account says that sameness of body and psychological descendance are each sufficient for personal identity, but we already knew (from CONJOINED TWINS and DOUBLE TROUBLE) that neither is sufficient. It’s no wonder that these hybrid accounts inherit the problems of the “pure” accounts they’re meant to replace.</p>
+</section>
+<section id="conclusion" class="level2" data-number="4.8">
+<h2 data-number="4.8" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">4.8</span> Conclusion</h2>
+<p>We have seen that neither physical factors, nor psychological factors, nor appeals to souls can yield a satisfactory answer to the question of personal identity. And that’s puzzling, since it is hard to see what <em>else</em> could be involved in making a person the person that they are.</p>
+<p>Not only is it puzzling; it’s also troubling. For there are pressing ethical and life-and-death issues that seem to turn on the question of what makes you you. Is it true that a person’s life begins at conception? In other words, was that fertilized egg cell in your mother’s womb <em>you</em>? If you are in a horrific accident, is that brain-dead person on life support in the hospital bed <em>you</em>? And let’s not kid ourselves: we will get to a point, possibly even in your own lifetime, where we have the technology to replicate a person’s mind in a computer simulation. Would that simulated person—with all of your memories, preferences, and personality traits—be you? Would uploading your consciousness into such a simulation be a way of surviving the death of your body, or would that be a numerically different person very much like you, but not actually you? It is hard to see how to answer any of these questions without an answer to the question of personal identity.</p>
+</section>
+<section id="reflection-questions" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
+<ol type="1">
+<li>Can you defend the Same Body Account against the Conjoined Twins argument (<a href="theses-and-arguments.html#arg-CT" class="quarto-xref">A<span>3.5</span></a>) from <a href="#sec-conjoined-twins" class="quarto-xref"><span>Section 4.4.1</span></a>?</li>
+<li>Would a Same <em>Brain</em> Account be any improvement on a Same Body Account? Why or why not?</li>
+<li>Can the Psychological Descendant Account be defended against the Blackout Argument (<a href="theses-and-arguments.html#arg-BL" class="quarto-xref">A<span>3.7</span></a>) from (<a href="#sec-against-psychological-descendent" class="quarto-xref"><span>Section 4.5</span></a>)? If so, how?</li>
+<li>In <a href="#sec-combined-answers" class="quarto-xref"><span>Section 4.7</span></a>, I considered two different hybrid accounts of personal identity and raised problems for both. Can you articulate a superior hybrid account that avoids some of these problems?</li>
+</ol>
+</section>
+<section id="sources" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sources">Sources</h2>
+<p>The debate over personal identity largely traces back to John Locke’s <em>Essay Concerning Human Understanding</em>, which advances a psychological account of personal identity and presents a version of the Body Swap Argument as well as an argument against the Same Soul Account. See Derek Parfit’s “Personal Identity” for a classic discussion of fission cases, and see Heather Demarest’s “Fission May Kill You” for an exploration of the “one person, two bodies” strategy. Here are some additional resources:</p>
+<ul>
+<li>“The Twins Who Share a Body” https://www.youtube.com/watch?v=K57IcN9DWXo</li>
+<li>Alexandria Boyle: Conjoined Twinning and Biological Individuation</li>
+<li>Elizabeth Camp: Personal Identity (The Narrative Self): http://www.wi-phi.com/video/personal-identity-narrative-self</li>
+<li>Tim Campbell and Jeff McMahan: Animalism and the Varieties of Conjoined Twinning</li>
+<li>Robert Casati and Achille Varzi: <em>Insurmountable Simplicities</em> (pp.17-23)</li>
+<li>Crash Course Philosophy: Personal Identity https://www.youtube.com/watch?v=trqDnLNRuSc</li>
+<li>Clarence Darrow: The Myth of Immortality</li>
+<li>Michael Della Rocca: Locke on Personal Identity http://www.wi-phi.com/video/locke-personal-identity-part-1 http://www.wi-phi.com/video/locke-personal-identity-part-2</li>
+<li>Daniel Dennett: Where Am I?</li>
+<li>Amy Kind: <em>Persons and Personal Identity</em></li>
+<li>Ifeanyi A. Menketi: Person and Community in African Traditional Thought</li>
+<li>John Perry: <em>A Dialogue on Personal Identity and Immortality</em></li>
+<li>Marya Schechtman: <em>Staying Alive: Personal Identity, Practical Concerns, and the Unity of the Life</em></li>
+<li>Mark Siderits: Personal Identity and Buddhist Philosophy</li>
+<li>Nina Strohminger: Personal Identity (The Essential Self) http://www.wi-phi.com/video/personal-identity-essential-moral-self</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./wager.html" class="pagination-link" aria-label="Why You Should Bet on God">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./death.html" class="pagination-link" aria-label="Don't Fear the Reaper">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

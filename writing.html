@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Appendix B — Writing – Learning from Arguments</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./theses-and-arguments.html" rel="next">
+<link href="./logic.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a72ecf755514651c90d48693e10d5022.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-34399099858deb6dd7478e903a26ae0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a72ecf755514651c90d48693e10d5022.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Learning from Arguments</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./logic.html">Appendices</a></li><li class="breadcrumb-item"><a href="./writing.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Preface</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the blono remix</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface-students.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface for Students</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface-instructors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface for Instructors</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evil.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wager.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./death.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./coercion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./abortion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./logic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Logic</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writing.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-target" id="toc-sec-target" class="nav-link active" data-scroll-target="#sec-target"><span class="header-section-number">2.1</span> Introducing Your Target</a></li>
+  <li><a href="#sec-advancing" id="toc-sec-advancing" class="nav-link" data-scroll-target="#sec-advancing"><span class="header-section-number">2.2</span> Advancing Your Argument</a></li>
+  <li><a href="#sec-anticipating" id="toc-sec-anticipating" class="nav-link" data-scroll-target="#sec-anticipating"><span class="header-section-number">2.3</span> Anticipating Possible Responses</a></li>
+  <li><a href="#sec-editing" id="toc-sec-editing" class="nav-link" data-scroll-target="#sec-editing"><span class="header-section-number">2.4</span> Editing</a></li>
+  <li><a href="#sec-grading" id="toc-sec-grading" class="nav-link" data-scroll-target="#sec-grading"><span class="header-section-number">2.5</span> Likely Criteria for Grading</a>
+  <ul class="collapse">
+  <li><a href="#sec-comprehension" id="toc-sec-comprehension" class="nav-link" data-scroll-target="#sec-comprehension"><span class="header-section-number">2.5.1</span> Comprehension</a></li>
+  <li><a href="#sec-critical-development" id="toc-sec-critical-development" class="nav-link" data-scroll-target="#sec-critical-development"><span class="header-section-number">2.5.2</span> Critical Development</a></li>
+  <li><a href="#sec-terminology" id="toc-sec-terminology" class="nav-link" data-scroll-target="#sec-terminology"><span class="header-section-number">2.5.3</span> Philosophical Terminology</a></li>
+  <li><a href="#sec-quality-of-writing" id="toc-sec-quality-of-writing" class="nav-link" data-scroll-target="#sec-quality-of-writing"><span class="header-section-number">2.5.4</span> Quality of Writing</a></li>
+  </ul></li>
+  <li><a href="#sec-citation-and-plagiarism" id="toc-sec-citation-and-plagiarism" class="nav-link" data-scroll-target="#sec-citation-and-plagiarism"><span class="header-section-number">2.6</span> Citation and Plagiarism</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./logic.html">Appendices</a></li><li class="breadcrumb-item"><a href="./writing.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-writing" class="quarto-section-identifier">Appendix B — Writing</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This appendix provides some advice for writing papers for philosophy courses. The advice primarily concerns assignments requiring you to critically assess some view or argument, though much of what I say applies equally to assignments only requiring you to explain some view, argument, or debate in your own words (without weighing in with your own view on the matter). Of course, you should follow all instructions you receive from your instructors and disregard anything I say here that conflicts with those instructions. Absent explicit conflicts, however, it’s likely that your instructor is looking for the sort of paper I describe here.</p>
+<p>If you follow the advice I offer below, the final result will be a paper with three numbered and labeled sections, with each section broken up into multiple paragraphs, just as I have done in the chapters of this book. The first section introduces the view or argument you’re criticizing, the second advances your objections to that view or argument, and the third addresses possible responses to your objections. (Some instructors may expect a short concluding paragraph at the end of the paper, summarizing what you’ve argued for. Others may find it unnecessary, especially for very short papers. Check with your instructor.)</p>
+<p>To be clear, there is nothing sacred about this three-section model. Depending on the content of your paper, it may be useful to organize it differently. For instance, if your plan is to advance two very different objections to some premise, then perhaps a better structure for you would be to introduce the argument you’re criticizing in section 1; advance your first objection and address possible responses to it in section 2; and advance your second objection and address possible responses to it in section 3. Or perhaps you plan to <em>defend</em> some argument against a particular objection. In that case, you might opt for a four-section model: introduce the argument in section 1, introduce the objection you’ll defend it against in section 2, respond to the objection in section 3, and defend your response against potential challenges in section 4. The main thing is just that your paper be clearly organized, and that you take the time not just to present your own perspective but also to demonstrate an appreciation of your opponent’s perspective.</p>
+<p>For purposes of illustration, I’ll imagine that your assignment asks you to criticize the Argument from Suffering from chapter 1.</p>
+<p>TODO: repeated argument</p>
+<div id="arg-AS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-arg figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+A2.1: <strong>The Argument from Suffering</strong>
+</figcaption>
+<div aria-describedby="arg-AS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<ul>
+<li>(AS1) There is suffering in the world</li>
+<li>(AS2) If there is suffering in the world, then God does not exist</li>
+<li>(AS3) So, God does not exist</li>
+</ul>
+</div>
+</figure>
+</div>
+<p>Your plan, let’s suppose, is to reject AS2 by arguing that God allows suffering in order to test our devotion.</p>
+<section id="sec-target" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sec-target"><span class="header-section-number">2.1</span> Introducing Your Target</h2>
+<p>The point of section 1 of your paper is to introduce your target—the view or argument you plan to criticize—and indicate what you plan to do in the paper. There are five main elements you’ll want to make sure to include in this section, though not necessarily in this order.</p>
+<p>First, you’ll identify the topic of the paper. In this case, that’s the Argument from Suffering. So, you’ll want to begin the paper by saying something like this: “My aim in this paper is to assess a certain argument against the existence of God.” Beginning your paper with a straightforward sentence like that is preferable to a flowery opening sentence like, “For centuries upon centuries, men have debated the existence of God.”</p>
+<p>Second, you’ll state the view or argument that you’re targeting. In the case at hand, you can simply copy and paste my formulation of the Argument from Suffering into your paper, of course citing the book and the page where you found it. (Ask your instructor for their preferred method of citation.)</p>
+<p>Third, you’ll go through the premises of that argument, one by one, clarifying what each premise is saying and why it is supposed to be plausible. This will likely be the lengthiest part of section 1, and it’s important to do the best job you can explaining, on your opponents’ behalf, how their argument is supposed to work. You’ll have your chance to criticize the argument in section 2. For now, your goal should be the make the argument look as <em>good</em> as possible. Ideally, you want your opponents to think “I couldn’t have said it better myself!” and the rest of your readers to think, “how is anyone ever going to find a flaw in that argument?!” Keep in mind that part of what you’ll be graded on is the extent to which you understand and appreciate your opponent’s perspective. Failing to present your target in its best light may suggest to your instructor that you don’t truly understand the argument or position you’re criticizing.</p>
+<p>Importantly, when you pause on the different premises, don’t simply <em>restate</em> them in your own words, but also identify your opponent’s <em>reasons</em> for accepting those premises. So, for instance, when you pause on AS2, don’t just say: “According to AS2, there wouldn’t be any suffering if God existed.” That’s just reiterating what AS2 is saying. You also need to spell</p>
+<p>out the reasoning behind AS2 by saying something like: “The idea behind AS2 is that God is supposed to be all-powerful, and thus would be able to eliminate suffering if he wanted to, and also perfectly benevolent, and thus <em>would</em> want to eliminate all suffering.”</p>
+<p>Fourth, state your thesis, that is, the conclusion that you are ultimately arguing for. For instance, you’ll want to say something like this: “My aim is to show that the Argument from Suffering fails because AS2 is false: even an all-good God would want to allow suffering so that we could have the opportunity to prove our devotion.” Here, you are only <em>stating</em> your thesis, not yet defending it (that’s what section 2 is for). Also, here and throughout the paper, it is perfectly appropriate to use first-person pronouns like ‘I’ and ‘my’.</p>
+<p>Fifth, you’ll give an outline of your paper. If you’re using the threesection model, you’ll say something like this: “In section 2, I will present my objection to AS2 of the Argument from Suffering. Then, in section 3, I will address two possible responses to my objection.”</p>
+</section>
+<section id="sec-advancing" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sec-advancing"><span class="header-section-number">2.2</span> Advancing Your Argument</h2>
+<p>Section 2 is where you offer your own criticism of your target. In other words, this is where you present your argument for the thesis of your paper. We’re imagining that your thesis is that God allows suffering in order to test our devotion. What you need to do now is offer some <em>reasons</em> for thinking that God would do this. For instance, you would need to explain why there would have to be suffering in order for our devotion to be tested, and why being able to test our devotion is sufficiently important that a good God would want to do it despite having to make us suffer.</p>
+<p>Here are some further tips for section 2.</p>
+<p>First, it’s crucial that you deny a <em>premise</em> of the argument you want to resist, and it should be 100% clear <em>which</em> premise your objection is meant to be targeting. If your aim is to criticize the Argument from Suffering, you shouldn’t be arguing directly against AS3, that God doesn’t exist (for instance by arguing that God must exist because <em>someone</em> must have created the universe). Rather, your goal is to show where the Argument from Suffering goes wrong, and you do that by challenging one of its premises. Have a look at the discussion of the Uncertain Fate argument and the Afterlife Argument in section 4 of the Introduction to this textbook for a refresher on the difference between denying a premise and denying the conclusion of an argument.</p>
+<p>Second, you need to do more than simply express your opinion that the premise in question is false. It’s not enough just to say (repeatedly, but in five different ways) that you don’t think that suffering is incompatible with God’s existence. Rather, you need to be presenting <em>reasons</em> for thinking this. You’re trying to persuade another person—your reader—to change their mind about something, not just recording your own personal views and opinions about the issue.</p>
+<p>Third, in a short philosophy essay, “less is more.” It’s generally better to raise a single, well-developed objection to a single premise, than to raise multiple objections to that premise, or to raise objections to multiple premises.</p>
+<p>Fourth, avoid nuclear options, that is, argumentative strategies that amount to very general critiques of philosophical or moral reasoning, and that have nothing in particular to do with the argument at hand. An example of a nuclear option would be challenging AS1—which says that there is suffering in the world—by arguing that it’s impossible for anyone to really <em>know</em> anything about the world since (after all) we may just be dreaming this whole thing. Or challenging the claim (in chapter 10) that it’s morally permissible to pull the lever in the trolley example by arguing that thought experiments are pointless, or that morality is just a myth and nothing is really right or wrong. There is a time and a place for such challenges, and philosophers do take them seriously. But, because these critiques are so general, advancing such a critique is unlikely to demonstrate comprehension of the material at hand—which is the main thing you need to do in a short paper assignment.</p>
+<p>When you present your arguments against your target, should you present them in the same labeled and indented premise/conclusion format that I’ve used throughout the book? It depends. If you have read appendix A on logic and feel confident in your ability to tell the difference between valid and invalid arguments, then yes: presenting your own arguments in this format can add a good deal of clarity to the paper and demonstrate an advanced understanding of the dynamics of argumentation. If, on the other hand, you don’t feel that you have a firm grip on how to ensure that your arguments are valid, then trying to frame your arguments as I have is likely to do more harm than good. In that case, it’s better just to state your reasons plainly, in paragraph form.</p>
+<p>What if you’re having trouble coming up with an objection to use in section 2? My advice would be to read and re-read and re-re-read the chapter that you plan to criticize. (The chapters aren’t <em>that</em> long.) If you have your choice of chapters to criticize, choose the one whose conclusion you are most inclined to disagree with. On the first reading, let it all wash over you. On the second reading, keep an eye out for claims that seem especially fishy. On the third reading, skim through the parts you agree with but slow down and very carefully read the parts that seemed fishy, trying to pinpoint the exact sentence where the reasoning go wrong. Having pinpointed</p>
+<p>where it goes wrong, try to articulate <em>why</em> you think it goes wrong, and use that as the basis for your section 2.</p>
+</section>
+<section id="sec-anticipating" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sec-anticipating"><span class="header-section-number">2.3</span> Anticipating Possible Responses</h2>
+<p>The point of section 3 of your paper is to address possible responses to the things you said in section 2. To understand what you’re supposed to be doing in this section, consider an analogy. A governor is giving a televised speech, trying to convince his constituents to support a proposition abolishing the death penalty. His argument is that it should be abolished because the death penalty isn’t actually effective in deterring people from committing violent crimes. He knows that some people will be skeptical of his argument, but he also knows he can’t talk to them all one on one. So, he tries to anticipate and address the most likely objections people will have. For instance, he says: “Look, a lot of people are going to say: what about Oklahoma? When they reinstated the death penalty, violent crime dropped by ten percent. But those statistics are misleading. It was actually the new gun laws they passed, not the reinstatement of the death penalty, that accounts for the drop in violent crime.”</p>
+<p>This is the sort of thing you’ll be doing in section 3. Put yourself in the shoes of your readers, and try to identify one or two ways that they are likely to push back against the argument you gave in section 2. For instance, if you claimed in section 2 that God allows suffering in order to test our devotion, you might imagine someone objecting that God is supposed to be all-knowing, in which case he should already know how devoted people are without having to test their devotion. And then you should respond to that objection, for instance by explaining why it’s important for God to test our devotion despite already knowing how devoted we are.</p>
+<p>Keep in mind that the point of section 3 is to <em>defend the objection</em> you originally put forward in section 2. Accordingly, you should avoid introducing a brand-new line of objection to the target argument from section 1. To see what I mean, imagine two different students, both of whom have argued (in section 2) that God allows suffering in order to test our devotion. Now compare the following two responses (in section 3) to the complaint that God would already know how devoted people are without having to test their devotion.</p>
+<p><em>Student A:</em> I would respond that even God can’t know how people will behave when their devotion is tested. Here’s why that doesn’t entail that God isn’t all-knowing…</p>
+<p><em>Student B:</em> I would respond that if God prevented all suffering, then we wouldn’t be able to appreciate the good things we have in life.</p>
+<p>Notice that Student A is coming to the defense of the very objection that she was advancing in section 2. Student B, by contrast, has completely abandoned the devotion defense and shifted to an entirely new objection to the Argument from Suffering (what, in chapter 1, I called “The Appreciated Goods Defense”). Be like Student A.</p>
+<p>A few additional tips about section 3 of your paper.</p>
+<p>First, make sure to carefully and charitably lay out the objections you’re anticipating before going on to address them. Ideally, you’ll want to devote a whole paragraph, not just a single sentence, to explaining the anticipated objection and how it’s supposed to be a problem for what you said in section 2. What I said about section 1 applies equally here: when your opponent sees your presentation of the anticipated objection, you want her to think “exactly, I couldn’t have said it better myself!”</p>
+<p>Second, make sure that the objections you anticipate actually advance the discussion. In particular, don’t imagine your opponent simply reiterating the argument from section 1 in defense of the targeted premise. In the case at hand, that would look something like this: “One might respond to my objection to AS2 by insisting that God is supposed to be allpowerful and all-good and such a being cannot allow any suffering.” But if one were to say that, one would just be ignoring your argument from section 2. Contrast this with the anticipated objection I suggested just above: that God wouldn’t need to test us to know whether we’re devoted. That isn’t merely a defense of AS2. Rather, it challenges your stated reasons for rejecting AS2, and that’s what makes it a good objection to address in section 3.</p>
+<p>Third, one way for your opponents to respond to your objections from section 2 is to try to show that those objections fail. But that’s not the only way. Another possibility is for them to concede that your objections work, but then try to revise their own argument in a way that makes it immune to your objections, perhaps by revising some of the premises. In section 3, you could consider some way that they might try to do that, and then respond by raising a new objection to their revised argument.</p>
+</section>
+<section id="sec-editing" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="sec-editing"><span class="header-section-number">2.4</span> Editing</h2>
+<p>Make sure to leave yourself plenty of time to revise your paper after completing the initial draft. First drafts tend to be pretty messy and full of small mistakes, and cleaning up the mess and catching all these small mistakes will go a long way towards improving the paper.</p>
+<p>Here is the procedure I would recommend for editing your paper. Go through the rough draft of your paper very slowly, at a snail’s pace, lingering on every sentence. Read each sentence out loud, and ask yourself the following four questions about it.</p>
+<ul>
+<li><ol type="1">
+<li>Is this exactly what I meant to say?</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>How might someone challenge this?</li>
+</ol></li>
+<li><ol start="3" type="1">
+<li>Can I make the sentence clearer?</li>
+</ol></li>
+<li><ol start="4" type="1">
+<li>Can I make the sentence shorter?</li>
+</ol></li>
+</ul>
+<p>Let me say a bit about each of these questions.</p>
+<p><em>Is this exactly what I meant to say?</em> Philosophers—including your instructor—care a great deal about getting the small details right, and you will be amazed by their laser-like focus on the exact wording of your sentences. You might write something like “Killing is always wrong,” and they’ll leave a comment like: “Even killing blades of grass?” Presumably what you meant was that killing <em>people</em> is always wrong. But it’s not their job to read your mind; it’s your job to say exactly what you mean. Getting the details right is especially important when you’re explaining the views and arguments you plan to criticize. One or two small errors in your description of those views and arguments will often be enough to convince your instructor that you don’t really understand them.</p>
+<p><em>How might someone challenge this?</em> This question is especially important in section 2, when you’re advancing your own argument or objection. Thinking hard about every possible way someone might try to deny something you’ve said is a great strategy for identifying good responses to address in section 3. But you should also be on the lookout for “cheap” ways that someone might challenge the sentence, which can be addressed by simply rewording it. For instance, you might close off the “what about blades of grass?” objection above by changing “killing is always wrong” to “killing people is always wrong.” But then of course you should be thinking about other challenges, for instance that killing in self-defense isn’t wrong.</p>
+<p><em>Can I make the sentence clearer?</em> This is where reading the sentence out loud will be especially helpful. If it sounds like something no one would ever say in a normal conversation—and more like something a pretentious old geezer would say with his nose in the air—then you need to find a simpler way of saying it. You might find that the sentence is <em>so</em> complicated that you have trouble even reading it off the page. If so, simplify the wording, simplify the grammar, and consider breaking it into two smaller sentences. You might find that the sentence includes “vocabulary words” that you would never use in ordinary conversation. Replace them with</p>
+<p>ordinary words that mean the same thing. Don’t let the point you’re trying to make get obscured by needlessly complicated ways of saying it.</p>
+<p><em>Can I make the sentence shorter?</em> A philosophy paper should be a lean, mean, arguing machine. If a word or phrase isn’t serving some clear purpose, cut it out. You might find that you’ve written “I will argue that God doesn’t exists and that anyone who believes in God is mistaken.” If so, you’ve said the same thing twice; you should delete the second half of the sentence. In some cases, the right way to make a sentence shorter is to delete <em>all</em> the words in it, getting rid of the sentence altogether. For instance, you might find that some sentence is just repeating the very same point you made earlier in the paragraph. In that case, choose the sentence you like best and delete the other one. Or you might find that the sentence is making a point that, although interesting, is actually just a digression that’s irrelevant to your argument. Delete it.</p>
+<p>Finally, when editing, make sure to give special attention to sentences starting with words like ‘So’ or ‘Therefore’ or ‘Thus’. When your laserfocused instructor sees any of these words, her head is going to whip back to the previous sentence to see whether the current sentence really does follow from the previous one, or if it’s just a separate point (in which case you shouldn’t have said ‘Therefore’). Likewise for ‘That is’ or ‘In other words’. Suppose you say: “We weren’t created by God. In other words, humans did not have an intelligent designer.” The ‘in other words’ suggests that the sentences are saying the same thing. But they don’t: saying that God didn’t create us still leaves open that we had an intelligent designer other than God (maybe aliens). Since the two sentences don’t say exactly the same thing, you shouldn’t have said ‘In other words’.</p>
+</section>
+<section id="sec-grading" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="sec-grading"><span class="header-section-number">2.5</span> Likely Criteria for Grading</h2>
+<p>Even if your instructor does not have an explicit rubric for the assignment, it’s likely that your grade will be largely determined by four criteria: comprehension, critical development, use (or misuse) of philosophical vocabulary, and quality of writing.</p>
+<section id="sec-comprehension" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="sec-comprehension"><span class="header-section-number">2.5.1</span> Comprehension</h3>
+<p>Your grade will likely be determined primarily by how well you demonstrate understanding of the philosophical concepts, views, and arguments you’re discussing in your paper. Because you’re being evaluated on whether you’ve <em>demonstrated</em> understanding of the material, you should try to explain things in such a way that any intelligent person would be able to understand your paper, particularly someone who is not in the class and has never encountered the argument or chapter you’re talking about.</p>
+<p>Among other things, this means you have to define any technical jargon you’re using. For instance, if the argument includes terms like ‘expected utility’ or ‘omnibeing’, you have to explain what these terms mean. Even though your instructor of course already knows what they mean, she wants to see whether <em>you</em> know what they mean well enough to explain them in your own words. There typically is no need to define perfectly ordinary terms like ‘suffering’ or ‘wrong’.</p>
+<p>To check whether you’ve pitched the paper at the right level, show a draft to your smartest friends, and see what they do and don’t understand.</p>
+<p>Demonstrating comprehension of the material also requires explaining things <em>in your own words</em>. For this reason, it’s important not to rely too heavily on quotations from the readings. As I mentioned earlier, it’s fine to directly copy and paste the indented arguments used in the textbook. But when (in your section 1) you’re trying to explain the idea behind some premise, don’t simply quote the textbook’s explanation of the premise and move on. My own advice would be to read and re-read the textbook’s explanation until you’re sure you understand it, and then set the textbook aside and explain in your own words what you’ve just read and understood. You may find it easier to find your <em>own</em> words when you don’t have the textbook’s words right in front of you.</p>
+</section>
+<section id="sec-critical-development" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="sec-critical-development"><span class="header-section-number">2.5.2</span> Critical Development</h3>
+<p>Assuming that your assignment is to critically assess some view or argument, and not simply to explain it in your own words, your instructor will want to see you developing an interesting objection or response. As I emphasized in connection with section 2, it’s important to do more than simply express your opinion. You need to give reasons for adopting the position you do. And as I emphasized in connection with section 3, it’s important to be thinking about, and explicitly addressing, concerns that an imagined opponent might have about the way you’ve defended your position.</p>
+<p>Additionally, remember that you’re being evaluated for comprehension even in the critical development portion of your paper. If you “straw man” your opponents by downplaying or ignoring sensible things they might say in response to your objections, your instructor may take that as evidence that you haven’t entirely understood their position. If you rush too quickly to developing your own position without first carefully laying out the view or argument that you’re criticizing, your instructor may feel that you haven’t demonstrated an understanding of the views under discussion. So, take the time to explain the views or arguments you’re targeting before trying to respond to them.</p>
+</section>
+<section id="sec-terminology" class="level3" data-number="2.5.3">
+<h3 data-number="2.5.3" class="anchored" data-anchor-id="sec-terminology"><span class="header-section-number">2.5.3</span> Philosophical Terminology</h3>
+<p>Your instructor will be paying careful attention to how you use philosophical terminology like ‘argument’, ‘conclusion’, ‘premise’, ‘counterexample’, ‘valid’, and so on. Here are three things to be especially careful about. First, as I explain in appendix A, ‘valid’ has a special meaning in philosophy. Arguments are the only things that should be called ‘valid’ in a philosophy paper, and an argument does not necessarily count as invalid just because it has false or implausible premises. Second, the conclusion and subconclusions of an argument are not premises. In the Argument from Suffering, only AS1 and AS2 are premises, not AS3. Third, the view that someone is defending isn’t itself an argument. If someone is advancing the Argument from Suffering, you shouldn’t say “her argument is that God doesn’t exist.” Rather, her <em>view</em> is that God doesn’t exist, she <em>argues</em> that God doesn’t exist, and her <em>argument</em> is the whole sequence of claims consisting of AS1, AS2, and AS3.</p>
+</section>
+<section id="sec-quality-of-writing" class="level3" data-number="2.5.4">
+<h3 data-number="2.5.4" class="anchored" data-anchor-id="sec-quality-of-writing"><span class="header-section-number">2.5.4</span> Quality of Writing</h3>
+<p>Your instructor likely won’t be too fussy about whether your use of commas or semicolons is exactly right. Still, she will be unlikely to give you a good grade if your writing is full of typos and blatantly ungrammatical sentences, or if your writing is unclear or poorly organized. After all, this is a humanities class, and an “A” in such a class indicates, among other things, that you are a competent writer.</p>
+</section>
+</section>
+<section id="sec-citation-and-plagiarism" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="sec-citation-and-plagiarism"><span class="header-section-number">2.6</span> Citation and Plagiarism</h2>
+<p>When discussing this book in class assignments, remember that I don’t myself endorse all of these arguments, so you shouldn’t say “According to Korman, …” Instead, you can say “According to The Author, …” and then cite the page numbers where I made the statement or argument you are discussing.</p>
+<p>You may wish to consult outside sources when writing your essays, for instance the sources listed at the end of each chapter or other things floating around online. But this is not something your instructor will typically expect you to do. Indeed, in my experience (especially in one’s first philosophy course), reading through journal articles and other materials you find online—and trying to reproduce the advanced ideas you find in there—often does more harm than good. Your time is better spent closely reading and re-reading the assigned texts.</p>
+<p>Most importantly, you must make sure to acknowledge any sources you’re drawing from by promptly citing them in your paper. Otherwise, you may be charged with <em>plagiarism</em>, that is, presenting someone else’s work as your own. This includes not only directly copying and pasting sentences</p>
+<p>from outside sources without putting them in quotation marks and citing the source, but also copying sentences from outside sources and changing around some of the words. Here are some examples of plagiarism that I’ve encountered in my own classes:</p>
+<p><em>Student:</em> In Dialogues Concerning Natural Religion, David Hume explores the basic fundamentals of religious belief, and whether they can be rational.</p>
+<p><em>Website:</em> In Dialogues Concerning Natural Religion, Hume explores whether religious belief can be rational.</p>
+<p><em>Student:</em> It is meaningless to assume an analogy between one part of the universe and the whole universe.</p>
+<p><em>Website:</em> It makes no sense to assume that one part of the universe is analogous to the whole of the universe.</p>
+<p><em>Student:</em> He excels in using the reference of FLO (future like ours) because it is reasonable to use emotional attachment in comparing the life of a fetus to that of the life that we experience and live out.</p>
+<p><em>Website:</em> Marquis is highly persuasive using this FLO method because he uses emotional attachment comparing the life of a fetus to a life that we may experience.</p>
+<p>Even one such sentence is often enough to warrant a failing grade on the assignment. (The first two plagiarized passages are from Sparknotes study guides; the third is from Joe Bird’s Acting Ethically blog.)</p>
+<p>You may be charged with plagiarism even if you had no intention to plagiarize, even if the plagiarism appears only in the opening section of the paper where you’re explaining the views or arguments you plan to criticize, and even if the plagiarism was the result of accidentally submitting the “wrong version” of the paper or “accidentally” memorizing and reproducing the wording from a website. Being charged with plagiarism or other academic infractions may seriously jeopardize your applications to law school, business school, or grad school, in addition to severely affecting your grade in the course and possibly resulting in suspension or expulsion from your college or university. So, you need to be very careful when working with outside sources.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./logic.html" class="pagination-link" aria-label="Logic">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Logic</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./theses-and-arguments.html" class="pagination-link" aria-label="Theses and Arguments">
+        <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
