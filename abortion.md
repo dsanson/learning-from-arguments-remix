@@ -494,7 +494,7 @@ One might point to the fact that seven more months of pregnancy places a major b
 
 Relatedly, one might point to the way in which keeping the pregnancy would have seriously disrupted Taylor's life plans, perhaps forcing her to quit her job or drop out of school. But this too is no FLO-overriding factor. To see this, consider the following case.
 
-{#exa-runner-up .example}
+:::{#exa-runner-up .example}
 
 > Krystal has struggled for years to make it as an actress, and finally gets
 > her big audition. If she gets the role, it will catapult her into fame and
@@ -521,7 +521,7 @@ Can the FLO-lifer make an exception if it is known that keeping the pregnancy wi
 
 And, indeed, there is reason to think it is FLO-overriding. Consider the following case:
 
-:::{exa-quicksand .example}
+:::{#exa-quicksand .example}
 
 > Ahmed is drowning in quicksand. He has gotten ahold of Omar's pantleg, and
 > is frantically trying to pull himself out. But in doing so he is pulling
