@@ -3,8 +3,6 @@
 This is a draft of a remixed version of Danel Z. Korman's [Learning from Arguments: An
 Introduction to Philosophy](https://philarchive.org/rec/KORLFA). 
 
-![CC-BY-NC license](media/by-nc.png)
-
 This is possible because Korman published the original book under a 
 [CC BY-NC] license.
 This allows users to copy and redistribute the material for non-commercial
