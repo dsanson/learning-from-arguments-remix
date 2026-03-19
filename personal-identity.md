@@ -1,11 +1,12 @@
 ---
 crossref:
   chapters: true
+  def-prefix: ""
   custom:
   - kind: float
     reference-prefix: A
     key: arg
-    caption-location: bottom
+    caption-location: top
     space-before-numbering: false
   - kind: float
     reference-prefix: X
@@ -61,7 +62,7 @@ that kid that makes her (or him) you?
 More precisely, an answer to the question I'm asking will provide a way to
 fill in the blank in the following sentence:
 
-:::{.thesis}
+:::{#personal-identity-template .thesis}
 A at time t is the same person as B at time t\* if and only if \_\_\_\_\_\_
 :::
 
@@ -715,9 +716,11 @@ Premise FS4 is motivated by a different logical principle, which I'll call
 'The No Difference Principle', or 'NDP' for short:
 
 ::: {#NDP .thesis}
+
 The No Difference Principle (NDP)
 :   If A is numerically the same as B, then at any given time, anything that's
     true of A at that time is also true of B at that time
+
 :::
 
 To illustrate the principle, consider Cassius Clay and Muhammad Ali. Cassius

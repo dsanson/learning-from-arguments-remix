@@ -6,7 +6,6 @@ book:
   subtitle: "blono remix"
   author: 
     -  "Daniel Z. Korman (original)"
-    -  "David Sanson (remix)"
   chapters:
     - part: Preface
       chapters:
@@ -31,6 +30,14 @@ book:
     - writing.md
     - theses-and-arguments.md
   page-navigation: true
+  navbar:
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://code.com
+          - text: Report an Issue
+            href:  https://bugs.com
 
 format:
   html:

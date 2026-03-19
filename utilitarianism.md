@@ -5,7 +5,7 @@ crossref:
   - kind: float
     reference-prefix: A
     key: arg
-    caption-location: bottom
+    caption-location: top
     space-before-numbering: false
   - kind: float
     reference-prefix: X
@@ -440,7 +440,7 @@ could it be wrong for Jonathan to do what had to be done to save five people?
 
 Here, more explicitly, is the argument:
 
-::: {#arg-trolley-argument .argument}
+::: {#arg-TR .argument}
 - (TR1) If there is no morally relevant difference between two actions A and
   B, and A is the right thing to do, then B is the right thing to do
 - (TR2) Diverting the trolley was the right thing to do

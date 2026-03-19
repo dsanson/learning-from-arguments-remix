@@ -1,14 +1,17 @@
 ---
 crossref:
+  chapters: true
   custom:
   - kind: float
-    reference-prefix: Argument
+    reference-prefix: A
     key: arg
     caption-location: top
+    space-before-numbering: false
   - kind: float
-    reference-prefix: Example
+    reference-prefix: X
     key: exa
     caption-location: top
+    space-before-numbering: false
 ---
 
 # You Know Nothing {#sec-skepticism}
@@ -37,13 +40,16 @@ The argument, in short, is that we can't know anything about the future because 
 
 Using your belief that the sun will set in the west tomorrow as an illustration, the argument runs as follows:
 
-**A**gainst Knowing the Future
+:::{#arg-KF .argument}
 
 - (KF1) If you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified
 - (KF2) You are not justified in believing that FLP is true
 - (KF3) So, your belief that the sun will set in the west tomorrow is unjustified
 - (KF4) If your belief that the sun will set in the west tomorrow is unjustified, then you don't know that the sun will set in the west tomorrow
 - (KF5) So, you don't know that the sun will set in the west tomorrow
+
+**Against Knowing the Future**
+:::
 
 I'll explain the rationale behind KF1 and KF2 in the following two sections. (Though you may find it worthwhile to pause for a moment right now and ask yourself: what reason *do* you have for believing FLP?) As for KF4, the
 
@@ -53,11 +59,14 @@ idea is that being justified in believing something—having good reason for bel
 
 Premise KF1 says that your belief that the sun will rise tomorrow is justified *only if* you have good reason to think that that FLP is true. Here's the argument for that premise:
 
-**The Faulty Foundation Argument**
+:::{#arg-FF .argument}
 
 - (FF1) Your belief that the sun will set in the west tomorrow is based on FLP
 - (FF2) If a belief is based on something that you aren't justified in believing, then that belief itself is unjustified
 - (KF1) So, if you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified
+
+**The Faulty Foundation Argument**
+:::
 
 To see the idea behind FF1, let's again ask: why do you believe that the sun will set in the west tomorrow? You infer it from the fact that in the past it has always set in the west. But, implicitly, the inference relies on FLP. In other words, you're at least implicitly running through a line of reasoning something like this:
 
@@ -77,9 +86,18 @@ These complications needn't concern us here. All I need for the argument for FF1
 
 How about FF2? The idea there is that a justified belief can't be built on a faulty foundation: if your reasons for believing something are no good, then that belief itself is no good. To help see this, consider the following case:
 
-**POWER POSE**
+:::{#exa-power-pose .example}
 
-Jared is getting ready for a job interview, and thinks it will help his chances if he spends five minutes "power posing" in front of the mirror. When his fiancée Ashley asks him why he thinks that will help, Jared tells her that scientists have shown that power posing releases performance-enhancing hormones into your bloodstream. Skeptical, Ashley does some Googling and informs Jared that the power-posing study has been completely discredited and is now widely regarded as "pseudo-science."
+> Jared is getting ready for a job interview, and thinks it will help his
+> chances if he spends five minutes "power posing" in front of the mirror.
+> When his fiancée Ashley asks him why he thinks that will help, Jared tells
+> her that scientists have shown that power posing releases
+> performance-enhancing hormones into your bloodstream. Skeptical, Ashley does
+> some Googling and informs Jared that the power-posing study has been
+> completely discredited and is now widely regarded as "pseudo-science."
+
+**POWER POSE**
+:::
 
 When Jared finds out that the study has been discredited, that renders his belief that power posing releases performance-enhancing hormones unjustified. But if *that* belief is unjustified, then any belief based on it is going to be unjustified as well. It would obviously be irrational for Jared to go on believing that power posing will help him in the interview once he admits that he has no good reason to believe that power posing releases performance-enhancing hormones. That's the idea behind FF2.
 
@@ -89,12 +107,15 @@ What we have just seen is that your belief about tomorrow's sunset is justified 
 
 The idea behind KF2 is that there are only two possible ways for a belief in FLP to be justified, and it isn't justified in either of those ways. Here is the argument:
 
-**FLP **is Unjustified
+:::{#arg-UJ .argument}
 
 - (UJ1) If your belief in FLP is justified, then it is either justified by direct observation or by inductive reasoning
 - (UJ2) Your belief in FLP isn't justified by direct observation
 - (UJ3) Your belief in FLP isn't justified by inductive reasoning
 - (KF2) So, your belief in FLP is unjustified
+
+**FLP is Unjustified**
+:::
 
 I'll quickly explain why we should accept UJ1 and UJ2, and then in section 4 we'll turn to UJ3.
 
@@ -108,12 +129,15 @@ To see the idea behind UJ2, notice that FLP is a claim about similarity. It's cl
 
 All that remains to be done is to defend UJ3. If I can show that it's true that FLP can't be justified by inductive inference—then we have a wellmotivated argument that your belief in FLP isn't justified, and an argument from there to the conclusion that you don't know that the sun will set in the west tomorrow. The idea behind UJ3 is that any inductive justification for FLP would be circular, and circularity is bad. Unpacking that a bit:
 
-**The Anti-Circularity Argument**
+:::{#arg-AC .argument}
 
 - (AC1) All inductive reasoning about the future assumes the truth of FLP
 - (AC2) If all inductive reasoning about the future assumes the truth of FLP, then any inductive reasoning about FLP is circular
 - (AC3) No belief can be justified by circular reasoning
 - (UJ3) So, FLP isn't justified by inductive reasoning
+
+**The Anti-Circularity Argument**
+:::
 
 Let's take it one premise at a time.
 
@@ -129,9 +153,18 @@ The conclusion of this line of reasoning, "Future days will resemble days in the
 
 As for AC3, it's easy to see that circular reasoning is terrible reasoning. As an illustration, consider the following case, involving a Magic 8-Ball toy (which randomly displays answers like Yes, No, and Maybe when you shake it up):
 
-**MAGIC **8-BALL
+:::{#exa-magic-eight-ball .example}
 
-Madhu shakes up his Magic 8-Ball, asks whether Smitha has a crush on him, and it issues its verdict: *yes*. Madhu's excitement lasts only for a moment, as he suddenly realizes that he has no reason to believe that the 8-ball can be trusted. So, he decides to check. He shakes up the 8- Ball, asks it whether it can be trusted, and it issues its verdict: *yes*. "That settles it," Madhu thinks to himself, "the 8-ball can be trusted, and Smitha does have a crush on me!"
+> Madhu shakes up his Magic 8-Ball, asks whether Smitha has a crush on him,
+> and it issues its verdict: *yes*. Madhu's excitement lasts only for a
+> moment, as he suddenly realizes that he has no reason to believe that the
+> 8-ball can be trusted. So, he decides to check. He shakes up the 8- Ball,
+> asks it whether it can be trusted, and it issues its verdict: *yes*. "That
+> settles it," Madhu thinks to himself, "the 8-ball can be trusted, and Smitha
+> does have a crush on me!"
+
+**MAGIC 8-BALL**
+:::
 
 Obviously, Madhu's reasoning here is deeply problematic. The first time he shakes up the toy, he reasons from *it said she has a crush on me* to *she does have a crush on me*, implicitly relying on the assumption that the 8-Ball can be trusted—which he has no good reason to assume. The second time he shakes it up, he reasons from *it said it can be trusted* to *it indeed can be trusted*, again relying on the assumption that he can trust what it says. The first time was bad enough, since the assumption was unfounded. The second time is even worse, and the natural diagnosis of why that line of reasoning is so bad is that it's circular: *the 8-ball can be trusted* appears both as the conclusion and as a premise of Madhu's reasoning. Surely you can't be justified in believing anything on the basis of reasoning like that. And that's just what AC3 is saying.
 
@@ -147,11 +180,14 @@ My argument involves a certain hypothesis, which I'll call *the dreaming hypothe
 
 With TDH in mind, here is how I'll argue that you don't know that you're sitting down reading:
 
-**The Dreaming Argument**
+:::{#arg-DR .argument}
 
 - (DR1) If you have no way of knowing that TDH is false, then you don't know that you're sitting down reading
 - (DR2) You have no way of knowing that TDH is false
 - (DR3) So you don't know that you're sitting down reading
+
+**The Dreaming Argument**
+:::
 
 Notice that TDH is not itself a premise of the argument. Accordingly, I don't have to try to convince you that TDH is true, or even that it's probably true. Indeed, I don't need to give you any reason whatsoever for thinking it's true, and it's fine with me if you think that it's incredibly unlikely that it's true. All I need to show concerning TDH is that you have no way of knowing it's false. And that I can do.
 
@@ -165,11 +201,14 @@ The first reason for accepting DR1 involves thinking about everyday ways of chal
 
 This suggests the following argument for DR1:
 
-**The Competing Hypotheses Argument**
+:::{#arg-CH .argument}
 
 - (CH1) One knows a certain thing only if one has some way of knowing that all competing hypotheses are false
 - (CH2) TDH is a hypothesis that competes with your belief that you're sitting down reading
 - (DR1) So, if you have no way of knowing that TDH is false, then you don't know that you're sitting down reading
+
+**The Competing Hypotheses Argument**
+:::
 
 CH1 reflects a general lesson that can be extracted from the hawk example: in order to truly know what's going on in a given situation, you have to be able to rule out competing hypotheses about what's going on in that situation. That's why the observation that you can't rule out the hypothesis that the bird we saw is an eagle constitutes a genuine challenge to your claim to know that the bird is a hawk.
 
@@ -181,11 +220,14 @@ Now for the second reason to accept DR1. Suppose you really did know that you we
 
 We can develop this idea more explicitly using the notion of a *deduction*. A deduction is a certain type of reasoning, where the conclusion of the reasoning is logically guaranteed by the premises. In other words, you would be contradicting yourself if you accepted all the premises and yet denied the conclusion. As an illustration, if you reason from *the coin either landed heads or tails* and *it did not land heads* to the conclusion *it landed tails*, that's a deduction. You deduced that it landed tails from those other two beliefs. Using this notion of deduction, we can run the following argument:
 
-**The Argument from Deduction**
+:::{#arg-DE .argument}
 
 - (DE1) If you know you're sitting down reading, then you can deduce that TDH is false from things you know
 - (DE2) If you can deduce something from things you know, then you have a way of knowing that thing
 - (DE3) So, if you know you're sitting down reading, then you have a way of knowing that TDH is false
+
+**The Argument from Deduction**
+:::
 
 DE1 says that there's a certain kind of deduction you'd be able to perform if you really did know that you were sitting down reading. Specifically, you'd be able to perform the following deduction:
 
@@ -211,11 +253,14 @@ To see that these say the same thing, notice that "if A is true then B is true" 
 
 Having shown that you *have* to be able to rule out TDH in order to know that you're sitting down reading, I turn now to the second premise, DR2, which says that you *can't* rule out TDH. Simply put, the argument is that you haven't got any evidence against TDH, and you can't know that a claim is false if you haven't got any evidence against it.
 
-**The No Evidence Argument**
+:::{#arg-NE .argument}
 
 - (NE1) If you have no evidence against something, then you have no way of knowing it's false
 - (NE2) You have no evidence against TDH
 - (DR2) So, you have no way of knowing that TDH is false
+
+**The No Evidence Argument**
+:::
 
 NE1 is eminently plausible. I might tell you that J. K. Rowling is the bestselling author of all time. You may have your doubts. You may choose not to believe me. But you can't *know* that what I said is false unless you have at least some evidence that she isn't the best-selling author of all time.
 
@@ -223,11 +268,14 @@ The idea behind NE2 is that TDH is compatible with all your evidence. After all,
 
 You might suspect at this point that my own argument can be turned against me. After all, you might insist, we don't have any evidence *for* TDH either. So, it would seem that we can run a parallel argument for the conclusion that we can't know that TDH is *true*:
 
-**The Flipped Evidence Argument**
+:::{#arg-FE .argument}
 
 - (FE1) If you have no evidence for something, then you have no way of knowing it's true
 - (FE2) You have no evidence for TDH
 - (FE3) So, you have no way of knowing that TDH is true
+
+**The Flipped Evidence Argument**
+:::
 
 But this argument doesn't worry me at all. It's not that I have some objection to one of the premises. Indeed, I agree with both of the premises, and I happily accept the conclusion of the argument. As I already explained above (in section 5), my argument doesn't require establishing that TDH is true, or even that TDH is probably true. All I need to establish is that you can't know it's false. And I have now done so, using the No Evidence Argument.
 
@@ -255,11 +303,14 @@ It should be fairly clear that, for any test you come up with for checking wheth
 
 Let's call a way of testing whether you're dreaming a "dreaming test." A *reliable* dreaming test is one that tells you you're dreaming only when you really are dreaming, and that tells you you're awake only when you really are awake. Here's the argument:
 
-**The No Useful Tests Argument**
+:::{#arg-NU .argument}
 
 - (NU1) If you don't know that a dreaming test is reliable, then you can't know whether you're dreaming by using it
 - (NU2) You can never know that a dreaming test is reliable
 - (NU3) So, you can never know whether you're dreaming by using a dreaming test
+
+**The No Useful Tests Argument**
+:::
 
 NU1 says that, in order to know whether you're dreaming by using a certain dreaming test, you have to know that the test actually *works*. Suppose I ask you how you know you're awake and you say, "because I spun a top and it fell over instead of spinning forever." Then I ask you how you know that's a good test for whether you're dreaming and you say, "oh, I have no idea if it works, I just saw it in a movie once." If you don't already somehow know that tops always spin forever in dreams and never spin forever in reality—that is, unless you know that the spinning top test is a reliable dreaming test—then you can't know you're awake by using that test.
 

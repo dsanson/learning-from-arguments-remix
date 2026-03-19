@@ -1,3 +1,20 @@
+---
+crossref:
+  chapters: true
+  custom:
+  - kind: float
+    reference-prefix: A
+    key: arg
+    caption-location: top
+    space-before-numbering: false
+  - kind: float
+    reference-prefix: X
+    key: exa
+    caption-location: top
+    space-before-numbering: false
+---
+
+
 # Against Prisons and Taxes {#sec-coercion}
 
 *Views and arguments advanced in this chapter are not necessarily endorsed by the author of the textbook, nor are they original to the author, nor are they meant to be consistent with arguments advanced in other chapters. Different chapters represent different philosophical perspectives.*
@@ -6,13 +23,24 @@ Governments sometimes do things that are morally questionable, for instance inst
 
 In section 1, I advance my argument against taxation and incarceration, which turns on the idea that there is no relevant difference between taxation and extortion, or between imprisoning and kidnapping. In section 2, I consider and dismiss a number of attempts to justify taxes and prisons. In sections 3-4, I criticize the most promising attempt to resist the argument, according to which we consent to this treatment by entering into a "social contract" with the government. Finally, in section 5, I show how my argument can be adapted to establish that there should be no restrictions on immigration.
 
-## Taxation and Extortion
+## Taxation and Extortion {#sec-taxation-and-extortion}
 
 Maybe it seems obvious to you that the government has every right to imprison and tax its citizens. To begin to see why it's not so obvious, notice how morally problematic it would be for an ordinary citizen to do more or less the same thing.
 
-**VIGILANTE**
+:::{#exa-vigilante .example}
 
-Jasmine discovers that some con men have set up a fake charity and are conning some people in her neighborhood. She captures them at gunpoint, takes them to her basement, and plans to keep them there for a year as punishment. Quickly realizing how expensive it is to take care of them, Jasmine goes to her neighbors and demands \$50 from each of them, at gunpoint. She explains that half the money will go towards taking care of her prisoners and that the rest will go towards a community gym to help keep troubled kids off the street. Those who do not comply are locked up in her basement with her other prisoners.
+> Jasmine discovers that some con men have set up a fake charity and are
+> conning some people in her neighborhood. She captures them at gunpoint,
+> takes them to her basement, and plans to keep them there for a year as
+> punishment. Quickly realizing how expensive it is to take care of them,
+> Jasmine goes to her neighbors and demands \$50 from each of them, at
+> gunpoint. She explains that half the money will go towards taking care of
+> her prisoners and that the rest will go towards a community gym to help keep
+> troubled kids off the street. Those who do not comply are locked up in her
+> basement with her other prisoners.
+
+**VIGILANTE**
+:::
 
 I'm going to go out on a limb here and say that what Jasmine is doing is wrong. When she demands money from her neighbors at gunpoint, that's called *extortion*. When she locks her neighbors in her basement, that's called *kidnapping*. It is wrong to kidnap people, and it is wrong to extort people, even when it's for a good cause.
 
@@ -24,12 +52,15 @@ Not just any difference will count as a morally relevant difference. To see this
 
 Now that I have explained the notion of a morally relevant difference, we are ready to see the argument:
 
-**Against Taxation and Imprisonment**
+:::{#arg-TX .argument}
 
 - (TX1) If there is no morally relevant difference between two actions A and B, and A is wrong, then B is wrong
 - (TX2) It is wrong for Jasmine to extort and kidnap her neighbors
 - (TX3) There is no morally relevant difference between Jasmine extorting and kidnapping her neighbors and the government taxing and imprisoning its citizens
 - (TX4) So, it is wrong for the government to tax and imprison its citizens
+
+**Against Taxation and Imprisonment**
+:::
 
 The idea behind TX1 is that, whenever there is some moral difference between two cases, there must always be some further difference between them to explain why they differ morally. Absent some such difference, it would be arbitrary to say that the one action is wrong and the other isn't just as it would be arbitrary for me to bump some students with an 86% up to a B+ but not others. As for TX2, my hope is that it will strike you as obvious. I'm not sure what more I could say to convince you that extortion and kidnapping are wrong.
 
@@ -43,17 +74,35 @@ First, one might suggest that the morally relevant difference is that what Jasmi
 
 Second, one might observe that, unlike Jasmine, the government doesn't come to your door and demand money at gunpoint when taxes are due. That's true. Though let's not forget that they will eventually come to your door with guns to take you to prison if you keep ignoring their polite reminders. With that in mind, let's revise the Jasmine case to tighten the analogy:
 
-**BUREAUCRATIC VIGILANTE**
+:::{#exa-bureaucratic-vigilante .example}
 
-Jasmine sends an email to all of her neighbors, informing them that they must each send her \$50 by April 15; that if they don't, they'll automatically be granted an extension, but will be charged a small late fee; and that if they still don't pay, she will lock them in her basement. Some don't pay even by the extended deadline, and she shows up at their door, escorts them to her home at gunpoint, and locks them in her basement.
+> Jasmine sends an email to all of her neighbors, informing them that they
+> must each send her \$50 by April 15; that if they don't, they'll
+> automatically be granted an extension, but will be charged a small late fee;
+> and that if they still don't pay, she will lock them in her basement. Some
+> don't pay even by the extended deadline, and she shows up at their door,
+> escorts them to her home at gunpoint, and locks them in her basement.
+
+**BUREAUCRATIC VIGILANTE**
+:::
 
 By revising the story so that Jasmine doesn't take their money at gunpoint but instead leads them to her basement at gunpoint when they consistently fail to pay—we have eliminated the alleged morally relevant difference between the two cases. We no longer have an objection to TX3. Of course, now that we have changed the details of the case, we need to make sure that TX2—which says that Jasmine is doing something wrong—is still plausible. But surely it is, even when we modify the procedure by which she extorts and kidnaps her neighbors.
 
 Third, one might point out that government officials have been *elected*  to serve as representatives of our interests, whereas Jasmine was not elected. This may indeed be a morally relevant difference, but we can again revise the case so as to circumvent it.
 
-**ELECTED VIGILANTE**
+:::{#exa-elected-vigilante .example}
 
-Jasmine plans to start taking prisoners and demanding \$50 at gunpoint from each of her neighbors to pay for the prisoners and a gym. Zhiwen thinks it would be better to demand \$75, with the additional \$25 going towards hiring a nurse to provide free medical care to anyone in the neighborhood. Jasmine and Zhiwen let their neighbors vote on which of them should get to set the policies for kidnapping and extortion. Many don't vote but, of those who do, the majority prefer Jasmine. Zhiwen accepts the results of the election, and Jasmine begins kidnapping and extorting her neighbors.
+> Jasmine plans to start taking prisoners and demanding \$50 at gunpoint from
+> each of her neighbors to pay for the prisoners and a gym. Zhiwen thinks it
+> would be better to demand \$75, with the additional \$25 going towards
+> hiring a nurse to provide free medical care to anyone in the neighborhood.
+> Jasmine and Zhiwen let their neighbors vote on which of them should get to
+> set the policies for kidnapping and extortion. Many don't vote but, of those
+> who do, the majority prefer Jasmine. Zhiwen accepts the results of the
+> election, and Jasmine begins kidnapping and extorting her neighbors.
+
+**ELECTED VIGILANTE**
+:::
 
 It still seems as if Jasmine is doing something wrong. So TX2 remains true. And since Jasmine is elected in this revised case, the proposed objection to TX3 fails. Nor should it be any surprise that holding an election doesn't make a difference. Suppose I order pizza for the whole class, and when it arrives we vote on who pays the bill. The majority of the students vote that you should pay, and so I point a gun at you and demand that you pay. That would be wrong, even though we voted on it.
 
@@ -63,9 +112,18 @@ Fifth, one might insist that taxation and imprisonment are morally justified bec
 
 Furthermore, just because something would make the world a better place, that doesn't necessarily mean it's morally permissible for someone to bring it about. To see this, consider the following case:
 
-**SAINT AND SINNER**
+:::{#exa-saint-and-sinner .example}
 
-A saint and a sinner both need a kidney transplant, but there is only one kidney available. The saint refuses it and insists that it be given to the sinner. The doctor, knowing that the world will be better off if the saint survives than if the sinner survives, forcibly anesthetizes the saint and gives her the kidney against her wishes and without her consent. The saint (who would otherwise have died) goes on to live a long life and does many saintly things.
+> A saint and a sinner both need a kidney transplant, but there is only one
+> kidney available. The saint refuses it and insists that it be given to the
+> sinner. The doctor, knowing that the world will be better off if the saint
+> survives than if the sinner survives, forcibly anesthetizes the saint and
+> gives her the kidney against her wishes and without her consent. The saint
+> (who would otherwise have died) goes on to live a long life and does many
+> saintly things.
+
+**SAINT AND SINNER**
+:::
 
 Surely you'll agree that it was morally impermissible for the doctor to force the kidney upon the saint, even though the doctor's actions made the world a better place on the whole. Likewise, even if the world would be a worse place without someone locking up criminals and forcing the rest of us to help pay for it, that doesn't mean it's morally okay for anyone to actually do it.
 
@@ -75,9 +133,17 @@ that they have enough power to cow people into letting them do what they want. B
 
 Furthermore, even supposing that government owns the country, we can once again revise the case so as to circumvent the putative morally relevant difference:
 
-**LANDLORD**
+:::{#exa-landlord .example}
 
-Jasmine owns an apartment complex and discovers that some of her tenants have been conning some of the other tenants. She locks the con men in the basement of the complex, and plans to keep them there for a year as punishment. Jasmine then demands an additional \$50 from each of her other tenants, to cover the expense of caring of her prisoners. Tenants who do not comply are locked in the basement with the other prisoners.
+> Jasmine owns an apartment complex and discovers that some of her tenants
+> have been conning some of the other tenants. She locks the con men in the
+> basement of the complex, and plans to keep them there for a year as
+> punishment. Jasmine then demands an additional \$50 from each of her other
+> tenants, to cover the expense of caring of her prisoners. Tenants who do not
+> comply are locked in the basement with the other prisoners.
+
+**LANDLORD**
+:::
 
 It still seems as if Jasmine is doing something wrong. So TX2 remains true. And since Jasmine *does* own the apartment complex in this case, the envisaged morally relevant difference has disappeared, and the present objection to TX3 fails.
 
@@ -109,11 +175,14 @@ The second condition that has to be met in order for those behaviors to constitu
 
 We can turn these observations into an argument that we have not tacitly consented to paying taxes and following the laws.
 
-**No Consent**
+:::{#arg-NC .argument}
 
 - (NC1) Someone tacitly consents to an arrangement only if (i) there is a reasonable way to opt out and (ii) explicit refusal to opt in is recognized
 - (NC2) There is no reasonable way to opt out of paying taxes and following laws, and explicit refusal to opt in is not recognized
 - (NC3) So, we have not tacitly consented to paying taxes and following laws
+
+**No Consent**
+:::
 
 Since we have not tacitly consented to following the laws or being subjected to taxation and imprisonment, there is no good reason to think that we have entered into an unspoken contract with the government. But that was supposed to be the morally relevant difference between what Jasmine does and what the government does. Thus, we are back where we started, with no morally relevant difference to wield against TX3 of the Against Taxation and Imprisonment argument.
 
@@ -123,18 +192,30 @@ We have seen that governmental practices of taxation and imprisonment are immora
 
 Once again, we'll start with a Jasmine case, and argue from there to a conclusion about immigration policy. Here is the case:
 
-**UNWANTED VISITORS**
+:::{#exa-unwanted-visitors .example}
 
-Jasmine and her friends arrive at their neighborhood park for their weekly soccer game, only to find a group from another neighborhood already using the park for a game of their own. Guns drawn, she directs them into her van, drives them back to their own neighborhood, and threatens to lock them in her basement if they ever return without first getting her permission. Some do ask for her permission, and most of the time she refuses. Some return without her permission, and she locks them in her basement.
+> Jasmine and her friends arrive at their neighborhood park for their weekly
+> soccer game, only to find a group from another neighborhood already using
+> the park for a game of their own. Guns drawn, she directs them into her van,
+> drives them back to their own neighborhood, and threatens to lock them in
+> her basement if they ever return without first getting her permission. Some
+> do ask for her permission, and most of the time she refuses. Some return
+> without her permission, and she locks them in her basement.
+
+**UNWANTED VISITORS**
+:::
 
 And here is the argument:
 
-**The Argument for Open Borders**
+:::{#arg-OB .argument}
 
 - (OB1) If there is no morally relevant difference between two actions A and B, and A is wrong, then B is wrong
 - (OB2) It is wrong for Jasmine to restrict access to the park
 - (OB3) There is no morally relevant difference between Jasmine restricting access to the park and the government restricting access to the country
 - (OB4) So, it is wrong for the government to restrict access to the country
+
+**The Argument for Open Borders**
+:::
 
 OB1 is the same as TX1, so no further defense is needed. OB2, I hope, is obvious. So, as before, the crucial question is whether we should accept the third premise. Is there a morally relevant difference between Jasmine closing off the park and the government closing off its borders?
 

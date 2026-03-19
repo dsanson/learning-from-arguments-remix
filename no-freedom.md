@@ -1,14 +1,17 @@
 ---
 crossref:
+  chapters: true
   custom:
   - kind: float
-    reference-prefix: Argument
+    reference-prefix: A
     key: arg
     caption-location: top
+    space-before-numbering: false
   - kind: float
-    reference-prefix: Example
+    reference-prefix: X
     key: exa
     caption-location: top
+    space-before-numbering: false
 ---
 
 # No Freedom {#sec-no-freedom}
@@ -27,25 +30,46 @@ I'll present two arguments for my thesis that no one ever acts freely. The first
 
 Before turning to my arguments that we never act freely, let me address and attempt to undermine—the powerful intuition that we do often act freely. As indicated above, we tend to think we act freely because many of our actions seem to have all of the marks of freedom: we examine our options, we decide what to do, and we do what we decided to do. To better assess this line of reasoning, let's frame it as an explicit argument in defense of free action:
 
-**The Argument for Freedom**
+:::{#arg-FR .argument}
 
 - (FR1) Sometimes you perform an action after deciding to perform that action
 - (FR2) If one performs an action after deciding to perform it, then one performs that action freely
 - (FR3) So some of your actions are performed freely
 
+**The Argument for Freedom**
+:::
+
 Premise FR1 is certainly true: we do make decisions, and often our actions line up with our decisions. And premise FR2 has its merits as well. You decided to read this chapter right now, and here you are reading this chapter. That seems like a free action, and FR2 correctly predicts that it's a free action. But FR2 doesn't imply that *all* actions are free. To see this, consider the following case (inspired by a scene from the movie *Now You See Me*):
 
-**HYPNOTIC ACTION**
+:::{#exa-hypnotic-action .example}
 
-Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Jordan on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout *Freeze!* he will fall into a hypnotic trance and tackle the person who said it. Just then, Kabir the cop arrives on the scene, sees Tia, shouts *Freeze!*, and Jordan tackles him.
+> Tia is on the run from the law and knows the cops are hot on her trail. She
+> is also a master hypnotist. As she passes Jordan on the street, she
+> hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever
+> he hears someone shout *Freeze!* he will fall into a hypnotic trance and
+> tackle the person who said it. Just then, Kabir the cop arrives on the
+> scene, sees Tia, shouts *Freeze!*, and Jordan tackles him.
+
+**HYPNOTIC ACTION**
+:::
 
 Jordan never *decided* to tackle Kabir. He just fell into a trance, and when he emerged from the trance he found himself on top of Kabir pinning him to the ground. Certainly, Jordan's action isn't free: he didn't freely tackle Kabir. FR2 doesn't say that this action is free, and rightly so. Good job, FR2!
 
 On closer inspection, though, it's clear that FR2 cannot be correct. Consider a variant of HYPNOTIC ACTION, in which the hypnotist is not only in control of the person's actions but also their decisions.
 
-**HYPNOTIC DECISION**
+:::{#exa-hypnotic-decision .example}
 
-Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Colton on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout *Freeze!* he will grow very angry with the person, decide to tackle them, and then tackle them. Just then, Kabir the cop arrives on the scene, sees Tia, and shouts *Freeze!* As a result of the hypnotic suggestion, Colton gets angry at Kabir, consciously decides to tackle him, and then tackles him.
+> Tia is on the run from the law and knows the cops are hot on her trail. She
+> is also a master hypnotist. As she passes Colton on the street, she
+> hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever
+> he hears someone shout *Freeze!* he will grow very angry with the person,
+> decide to tackle them, and then tackle them. Just then, Kabir the cop
+> arrives on the scene, sees Tia, and shouts *Freeze!* As a result of the
+> hypnotic suggestion, Colton gets angry at Kabir, consciously decides to
+> tackle him, and then tackles him.
+
+**HYPNOTIC DECISION**
+:::
 
 Clearly, tackling Kabir isn't something Colton did of his own free will. True, it may seem to him, from the inside, as if he was free to do otherwise. He may even experience regret, feeling that he could have and should have controlled his temper and made a better decision. But, whether he realizes it or not, Tia's hypnotic hold over him is so powerful that he couldn't have decided otherwise. His will was not free nor was the action that sprung from it.
 
@@ -55,13 +79,16 @@ It's true that the HYPNOTIC DECISION case is unrealistic. But that doesn't stop 
 
 Colton's action in HYPNOTIC DECISION isn't free. But why not? The natural answer is that, although he made a choice and did what he wanted to do, his *desires* weren't under his control: he wasn't in control of the overwhelming desire to tackle Kabir. What this suggests is that freedom requires more than just making choices and doing what you desire to do. It requires that your desires be under your control as well. And this is the insight that drives the first of my two arguments against free action. The argument can be stated as follows:
 
-**The Desire Argument**
+:::{#arg-DS .argument}
 
 - (DS1) What you choose to do is always determined by your desires
 - (DS2) You can't control your desires
 - (DS3) So, what you choose to do is always determined by something you can't control
 - (DS4) If what you choose to do is always determined by something you can't control, then you never act freely
 - (DS5) So, you never act freely
+
+**The Desire Argument**
+:::
 
 By 'desire', I mean any kind of wanting, including passionately yearning for something, but also less dramatic things, like wanting to buy some new socks. Let us examine the idea behind each of the premises, and then I'll turn to two ways that one might try to resist the argument.
 
@@ -87,11 +114,14 @@ A natural reaction to DS1 is to attempt to find cases in which one manages to ov
 
 It isn't. The argument underlying this objection would have to go something like this:
 
-**The Argument from Undesired Action**
+:::{#arg-UA .argument}
 
 - (UA1) Your desire to stay in bed was stronger than your desire to get out of bed
 - (UA2) If your desire to stay in bed was stronger than your desire to get out of bed, then what you choose to do is not always determined by your desires
 - (UA3) So, what you choose to do is not always determined by your desires
+
+**The Argument from Undesired Action**
+:::
 
 UA1 may well be true. It may well be that you have no desire at all to get out of bed. But UA2 is false. What's true is that the desire to stay in bed isn't overpowered by a desire to get out of bed. But you have other desires that overpower it, for instance the desire to get a good grade in the class. If not for *that* desire, you wouldn't have gotten out of bed. So, in the end, this is just another case of your actions being determined by your desires.
 
@@ -109,11 +139,14 @@ An example. Suppose that, for ethical reasons, I decide to become a vegetarian. 
 
 Let's call these actions that enable one to overcome one's desires "desiredefeating actions." One could try to argue against DS2 on the grounds that we are able to control our desires by performing desire-defeating actions:
 
-**The Argument from Desire-Defeating Action**
+:::{#arg-DD .argument}
 
 - (DD1) Your desires can be changed by performing desire-defeating actions
 - (DD2) If your desires can be changed by performing desire-defeating actions, then you can control your desires
 - (DD3) So, you can control your desires
+
+**The Argument from Desire-Defeating Action**
+:::
 
 I find this argument unconvincing, and here's why. In order to decide to perform a desire-defeating action, you have to *want* to perform it. If I had no desire to watch the videos to help curb my craving for meat, I wouldn't have. More generally, whether you *do* end up choosing to perform a desiredefeating action is determined by whether you have a *strong enough desire* to perform that desire-defeating action.
 
@@ -129,7 +162,7 @@ But I'm getting ahead of myself: what is *determinism*? Roughly put, the idea is
 
 To get a better sense of what determinism is saying, let's look at an analogy. Consider the counting rhyme *One Potato Two Potato*, which can be used as a way of randomly selecting some person or thing:
 
-**One** potato **two** potato **Three** potato **four Five** potato **six** potato **Seven** potato **more**
+-   **One** potato **two** potato **Three** potato **four Five** potato **six** potato **Seven** potato **more**
 
 Here's how it works. You line some people up—let's say, Blake, Garrett, and Jason, in that order—and you start the rhyme by pointing at Blake as you say "One." Then each time you reach a word in bold, you advance to the next person. So, you move to Garrett on 'two', Jason on 'three', back to Blake on 'four', and so on until you reach 'more'. And whichever person you're pointing at on 'more' is the person you've randomly selected (it's Garrett).
 
@@ -149,12 +182,15 @@ Likewise, determinism isn't saying that there's some one fact in the distant pas
 
 Perhaps you can already see how determinism is going to cause trouble for free action. But let's make the argument explicit:
 
-**The Argument from Determinism**
+:::{#arg-DT .argument}
 
 - (DT1) Determinism is true
 - (DT2) If determinism is true, then you are never able to do otherwise
 - (DT3) If you are never able to do otherwise, then none of your actions are free
 - (DT4) So, none of your actions are free
+
+**The Argument from Determinism**
+:::
 
 In the previous section, I explained what determinism is. But I haven't yet given you any reason to think it's true. So why accept DT1? Here's one reason. Suppose that you are taking a physics exam, which poses a question about a game of pool. The cue ball has just been struck and is headed towards the eight ball. You're given complete information about the state of the pool table immediately following the shot: the masses and positions of the various balls, the velocity of the cue ball and the direction it's traveling, the dimensions of the table, the positions and size of the pockets, and so on. The question is whether the eight ball will go in the pocket.
 
@@ -186,7 +222,7 @@ To see why, let's suppose it was a matter of chance that you decided to read thi
 
 What this suggests is that, surprisingly, our actions are unfree *whether or not* they're determined. We can use this insight to fortify the Argument from Determinism, doing away with the assumption that determinism is in fact true:
 
-**The Doomed Regardless Argument**
+:::{#arg-DM .argument}
 
 - (DM1) If an action is determined to happen, then you couldn't have done otherwise
 - (DM2) If you couldn't have done otherwise, then the action is not free
@@ -194,6 +230,9 @@ What this suggests is that, surprisingly, our actions are unfree *whether or not
 - (DM4) If an action happens randomly, then it is not free
 - (DM5) Every action you perform is either determined to happen or happens randomly
 - (DM6) So, none of your actions are free
+
+**The Doomed Regardless Argument**
+:::
 
 We have already seen the motivation behind most of the premises, so I can be brief. The idea behind DM1 is that if an action is determined, then you have no control over the factors that are controlling your action (namely, the laws and distant past). The idea behind DM2 is that freedom requires a genuine ability to choose among different courses of action. The idea behind DM4 is that, if it was just a random matter of chance that you did what you did, then it was not up to you whether you did it. DM5 says that all actions are either random ones or determined ones, and indeed it is hard to see what middle ground there could be. If something is undetermined then nothing guarantees that it happens, in which case it must be a matter of chance that it happened. DM6 follows from these four premises: since there are only the two categories of actions, and actions belonging to either category are unfree, no actions are free.
 
@@ -203,12 +242,15 @@ What we have seen is that it is no use trying to resist the Argument from Determ
 
 Don't get too excited. A compatibilist still has to find some premise to deny in the Argument from Determinism (as well as the Doomed Regardless Argument). Here again is the argument:
 
-**The Argument from Determinism**
+:::{#arg-DT .argument}
 
 - (DT1) Determinism is true
 - (DT2) If determinism is true, then you are never able to do otherwise
 - (DT3) If you are never able to do otherwise, then none of your actions are free
 - (DT4) So, none of your actions are free
+
+**The Argument from Determinism**
+:::
 
 The compatibilist does not deny DT1. So, she has to reject either DT2 or DT3. Let's consider the prospects of each of these options.
 
@@ -216,12 +258,15 @@ The compatibilist does not deny DT1. So, she has to reject either DT2 or DT3. Le
 
 The idea behind DT2 was that, if determinism is true, then all of your actions are consequences of things that you are powerless to change—the laws of nature and the distant past—which in turn means that the actions themselves are things you are powerless to change. Let's break down this line of reasoning.
 
-**The Consequence Argument**
+:::{#arg-CQ .argument}
 
 - (CQ1) If determinism is true, then what you do is always a consequence of the laws of nature and the distant past
 - (CQ2) You have no control over the laws of nature or the distant past
 - (CQ3) So, if determinism is true, then what you do is always a consequence of things over which you have no control
 - (CQ4) If what you do is always a consequence of things over which you have no control, then you are never able to do otherwise (DT2) So, if determinism is true, you are never able to do otherwise
+
+**The Consequence Argument**
+:::
 
 The idea behind CQ1 is that, given determinism, *everything* that is happening and will happen is physically necessitated by events in the distant past, and what your body and brain do is no exception. Notice that CQ1 is not saying that determinism *is* true. Nor is it saying that what you do is always a consequence of the laws of nature and the distant past. Rather, it's drawing a conceptual connection between two things: *if* everything is determined by the laws and the distant past *then* everything you do is determined by the laws and the distant past. By analogy, suppose that Kristina just got carded at the bar. Even if you think that Kristina is over 21 and is old enough order a drink, you could still agree that *if* Kristina is under 21 *then* she isn't old enough to order a drink. Likewise, even if you reject determinism, you could (and should) still accept CQ1.
 
@@ -235,9 +280,19 @@ The case for DT2 seems airtight: clearly, you can never do otherwise if everythi
 
 To see how this is possible, the compatibilist might invoke a hypnosis case of her own.
 
-**HYPNOTIC BACKUP**
+:::{#exa-hypnotic-backup .example}
 
-Tia the master hypnotist is on the run from the law and hires Clay to tackle any cop who turns up. Concerned that Clay might betray her, Tia gives Clay an irresistible post-hypnotic suggestion to tackle any cop he sees, but which will kick in only if she triggers it by shouting *Abracadabra!* When Kabir the cop arrives on the scene, Tia keeps a watchful eye on Clay to see if he's going to back out. But Clay comes through: he decides to tackle Kabir all on his own, without Tia having to trigger the post-hypnotic suggestion that would have forced him to tackle Kabir.
+> Tia the master hypnotist is on the run from the law and hires Clay to tackle
+> any cop who turns up. Concerned that Clay might betray her, Tia gives Clay
+> an irresistible post-hypnotic suggestion to tackle any cop he sees, but
+> which will kick in only if she triggers it by shouting *Abracadabra!* When
+> Kabir the cop arrives on the scene, Tia keeps a watchful eye on Clay to see
+> if he's going to back out. But Clay comes through: he decides to tackle
+> Kabir all on his own, without Tia having to trigger the post-hypnotic
+> suggestion that would have forced him to tackle Kabir.
+
+**HYPNOTIC BACKUP**
+:::
 
 Here is how this case is supposed to help the compatibilist. Notice that Clay could not have done otherwise. He's either going to decide on his own to tackle Kabir, or he's going to decide not to in which case Tia will trigger the irresistible post-hypnotic suggestion forcing him to tackle Kabir. Either way he tackles Kabir. But the mere fact that he couldn't have done otherwise doesn't stop us from holding him responsible for what he did. That fact by itself doesn't convince us that tackling Kabir is something he didn't do freely. After all, as it happens neither his decision nor his action was the result of hypnosis (although the tackling *would* have been the result of hypnosis had he shown signs of backing out). What this suggests is that the mere inability to do otherwise isn't *by itself* reason to think that an action is unfree. Accordingly, the compatibilist might say, we have no good reason to accept DT3.
 
@@ -245,12 +300,15 @@ Even I have to admit that this is a clever objection. But ultimately the argumen
 
 But if determinism is true, then not only your actions but also your (and Clay's) *decisions* are determined. With this in mind, we can revise the Argument from Determinism as follows:
 
-**The Argument from Determined Decision**
+:::{#arg-DT .argument}
 
 - (DT1) Determinism is true
 - (DT2\*) If determinism is true, then you are never able to *decide* to do otherwise
 - (DT3\*) If you are never able to *decide* to do otherwise, then none of your actions are free
 - (DT4) So, none of your actions are free
+
+**The Argument from Determined Decision**
+:::
 
 DT2\* is just as plausible as DT2: if determinism is true then everything about you, including what goes on in your brain, is determined by factors outside your control. And DT3\* is no longer threatened by HYPNOTIC BACKUP. As I said, HYPNOTIC BACKUP gives us reason to reject DT3 only insofar as we were thinking that Clay could have decided not to tackle Kabir. In order to challenge DT3\*, we'd need to change the case so that Clay couldn't even have decided not to tackle Kabir. But when we revise the case in that way, our sense that he may still have been acting freely vanishes altogether.
 

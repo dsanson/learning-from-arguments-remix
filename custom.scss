@@ -6,24 +6,6 @@
   font-size: 85%;
 }
 
-
-/* definition list formatting */
-
-// dl {
-//   display: grid;
-//   grid-template-columns: max-content auto;
-//   column-gap: 1em;
-//   margin-left:1em;
-// }
-//
-// dt {
-//   grid-column-start: 1;
-// }
-//
-// dd {
-//   grid-column-start: 2;
-// }
-
 /* example float div formatting */
 
 .example,
@@ -38,12 +20,14 @@ figure.quarto-float-exa {
 
 /* argument formatting */
 
-.argument,
 figure.quarto-float-arg {
 
   padding-left: 1em;
 
-  &> figure > div > ul {
+  figcaption {
+    margin-bottom: .5em;
+  };
+  &> div > ul {
     text-align: left;
   }
 
@@ -63,6 +47,11 @@ figure.quarto-float-arg {
   list-style: none;
   padding-left: 1em;
   text-indent: -2em;
+}
+
+/* caption formatting */
+figcaption {
+  font-size: inherit;
 }
 
 /* Chapter title formatting */
@@ -95,8 +84,9 @@ figure.quarto-float-arg {
 main a {
   text-decoration: underline !important;
 }
-/* don't dim blockquotes */
-.blockquote {
+/* don't dim blockquotes, figcaptions */
+.blockquote,
+figcaption {
   color: inherit;
 }
 
