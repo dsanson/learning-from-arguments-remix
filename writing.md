@@ -1,19 +1,3 @@
----
-crossref:
-  chapters: true
-  custom:
-  - kind: float
-    reference-prefix: A
-    key: arg
-    caption-location: top
-    space-before-numbering: false
-  - kind: float
-    reference-prefix: X
-    key: exa
-    caption-location: top
-    space-before-numbering: false
----
-
 # Writing {#sec-writing}
 
 This appendix provides some advice for writing papers for philosophy courses. The advice primarily concerns assignments requiring you to critically assess some view or argument, though much of what I say applies equally to assignments only requiring you to explain some view, argument, or debate in your own words (without weighing in with your own view on the matter). Of course, you should follow all instructions you receive from your instructors and disregard anything I say here that conflicts with those instructions. Absent explicit conflicts, however, it's likely that your instructor is looking for the sort of paper I describe here.

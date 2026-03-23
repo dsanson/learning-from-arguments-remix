@@ -1,23 +1,3 @@
----
-tbl-cap-location: bottom
-crossref:
-  chapters: true
-  custom:
-  - kind: float
-    reference-prefix: A
-    key: arg
-    caption-location: top
-    space-before-numbering: false
-  - kind: float
-    reference-prefix: X
-    key: exa
-    caption-location: top
-    space-before-numbering: false
----
-
-:::{.authorial-intent}
-:::
-
 # Introduction {#introduction}
 
 The aim of this book is to introduce you to the topics and methods of

@@ -1,19 +1,3 @@
----
-crossref:
-  chapters: true
-  custom:
-  - kind: float
-    reference-prefix: A
-    key: arg
-    caption-location: top
-    space-before-numbering: false
-  - kind: float
-    reference-prefix: X
-    key: exa
-    caption-location: top
-    space-before-numbering: false
----
-
 # Logic {#sec-logic}
 
 Throughout this book, I present arguments, defend their premises, and then claim that the conclusions of those arguments *follow from* the premises. In this appendix, I'll explain what it means for a conclusion to follow from some premises and how you can tell when a conclusion follows from some premises. In section 1, I introduce the notion of a *valid* argument, that is, an argument whose conclusion follows from its premises. Then, in section 2, I identify four types of valid arguments. Finally, in section 3—because nothing is sacred in philosophy—I show how even claims about which types of arguments are valid can be called into question.

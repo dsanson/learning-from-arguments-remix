@@ -1,19 +1,3 @@
----
-crossref:
-  chapters: true
-  custom:
-  - kind: float
-    reference-prefix: A
-    key: arg
-    caption-location: top
-    space-before-numbering: false
-  - kind: float
-    reference-prefix: X
-    key: exa
-    caption-location: top
-    space-before-numbering: false
----
-
 # You Know Nothing {#sec-skepticism}
 
 {{< include _authorial-endorsement.md >}}

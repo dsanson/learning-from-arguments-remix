@@ -33,7 +33,10 @@ book:
 
 format:
   html:
+    tbl-cap-location: bottom
     crossref:
+      tbl-title: Matrix
+      tbl-prefix: Matrix
       custom:
       - caption-location: top
         key: arg

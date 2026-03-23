@@ -1,22 +1,3 @@
----
-tbl-cap-location: bottom
-crossref:
-  tbl-title: Matrix
-  tbl-prefix: Matrix
-  chapters: true
-  custom:
-  - kind: float
-    reference-prefix: A
-    key: arg
-    caption-location: top
-    space-before-numbering: false
-  - kind: float
-    reference-prefix: X
-    key: exa
-    caption-location: top
-    space-before-numbering: false
----
-
 # Why You Should Bet on God {#sec-wager}
 
 
