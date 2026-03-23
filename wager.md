@@ -16,7 +16,6 @@ crossref:
     caption-location: top
     space-before-numbering: false
 ---
----
 
 # Why You Should Bet on God {#sec-wager}
 
@@ -656,7 +655,7 @@ we acknowledge that entry into heaven requires betting on the right God.
 ## Sources
 
 Versions of the Argument for Betting on God, also known as "Pascal's Wager",
-can be found in Abū Hāmid Muhammad Al-Ghāzāli's *The Alchemy of Happiness* and
+can be found in Abū Hāmid Muhammad al-Ghāzāli's *The Alchemy of Happiness* and
 Blaise Pascal's *Pensées*. Here are some additional resources:
 
 - Mohammad Shahid Alam: Pragmatic Arguments for Belief in the Qur'ān
