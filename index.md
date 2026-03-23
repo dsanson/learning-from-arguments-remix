@@ -1,4 +1,4 @@
-# About the blono remix {-}
+## About this Remix {-}
 
 This is a draft of a remixed version of Danel Z. Korman's [Learning from Arguments: An
 Introduction to Philosophy](https://philarchive.org/rec/KORLFA). 
