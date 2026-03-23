@@ -1,5 +1,5 @@
 project:
-  type: book
+  type: book 
 
 book:
   title: "Learning from Arguments"
@@ -30,17 +30,22 @@ book:
     - writing.md
     - theses-and-arguments.md
   page-navigation: true
-  navbar:
-    tools:
-      - icon: github
-        menu:
-          - text: Source Code
-            href:  https://code.com
-          - text: Report an Issue
-            href:  https://bugs.com
 
 format:
   html:
+    crossref:
+      custom:
+      - caption-location: top
+        key: arg
+        kind: float
+        reference-prefix: A
+        space-before-numbering: false
+      - caption-location: top
+        key: exa
+        kind: float
+        reference-prefix: X
+        space-before-numbering: false
+    reference-location: section
     theme:
       light: 
         - cosmo
