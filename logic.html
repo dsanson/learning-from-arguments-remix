@@ -46,15 +46,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-883c0b22796f843cd448eaf39fc9d8e8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-67e8ff9d52557348b936e751ff7cdf33.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-883c0b22796f843cd448eaf39fc9d8e8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-318d471fa8aea764519ae1bb6002aeeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9b89b38f5b7b28d98fe1d96d4133e92b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-318d471fa8aea764519ae1bb6002aeeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -246,19 +246,6 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Learning from Arguments</span>
-    </a>
-  </div>
-        <div class="quarto-navbar-tools tools-end">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-          <div id="quarto-search" class="" title="Search"></div>
-      </div> <!-- /container-fluid -->
-    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -267,13 +254,29 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./logic.html">Appendices</a></li><li class="breadcrumb-item"><a href="./logic.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Logic</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Learning from Arguments</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -288,7 +291,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About the blono remix</span></a>
+ <span class="menu-text">About this Remix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -421,16 +424,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#valid-arguments" id="toc-valid-arguments" class="nav-link active" data-scroll-target="#valid-arguments"><span class="header-section-number">1.1</span> Valid Arguments</a></li>
-  <li><a href="#how-to-check-for-validity" id="toc-how-to-check-for-validity" class="nav-link" data-scroll-target="#how-to-check-for-validity"><span class="header-section-number">1.2</span> How to Check for Validity</a>
+  <li><a href="#valid-arguments" id="toc-valid-arguments" class="nav-link active" data-scroll-target="#valid-arguments"><span class="header-section-number">A.1</span> Valid Arguments</a></li>
+  <li><a href="#how-to-check-for-validity" id="toc-how-to-check-for-validity" class="nav-link" data-scroll-target="#how-to-check-for-validity"><span class="header-section-number">A.2</span> How to Check for Validity</a>
   <ul class="collapse">
-  <li><a href="#modus-ponens" id="toc-modus-ponens" class="nav-link" data-scroll-target="#modus-ponens"><span class="header-section-number">1.2.1</span> Modus Ponens</a></li>
-  <li><a href="#modus-tollens" id="toc-modus-tollens" class="nav-link" data-scroll-target="#modus-tollens"><span class="header-section-number">1.2.2</span> Modus Tollens</a></li>
-  <li><a href="#chained-conditionals" id="toc-chained-conditionals" class="nav-link" data-scroll-target="#chained-conditionals"><span class="header-section-number">1.2.3</span> Chained Conditionals</a></li>
-  <li><a href="#universal-instantiation" id="toc-universal-instantiation" class="nav-link" data-scroll-target="#universal-instantiation"><span class="header-section-number">1.2.4</span> Universal Instantiation</a></li>
+  <li><a href="#modus-ponens" id="toc-modus-ponens" class="nav-link" data-scroll-target="#modus-ponens"><span class="header-section-number">A.2.1</span> Modus Ponens</a></li>
+  <li><a href="#modus-tollens" id="toc-modus-tollens" class="nav-link" data-scroll-target="#modus-tollens"><span class="header-section-number">A.2.2</span> Modus Tollens</a></li>
+  <li><a href="#chained-conditionals" id="toc-chained-conditionals" class="nav-link" data-scroll-target="#chained-conditionals"><span class="header-section-number">A.2.3</span> Chained Conditionals</a></li>
+  <li><a href="#universal-instantiation" id="toc-universal-instantiation" class="nav-link" data-scroll-target="#universal-instantiation"><span class="header-section-number">A.2.4</span> Universal Instantiation</a></li>
   </ul></li>
-  <li><a href="#challenging-modus-ponens-and-modus-tollens" id="toc-challenging-modus-ponens-and-modus-tollens" class="nav-link" data-scroll-target="#challenging-modus-ponens-and-modus-tollens"><span class="header-section-number">1.3</span> Challenging Modus Ponens and Modus Tollens</a></li>
-  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">1.4</span> Sources</a></li>
+  <li><a href="#challenging-modus-ponens-and-modus-tollens" id="toc-challenging-modus-ponens-and-modus-tollens" class="nav-link" data-scroll-target="#challenging-modus-ponens-and-modus-tollens"><span class="header-section-number">A.3</span> Challenging Modus Ponens and Modus Tollens</a></li>
+  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">A.4</span> Sources</a></li>
   </ul>
 </nav>
     </div>
@@ -458,13 +461,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Throughout this book, I present arguments, defend their premises, and then claim that the conclusions of those arguments <em>follow from</em> the premises. In this appendix, I’ll explain what it means for a conclusion to follow from some premises and how you can tell when a conclusion follows from some premises. In section 1, I introduce the notion of a <em>valid</em> argument, that is, an argument whose conclusion follows from its premises. Then, in section 2, I identify four types of valid arguments. Finally, in section 3—because nothing is sacred in philosophy—I show how even claims about which types of arguments are valid can be called into question.</p>
-<section id="valid-arguments" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="valid-arguments"><span class="header-section-number">1.1</span> Valid Arguments</h2>
+<section id="valid-arguments" class="level2" data-number="A.1">
+<h2 data-number="A.1" class="anchored" data-anchor-id="valid-arguments"><span class="header-section-number">A.1</span> Valid Arguments</h2>
 <p>Suppose you and I have gotten our hands on a live chicken. I want to keep it as a pet, and I’ve already even given it a name: ‘Camilla’. You want to slaughter it and eat it. I’m trying to convince you that we shouldn’t eat Camilla, and I give you the following two arguments:</p>
 <div id="arg-CA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.1: <strong>The Cuteness Argument</strong>
+AA.1: <strong>The Cuteness Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -478,7 +481,7 @@ A1.1: <strong>The Cuteness Argument</strong>
 <div id="arg-FA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.2: <strong>The Feathers Argument</strong>
+AA.2: <strong>The Feathers Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -500,7 +503,7 @@ A1.2: <strong>The Feathers Argument</strong>
 <div id="arg-FD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.3: <strong>Against Fearing Death</strong>
+AA.3: <strong>Against Fearing Death</strong>
 </figcaption>
 <div aria-describedby="arg-FD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -515,17 +518,17 @@ A1.3: <strong>Against Fearing Death</strong>
 </div>
 <p>It’s true that FD2 follows FD1. That is, it comes immediately after FD1. But FD2 does not follow <em>from</em> FD1. To say that it follows from FD1 is to say that there’s a valid argument whose conclusion is FD2 and whose only premise is FD1. That, in turn, implies that you would be contradicting yourself if you accepted FD1 while at the same time denying FD2. But notice that this isn’t at all contradictory. You can agree that you cease to be conscious when you die (FD1), and yet reject FD2 on the grounds that you don’t have to be consciously aware of bad things in order for them to be bad for you. What <em>is</em> true is that FD3 follows from FD1 and FD2. But FD2 doesn’t itself follow from FD1.</p>
 </section>
-<section id="how-to-check-for-validity" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="how-to-check-for-validity"><span class="header-section-number">1.2</span> How to Check for Validity</h2>
+<section id="how-to-check-for-validity" class="level2" data-number="A.2">
+<h2 data-number="A.2" class="anchored" data-anchor-id="how-to-check-for-validity"><span class="header-section-number">A.2</span> How to Check for Validity</h2>
 <p>Many of the arguments in this book have conclusions you won’t like. If the arguments were invalid then, as with the Feathers Argument, you could just reject the conclusion without having to find a premise to reject. But since the arguments <em>are</em> all valid—I made sure of it!—rejecting the conclusion of any one of them always requires finding some premise to deny.</p>
 <p>But what did I <em>do</em> to ensure that the arguments were all valid? How can you tell if an argument is valid? One way is to eyeball it: look at the premises, and check whether it seems like the conclusion follows from them. But we can do better than that. We can identify certain recurring forms or patterns whose presence guarantees that an argument is valid, regardless of what the argument is about. Accordingly, another way to check for validity is to see if the argument has one of these forms. If it does, then it’s valid. I’ll give four examples.</p>
-<section id="modus-ponens" class="level3" data-number="1.2.1">
-<h3 data-number="1.2.1" class="anchored" data-anchor-id="modus-ponens"><span class="header-section-number">1.2.1</span> Modus Ponens</h3>
+<section id="modus-ponens" class="level3" data-number="A.2.1">
+<h3 data-number="A.2.1" class="anchored" data-anchor-id="modus-ponens"><span class="header-section-number">A.2.1</span> Modus Ponens</h3>
 <p>To see what I have in mind by a “form” of argument, compare these two arguments:</p>
 <div id="arg-DK" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.4: <strong>The Drinking Age Argument</strong>
+AA.4: <strong>The Drinking Age Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -539,7 +542,7 @@ A1.4: <strong>The Drinking Age Argument</strong>
 <div id="arg-MA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.5: <strong>The Moral Argument</strong>
+AA.5: <strong>The Moral Argument</strong>
 </figcaption>
 <div aria-describedby="arg-MA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -556,7 +559,7 @@ A1.5: <strong>The Moral Argument</strong>
 <div id="arg-MP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.6: Modus Ponens
+AA.6: Modus Ponens
 </figcaption>
 <div aria-describedby="arg-MP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -572,7 +575,7 @@ A1.6: Modus Ponens
 <div id="arg-RD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.7: <strong>The Rearranged Drinking Age Argument</strong>
+AA.7: <strong>The Rearranged Drinking Age Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -587,7 +590,7 @@ A1.7: <strong>The Rearranged Drinking Age Argument</strong>
 <div id="arg-MD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.8: <strong>The Mangled Drinking Age Argument</strong>
+AA.8: <strong>The Mangled Drinking Age Argument</strong>
 </figcaption>
 <div aria-describedby="arg-MD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -600,13 +603,13 @@ A1.8: <strong>The Mangled Drinking Age Argument</strong>
 </div>
 <p>This one doesn’t have the form “P, if P then Q, so Q” but rather “P, if Q then P, so Q.” This other argument form is called ‘affirming the consequent’, and is clearly invalid. Think about it. You can consistently accept MD1 and MD2 while denying MD3, for instance if you thought Jean Blanc was 18 years old. (You’d still accept MD2, that <em>if</em> he’s twenty, he’s still not allowed to buy alcohol.) By contrast, you can’t consistently accept RD1 and RD2 while denying RD3. That’s because the argument for RD3 is valid, whereas the argument for MD3 is invalid.</p>
 </section>
-<section id="modus-tollens" class="level3" data-number="1.2.2">
-<h3 data-number="1.2.2" class="anchored" data-anchor-id="modus-tollens"><span class="header-section-number">1.2.2</span> Modus Tollens</h3>
+<section id="modus-tollens" class="level3" data-number="A.2.2">
+<h3 data-number="A.2.2" class="anchored" data-anchor-id="modus-tollens"><span class="header-section-number">A.2.2</span> Modus Tollens</h3>
 <p>Another form that guarantees the validity of an argument is what’s called <em>modus tollens</em>, Latin for <em>method of denying</em>. A modus tollens argument is an argument with one premise that’s a conditional, another premise that’s a denial of the consequent of that conditional, and whose conclusion is the denial of the conditional’s antecedent. Using the ‘~’ symbol to symbolize denial, we can display the form of modus tollens arguments as follows:</p>
 <div id="arg-MT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.9: Modus Tollens
+AA.9: Modus Tollens
 </figcaption>
 <div aria-describedby="arg-MT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -621,7 +624,7 @@ A1.9: Modus Tollens
 <div id="arg-WF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-WF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.10: <strong>Whales Aren’t Fish</strong>
+AA.10: <strong>Whales Aren’t Fish</strong>
 </figcaption>
 <div aria-describedby="arg-WF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -635,7 +638,7 @@ A1.10: <strong>Whales Aren’t Fish</strong>
 <div id="arg-FM" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.11: <strong>The Flipped Moral Argument</strong>
+AA.11: <strong>The Flipped Moral Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -652,7 +655,7 @@ A1.11: <strong>The Flipped Moral Argument</strong>
 <div id="arg-FK" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.12: <strong>The Foreknowledge Argument</strong>
+AA.12: <strong>The Foreknowledge Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -667,13 +670,13 @@ A1.12: <strong>The Foreknowledge Argument</strong>
 </div>
 <p>This argument combines a modus ponens argument and a modus tollens argument. The subconclusion FK3 follows, by modus ponens, from FK1 and FK2. And the conclusion FK5 follows, by modus tollens, from FK3 and FK4. Looking back at the Against Fearing Death argument in section 1, you can see that that argument combines two instances of modus ponens: a modus ponens argument from FD1 and FD2 to FD3, and another modus ponens argument from FD3 and FD4 to FD5.</p>
 </section>
-<section id="chained-conditionals" class="level3" data-number="1.2.3">
-<h3 data-number="1.2.3" class="anchored" data-anchor-id="chained-conditionals"><span class="header-section-number">1.2.3</span> Chained Conditionals</h3>
+<section id="chained-conditionals" class="level3" data-number="A.2.3">
+<h3 data-number="A.2.3" class="anchored" data-anchor-id="chained-conditionals"><span class="header-section-number">A.2.3</span> Chained Conditionals</h3>
 <p>Here is a third type of valid argument, which I’ll call a <em>chained conditional</em>, since the conclusion chains together the antecedent of one conditional premise with the consequent of another conditional premise.</p>
 <div id="arg-chained" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-chained-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.13: Chained Conditional
+AA.13: Chained Conditional
 </figcaption>
 <div aria-describedby="arg-chained-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -689,7 +692,7 @@ A1.13: Chained Conditional
 <div id="arg-FN" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FN-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.14: <strong>Against Fearing Non-Existence</strong>
+AA.14: <strong>Against Fearing Non-Existence</strong>
 </figcaption>
 <div aria-describedby="arg-FN-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -703,7 +706,7 @@ A1.14: <strong>Against Fearing Non-Existence</strong>
 <div id="arg-RW" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RW-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.15: <strong>The Right to the Womb Argument</strong>
+AA.15: <strong>The Right to the Womb Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RW-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -715,13 +718,13 @@ A1.15: <strong>The Right to the Womb Argument</strong>
 </figure>
 </div>
 </section>
-<section id="universal-instantiation" class="level3" data-number="1.2.4">
-<h3 data-number="1.2.4" class="anchored" data-anchor-id="universal-instantiation"><span class="header-section-number">1.2.4</span> Universal Instantiation</h3>
+<section id="universal-instantiation" class="level3" data-number="A.2.4">
+<h3 data-number="A.2.4" class="anchored" data-anchor-id="universal-instantiation"><span class="header-section-number">A.2.4</span> Universal Instantiation</h3>
 <p>I’ll mention one more form that a valid argument can have. This one is called <em>universal instantiation</em>, since it involves a “universal” premise claiming that everything belonging to one category also belongs to some second category. Together with an additional premise that one or more particular things belong to the first category, what follows is that those particular things also belong to the second category. Here it is schematically:</p>
 <div id="arg-UI" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.16: Universal Instantiation
+AA.16: Universal Instantiation
 </figcaption>
 <div aria-describedby="arg-UI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -737,7 +740,7 @@ A1.16: Universal Instantiation
 <div id="arg-" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg--caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.17: <strong>The Philosophical Genius Argument</strong>
+AA.17: <strong>The Philosophical Genius Argument</strong>
 </figcaption>
 <div aria-describedby="arg--caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -754,7 +757,7 @@ A1.17: <strong>The Philosophical Genius Argument</strong>
 <div id="arg-CA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.18: <strong>The Cuteness Argument</strong>
+AA.18: <strong>The Cuteness Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -771,15 +774,15 @@ A1.18: <strong>The Cuteness Argument</strong>
 <p>(CA3*) So, Camilla is a thing that is wrong to eat</p>
 </section>
 </section>
-<section id="challenging-modus-ponens-and-modus-tollens" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="challenging-modus-ponens-and-modus-tollens"><span class="header-section-number">1.3</span> Challenging Modus Ponens and Modus Tollens</h2>
+<section id="challenging-modus-ponens-and-modus-tollens" class="level2" data-number="A.3">
+<h2 data-number="A.3" class="anchored" data-anchor-id="challenging-modus-ponens-and-modus-tollens"><span class="header-section-number">A.3</span> Challenging Modus Ponens and Modus Tollens</h2>
 <p>We have now seen four types of valid arguments: modus ponens arguments, modus tollens arguments, chained conditionals, and universal instantiations. These are not the <em>only</em> types of valid argument, and there’s some controversy (in the philosophy of logic) about what would go on a complete list of valid forms of argument. But when you’re constructing arguments of your own, so long as they have one of these four forms—or combine together arguments of these forms in the way suggested in section 2.2—you can be confident that your own argument is valid.</p>
 <p>That said, because I apparently cannot go ten pages without arguing for some outrageous conclusion, I’m now going to argue—contrary to what virtually every philosopher and logician will tell you—that modus ponens and modus tollens arguments are not always valid.</p>
 <p>Let’s start with modus tollens. Consider the following case:</p>
 <div id="exa-flight-confusion" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-flight-confusion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X1.1: <strong>FLIGHT CONFUSION</strong>
+XA.1: <strong>FLIGHT CONFUSION</strong>
 </figcaption>
 <div aria-describedby="exa-flight-confusion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -792,7 +795,7 @@ X1.1: <strong>FLIGHT CONFUSION</strong>
 <div id="arg-DT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.19: <strong>The Defective Tollens</strong>
+AA.19: <strong>The Defective Tollens</strong>
 </figcaption>
 <div aria-describedby="arg-DT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -809,7 +812,7 @@ A1.19: <strong>The Defective Tollens</strong>
 <div id="exa-talent-show" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-talent-show-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X1.2: <strong>TALENT SHOW</strong>
+XA.2: <strong>TALENT SHOW</strong>
 </figcaption>
 <div aria-describedby="exa-talent-show-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -822,7 +825,7 @@ X1.2: <strong>TALENT SHOW</strong>
 <div id="arg-DP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A1.20: <strong>The Defective Ponens</strong>
+AA.20: <strong>The Defective Ponens</strong>
 </figcaption>
 <div aria-describedby="arg-DP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -837,8 +840,8 @@ A1.20: <strong>The Defective Ponens</strong>
 <p>If the argument were valid, then the truth of the premises would guarantee the truth of the conclusion. But since the premises are true and the conclusion is false, the premises clearly <em>don’t</em> guarantee the truth of the conclusion. So, the argument isn’t valid. Thus, not all modus ponens arguments are valid.</p>
 <p>I’ll leave it to you to figure out what (if anything) goes wrong in these arguments against the validity of modus ponens and modus tollens.</p>
 </section>
-<section id="sources" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="sources"><span class="header-section-number">1.4</span> Sources</h2>
+<section id="sources" class="level2" data-number="A.4">
+<h2 data-number="A.4" class="anchored" data-anchor-id="sources"><span class="header-section-number">A.4</span> Sources</h2>
 <p>The argument against modus tollens is drawn from Niko Kolodny and John MacFarlane’s “Ifs and Oughts.” The argument against modus ponens is drawn from Vann McGee’s “A Counterexample to Modus Ponens.” For more on the philosophy of logic, see Susan Haack’s <em>Philosophy of Logics</em> or Mark Sainsbury’s <em>Logical Forms</em>.</p>
 
 

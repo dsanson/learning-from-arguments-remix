@@ -46,15 +46,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-883c0b22796f843cd448eaf39fc9d8e8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-67e8ff9d52557348b936e751ff7cdf33.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-883c0b22796f843cd448eaf39fc9d8e8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-318d471fa8aea764519ae1bb6002aeeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9b89b38f5b7b28d98fe1d96d4133e92b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-318d471fa8aea764519ae1bb6002aeeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -246,19 +246,6 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Learning from Arguments</span>
-    </a>
-  </div>
-        <div class="quarto-navbar-tools tools-end">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-          <div id="quarto-search" class="" title="Search"></div>
-      </div> <!-- /container-fluid -->
-    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -267,13 +254,29 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./introduction.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Learning from Arguments</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -288,7 +291,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About the blono remix</span></a>
+ <span class="menu-text">About this Remix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -455,26 +458,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="authorial-intent">
-
-</div>
 <p>The aim of this book is to introduce you to the topics and methods of philosophy by advancing a series of arguments for controversial philosophical conclusions. That’s what I’ll do in the chapters that follow. In this Introduction, I’ll give you an overview of what I’ll be arguing for in the different chapters (<a href="#sec-the-chapters" class="quarto-xref"><span>1.1</span></a>), explain what an argument is (<a href="#sec-the-elements-of-arguments" class="quarto-xref"><span>1.2</span></a>–<a href="#sec-premises-and-conditionals" class="quarto-xref"><span>1.3</span></a>) and identify some common argumentative strategies (<a href="#sec-argumentative-strategies" class="quarto-xref"><span>1.4</span></a>–<a href="#sec-thought-experiments" class="quarto-xref"><span>1.7</span></a>). I’ll close by saying a few words about what philosophy is.</p>
 <section id="sec-the-chapters" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="sec-the-chapters"><span class="header-section-number">1.1</span> The Chapters</h2>
 <p>As I explained in the preface, each chapter is written in character, representing a specific perspective (not necessarily my own!) on the issue in question. This is not to say that they are all written from the <em>same</em> perspective. You should not expect the separate chapters to fit together into a coherent whole. I realize that this may cause some confusion. But you should take this as an invitation to engage with the book in the way that I intend for you to engage with it: by <em>questioning</em> the claims being made and deciding for yourself whether the reasons and arguments offered in support of those claims are convincing.</p>
 <p>In <a href="evil.html" class="quarto-xref"><span>Chapter 2</span></a>, I advance an argument that an all-powerful and morally perfect God would not allow all the suffering we find in the world, and therefore must not exist. I address a number of attempts to explain why God might allow suffering, for instance that it’s necessary for appreciating the good things that we have, or for building valuable character traits, or for having free will. I also address the response that God has hidden reasons for allowing suffering that we cannot expect to understand.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-wager</span>, I advance an argument that you should believe in God because it is in your best interest: you’re putting yourself in the running for an eternity in heaven without risking losing anything of comparable value. I defend the argument against a variety of objections, for instance that it is incredibly unlikely that God exists, that <em>merely</em> believing in God isn’t enough to gain entry into heaven, and that it’s impossible to change one’s beliefs at will.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-personal-identity</span>, What Makes You You, I criticize a number of attempts to answer the question of personal identity: under what conditions are a person at one time and a person at another time one and the same person? I reject the suggestion that personal identity is a matter of having the same body, on the basis of an argument from conjoined twins and an argument from the possibility of two people swapping bodies. I also reject the suggestion that personal identity can be defined in terms of psychological factors on the strength of “fission” cases in which a single person’s mental life is transferred into two separate bodies.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-death</span>, I advance an argument that death cannot be bad for you, since you don’t experience any painful sensations while dead, and that since death is not bad for you it would be irrational to fear it. I argue that you don’t experience any painful sensations while dead by way of arguing that physical organisms cease to be conscious when they die and that you are a physical organism. I also address the suggestion that what makes death bad for you is that it deprives you of pleasant experiences you would otherwise have had.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-no-freedom</span>, I advance two arguments for the conclusion that no one ever acts freely. The first turns on the idea that all of our actions are determined by something that lies outside our control, namely the strength of our desires. The second turns on the idea that our actions are all consequences of exceptionless, “deterministic” laws of nature. In response to the concern that the laws may not be deterministic, I argue that undetermined, random actions wouldn’t be free either. Finally, I address attempts to show that there can be free will even in a deterministic universe.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-skepticism</span>, I argue for two skeptical conclusions. First, I advance an argument that we cannot know anything about the future. That’s so, I argue, because all of our reasoning about the future relies on an assumption that we have no good reason to accept, namely that the future will resemble the past. Second, I advance an argument that we cannot know anything about how things presently are in the world around us, since we cannot rule out the possibility that we are currently having an incredibly vivid dream.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-coercion</span>, I argue that it is wrong for governments to tax or imprison their citizens, on the grounds that these practices are not relevantly different from a vigilante locking vandals in her basement and robbing her neighbors to pay for her makeshift prison. I address a variety of putative differences, with special attention to the suggestion that we have tacitly consented to following the law and paying taxes and thereby entered into a “social contract” with the government.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-abortion</span>, I examine a number of arguments both for and against the immorality of abortion. I argue that the question cannot be settled by pointing to the fact that the embryo isn’t self-sufficient or conscious or rational, nor by pointing to the fact that it has human DNA, that it is a potential person, or that life begins at conception. I then examine the argument that abortion is immoral because the embryo has a right to life, and I show that the argument fails since having a right to life doesn’t entail having a right to use the mother’s womb. Finally, I advance an alternative argument for the immorality of abortion, according to which this killing, like other killings, is wrong because it deprives its victim of a valuable future. I close the chapter by arguing that, although immoral, abortion should not be illegal.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-eating-animals</span>, I defend the view that it is immoral to eat meat that comes from so-called “factory farms.” I begin by criticizing three common reasons for thinking that eating meat is morally acceptable: because people have always eaten meat, because eating meat is necessary, and because eating meat is natural. I then argue that eating factory-farmed meat is immoral, on the grounds that it would be immoral to raise and slaughter puppies in similar ways and for similar reasons.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-utilitarianism</span>, I advance a “utilitarian” theory of morality, according to which the rightness or wrongness of an action is always entirely a matter of the extent to which it increases or decreases overall levels of happiness in the world. I defend the theory against the objection that it wrongly permits killing one person to save five. Along the way, I consider the ways in which morality is and isn’t subjective and variable across cultures, and what to say about the notorious “trolley cases.”</p>
-<p>In <span class="quarto-unresolved-ref">?sec-logic</span>, I examine one of the features that makes an argument a good argument, namely <em>validity</em>. I explain what it means for an argument to be valid, and I provide illustrations of different types of valid arguments.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-writing</span>, I present a model for writing papers for philosophy courses: introduce the view or argument you plan to criticize (<a href="writing.html#sec-target" class="quarto-xref"><span>2.1</span></a>) advance your objections (<a href="writing.html#sec-advancing" class="quarto-xref"><span>2.2</span></a>), and address likely responses to your objections (<a href="writing.html#sec-anticipating" class="quarto-xref"><span>2.3</span></a>). I explain the importance of clear and unpretentious writing that is charitable towards opposing viewpoints; I offer advice for editing rough drafts; I identify some criteria that philosophy instructors commonly use when evaluating papers; and I explain the difference between consulting online sources and plagiarizing them.</p>
-<p>In <span class="quarto-unresolved-ref">?sec-theses-and-arguments</span>, I collect together the key arguments and theses discussed in the book. Readers may find it helpful to have a printed copy of this appendix at hand, or have it open in a separate tab, while reading through the chapters.</p>
+<p>In <a href="wager.html" class="quarto-xref"><span>Chapter 3</span></a>, I advance an argument that you should believe in God because it is in your best interest: you’re putting yourself in the running for an eternity in heaven without risking losing anything of comparable value. I defend the argument against a variety of objections, for instance that it is incredibly unlikely that God exists, that <em>merely</em> believing in God isn’t enough to gain entry into heaven, and that it’s impossible to change one’s beliefs at will.</p>
+<p>In <a href="personal-identity.html" class="quarto-xref"><span>Chapter 4</span></a>, What Makes You You, I criticize a number of attempts to answer the question of personal identity: under what conditions are a person at one time and a person at another time one and the same person? I reject the suggestion that personal identity is a matter of having the same body, on the basis of an argument from conjoined twins and an argument from the possibility of two people swapping bodies. I also reject the suggestion that personal identity can be defined in terms of psychological factors on the strength of “fission” cases in which a single person’s mental life is transferred into two separate bodies.</p>
+<p>In <a href="death.html" class="quarto-xref"><span>Chapter 5</span></a>, I advance an argument that death cannot be bad for you, since you don’t experience any painful sensations while dead, and that since death is not bad for you it would be irrational to fear it. I argue that you don’t experience any painful sensations while dead by way of arguing that physical organisms cease to be conscious when they die and that you are a physical organism. I also address the suggestion that what makes death bad for you is that it deprives you of pleasant experiences you would otherwise have had.</p>
+<p>In <a href="no-freedom.html" class="quarto-xref"><span>Chapter 6</span></a>, I advance two arguments for the conclusion that no one ever acts freely. The first turns on the idea that all of our actions are determined by something that lies outside our control, namely the strength of our desires. The second turns on the idea that our actions are all consequences of exceptionless, “deterministic” laws of nature. In response to the concern that the laws may not be deterministic, I argue that undetermined, random actions wouldn’t be free either. Finally, I address attempts to show that there can be free will even in a deterministic universe.</p>
+<p>In <a href="skepticism.html" class="quarto-xref"><span>Chapter 7</span></a>, I argue for two skeptical conclusions. First, I advance an argument that we cannot know anything about the future. That’s so, I argue, because all of our reasoning about the future relies on an assumption that we have no good reason to accept, namely that the future will resemble the past. Second, I advance an argument that we cannot know anything about how things presently are in the world around us, since we cannot rule out the possibility that we are currently having an incredibly vivid dream.</p>
+<p>In <a href="coercion.html" class="quarto-xref"><span>Chapter 8</span></a>, I argue that it is wrong for governments to tax or imprison their citizens, on the grounds that these practices are not relevantly different from a vigilante locking vandals in her basement and robbing her neighbors to pay for her makeshift prison. I address a variety of putative differences, with special attention to the suggestion that we have tacitly consented to following the law and paying taxes and thereby entered into a “social contract” with the government.</p>
+<p>In <a href="abortion.html" class="quarto-xref"><span>Chapter 9</span></a>, I examine a number of arguments both for and against the immorality of abortion. I argue that the question cannot be settled by pointing to the fact that the embryo isn’t self-sufficient or conscious or rational, nor by pointing to the fact that it has human DNA, that it is a potential person, or that life begins at conception. I then examine the argument that abortion is immoral because the embryo has a right to life, and I show that the argument fails since having a right to life doesn’t entail having a right to use the mother’s womb. Finally, I advance an alternative argument for the immorality of abortion, according to which this killing, like other killings, is wrong because it deprives its victim of a valuable future. I close the chapter by arguing that, although immoral, abortion should not be illegal.</p>
+<p>In <a href="eating-animals.html" class="quarto-xref"><span>Chapter 10</span></a>, I defend the view that it is immoral to eat meat that comes from so-called “factory farms.” I begin by criticizing three common reasons for thinking that eating meat is morally acceptable: because people have always eaten meat, because eating meat is necessary, and because eating meat is natural. I then argue that eating factory-farmed meat is immoral, on the grounds that it would be immoral to raise and slaughter puppies in similar ways and for similar reasons.</p>
+<p>In <a href="utilitarianism.html" class="quarto-xref"><span>Chapter 11</span></a>, I advance a “utilitarian” theory of morality, according to which the rightness or wrongness of an action is always entirely a matter of the extent to which it increases or decreases overall levels of happiness in the world. I defend the theory against the objection that it wrongly permits killing one person to save five. Along the way, I consider the ways in which morality is and isn’t subjective and variable across cultures, and what to say about the notorious “trolley cases.”</p>
+<p>In <a href="logic.html" class="quarto-xref"><span>Appendix A</span></a>, I examine one of the features that makes an argument a good argument, namely <em>validity</em>. I explain what it means for an argument to be valid, and I provide illustrations of different types of valid arguments.</p>
+<p>In <a href="writing.html" class="quarto-xref"><span>Appendix B</span></a>, I present a model for writing papers for philosophy courses: introduce the view or argument you plan to criticize (<a href="writing.html#sec-target" class="quarto-xref"><span>B.1</span></a>) advance your objections (<a href="writing.html#sec-advancing" class="quarto-xref"><span>B.2</span></a>), and address likely responses to your objections (<a href="writing.html#sec-anticipating" class="quarto-xref"><span>B.3</span></a>). I explain the importance of clear and unpretentious writing that is charitable towards opposing viewpoints; I offer advice for editing rough drafts; I identify some criteria that philosophy instructors commonly use when evaluating papers; and I explain the difference between consulting online sources and plagiarizing them.</p>
+<p>In <a href="theses-and-arguments.html" class="quarto-xref"><span>Appendix C</span></a>, I collect together the key arguments and theses discussed in the book. Readers may find it helpful to have a printed copy of this appendix at hand, or have it open in a separate tab, while reading through the chapters.</p>
 </section>
 <section id="sec-the-elements-of-arguments" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="sec-the-elements-of-arguments"><span class="header-section-number">1.2</span> The Elements of Arguments</h2>
@@ -496,12 +496,12 @@ A1.1: <strong>Against Fearing Death</strong>
 </div>
 </figure>
 </div>
-<p><a href="logic.html#arg-FD" class="quarto-xref">A<span>1.3</span></a> The argument has three premises: FD1, FD2, and FD4. FD5 is the conclusion of the argument, since that’s what the argument is ultimately trying to establish. FD3 is a subconclusion. It isn’t <em>the</em> conclusion, since the ultimate goal of the argument is to establish that you shouldn’t fear death, not that being dead isn’t bad for you (which is just a step along the way). Nor is it a premise, since it isn’t merely being assumed. Rather, it’s been <em>argued</em> for: it is meant to be established by FD1 and FD2.</p>
+<p><a href="logic.html#arg-FD" class="quarto-xref">A<span>A.3</span></a> The argument has three premises: FD1, FD2, and FD4. FD5 is the conclusion of the argument, since that’s what the argument is ultimately trying to establish. FD3 is a subconclusion. It isn’t <em>the</em> conclusion, since the ultimate goal of the argument is to establish that you shouldn’t fear death, not that being dead isn’t bad for you (which is just a step along the way). Nor is it a premise, since it isn’t merely being assumed. Rather, it’s been <em>argued</em> for: it is meant to be established by FD1 and FD2.</p>
 <p>In this book, you can always tell which claims in the labeled and indented arguments are premises, conclusions, and subconclusions. The conclusion is always the final claim in the sequence. The subconclusions are anything that begins with a “So” other than the final claim. Any claim that doesn’t begin with “So” is a premise.</p>
 <p>However, when it comes to unlabeled arguments—arguments appearing in paragraph form—all bets are off. For instance, I might say:</p>
 <p>Death isn’t bad for you. After all, you cease to be conscious when you die, and something can’t be bad for you if you’re not even aware of it. And if that’s right, then you shouldn’t fear death, since it would be irrational to fear something that isn’t bad for you.</p>
 <p>The paragraph begins with a subconclusion, the conclusion shows up right in the middle of the paragraph, and neither of them is preceded by a ‘So’. Here, you have to use some brain-power and clues from the context to figure out which bits are the basic assumptions (the premises), which bit is the conclusion, and which bits are mere subconclusions.</p>
-<p>All of the labeled arguments in the book are constructed in such a way that the conclusion is a <em>logical consequence</em> of the premises—or, as I sometimes put it, the conclusion “follows from” the premises. You may or may not agree with FD1, and you may or may not agree with FD2. But what you can’t deny is that FD1 and FD2 together entail FD3. If FD3 is false, then it must be that either FD1 or FD2 (or both) is false. You would be contradicting yourself if you accepted FD1 and FD2 but denied FD3. Because all the arguments are constructed in this way, you cannot reject the conclusion of any of the labeled arguments in the book while agreeing with all of the premises. You must find some premise to deny if you do not want to accept the conclusion. (See <span class="quarto-unresolved-ref">?sec-logic</span> for more on how to tell when a conclusion is a logical consequence of some premises.)</p>
+<p>All of the labeled arguments in the book are constructed in such a way that the conclusion is a <em>logical consequence</em> of the premises—or, as I sometimes put it, the conclusion “follows from” the premises. You may or may not agree with FD1, and you may or may not agree with FD2. But what you can’t deny is that FD1 and FD2 together entail FD3. If FD3 is false, then it must be that either FD1 or FD2 (or both) is false. You would be contradicting yourself if you accepted FD1 and FD2 but denied FD3. Because all the arguments are constructed in this way, you cannot reject the conclusion of any of the labeled arguments in the book while agreeing with all of the premises. You must find some premise to deny if you do not want to accept the conclusion. (See <a href="logic.html" class="quarto-xref"><span>Appendix A</span></a> for more on how to tell when a conclusion is a logical consequence of some premises.)</p>
 </section>
 <section id="sec-premises-and-conditionals" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="sec-premises-and-conditionals"><span class="header-section-number">1.3</span> Premises and Conditionals</h2>
@@ -646,7 +646,7 @@ A1.9: <strong>The Temporary Anesthesia Argument</strong>
 </div>
 <p>Argument by counterexample is a very common argumentative strategy, and we’ll see many examples in the different chapters of the book.</p>
 <p>It’s important to realize that these arguments do not require saying that embryos are in every way analogous to worms or to temporarily anesthetized adults, or that killing an embryo is the moral equivalent of killing a worm or a temporarily anesthetized adult. The arguments from counterexamples formulated above don’t say anything at all about embryos. Rather, they’re giving independent reasons for rejecting the general principles (BH2 and CN2) being employed in the Beating Heart Argument and the Consciousness Argument.</p>
-<p>One last thing. You’ll sometimes encounter claims in the book that include the phrase “if and only if.” For instance, later on in the book we’ll address the question of what makes something bad for you. Breaking your leg is bad for you, and relaxing in a hot tub isn’t bad for you. Those are just some examples of things that are and aren’t bad for you, but suppose we wanted to give a more general answer to the question of what makes something bad for you. Here’s a first stab at doing so, which we’ll encounter in <span class="quarto-unresolved-ref">?sec-death</span>:</p>
+<p>One last thing. You’ll sometimes encounter claims in the book that include the phrase “if and only if.” For instance, later on in the book we’ll address the question of what makes something bad for you. Breaking your leg is bad for you, and relaxing in a hot tub isn’t bad for you. Those are just some examples of things that are and aren’t bad for you, but suppose we wanted to give a more general answer to the question of what makes something bad for you. Here’s a first stab at doing so, which we’ll encounter in <a href="death.html" class="quarto-xref"><span>Chapter 5</span></a>:</p>
 <div id="HD" class="thesis">
 <ul>
 <li>(HD) Something is bad for you if and only if it’s painful</li>
@@ -659,7 +659,7 @@ A1.9: <strong>The Temporary Anesthesia Argument</strong>
 </section>
 <section id="sec-argument-by-analogy" class="level2" data-number="1.6">
 <h2 data-number="1.6" class="anchored" data-anchor-id="sec-argument-by-analogy"><span class="header-section-number">1.6</span> Argument by Analogy</h2>
-<p>Another common argumentative strategy is argument by analogy. We’ll encounter such arguments repeatedly in this book. Here is an example from <span class="quarto-unresolved-ref">?sec-coercion</span>, which is meant to show that it’s wrong for the government to tax and imprison its citizens:</p>
+<p>Another common argumentative strategy is argument by analogy. We’ll encounter such arguments repeatedly in this book. Here is an example from <a href="coercion.html" class="quarto-xref"><span>Chapter 8</span></a>, which is meant to show that it’s wrong for the government to tax and imprison its citizens:</p>
 <div id="exa-vigilante" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-vigilante-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -695,7 +695,7 @@ A1.10: <strong>Against Taxation and Imprisonment</strong>
 <section id="sec-thought-experiments" class="level2" data-number="1.7">
 <h2 data-number="1.7" class="anchored" data-anchor-id="sec-thought-experiments"><span class="header-section-number">1.7</span> Thought Experiments</h2>
 <p>The VIGILANTE case is what’s called a <em>thought experiment</em>. In a thought experiment, a fictional scenario is presented—some more realistic than others—and then readers are asked for their intuitive reactions to the case. We’ll see many more examples throughout the book.</p>
-<p>Thought experiments can be put to work in defending or challenging an argument in a number of different ways. We just saw how they can play a role in argument by analogy. They also often play a supporting role in arguments by counterexample. In <span class="quarto-unresolved-ref">?sec-no-freedom</span>, for instance, we’ll encounter the following argument for the idea that we sometimes do things of our own free will:</p>
+<p>Thought experiments can be put to work in defending or challenging an argument in a number of different ways. We just saw how they can play a role in argument by analogy. They also often play a supporting role in arguments by counterexample. In <a href="no-freedom.html" class="quarto-xref"><span>Chapter 6</span></a>, for instance, we’ll encounter the following argument for the idea that we sometimes do things of our own free will:</p>
 <div id="arg-FR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -710,7 +710,7 @@ A1.11: <strong>The Argument for Freedom</strong>
 </div>
 </figure>
 </div>
-<p>The second premise, FR2, says that so long as someone does what they decided to do, that by itself suffices for it to count as a free action. Later on, in <span class="quarto-unresolved-ref">?sec-no-freedom</span>, I try to cast doubt on this premise with the following thought experiment:</p>
+<p>The second premise, FR2, says that so long as someone does what they decided to do, that by itself suffices for it to count as a free action. Later on, in <a href="no-freedom.html" class="quarto-xref"><span>Chapter 6</span></a>, I try to cast doubt on this premise with the following thought experiment:</p>
 <div id="exa-hypnotic-decision" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hypnotic-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -724,7 +724,7 @@ X1.2: <strong>HYPNOTIC DECISION</strong>
 <p>Colton did do exactly what he decided to do, namely tackle Kabir. But when we think about this case, it seems to us, intuitively, that Colton did not <em>freely</em> tackle Kabir; this isn’t something he did of his own free will. So HYPNOTIC DECISION looks to be a counterexample to FR2, which is reason to reject FR2 and think that the Argument for Freedom fails.</p>
 <p>When it comes to thought experiments, the details matter, and the cases we’ll use in this book are carefully constructed with an eye to the work they’re intended to do. HYPNOTIC DECISION, for example, is carefully constructed to serve as a counterexample to FR2, and in order for it do so it’s crucial that Colton tackles Kabir as a result of Tia’s hypnotic suggestion.</p>
 <p>At times, you might naturally wonder what happens if we vary the details of a case. For instance, you may wonder: what if Colton snaps out of Tia’s hypnotic control at the last second, but still decides to tackle Kabir? Well, that’s a different case. Let’s call it HYPNOTIC BREAK. HYPNOTIC BREAK isn’t a counterexample to FR2, since intuitively Colton <em>is</em> acting freely in this new case. But that doesn’t change the fact that the original case, HYPNOTIC DECISION, <em>is</em> a counterexample to FR2. And so long as there’s <em>one</em> counterexample to FR2, that’s enough to show that it’s false.</p>
-<p>At times, you may find that the description of the thought experiment leaves out some important details, and you may be tempted to fill in the details in ways that make them more interesting. For instance, in <span class="quarto-unresolved-ref">?sec-utilitarianism</span> you’ll be asked whether Corrine did the right thing in the following case:</p>
+<p>At times, you may find that the description of the thought experiment leaves out some important details, and you may be tempted to fill in the details in ways that make them more interesting. For instance, in <a href="utilitarianism.html" class="quarto-xref"><span>Chapter 11</span></a> you’ll be asked whether Corrine did the right thing in the following case:</p>
 <div id="exa-trolley-lever" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-trolley-lever-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">

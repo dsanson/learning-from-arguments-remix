@@ -65,15 +65,15 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-883c0b22796f843cd448eaf39fc9d8e8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-67e8ff9d52557348b936e751ff7cdf33.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-883c0b22796f843cd448eaf39fc9d8e8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-318d471fa8aea764519ae1bb6002aeeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9b89b38f5b7b28d98fe1d96d4133e92b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-318d471fa8aea764519ae1bb6002aeeb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -99,7 +99,7 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -265,19 +265,6 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Learning from Arguments</span>
-    </a>
-  </div>
-        <div class="quarto-navbar-tools tools-end">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-          <div id="quarto-search" class="" title="Search"></div>
-      </div> <!-- /container-fluid -->
-    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -286,13 +273,29 @@ div.csl-indent {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./evil.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Learning from Arguments</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -307,7 +310,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About the blono remix</span></a>
+ <span class="menu-text">About this Remix</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -488,13 +491,19 @@ div.csl-indent {
 <section id="sec-argument-from-suffering" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="sec-argument-from-suffering"><span class="header-section-number">2.2</span> The Argument from Suffering</h2>
 <p>My argument that God doesn’t exist is easy to state and highly intuitive:</p>
-<div id="arg-AS" class="argument">
+<div id="arg-AS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-arg figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+A2.1: <strong>The Argument from Suffering</strong>
+</figcaption>
+<div aria-describedby="arg-AS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
 <li>(AS1) There is suffering in the world</li>
 <li>(AS2) If there is suffering in the world, then God does not exist</li>
 <li>(AS3) So, God does not exist</li>
 </ul>
-<p><strong>The Argument from Suffering</strong></p>
+</div>
+</figure>
 </div>
 <p>By ‘suffering’, here, I mean any pain or discomfort that living beings experience—large or small, physical or emotional.</p>
 <p>The first premise, AS1, is entirely uncontroversial. Even if your life has gone pretty smoothly, you could still fill a book with the pains and sufferings—large and small, physical and emotional—that you have experienced. And that’s just <em>one</em> life.</p>
@@ -512,13 +521,19 @@ div.csl-indent {
 <p>Second, it’s hard to deny that there are <em>some</em> good things that truly are unobtainable without at least some suffering. For instance, there’s something valuable about the sense of accomplishment you feel after overcoming some obstacle. That sense of accomplishment would arguably be impossible unless there was some struggle, and there can be no struggle without suffering. In cases like these, we can see why an omnibeing might allow certain sorts of suffering.</p>
 <p>I want to concede that even an omnibeing could and would sometimes allow people to suffer. This suggests (once again) that AS2 is overstated: even if there is an omnibeing, that doesn’t necessarily mean that we shouldn’t expect to see <em>any</em> suffering. That said, all I really need in order to show that there is no omnibeing is that <em>some</em> of the suffering we endure serves no conceivable purpose.</p>
 <p>Let us then replace the Argument from Suffering with the following Argument from <em>Pointless</em> Suffering:</p>
-<div id="arg-PS" class="argument">
+<div id="arg-PS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-arg figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+A2.2: <strong>The Argument from Pointless Suffering</strong>
+</figcaption>
+<div aria-describedby="arg-PS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
 <li>(PS1) There is pointless suffering in the world</li>
 <li>(PS2) If there is pointless suffering in the world, then there is no omnibeing</li>
 <li>(PS3) So, there is no omnibeing</li>
 </ul>
-<p><strong>The Argument from Pointless Suffering</strong></p>
+</div>
+</figure>
 </div>
 <p>PS1 is admittedly more controversial than AS1, since PS1 says not just that there is suffering but that some of that suffering serves no purpose. Still, PS1 is highly plausible. For instance, even if some amount of struggle can add a good deal of value to a life, it is hard to imagine what purpose could possibly be served by the insurmountable and demoralizing challenges that so many people face, simply trying to find food and shelter. The idea behind PS2 is that an omnibeing can allow suffering <em>only if</em> there is some good reason for allowing it. But, by definition (of ‘pointless’), there is no good reason for allowing pointless suffering. So, if there is pointless suffering, it must be because there is no omnibeing around to prevent it.</p>
 <p>Notice that in the original Argument from Suffering the first premise (AS1) was entirely uncontroversial and the second premise (AS2) was the one to challenge. Now the reverse is true. The second premise (PS2) is now uncontroversial—an omnibeing can’t allow suffering <em>for no reason</em>—and it’s the first premise that I expect believers to challenge.</p>
@@ -555,13 +570,19 @@ div.csl-indent {
 <p>To help see this, let’s return to the example from the beginning of the chapter. You are touring the country of Nornia and observe a mix of wondrous and terrible sights. Having seen all the poverty, injustice, pollution, road hazards, corruption, inefficiency, cruelty, etc., you laugh off the suggestion that the ruler of the country has limitless power, perfect compassion, and complete knowledge of everything that goes on in his country.</p>
 <p>Now suppose that your tour guide reminds you that Nornia is a <em>very</em> large country, most of which you haven’t seen. She reminds you that the ruler is privy to classified information and has concerns and projects that you know nothing about. She reminds you that, for all you know, the poverty, pollution, and so on are all a necessary part of his master plan for creating the best of all possible countries. Reminded of all this, should you now believe what your tour guide says, that the country has a ruler with unchecked power, knowledge, and compassion? Of course not. You should continue laughing.</p>
 <p>This suggests the following argument against appealing to hidden reasons:</p>
-<div id="arg-DB" class="argument">
+<div id="arg-DB" class="argument quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-arg figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DB-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+A2.3: <strong>The Argument for Disbelief</strong>
+</figcaption>
+<div aria-describedby="arg-DB-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
 <li>(DB1) You should not believe that all the suffering in Nornia is necessary for some unknown greater good that its ruler has in mind</li>
 <li>(DB2) If you should not believe that all the suffering in Nornia is necessary for some unknown greater good that its ruler has in mind, then you should not believe that all the suffering in the actual world is necessary for some unknown greater good that an omnibeing has in mind</li>
 <li>(DB3) So, you should not believe that all the suffering in the actual world is necessary for some unknown greater good that an omnibeing has in mind</li>
 </ul>
-<p><strong>The Argument for Disbelief</strong></p>
+</div>
+</figure>
 </div>
 <p>DB1 is plausible. You can of course admit that it’s <em>possible</em> that the ruler knowingly allows all the corruption and cruelty and poverty as an ingenious means to some benevolent end, just as you can admit that it’s <em>possible</em> that the earth is flat and that all the evidence to the contrary is part of some elaborate hoax. You can admit that there’s a remote possibility that flat-earthers are right, but that obviously doesn’t mean you should believe that they <em>are</em> right. Likewise, even if you admit that there’s a remote possibility that the tour guide is telling the truth, that doesn’t mean you should believe what she says.</p>
 <p>As for DB2, the idea is that we ought to give similar answers to the question of whether the ruler has good, hidden reasons for all the suffering in Nornia and the question of whether God has good, hidden reasons for all the suffering in the universe. There is no difference between what we know about Nornia and what we know about the universe that could make it reasonable to believe in hidden reasons in the one case but not the other.</p>
