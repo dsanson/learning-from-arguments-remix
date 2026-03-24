@@ -1,3 +1,24 @@
+---
+bibliography: skepticism.json
+nocite: |
+  @greco2014
+  @greco2014a
+  @nagel2016c
+  @nagel2016b
+  @nagel2016
+  @descartes1996a
+  @zhuangzi2013a
+  @huemer1999
+  @markosian2014a
+  @nagel2014
+  @rinard2018
+  @salmon1975
+  @stine1976b
+  @stolz2021
+  @weintraub2008
+  @wilson2003
+---
+
 # You Know Nothing {#sec-skepticism}
 
 {{< include _authorial-endorsement.md >}}
@@ -702,29 +723,15 @@ present experiences are part of an unusually vivid dream.
 
 The Against Knowing the Future Argument---more commonly known as the problem
 of induction---can be found in David Hume's *Enquiry Concerning Human
-Understanding*. The Magic 8-Ball example is drawn from Richard Fumerton's
-*Metaepistemology*. The Dreaming Argument is drawn from René Descartes's
-*Meditations on First Philosophy*, and also has roots in Zhuangzi's
-"Discussion on Making All Things Equal." See Fred Dretske's "Is Knowledge
-Closed Under Known Entailment?" for discussion of the Argument from Deduction.
-The joke about the philosopher's dream in @sec-can-you-tell-dreaming is from Raymond Smullyan's
-*5000 BC and Other Philosophical Fantasies*. Here are some additional
-resources:
+Understanding*. The Magic 8-Ball example is drawn from @fumerton1995. The
+Dreaming Argument is drawn from René Descartes's *Meditations on First
+Philosophy*, and also has roots in Zhuangzi's "Discussion on Making All Things
+Equal." See @dretske2013 for discussion of the Argument from Deduction. The
+joke about the philosopher's dream in @sec-can-you-tell-dreaming is from
+@smullyan1983. Here are some additional resources:
 
-- Daniel Greco: Hume's Skepticism
-  http://www.wi-phi.com/video/humes-skepticism-part-1
-  http://www.wi-phi.com/video/humes-skepticism-part-2
-- Michael Huemer: The Problem of Memory Knowledge
-- Ned Markosian: Do You Know That You Are Not a Brain in a Vat?
-- Jennifer Nagel: *Knowledge: A Very Short Introduction*
-- Jennifer Nagel: wi-phi videos on external-world skepticism
-  http://www.wi-phi.com/video/problem-skepticism
-  http://www.wi-phi.com/video/three-responses-skepticism
-  http://www.wi-phi.com/video/new-responses-skepticism
-- Susanna Rinard: Reasoning One's Way Out of Skepticism
-- Wesley Salmon: An Encounter with David Hume
-- Gail Stine: Skepticism, Relevant Alternatives, and Deductive Closure
-- Jonathan Stoltz: *Illuminating the Mind: An Introduction to Buddhist
-  Epistemology*
-- Ruth Weintraub: Skepticism about Induction
-- Catherine Wilson: *Descartes's Meditations: An Introduction* (ch.2)
+
+
+<!-- TODO: best version of Hume's Enquiry -->
+
+

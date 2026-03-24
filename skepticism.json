@@ -1,0 +1,464 @@
+[
+  {
+    "id": "descartes1996a",
+    "author": [
+      {
+        "family": "Descartes",
+        "given": "René"
+      }
+    ],
+    "citation-key": "descartes1996a",
+    "editor": [
+      {
+        "family": "Cottingham",
+        "given": "John"
+      }
+    ],
+    "ISBN": "0-521-55252-4 978-0-521-55252-3 0-521-55818-2 978-0-521-55818-1",
+    "issued": {
+      "date-parts": [
+        [
+          "1996"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "New York",
+    "title": "Meditations on first philosophy",
+    "type": "book"
+  },
+  {
+    "id": "dretske2013",
+    "author": [
+      {
+        "family": "Dretske",
+        "given": "Fred"
+      }
+    ],
+    "citation-key": "dretske2013",
+    "container-title": "Contemporary Debates in Epistemology",
+    "editor": [
+      {
+        "family": "Steup",
+        "given": "Matthias"
+      },
+      {
+        "family": "Turri",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "page": "13–26",
+    "publisher": "Wiley-Blackwell",
+    "source": "PhilPapers",
+    "title": "Is Knowledge Closed Under Known Entailment? The Case Against Closure",
+    "title-short": "Is Knowledge Closed Under Known Entailment?",
+    "type": "chapter"
+  },
+  {
+    "id": "fumerton1995",
+    "author": [
+      {
+        "family": "Fumerton",
+        "given": "Richard"
+      }
+    ],
+    "citation-key": "fumerton1995",
+    "ISBN": "978-0-8476-8107-5",
+    "issued": {
+      "date-parts": [
+        [
+          "1995"
+        ]
+      ]
+    },
+    "language": "English",
+    "number-of-pages": "248",
+    "publisher": "Rowman & Littlefield",
+    "publisher-place": "Lanham, Md",
+    "source": "Amazon",
+    "title": "Metaepistemology and Skepticism",
+    "type": "book"
+  },
+  {
+    "id": "greco2014",
+    "author": [
+      {
+        "family": "Greco",
+        "given": "Daniel"
+      }
+    ],
+    "citation-key": "greco2014",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          11,
+          28
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Hume’s Skepticism Part 2",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/humes-skepticism-part-2/"
+  },
+  {
+    "id": "greco2014a",
+    "author": [
+      {
+        "family": "Greco",
+        "given": "Daniel"
+      }
+    ],
+    "citation-key": "greco2014a",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          11,
+          20
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Hume’s Skepticism Part 1",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/humes-skepticism-part-1/"
+  },
+  {
+    "id": "huemer1999",
+    "author": [
+      {
+        "family": "Huemer",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "huemer1999",
+    "container-title": "Pacific Philosophical Quarterly",
+    "DOI": "10.1111/1468-0114.00088",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "page": "346–357",
+    "publisher": "Blackwell",
+    "source": "PhilPapers",
+    "title": "The Problem of Memory Knowledge",
+    "type": "article-journal",
+    "volume": "80"
+  },
+  {
+    "id": "markosian2014a",
+    "author": [
+      {
+        "family": "Markosian",
+        "given": "Ned"
+      }
+    ],
+    "citation-key": "markosian2014a",
+    "container-title": "Logos and Episteme",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "page": "161–181",
+    "title": "Do You Know That You Are Not a Brain in a Vat?",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "id": "nagel2014",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Jennifer"
+      }
+    ],
+    "call-number": "BD161 .N24 2014",
+    "citation-key": "nagel2014",
+    "collection-number": "400",
+    "collection-title": "Very short introductions",
+    "edition": "First edition",
+    "ISBN": "978-0-19-966126-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "note": "OCLC: ocn876680745",
+    "number-of-pages": "133",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "Library of Congress ISBN",
+    "title": "Knowledge: a very short introduction",
+    "title-short": "Knowledge",
+    "type": "book"
+  },
+  {
+    "id": "nagel2016",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Jennifer"
+      }
+    ],
+    "citation-key": "nagel2016",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          2,
+          17
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Epistemology: 2. The Problem of Skepticism",
+    "title-short": "Epistemology",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/the-problem-of-skepticism/"
+  },
+  {
+    "id": "nagel2016b",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Jennifer"
+      }
+    ],
+    "citation-key": "nagel2016b",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          2,
+          26
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Epistemology: 4. New Responses to Skepticism",
+    "title-short": "Epistemology",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/new-responses-to-skepticism/"
+  },
+  {
+    "id": "nagel2016c",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Jennifer"
+      }
+    ],
+    "citation-key": "nagel2016c",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          2,
+          19
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Epistemology: 3. Three Responses to Skepticism",
+    "title-short": "Epistemology",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/three-responses-to-skepticism/"
+  },
+  {
+    "id": "rinard2018",
+    "author": [
+      {
+        "family": "Rinard",
+        "given": "Susanna"
+      }
+    ],
+    "citation-key": "rinard2018",
+    "container-title": "The Mystery of Skepticism: New Explorations",
+    "editor": [
+      {
+        "family": "McCain",
+        "given": "Kevin"
+      },
+      {
+        "family": "Poston",
+        "given": "Ted"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    },
+    "page": "240–264",
+    "publisher": "Brill",
+    "source": "PhilPapers",
+    "title": "Reasoning One's Way Out of Skepticism",
+    "type": "chapter"
+  },
+  {
+    "id": "salmon1975",
+    "author": [
+      {
+        "family": "Salmon",
+        "given": "Wesley"
+      }
+    ],
+    "citation-key": "salmon1975",
+    "container-title": "Reason and Responsibility",
+    "edition": "3",
+    "editor": [
+      {
+        "family": "Feinberg",
+        "given": "Joel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "page": "190–208",
+    "publisher": "Dickenson Publishing",
+    "publisher-place": "Encino",
+    "title": "An Encounter with David Hume",
+    "type": "chapter"
+  },
+  {
+    "id": "smullyan1983",
+    "author": [
+      {
+        "family": "Smullyan",
+        "given": "Raymond M."
+      }
+    ],
+    "citation-key": "smullyan1983",
+    "ISBN": "978-0-312-29516-5",
+    "issued": {
+      "date-parts": [
+        [
+          "1983"
+        ]
+      ]
+    },
+    "language": "eng",
+    "note": "Open Library ID: OL21215992M",
+    "number-of-pages": "182",
+    "publisher": "St. Martin's Press",
+    "publisher-place": "New York",
+    "source": "The Open Library",
+    "title": "5000 B.C. and other philosophical fantasies",
+    "type": "book"
+  },
+  {
+    "id": "stine1976b",
+    "author": [
+      {
+        "family": "Stine",
+        "given": "G. C."
+      }
+    ],
+    "citation-key": "stine1976b",
+    "container-title": "Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition",
+    "ISSN": "00318116, 15730883",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1976"
+        ]
+      ]
+    },
+    "page": "249–261",
+    "title": "Skepticism, relevant alternatives, and deductive closure",
+    "type": "article-journal",
+    "URL": "http://www.jstor.org/stable/4319027",
+    "volume": "29"
+  },
+  {
+    "id": "weintraub2008",
+    "author": [
+      {
+        "family": "Weintraub",
+        "given": "Ruth"
+      }
+    ],
+    "citation-key": "weintraub2008",
+    "container-title": "The Oxford handbook of skepticism",
+    "editor": [
+      {
+        "family": "Greco",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "page": "129",
+    "publisher": "Oxford University Press",
+    "source": "PhilArchive",
+    "title": "Skepticism About Induction",
+    "type": "chapter",
+    "URL": "https://philarchive.org/rec/WEISAI"
+  },
+  {
+    "id": "wilson2003",
+    "author": [
+      {
+        "family": "Wilson",
+        "given": "Catherine"
+      }
+    ],
+    "citation-key": "wilson2003",
+    "collection-title": "Cambridge introductions to key philosophical texts",
+    "DOI": "10.1017/CBO9780511805004",
+    "ISBN": "978-0-521-00766-5 978-0-511-80500-4",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "language": "eng",
+    "number-of-pages": "1",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "K10plus ISBN",
+    "title": "Descartes's Meditations: an introduction",
+    "title-short": "Descartes's Meditations",
+    "type": "book"
+  }
+]

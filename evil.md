@@ -1,16 +1,4 @@
 ---
-crossref:
-  custom:
-  - caption-location: top
-    key: arg
-    kind: float
-    reference-prefix: A
-    space-before-numbering: false
-  - caption-location: top
-    key: exa
-    kind: float
-    reference-prefix: X
-    space-before-numbering: false
 nocite: |
   @adams2009; @adams2000; @antony2007; @chiang2002a; @clack2013;
   @ekstrom2004; @frances2013; @haslanger2013; @alimobini2013;
@@ -18,7 +6,7 @@ nocite: |
 bibliography: evil.json
 ---
 
-# Can God Allow Suffering? {#sec-god-suffering}
+# Can God Allow Suffering? {#sec-can-god-allow-suffering}
 
 {{< include _authorial-endorsement.md >}}
 
