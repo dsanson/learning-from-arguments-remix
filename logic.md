@@ -1,3 +1,7 @@
+---
+bibliography: logic.json
+---
+
 # Logic {#sec-logic}
 
 Throughout this book, I present arguments, defend their premises, and then
@@ -465,8 +469,7 @@ arguments against the validity of modus ponens and modus tollens.
 
 ## Sources
 
-The argument against modus tollens is drawn from Niko Kolodny and John
-MacFarlane's "Ifs and Oughts." The argument against modus ponens is drawn from
-Vann McGee's "A Counterexample to Modus Ponens." For more on the philosophy of
-logic, see Susan Haack's *Philosophy of Logics* or Mark Sainsbury's *Logical
-Forms*.
+The argument against modus tollens is drawn from @kolodny2010. The argument against modus ponens is drawn from
+@mcgee1985. For more on the philosophy of
+logic, see @haack2007 or @sainsbury2001.
+

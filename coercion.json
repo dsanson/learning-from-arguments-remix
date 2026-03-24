@@ -1,0 +1,260 @@
+[
+  {
+    "id": "anderson2014a",
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "Luvell"
+      }
+    ],
+    "citation-key": "anderson2014a",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          6,
+          17
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "The Original Position",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/the-original-position/"
+  },
+  {
+    "id": "boonin2008",
+    "author": [
+      {
+        "family": "Boonin",
+        "given": "David"
+      }
+    ],
+    "citation-key": "boonin2008",
+    "ISBN": "978-0-511-81925-4 978-0-511-38833-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "language": "eng",
+    "number-of-pages": "1",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge New York",
+    "source": "K10plus ISBN",
+    "title": "The problem of punishment",
+    "type": "book"
+  },
+  {
+    "id": "cahn2022",
+    "call-number": "JA71 .P6225 2022",
+    "citation-key": "cahn2022",
+    "edition": "Fourth edition",
+    "editor": [
+      {
+        "family": "Cahn",
+        "given": "Steven M."
+      }
+    ],
+    "ISBN": "978-0-19-760917-0 978-0-19-760918-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "number-of-pages": "1",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "Political philosophy: the essential texts",
+    "title-short": "Political philosophy",
+    "type": "book"
+  },
+  {
+    "id": "gilbert2006",
+    "author": [
+      {
+        "family": "Gilbert",
+        "given": "Margaret"
+      }
+    ],
+    "call-number": "JC329.5 .G55 2006",
+    "citation-key": "gilbert2006",
+    "ISBN": "978-0-19-927495-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2006"
+        ]
+      ]
+    },
+    "number-of-pages": "332",
+    "publisher": "Clarendon Press ; Oxford University Press",
+    "publisher-place": "Oxford : New York",
+    "source": "Library of Congress ISBN",
+    "title": "A theory of political obligation: membership, commitment, and the bonds of society",
+    "title-short": "A theory of political obligation",
+    "type": "book"
+  },
+  {
+    "id": "hampton1984",
+    "author": [
+      {
+        "family": "Hampton",
+        "given": "Jean"
+      }
+    ],
+    "citation-key": "hampton1984",
+    "container-title": "Philosophy & Public Affairs",
+    "ISSN": "0048-3915",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1984"
+        ]
+      ]
+    },
+    "page": "208–238",
+    "publisher": "Wiley",
+    "source": "JSTOR",
+    "title": "The Moral Education Theory of Punishment",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2265412",
+    "volume": "13"
+  },
+  {
+    "id": "hampton1997",
+    "author": [
+      {
+        "family": "Hampton",
+        "given": "Jean"
+      }
+    ],
+    "call-number": "JA71 .H275 1997",
+    "citation-key": "hampton1997",
+    "collection-title": "Dimensions of philosophy series",
+    "ISBN": "978-0-8133-0857-9 978-0-8133-0858-6",
+    "issued": {
+      "date-parts": [
+        [
+          "1997"
+        ]
+      ]
+    },
+    "number-of-pages": "272",
+    "publisher": "Westview Press",
+    "publisher-place": "Boulder, Colo",
+    "source": "Library of Congress ISBN",
+    "title": "Political philosophy",
+    "type": "book"
+  },
+  {
+    "id": "huemer2013a",
+    "author": [
+      {
+        "family": "Huemer",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "huemer2013a",
+    "edition": "1",
+    "ISBN": "978-1-137-28165-4 978-1-137-28166-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "publisher": "Palgrave Macmillan",
+    "publisher-place": "New York",
+    "title": "The problem of political authority: an examination of the right to coerce and the duty to obey",
+    "type": "book"
+  },
+  {
+    "id": "rawls1999",
+    "author": [
+      {
+        "family": "Rawls",
+        "given": "John"
+      }
+    ],
+    "citation-key": "rawls1999",
+    "edition": "Revised",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "language": "en",
+    "note": "Item ID: _:n3",
+    "publisher": "Harvard University Press",
+    "publisher-place": "Cambridge, MA",
+    "title": "A theory of justice",
+    "type": "book"
+  },
+  {
+    "id": "stark2000",
+    "author": [
+      {
+        "family": "Stark",
+        "given": "Cynthia"
+      }
+    ],
+    "citation-key": "stark2000",
+    "container-title": "Journal of Philosophy",
+    "DOI": "10.2307/2678406",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          "2000"
+        ]
+      ]
+    },
+    "page": "313",
+    "source": "PhilArchive",
+    "title": "Hypothetical Consent and Justification",
+    "type": "article-journal",
+    "URL": "https://philarchive.org/rec/STAHCA-7",
+    "volume": "97"
+  },
+  {
+    "id": "wellman2005",
+    "author": [
+      {
+        "family": "Wellman",
+        "given": "Christopher Heath"
+      },
+      {
+        "family": "Simmons",
+        "given": "Alan John"
+      }
+    ],
+    "citation-key": "wellman2005",
+    "collection-title": "For and against",
+    "ISBN": "978-0-511-80928-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2005"
+        ]
+      ]
+    },
+    "language": "eng",
+    "number-of-pages": "1",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "K10plus ISBN",
+    "title": "Is there a duty to obey the law?",
+    "type": "book"
+  }
+]

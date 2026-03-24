@@ -1,0 +1,399 @@
+[
+  {
+    "id": "boonin2003",
+    "author": [
+      {
+        "family": "Boonin",
+        "given": "David"
+      }
+    ],
+    "call-number": "HQ767.15 .B66 2003",
+    "citation-key": "boonin2003",
+    "collection-title": "Cambridge studies in philosophy and public policy",
+    "ISBN": "978-0-521-81701-1 978-0-521-52035-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "number-of-pages": "350",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge, UK ; New York",
+    "source": "Library of Congress ISBN",
+    "title": "A defense of abortion",
+    "type": "book"
+  },
+  {
+    "id": "boonin2019",
+    "author": [
+      {
+        "family": "Boonin",
+        "given": "David"
+      }
+    ],
+    "call-number": "HQ767.15 .B658 2019",
+    "citation-key": "boonin2019",
+    "ISBN": "978-0-19-090484-5 978-0-19-090483-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "number-of-pages": "212",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York, NY",
+    "source": "Library of Congress ISBN",
+    "title": "Beyond roe: why abortion should be legal--even if the fetus is a person",
+    "title-short": "Beyond roe",
+    "type": "book"
+  },
+  {
+    "id": "callahan1986",
+    "author": [
+      {
+        "family": "Callahan",
+        "given": "Sydney"
+      }
+    ],
+    "citation-key": "callahan1986",
+    "container-title": "Commonweal",
+    "issued": {
+      "date-parts": [
+        [
+          "1986",
+          4,
+          25
+        ]
+      ]
+    },
+    "page": "232–238",
+    "title": "Abortion and the sexual agenda: A case for pro-life feminism",
+    "type": "article-magazine",
+    "volume": "113"
+  },
+  {
+    "id": "cudd1990",
+    "author": [
+      {
+        "family": "Cudd",
+        "given": "Ann E."
+      }
+    ],
+    "citation-key": "cudd1990",
+    "container-title": "Philosophical Studies",
+    "DOI": "10.1007/bf00370976",
+    "issue": "1–2",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "page": "47–59",
+    "publisher": "Springer",
+    "source": "PhilPapers",
+    "title": "Enforced Pregnancy, Rape, and the Image of Woman",
+    "type": "article-journal",
+    "volume": "60"
+  },
+  {
+    "id": "english1975",
+    "author": [
+      {
+        "family": "English",
+        "given": "Jane"
+      }
+    ],
+    "citation-key": "english1975",
+    "container-title": "Canadian Journal of Philosophy",
+    "ISSN": "0045-5091",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "page": "233–243",
+    "publisher": "[Taylor & Francis, Ltd., Canadian Journal of Philosophy]",
+    "source": "JSTOR",
+    "title": "Abortion and the Concept of a Person",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/40230568",
+    "volume": "5"
+  },
+  {
+    "id": "harman1999",
+    "author": [
+      {
+        "family": "Harman",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "harman1999",
+    "container-title": "Philosophy and Public Affairs",
+    "DOI": "10.1111/j.1088-4963.1999.00310.x",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "page": "310–324",
+    "publisher": "Wiley-Blackwell",
+    "source": "PhilPapers",
+    "title": "Creation Ethics: The Moral Status of Early Fetuses and the Ethics of Abortion",
+    "title-short": "Creation Ethics",
+    "type": "article-journal",
+    "volume": "28"
+  },
+  {
+    "id": "harman2003",
+    "author": [
+      {
+        "family": "Harman",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "harman2003",
+    "container-title": "Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition",
+    "ISSN": "0031-8116",
+    "issue": "1/2",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "page": "173–198",
+    "publisher": "Springer",
+    "source": "JSTOR",
+    "title": "The Potentiality Problem",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/4321378",
+    "volume": "114"
+  },
+  {
+    "id": "harman2021",
+    "author": [
+      {
+        "family": "Harman",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "harman2021",
+    "container-title": "New York Daily News",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          12,
+          9
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "What Amy Coney Barrett doesn’t understand about abortion",
+    "type": "article-newspaper",
+    "URL": "https://www.nydailynews.com/2021/12/09/what-amy-coney-barrett-doesnt-understand-about-abortion/"
+  },
+  {
+    "id": "harris1986",
+    "author": [
+      {
+        "family": "Harris",
+        "given": "George W."
+      }
+    ],
+    "citation-key": "harris1986",
+    "container-title": "Ethics",
+    "ISSN": "0014-1704",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1986"
+        ]
+      ]
+    },
+    "page": "594–603",
+    "publisher": "University of Chicago Press",
+    "source": "JSTOR",
+    "title": "Fathers and Fetuses",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2381073",
+    "volume": "96"
+  },
+  {
+    "id": "little1999",
+    "author": [
+      {
+        "family": "Little",
+        "given": "Margaret Olivia"
+      }
+    ],
+    "citation-key": "little1999",
+    "container-title": "Ethical Theory and Moral Practice",
+    "ISSN": "1386-2820",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "page": "295–312",
+    "publisher": "Springer",
+    "source": "JSTOR",
+    "title": "Abortion, Intimacy, and the Duty to Gestate",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/27504096",
+    "volume": "2"
+  },
+  {
+    "id": "marquis1989",
+    "author": [
+      {
+        "family": "Marquis",
+        "given": "Don"
+      }
+    ],
+    "citation-key": "marquis1989",
+    "container-title": "The Journal of Philosophy",
+    "DOI": "10.2307/2026961",
+    "ISSN": "0022-362X",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1989"
+        ]
+      ]
+    },
+    "page": "183–202",
+    "publisher": "Journal of Philosophy, Inc.",
+    "source": "JSTOR",
+    "title": "Why Abortion is Immoral",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2026961",
+    "volume": "86"
+  },
+  {
+    "id": "norcross1990",
+    "author": [
+      {
+        "family": "Norcross",
+        "given": "Alastair"
+      }
+    ],
+    "citation-key": "norcross1990",
+    "container-title": "The Journal of Philosophy",
+    "DOI": "10.2307/2026835",
+    "ISSN": "0022-362X",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "page": "268–277",
+    "publisher": "Journal of Philosophy, Inc.",
+    "source": "JSTOR",
+    "title": "Killing, Abortion, and Contraception: A Reply to Marquis",
+    "title-short": "Killing, Abortion, and Contraception",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2026835",
+    "volume": "87"
+  },
+  {
+    "id": "thomson1971",
+    "author": [
+      {
+        "family": "Thomson",
+        "given": "Judith Jarvis"
+      }
+    ],
+    "citation-key": "thomson1971",
+    "container-title": "Philosophy and Public Affairs",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "1971"
+        ]
+      ]
+    },
+    "page": "47–66",
+    "publisher": "Wiley-Blackwell",
+    "source": "PhilPapers",
+    "title": "A Defense of Abortion",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "id": "tooley1972",
+    "author": [
+      {
+        "family": "Tooley",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "tooley1972",
+    "container-title": "Philosophy & Public Affairs",
+    "ISSN": "0048-3915",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "1972"
+        ]
+      ]
+    },
+    "page": "37–65",
+    "publisher": "Wiley",
+    "source": "JSTOR",
+    "title": "Abortion and Infanticide",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2264919",
+    "volume": "2"
+  },
+  {
+    "id": "warren1973",
+    "author": [
+      {
+        "family": "Warren",
+        "given": "Mary Anne"
+      }
+    ],
+    "citation-key": "warren1973",
+    "container-title": "The Monist",
+    "ISSN": "0026-9662",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "1973"
+        ]
+      ]
+    },
+    "page": "43–61",
+    "publisher": "Oxford University Press",
+    "source": "JSTOR",
+    "title": "On the Moral and Legal Status of Abortion",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/27902294",
+    "volume": "57"
+  }
+]

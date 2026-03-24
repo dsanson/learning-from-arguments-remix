@@ -1,8 +1,29 @@
+---
+bibliography: eating-animals.json
+nocite: |
+  @anderson2004
+  @humaneventures
+  @chignell2016
+  @diamond1978
+  @engel2019
+  @doggett2014
+  @gruen2011
+  @harman2011
+  @huemer2019
+  @gonzalez2015
+  @jauernig
+  @korsgaard2015
+  @lomasky2013
+  @mcmahan2010
+  @singer1975
+  @fosterwallace2004
+---
+
 # Eating Animals is Immoral {#sec-eating-animals}
 
 {{< include _authorial-endorsement.md >}}
 
-## Introduction
+## Introduction {#sec-eating-animals-introduction}
 
 In what follows, I will defend the view that, in most cases, buying and eating
 meat is morally impermissible. First, I will argue that there is no good
@@ -11,8 +32,8 @@ address three common reasons for thinking that it's not wrong to eat meat:
 that it is natural to eat meat, that it is necessary to eat meat, and that
 people have always eaten meat. Second, I argue directly for the immorality of
 buying and eating meat, by developing an analogy in which puppies are
-subjected to much the same treatment as farm animals (sections 5-6). I then
-defend my argument from analogy against various objections (sections 7- 8).
+subjected to much the same treatment as farm animals (sections [-@sec-meet-meat]--[-@sec-fred-and-his-puppies]). I then
+defend my argument from analogy against various objections (sections [-@sec-morally-relevant-differences]--[-@sec-no-impact-objection]).
 
 In defending the claim that it is morally impermissible for you to eat meat, I
 will be making some assumptions about you. First, I am assuming that you know
@@ -51,7 +72,7 @@ people to eat *certain* types of meat in *certain* situations, that doesn't
 mean that it's okay for you---in the situation you currently find yourself
 in---to eat whatever meat you want whenever you want.
 
-## The Argument from Precedent
+## The Argument from Precedent {#sec-argument-from-precedent}
 
 In the United States, we consume somewhere around ten billion farm animals per
 year. Eating lots of animals involves killing lots of conscious creatures,
@@ -222,7 +243,7 @@ permissibility of eating meat:
 :::
 
 We already saw, however, that NP1 is false. I listed a number of alternative
-sources of protein in section 1 (broccoli, peanut butter, etc.), and it is
+sources of protein in @sec-eating-animals-introduction (broccoli, peanut butter, etc.), and it is
 well known that getting your protein from these sources is healthier than
 getting it from meat. There is no truth to claim that eating meat is necessary
 for getting enough protein. Indeed, a number of top athletes some of the
@@ -300,13 +321,13 @@ online "how-to" guides for beak trimming, dehorning, castrating, and
 tail-docking, as well as online catalogs selling farmers equipment for
 performing these mutilations.
 
-## Fred and His Puppies
+## Fred and His Puppies {#sec-fred-and-his-puppies}
 
 I will assume in what follows that when you eat meat, you are buying meat that
 came from a CAFO---which, as I said above, is almost certainly the case if you
 are not making a special effort and financial sacrifice to buy only humanely
 raised meat. (If you *are* making this effort, the argument does not apply to
-you. But a revised version of the argument might. More on this in section 9.)
+you. But a revised version of the argument might. More on this in @sec-beyond-factory-farming.)
 I will argue that it is immoral for you to buy and eat that meat by presenting
 you with a fictional case involving the horrific treatment of puppies, and
 arguing that there is no morally relevant difference between what is done in
@@ -353,7 +374,7 @@ FP2 should strike you as obvious. Some, despite finding it obvious, may still
 wring their hands, remembering that in some cultures dogs are routinely killed
 and eaten for food. If you are wringing your hands, you should remind yourself
 that there are also cultures in which they routinely mutilate the genitals of
-young girls. Next, you should re-read section 2 above and remind yourself that
+young girls. Next, you should re-read @sec-argument-from-precedent above and remind yourself that
 the fact that lots of people engage in some practice doesn't make it morally
 permissible, for them or for you. The fact that some people mutilate their own
 daughters' genitals, raise dogs for food, or (for that matter) confine,
@@ -437,7 +458,7 @@ Cocoamone does make a positive contribution to Fred's *psychological* health.
 He loves the taste of chocolate, and the thought of never tasting it again is
 very depressing for him. Perhaps you'll object that meat doesn't merely make a
 positive contribution to one's health; meat (unlike cocoamone) is *necessary*
-for a healthy diet. But as we saw in section 4, that's just false. There is
+for a healthy diet. But as we saw in @sec-argument-from-necessity, that's just false. There is
 nothing, protein included, that's needed for survival or health and that can
 only be gotten from meat.
 
@@ -470,7 +491,7 @@ true even when we revise the story to incorporate something more analogous to
 the indirect harm of buying meat. The putative morally relevant difference
 between the cases disappears and can no longer serve as an objection to FP3.
 
-## The No Impact Objection
+## The No Impact Objection {#sec-no-impact-objection}
 
 Let's consider one last attempt to identify a morally relevant difference
 between you and Fred. Here, the idea is that if Fred stops what he's doing
@@ -600,7 +621,7 @@ dairy that come from CAFOs.
 
 What Fred does is immoral. But there's no morally relevant difference between
 him caging and mutilating the puppies for their cocoamone, and you buying and
-consuming eggs and dairy from CAFOs. (See section 7 for a reminder about why
+consuming eggs and dairy from CAFOs. (See @sec-morally-relevant-differences for a reminder about why
 Fred has no choice but to cage and mutilate the puppies.)
 
 How about meat from humanely raised animals? Here, again, we can look to Fred
@@ -696,7 +717,7 @@ to a 100% (or 99%) vegetarian diet.
     slaughtering puppies won't double as a defense of slaughtering human
     infants.
 3.  Can you defend one of the putative morally relevant differences discussed
-    in sections 7 and 8 against my objections? Or can you think of a morally
+    in sections -@sec-morally-relevant-differences and -@sec-no-impact-objection against my objections? Or can you think of a morally
     relevant difference that was not discussed?
 4.  If not for the meat industry, the billions of animals raised and
     slaughtered annually for food would never have existed. Could this fact be
@@ -709,47 +730,12 @@ to a 100% (or 99%) vegetarian diet.
 ## Sources
 
 The discussion of the Arguments from Precedent, Naturalness, and Necessity
-draws heavily from Dan Lowe's "Common Arguments for the Moral Acceptability of
-Eating Meat." The Argument from Fred's Puppies and subsequent discussion is
-drawn from Alastair Norcross's "Puppies, Pigs, and People." The argument from
-killing mice in section 8 is drawn from Mike Archer's "Ordering the Vegetarian
-Meal? There's More Animal Blood on Your Hands," and the response to that
-argument is drawn from the All Animals Australia blog's "Debunking 'Ordering
-the Vegetarian Meal?'" The statistics in section 8 about the proportion of
-crops grown to feed animals are drawn from Brad Plumer's "How Much of the
-World's Cropland is Actually Used to Grow Food?" Here are some additional
+draws heavily from @lowe2016a. The Argument from Fred's Puppies and subsequent discussion is
+drawn from @norcross2004. The argument from
+killing mice in @sec-no-impact-objection is drawn from @archer2011, and the response to that
+argument is drawn from @allanimalsaustralia2014. The statistics in @sec-no-impact-objection about the proportion of
+crops grown to feed animals are drawn from @plumer2014.
+Here are some additional
 resources:
 
-- Elizabeth Anderson: Animal Rights and the Values of Nonhuman Life
 
-- Animal Kill Clock https://animalclock.org/
-
-- Andrew Chignell, Terence Cuneo, and Matthew C. Halteman: *Philosophy Comes
-  to Dinner*
-
-- Cora Diamond: Eating Meat and Eating People
-
-- Tyler Doggett: Killing Animals for Food
-  http://www.wi-phi.com/video/killing-animals-food
-
-- Mylan Engel Jr.: Fishy Reasoning and the Ethics of Eating
-
-- Lori Gruen: *Ethics and Animals: An Introduction*
-
-- Elizabeth Harman: The Moral Significance of Animal Pain and Animal Death
-
-- Bojack Horseman: https://www.youtube.com/watch?v=y4xytsouUYo
-
-- Michael Huemer: *Dialogues on Ethical Vegetarianism*
-
-- Anja Jauernig: Speaking Up for Animals
-
-- Christine Korsgaard: A Kantian Case for Animal Rights
-
-- Loren Lomasky: Is it Wrong to Eat Animals?
-
-- Jeff McMahan: The Meat Eaters
-
-- Peter Singer: All Animals are Equal
-
-- David Foster Wallace: Consider the Lobster

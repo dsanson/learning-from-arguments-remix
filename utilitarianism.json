@@ -1,0 +1,279 @@
+[
+  {
+    "id": "crashcourse2016a",
+    "citation-key": "crashcourse2016a",
+    "dimensions": "10:01",
+    "director": [
+      {
+        "literal": "CrashCourse"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          11,
+          21
+        ]
+      ]
+    },
+    "source": "YouTube",
+    "title": "Utilitarianism: Crash Course Philosophy #36",
+    "title-short": "Utilitarianism",
+    "type": "motion_picture",
+    "URL": "https://www.youtube.com/watch?v=-a739VjqdSI"
+  },
+  {
+    "id": "foot1967",
+    "author": [
+      {
+        "family": "Foot",
+        "given": "Philippa"
+      }
+    ],
+    "citation-key": "foot1967",
+    "container-title": "Oxford Review",
+    "issued": {
+      "date-parts": [
+        [
+          "1967"
+        ]
+      ]
+    },
+    "page": "5–15",
+    "source": "PhilArchive",
+    "title": "The Problem of Abortion and the Doctrine of the Double Effect",
+    "type": "article-journal",
+    "URL": "https://philarchive.org/rec/FOOTPO-2",
+    "volume": "5"
+  },
+  {
+    "id": "harris1975",
+    "author": [
+      {
+        "family": "Harris",
+        "given": "John"
+      }
+    ],
+    "citation-key": "harris1975",
+    "container-title": "Philosophy",
+    "ISSN": "0031-8191",
+    "issue": "191",
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "page": "81–87",
+    "publisher": "Cambridge University Press",
+    "source": "JSTOR",
+    "title": "The Survival Lottery",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/3749647",
+    "volume": "50"
+  },
+  {
+    "id": "leguin2017",
+    "author": [
+      {
+        "family": "Le Guin",
+        "given": "Ursula K."
+      }
+    ],
+    "citation-key": "leguin2017",
+    "ISBN": "978-0-06-247097-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "publisher": "HarperCollins",
+    "title": "The ones who walk away from Omelas",
+    "type": "book"
+  },
+  {
+    "id": "markovits2014",
+    "author": [
+      {
+        "family": "Markovits",
+        "given": "Julia"
+      }
+    ],
+    "citation-key": "markovits2014",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          9,
+          26
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Utilitarianism Part 1",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/utilitarianism-part-1/"
+  },
+  {
+    "id": "markovits2014a",
+    "author": [
+      {
+        "family": "Markovits",
+        "given": "Julia"
+      }
+    ],
+    "citation-key": "markovits2014a",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Utilitarianism Part 2",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/utilitarianism-part-2/"
+  },
+  {
+    "id": "masicampo2016",
+    "citation-key": "masicampo2016",
+    "dimensions": "0:26",
+    "director": [
+      {
+        "family": "Masicampo",
+        "given": "E.J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          8,
+          31
+        ]
+      ]
+    },
+    "source": "YouTube",
+    "title": "A two-year-old's solution to the trolley problem",
+    "type": "motion_picture",
+    "URL": "https://www.youtube.com/watch?v=-N_RZJUAQY4"
+  },
+  {
+    "id": "mason2022",
+    "author": [
+      {
+        "family": "Mason",
+        "given": "Elinor"
+      }
+    ],
+    "call-number": "HQ1190",
+    "citation-key": "mason2022",
+    "ISBN": "978-1-315-40662-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "number-of-pages": "1",
+    "publisher": "Routledge",
+    "publisher-place": "Abingdon, Oxon ; New York, NY",
+    "source": "Library of Congress ISBN",
+    "title": "Feminist philosophy: an introduction",
+    "title-short": "Feminist philosophy",
+    "type": "book"
+  },
+  {
+    "id": "shafer-landau2024",
+    "author": [
+      {
+        "family": "Shafer-Landau",
+        "given": "Russ"
+      }
+    ],
+    "call-number": "BJ1012",
+    "citation-key": "shafer-landau2024",
+    "edition": "Sixth edition",
+    "ISBN": "978-0-19-769749-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
+    },
+    "number-of-pages": "1",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "Fundamentals of ethics",
+    "type": "book"
+  },
+  {
+    "id": "smart1973",
+    "author": [
+      {
+        "family": "Smart",
+        "given": "J. J. C."
+      },
+      {
+        "family": "Williams",
+        "given": "Bernard"
+      }
+    ],
+    "citation-key": "smart1973",
+    "ISBN": "978-0-521-09822-9 978-0-521-20297-8",
+    "issued": {
+      "date-parts": [
+        [
+          "1973"
+        ]
+      ]
+    },
+    "language": "eng",
+    "number-of-pages": "155",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "K10plus ISBN",
+    "title": "Utilitarianism for and against",
+    "type": "book"
+  },
+  {
+    "id": "thomson1985",
+    "author": [
+      {
+        "family": "Thomson",
+        "given": "Judith Jarvis"
+      }
+    ],
+    "citation-key": "thomson1985",
+    "container-title": "The Yale Law Journal",
+    "DOI": "10.2307/796133",
+    "ISSN": "0044-0094",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          "1985"
+        ]
+      ]
+    },
+    "page": "1395–1415",
+    "publisher": "The Yale Law Journal Company, Inc.",
+    "source": "JSTOR",
+    "title": "The Trolley Problem",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/796133",
+    "volume": "94"
+  }
+]

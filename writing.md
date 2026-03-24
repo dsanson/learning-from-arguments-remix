@@ -450,7 +450,6 @@ Most importantly, you must make sure to acknowledge any sources you're drawing
 from by promptly citing them in your paper. Otherwise, you may be charged with
 *plagiarism*, that is, presenting someone else's work as your own. This
 includes not only directly copying and pasting sentences
-
 from outside sources without putting them in quotation marks and citing the
 source, but also copying sentences from outside sources and changing around
 some of the words. Here are some examples of plagiarism that I've encountered

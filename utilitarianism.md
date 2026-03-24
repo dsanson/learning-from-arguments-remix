@@ -1,8 +1,21 @@
+---
+bibliography: utilitarianism.json
+nocite:  |
+  @crashcourse2016a
+  @harris1975
+  @leguin2017
+  @smart1973
+  @markovits2014
+  @markovits2014a
+  @markovits2014b
+  @masicampo2016
+---
+
 # What Makes Things Right {#sec-utilitarianism}
 
 {{< include _authorial-endorsement.md >}}
 
-## Utilitarianism
+## Utilitarianism {#sec-utilitarianism-intro}
 
 We're constantly confronted with questions about the right or wrong thing to
 do. Some arise in our daily lives: is it wrong to download pirated movies, run
@@ -92,7 +105,7 @@ something other than happiness (for instance, people getting what they want,
 even when it doesn't make them happy). Additionally, act utilitarianism
 describes *one* way in which morality might be a function of happiness, but
 there are other possible ways of saying what the function is. For instance, as
-we'll see in section 4, one could say that it's a function not simply of how
+we'll see in @sec-rule-utilitarianism, one could say that it's a function not simply of how
 one's specific actions affect people's happiness but rather of how the *rules*
 that one is following generally tend to affect people's happiness.
 
@@ -341,7 +354,7 @@ seems to be the right result in ORGAN DISTRIBUTION.
 The problem with rule utilitarianism is that it faces counterexamples of its
 own---counterexamples that, to my mind, are even more damning than the alleged
 counterexample to act utilitarianism. For instance, recall the case mentioned
-in section 2 where I break my promise to take you to the airport because, on
+in @sec-why-accept-act-utilitarianism where I break my promise to take you to the airport because, on
 my way to get you, I find someone desperately in need of medical attention and
 decide to drive them to the hospital instead. Clearly, I am doing the right
 thing in that case. But rule utilitarianism says that I've done the wrong
@@ -520,27 +533,19 @@ person to save five.
 
 Classic defenses of utilitarianism can be found in Jeremy Bentham's
 *Principles of Morals and Legislation* and John Stuart Mill's
-*Utilitarianism*. See Philippa Foot's "The Problem of Abortion and the
-Doctrine of Double Effect" and Judith Jarvis Thomson's "The Trolley Problem"
-for discussion of the organ distribution and trolley cases. See Russ
-Shafer-Landau's *The Fundamentals of Ethics* for a broader overview of
-theories of well-being and morality. See the opening chapter of Elinor Mason's
-*Feminist Philosophy* (titled 'Feminism in the Multicultural Context') on
+*Utilitarianism*. See @foot1967 and @thomson1985. See @shafer-landau2024 for a
+broader overview of theories of well-being and morality. See the opening
+chapter of @mason2022 (titled 'Feminism in the Multicultural Context') on
 defending universal values in the face of cultural disagreement. Here are some
 additional resources:
 
-- E.F. Carritt: Criticisms of Utilitarianism
-- Crash Course Philosophy: Utilitarianism
-  https://www.youtube.com/watch?v=-a739VjqdSI
-- Josh Harris: The Survival Lottery
-- Ursula K. Le Guin: The Ones Who Walk Away from Omelas
-- Julia Markovitz: Utilitarianism
-  http://www.wi-phi.com/video/utilitarianism-part-1
-  http://www.wi-phi.com/video/utilitarianism-part-2
-  http://www.wi-phi.com/video/utilitarianism-part-3
-- Mozi: Universal Love
-- Nicholas: A Nonstandard Solution to the Trolley Problem
-  https://www.youtube.com/watch?v=-N_RZJUAQY4
+
+<!-- TODO bentham and mill 
+
+- E.F. Carritt: Criticisms of Utilitarianism This is a selection from @carritt1947,
+as republished in @vaughn2012. Not sure how best to cite.
+- Bernard Williams: Utilitarianism and Integrity 
 - Alastair Norcross: Consequences Make Actions Right
-- J.C.C. Smart and Bernard Williams: *Utilitarianism: For and Against*
-- Bernard Williams: Utilitarianism and Integrity
+- Mozi: Universal Love
+-->
+
