@@ -1,15 +1,15 @@
 ## About this Remix {-}
 
-This is a draft of a "remixed" version of Danel Z. Korman's [Learning from Arguments: An
+This is a draft of a remixed version of Danel Z. Korman's [Learning from Arguments: An
 Introduction to Philosophy](https://philarchive.org/rec/KORLFA). 
 
 The first goal of the remix is accessibility. Using 
-[Quarto](https://quarto.org/), it should be easy to produce a standards-compliant accessible 
-HTML version of the book and an accessible tagged PDF version from the same source. 
+[Quarto 1.9](https://quarto.org/), it should be easy to produce a standards-compliant accessible 
+HTML version of the book and an accessible tagged PDF version from the same source.
 
-A second goal is customizability. When I adopt a textbook for my courses, I
-get irritated by small things. So I want the freedom to tweak the details to fit my 
-idiosyncratic preferences. Also, while I really like Dan's book, I don't always want
+A second goal is customizability. When I adopt a textbook for my courses, I often
+get irritated at small things, and want the freedom to tweak the details to fit my 
+idiosyncratic preferences. But also, while I really like Dan's book, I don't always want
 to teach exactly the topics Dan has chosen to cover. This remix should make it easy
 for me to incorporate additional chapters on other topics, written in the same style.
 
@@ -37,26 +37,26 @@ TODO: add instructions for setting this up.
 
 ## TODO
 
-- [ ] Fix all cross-references. (in progress)
+- [x] Fix all cross-references to sections and chapters.
 - [x] Format all tables
+- [x] Rewrite the sources/recommended resources using citeproc and embed bibliographic info in metadata.
 - [x] Format and tag all arguments using the custom float crossref king 'arg-'.
 - [x] Format and tag all thought experiments using the custom float crossref king 'exa-'.
-- [ ] Figure out best way to tag and format theses.
-    - [ ] Current plan: format as definition lists; wrap in div with class "thesis".
-    - [ ] Consider ways to make crossreference-able without onerous numbering.
-- [ ] Figure out how best to render Korman's preferred "standard form" arguments in HTML
-- [ ] Figure out how best to render Korman's preferred "standard form" arguments in PDF output using LaTeX
-- [ ] Figure out how best to render Korman's preferred "standard form" arguments in PDF output using Typst
-- [ ] Appendix C is a list of all arguments and theses. This needs to be:
-  - [ ] Formatted in a reasonable way without extraneous numbering. (Quarto doesn't like unnumbered figures)
-  - [ ] Preferably automatically generated from the chapter content.
+- [ ] How best to tag and format theses?
+    - [x] Currently: formatted as definition lists and wrapped in div with class "thesis".
+    - [ ] Consider ways to allow cross-referencing without adding numbers (something Quarto doesn't like to do).
+- [ ] Rendering Korman's version of "standard form":
+  - [ ] Ideally, using a lua filter to transform into well-formed lists in each output format.
+  - [x] In HTML and ePub, using CSS hacks.
+  - [ ] In PDF using LaTeX
+  - [ ] In PDF using Typst
+- [ ] Appendix C
+  - [ ] Ideally generate automatically, like `\listoffigures`. 
   - [ ] Consider also including all the thought experiments.
-- [ ] Rewrite the sources/recommended resources using citeproc and embed bibliographic info in metadata.
-- [ ] Enable PDF generation
-- [ ] Fix PDF formatting.
-
-
+- [x] Enable ePub generation
+- [ ] Enable PDF generation using LaTeX
+- [ ] Enable PDF generation using Typst
+- [ ] Provide instructions for how to fork, build, modify, and host one's own version.
 
 [CC BY-NC]: https://creativecommons.org/licenses/by-nc/4.0/
-
 
