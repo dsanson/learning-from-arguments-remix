@@ -33,7 +33,7 @@ that it is natural to eat meat, that it is necessary to eat meat, and that
 people have always eaten meat. Second, I argue directly for the immorality of
 buying and eating meat, by developing an analogy in which puppies are
 subjected to much the same treatment as farm animals (sections [-@sec-meet-meat]--[-@sec-fred-and-his-puppies]). I then
-defend my argument from analogy against various objections (sections [-@sec-morally-relevant-differences]--[-@sec-no-impact-objection]).
+defend my argument from analogy against various objections (sections [-@sec-morally-relevant-differences-animals]--[-@sec-no-impact-objection]).
 
 In defending the claim that it is morally impermissible for you to eat meat, I
 will be making some assumptions about you. First, I am assuming that you know
@@ -389,7 +389,7 @@ you've probably already thought of several differences between what Fred is
 doing and what you do when you buy and eat meat. So let us consider some of
 the putative differences.
 
-## Morally Relevant Differences {#sec-morally-relevant-differences}
+## Morally Relevant Differences {#sec-morally-relevant-differences-animals}
 
 There are plenty of differences between the case of Fred and his puppies and
 the case of you and the farm animals whose flesh you are buying and eating.
@@ -621,7 +621,7 @@ dairy that come from CAFOs.
 
 What Fred does is immoral. But there's no morally relevant difference between
 him caging and mutilating the puppies for their cocoamone, and you buying and
-consuming eggs and dairy from CAFOs. (See @sec-morally-relevant-differences for a reminder about why
+consuming eggs and dairy from CAFOs. (See @sec-morally-relevant-differences-animals for a reminder about why
 Fred has no choice but to cage and mutilate the puppies.)
 
 How about meat from humanely raised animals? Here, again, we can look to Fred
@@ -717,7 +717,7 @@ to a 100% (or 99%) vegetarian diet.
     slaughtering puppies won't double as a defense of slaughtering human
     infants.
 3.  Can you defend one of the putative morally relevant differences discussed
-    in sections -@sec-morally-relevant-differences and -@sec-no-impact-objection against my objections? Or can you think of a morally
+    in sections -@sec-morally-relevant-differences-animals and -@sec-no-impact-objection against my objections? Or can you think of a morally
     relevant difference that was not discussed?
 4.  If not for the meat industry, the billions of animals raised and
     slaughtered annually for food would never have existed. Could this fact be

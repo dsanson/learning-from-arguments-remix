@@ -970,7 +970,7 @@ body, or would that be a numerically different person very much like you, but
 not actually you? It is hard to see how to answer any of these questions
 without an answer to the question of personal identity.
 
-## Reflection Questions {#reflection-questions .unnumbered}
+## Reflection Questions {.unnumbered}
 
 1.  Can you defend the Same Body Account against the Conjoined Twins argument (@arg-CT) from @sec-conjoined-twins?
 2.  Would a Same *Brain* Account be any improvement on a Same Body Account?
@@ -982,7 +982,7 @@ without an answer to the question of personal identity.
     personal identity and raised problems for both. Can you articulate a
     superior hybrid account that avoids some of these problems?
 
-## Sources {#sources .unnumbered}
+## Sources {.unnumbered}
 
 The debate over personal identity largely traces back to John Locke's *Essay
 Concerning Human Understanding*, which advances a psychological account of

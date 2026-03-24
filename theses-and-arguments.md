@@ -6,7 +6,7 @@ number-sections: false
 
 This document is meant to be used as an easy reference for the key arguments and theses that appear in the book. Print it out or keep it open on a separate tab.
 
-@sec-god-suffering
+@sec-can-god-allow-suffering
 
 :::{#arg-}
 
