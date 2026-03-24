@@ -1,9 +1,21 @@
+---
+bibliography: death.json
+nocite: |
+  @long1987a
+  @borges1962
+  @bradley2015
+  @grover1989
+  @gruen2014
+  @nagel1970
+  @rowland2014
+  @baker2005
+  @timmerman2017
+  @kagan2008
+---
+
 # Don't Fear the Reaper {#sec-death}
 
-*Views and arguments advanced in this chapter are not necessarily endorsed by
-the author of the textbook, nor are they original to the author, nor are they
-meant to be consistent with arguments advanced in other chapters. Different
-chapters represent different philosophical perspectives.*
+{{< include _authorial-endorsement.md >}}
 
 ## Introduction
 
@@ -35,10 +47,10 @@ surgery and there is a very good chance that you will die painlessly while
 under anesthesia, this is not bad for you and there is nothing to fear.
 
 I'll defend the opening premises in reverse order, first arguing (in sections
-2-3) that *if* it's true that you cease to be conscious when you die *then*
-being dead is not bad for you, and then arguing (in sections 4-5) that it
+[-@sec-hedonism]--[-@sec-arg-from-hedonism]) that *if* it's true that you cease to be conscious when you die *then*
+being dead is not bad for you, and then arguing (in sections [-@sec-against-post-mortem-consciousness]--[-@sec-too-many-thinkers]) that it
 indeed is true that you cease to be conscious when you die. Then, having
-established that being dead isn't bad for you, I defend FD4 (in section 6) on
+established that being dead isn't bad for you, I defend FD4 (in @sec-irrational-fears) on
 the grounds that it is irrational to fear things that aren't bad for you.
 
 Let me make one last preliminary remark before launching into the defense of
@@ -54,7 +66,7 @@ any way be bad for you (and thus wouldn't be any sort of punishment). So if
 you are inclined to say that being snuffed out by your Creator is bad for you,
 then you'll need to find some way to resist my argument below for FD2.
 
-## Hedonism
+## Hedonism {#sec-hedonism}
 
 My argument for FD2 turns on the idea---sometimes known as "hedonism"---that,
 ultimately speaking, experiencing pleasant sensations is the only thing that's
@@ -90,7 +102,6 @@ you'll have a painful stomach ache. Why isn't the deep-tissue massage bad for
 you? Because working out the knots in your muscles results in your having less
 discomfort later on. What we're seeing is that what makes something bad for
 you isn't just whether it itself is painful but
-
 also its connection to the presence or absence of future pains. With this in
 mind, we can revise the principle as follows:
 
@@ -108,7 +119,7 @@ because, even if they're painful in the moment, they eliminate future pains
 that you would otherwise have had. Ultimately speaking, what is or isn't bad
 for you is still just a matter of what is or isn't painful for you.
 
-## The Argument from Hedonism
+## The Argument from Hedonism {#sec-arg-from-hedonism}
 
 With HD\* in hand, we can now run an argument for FD2 of the Against Fearing
 Death argument.
@@ -177,7 +188,7 @@ sensations:
 
 ::: {#HD-double-star .thesis}
 
-(HD\*\*)
+Hedonism (HD\*\*)
 :   Something is bad for you if and only if it results in more pain *or less
     pleasure* than you would otherwise have had.
 :::
@@ -225,7 +236,7 @@ Thus, one shouldn't prefer HD\*\* to my formulation of the principle of
 hedonism, HD\*, and we have not found any good reason to reject HD\*, the
 second premise of the Argument from Hedonism.
 
-## Against Post-Mortem Consciousness
+## Against Post-Mortem Consciousness {#sec-against-post-mortem-consciousness}
 
 We've just seen an argument for the conditional premise that *if* you cease to
 be conscious when you die, *then* being dead is not bad for you. But why think
@@ -285,7 +296,7 @@ conscious experiences. In other words, even if you think there will be or
 might be a conscious afterlife, you should still accept PC2: you shouldn't
 think that Animal itself will be conscious after you die.
 
-## The Too Many Thinkers Argument
+## The Too Many Thinkers Argument {#sec-too-many-thinkers}
 
 If you think that you will (or might) go on to enjoy a conscious afterlife,
 what you'll probably want to say is that you and Animal part ways after death:
@@ -352,7 +363,7 @@ accept PC3, you must reject one of these two premises. But, as we just saw,
 the premises are hard to deny, and in any case PC3 is already highly
 plausible. So, you should accept PC3.
 
-## Irrational Fears
+## Irrational Fears {#sec-irrational-fears}
 
 I have thus far argued that being dead is not bad for you. The first premise,
 FD1, was that you cease to be conscious when you die, and I argued for this
@@ -410,15 +421,15 @@ that's good for you!
 ## Reflection Questions
 
 1.  Can you think of any counterexamples to the hedonist principle HD\* from
-    section 2? Could such an example give us reason to prefer HD\*\* from
-    section 3?
-2.  Do the hedonist principles discussed in sections 2 and 3 imply that being
+    @sec-hedonism? Could such an example give us reason to prefer HD\*\* from
+    @sec-arg-from-hedonism?
+2.  Do the hedonist principles discussed in sections [-@sec-hedonism]--[-@sec-arg-from-hedonism] imply that being
     born into this world was bad for you? Why or why not? If they do, can they
     be modified to avoid this implication?
 3.  Are you convinced by the Against Post-Mortem Consciousness argument in
-    sections 4-5? In particular, are you convinced by the argument that you
+    sections [-@sec-against-post-mortem-consciousness]--[-@sec-too-many-thinkers]? In particular, are you convinced by the argument that you
     and Animal are one and the same thing?
-4.  In the final section, I suggested that it can never be rational to fear
+4.  In the final section (-@sec-irrational-fears), I suggested that it can never be rational to fear
     something that is not bad for you. Is that true? Can it be rational to
     fear something because it's bad for *others*? Should we fear death because
     (and only because) of how our deaths will affect other people?
@@ -426,21 +437,9 @@ that's good for you!
 ## Sources
 
 The argument advanced here originates with the ancient Greek philosopher
-Epicurus, in his "Letter to Menoeceus." See Fred Feldman's *Confrontations
-with the Reaper* for a more in-depth discussion of philosophical questions
+Epicurus, in his "Letter to Menoeceus" (see @long1987a). See @feldman1994 for a more in-depth discussion of philosophical questions
 about death, and in particular chapter 8 of his book for a defense of the idea
 that death is bad because it deprives one of good things. The Too Many
-Thinkers argument in section 5 is drawn from Eric Olson's "An Argument for
-Animalism." Here are some additional resources:
+Thinkers argument in @sec-too-many-thinkers is drawn from @olson2009. Here are some additional resources:
 
-- Jorge Luis Borges: The Immortal
-- Ben Bradley: Existential Terror
-- Dorothy Grover: Posthumous Harm
-- Lori Gruen: Death as a Social Harm
-- A.A. Long and D.N. Sedley: *The Hellenistic Philosophers vol 1* (sec 24)
-- Shelley Kagan: Death https://oyc.yale.edu/death/phil-176
-- Thomas Nagel: Death
-- Richard Rowland: Hedonism and the Experience Machine
-- Lynne Rudder Baker: Death and the Afterlife
-- Travis Timmerman: The Symmetry Argument Against the Badness of Death
-  https://www.youtube.com/watch?v=wbQQxRelC_Q
+
