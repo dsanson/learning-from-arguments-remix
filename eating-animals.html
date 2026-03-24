@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -424,14 +443,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">10.1</span> Introduction</a></li>
-  <li><a href="#the-argument-from-precedent" id="toc-the-argument-from-precedent" class="nav-link" data-scroll-target="#the-argument-from-precedent"><span class="header-section-number">10.2</span> The Argument from Precedent</a></li>
+  <li><a href="#sec-eating-animals-introduction" id="toc-sec-eating-animals-introduction" class="nav-link active" data-scroll-target="#sec-eating-animals-introduction"><span class="header-section-number">10.1</span> Introduction</a></li>
+  <li><a href="#sec-argument-from-precedent" id="toc-sec-argument-from-precedent" class="nav-link" data-scroll-target="#sec-argument-from-precedent"><span class="header-section-number">10.2</span> The Argument from Precedent</a></li>
   <li><a href="#sec-naturalness" id="toc-sec-naturalness" class="nav-link" data-scroll-target="#sec-naturalness"><span class="header-section-number">10.3</span> The Argument from Naturalness</a></li>
   <li><a href="#sec-argument-from-necessity" id="toc-sec-argument-from-necessity" class="nav-link" data-scroll-target="#sec-argument-from-necessity"><span class="header-section-number">10.4</span> The Argument from Necessity</a></li>
   <li><a href="#sec-meet-meat" id="toc-sec-meet-meat" class="nav-link" data-scroll-target="#sec-meet-meat"><span class="header-section-number">10.5</span> Meet Your Meat</a></li>
-  <li><a href="#fred-and-his-puppies" id="toc-fred-and-his-puppies" class="nav-link" data-scroll-target="#fred-and-his-puppies"><span class="header-section-number">10.6</span> Fred and His Puppies</a></li>
+  <li><a href="#sec-fred-and-his-puppies" id="toc-sec-fred-and-his-puppies" class="nav-link" data-scroll-target="#sec-fred-and-his-puppies"><span class="header-section-number">10.6</span> Fred and His Puppies</a></li>
   <li><a href="#sec-morally-relevant-differences" id="toc-sec-morally-relevant-differences" class="nav-link" data-scroll-target="#sec-morally-relevant-differences"><span class="header-section-number">10.7</span> Morally Relevant Differences</a></li>
-  <li><a href="#the-no-impact-objection" id="toc-the-no-impact-objection" class="nav-link" data-scroll-target="#the-no-impact-objection"><span class="header-section-number">10.8</span> The No Impact Objection</a></li>
+  <li><a href="#sec-no-impact-objection" id="toc-sec-no-impact-objection" class="nav-link" data-scroll-target="#sec-no-impact-objection"><span class="header-section-number">10.8</span> The No Impact Objection</a></li>
   <li><a href="#sec-beyond-factory-farming" id="toc-sec-beyond-factory-farming" class="nav-link" data-scroll-target="#sec-beyond-factory-farming"><span class="header-section-number">10.9</span> Beyond Factory Farming</a></li>
   <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions"><span class="header-section-number">10.10</span> Reflection Questions</a></li>
   <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">10.11</span> Sources</a></li>
@@ -464,9 +483,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="authorial-intent">
 <p><em>Views and arguments advanced in this chapter are not necessarily endorsed by the author of the textbook, nor are they original to the author, nor are they meant to be consistent with arguments advanced in other chapters. Different chapters represent different philosophical perspectives.</em></p>
 </div>
-<section id="introduction" class="level2" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">10.1</span> Introduction</h2>
-<p>In what follows, I will defend the view that, in most cases, buying and eating meat is morally impermissible. First, I will argue that there is no good reason to think that eating meat <em>is</em> morally permissible. In particular, I address three common reasons for thinking that it’s not wrong to eat meat: that it is natural to eat meat, that it is necessary to eat meat, and that people have always eaten meat. Second, I argue directly for the immorality of buying and eating meat, by developing an analogy in which puppies are subjected to much the same treatment as farm animals (sections 5-6). I then defend my argument from analogy against various objections (sections 7- 8).</p>
+<section id="sec-eating-animals-introduction" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="sec-eating-animals-introduction"><span class="header-section-number">10.1</span> Introduction</h2>
+<p>In what follows, I will defend the view that, in most cases, buying and eating meat is morally impermissible. First, I will argue that there is no good reason to think that eating meat <em>is</em> morally permissible. In particular, I address three common reasons for thinking that it’s not wrong to eat meat: that it is natural to eat meat, that it is necessary to eat meat, and that people have always eaten meat. Second, I argue directly for the immorality of buying and eating meat, by developing an analogy in which puppies are subjected to much the same treatment as farm animals (sections <a href="#sec-meet-meat" class="quarto-xref"><span>10.5</span></a>–<a href="#sec-fred-and-his-puppies" class="quarto-xref"><span>10.6</span></a>). I then defend my argument from analogy against various objections (sections <a href="#sec-morally-relevant-differences" class="quarto-xref"><span>10.7</span></a>–<a href="#sec-no-impact-objection" class="quarto-xref"><span>10.8</span></a>).</p>
 <p>In defending the claim that it is morally impermissible for you to eat meat, I will be making some assumptions about you. First, I am assuming that you know that the meat you eat is the flesh of slaughtered animals. A friend of mine once had the following conversation with her children at the dinner table:</p>
 <blockquote class="blockquote">
 <div class="line-block">Them [eating chicken]: “Mom, where does chicken come from?”<br>
@@ -478,15 +497,15 @@ Them: “C’mon, mom!! Seriously, where does chicken come from?”</div>
 <p>Third, I am assuming that you do not live in some faraway land, where you have to eat meat because there is no way to get your hands on tofu, broccoli, oatmeal, avocados, almonds, beans, pumpkin seeds, hummus, lentils, quinoa, tempeh, peanut butter, veggie burgers, or other such alternative sources of protein. I am assuming that you are not stranded on a deserted island with nothing to eat but wild boar. Perhaps I’m wrong. If you are currently stranded on a deserted island, go ahead and eat the boar.</p>
 <p>More generally, just because you can imagine <em>some</em> possible situation in which it’s morally okay to do a certain thing, that doesn’t mean it’s morally okay to do that thing in <em>ordinary</em> situations. If a hiker gets caught in a blizzard and will freeze to death if he doesn’t break into someone’s empty cabin for the night, it’s morally okay for him to break in. That obviously doesn’t mean that it’s morally okay for you, right now, to break into a random person’s home. If the Nazis are at the good Samaritan’s door, it’s morally okay for her to lie to them to save the Jews hiding in her attic. That obviously doesn’t mean that it’s morally okay for you, right now, to lie to whomever you want, whenever you want. And just because it’s okay for <em>certain</em> people to eat <em>certain</em> types of meat in <em>certain</em> situations, that doesn’t mean that it’s okay for you—in the situation you currently find yourself in—to eat whatever meat you want whenever you want.</p>
 </section>
-<section id="the-argument-from-precedent" class="level2" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="the-argument-from-precedent"><span class="header-section-number">10.2</span> The Argument from Precedent</h2>
+<section id="sec-argument-from-precedent" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="sec-argument-from-precedent"><span class="header-section-number">10.2</span> The Argument from Precedent</h2>
 <p>In the United States, we consume somewhere around ten billion farm animals per year. Eating lots of animals involves killing lots of conscious creatures, creatures that are capable of experiencing pain, discomfort, fear, and distress. Is there some good reason to think that eating meat is morally permissible, despite all the killing and suffering that is involved in getting the meat off of those animals and onto our plates? Sure, meat is delicious, and bacon is especially delicious. But the pleasure you get from eating bacon doesn’t make eating meat <em>morally</em> acceptable, any more than the pleasure a sadist gets from kicking puppies makes kicking puppies morally acceptable. So let us see if we can do better.</p>
 <p>The first argument we’ll consider for the moral permissibility of meat-eating is that there is such a strong precedent for eating meat. People have eaten meat all throughout human history. By eating meat, we aren’t doing anything different from what our ancestors have done.</p>
 <p>The argument evidently runs as follows:</p>
 <div id="arg-PR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A10.1: <strong>The Argument from Precedent</strong>
+Argument&nbsp;10.1: <strong>The Argument from Precedent</strong>
 </figcaption>
 <div aria-describedby="arg-PR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -502,7 +521,7 @@ A10.1: <strong>The Argument from Precedent</strong>
 <div id="arg-PR-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PR-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A10.2: <strong>The Argument from Majority Precedent</strong>
+Argument&nbsp;10.2: <strong>The Argument from Majority Precedent</strong>
 </figcaption>
 <div aria-describedby="arg-PR-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -525,7 +544,7 @@ A10.2: <strong>The Argument from Majority Precedent</strong>
 <div id="arg-NO" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NO-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A10.3: <strong>The Natural Order Argument</strong>
+Argument&nbsp;10.3: <strong>The Natural Order Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NO-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -544,7 +563,7 @@ A10.3: <strong>The Natural Order Argument</strong>
 <div id="arg-CP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A10.4: <strong>The Natural Capacity Argument</strong>
+Argument&nbsp;10.4: <strong>The Natural Capacity Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -564,7 +583,7 @@ A10.4: <strong>The Natural Capacity Argument</strong>
 <div id="arg-NP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A10.5: <strong>The Necessity of Protein Argument</strong>
+Argument&nbsp;10.5: <strong>The Necessity of Protein Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -575,7 +594,7 @@ A10.5: <strong>The Necessity of Protein Argument</strong>
 </div>
 </figure>
 </div>
-<p>We already saw, however, that NP1 is false. I listed a number of alternative sources of protein in section 1 (broccoli, peanut butter, etc.), and it is well known that getting your protein from these sources is healthier than getting it from meat. There is no truth to claim that eating meat is necessary for getting enough protein. Indeed, a number of top athletes some of the healthiest people on the planet—are vegetarians, including tennis pro Venus Williams, Olympic medalist Carl Lewis, and UFC fighters Nate Diaz and Colleen Schneider. So it undoubtedly is possible to have a healthy diet without meat.</p>
+<p>We already saw, however, that NP1 is false. I listed a number of alternative sources of protein in <a href="#sec-eating-animals-introduction" class="quarto-xref"><span>Section 10.1</span></a> (broccoli, peanut butter, etc.), and it is well known that getting your protein from these sources is healthier than getting it from meat. There is no truth to claim that eating meat is necessary for getting enough protein. Indeed, a number of top athletes some of the healthiest people on the planet—are vegetarians, including tennis pro Venus Williams, Olympic medalist Carl Lewis, and UFC fighters Nate Diaz and Colleen Schneider. So it undoubtedly is possible to have a healthy diet without meat.</p>
 <p>Moreover, even if meat-eating <em>were</em> necessary for getting optimal amounts of protein, there would still be a question of whether meat-eating is permissible. Suppose you are a prisoner of war, and—while you are in absolutely no danger of dying—you are not as healthy as you could be because your captors aren’t giving you enough protein. Would it then be morally permissible for you to steal your fellow prisoners’ rations? Of course not. Morality doesn’t permit doing whatever it takes to get the FDA recommended amount of protein. So NP2 is demonstrably false as well.</p>
 </section>
 <section id="sec-meet-meat" class="level2" data-number="10.5">
@@ -586,14 +605,14 @@ A10.5: <strong>The Necessity of Protein Argument</strong>
 <p>Needless to say, this is not cruelty for cruelty’s sake. Conditions in the farming industry have made it all but impossible to turn a profit from a small, idyllic farm, and farmers are forced to scale up in order to make ends meet. Confining the animals to small spaces is necessary for keeping costs low, and the mutilations help curb the distraught animals’ tendency and ability to attack and harm one another. Farmers are not <em>trying</em> to harm the animals. They care about their animals’ well-being. Some even install “happy cow back scratchers” for their cattle. The suffering involved in CAFOs, by their lights, is a regrettable but unavoidable consequence of the industry. But this is their livelihood, and as long as you keep buying, they will keep supplying.</p>
 <p>I should add that I am no expert on the meat industry, and it is difficult to find good information on the treatment of animals in CAFOs, due in part to “ag gag” laws and other efforts by agribusiness lobbyists to restrict access to these sites. One can find footage online of animals in CAFOs being treated horrifically, but of course animal welfare groups are going to highlight the most egregious cases of mistreatment they can find. One can also find footage of animals being treated humanely in CAFOs, but of course farmers are going to put their best foot forward. So we can’t expect videos from these sources to give us a <em>representative</em> look at the treatment of animals in CAFOs. My advice (as a non-expert) for getting at least some reliable sense of the present-day realities of animal farming is to track down and browse some online “how-to” guides for beak trimming, dehorning, castrating, and tail-docking, as well as online catalogs selling farmers equipment for performing these mutilations.</p>
 </section>
-<section id="fred-and-his-puppies" class="level2" data-number="10.6">
-<h2 data-number="10.6" class="anchored" data-anchor-id="fred-and-his-puppies"><span class="header-section-number">10.6</span> Fred and His Puppies</h2>
-<p>I will assume in what follows that when you eat meat, you are buying meat that came from a CAFO—which, as I said above, is almost certainly the case if you are not making a special effort and financial sacrifice to buy only humanely raised meat. (If you <em>are</em> making this effort, the argument does not apply to you. But a revised version of the argument might. More on this in section 9.) I will argue that it is immoral for you to buy and eat that meat by presenting you with a fictional case involving the horrific treatment of puppies, and arguing that there is no morally relevant difference between what is done in this fictional case and what you are doing when you eat meat.</p>
+<section id="sec-fred-and-his-puppies" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="sec-fred-and-his-puppies"><span class="header-section-number">10.6</span> Fred and His Puppies</h2>
+<p>I will assume in what follows that when you eat meat, you are buying meat that came from a CAFO—which, as I said above, is almost certainly the case if you are not making a special effort and financial sacrifice to buy only humanely raised meat. (If you <em>are</em> making this effort, the argument does not apply to you. But a revised version of the argument might. More on this in <a href="#sec-beyond-factory-farming" class="quarto-xref"><span>Section 10.9</span></a>.) I will argue that it is immoral for you to buy and eat that meat by presenting you with a fictional case involving the horrific treatment of puppies, and arguing that there is no morally relevant difference between what is done in this fictional case and what you are doing when you eat meat.</p>
 <p>Here is the case:</p>
 <div id="exa-cocoamone-farm" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-cocoamone-farm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X10.1: <strong>COCOAMONE FARM</strong>
+Thought Experiment&nbsp;10.1: <strong>COCOAMONE FARM</strong>
 </figcaption>
 <div aria-describedby="exa-cocoamone-farm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -606,7 +625,7 @@ X10.1: <strong>COCOAMONE FARM</strong>
 <div id="arg-FP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A10.6: <strong>The Argument from Fred’s Puppies</strong>
+Argument&nbsp;10.6: <strong>The Argument from Fred’s Puppies</strong>
 </figcaption>
 <div aria-describedby="arg-FP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -619,7 +638,7 @@ A10.6: <strong>The Argument from Fred’s Puppies</strong>
 </figure>
 </div>
 <p>The idea behind FP1 is that, whenever there is some moral difference between two actions—for instance that one is immoral and the other isn’t there must always be some <em>explanation</em> of why they differ morally. Absent some such explanation, it would be arbitrary to say that the one action is immoral and the other isn’t.</p>
-<p>FP2 should strike you as obvious. Some, despite finding it obvious, may still wring their hands, remembering that in some cultures dogs are routinely killed and eaten for food. If you are wringing your hands, you should remind yourself that there are also cultures in which they routinely mutilate the genitals of young girls. Next, you should re-read section 2 above and remind yourself that the fact that lots of people engage in some practice doesn’t make it morally permissible, for them or for you. The fact that some people mutilate their own daughters’ genitals, raise dogs for food, or (for that matter) confine, mutilate, and slaughter farm animals, does not by itself settle the question of whether any of these practices are morally acceptable. Finally, with all this in mind, I invite you to re-read COCOAMONE FARM with fresh eyes, ask yourself whether Fred’s actions seem immoral, find your moral compass, and admit that FP2 is something that you agree with.</p>
+<p>FP2 should strike you as obvious. Some, despite finding it obvious, may still wring their hands, remembering that in some cultures dogs are routinely killed and eaten for food. If you are wringing your hands, you should remind yourself that there are also cultures in which they routinely mutilate the genitals of young girls. Next, you should re-read <a href="#sec-argument-from-precedent" class="quarto-xref"><span>Section 10.2</span></a> above and remind yourself that the fact that lots of people engage in some practice doesn’t make it morally permissible, for them or for you. The fact that some people mutilate their own daughters’ genitals, raise dogs for food, or (for that matter) confine, mutilate, and slaughter farm animals, does not by itself settle the question of whether any of these practices are morally acceptable. Finally, with all this in mind, I invite you to re-read COCOAMONE FARM with fresh eyes, ask yourself whether Fred’s actions seem immoral, find your moral compass, and admit that FP2 is something that you agree with.</p>
 <p>How about FP3? I don’t expect this premise to strike you as obvious. Indeed, you’ve probably already thought of several differences between what Fred is doing and what you do when you buy and eat meat. So let us consider some of the putative differences.</p>
 </section>
 <section id="sec-morally-relevant-differences" class="level2" data-number="10.7">
@@ -630,7 +649,7 @@ A10.6: <strong>The Argument from Fred’s Puppies</strong>
 <div id="exa-bred-for-cocoamone" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-bred-for-cocoamone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X10.2: <strong>BRED FOR COCOAMONE</strong>
+Thought Experiment&nbsp;10.2: <strong>BRED FOR COCOAMONE</strong>
 </figcaption>
 <div aria-describedby="exa-bred-for-cocoamone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -642,13 +661,13 @@ X10.2: <strong>BRED FOR COCOAMONE</strong>
 <p>By revising the case in this way, we eliminate the difference that was supposed to be morally relevant. Yet what Fred does to these puppies still seems wrong, even though they were bred for the sole purpose of being slaughtered for their cocoamone. So FP2 remains true—despite changing the details of what Fred does—and the proposed objection to FP3 fails.</p>
 <p>Second, one might contend that, whereas the farm animals’ suffering is unavoidable, Fred’s cruel treatment of the puppies is entirely unnecessary. If all he needs is the cocoamone, why extract their teeth and cut off their tails and keep them in small cages?</p>
 <p>Well, here’s the thing. Fred lives in a small two-bedroom apartment, and it would be complete chaos if he gave those twenty dogs the run of the house. There’s no reasonable alternative to keeping them in cages. Of course, being all cooped up like this makes them crazy and aggressive, and castrating them curbs their aggression, while removing their teeth and tails diminishes their ability to harm one another. Why not get a bigger apartment? And why no anesthesia? He can’t afford it! Why not extract the cocoamone from their brains without slaughtering them? One does not simply “extract the cocoamone.” It’s not as if there’s a little pouch in there filling up with the stuff. There’s no way to get at it without grinding up the brain and straining it out. So, we have failed to identify a difference between the cases, let alone a morally relevant difference. In both cases, the suffering is an unavoidable consequence of the only feasible and financially sound way of obtaining the relevant resource (be it meat or cocoamone).</p>
-<p>Third, one might contend that the morally relevant difference is that meat, but not cocoamone, makes a positive contribution to one’s health. Not so fast. Cocoamone does make a positive contribution to Fred’s <em>psychological</em> health. He loves the taste of chocolate, and the thought of never tasting it again is very depressing for him. Perhaps you’ll object that meat doesn’t merely make a positive contribution to one’s health; meat (unlike cocoamone) is <em>necessary</em> for a healthy diet. But as we saw in section 4, that’s just false. There is nothing, protein included, that’s needed for survival or health and that can only be gotten from meat.</p>
+<p>Third, one might contend that the morally relevant difference is that meat, but not cocoamone, makes a positive contribution to one’s health. Not so fast. Cocoamone does make a positive contribution to Fred’s <em>psychological</em> health. He loves the taste of chocolate, and the thought of never tasting it again is very depressing for him. Perhaps you’ll object that meat doesn’t merely make a positive contribution to one’s health; meat (unlike cocoamone) is <em>necessary</em> for a healthy diet. But as we saw in <a href="#sec-argument-from-necessity" class="quarto-xref"><span>Section 10.4</span></a>, that’s just false. There is nothing, protein included, that’s needed for survival or health and that can only be gotten from meat.</p>
 <p>Fourth, one might say that Fred directly harms the puppies in COCOAMONE FARM, whereas you do not directly harm any farm animals. The farm animals have already been confined, mutilated, and slaughtered by the time you buy and eat the meat. (Notice, by the way, that this is the opposite of the common refrain that it’s okay to eat meat as long as you’d be willing to kill it yourself. Here, the idea is that it’s okay precisely because you’re <em>not</em> killing it yourself.)</p>
 <p>In response: the absence of direct harm doesn’t typically absolve someone of moral responsibility. If I hire a hitman to kill someone, intuitively what I have done is no less wrong than if I had committed the murder myself. In any case, we can revise the Fred story once more to eliminate the putative difference.</p>
 <div id="exa-hired-help" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hired-help-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X10.3: <strong>HIRED HELP</strong>
+Thought Experiment&nbsp;10.3: <strong>HIRED HELP</strong>
 </figcaption>
 <div aria-describedby="exa-hired-help-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -659,8 +678,8 @@ X10.3: <strong>HIRED HELP</strong>
 </div>
 <p>Now, Fred is not directly harming the puppies. But his hands are not clean; it is immoral for him to hire Nysha to set up a cocoamone farm. So FP2 remains true even when we revise the story to incorporate something more analogous to the indirect harm of buying meat. The putative morally relevant difference between the cases disappears and can no longer serve as an objection to FP3.</p>
 </section>
-<section id="the-no-impact-objection" class="level2" data-number="10.8">
-<h2 data-number="10.8" class="anchored" data-anchor-id="the-no-impact-objection"><span class="header-section-number">10.8</span> The No Impact Objection</h2>
+<section id="sec-no-impact-objection" class="level2" data-number="10.8">
+<h2 data-number="10.8" class="anchored" data-anchor-id="sec-no-impact-objection"><span class="header-section-number">10.8</span> The No Impact Objection</h2>
 <p>Let’s consider one last attempt to identify a morally relevant difference between you and Fred. Here, the idea is that if Fred stops what he’s doing whether that’s running a cocoamone farm himself or paying Nysha to do it for him—there will be a substantial decrease in the number of puppies confined, mutilated, and slaughtered for their cocoamone. That number will drop to zero. By contrast, if you stopped buying and eating meat, in all likelihood it would make no difference whatsoever to the number of farm animals confined, mutilated, and slaughtered for their meat.</p>
 <p>Why think that your decision to stop buying meat will have no impact on animal suffering? The average meat-eater consumes the equivalent of twenty-five chickens per year. So suppose you give up meat for a whole year, and twenty-five chickens’ worth of meat goes unpurchased as a result. It is not as if the barons of the meat industry are going to take notice and say: “Egad! Last year we sold eight billion chickens, and this year we only sold 7,999,999,975. We’d better confine, mutilate, and slaughter twenty-five fewer chickens next year.” Demand is going to have to shrink by thousands of animals per year before anyone takes notice, and that’s not something you yourself can make happen just by giving up meat.</p>
 <p>This does look like it has what it takes to be a morally relevant difference. If one action actually has an impact on the amount of suffering in the world, and another has no impact whatsoever, then that very plausibly makes for a moral difference between the two actions.</p>
@@ -668,7 +687,7 @@ X10.3: <strong>HIRED HELP</strong>
 <div id="exa-second-dessert" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-second-dessert-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X10.4: <strong>SECOND DESSERT</strong>
+Thought Experiment&nbsp;10.4: <strong>SECOND DESSERT</strong>
 </figcaption>
 <div aria-describedby="exa-second-dessert-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -690,7 +709,7 @@ X10.4: <strong>SECOND DESSERT</strong>
 <div id="exa-sweaty-puppies" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-sweaty-puppies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X10.5: <strong>SWEATY PUPPIES</strong>
+Thought Experiment&nbsp;10.5: <strong>SWEATY PUPPIES</strong>
 </figcaption>
 <div aria-describedby="exa-sweaty-puppies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -699,12 +718,12 @@ X10.5: <strong>SWEATY PUPPIES</strong>
 </div>
 </figure>
 </div>
-<p>What Fred does is immoral. But there’s no morally relevant difference between him caging and mutilating the puppies for their cocoamone, and you buying and consuming eggs and dairy from CAFOs. (See section 7 for a reminder about why Fred has no choice but to cage and mutilate the puppies.)</p>
+<p>What Fred does is immoral. But there’s no morally relevant difference between him caging and mutilating the puppies for their cocoamone, and you buying and consuming eggs and dairy from CAFOs. (See <a href="#sec-morally-relevant-differences" class="quarto-xref"><span>Section 10.7</span></a> for a reminder about why Fred has no choice but to cage and mutilate the puppies.)</p>
 <p>How about meat from humanely raised animals? Here, again, we can look to Fred for guidance.</p>
 <div id="exa-painless-death" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-painless-death-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X10.6: <strong>PAINLESS DEATH</strong>
+Thought Experiment&nbsp;10.6: <strong>PAINLESS DEATH</strong>
 </figcaption>
 <div aria-describedby="exa-painless-death-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -718,7 +737,7 @@ X10.6: <strong>PAINLESS DEATH</strong>
 <div id="exa-happy-puppy-sweat" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-happy-puppy-sweat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X10.7: <strong>HAPPY PUPPY SWEAT</strong>
+Thought Experiment&nbsp;10.7: <strong>HAPPY PUPPY SWEAT</strong>
 </figcaption>
 <div aria-describedby="exa-happy-puppy-sweat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -732,7 +751,7 @@ X10.7: <strong>HAPPY PUPPY SWEAT</strong>
 <div id="exa-cocoamone-lab" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-cocoamone-lab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X10.8: <strong>COCOAMONE LAB</strong>
+Thought Experiment&nbsp;10.8: <strong>COCOAMONE LAB</strong>
 </figcaption>
 <div aria-describedby="exa-cocoamone-lab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -750,34 +769,81 @@ X10.8: <strong>COCOAMONE LAB</strong>
 <ol type="1">
 <li>Can the arguments from precedent or naturalness be defended against my objections? Or can you think of a superior line of argument in defense of eating meat?</li>
 <li>Can you think of a plausible way of arguing against premise FP2, that what Fred does is immoral? Make sure that your argument in defense of slaughtering puppies won’t double as a defense of slaughtering human infants.</li>
-<li>Can you defend one of the putative morally relevant differences discussed in sections 7 and 8 against my objections? Or can you think of a morally relevant difference that was not discussed?</li>
+<li>Can you defend one of the putative morally relevant differences discussed in sections <a href="#sec-morally-relevant-differences" class="quarto-xref"><span>10.7</span></a> and <a href="#sec-no-impact-objection" class="quarto-xref"><span>10.8</span></a> against my objections? Or can you think of a morally relevant difference that was not discussed?</li>
 <li>If not for the meat industry, the billions of animals raised and slaughtered annually for food would never have existed. Could this fact be used as the basis for an argument in defense of eating meat? Why or why not?</li>
 <li>What should someone who accepts the Argument from Fred’s Puppies think about freeganism, the practice of eating only meat that someone else has purchased or thrown in the dumpster and that would otherwise go to waste?</li>
 </ol>
 </section>
 <section id="sources" class="level2" data-number="10.11">
 <h2 data-number="10.11" class="anchored" data-anchor-id="sources"><span class="header-section-number">10.11</span> Sources</h2>
-<p>The discussion of the Arguments from Precedent, Naturalness, and Necessity draws heavily from Dan Lowe’s “Common Arguments for the Moral Acceptability of Eating Meat.” The Argument from Fred’s Puppies and subsequent discussion is drawn from Alastair Norcross’s “Puppies, Pigs, and People.” The argument from killing mice in section 8 is drawn from Mike Archer’s “Ordering the Vegetarian Meal? There’s More Animal Blood on Your Hands,” and the response to that argument is drawn from the All Animals Australia blog’s “Debunking ‘Ordering the Vegetarian Meal?’” The statistics in section 8 about the proportion of crops grown to feed animals are drawn from Brad Plumer’s “How Much of the World’s Cropland is Actually Used to Grow Food?” Here are some additional resources:</p>
-<ul>
-<li><p>Elizabeth Anderson: Animal Rights and the Values of Nonhuman Life</p></li>
-<li><p>Animal Kill Clock https://animalclock.org/</p></li>
-<li><p>Andrew Chignell, Terence Cuneo, and Matthew C. Halteman: <em>Philosophy Comes to Dinner</em></p></li>
-<li><p>Cora Diamond: Eating Meat and Eating People</p></li>
-<li><p>Tyler Doggett: Killing Animals for Food http://www.wi-phi.com/video/killing-animals-food</p></li>
-<li><p>Mylan Engel Jr.: Fishy Reasoning and the Ethics of Eating</p></li>
-<li><p>Lori Gruen: <em>Ethics and Animals: An Introduction</em></p></li>
-<li><p>Elizabeth Harman: The Moral Significance of Animal Pain and Animal Death</p></li>
-<li><p>Bojack Horseman: https://www.youtube.com/watch?v=y4xytsouUYo</p></li>
-<li><p>Michael Huemer: <em>Dialogues on Ethical Vegetarianism</em></p></li>
-<li><p>Anja Jauernig: Speaking Up for Animals</p></li>
-<li><p>Christine Korsgaard: A Kantian Case for Animal Rights</p></li>
-<li><p>Loren Lomasky: Is it Wrong to Eat Animals?</p></li>
-<li><p>Jeff McMahan: The Meat Eaters</p></li>
-<li><p>Peter Singer: All Animals are Equal</p></li>
-<li><p>David Foster Wallace: Consider the Lobster</p></li>
-</ul>
+<p>The discussion of the Arguments from Precedent, Naturalness, and Necessity draws heavily from <span class="citation" data-cites="lowe2016a">Lowe (<a href="#ref-lowe2016a" role="doc-biblioref">2016</a>)</span>. The Argument from Fred’s Puppies and subsequent discussion is drawn from <span class="citation" data-cites="norcross2004">Norcross (<a href="#ref-norcross2004" role="doc-biblioref">2004</a>)</span>. The argument from killing mice in <a href="#sec-no-impact-objection" class="quarto-xref"><span>Section 10.8</span></a> is drawn from <span class="citation" data-cites="archer2011">Archer (<a href="#ref-archer2011" role="doc-biblioref">2011</a>)</span>, and the response to that argument is drawn from <span class="citation" data-cites="allanimalsaustralia2014">AllAnimalsAustralia (<a href="#ref-allanimalsaustralia2014" role="doc-biblioref">2014</a>)</span>. The statistics in <a href="#sec-no-impact-objection" class="quarto-xref"><span>Section 10.8</span></a> about the proportion of crops grown to feed animals are drawn from <span class="citation" data-cites="plumer2014">Plumer (<a href="#ref-plumer2014" role="doc-biblioref">2014</a>)</span>. Here are some additional resources:</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-singer1975" class="csl-entry" role="listitem">
+<span>“All Animals Are Equal.”</span> 1975. In <em>Animal Liberation</em>, by Peter Singer. HarperCollins.
+</div>
+<div id="ref-allanimalsaustralia2014" class="csl-entry" role="listitem">
+AllAnimalsAustralia. 2014. <span>“Debunking <span>‘Ordering the Vegetarian Meal? There’s More Animal Blood on Your Hands.’</span>”</span> <em>All Animals Australia</em>, November 12. <a href="https://allanimalsaustralia.wordpress.com/2014/11/12/debunking-ordering-the-vegetarian-meal-theres-more-animal-blood-on-your-hands/">https://allanimalsaustralia.wordpress.com/2014/11/12/debunking-ordering-the-vegetarian-meal-theres-more-animal-blood-on-your-hands/</a>.
+</div>
+<div id="ref-anderson2004" class="csl-entry" role="listitem">
+Anderson, Professor of Philosophy Elizabeth. 2004. <span>“Animal Rights and the Values of Nonhuman Life.”</span> In <em>Animal Rights: Current Debates and New Directions</em>, edited by Cass R. Sunstein and Martha Craven Nussbaum. Oxford University Press.
+</div>
+<div id="ref-archer2011" class="csl-entry" role="listitem">
+Archer, Mike. 2011. <span>“Ordering the Vegetarian Meal? There’s More Animal Blood on Your Hands.”</span> <em>The Conversation</em>, ahead of print, December 15. <a href="https://doi.org/10.64628/AA.tpvh6ug95">https://doi.org/10.64628/AA.tpvh6ug95</a>.
+</div>
+<div id="ref-chignell2016" class="csl-entry" role="listitem">
+Chignell, Andrew, Terence Cuneo, and Matthew C. Halteman, eds. 2016. <em>Philosophy Comes to Dinner: Arguments on the Ethics of Eating</em>. Routledge-Taylor &amp; Francis.
+</div>
+<div id="ref-diamond1978" class="csl-entry" role="listitem">
+Diamond, Cora. 1978. <span>“Eating Meat and Eating People.”</span> <em>Philosophy</em> 53 (206): 465–79. <a href="https://www.jstor.org/stable/3749876">https://www.jstor.org/stable/3749876</a>.
+</div>
+<div id="ref-doggett2014" class="csl-entry" role="listitem">
+Doggett, Tyler. 2014. <span>“Killing Animals for Food.”</span> <em>Wireless Philosophy</em>, July 24. <a href="https://www.wi-phi.com/videos/killing-animals-for-food/">https://www.wi-phi.com/videos/killing-animals-for-food/</a>.
+</div>
+<div id="ref-engel2019" class="csl-entry" role="listitem">
+Engel, Mylan. 2019. <span>“Fishy Reasoning and the Ethics of Eating.”</span> <em>Between the Species</em> 23 (1). <a href="https://digitalcommons.calpoly.edu/bts/vol23/iss1/3">https://digitalcommons.calpoly.edu/bts/vol23/iss1/3</a>.
+</div>
+<div id="ref-fosterwallace2004" class="csl-entry" role="listitem">
+Foster Wallace, David. 2004. <span>“Consider the Lobster.”</span> <em>Gourmet</em>, August. <a href="http://www.gourmet.com.s3-website-us-east-1.amazonaws.com/magazine/2000s/2004/08/consider_the_lobster.html">http://www.gourmet.com.s3-website-us-east-1.amazonaws.com/magazine/2000s/2004/08/consider_the_lobster.html</a>.
+</div>
+<div id="ref-gonzalez2015" class="csl-entry" role="listitem">
+Gonzalez, J.C., dir. 2015. <em>Bojack Horseman</em>. S02E05, <span>“Chickens.”</span> Netflix, July 17. <a href="https://youtu.be/y4xytsouUYo">https://youtu.be/y4xytsouUYo</a>.
+</div>
+<div id="ref-gruen2011" class="csl-entry" role="listitem">
+Gruen, Lori. 2011. <em>Ethics and animals: an introduction</em>. Cambridge applied ethics. Cambridge University Press.
+</div>
+<div id="ref-harman2011" class="csl-entry" role="listitem">
+Harman, Elizabeth. 2011. <span>“The Moral Significance of Animal Pain and Animal Death.”</span> In <em>The Oxford Handbook of Animal Ethics</em>, edited by Beauchamp Tom and R. G. Frey. Oxford University Press.
+</div>
+<div id="ref-huemer2019" class="csl-entry" role="listitem">
+Huemer, Michael. 2019. <em>Dialogues on ethical vegetarianism</em>. Routledge, Taylor &amp; Francis.
+</div>
+<div id="ref-humaneventures" class="csl-entry" role="listitem">
+Humane Ventures. n.d. <span>“U.S. Animal Kill Clock.”</span> Animal Kill Clock. <a href="http://animalclock.org">http://animalclock.org</a>.
+</div>
+<div id="ref-jauernig" class="csl-entry" role="listitem">
+Jauernig, Anja. n.d. <span>“Speaking up for Animals.”</span> <a href="https://www.anjajauernig.com/animals">https://www.anjajauernig.com/animals</a>.
+</div>
+<div id="ref-korsgaard2015" class="csl-entry" role="listitem">
+Korsgaard, Christine. 2015. <span>“A Kantian Case for Animal Rights.”</span> In <em>The Ethics of Killing Animals</em>, edited by Tatjana Višak and Robert Garner. Oxford University Press USA.
+</div>
+<div id="ref-lomasky2013" class="csl-entry" role="listitem">
+Lomasky, Loren. 2013. <span>“Is It Wrong to Eat Animals?”</span> <em>Social Philosophy and Policy</em> 30 (1–2): 177–200. <a href="https://doi.org/10.1017/s0265052513000083">https://doi.org/10.1017/s0265052513000083</a>.
+</div>
+<div id="ref-lowe2016a" class="csl-entry" role="listitem">
+Lowe, Dan. 2016. <span>“Common Arguments for the Moral Acceptability of Eating Meat: A Discussion for Students.”</span> <em>Between the Species</em> 19 (1): 173–93.
+</div>
+<div id="ref-mcmahan2010" class="csl-entry" role="listitem">
+McMahan, Jeff. 2010. <span>“The Meat Eaters.”</span> Opinion. <em>New York Times</em>, September 19. <a href="https://archive.nytimes.com/opinionator.blogs.nytimes.com/2010/09/19/the-meat-eaters/">https://archive.nytimes.com/opinionator.blogs.nytimes.com/2010/09/19/the-meat-eaters/</a>.
+</div>
+<div id="ref-norcross2004" class="csl-entry" role="listitem">
+Norcross, Alastair. 2004. <span>“Puppies, Pigs, and People: Eating Meat and Marginal Cases.”</span> <em>Philosophical Perspectives</em> 18 (1): 229–45. <a href="https://doi.org/10.1111/j.1520-8583.2004.00027.x">https://doi.org/10.1111/j.1520-8583.2004.00027.x</a>.
+</div>
+<div id="ref-plumer2014" class="csl-entry" role="listitem">
+Plumer, Brad. 2014. <span>“How Much of the World’s Cropland Is Actually Used to Grow Food?”</span> Vox, August 21. <a href="https://www.vox.com/2014/8/21/6053187/cropland-map-food-fuel-animal-feed">https://www.vox.com/2014/8/21/6053187/cropland-map-food-fuel-animal-feed</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

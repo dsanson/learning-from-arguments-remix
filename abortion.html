@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -424,18 +443,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preliminaries" id="toc-preliminaries" class="nav-link active" data-scroll-target="#preliminaries"><span class="header-section-number">9.1</span> Preliminaries</a></li>
-  <li><a href="#identifying-wrong-making-features" id="toc-identifying-wrong-making-features" class="nav-link" data-scroll-target="#identifying-wrong-making-features"><span class="header-section-number">9.2</span> Identifying Wrong-Making Features</a></li>
-  <li><a href="#some-bad-pro-choice-arguments" id="toc-some-bad-pro-choice-arguments" class="nav-link" data-scroll-target="#some-bad-pro-choice-arguments"><span class="header-section-number">9.3</span> Some Bad Pro-Choice Arguments</a></li>
-  <li><a href="#some-bad-pro-life-arguments" id="toc-some-bad-pro-life-arguments" class="nav-link" data-scroll-target="#some-bad-pro-life-arguments"><span class="header-section-number">9.4</span> Some Bad Pro-Life Arguments</a></li>
-  <li><a href="#the-right-to-life-argument" id="toc-the-right-to-life-argument" class="nav-link" data-scroll-target="#the-right-to-life-argument"><span class="header-section-number">9.5</span> The Right to Life Argument</a></li>
-  <li><a href="#the-violinist-argument" id="toc-the-violinist-argument" class="nav-link" data-scroll-target="#the-violinist-argument"><span class="header-section-number">9.6</span> The Violinist Argument</a></li>
-  <li><a href="#risk-consent-and-the-right-to-the-womb" id="toc-risk-consent-and-the-right-to-the-womb" class="nav-link" data-scroll-target="#risk-consent-and-the-right-to-the-womb"><span class="header-section-number">9.7</span> Risk, Consent, and the Right to the Womb</a></li>
-  <li><a href="#the-future-like-ours-argument" id="toc-the-future-like-ours-argument" class="nav-link" data-scroll-target="#the-future-like-ours-argument"><span class="header-section-number">9.8</span> The Future Like Ours Argument</a></li>
-  <li><a href="#bad-objections-to-the-flo-argument" id="toc-bad-objections-to-the-flo-argument" class="nav-link" data-scroll-target="#bad-objections-to-the-flo-argument"><span class="header-section-number">9.9</span> Bad Objections to the FLO Argument</a></li>
-  <li><a href="#flo-overriding-factors" id="toc-flo-overriding-factors" class="nav-link" data-scroll-target="#flo-overriding-factors"><span class="header-section-number">9.10</span> FLO-Overriding Factors</a></li>
-  <li><a href="#making-exceptions" id="toc-making-exceptions" class="nav-link" data-scroll-target="#making-exceptions"><span class="header-section-number">9.11</span> Making Exceptions</a></li>
-  <li><a href="#making-laws" id="toc-making-laws" class="nav-link" data-scroll-target="#making-laws"><span class="header-section-number">9.12</span> Making Laws</a></li>
+  <li><a href="#sec-abortion-preliminaries" id="toc-sec-abortion-preliminaries" class="nav-link active" data-scroll-target="#sec-abortion-preliminaries"><span class="header-section-number">9.1</span> Preliminaries</a></li>
+  <li><a href="#sec-identifying-wrong-making-features" id="toc-sec-identifying-wrong-making-features" class="nav-link" data-scroll-target="#sec-identifying-wrong-making-features"><span class="header-section-number">9.2</span> Identifying Wrong-Making Features</a></li>
+  <li><a href="#sec-bad-pro-choice-arguments" id="toc-sec-bad-pro-choice-arguments" class="nav-link" data-scroll-target="#sec-bad-pro-choice-arguments"><span class="header-section-number">9.3</span> Some Bad Pro-Choice Arguments</a></li>
+  <li><a href="#sec-bad-pro-life-arguments" id="toc-sec-bad-pro-life-arguments" class="nav-link" data-scroll-target="#sec-bad-pro-life-arguments"><span class="header-section-number">9.4</span> Some Bad Pro-Life Arguments</a></li>
+  <li><a href="#sec-right-to-life-argument" id="toc-sec-right-to-life-argument" class="nav-link" data-scroll-target="#sec-right-to-life-argument"><span class="header-section-number">9.5</span> The Right to Life Argument</a></li>
+  <li><a href="#sec-violinist-argument" id="toc-sec-violinist-argument" class="nav-link" data-scroll-target="#sec-violinist-argument"><span class="header-section-number">9.6</span> The Violinist Argument</a></li>
+  <li><a href="#sec-risk-consent-and-right-to-the-womb" id="toc-sec-risk-consent-and-right-to-the-womb" class="nav-link" data-scroll-target="#sec-risk-consent-and-right-to-the-womb"><span class="header-section-number">9.7</span> Risk, Consent, and the Right to the Womb</a></li>
+  <li><a href="#sec-future-like-ours-argument" id="toc-sec-future-like-ours-argument" class="nav-link" data-scroll-target="#sec-future-like-ours-argument"><span class="header-section-number">9.8</span> The Future Like Ours Argument</a></li>
+  <li><a href="#sec-bad-objections-to-flo" id="toc-sec-bad-objections-to-flo" class="nav-link" data-scroll-target="#sec-bad-objections-to-flo"><span class="header-section-number">9.9</span> Bad Objections to the FLO Argument</a></li>
+  <li><a href="#sec-flo-overriding-factors" id="toc-sec-flo-overriding-factors" class="nav-link" data-scroll-target="#sec-flo-overriding-factors"><span class="header-section-number">9.10</span> FLO-Overriding Factors</a></li>
+  <li><a href="#sec-making-exceptions" id="toc-sec-making-exceptions" class="nav-link" data-scroll-target="#sec-making-exceptions"><span class="header-section-number">9.11</span> Making Exceptions</a></li>
+  <li><a href="#sec-making-laws" id="toc-sec-making-laws" class="nav-link" data-scroll-target="#sec-making-laws"><span class="header-section-number">9.12</span> Making Laws</a></li>
   <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions"><span class="header-section-number">9.13</span> Reflection Questions</a></li>
   <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">9.14</span> Sources</a></li>
   </ul>
@@ -464,15 +483,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="authorial-intent">
 <p><em>Views and arguments advanced in this chapter are not necessarily endorsed by the author of the textbook, nor are they original to the author, nor are they meant to be consistent with arguments advanced in other chapters. Different chapters represent different philosophical perspectives.</em></p>
-<section id="preliminaries" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="preliminaries"><span class="header-section-number">9.1</span> Preliminaries</h2>
+</div>
+<section id="sec-abortion-preliminaries" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="sec-abortion-preliminaries"><span class="header-section-number">9.1</span> Preliminaries</h2>
 <p>My ultimate aim in this chapter is to argue that abortion is immoral, at least in typical cases. But my broader aim is to show that those looking to defend the immorality of abortion need to be discerning. Not every argument against abortion is a good argument. With this end in mind, I begin by considering a number of common arguments—including an argument that proceeds from the assumption that the embryo has a right to life—and showing that they all fall short. Finally, I advance a more promising argument against abortion, which turns on the idea that killing an embryo is immoral because the embryo is thereby deprived of a future full of valuable experiences, projects, and activities.</p>
 <p>Some preliminary points before we proceed. We should begin by noting that one can think that abortion is immoral in some cases but not others. For instance, one might think it’s permissible to abort a pregnancy after six weeks but not after six months. Or one might think it’s immoral to abort a healthy pregnancy but permissible to abort a pregnancy that is likely to kill the mother. To help anchor our discussion, it will be useful to focus on a specific case.</p>
 <div id="exa-unwanted-pregnancy" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-unwanted-pregnancy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.1: <strong>UNWANTED PREGNANCY</strong>
+Thought Experiment&nbsp;9.1: <strong>UNWANTED PREGNANCY</strong>
 </figcaption>
 <div aria-describedby="exa-unwanted-pregnancy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -481,15 +502,14 @@ X9.1: <strong>UNWANTED PREGNANCY</strong>
 </div>
 </figure>
 </div>
-<p>Take a moment to Google <em>embryo at eight weeks</em> to get an accurate picture of what Emm would look like. Why “eight weeks” if Emm is six weeks old? Because doctors count the number of weeks you have been pregnant</p>
-<p>starting from your last period, which is two weeks prior to ovulation and, so, two weeks prior to conception. That means that someone who is “eight weeks pregnant” is carrying an embryo that was conceived six weeks ago.</p>
+<p>Take a moment to Google <em>embryo at eight weeks</em> to get an accurate picture of what Emm would look like. Why “eight weeks” if Emm is six weeks old? Because doctors count the number of weeks you have been pregnant starting from your last period, which is two weeks prior to ovulation and, so, two weeks prior to conception. That means that someone who is “eight weeks pregnant” is carrying an embryo that was conceived six weeks ago.</p>
 <p>I focus on the case of Emm because it is both a typical case—a good deal of abortions occur within the first eight weeks and about half involve failed contraception—as well as being a case that parties to the debates typically disagree about. So, if we can resolve the question of whether it was immoral to kill Emm, we will have made significant progress on the morality of abortion.</p>
 <p>I will use the usual labels of “pro-life” and “pro-choice” to characterize the different sides of the debate. A <em>pro-lifer</em> holds that it was immoral to abort Emm when she was six weeks old. A <em>pro-choicer</em> holds that it was morally permissible to abort Emm when she was six weeks old. But one must be cautious not to read too much into these labels. As I use the labels here, they’re specifically about Emm. One cannot infer that someone thinks that aborting a life-threatening pregnancy is immoral just because they are pro-life (in my sense), nor that someone thinks it is permissible to abort a planned pregnancy just because they are pro-choice (in my sense).</p>
-<p>Additionally, I want to separate the question of whether abortion is immoral from the question of whether abortion should be illegal. One can think that abortion is immoral without thinking that it should be against the law, just as one can think that adultery is immoral without thinking that it should be against the law. So, one should not assume that those who are pro-life (in my sense) think that anyone should be legally prohibited from having an abortion. One can think, as I do, that abortion is immoral while also supporting the legal right to choose. More on this in section 12.</p>
+<p>Additionally, I want to separate the question of whether abortion is immoral from the question of whether abortion should be illegal. One can think that abortion is immoral without thinking that it should be against the law, just as one can think that adultery is immoral without thinking that it should be against the law. So, one should not assume that those who are pro-life (in my sense) think that anyone should be legally prohibited from having an abortion. One can think, as I do, that abortion is immoral while also supporting the legal right to choose. More on this in <a href="#sec-making-laws" class="quarto-xref"><span>Section 9.12</span></a>.</p>
 <p>Finally, notice that very minor transgressions are sometimes immoral, for instance shoplifting a pack of gum. Even pro-choicers may agree that aborting Emm is at least <em>somewhat</em> immoral, perhaps to a relatively minor degree. To sharpen the debate between pro-lifers and pro-choicers, then, I’ll focus on the question of whether aborting Emm is <em>seriously</em> immoral, by which I mean: approximately as immoral as killing a typical human adult.</p>
 </section>
-<section id="identifying-wrong-making-features" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="identifying-wrong-making-features"><span class="header-section-number">9.2</span> Identifying Wrong-Making Features</h2>
+<section id="sec-identifying-wrong-making-features" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="sec-identifying-wrong-making-features"><span class="header-section-number">9.2</span> Identifying Wrong-Making Features</h2>
 <p>A useful strategy for trying to make headway on the ethics of abortion is to try to identify some feature that embryos have or lack that seems relevant to the permissibility of abortion. The pro-lifer, for instance, tries to find some feature to fill in for X in this argument schema:</p>
 <p>Emm is (or has) X So, it’s seriously immoral to kill Emm For instance, she may point to the fact that Emm <em>is alive</em>, or that she <em>has human DNA</em>, or that she <em>has a beating heart</em>.</p>
 <p>The pro-choicer, by contrast, tries to find some feature to fill in for Y in this argument schema:</p>
@@ -499,7 +519,7 @@ X9.1: <strong>UNWANTED PREGNANCY</strong>
 <div id="arg-X" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-X-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.1: <strong>The X-Schema</strong>
+Argument&nbsp;9.1: <strong>The X-Schema</strong>
 </figcaption>
 <div aria-describedby="arg-X-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -514,7 +534,7 @@ A9.1: <strong>The X-Schema</strong>
 <div id="arg-Y" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-Y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.2: <strong>The Y-Schema</strong>
+Argument&nbsp;9.2: <strong>The Y-Schema</strong>
 </figcaption>
 <div aria-describedby="arg-Y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -527,13 +547,13 @@ A9.2: <strong>The Y-Schema</strong>
 </div>
 <p>Let us see, then, which (if any) of the various features that Emm has or lacks can yield a satisfying argument for or against the permissibility of killing Emm.</p>
 </section>
-<section id="some-bad-pro-choice-arguments" class="level2" data-number="9.3">
-<h2 data-number="9.3" class="anchored" data-anchor-id="some-bad-pro-choice-arguments"><span class="header-section-number">9.3</span> Some Bad Pro-Choice Arguments</h2>
+<section id="sec-bad-pro-choice-arguments" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="sec-bad-pro-choice-arguments"><span class="header-section-number">9.3</span> Some Bad Pro-Choice Arguments</h2>
 <p>We’ll begin by examining some ways of generating pro-choice arguments from the Y-schema, starting with the observation that Emm isn’t rational. In other words, she isn’t capable of conscious self-reflection or using reason and logic. The argument would go like this:</p>
 <div id="arg-YR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.3: <strong>The Argument from Rationality</strong>
+Argument&nbsp;9.3: <strong>The Argument from Rationality</strong>
 </figcaption>
 <div aria-describedby="arg-YR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -549,7 +569,7 @@ A9.3: <strong>The Argument from Rationality</strong>
 <div id="arg-YS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.4: <strong>The Argument from Self-Sufficiency</strong>
+Argument&nbsp;9.4: <strong>The Argument from Self-Sufficiency</strong>
 </figcaption>
 <div aria-describedby="arg-YS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -565,7 +585,7 @@ A9.4: <strong>The Argument from Self-Sufficiency</strong>
 <div id="arg-YU" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YU-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.5: <strong>The Argument from Being Unwanted</strong>
+Argument&nbsp;9.5: <strong>The Argument from Being Unwanted</strong>
 </figcaption>
 <div aria-describedby="arg-YU-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -581,7 +601,7 @@ A9.5: <strong>The Argument from Being Unwanted</strong>
 <div id="arg-YA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.6: <strong>The Argument from Attachment</strong>
+Argument&nbsp;9.6: <strong>The Argument from Attachment</strong>
 </figcaption>
 <div aria-describedby="arg-YA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -597,7 +617,7 @@ A9.6: <strong>The Argument from Attachment</strong>
 <div id="arg-YA-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg quarto-uncaptioned" id="arg-YA-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.7
+Argument&nbsp;9.7
 </figcaption>
 <div aria-describedby="arg-YA-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -614,7 +634,7 @@ A9.7
 <div id="arg-YC" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.8: <strong>The Argument from Consciousness</strong>
+Argument&nbsp;9.8: <strong>The Argument from Consciousness</strong>
 </figcaption>
 <div aria-describedby="arg-YC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -628,13 +648,13 @@ A9.8: <strong>The Argument from Consciousness</strong>
 <p>Alas, there are counterexamples to YC2 as well. Normal human adults in deep, dreamless sleep or who are heavily sedated aren’t conscious. But it <em>is</em> seriously immoral to kill such people. So YC2 is false.</p>
 <p>We have examined a number of pro-choice arguments and found them all to be inadequate. Let us turn now to some of the usual pro-life arguments and see whether they fare any better. (Spoiler: they don’t.)</p>
 </section>
-<section id="some-bad-pro-life-arguments" class="level2" data-number="9.4">
-<h2 data-number="9.4" class="anchored" data-anchor-id="some-bad-pro-life-arguments"><span class="header-section-number">9.4</span> Some Bad Pro-Life Arguments</h2>
-<p>Arguments from the pro-life position can be constructed by identifying some features that Emm has, and filling it in for X in the X-Schema (from section 2). Let’s begin with the proposal that killing Emm is seriously immoral because Emm is alive:</p>
+<section id="sec-bad-pro-life-arguments" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="sec-bad-pro-life-arguments"><span class="header-section-number">9.4</span> Some Bad Pro-Life Arguments</h2>
+<p>Arguments from the pro-life position can be constructed by identifying some features that Emm has, and filling it in for X in the X-Schema (from <a href="#sec-identifying-wrong-making-features" class="quarto-xref"><span>Section 9.2</span></a>). Let’s begin with the proposal that killing Emm is seriously immoral because Emm is alive:</p>
 <div id="arg-XL" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-XL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.9: <strong>The Argument from Life</strong>
+Argument&nbsp;9.9: <strong>The Argument from Life</strong>
 </figcaption>
 <div aria-describedby="arg-XL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -651,7 +671,7 @@ A9.9: <strong>The Argument from Life</strong>
 <div id="arg-XD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-XD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.10: <strong>The Argument from Human DNA</strong>
+Argument&nbsp;9.10: <strong>The Argument from Human DNA</strong>
 </figcaption>
 <div aria-describedby="arg-XD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -667,7 +687,7 @@ A9.10: <strong>The Argument from Human DNA</strong>
 <div id="arg-XH" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-XH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.11: <strong>The Argument from Hearts</strong>
+Argument&nbsp;9.11: <strong>The Argument from Hearts</strong>
 </figcaption>
 <div aria-describedby="arg-XH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -683,7 +703,7 @@ A9.11: <strong>The Argument from Hearts</strong>
 <div id="arg-XP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-XP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.12: <strong>The Argument from Potentiality</strong>
+Argument&nbsp;9.12: <strong>The Argument from Potentiality</strong>
 </figcaption>
 <div aria-describedby="arg-XP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -695,16 +715,16 @@ A9.12: <strong>The Argument from Potentiality</strong>
 </figure>
 </div>
 <p>XP1 is true. It’s a healthy pregnancy and, if brought to term, Emm will be a full-fledged person. Additionally, since neither worms nor skin cells nor blades of grass have the potential to become people, XP2 is immune to all the previous counterexamples. Indeed, it is hard to think of any uncontroversial counterexample to XP2.</p>
-<p>Still, it is unclear why we should accept XP2. Even supposing that it’s always seriously immoral to kill a person because (say) they have a right to life, it’s hardly obvious that something that merely has the <em>potential</em> to become a person has those same rights. I have the potential to become a US president, but that doesn’t mean that I <em>now</em> have all the rights of a president (the right to pardon criminals, veto legislation, etc.). Likewise, there is no reason to think that Emm has all the rights of a person <em>simply</em> by virtue of potentially becoming a person. Furthermore, as we are about to see (in sections 5-7), even if Emm <em>does</em> have same moral right to life as an adult human, that may not be enough to establish that it’s immoral to kill her.</p>
+<p>Still, it is unclear why we should accept XP2. Even supposing that it’s always seriously immoral to kill a person because (say) they have a right to life, it’s hardly obvious that something that merely has the <em>potential</em> to become a person has those same rights. I have the potential to become a US president, but that doesn’t mean that I <em>now</em> have all the rights of a president (the right to pardon criminals, veto legislation, etc.). Likewise, there is no reason to think that Emm has all the rights of a person <em>simply</em> by virtue of potentially becoming a person. Furthermore, as we are about to see (in sections <a href="#sec-right-to-life-argument" class="quarto-xref"><span>9.5</span></a>–<a href="#sec-risk-consent-and-right-to-the-womb" class="quarto-xref"><span>9.7</span></a>), even if Emm <em>does</em> have same moral right to life as an adult human, that may not be enough to establish that it’s immoral to kill her.</p>
 <p>None of these arguments for the immorality of abortion is successful, and no one—pro-lifers included—should be convinced by them. One must look elsewhere for a satisfying argument against abortion.</p>
 </section>
-<section id="the-right-to-life-argument" class="level2" data-number="9.5">
-<h2 data-number="9.5" class="anchored" data-anchor-id="the-right-to-life-argument"><span class="header-section-number">9.5</span> The Right to Life Argument</h2>
+<section id="sec-right-to-life-argument" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="sec-right-to-life-argument"><span class="header-section-number">9.5</span> The Right to Life Argument</h2>
 <p>Let’s turn now to a somewhat different pro-life argument. Here the idea is that it’s seriously immoral to kill Emm because she’s a person with a right to life. We can frame the argument like this:</p>
 <div id="arg-RL" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.13: <strong>The Right to Life Argument</strong>
+Argument&nbsp;9.13: <strong>The Right to Life Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -716,17 +736,17 @@ A9.13: <strong>The Right to Life Argument</strong>
 </figure>
 </div>
 <p>Since abortion deprives Emm of Taylor’s womb, it follows trivially from RL3 that aborting Emm is seriously immoral.</p>
-<p>What’s nice about the appeal to a right to life is that it avoids the problems that plagued the arguments from sections 3-4. Worms, skin cells, and blades of grass clearly don’t have a right to life, while infants, conjoined twins, and heavily sedated people do all have a right to life. Plus, at least on the face of it, it seems obvious why something’s having a right to life makes it wrong to kill that thing, while it is somewhat obscure why merely having a beating heart or a certain kind of DNA makes it wrong to kill something.</p>
+<p>What’s nice about the appeal to a right to life is that it avoids the problems that plagued the arguments from sections <a href="#sec-bad-pro-choice-arguments" class="quarto-xref"><span>9.3</span></a>–<a href="#sec-bad-pro-life-arguments" class="quarto-xref"><span>9.4</span></a>. Worms, skin cells, and blades of grass clearly don’t have a right to life, while infants, conjoined twins, and heavily sedated people do all have a right to life. Plus, at least on the face of it, it seems obvious why something’s having a right to life makes it wrong to kill that thing, while it is somewhat obscure why merely having a beating heart or a certain kind of DNA makes it wrong to kill something.</p>
 <p>Still, there are two major problems with the argument. The first (which I won’t pursue here) is that pro-choicers are likely just to reject RL1 out of hand. “Sure,” they’ll say, “Emm <em>potentially</em> has a right to life, but why think she has one already?” More would need to be said in defense of RL1 if the argument is to have any hope of persuading pro-choicers.</p>
 <p>The second problem is that even if the pro-lifer is correct that Emm has a right to life—and even if she can somehow convince the pro-choicer of this—the argument <em>still</em> doesn’t work. Or so I shall argue. And if I’m right about this, then the pro-lifer must again look elsewhere for a viable argument against abortion.</p>
 </section>
-<section id="the-violinist-argument" class="level2" data-number="9.6">
-<h2 data-number="9.6" class="anchored" data-anchor-id="the-violinist-argument"><span class="header-section-number">9.6</span> The Violinist Argument</h2>
+<section id="sec-violinist-argument" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="sec-violinist-argument"><span class="header-section-number">9.6</span> The Violinist Argument</h2>
 <p>To see the problem, let’s take a closer look at RL2 and at why we are supposed to accept that premise in the first place. If we were to unpack the reasoning behind that premise, it would presumably go something like this:</p>
 <div id="arg-RQ" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RQ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.14: <strong>The Requirements of Life Argument</strong>
+Argument&nbsp;9.14: <strong>The Requirements of Life Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RQ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -744,7 +764,7 @@ A9.14: <strong>The Requirements of Life Argument</strong>
 <div id="exa-the-violinist" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-the-violinist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.2: <strong>THE VIOLINIST</strong>
+Thought Experiment&nbsp;9.2: <strong>THE VIOLINIST</strong>
 </figcaption>
 <div aria-describedby="exa-the-violinist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -756,7 +776,7 @@ X9.2: <strong>THE VIOLINIST</strong>
 <div id="exa-the-rock" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-the-rock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.3: <strong>THE ROCK</strong>
+Thought Experiment&nbsp;9.3: <strong>THE ROCK</strong>
 </figcaption>
 <div aria-describedby="exa-the-rock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -770,7 +790,7 @@ X9.3: <strong>THE ROCK</strong>
 <div id="arg-VA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-VA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.15: <strong>The Violinist Argument</strong>
+Argument&nbsp;9.15: <strong>The Violinist Argument</strong>
 </figcaption>
 <div aria-describedby="arg-VA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -783,8 +803,8 @@ A9.15: <strong>The Violinist Argument</strong>
 </div>
 <p>One might point out that there are disanalogies between these cases and UNWANTED PREGNANCY. Riley’s predicament, for instance, arose without his consent, whereas Taylor’s resulted from consensual sex. We’ll see momentarily how that might be relevant. But, analogous or not, THE VIOLINIST and THE ROCK are enough to show that RQ1 is false, and without RQ1 we are left without any argument for RL2, a crucial premise of The Right to Life Argument.</p>
 </section>
-<section id="risk-consent-and-the-right-to-the-womb" class="level2" data-number="9.7">
-<h2 data-number="9.7" class="anchored" data-anchor-id="risk-consent-and-the-right-to-the-womb"><span class="header-section-number">9.7</span> Risk, Consent, and the Right to the Womb</h2>
+<section id="sec-risk-consent-and-right-to-the-womb" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="sec-risk-consent-and-right-to-the-womb"><span class="header-section-number">9.7</span> Risk, Consent, and the Right to the Womb</h2>
 <p>What we have just seen is that the right to life does not guarantee a right to everything one needs in order to survive. One cannot argue directly from Emm’s having a right to life to Emm’s having a right to use Taylor’s womb. But if one can find some <em>other</em> way of establishing that Emm has a right to use Taylor’s womb, then perhaps one can argue directly from there to the conclusion that Taylor’s abortion was seriously immoral.</p>
 <p>Why else might one think that Emm has a right to Taylor’s womb? One might suggest that Emm has this right because Taylor, in one way or another, <em>consented</em> to Emm using her womb. If I offer to let you use my spare sleeping bag, I can’t then demand it back from you when we reach the campsite. When I consent to you using it, you acquire a right to it. Or suppose Riley had volunteered to be plugged into Maurissa, knowing that prematurely unplugging himself would kill her. In that case, he consented to her using his blood, and she thereby acquired a right to it.</p>
 <p>So, if the pro-lifer can establish that Taylor consented to Emm using her womb, then we can arguably use that to establish that Emm has a right to use her womb. That said, Taylor didn’t exactly volunteer to have Emm in her womb. Quite the opposite: she took deliberate steps to avoid it by having protected sex. So what reason could there be to think that Taylor consented to Emm using her womb? One might suggest that Taylor consents to it by freely choosing to have sex, which is something she knew might lead to pregnancy (even with the precaution of a condom). Even though she didn’t want to get pregnant, she knew the risk she was taking.</p>
@@ -792,7 +812,7 @@ A9.15: <strong>The Violinist Argument</strong>
 <div id="arg-KR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-KR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.16: <strong>The Known Risk Argument</strong>
+Argument&nbsp;9.16: <strong>The Known Risk Argument</strong>
 </figcaption>
 <div aria-describedby="arg-KR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -811,7 +831,7 @@ A9.16: <strong>The Known Risk Argument</strong>
 <div id="exa-open-window" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-open-window-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.4: <strong>OPEN WINDOW</strong>
+Thought Experiment&nbsp;9.4: <strong>OPEN WINDOW</strong>
 </figcaption>
 <div aria-describedby="exa-open-window-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -823,15 +843,15 @@ X9.4: <strong>OPEN WINDOW</strong>
 <p>Astrid freely chose to open the windows and knew this could lead to hooligans entering her house. Certainly they don’t have any right to be in there and certainly she did not consent to them being in there just by opening her barred windows. But KR2 absurdly implies that she did consent to them being in there.</p>
 <p>Consent requires something more robust than simply taking actions that open one up to the risk of some consequences. Accordingly, there would seem to be no way of getting anything like the present argument for KR3 off the ground. It would be a different story if Taylor had “invited” Emm into her womb, for instance if she hadn’t used protection and had been <em>trying</em> to get pregnant. Perhaps in that case an argument from consent could be made to work. But it seems hopeless in cases like Taylor’s, where the pregnancy is the unwanted consequence of protected sex.</p>
 </section>
-<section id="the-future-like-ours-argument" class="level2" data-number="9.8">
-<h2 data-number="9.8" class="anchored" data-anchor-id="the-future-like-ours-argument"><span class="header-section-number">9.8</span> The Future Like Ours Argument</h2>
+<section id="sec-future-like-ours-argument" class="level2" data-number="9.8">
+<h2 data-number="9.8" class="anchored" data-anchor-id="sec-future-like-ours-argument"><span class="header-section-number">9.8</span> The Future Like Ours Argument</h2>
 <p>Not all pro-life arguments are created equal, and we have seen that a number of common arguments are fatally flawed, including the Right to Life argument. Let us turn now, finally, to what I take to be a successful argument for the pro-life position.</p>
 <p>This superior argument turns on the idea that, if the pregnancy were carried to term, Emm would have had a future filled with valuable experiences, including valuable activities, relationships, projects, achievements, and pleasant sensations. She has a future like ours, or “FLO” for short. That doesn’t necessarily mean <em>exactly</em> like ours, but like ours in that it’s filled with valuable experiences.</p>
 <p>Aborting Emm deprives her of FLO and this, I contend, is what makes the abortion seriously immoral:</p>
 <div id="arg-SF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-SF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.17: <strong>The Simple FLO Argument</strong>
+Argument&nbsp;9.17: <strong>The Simple FLO Argument</strong>
 </figcaption>
 <div aria-describedby="arg-SF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -842,20 +862,20 @@ A9.17: <strong>The Simple FLO Argument</strong>
 </div>
 </figure>
 </div>
-<p>I call this “The Simple FLO Argument” because, as we’ll see in section 11, we will need to complicate it a bit in order to handle a certain range of objections. But for the moment, it will be useful to focus on this somewhat oversimplified version of the argument.</p>
+<p>I call this “The Simple FLO Argument” because, as we’ll see in <a href="#sec-making-exceptions" class="quarto-xref"><span>Section 9.11</span></a>, we will need to complicate it a bit in order to handle a certain range of objections. But for the moment, it will be useful to focus on this somewhat oversimplified version of the argument.</p>
 <p>SF1 is initially quite plausible. To see this, ask yourself why it is wrong to murder a normal, healthy human adult. Why is killing someone one of the worst things (if not <em>the</em> worst thing) you can do to a person? The natural answer is that it’s because one thereby deprives them of all the things that make life so valuable. That’s why it seems even more horrific to kill an infant, for one thereby deprives them of a <em>whole life’s</em> worth of valuable things. SF1 seems to put its finger on precisely the thing that makes these other killings seriously immoral.</p>
 <p>How about SF2? Even supposing that her life gets off to a rocky start as a result of being put up for adoption or being raised by an overworked single mom—Emm still would have had a full lifetime of achievements, friendships, and other such valuable experiences.</p>
-<p>You might wonder how I know that Emm would have had FLO, and won’t for instance be born with some terrible birth defect and die before she’s a year old. The short answer is that it’s my example: I can fill in details however I like, and I’m <em>telling</em> you that she would have had a happy, fulfilling life had she not been aborted. Of course, for any actual pregnancy, we can never be 100% sure that the embryo has FLO, even if medical tests suggest that it’s a healthy pregnancy. Still—with some exceptions, which we’ll discuss in section 11—you can usually be reasonably confident that the embryo will have FLO. That, together with SF1, tells us that you can be reasonably confident you’d be doing something seriously immoral by aborting the pregnancy. And if you can be reasonably confident that an action is seriously immoral, you shouldn’t do it—even if there’s some small chance that what you’re doing isn’t actually immoral.</p>
+<p>You might wonder how I know that Emm would have had FLO, and won’t for instance be born with some terrible birth defect and die before she’s a year old. The short answer is that it’s my example: I can fill in details however I like, and I’m <em>telling</em> you that she would have had a happy, fulfilling life had she not been aborted. Of course, for any actual pregnancy, we can never be 100% sure that the embryo has FLO, even if medical tests suggest that it’s a healthy pregnancy. Still—with some exceptions, which we’ll discuss in <a href="#sec-making-exceptions" class="quarto-xref"><span>Section 9.11</span></a>—you can usually be reasonably confident that the embryo will have FLO. That, together with SF1, tells us that you can be reasonably confident you’d be doing something seriously immoral by aborting the pregnancy. And if you can be reasonably confident that an action is seriously immoral, you shouldn’t do it—even if there’s some small chance that what you’re doing isn’t actually immoral.</p>
 <p>(I’m reminded of a scene in a movie you’ve never heard of called <em>Adam’s Apples</em>. One character shoots another in the head. Not only does the gunshot victim survive, the bullet also obliterates his brain tumor and saves his life. This could in principle happen in real life too. But that doesn’t mean it’s okay for you to go around shooting people in the head. Why not? Because, even though there’s some small chance you’ll actually be helping them, you can be reasonably confident that in fact you’d be killing them and doing something seriously immoral.)</p>
-<p>For these reasons, it’s no use challenging SF2, and critics of the argument should focus instead on SF1. Let’s turn, then, to four objections one might raise against SF1: three that won’t work at all (section 9) and one that does work but that can be avoided by revising the argument (section 10).</p>
+<p>For these reasons, it’s no use challenging SF2, and critics of the argument should focus instead on SF1. Let’s turn, then, to four objections one might raise against SF1: three that won’t work at all (<a href="#sec-bad-objections-to-flo" class="quarto-xref"><span>Section 9.9</span></a>) and one that does work but that can be avoided by revising the argument (<a href="#sec-flo-overriding-factors" class="quarto-xref"><span>Section 9.10</span></a>).</p>
 </section>
-<section id="bad-objections-to-the-flo-argument" class="level2" data-number="9.9">
-<h2 data-number="9.9" class="anchored" data-anchor-id="bad-objections-to-the-flo-argument"><span class="header-section-number">9.9</span> Bad Objections to the FLO Argument</h2>
+<section id="sec-bad-objections-to-flo" class="level2" data-number="9.9">
+<h2 data-number="9.9" class="anchored" data-anchor-id="sec-bad-objections-to-flo"><span class="header-section-number">9.9</span> Bad Objections to the FLO Argument</h2>
 <p>First, one might think that the following sort of case is a problem for SF1:</p>
 <div id="exa-hopeful-goner" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hopeful-goner-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.5: <strong>HOPEFUL GONER</strong>
+Thought Experiment&nbsp;9.5: <strong>HOPEFUL GONER</strong>
 </figcaption>
 <div aria-describedby="exa-hopeful-goner-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -870,7 +890,7 @@ X9.5: <strong>HOPEFUL GONER</strong>
 <div id="arg-CC" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.18: <strong>The Contraception Argument</strong>
+Argument&nbsp;9.18: <strong>The Contraception Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -887,7 +907,7 @@ A9.18: <strong>The Contraception Argument</strong>
 <div id="arg-CC-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CC-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.19: <strong>The Revised Contraception Argument</strong>
+Argument&nbsp;9.19: <strong>The Revised Contraception Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CC-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -906,13 +926,13 @@ A9.19: <strong>The Revised Contraception Argument</strong>
 <p>But unlike SF1, SF1* does <em>not</em> imply that it is seriously immoral to kill Emm. Emm is a very simple creature, which does not even have a brain, let alone desires. Killing her does deprive her of FLO, but it does not deprive her of anything she desires.</p>
 <p>The problem with this line of reasoning is that the proposed alternative explanation of the wrongness of killing human adults is deeply flawed. Consider a heavily sedated adult, who (like Emm) has no desires, or any other conscious mental states for that matter. Or consider an overwhelmed teenager experiencing his first heartbreak: he genuinely doesn’t want to go on living, but these feelings will pass in a week or so. It is seriously immoral to kill these people, and the original future-like-ours account has no trouble explaining why: because they have FLO. By contrast, the competing account that we are now considering fails to explain why it is seriously immoral to kill them. After all, they do not desire a future like ours. The desire account of what makes killing wrong that underwrites SF1* is therefore inferior to the FLO-account that underwrites SF1. Accordingly, we should reject SF1* and stick with SF1.</p>
 </section>
-<section id="flo-overriding-factors" class="level2" data-number="9.10">
-<h2 data-number="9.10" class="anchored" data-anchor-id="flo-overriding-factors"><span class="header-section-number">9.10</span> FLO-Overriding Factors</h2>
+<section id="sec-flo-overriding-factors" class="level2" data-number="9.10">
+<h2 data-number="9.10" class="anchored" data-anchor-id="sec-flo-overriding-factors"><span class="header-section-number">9.10</span> FLO-Overriding Factors</h2>
 <p>There is, however, a more serious style of objection to SF1, one that will require us to revise the argument. Suppose that someone is trying to kill you and you can save your own life only by killing them first. One can imagine having qualms about killing them, but certainly it’s not seriously immoral to do so. Or take the following case.</p>
 <div id="exa-cruel-game" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-cruel-game-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.6: <strong>CRUEL GAME</strong>
+Thought Experiment&nbsp;9.6: <strong>CRUEL GAME</strong>
 </figcaption>
 <div aria-describedby="exa-cruel-game-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -928,7 +948,7 @@ X9.6: <strong>CRUEL GAME</strong>
 <div id="arg-MF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A9.20: <strong>The Modified FLO Argument</strong>
+Argument&nbsp;9.20: <strong>The Modified FLO Argument</strong>
 </figcaption>
 <div aria-describedby="arg-MF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -947,7 +967,7 @@ A9.20: <strong>The Modified FLO Argument</strong>
 <div id="exa-runner-up" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-runner-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.7: <strong>RUNNER-UP</strong>
+Thought Experiment&nbsp;9.7: <strong>RUNNER-UP</strong>
 </figcaption>
 <div aria-describedby="exa-runner-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -958,8 +978,8 @@ X9.7: <strong>RUNNER-UP</strong>
 </div>
 <p>Having Jacqueline around was severely disruptive to Krystal’s life plans and was depriving her of significant opportunities. Still, that was not enough to justify killing Jacqueline, even supposing that Jacqueline’s presence completely derails and ruins Krystal’s life. So the disruption to Taylor’s life plans, substantial as it is, is no FLO-overriding factor and no reason to reject MF3.</p>
 </section>
-<section id="making-exceptions" class="level2" data-number="9.11">
-<h2 data-number="9.11" class="anchored" data-anchor-id="making-exceptions"><span class="header-section-number">9.11</span> Making Exceptions</h2>
+<section id="sec-making-exceptions" class="level2" data-number="9.11">
+<h2 data-number="9.11" class="anchored" data-anchor-id="sec-making-exceptions"><span class="header-section-number">9.11</span> Making Exceptions</h2>
 <p>I have argued that, in typical cases, aborting an unwanted but healthy embryo early on in the pregnancy is seriously immoral. I also argued that a pro-lifer must be discerning: some pro-life arguments are utterly unconvincing, including those that turn on the idea that life begins at conception, that the embryo has a right to life, or that the mother is responsible for the pregnancy by choosing to have sex in the first place.</p>
 <p>What about less typical cases of abortion? Can pro-lifers allow that, in certain cases, abortion isn’t seriously immoral? Yes, but they must do so in a principled way. We have only been able to find one good argument for the immorality of abortion. Those who oppose abortion in typical cases on the strength of my FLO argument—let’s call them “FLO-lifers”—will have to check which exceptions the FLO-account <em>permits</em> them to make. Let’s see, then, what the FLO-account says about three potential exceptions:</p>
 <ul>
@@ -971,7 +991,7 @@ X9.7: <strong>RUNNER-UP</strong>
 <div id="exa-quicksand" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-quicksand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.8: <strong>QUICKSAND</strong>
+Thought Experiment&nbsp;9.8: <strong>QUICKSAND</strong>
 </figcaption>
 <div aria-describedby="exa-quicksand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -981,18 +1001,18 @@ X9.8: <strong>QUICKSAND</strong>
 </figure>
 </div>
 <p>What Omar had to do may be horrifying, but it is not seriously immoral. The fact that Ahmed’s continued existence is a threat to Omar’s life justified him in killing Ahmed. Accordingly, the fact that a certain embryo’s continued existence is a threat to the mother’s life is a FLO-overriding factor, and the FLO-lifer can consistently grant that abortion is permissible in such cases.</p>
-<p>Can a FLO-lifer grant that abortion is permissible in the case of a healthy pregnancy that results from rape? In such cases, the embryo does have FLO, so the FLO-lifer can and should make this concession so long as such cases involve a FLO-overriding factor. What might that FLOoverriding factor be? Here is a plausible candidate: that the embryo’s dependence on the mother was the result of violent actions that she was not able to control. To see that this counts as a FLO-overriding factor, recall THE VIOLINIST from section 6. As praiseworthy as it may have been for Riley to stay plugged in, it does strike me as permissible for Riley to unplug himself, thereby killing Maurissa (a normal human adult). And one plausible explanation of why it was permissible for Riley to kill her is that her dependence on him was the result of violent actions (by the kidnappers) that he was not able to control.</p>
+<p>Can a FLO-lifer grant that abortion is permissible in the case of a healthy pregnancy that results from rape? In such cases, the embryo does have FLO, so the FLO-lifer can and should make this concession so long as such cases involve a FLO-overriding factor. What might that FLOoverriding factor be? Here is a plausible candidate: that the embryo’s dependence on the mother was the result of violent actions that she was not able to control. To see that this counts as a FLO-overriding factor, recall THE VIOLINIST from <a href="#sec-violinist-argument" class="quarto-xref"><span>Section 9.6</span></a>. As praiseworthy as it may have been for Riley to stay plugged in, it does strike me as permissible for Riley to unplug himself, thereby killing Maurissa (a normal human adult). And one plausible explanation of why it was permissible for Riley to kill her is that her dependence on him was the result of violent actions (by the kidnappers) that he was not able to control.</p>
 <p>What we have just seen is that the best argument against abortion cannot be used to show that aborting pregnancies resulting from rape or pregnancies that threaten the life of the mother are seriously immoral. Prolifers who do not want to make an exception even in these special cases must look elsewhere for an argument to support this position. And it is hard to see what such an argument would look like, since the obvious candidates—for instance that such embryos have a right to life or are potential people—were shown above to be deeply flawed.</p>
 </section>
-<section id="making-laws" class="level2" data-number="9.12">
-<h2 data-number="9.12" class="anchored" data-anchor-id="making-laws"><span class="header-section-number">9.12</span> Making Laws</h2>
-<p>I have argued that abortion is seriously immoral, at least in cases like UNWANTED PREGNANCY. But it would be a mistake to think that this settles the question of whether it should be <em>legal</em>. For, as we saw in section 1, there are plenty of things we take to be immoral that no one thinks should be illegal, for instance cheating on your boyfriend.</p>
-<p>My own view is that, despite being seriously immoral, abortion should be legal in cases like UNWANTED PREGNANCY. It is one thing to think that, in deciding to abort a healthy pregnancy, Taylor did something seriously immoral. It is quite another to think that it would have been permissible for government officials (or anyone else for that matter) to <em>force</em> her to remain pregnant, or to punish her for terminating the pregnancy. The government would arguably have a role to play if Taylor were violating Emm’s rights by terminating the pregnancy. But, as we saw in sections 6-7, aborting the pregnancy <em>doesn’t</em> violate Emm’s rights—including Emm’s right to life since Emm never had a right to use Taylor’s womb in the first place. The reason that it was seriously immoral to abort Emm is because Emm had FLO, not because it violated Emm’s right to life.</p>
+<section id="sec-making-laws" class="level2" data-number="9.12">
+<h2 data-number="9.12" class="anchored" data-anchor-id="sec-making-laws"><span class="header-section-number">9.12</span> Making Laws</h2>
+<p>I have argued that abortion is seriously immoral, at least in cases like UNWANTED PREGNANCY. But it would be a mistake to think that this settles the question of whether it should be <em>legal</em>. For, as we saw in <a href="#sec-abortion-preliminaries" class="quarto-xref"><span>Section 9.1</span></a>, there are plenty of things we take to be immoral that no one thinks should be illegal, for instance cheating on your boyfriend.</p>
+<p>My own view is that, despite being seriously immoral, abortion should be legal in cases like UNWANTED PREGNANCY. It is one thing to think that, in deciding to abort a healthy pregnancy, Taylor did something seriously immoral. It is quite another to think that it would have been permissible for government officials (or anyone else for that matter) to <em>force</em> her to remain pregnant, or to punish her for terminating the pregnancy. The government would arguably have a role to play if Taylor were violating Emm’s rights by terminating the pregnancy. But, as we saw in sections <a href="#sec-violinist-argument" class="quarto-xref"><span>9.6</span></a>–<a href="#sec-risk-consent-and-right-to-the-womb" class="quarto-xref"><span>9.7</span></a>, aborting the pregnancy <em>doesn’t</em> violate Emm’s rights—including Emm’s right to life since Emm never had a right to use Taylor’s womb in the first place. The reason that it was seriously immoral to abort Emm is because Emm had FLO, not because it violated Emm’s right to life.</p>
 <p>It may be illuminating to compare UNWANTED PREGNANCY with the following variation on THE ROCK:</p>
 <div id="exa-rock-forced" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-rock-forced-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-X9.9: <strong>ROCK FORCED</strong>
+Thought Experiment&nbsp;9.9: <strong>ROCK FORCED</strong>
 </figcaption>
 <div aria-describedby="exa-rock-forced-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -1006,45 +1026,66 @@ X9.9: <strong>ROCK FORCED</strong>
 </section>
 <section id="reflection-questions" class="level2" data-number="9.13">
 <h2 data-number="9.13" class="anchored" data-anchor-id="reflection-questions"><span class="header-section-number">9.13</span> Reflection Questions</h2>
-<ul>
-<li><ol type="1">
-<li>Can you find a way to rescue the rights-based arguments in sections 5- 7 from my objections? For instance, can you find a more promising way to argue that the embryo has a right to the womb?</li>
-</ol></li>
-<li><ol start="2" type="1">
-<li>Can the case of THE VIOLINIST from section 6 be used to resist MF3 of the Modified FLO Argument in section 10?</li>
-</ol></li>
-<li><ol start="3" type="1">
-<li>In section 9, I considered a competing account of what makes killing wrong. Can that account be defended against my objections?</li>
-</ol></li>
-<li><ol start="4" type="1">
-<li>We saw that the Modified FLO-argument cannot be used to show that abortion is immoral in the case of rape or life-threatening pregnancies. Can you think of an argument that does cover these cases, and that does not fall victim to the objections raised in sections 4-7?</li>
-</ol></li>
-<li><ol start="5" type="1">
-<li>Consider the key idea behind the FLO-arguments: that the embryo would have had a future full of valuable experiences had it not been killed. What does this assume about personal identity? Is the Psychological Descendant Account (discussed in chapter 3) compatible with the idea that fully-grown people used to be embryos? Is your</li>
-</ol></li>
-</ul>
-<p>preferred response to the Too Many Thinkers Argument (discussed in chapter 4) compatible with the idea that we used to be embryos?</p>
+<ol type="1">
+<li>Can you find a way to rescue the rights-based arguments in sections <a href="#sec-right-to-life-argument" class="quarto-xref"><span>9.5</span></a>–<a href="#sec-risk-consent-and-right-to-the-womb" class="quarto-xref"><span>9.7</span></a> from my objections? For instance, can you find a more promising way to argue that the embryo has a right to the womb?</li>
+<li>Can the case of THE VIOLINIST from <a href="#sec-violinist-argument" class="quarto-xref"><span>Section 9.6</span></a> be used to resist MF3 of the Modified FLO Argument in <a href="#sec-flo-overriding-factors" class="quarto-xref"><span>Section 9.10</span></a>?</li>
+<li>In <a href="#sec-future-like-ours-argument" class="quarto-xref"><span>Section 9.8</span></a>, I considered a competing account of what makes killing wrong. Can that account be defended against my objections?</li>
+<li>We saw that the Modified FLO-argument cannot be used to show that abortion is immoral in the case of rape or life-threatening pregnancies. Can you think of an argument that does cover these cases, and that does not fall victim to the objections raised in sections <a href="#sec-bad-pro-life-arguments" class="quarto-xref"><span>9.4</span></a>–<a href="#sec-risk-consent-and-right-to-the-womb" class="quarto-xref"><span>9.7</span></a>?</li>
+<li>Consider the key idea behind the FLO-arguments: that the embryo would have had a future full of valuable experiences had it not been killed. What does this assume about personal identity? Is the Psychological Descendant Account (discussed in <a href="personal-identity.html" class="quarto-xref"><span>Chapter 4</span></a>) compatible with the idea that fully-grown people used to be embryos? Is your preferred response to the Too Many Thinkers Argument (discussed in <a href="death.html" class="quarto-xref"><span>Chapter 5</span></a>) compatible with the idea that we used to be embryos?</li>
+</ol>
 </section>
 <section id="sources" class="level2" data-number="9.14">
 <h2 data-number="9.14" class="anchored" data-anchor-id="sources"><span class="header-section-number">9.14</span> Sources</h2>
-<p>The Violinist argument and the critique of the Right to Life argument are drawn from Judith Jarvis Thomson’s “A Defense of Abortion.” The FLOargument is drawn from Don Marquis’s “Why Abortion is Immoral,” as are many of the criticisms of bad pro-life and pro-choice arguments discussed in sections 3 and 4. Here are some additional resources:</p>
-<ul>
-<li>David Boonin: <em>Beyond Roe: Why Abortion Should Be Legal Even if the Fetus is a Person</em></li>
-<li>David Boonin: <em>A Defense of Abortion</em></li>
-<li>Sidney Callahan: “Abortion and the Sexual Agenda: A Case for Pro-Life Feminism”</li>
-<li>Ann E. Cudd: “Enforced Pregnancy, Rape, and the Image of a Woman”</li>
-<li>Jane English: “Abortion and the Concept of a Person”</li>
-<li>Elizabeth Harman: “Creation Ethics: The Moral Status of Early Fetuses and the Ethics of Abortion”</li>
-<li>Elizabeth Harman: “The Potentiality Problem”</li>
-<li>Elizabeth Harman: “What Amy Coney Barrett Doesn’t Understand About Abortion”</li>
-<li>George W. Harris: “Fathers and Fetuses”</li>
-<li>Margaret Olivia Little: “Abortion, Intimacy, and the Duty to Gestate”</li>
-<li>Alastair Norcross: “Killing, Abortion, and Contraception: A Reply to Marquis”</li>
-<li>Michael Tooley: “Abortion and Infanticide”</li>
-<li>Mary Anne Warren: “On the Moral and Legal Status of Abortion”</li>
-</ul>
+<p>The Violinist argument and the critique of the Right to Life argument are drawn from <span class="citation" data-cites="thomson1971">Thomson (<a href="#ref-thomson1971" role="doc-biblioref">1971</a>)</span>. The FLO argument is drawn from <span class="citation" data-cites="marquis1989">Marquis (<a href="#ref-marquis1989" role="doc-biblioref">1989</a>)</span>, as are many of the criticisms of bad pro-life and pro-choice arguments discussed in sections <a href="#sec-bad-pro-choice-arguments" class="quarto-xref"><span>9.3</span></a> and <a href="#sec-bad-pro-life-arguments" class="quarto-xref"><span>9.4</span></a>. Here are some additional resources:</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-boonin2003" class="csl-entry" role="listitem">
+Boonin, David. 2003. <em>A Defense of Abortion</em>. Cambridge Studies in Philosophy and Public Policy. Cambridge University Press.
+</div>
+<div id="ref-boonin2019" class="csl-entry" role="listitem">
+Boonin, David. 2019. <em>Beyond Roe: Why Abortion Should Be Legal--Even If the Fetus Is a Person</em>. Oxford University Press.
+</div>
+<div id="ref-callahan1986" class="csl-entry" role="listitem">
+Callahan, Sydney. 1986. <span>“Abortion and the Sexual Agenda: A Case for Pro-Life Feminism.”</span> <em>Commonweal</em> 113 (April): 232–38.
+</div>
+<div id="ref-cudd1990" class="csl-entry" role="listitem">
+Cudd, Ann E. 1990. <span>“Enforced Pregnancy, Rape, and the Image of Woman.”</span> <em>Philosophical Studies</em> 60 (1–2): 47–59. <a href="https://doi.org/10.1007/bf00370976">https://doi.org/10.1007/bf00370976</a>.
+</div>
+<div id="ref-english1975" class="csl-entry" role="listitem">
+English, Jane. 1975. <span>“Abortion and the Concept of a Person.”</span> <em>Canadian Journal of Philosophy</em> 5 (2): 233–43. <a href="https://www.jstor.org/stable/40230568">https://www.jstor.org/stable/40230568</a>.
+</div>
+<div id="ref-harman1999" class="csl-entry" role="listitem">
+Harman, Elizabeth. 1999. <span>“Creation Ethics: The Moral Status of Early Fetuses and the Ethics of Abortion.”</span> <em>Philosophy and Public Affairs</em> 28 (4): 310–24. <a href="https://doi.org/10.1111/j.1088-4963.1999.00310.x">https://doi.org/10.1111/j.1088-4963.1999.00310.x</a>.
+</div>
+<div id="ref-harman2003" class="csl-entry" role="listitem">
+Harman, Elizabeth. 2003. <span>“The Potentiality Problem.”</span> <em>Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition</em> 114 (1/2): 173–98. <a href="https://www.jstor.org/stable/4321378">https://www.jstor.org/stable/4321378</a>.
+</div>
+<div id="ref-harman2021" class="csl-entry" role="listitem">
+Harman, Elizabeth. 2021. <span>“What Amy Coney Barrett Doesn’t Understand about Abortion.”</span> <em>New York Daily News</em>, December 9. <a href="https://www.nydailynews.com/2021/12/09/what-amy-coney-barrett-doesnt-understand-about-abortion/">https://www.nydailynews.com/2021/12/09/what-amy-coney-barrett-doesnt-understand-about-abortion/</a>.
+</div>
+<div id="ref-harris1986" class="csl-entry" role="listitem">
+Harris, George W. 1986. <span>“Fathers and Fetuses.”</span> <em>Ethics</em> 96 (3): 594–603. <a href="https://www.jstor.org/stable/2381073">https://www.jstor.org/stable/2381073</a>.
+</div>
+<div id="ref-little1999" class="csl-entry" role="listitem">
+Little, Margaret Olivia. 1999. <span>“Abortion, Intimacy, and the Duty to Gestate.”</span> <em>Ethical Theory and Moral Practice</em> 2 (3): 295–312. <a href="https://www.jstor.org/stable/27504096">https://www.jstor.org/stable/27504096</a>.
+</div>
+<div id="ref-marquis1989" class="csl-entry" role="listitem">
+Marquis, Don. 1989. <span>“Why Abortion Is Immoral.”</span> <em>The Journal of Philosophy</em> 86 (4): 183–202. <a href="https://doi.org/10.2307/2026961">https://doi.org/10.2307/2026961</a>.
+</div>
+<div id="ref-norcross1990" class="csl-entry" role="listitem">
+Norcross, Alastair. 1990. <span>“Killing, Abortion, and Contraception: A Reply to Marquis.”</span> <em>The Journal of Philosophy</em> 87 (5): 268–77. <a href="https://doi.org/10.2307/2026835">https://doi.org/10.2307/2026835</a>.
+</div>
+<div id="ref-thomson1971" class="csl-entry" role="listitem">
+Thomson, Judith Jarvis. 1971. <span>“A Defense of Abortion.”</span> <em>Philosophy and Public Affairs</em> 1 (1): 47–66.
+</div>
+<div id="ref-tooley1972" class="csl-entry" role="listitem">
+Tooley, Michael. 1972. <span>“Abortion and Infanticide.”</span> <em>Philosophy &amp; Public Affairs</em> 2 (1): 37–65. <a href="https://www.jstor.org/stable/2264919">https://www.jstor.org/stable/2264919</a>.
+</div>
+<div id="ref-warren1973" class="csl-entry" role="listitem">
+Warren, Mary Anne. 1973. <span>“On the Moral and Legal Status of Abortion.”</span> <em>The Monist</em> 57 (1): 43–61. <a href="https://www.jstor.org/stable/27902294">https://www.jstor.org/stable/27902294</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
