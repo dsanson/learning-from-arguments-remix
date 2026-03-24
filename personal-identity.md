@@ -1,3 +1,25 @@
+---
+bibliography: personal-identity.json
+nocite: |
+  @documeaning2011
+  @camp2016
+  @strohminger2015
+  @dellarocca2014
+  @dellarocca2014a
+  @dellarocca2014b
+  @crashcourse2016
+  @boyle2020
+  @campbell2016
+  @casati2008i
+  @casati2008j
+  @dennett1978
+  @kind2015
+  @perry1978a
+  @schechtman2014
+  @siderits2003
+  @menketi1979
+---
+
 # What Makes You You {#sec-personal-identity}
 
 {{< include _authorial-endorsement.md >}}
@@ -970,25 +992,9 @@ Identity" for a classic discussion of fission cases, and see Heather
 Demarest's "Fission May Kill You" for an exploration of the "one person, two
 bodies" strategy. Here are some additional resources:
 
-- "The Twins Who Share a Body" https://www.youtube.com/watch?v=K57IcN9DWXo
-- Alexandria Boyle: Conjoined Twinning and Biological Individuation
-- Elizabeth Camp: Personal Identity (The Narrative Self):
-  http://www.wi-phi.com/video/personal-identity-narrative-self
-- Tim Campbell and Jeff McMahan: Animalism and the Varieties of Conjoined
-  Twinning
-- Robert Casati and Achille Varzi: *Insurmountable Simplicities* (pp.17-23)
-- Crash Course Philosophy: Personal Identity
-  https://www.youtube.com/watch?v=trqDnLNRuSc
-- Clarence Darrow: The Myth of Immortality
-- Michael Della Rocca: Locke on Personal Identity
-  http://www.wi-phi.com/video/locke-personal-identity-part-1
-  http://www.wi-phi.com/video/locke-personal-identity-part-2
-- Daniel Dennett: Where Am I?
-- Amy Kind: *Persons and Personal Identity*
-- Ifeanyi A. Menketi: Person and Community in African Traditional Thought
-- John Perry: *A Dialogue on Personal Identity and Immortality*
-- Marya Schechtman: *Staying Alive: Personal Identity, Practical Concerns, and
-  the Unity of the Life*
-- Mark Siderits: Personal Identity and Buddhist Philosophy
-- Nina Strohminger: Personal Identity (The Essential Self)
-  http://www.wi-phi.com/video/personal-identity-essential-moral-self
+<!--TODO: find a good source for Locke-->
+
+
+- Clarence Darrow: The Myth of Immortality (?)
+
+

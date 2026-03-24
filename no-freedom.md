@@ -226,7 +226,7 @@ What we have seen is that it is no use trying to resist the Argument from Determ
 
 Don't get too excited. A compatibilist still has to find some premise to deny in the Argument from Determinism (as well as the Doomed Regardless Argument). Here again is the argument:
 
-:::{#arg-DT .argument}
+:::{#arg-DT-copy .argument}
 
 - (DT1) Determinism is true
 - (DT2) If determinism is true, then you are never able to do otherwise
@@ -284,7 +284,7 @@ Even I have to admit that this is a clever objection. But ultimately the argumen
 
 But if determinism is true, then not only your actions but also your (and Clay's) *decisions* are determined. With this in mind, we can revise the Argument from Determinism as follows:
 
-:::{#arg-DT .argument}
+:::{#arg-DT-star .argument}
 
 - (DT1) Determinism is true
 - (DT2\*) If determinism is true, then you are never able to *decide* to do otherwise

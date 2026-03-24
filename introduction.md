@@ -139,7 +139,7 @@ the ultimate conclusion of the argument.
 
 As an illustration, consider the following argument:
 
-:::{#arg-FD .argument}
+:::{#arg-FD-copy .argument}
 - (FD1) You cease to be conscious when you die
 - (FD2) If you cease to be conscious when you die, then being dead isn't bad
   for you
@@ -467,7 +467,7 @@ morally relevant difference between what Jasmine does and what the government
 does, that is, no difference between them that could explain why the one is
 wrong while the other is okay. The argument can be framed as follows:
 
-:::{#arg-TX .argument}
+:::{#arg-TX-copy .argument}
 - (TX1) If there is no morally relevant difference between two actions A and
   B, and A is wrong, then B is wrong
 - (TX2) It is wrong for Jasmine to extort and kidnap her neighbors
@@ -508,7 +508,7 @@ argument by analogy. They also often play a supporting role in arguments by
 counterexample. In @sec-no-freedom, for instance, we'll encounter the following
 argument for the idea that we sometimes do things of our own free will:
 
-:::{#arg-FR .argument}
+:::{#arg-FR-copy .argument}
 - (FR1) Sometimes you perform an action after deciding to perform that action
 - (FR2) If one performs an action after deciding to perform it, then one
   performs that action freely

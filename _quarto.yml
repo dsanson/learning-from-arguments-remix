@@ -41,8 +41,8 @@ format:
       - caption-location: top
         key: arg
         kind: float
-        reference-prefix: A
-        space-before-numbering: false
+        reference-prefix: "Argument"
+        space-before-numbering: true
       - caption-location: top
         key: exa
         kind: float

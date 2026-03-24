@@ -8,13 +8,13 @@ This document is meant to be used as an easy reference for the key arguments and
 
 @sec-god-suffering
 
-:::{#arg-AS-appendix .argument}
+:::{#arg-}
 
 - (AS1) There is suffering in the world
 - (AS2) If there is suffering in the world, then God does not exist
 - (AS3) So, God does not exist
 
-**The Argument from Suffering**
+@arg-AS: **The Argument from Suffering**
 :::
 
 :::{#arg-PS-appendix .argument}

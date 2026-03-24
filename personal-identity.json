@@ -1,0 +1,392 @@
+[
+  {
+    "id": "boyle2020",
+    "author": [
+      {
+        "family": "Boyle",
+        "given": "Alexandria"
+      }
+    ],
+    "citation-key": "boyle2020",
+    "container-title": "Philosophical Studies",
+    "DOI": "10.1007/s11098-019-01316-x",
+    "issue": "8",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "page": "2395–2415",
+    "publisher": "Springer Verlag",
+    "source": "PhilPapers",
+    "title": "Conjoined Twinning & Biological Individuation",
+    "type": "article-journal",
+    "volume": "177"
+  },
+  {
+    "id": "camp2016",
+    "author": [
+      {
+        "family": "Camp",
+        "given": "Elisabeth"
+      }
+    ],
+    "citation-key": "camp2016",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          2,
+          5
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Personal Identity (The Narrative Self)",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/personal-identity-the-narrative-self/"
+  },
+  {
+    "id": "campbell2016",
+    "author": [
+      {
+        "family": "Campbell",
+        "given": "Tim"
+      },
+      {
+        "family": "McMahan",
+        "given": "Jeff"
+      }
+    ],
+    "citation-key": "campbell2016",
+    "container-title": "Animalism: New Essays on Persons, Animals, and Identity",
+    "editor": [
+      {
+        "family": "Blatti",
+        "given": "Stephan"
+      },
+      {
+        "family": "Snowdon",
+        "given": "Paul F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
+    },
+    "page": "229–252",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "PhilPapers",
+    "title": "Animalism and the varieties of conjoined twinning",
+    "type": "chapter"
+  },
+  {
+    "id": "crashcourse2016",
+    "citation-key": "crashcourse2016",
+    "dimensions": "8:32",
+    "director": [
+      {
+        "literal": "CrashCourse"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          6,
+          27
+        ]
+      ]
+    },
+    "source": "YouTube",
+    "title": "Personal Identity: Crash Course Philosophy #19",
+    "title-short": "Personal Identity",
+    "type": "motion_picture",
+    "URL": "https://www.youtube.com/watch?v=trqDnLNRuSc"
+  },
+  {
+    "id": "dellarocca2014",
+    "author": [
+      {
+        "family": "Della Rocca",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "dellarocca2014",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          8,
+          29
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Locke on Personal Identity Part 1",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/locke-on-personal-identity-part-1/"
+  },
+  {
+    "id": "dellarocca2014a",
+    "author": [
+      {
+        "family": "Della Rocca",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "dellarocca2014a",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          8,
+          29
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Locke on Personal Identity Part 2",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/locke-on-personal-identity-part-2/"
+  },
+  {
+    "id": "dellarocca2014b",
+    "author": [
+      {
+        "family": "Della Rocca",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "dellarocca2014b",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          8,
+          29
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Locke on Personal Identity Part 3",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/locke-on-personal-identity-part-3/"
+  },
+  {
+    "id": "dennett1978",
+    "author": [
+      {
+        "family": "Dennett",
+        "given": "Daniel C."
+      }
+    ],
+    "citation-key": "dennett1978",
+    "container-author": [
+      {
+        "family": "Dennett",
+        "given": "Daniel C."
+      }
+    ],
+    "container-title": "Brainstorms",
+    "issued": {
+      "date-parts": [
+        [
+          "1978"
+        ]
+      ]
+    },
+    "publisher": "MIT Press",
+    "source": "PhilPapers",
+    "title": "Where Am I?",
+    "type": "chapter"
+  },
+  {
+    "id": "documeaning2011",
+    "citation-key": "documeaning2011",
+    "dimensions": "45:29",
+    "director": [
+      {
+        "literal": "Documeaning"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          4,
+          23
+        ]
+      ]
+    },
+    "source": "YouTube",
+    "title": "Abigail & Brittany Hensel - The Twins Who Share a Body",
+    "type": "motion_picture",
+    "URL": "https://www.youtube.com/watch?v=K57IcN9DWXo"
+  },
+  {
+    "id": "kind2015",
+    "author": [
+      {
+        "family": "Kind",
+        "given": "Amy"
+      }
+    ],
+    "citation-key": "kind2015",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "publisher": "Polity",
+    "publisher-place": "Malden, MA",
+    "source": "PhilPapers",
+    "title": "Persons and Personal Identity",
+    "type": "book"
+  },
+  {
+    "id": "menketi1979",
+    "author": [
+      {
+        "family": "Menketi",
+        "given": "Ifeanyi A."
+      }
+    ],
+    "citation-key": "menketi1979",
+    "container-title": "African philosophy: An introduction",
+    "edition": "2",
+    "editor": [
+      {
+        "family": "Wright",
+        "given": "Richard A."
+      }
+    ],
+    "ISBN": "978-0-8191-0505-9",
+    "issued": {
+      "date-parts": [
+        [
+          "1979"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "157--168",
+    "publisher": "University Press of America",
+    "publisher-place": "Washington, D.C",
+    "source": "K10plus ISBN",
+    "title": "Person and community in African traditional thought",
+    "type": "chapter"
+  },
+  {
+    "id": "perry1978a",
+    "author": [
+      {
+        "family": "Perry",
+        "given": "John R."
+      }
+    ],
+    "citation-key": "perry1978a",
+    "ISBN": "0-915144-53-0",
+    "issued": {
+      "date-parts": [
+        [
+          "1978",
+          3
+        ]
+      ]
+    },
+    "publisher": "Hackett",
+    "publisher-place": "Indianapolis",
+    "title": "A dialogue on personal identity and immortality",
+    "type": "book"
+  },
+  {
+    "id": "schechtman2014",
+    "author": [
+      {
+        "family": "Schechtman",
+        "given": "Marya"
+      }
+    ],
+    "call-number": "BD236 .S34 2014",
+    "citation-key": "schechtman2014",
+    "ISBN": "978-0-19-968487-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "number-of-pages": "214",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "Staying alive: personal identity, practical concerns, and the unity of a life",
+    "title-short": "Staying alive",
+    "type": "book"
+  },
+  {
+    "id": "siderits2003",
+    "author": [
+      {
+        "family": "Siderits",
+        "given": "Mark"
+      }
+    ],
+    "citation-key": "siderits2003",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "publisher": "Ashgate",
+    "publisher-place": "Burlington, VT",
+    "source": "PhilPapers",
+    "title": "Personal Identity and Buddhist Philosophy: Empty Persons",
+    "title-short": "Personal Identity and Buddhist Philosophy",
+    "type": "book"
+  },
+  {
+    "id": "strohminger2015",
+    "author": [
+      {
+        "family": "Strohminger",
+        "given": "Nina"
+      },
+      {
+        "family": "Nichols",
+        "given": "Shaun"
+      }
+    ],
+    "citation-key": "strohminger2015",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          6,
+          8
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Personal Identity (The Essential Moral Self)",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/personal-identity-the-essential-moral-self/"
+  }
+]
