@@ -46,8 +46,8 @@ format:
       - caption-location: top
         key: exa
         kind: float
-        reference-prefix: X
-        space-before-numbering: false
+        reference-prefix: "Thought Experiment" 
+        space-before-numbering: true
     reference-location: section
     theme:
       light: 
