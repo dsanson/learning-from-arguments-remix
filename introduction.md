@@ -442,15 +442,15 @@ its citizens:
 
 :::{#exa-vigilante .example}
 
-Jasmine discovers that some con men have set up a fake charity and are conning
-some people in her neighborhood. She captures them at gunpoint, takes them to
-her basement, and plans to keep them there for a year as punishment. Quickly
-realizing how expensive it is to take care of them, Jasmine goes to her
-neighbors and demands \$50 from each of them, at gunpoint. She explains that
-half the money will go towards taking care of her prisoners and that the rest
-will go towards a community gym to help keep troubled kids off the street.
-Those who do not comply are locked up in her basement with her other
-prisoners.
+> Jasmine discovers that some con men have set up a fake charity and are conning
+> some people in her neighborhood. She captures them at gunpoint, takes them to
+> her basement, and plans to keep them there for a year as punishment. Quickly
+> realizing how expensive it is to take care of them, Jasmine goes to her
+> neighbors and demands \$50 from each of them, at gunpoint. She explains that
+> half the money will go towards taking care of her prisoners and that the rest
+> will go towards a community gym to help keep troubled kids off the street.
+> Those who do not comply are locked up in her basement with her other
+> prisoners.
 
 **VIGILANTE**
 :::
@@ -525,14 +525,14 @@ experiment:
 
 :::{#exa-hypnotic-decision .example}
 
-Tia is on the run from the law and knows the cops are hot on her trail. She is
-also a master hypnotist. As she passes Colton on the street, she hypnotizes
-him and plants an irresistible post-hypnotic suggestion: whenever he hears
-someone shout *Freeze!* he will grow very angry with the person, decide to
-tackle them, and then tackle them. Just then, Kabir the cop arrives on the
-scene, sees Tia, and shouts *Freeze!* As a result of the hypnotic suggestion,
-Colton gets angry at Kabir, consciously decides to tackle him, and then
-tackles him.
+> Tia is on the run from the law and knows the cops are hot on her trail. She is
+> also a master hypnotist. As she passes Colton on the street, she hypnotizes
+> him and plants an irresistible post-hypnotic suggestion: whenever he hears
+> someone shout *Freeze!* he will grow very angry with the person, decide to
+> tackle them, and then tackle them. Just then, Kabir the cop arrives on the
+> scene, sees Tia, and shouts *Freeze!* As a result of the hypnotic suggestion,
+> Colton gets angry at Kabir, consciously decides to tackle him, and then
+> tackles him.
 
 **HYPNOTIC DECISION**
 :::
