@@ -36,7 +36,7 @@ that you take the time not just to present your own perspective but also to
 demonstrate an appreciation of your opponent's perspective.
 
 For purposes of illustration, I'll imagine that your assignment asks you to
-criticize the Argument from Suffering from @sec-evil.
+criticize the Argument from Suffering from @sec-can-god-allow-suffering.
 
 ::: {#arg-AS-copy .argument}
 - (AS1) There is suffering in the world

@@ -20,7 +20,7 @@ for you to engage with it: by *questioning* the claims being made and deciding
 for yourself whether the reasons and arguments offered in support of those
 claims are convincing.
 
-In [@sec-god-suffering], I advance an argument that an all-powerful and
+In @sec-can-god-allow-suffering, I advance an argument that an all-powerful and
 morally perfect God would not allow all the suffering we find in the world,
 and therefore must not exist. I address a number of attempts to explain why
 God might allow suffering, for instance that it's necessary for appreciating
@@ -36,7 +36,7 @@ incredibly unlikely that God exists, that *merely* believing in God isn't
 enough to gain entry into heaven, and that it's impossible to change one's
 beliefs at will.
 
-In [@sec-personal-identity], What Makes You You, I criticize a number of
+In @sec-personal-identity, What Makes You You, I criticize a number of
 attempts to answer the question of personal identity: under what conditions
 are a person at one time and a person at another time one and the same person?
 I reject the suggestion that personal identity is a matter of having the same
@@ -46,7 +46,7 @@ that personal identity can be defined in terms of psychological factors on the
 strength of "fission" cases in which a single person's mental life is
 transferred into two separate bodies.
 
-In [@sec-death], I advance an argument that death cannot be bad for you, since
+In @sec-death, I advance an argument that death cannot be bad for you, since
 you don't experience any painful sensations while dead, and that since death
 is not bad for you it would be irrational to fear it. I argue that you don't
 experience any painful sensations while dead by way of arguing that physical
@@ -54,7 +54,7 @@ organisms cease to be conscious when they die and that you are a physical
 organism. I also address the suggestion that what makes death bad for you is
 that it deprives you of pleasant experiences you would otherwise have had.
 
-In [@sec-no-freedom], I advance two arguments for the conclusion that no one
+In @sec-no-freedom, I advance two arguments for the conclusion that no one
 ever acts freely. The first turns on the idea that all of our actions are
 determined by something that lies outside our control, namely the strength of
 our desires. The second turns on the idea that our actions are all
@@ -63,7 +63,7 @@ the concern that the laws may not be deterministic, I argue that undetermined,
 random actions wouldn't be free either. Finally, I address attempts to show
 that there can be free will even in a deterministic universe.
 
-In [@sec-skepticism], I argue for two skeptical conclusions. First, I advance
+In @sec-skepticism, I argue for two skeptical conclusions. First, I advance
 an argument that we cannot know anything about the future. That's so, I argue,
 because all of our reasoning about the future relies on an assumption that we
 have no good reason to accept, namely that the future will resemble the past.
@@ -71,7 +71,7 @@ Second, I advance an argument that we cannot know anything about how things
 presently are in the world around us, since we cannot rule out the possibility
 that we are currently having an incredibly vivid dream.
 
-In [@sec-coercion], I argue that it is wrong for governments to tax or
+In @sec-coercion, I argue that it is wrong for governments to tax or
 imprison their citizens, on the grounds that these practices are not
 relevantly different from a vigilante locking vandals in her basement and
 robbing her neighbors to pay for her makeshift prison. I address a variety of
@@ -79,7 +79,7 @@ putative differences, with special attention to the suggestion that we have
 tacitly consented to following the law and paying taxes and thereby entered
 into a "social contract" with the government.
 
-In [@sec-abortion], I examine a number of arguments both for and against the
+In @sec-abortion, I examine a number of arguments both for and against the
 immorality of abortion. I argue that the question cannot be settled by
 pointing to the fact that the embryo isn't self-sufficient or conscious or
 rational, nor by pointing to the fact that it has human DNA, that it is a
@@ -92,7 +92,7 @@ other killings, is wrong because it deprives its victim of a valuable future.
 I close the chapter by arguing that, although immoral, abortion should not be
 illegal.
 
-In [@sec-eating-animals], I defend the view that it is immoral to eat meat
+In @sec-eating-animals, I defend the view that it is immoral to eat meat
 that comes from so-called "factory farms." I begin by criticizing three common
 reasons for thinking that eating meat is morally acceptable: because people
 have always eaten meat, because eating meat is necessary, and because eating
@@ -100,7 +100,7 @@ meat is natural. I then argue that eating factory-farmed meat is immoral, on
 the grounds that it would be immoral to raise and slaughter puppies in similar
 ways and for similar reasons.
 
-In [@sec-utilitarianism], I advance a "utilitarian" theory of morality,
+In @sec-utilitarianism, I advance a "utilitarian" theory of morality,
 according to which the rightness or wrongness of an action is always entirely
 a matter of the extent to which it increases or decreases overall levels of
 happiness in the world. I defend the theory against the objection that it
@@ -108,11 +108,11 @@ wrongly permits killing one person to save five. Along the way, I consider the
 ways in which morality is and isn't subjective and variable across cultures,
 and what to say about the notorious "trolley cases."
 
-In [@sec-logic], I examine one of the features that makes an argument a good
+In @sec-logic, I examine one of the features that makes an argument a good
 argument, namely *validity*. I explain what it means for an argument to be
 valid, and I provide illustrations of different types of valid arguments.
 
-In [@sec-writing], I present a model for writing papers for philosophy
+In @sec-writing, I present a model for writing papers for philosophy
 courses: introduce the view or argument you plan to criticize (-@sec-target)
 advance your objections (-@sec-advancing), and address likely responses to your
 objections (-@sec-anticipating). I explain the importance of clear and unpretentious
@@ -121,7 +121,7 @@ editing rough drafts; I identify some criteria that philosophy instructors
 commonly use when evaluating papers; and I explain the difference between
 consulting online sources and plagiarizing them.
 
-In [@sec-theses-and-arguments], I collect together the key arguments and
+In @sec-theses-and-arguments, I collect together the key arguments and
 theses discussed in the book. Readers may find it helpful to have a printed
 copy of this appendix at hand, or have it open in a separate tab, while
 reading through the chapters.
