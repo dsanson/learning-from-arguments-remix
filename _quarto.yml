@@ -30,6 +30,9 @@ book:
     - writing.md
     - theses-and-arguments.md
   page-navigation: true
+  downloads: [epub]
+  repo-url: https://github.com/dsanson/learning-from-arguments-remix
+  repo-actions: [issue, source]
 
 format:
   html:
@@ -49,6 +52,7 @@ format:
         reference-prefix: "Thought Experiment" 
         space-before-numbering: true
     reference-location: section
+    format-links: [epub]
     theme:
       light: 
         - cosmo
@@ -56,7 +60,42 @@ format:
       dark: 
         - darkly
         - custom.scss
+  epub:
+    tbl-cap-location: bottom
+    crossref:
+      tbl-title: Matrix
+      tbl-prefix: Matrix
+      custom:
+      - caption-location: top
+        key: arg
+        kind: float
+        reference-prefix: "Argument"
+        space-before-numbering: true
+      - caption-location: top
+        key: exa
+        kind: float
+        reference-prefix: "Thought Experiment" 
+        space-before-numbering: true
+    reference-location: section
+    css: epub.css
+
   # pdf:
   #   documentclass: scrreprt
+  #   tbl-cap-location: bottom
+  #   crossref:
+  #     tbl-title: Matrix
+  #     tbl-prefix: Matrix
+  #     custom:
+  #     - caption-location: top
+  #       key: arg
+  #       kind: float
+  #       reference-prefix: "Argument"
+  #       space-before-numbering: true
+  #     - caption-location: top
+  #       key: exa
+  #       kind: float
+  #       reference-prefix: "Thought Experiment" 
+  #       space-before-numbering: true
+  #   reference-location: section
 
 
