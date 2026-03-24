@@ -145,6 +145,8 @@ back. Then the matrix would look like this:
   feelings                                                    
   ----------------------------------------------------------------------
 
+: Talking to my crush {#tbl-1}
+
 I've snuck in an extra column for *expected utility*. This is the column
 we'll use to crunch the numbers, calculating what the smart choice is
 for you, given your preferences and the likelihoods of the different
@@ -229,6 +231,8 @@ getting rejected a value that's 100 times lower than the others:
   your feelings                                             
   ----------------------------------------------------------------------------------------
 
+: When humiliation is way worse {#tbl-2}
+
 Now, the expected utility of confessing is less than the expected
 utility of not confessing, and so the calculations tell us that you
 ought to hold your tongue---which is the right result if you really do
@@ -256,6 +260,8 @@ simply by adding extra rows and columns to our decision matrix:
 
   Avoid him               \_\_\_        \_\_\_     \_\_\_ \_     \_\_
   -----------------------------------------------------------------------
+
+: Talking vs. flirting vs. avoiding {#tbl-3}
 
 All you have to do is figure out a weighted ranking of the different
 eventualities, estimate the likelihood of each of the different
@@ -299,6 +305,8 @@ going to look something like this:
   believe in                                                   
   God                                                          
   -------------------------------------------------------------------------------------------
+
+: Believing in God or don't: 50/50 {#tbl-4}
 
 Since we don't know one way or the other whether God exists, I've
 assigned a probability of 50% to God existing and 50% to God not
@@ -385,6 +393,8 @@ decision matrix:
   God                                                         
   ------------------------------------------------------------------------------------------
 
+: Believe in God or don't: 1/99 {#tbl-5}
+
 Changing the probabilities required us to recalculate the expected
 utility of not believing in God. It shot up almost a whole point! But
 the expected utility of believing in God doesn't change at all. Why is
@@ -428,6 +438,8 @@ of its own.
   believe in                                                    
   God                                                           
   --------------------------------------------------------------------------------------------
+
+: Good theist vs. bad theist vs. atheist {#tbl-6}
 
 The new row introduces new eventualities, which means we have to redo
 the rankings. I gave a 1 to the eventuality in which you don't believe
@@ -493,6 +505,8 @@ God.
   believe                                                                                                           
   ------------------------------------------------------------------------------------------------------------------------------------------------
 
+: Generous vs. stingy God {#tbl-7}
+
 I've valued the eventuality in which you're a believer and God turns out
 to be stingy at 1,000,000 to reflect the idea that it's still many
 orders of magnitude better than the next best eventuality, in which
@@ -524,6 +538,8 @@ exist. So, let's rectify that: \*
   Christian God                                                   
   Believe in Zeus   1                      ∞             3        ∞
   Don't believe     2                      2             4        3
+
+: Many gods {#tbl-8}
 
 Once again, I've done my best to assign probabilities and score the
 noninfinite eventualities, and once again it doesn't much matter whether
