@@ -97,6 +97,12 @@ figcaption {
 /* print tweaks */
 /* don't print header and footer */
 @media print {
+  body {
+    margin: 0; 
+  }
+  #quarto-content {
+    display: block; // to avoid firefox messing up pagebreaks with grid display
+  }
   #quarto-header {
     display: none;
   }
@@ -104,3 +110,8 @@ figcaption {
     display: none;
   }
 }
+
+@page {
+  margin: 1in; // margin for each printed piece of paper
+}
+
