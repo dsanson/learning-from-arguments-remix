@@ -211,6 +211,40 @@
     "type": "book"
   },
   {
+    "id": "maudlin2005",
+    "author": [
+      {
+        "family": "Maudlin",
+        "given": "Tim"
+      }
+    ],
+    "citation-key": "maudlin2005",
+    "container-title": "The Oxford Handbook of Metaphysics",
+    "editor": [
+      {
+        "family": "Loux",
+        "given": "Michael J."
+      },
+      {
+        "family": "Zimmerman",
+        "given": "Dean W."
+      }
+    ],
+    "ISBN": "978-0-19-928422-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2005"
+        ]
+      ]
+    },
+    "language": "English",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "title": "Distilling metaphysics from quantum physics",
+    "type": "chapter"
+  },
+  {
     "id": "mickelson2016",
     "author": [
       {
