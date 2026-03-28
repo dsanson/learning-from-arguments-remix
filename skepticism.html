@@ -65,9 +65,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,8 @@ div.csl-indent {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -255,6 +256,14 @@ div.csl-indent {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -495,9 +504,10 @@ div.csl-indent {
 <p>This sort of reasoning is what’s called an <em>induction</em>: reasoning from the fact that certain things you’ve directly observed are always or usually a certain way to the conclusion that certain things you haven’t directly observed are that way too. Inductive reasoning isn’t foolproof. It’s possible that a plane dropped all that water to put out a fire, and that’s why everything is soaked. But the mere fact that induction can sometimes lead us astray doesn’t (by itself) show that it’s irrational to rely on it.</p>
 <p>Our beliefs about how the world will be in the future are likewise based on induction. You expect the sun to set in the west tomorrow. Why? Because every time you’ve observed the sun set, it has set in the west. Or maybe you’re some kind of nerd and you believe the sun will set in the west tomorrow on the basis of laws of planetary motion. But why think those same laws of planetary motion will be in effect tomorrow? Presumably, it’s because they’ve always been in effect in the past.</p>
 <p>Now that we have a handle on what induction is, let’s get to the argument. The argument is going to turn on the status of a certain principle, which I’ll call the <em>Future Like Past</em> principle, or FLP for short:</p>
-<div class="thesis">
+<div id="def-flp" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 7.1</strong></span> &nbsp;</p>
 <dl>
-<dt>(FLP)</dt>
+<dt>Future Like Past (FLP)</dt>
 <dd>
 Future states of the world will be like past states of the world
 </dd>
@@ -508,7 +518,7 @@ Future states of the world will be like past states of the world
 <div id="arg-KF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-KF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.1: <strong>Against Knowing the Future</strong>
+A7.1: <strong>Against Knowing the Future</strong>
 </figcaption>
 <div aria-describedby="arg-KF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -529,7 +539,7 @@ Argument&nbsp;7.1: <strong>Against Knowing the Future</strong>
 <div id="arg-FF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.2: <strong>The Faulty Foundation Argument</strong>
+A7.2: <strong>The Faulty Foundation Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -546,9 +556,10 @@ Argument&nbsp;7.2: <strong>The Faulty Foundation Argument</strong>
 <p><em>In the past eating an entire extra value meal always made me sleepy Future states of the world will be like past states of the world So, eating this entire extra value meal will make me sleepy</em></p>
 <p>Implicitly or explicitly, you arrive at all your beliefs about future states of the world in this way.</p>
 <p>I don’t mean to suggest that we treat FLP as a hard and fast rule. No one thinks that the future will be like the past <em>in every respect</em>. We wouldn’t use it to infer that there will never be flying cars or a cure for cancer. The principle we actually rely on in our reasoning is more nuanced, perhaps something like this:</p>
-<div class="thesis">
+<div id="def-FLP-star" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 7.2</strong></span> &nbsp;</p>
 <dl>
-<dt>(FLP*)</dt>
+<dt>FLP*</dt>
 <dd>
 Future states of the world will be like past states of the world <em>except in respects in which we can expect them to differ</em>
 </dd>
@@ -559,12 +570,10 @@ Future states of the world will be like past states of the world <em>except in r
 <div id="exa-power-pose" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-power-pose-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;7.1: <strong>POWER POSE</strong>
+TE7.1: <strong>POWER POSE</strong>
 </figcaption>
 <div aria-describedby="exa-power-pose-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Jared is getting ready for a job interview, and thinks it will help his chances if he spends five minutes “power posing” in front of the mirror. When his fiancée Ashley asks him why he thinks that will help, Jared tells her that scientists have shown that power posing releases performance-enhancing hormones into your bloodstream. Skeptical, Ashley does some Googling and informs Jared that the power-posing study has been completely discredited and is now widely regarded as “pseudo-science.”</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -577,7 +586,7 @@ Thought Experiment&nbsp;7.1: <strong>POWER POSE</strong>
 <div id="arg-UJ" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UJ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.3: <strong>FLP is Unjustified</strong>
+A7.3: <strong>FLP is Unjustified</strong>
 </figcaption>
 <div aria-describedby="arg-UJ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -600,7 +609,7 @@ Argument&nbsp;7.3: <strong>FLP is Unjustified</strong>
 <div id="arg-AC" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.4: <strong>The Anti-Circularity Argument</strong>
+A7.4: <strong>The Anti-Circularity Argument</strong>
 </figcaption>
 <div aria-describedby="arg-AC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -622,12 +631,10 @@ Argument&nbsp;7.4: <strong>The Anti-Circularity Argument</strong>
 <div id="exa-magic-eight-ball" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-magic-eight-ball-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;7.2: <strong>MAGIC 8-BALL</strong>
+TE7.2: <strong>MAGIC 8-BALL</strong>
 </figcaption>
 <div aria-describedby="exa-magic-eight-ball-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Madhu shakes up his Magic 8-Ball, asks whether Smitha has a crush on him, and it issues its verdict: <em>yes</em>. Madhu’s excitement lasts only for a moment, as he suddenly realizes that he has no reason to believe that the 8-ball can be trusted. So, he decides to check. He shakes up the 8- Ball, asks it whether it can be trusted, and it issues its verdict: <em>yes</em>. “That settles it,” Madhu thinks to himself, “the 8-ball can be trusted, and Smitha does have a crush on me!”</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -638,12 +645,20 @@ Thought Experiment&nbsp;7.2: <strong>MAGIC 8-BALL</strong>
 <h2 data-number="7.5" class="anchored" data-anchor-id="sec-dreaming-argument"><span class="header-section-number">7.5</span> The Dreaming Argument</h2>
 <p>We just saw that you don’t know anything at all about what the world is going to be like in the future. Now I want to turn to an even more radical conclusion, namely that you don’t know anything about what’s going on in the world at this very moment, not even what is going on right in front of your eyes. My argument will focus on one particular thing you take yourself to know about the world—that you’re sitting down reading—but it will be obvious how the argument generalizes to all your other beliefs about the world: the color of the chair you’re sitting in, the number of people in the room with you, and so on.</p>
 <p>My argument involves a certain hypothesis, which I’ll call <em>the dreaming hypothesis</em>, or TDH for short:</p>
-<p>(TDH) You are currently lying down in bed dreaming about sitting down reading a philosophy textbook</p>
+<div id="def-TDH" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 7.3</strong></span> &nbsp;</p>
+<dl>
+<dt>The Dreaming Hypothesis (TDH)</dt>
+<dd>
+You are currently lying down in bed dreaming about sitting down reading a philosophy textbook
+</dd>
+</dl>
+</div>
 <p>With TDH in mind, here is how I’ll argue that you don’t know that you’re sitting down reading:</p>
 <div id="arg-DR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.5: <strong>The Dreaming Argument</strong>
+A7.5: <strong>The Dreaming Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -665,7 +680,7 @@ Argument&nbsp;7.5: <strong>The Dreaming Argument</strong>
 <div id="arg-CH" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.6: <strong>The Competing Hypotheses Argument</strong>
+A7.6: <strong>The Competing Hypotheses Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -683,7 +698,7 @@ Argument&nbsp;7.6: <strong>The Competing Hypotheses Argument</strong>
 <div id="arg-DE" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.7: <strong>The Argument from Deduction</strong>
+A7.7: <strong>The Argument from Deduction</strong>
 </figcaption>
 <div aria-describedby="arg-DE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -720,7 +735,7 @@ Argument&nbsp;7.7: <strong>The Argument from Deduction</strong>
 <div id="arg-NE" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.8: <strong>The No Evidence Argument</strong>
+A7.8: <strong>The No Evidence Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -737,7 +752,7 @@ Argument&nbsp;7.8: <strong>The No Evidence Argument</strong>
 <div id="arg-FE" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.9: <strong>The Flipped Evidence Argument</strong>
+A7.9: <strong>The Flipped Evidence Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -755,7 +770,15 @@ Argument&nbsp;7.9: <strong>The Flipped Evidence Argument</strong>
 <h2 data-number="7.8" class="anchored" data-anchor-id="sec-can-you-tell-dreaming"><span class="header-section-number">7.8</span> Can You Tell You’re Not Dreaming?</h2>
 <p>I can imagine someone objecting that there <em>is</em> a way to know you’re not dreaming: dreams are different from waking life in all sorts of ways, and you can know whether you’re dreaming by checking for those differences. For instance, you might point out that your present experiences are incredibly vivid and coherent, whereas dreams tend to be blurry nonsense. You might then claim that this undermines DR2: you can know that TDH is false by attending to the vividness of your experiences. And you might insist that NE2 of the No Evidence Argument is false as well, because the vividness of your experience counts as evidence against TDH.</p>
 <p>The easiest way to see why this objection won’t work is to slightly modify TDH as follows:</p>
-<p>(TDH+) You are currently lying down in bed dreaming about sitting down reading a philosophy textbook, and it’s the most incredibly vivid dream you’ve ever had</p>
+<div id="def-TDH-plus" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 7.4</strong></span> &nbsp;</p>
+<dl>
+<dt>TDH+</dt>
+<dd>
+You are currently lying down in bed dreaming about sitting down reading a philosophy textbook, and it’s the most incredibly vivid dream you’ve ever had
+</dd>
+</dl>
+</div>
 <p>You can’t know that TDH+ is false just by attending to the vividness of your experiences. Nor can the vividness be evidence against TDH+. Having vivid experiences is entirely compatible with TDH+; indeed, it’s exactly what TDH+ predicts your experiences will be like. What this shows is that I can sidestep this objection from vividness by simply replacing TDH with TDH+ in all the arguments.</p>
 <p>Exactly the same point applies to other ways you might try to check whether you’re dreaming. For instance, you might point out that you’re a complete novice at philosophy, and that these are brilliant philosophical arguments that you never knew about before. But, you might insist, you can’t dream about an idea you’ve never heard before.</p>
 <p>First of all, don’t sell yourself short: if Paul McCartney can compose the song <em>Yesterday</em> in a dream, then you can come up with the Dreaming Argument in a dream. (It’s not <em>that</em> brilliant, really.) Second, we can once again sidestep this concern by simply modifying TDH. For instance, we can modify it to say that you’re a brilliant philosophy professor, dreaming that you’re a student reading a philosophy textbook for the first time. Or that you’re dreaming about reading philosophical arguments that only <em>seem</em> brilliant but actually they’re complete gibberish.</p>
@@ -768,7 +791,7 @@ Argument&nbsp;7.9: <strong>The Flipped Evidence Argument</strong>
 <div id="arg-NU" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NU-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;7.10: <strong>The No Useful Tests Argument</strong>
+A7.10: <strong>The No Useful Tests Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NU-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>

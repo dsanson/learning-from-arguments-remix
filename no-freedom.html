@@ -65,9 +65,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,8 @@ div.csl-indent {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -255,6 +256,14 @@ div.csl-indent {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -502,7 +511,7 @@ div.csl-indent {
 <div id="arg-FR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.1: <strong>The Argument for Freedom</strong>
+A6.1: <strong>The Argument for Freedom</strong>
 </figcaption>
 <div aria-describedby="arg-FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -517,7 +526,7 @@ Argument&nbsp;6.1: <strong>The Argument for Freedom</strong>
 <div id="exa-hypnotic-action" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hypnotic-action-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;6.1: <strong>HYPNOTIC ACTION</strong>
+TE6.1: <strong>HYPNOTIC ACTION</strong>
 </figcaption>
 <div aria-describedby="exa-hypnotic-action-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -531,7 +540,7 @@ Thought Experiment&nbsp;6.1: <strong>HYPNOTIC ACTION</strong>
 <div id="exa-hypnotic-decision" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hypnotic-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;6.2: <strong>HYPNOTIC DECISION</strong>
+TE6.2: <strong>HYPNOTIC DECISION</strong>
 </figcaption>
 <div aria-describedby="exa-hypnotic-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -549,7 +558,7 @@ Thought Experiment&nbsp;6.2: <strong>HYPNOTIC DECISION</strong>
 <div id="arg-DS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.2: <strong>The Desire Argument</strong>
+A6.2: <strong>The Desire Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -579,7 +588,7 @@ Argument&nbsp;6.2: <strong>The Desire Argument</strong>
 <div id="arg-UA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.3: <strong>The Argument from Undesired Action</strong>
+A6.3: <strong>The Argument from Undesired Action</strong>
 </figcaption>
 <div aria-describedby="arg-UA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -603,7 +612,7 @@ Argument&nbsp;6.3: <strong>The Argument from Undesired Action</strong>
 <div id="arg-DD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.4: <strong>The Argument from Desire-Defeating Action</strong>
+A6.4: <strong>The Argument from Desire-Defeating Action</strong>
 </figcaption>
 <div aria-describedby="arg-DD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -640,7 +649,7 @@ Argument&nbsp;6.4: <strong>The Argument from Desire-Defeating Action</strong>
 <div id="arg-DT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.5: <strong>The Argument from Determinism</strong>
+A6.5: <strong>The Argument from Determinism</strong>
 </figcaption>
 <div aria-describedby="arg-DT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -672,7 +681,7 @@ Argument&nbsp;6.5: <strong>The Argument from Determinism</strong>
 <div id="arg-DM" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.6: <strong>The Doomed Regardless Argument</strong>
+A6.6: <strong>The Doomed Regardless Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -695,7 +704,7 @@ Argument&nbsp;6.6: <strong>The Doomed Regardless Argument</strong>
 <div id="arg-DT-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DT-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.7: <strong>The Argument from Determinism</strong>
+A6.7: <strong>The Argument from Determinism</strong>
 </figcaption>
 <div aria-describedby="arg-DT-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -714,7 +723,7 @@ Argument&nbsp;6.7: <strong>The Argument from Determinism</strong>
 <div id="arg-CQ" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CQ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.8: <strong>The Consequence Argument</strong>
+A6.8: <strong>The Consequence Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CQ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -737,7 +746,7 @@ Argument&nbsp;6.8: <strong>The Consequence Argument</strong>
 <div id="exa-hypnotic-backup" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hypnotic-backup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;6.3: <strong>HYPNOTIC BACKUP</strong>
+TE6.3: <strong>HYPNOTIC BACKUP</strong>
 </figcaption>
 <div aria-describedby="exa-hypnotic-backup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -752,7 +761,7 @@ Thought Experiment&nbsp;6.3: <strong>HYPNOTIC BACKUP</strong>
 <div id="arg-DT-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DT-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;6.9: <strong>The Argument from Determined Decision</strong>
+A6.9: <strong>The Argument from Determined Decision</strong>
 </figcaption>
 <div aria-describedby="arg-DT-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>

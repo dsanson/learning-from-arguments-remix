@@ -65,9 +65,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,8 @@ div.csl-indent {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -255,6 +256,14 @@ div.csl-indent {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -488,7 +497,7 @@ div.csl-indent {
 <div id="arg-CA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.1: <strong>The Cuteness Argument</strong>
+AA.1: <strong>The Cuteness Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -502,7 +511,7 @@ Argument&nbsp;A.1: <strong>The Cuteness Argument</strong>
 <div id="arg-FA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.2: <strong>The Feathers Argument</strong>
+AA.2: <strong>The Feathers Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -523,7 +532,7 @@ Argument&nbsp;A.2: <strong>The Feathers Argument</strong>
 <div id="arg-FD-copy2" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FD-copy2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.3: <strong>Against Fearing Death</strong>
+AA.3: <strong>Against Fearing Death</strong>
 </figcaption>
 <div aria-describedby="arg-FD-copy2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -548,7 +557,7 @@ Argument&nbsp;A.3: <strong>Against Fearing Death</strong>
 <div id="arg-DK-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DK-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.4: <strong>The Drinking Age Argument</strong>
+AA.4: <strong>The Drinking Age Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DK-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -562,7 +571,7 @@ Argument&nbsp;A.4: <strong>The Drinking Age Argument</strong>
 <div id="arg-MA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.5: <strong>The Moral Argument</strong>
+AA.5: <strong>The Moral Argument</strong>
 </figcaption>
 <div aria-describedby="arg-MA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -579,7 +588,7 @@ Argument&nbsp;A.5: <strong>The Moral Argument</strong>
 <div id="arg-MP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.6: Modus Ponens
+AA.6: Modus Ponens
 </figcaption>
 <div aria-describedby="arg-MP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -595,7 +604,7 @@ Argument&nbsp;A.6: Modus Ponens
 <div id="arg-RD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.7: <strong>The Rearranged Drinking Age Argument</strong>
+AA.7: <strong>The Rearranged Drinking Age Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -610,7 +619,7 @@ Argument&nbsp;A.7: <strong>The Rearranged Drinking Age Argument</strong>
 <div id="arg-MD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.8: <strong>The Mangled Drinking Age Argument</strong>
+AA.8: <strong>The Mangled Drinking Age Argument</strong>
 </figcaption>
 <div aria-describedby="arg-MD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -629,7 +638,7 @@ Argument&nbsp;A.8: <strong>The Mangled Drinking Age Argument</strong>
 <div id="arg-MT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.9: Modus Tollens
+AA.9: Modus Tollens
 </figcaption>
 <div aria-describedby="arg-MT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -644,7 +653,7 @@ Argument&nbsp;A.9: Modus Tollens
 <div id="arg-WF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-WF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.10: <strong>Whales Aren’t Fish</strong>
+AA.10: <strong>Whales Aren’t Fish</strong>
 </figcaption>
 <div aria-describedby="arg-WF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -658,7 +667,7 @@ Argument&nbsp;A.10: <strong>Whales Aren’t Fish</strong>
 <div id="arg-FM" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.11: <strong>The Flipped Moral Argument</strong>
+AA.11: <strong>The Flipped Moral Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -675,7 +684,7 @@ Argument&nbsp;A.11: <strong>The Flipped Moral Argument</strong>
 <div id="arg-FK" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.12: <strong>The Foreknowledge Argument</strong>
+AA.12: <strong>The Foreknowledge Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -696,7 +705,7 @@ Argument&nbsp;A.12: <strong>The Foreknowledge Argument</strong>
 <div id="arg-chained" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-chained-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.13: Chained Conditional
+AA.13: Chained Conditional
 </figcaption>
 <div aria-describedby="arg-chained-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -712,7 +721,7 @@ Argument&nbsp;A.13: Chained Conditional
 <div id="arg-FN" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FN-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.14: <strong>Against Fearing Non-Existence</strong>
+AA.14: <strong>Against Fearing Non-Existence</strong>
 </figcaption>
 <div aria-describedby="arg-FN-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -726,7 +735,7 @@ Argument&nbsp;A.14: <strong>Against Fearing Non-Existence</strong>
 <div id="arg-RW" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RW-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.15: <strong>The Right to the Womb Argument</strong>
+AA.15: <strong>The Right to the Womb Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RW-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -744,7 +753,7 @@ Argument&nbsp;A.15: <strong>The Right to the Womb Argument</strong>
 <div id="arg-UI" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.16: Universal Instantiation
+AA.16: Universal Instantiation
 </figcaption>
 <div aria-describedby="arg-UI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -760,7 +769,7 @@ Argument&nbsp;A.16: Universal Instantiation
 <div id="arg-PG" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PG-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.17: <strong>The Philosophical Genius Argument</strong>
+AA.17: <strong>The Philosophical Genius Argument</strong>
 </figcaption>
 <div aria-describedby="arg-PG-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -777,7 +786,7 @@ Argument&nbsp;A.17: <strong>The Philosophical Genius Argument</strong>
 <div id="arg-CA-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CA-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.18: <strong>The Cuteness Argument</strong>
+AA.18: <strong>The Cuteness Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CA-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -792,7 +801,7 @@ Argument&nbsp;A.18: <strong>The Cuteness Argument</strong>
 <div id="arg-CA-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg quarto-uncaptioned" id="arg-CA-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.19
+AA.19
 </figcaption>
 <div aria-describedby="arg-CA-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -813,7 +822,7 @@ Argument&nbsp;A.19
 <div id="exa-flight-confusion" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-flight-confusion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;A.1: <strong>FLIGHT CONFUSION</strong>
+TEA.1: <strong>FLIGHT CONFUSION</strong>
 </figcaption>
 <div aria-describedby="exa-flight-confusion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -826,7 +835,7 @@ Thought Experiment&nbsp;A.1: <strong>FLIGHT CONFUSION</strong>
 <div id="arg-DTollens" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DTollens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.20: <strong>The Defective Tollens</strong>
+AA.20: <strong>The Defective Tollens</strong>
 </figcaption>
 <div aria-describedby="arg-DTollens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -843,7 +852,7 @@ Argument&nbsp;A.20: <strong>The Defective Tollens</strong>
 <div id="exa-talent-show" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-talent-show-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;A.2: <strong>TALENT SHOW</strong>
+TEA.2: <strong>TALENT SHOW</strong>
 </figcaption>
 <div aria-describedby="exa-talent-show-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -856,7 +865,7 @@ Thought Experiment&nbsp;A.2: <strong>TALENT SHOW</strong>
 <div id="arg-DP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;A.21: <strong>The Defective Ponens</strong>
+AA.21: <strong>The Defective Ponens</strong>
 </figcaption>
 <div aria-describedby="arg-DP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>

@@ -65,9 +65,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,8 @@ div.csl-indent {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -255,6 +256,14 @@ div.csl-indent {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -495,12 +504,10 @@ div.csl-indent {
 <div id="exa-unwanted-pregnancy" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-unwanted-pregnancy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.1: <strong>UNWANTED PREGNANCY</strong>
+TE9.1: <strong>UNWANTED PREGNANCY</strong>
 </figcaption>
 <div aria-describedby="exa-unwanted-pregnancy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Taylor just discovered that she is pregnant with Emm, a six-week-old embryo. The pregnancy resulted from consensual, casual sex. Taylor didn’t want to get pregnant, and her partner wore a condom, but they were aware that condoms sometimes break, which is what happened in this case. Both Taylor and Emm are healthy, and carrying out the pregnancy will not pose any threat to Taylor’s life. Even so, Taylor knows that going through with the pregnancy will be a huge burden physically, emotionally, and financially. So, Taylor decides to have an abortion, killing Emm.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -521,7 +528,7 @@ Thought Experiment&nbsp;9.1: <strong>UNWANTED PREGNANCY</strong>
 <div id="arg-X" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-X-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.1: <strong>The X-Schema</strong>
+A9.1: <strong>The X-Schema</strong>
 </figcaption>
 <div aria-describedby="arg-X-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -536,7 +543,7 @@ Argument&nbsp;9.1: <strong>The X-Schema</strong>
 <div id="arg-Y" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-Y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.2: <strong>The Y-Schema</strong>
+A9.2: <strong>The Y-Schema</strong>
 </figcaption>
 <div aria-describedby="arg-Y-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -555,7 +562,7 @@ Argument&nbsp;9.2: <strong>The Y-Schema</strong>
 <div id="arg-YR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.3: <strong>The Argument from Rationality</strong>
+A9.3: <strong>The Argument from Rationality</strong>
 </figcaption>
 <div aria-describedby="arg-YR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -571,7 +578,7 @@ Argument&nbsp;9.3: <strong>The Argument from Rationality</strong>
 <div id="arg-YS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.4: <strong>The Argument from Self-Sufficiency</strong>
+A9.4: <strong>The Argument from Self-Sufficiency</strong>
 </figcaption>
 <div aria-describedby="arg-YS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -587,7 +594,7 @@ Argument&nbsp;9.4: <strong>The Argument from Self-Sufficiency</strong>
 <div id="arg-YU" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YU-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.5: <strong>The Argument from Being Unwanted</strong>
+A9.5: <strong>The Argument from Being Unwanted</strong>
 </figcaption>
 <div aria-describedby="arg-YU-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -603,7 +610,7 @@ Argument&nbsp;9.5: <strong>The Argument from Being Unwanted</strong>
 <div id="arg-YA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.6: <strong>The Argument from Attachment</strong>
+A9.6: <strong>The Argument from Attachment</strong>
 </figcaption>
 <div aria-describedby="arg-YA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -619,7 +626,7 @@ Argument&nbsp;9.6: <strong>The Argument from Attachment</strong>
 <div id="arg-YA-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg quarto-uncaptioned" id="arg-YA-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.7
+A9.7
 </figcaption>
 <div aria-describedby="arg-YA-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -636,7 +643,7 @@ Argument&nbsp;9.7
 <div id="arg-YC" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-YC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.8: <strong>The Argument from Consciousness</strong>
+A9.8: <strong>The Argument from Consciousness</strong>
 </figcaption>
 <div aria-describedby="arg-YC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -656,7 +663,7 @@ Argument&nbsp;9.8: <strong>The Argument from Consciousness</strong>
 <div id="arg-XL" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-XL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.9: <strong>The Argument from Life</strong>
+A9.9: <strong>The Argument from Life</strong>
 </figcaption>
 <div aria-describedby="arg-XL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -673,7 +680,7 @@ Argument&nbsp;9.9: <strong>The Argument from Life</strong>
 <div id="arg-XD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-XD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.10: <strong>The Argument from Human DNA</strong>
+A9.10: <strong>The Argument from Human DNA</strong>
 </figcaption>
 <div aria-describedby="arg-XD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -689,7 +696,7 @@ Argument&nbsp;9.10: <strong>The Argument from Human DNA</strong>
 <div id="arg-XH" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-XH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.11: <strong>The Argument from Hearts</strong>
+A9.11: <strong>The Argument from Hearts</strong>
 </figcaption>
 <div aria-describedby="arg-XH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -705,7 +712,7 @@ Argument&nbsp;9.11: <strong>The Argument from Hearts</strong>
 <div id="arg-XP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-XP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.12: <strong>The Argument from Potentiality</strong>
+A9.12: <strong>The Argument from Potentiality</strong>
 </figcaption>
 <div aria-describedby="arg-XP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -726,7 +733,7 @@ Argument&nbsp;9.12: <strong>The Argument from Potentiality</strong>
 <div id="arg-RL" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.13: <strong>The Right to Life Argument</strong>
+A9.13: <strong>The Right to Life Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -748,7 +755,7 @@ Argument&nbsp;9.13: <strong>The Right to Life Argument</strong>
 <div id="arg-RQ" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RQ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.14: <strong>The Requirements of Life Argument</strong>
+A9.14: <strong>The Requirements of Life Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RQ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -766,24 +773,20 @@ Argument&nbsp;9.14: <strong>The Requirements of Life Argument</strong>
 <div id="exa-the-violinist" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-the-violinist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.2: <strong>THE VIOLINIST</strong>
+TE9.2: <strong>THE VIOLINIST</strong>
 </figcaption>
 <div aria-describedby="exa-the-violinist-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>During his morning jog, Riley is kidnapped and drugged. When he comes to, he finds himself lying in a hospital bed, connected by some blood-filled tubes to a woman in a separate bed. His kidnappers explain that the woman, Maurissa, is a world-famous violinist. She was found unconscious, and they are trying to save her life. Maurissa is in need of a complete blood transfusion—already underway, using Riley’s blood—which will take nine months. Riley is told that if he unplugs himself from Maurissa before the transfusion is complete, she will die immediately. When the kidnappers leave the room, Riley sees his chance to escape. With a heavy heart, he unplugs himself and sneaks away, and Maurissa dies as expected.</p>
-</blockquote>
 </div>
 </figure>
 </div>
 <div id="exa-the-rock" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-the-rock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.3: <strong>THE ROCK</strong>
+TE9.3: <strong>THE ROCK</strong>
 </figcaption>
 <div aria-describedby="exa-the-rock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>You have become completely obsessed with People Magazine’s 2016 Sexiest Man of the Year, Dwayne “The Rock” Johnson. So obsessed, in fact, that the thought of living without him makes you physically ill.&nbsp;Deathly ill.&nbsp;At this point, the only thing that can save your life is the touch of The Rock’s cool hand on your fevered brow. The Rock is notified, and told that you will die if he does not come visit you in the next few days. But The Rock is a busy man and he sends his regrets. You die, as expected.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -792,7 +795,7 @@ Thought Experiment&nbsp;9.3: <strong>THE ROCK</strong>
 <div id="arg-VA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-VA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.15: <strong>The Violinist Argument</strong>
+A9.15: <strong>The Violinist Argument</strong>
 </figcaption>
 <div aria-describedby="arg-VA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -814,7 +817,7 @@ Argument&nbsp;9.15: <strong>The Violinist Argument</strong>
 <div id="arg-KR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-KR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.16: <strong>The Known Risk Argument</strong>
+A9.16: <strong>The Known Risk Argument</strong>
 </figcaption>
 <div aria-describedby="arg-KR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -833,12 +836,10 @@ Argument&nbsp;9.16: <strong>The Known Risk Argument</strong>
 <div id="exa-open-window" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-open-window-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.4: <strong>OPEN WINDOW</strong>
+TE9.4: <strong>OPEN WINDOW</strong>
 </figcaption>
 <div aria-describedby="exa-open-window-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Astrid lives in a dangerous neighborhood with lots of hooligans. She has bars on her windows and keeps the windows closed and latched as an extra precaution. One hot summer day, she opens the windows to get some cool air, trusting that the bars will keep the hooligans out (though knowing that they are not 100% reliable). Unfortunately, the bars are defective. Some hooligans pull them off, climb through the window, plant themselves on her couch, and start playing her PlayStation.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -853,7 +854,7 @@ Thought Experiment&nbsp;9.4: <strong>OPEN WINDOW</strong>
 <div id="arg-SF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-SF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.17: <strong>The Simple FLO Argument</strong>
+A9.17: <strong>The Simple FLO Argument</strong>
 </figcaption>
 <div aria-describedby="arg-SF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -877,12 +878,10 @@ Argument&nbsp;9.17: <strong>The Simple FLO Argument</strong>
 <div id="exa-hopeful-goner" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hopeful-goner-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.5: <strong>HOPEFUL GONER</strong>
+TE9.5: <strong>HOPEFUL GONER</strong>
 </figcaption>
 <div aria-describedby="exa-hopeful-goner-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Guillermo has accidentally ingested a deadly poison and is in horrible, debilitating pain. He thinks he’ll get better, but he’s wrong: the poison is quickly spreading through his body and will kill him within a few hours. Nadja, who finds Guillermo terribly annoying and would like to see him dead as soon as possible, is attempting to inject Guillermo with a substance that will kill him instantly and painlessly. Guillermo resists and pleads for Nadja to stop. But Nadja gives Guillermo the injection, despite his protests, and Guillermo dies mere hours before the poison would have killed him anyway.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -892,7 +891,7 @@ Thought Experiment&nbsp;9.5: <strong>HOPEFUL GONER</strong>
 <div id="arg-CC" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.18: <strong>The Contraception Argument</strong>
+A9.18: <strong>The Contraception Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -909,7 +908,7 @@ Argument&nbsp;9.18: <strong>The Contraception Argument</strong>
 <div id="arg-CC-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CC-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.19: <strong>The Revised Contraception Argument</strong>
+A9.19: <strong>The Revised Contraception Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CC-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -924,7 +923,15 @@ Argument&nbsp;9.19: <strong>The Revised Contraception Argument</strong>
 <p>We have merely moved the bump in the rug, for now the problem is the second premise, CC2*. SF1 doesn’t say that it’s seriously immoral to prevent things with FLO from coming into existence. It only says that it’s immoral to take an already-existing thing with FLO and deprive it of FLO by killing it. So CC2* misrepresents what is implied by SF1.</p>
 <p>Let’s look at one more unsuccessful objection to SF1. Recall that SF1 was motivated by the idea that it provides the best explanation of what makes seriously immoral killings—like killing a normal human adult—seriously immoral. One way of challenging SF1, then, is to reject the proposed explanation of the serious immorality of killing an adult. But one would then need to provide some alternative explanation of why it is seriously immoral to kill an adult.</p>
 <p>Here’s an initially attractive proposal: what makes it seriously immoral to kill normal human adults is that they <em>desire</em> a future full of valuable experiences. If that’s right, then all that is supported by the proper explanation of the immorality of killing is the weaker premise SF1*:</p>
-<p>(SF1*) It is seriously immoral to kill something (or someone) if killing it deprives it of a future like ours <em>that it desires</em></p>
+<div id="def-SF1-star" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 9.1</strong></span> &nbsp;</p>
+<dl>
+<dt>SF1*</dt>
+<dd>
+It is seriously immoral to kill something (or someone) if killing it deprives it of a future like ours <em>that it desires</em>
+</dd>
+</dl>
+</div>
 <p>But unlike SF1, SF1* does <em>not</em> imply that it is seriously immoral to kill Emm. Emm is a very simple creature, which does not even have a brain, let alone desires. Killing her does deprive her of FLO, but it does not deprive her of anything she desires.</p>
 <p>The problem with this line of reasoning is that the proposed alternative explanation of the wrongness of killing human adults is deeply flawed. Consider a heavily sedated adult, who (like Emm) has no desires, or any other conscious mental states for that matter. Or consider an overwhelmed teenager experiencing his first heartbreak: he genuinely doesn’t want to go on living, but these feelings will pass in a week or so. It is seriously immoral to kill these people, and the original future-like-ours account has no trouble explaining why: because they have FLO. By contrast, the competing account that we are now considering fails to explain why it is seriously immoral to kill them. After all, they do not desire a future like ours. The desire account of what makes killing wrong that underwrites SF1* is therefore inferior to the FLO-account that underwrites SF1. Accordingly, we should reject SF1* and stick with SF1.</p>
 </section>
@@ -934,12 +941,10 @@ Argument&nbsp;9.19: <strong>The Revised Contraception Argument</strong>
 <div id="exa-cruel-game" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-cruel-game-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.6: <strong>CRUEL GAME</strong>
+TE9.6: <strong>CRUEL GAME</strong>
 </figcaption>
 <div aria-describedby="exa-cruel-game-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>M’Baku is preparing to detonate an atomic bomb in the heart of a densely populated city. He has kidnapped two innocent people, Okoye and Shuri, and he commands Okoye to kill Shuri. If she complies, he will release Okoye and won’t detonate the bomb. If she refuses, he will release both of them and detonate the bomb, killing hundreds of thousands of people. Okoye tries to find a way to stop the detonation without killing Shuri, but M’Baku has thought of everything. So, with a heavy heart, Okoye kills Shuri.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -950,7 +955,7 @@ Thought Experiment&nbsp;9.6: <strong>CRUEL GAME</strong>
 <div id="arg-MF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;9.20: <strong>The Modified FLO Argument</strong>
+A9.20: <strong>The Modified FLO Argument</strong>
 </figcaption>
 <div aria-describedby="arg-MF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -969,12 +974,10 @@ Argument&nbsp;9.20: <strong>The Modified FLO Argument</strong>
 <div id="exa-runner-up" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-runner-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.7: <strong>RUNNER-UP</strong>
+TE9.7: <strong>RUNNER-UP</strong>
 </figcaption>
 <div aria-describedby="exa-runner-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Krystal has struggled for years to make it as an actress, and finally gets her big audition. If she gets the role, it will catapult her into fame and fortune. As it turns out, Jacqueline gets the role. But Krystal is the runner-up and is told that if anything should happen to Jacqueline, the role will go to her. So, Krystal discreetly kills Jacqueline and gets the role.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -993,12 +996,10 @@ Thought Experiment&nbsp;9.7: <strong>RUNNER-UP</strong>
 <div id="exa-quicksand" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-quicksand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.8: <strong>QUICKSAND</strong>
+TE9.8: <strong>QUICKSAND</strong>
 </figcaption>
 <div aria-describedby="exa-quicksand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Ahmed is drowning in quicksand. He has gotten ahold of Omar’s pantleg, and is frantically trying to pull himself out. But in doing so he is pulling Omar into the quicksand. Ahmed is in such a panicked state that he doesn’t realize what he is doing, and Omar’s pleas fall on deaf ears. Unless Omar stops him by pushing him under, Ahmed will pull him in and scramble out over Omar’s subsumed body, killing him. So, with a heavy heart, and in order to save his own life, Omar kills Ahmed by pushing him under.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -1014,12 +1015,10 @@ Thought Experiment&nbsp;9.8: <strong>QUICKSAND</strong>
 <div id="exa-rock-forced" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-rock-forced-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;9.9: <strong>ROCK FORCED</strong>
+TE9.9: <strong>ROCK FORCED</strong>
 </figcaption>
 <div aria-describedby="exa-rock-forced-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>The only thing that can save your life is the touch of The Rock’s cool hand on your fevered brow. As it happens, The Rock is passing through the hospital where you lay dying. You ask for his help and he refuses. You grab his hand, but he pulls it away.</p>
-</blockquote>
 </div>
 </figure>
 </div>

@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -223,7 +223,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -236,6 +237,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -485,7 +494,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="arg-FD-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FD-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.1: <strong>Against Fearing Death</strong>
+A1.1: <strong>Against Fearing Death</strong>
 </figcaption>
 <div aria-describedby="arg-FD-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -498,7 +507,7 @@ Argument&nbsp;1.1: <strong>Against Fearing Death</strong>
 </div>
 </figure>
 </div>
-<p><a href="death.html#arg-FD" class="quarto-xref">Argument&nbsp;<span>5.1</span></a> The argument has three premises: FD1, FD2, and FD4. FD5 is the conclusion of the argument, since that’s what the argument is ultimately trying to establish. FD3 is a subconclusion. It isn’t <em>the</em> conclusion, since the ultimate goal of the argument is to establish that you shouldn’t fear death, not that being dead isn’t bad for you (which is just a step along the way). Nor is it a premise, since it isn’t merely being assumed. Rather, it’s been <em>argued</em> for: it is meant to be established by FD1 and FD2.</p>
+<p><a href="death.html#arg-FD" class="quarto-xref">A<span>5.1</span></a> The argument has three premises: FD1, FD2, and FD4. FD5 is the conclusion of the argument, since that’s what the argument is ultimately trying to establish. FD3 is a subconclusion. It isn’t <em>the</em> conclusion, since the ultimate goal of the argument is to establish that you shouldn’t fear death, not that being dead isn’t bad for you (which is just a step along the way). Nor is it a premise, since it isn’t merely being assumed. Rather, it’s been <em>argued</em> for: it is meant to be established by FD1 and FD2.</p>
 <p>In this book, you can always tell which claims in the labeled and indented arguments are premises, conclusions, and subconclusions. The conclusion is always the final claim in the sequence. The subconclusions are anything that begins with a “So” other than the final claim. Any claim that doesn’t begin with “So” is a premise.</p>
 <p>However, when it comes to unlabeled arguments—arguments appearing in paragraph form—all bets are off. For instance, I might say:</p>
 <p>Death isn’t bad for you. After all, you cease to be conscious when you die, and something can’t be bad for you if you’re not even aware of it. And if that’s right, then you shouldn’t fear death, since it would be irrational to fear something that isn’t bad for you.</p>
@@ -515,7 +524,7 @@ Argument&nbsp;1.1: <strong>Against Fearing Death</strong>
 <div id="arg-DK" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.2: <strong>The Drinking Age Argument</strong>
+A1.2: <strong>The Drinking Age Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -536,7 +545,7 @@ Argument&nbsp;1.2: <strong>The Drinking Age Argument</strong>
 <div id="arg-BD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.3: <strong>The Brain Death Argument</strong>
+A1.3: <strong>The Brain Death Argument</strong>
 </figcaption>
 <div aria-describedby="arg-BD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -552,7 +561,7 @@ Argument&nbsp;1.3: <strong>The Brain Death Argument</strong>
 <div id="arg-UF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.4: <strong>The Uncertain Fate Argument</strong>
+A1.4: <strong>The Uncertain Fate Argument</strong>
 </figcaption>
 <div aria-describedby="arg-UF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -568,7 +577,7 @@ Argument&nbsp;1.4: <strong>The Uncertain Fate Argument</strong>
 <div id="arg-AF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.5: <strong>The Afterlife Argument</strong>
+A1.5: <strong>The Afterlife Argument</strong>
 </figcaption>
 <div aria-describedby="arg-AF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -588,7 +597,7 @@ Argument&nbsp;1.5: <strong>The Afterlife Argument</strong>
 <div id="arg-BH" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.6: <strong>The Beating Heart Argument</strong>
+A1.6: <strong>The Beating Heart Argument</strong>
 </figcaption>
 <div aria-describedby="arg-BH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -604,7 +613,7 @@ Argument&nbsp;1.6: <strong>The Beating Heart Argument</strong>
 <div id="arg-CN" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CN-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.7: <strong>The Consciousness Argument</strong>
+A1.7: <strong>The Consciousness Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CN-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -621,7 +630,7 @@ Argument&nbsp;1.7: <strong>The Consciousness Argument</strong>
 <div id="arg-WA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-WA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.8: <strong>The Worm Argument</strong>
+A1.8: <strong>The Worm Argument</strong>
 </figcaption>
 <div aria-describedby="arg-WA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -635,7 +644,7 @@ Argument&nbsp;1.8: <strong>The Worm Argument</strong>
 <div id="arg-TA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.9: <strong>The Temporary Anesthesia Argument</strong>
+A1.9: <strong>The Temporary Anesthesia Argument</strong>
 </figcaption>
 <div aria-describedby="arg-TA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -665,12 +674,10 @@ Argument&nbsp;1.9: <strong>The Temporary Anesthesia Argument</strong>
 <div id="exa-vigilante" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-vigilante-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;1.1: <strong>VIGILANTE</strong>
+TE1.1: <strong>VIGILANTE</strong>
 </figcaption>
 <div aria-describedby="exa-vigilante-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Jasmine discovers that some con men have set up a fake charity and are conning some people in her neighborhood. She captures them at gunpoint, takes them to her basement, and plans to keep them there for a year as punishment. Quickly realizing how expensive it is to take care of them, Jasmine goes to her neighbors and demands $50 from each of them, at gunpoint. She explains that half the money will go towards taking care of her prisoners and that the rest will go towards a community gym to help keep troubled kids off the street. Those who do not comply are locked up in her basement with her other prisoners.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -679,7 +686,7 @@ Thought Experiment&nbsp;1.1: <strong>VIGILANTE</strong>
 <div id="arg-TX-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TX-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.10: <strong>Against Taxation and Imprisonment</strong>
+A1.10: <strong>Against Taxation and Imprisonment</strong>
 </figcaption>
 <div aria-describedby="arg-TX-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -701,7 +708,7 @@ Argument&nbsp;1.10: <strong>Against Taxation and Imprisonment</strong>
 <div id="arg-FR-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FR-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;1.11: <strong>The Argument for Freedom</strong>
+A1.11: <strong>The Argument for Freedom</strong>
 </figcaption>
 <div aria-describedby="arg-FR-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -716,12 +723,10 @@ Argument&nbsp;1.11: <strong>The Argument for Freedom</strong>
 <div id="exa-hypnotic-decision" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hypnotic-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;1.2: <strong>HYPNOTIC DECISION</strong>
+TE1.2: <strong>HYPNOTIC DECISION</strong>
 </figcaption>
 <div aria-describedby="exa-hypnotic-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Colton on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout <em>Freeze!</em> he will grow very angry with the person, decide to tackle them, and then tackle them. Just then, Kabir the cop arrives on the scene, sees Tia, and shouts <em>Freeze!</em> As a result of the hypnotic suggestion, Colton gets angry at Kabir, consciously decides to tackle him, and then tackles him.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -732,12 +737,10 @@ Thought Experiment&nbsp;1.2: <strong>HYPNOTIC DECISION</strong>
 <div id="exa-trolley-lever" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-trolley-lever-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;1.3: <strong>TROLLEY LEVER</strong>
+TE1.3: <strong>TROLLEY LEVER</strong>
 </figcaption>
 <div aria-describedby="exa-trolley-lever-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>A runaway trolley with no driver is hurtling down the tracks towards five pledges from a local fraternity. Corrine is an onlooker, standing beside the tracks. Next to her is a lever which can divert the trolley onto a side track. She could do nothing, and let the pledges die. But if she pulls the lever and diverts the trolley, it will kill the pledge master, who is asleep on the side track. Corrine decides to pull the lever, killing the pledge master and saving the pledges. She then unties the pledges, and they all go on to lead long, happy lives.</p>
-</blockquote>
 </div>
 </figure>
 </div>

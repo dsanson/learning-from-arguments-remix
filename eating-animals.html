@@ -65,9 +65,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,8 @@ div.csl-indent {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -255,6 +256,14 @@ div.csl-indent {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -507,7 +516,7 @@ Them: “C’mon, mom!! Seriously, where does chicken come from?”</div>
 <div id="arg-PR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;10.1: <strong>The Argument from Precedent</strong>
+A10.1: <strong>The Argument from Precedent</strong>
 </figcaption>
 <div aria-describedby="arg-PR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -523,7 +532,7 @@ Argument&nbsp;10.1: <strong>The Argument from Precedent</strong>
 <div id="arg-PR-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PR-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;10.2: <strong>The Argument from Majority Precedent</strong>
+A10.2: <strong>The Argument from Majority Precedent</strong>
 </figcaption>
 <div aria-describedby="arg-PR-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -546,7 +555,7 @@ Argument&nbsp;10.2: <strong>The Argument from Majority Precedent</strong>
 <div id="arg-NO" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NO-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;10.3: <strong>The Natural Order Argument</strong>
+A10.3: <strong>The Natural Order Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NO-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -565,7 +574,7 @@ Argument&nbsp;10.3: <strong>The Natural Order Argument</strong>
 <div id="arg-CP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;10.4: <strong>The Natural Capacity Argument</strong>
+A10.4: <strong>The Natural Capacity Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -585,7 +594,7 @@ Argument&nbsp;10.4: <strong>The Natural Capacity Argument</strong>
 <div id="arg-NP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;10.5: <strong>The Necessity of Protein Argument</strong>
+A10.5: <strong>The Necessity of Protein Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -614,12 +623,10 @@ Argument&nbsp;10.5: <strong>The Necessity of Protein Argument</strong>
 <div id="exa-cocoamone-farm" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-cocoamone-farm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;10.1: <strong>COCOAMONE FARM</strong>
+TE10.1: <strong>COCOAMONE FARM</strong>
 </figcaption>
 <div aria-describedby="exa-cocoamone-farm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>As a result of a head injury, Fred’s brain stops naturally producing cocoamone, the hormone that enables humans to taste chocolate. Fred discovers that the only way to obtain useable cocoamone is to distill it from the brains of puppies. (The science behind this is very complicated and you wouldn’t understand it.) So Fred buys twenty Labrador puppies from a local breeder. He slices off their tails, yanks out their canine teeth, and castrates the males, all without anesthesia. He keeps them locked in small cages in his spare bedroom, slaughters them, grinds up their brains, and distills a month’s supply of cocoamone. He sips some cocoamone and—<em>voilà—</em>it works! So he buys twenty more puppies for the next month’s supply, mutilates them, and locks them up.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -627,7 +634,7 @@ Thought Experiment&nbsp;10.1: <strong>COCOAMONE FARM</strong>
 <div id="arg-FP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;10.6: <strong>The Argument from Fred’s Puppies</strong>
+A10.6: <strong>The Argument from Fred’s Puppies</strong>
 </figcaption>
 <div aria-describedby="arg-FP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -651,12 +658,10 @@ Argument&nbsp;10.6: <strong>The Argument from Fred’s Puppies</strong>
 <div id="exa-bred-for-cocoamone" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-bred-for-cocoamone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;10.2: <strong>BRED FOR COCOAMONE</strong>
+TE10.2: <strong>BRED FOR COCOAMONE</strong>
 </figcaption>
 <div aria-describedby="exa-bred-for-cocoamone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Fred goes to a breeder and buys some dogs, some male and some female. Recognizing that these dogs were bred to be human companions, he treats them well. But he breeds the dogs, intending to use their puppies for cocoamone. Once they have their puppies—which <em>weren’t</em> bred for human companionship—he takes the puppies, locks them in cages, mutilates them, slaughters them, and distills their cocoamone.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -669,12 +674,10 @@ Thought Experiment&nbsp;10.2: <strong>BRED FOR COCOAMONE</strong>
 <div id="exa-hired-help" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hired-help-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;10.3: <strong>HIRED HELP</strong>
+TE10.3: <strong>HIRED HELP</strong>
 </figcaption>
 <div aria-describedby="exa-hired-help-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Too squeamish to mutilate and slaughter the dogs himself, Fred hires Nysha to do it for him. She buys twenty dogs, mutilates them, keeps them confined in small cages, slaughters them, and provides Fred with one vial of cocoamone each month. He pays her for her services.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -689,12 +692,10 @@ Thought Experiment&nbsp;10.3: <strong>HIRED HELP</strong>
 <div id="exa-second-dessert" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-second-dessert-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;10.4: <strong>SECOND DESSERT</strong>
+TE10.4: <strong>SECOND DESSERT</strong>
 </figcaption>
 <div aria-describedby="exa-second-dessert-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Fred decides not to start his own cocoamone farm, and has now gone months without tasting chocolate. Out to dinner, for old times’ sake, he orders a chocolate mousse for dessert. To his surprise, he is able to taste the chocolate. Elated, he calls the waiter over to order a second mousse and asks if there’s something special about it. The waiter explains that, yes, the mousse is infused with cocoamone from the brains of slaughtered, mutilated puppies that they keep caged up in the back. They go through twenty puppies a day, he says. Fred is horrified. But he does not cancel his order, and he enjoys a second cocoamone-infused mousse.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -711,12 +712,10 @@ Thought Experiment&nbsp;10.4: <strong>SECOND DESSERT</strong>
 <div id="exa-sweaty-puppies" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-sweaty-puppies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;10.5: <strong>SWEATY PUPPIES</strong>
+TE10.5: <strong>SWEATY PUPPIES</strong>
 </figcaption>
 <div aria-describedby="exa-sweaty-puppies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Fred’s brain stops producing cocoamone, and the only way to obtain useable cocoamone is to distill it from the sweat of puppies. He asks his friends if he can collect sweat off of their puppies, but they think that’s creepy and won’t let him do it. So he buys twenty puppies, locks them in cages, mutilates them, collects their sweat, and distills a month’s supply of cocoamone.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -725,12 +724,10 @@ Thought Experiment&nbsp;10.5: <strong>SWEATY PUPPIES</strong>
 <div id="exa-painless-death" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-painless-death-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;10.6: <strong>PAINLESS DEATH</strong>
+TE10.6: <strong>PAINLESS DEATH</strong>
 </figcaption>
 <div aria-describedby="exa-painless-death-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Fred’s brain stops producing cocoamone, and the only way to obtain useable cocoamone is to distill it from the brains of puppies. So he buys twenty puppies, lets them run around free in his apartment, takes them for walks, buys them toys, and treats them well. Then, once they’re a year old, he sneaks up on them one by one, swiftly decapitates them, grinds up their brains, and distills a month’s supply of cocoamone.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -739,12 +736,10 @@ Thought Experiment&nbsp;10.6: <strong>PAINLESS DEATH</strong>
 <div id="exa-happy-puppy-sweat" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-happy-puppy-sweat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;10.7: <strong>HAPPY PUPPY SWEAT</strong>
+TE10.7: <strong>HAPPY PUPPY SWEAT</strong>
 </figcaption>
 <div aria-describedby="exa-happy-puppy-sweat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Fred’s brain stops producing cocoamone, and the only way to obtain useable cocoamone is to distill it from the sweat of puppies. So he buys twenty puppies, lets them run around free in his apartment, takes them for walks, buys them toys, and treats them well. He collects their sweat—without killing them or harming them in any way—and distills a month’s supply of cocoamone.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -753,12 +748,10 @@ Thought Experiment&nbsp;10.7: <strong>HAPPY PUPPY SWEAT</strong>
 <div id="exa-cocoamone-lab" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-cocoamone-lab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;10.8: <strong>COCOAMONE LAB</strong>
+TE10.8: <strong>COCOAMONE LAB</strong>
 </figcaption>
 <div aria-describedby="exa-cocoamone-lab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Fred’s brain stops producing cocoamone. So he buys a hundred small clusters of brain cells that were painlessly extracted from living puppies without harming those puppies in any way. He keeps the cells alive in a chemical solution, and collects the cocoamone that they produce.</p>
-</blockquote>
 </div>
 </figure>
 </div>

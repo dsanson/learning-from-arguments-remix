@@ -65,9 +65,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,8 @@ div.csl-indent {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -255,6 +256,14 @@ div.csl-indent {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -505,8 +514,14 @@ div.csl-indent {
 <h2 data-number="4.2" class="anchored" data-anchor-id="sec-clarifying-personal-identity"><span class="header-section-number">4.2</span> Clarifying the Question of Personal Identity</h2>
 <p>Let me begin by clarifying what it is that I am asking when I ask what makes you the person that you are. What I am looking for is a theory that will tell us who’s who at different times. Suppose we’re looking at a picture from a five-year-old’s birthday party. You point at one of the kids in the picture and tell me that it’s you. My question is: what makes that one you? There’s some resemblance, but on the whole you’re physically very different from that little kid. You’re also psychologically very different from the kid, who (judging from the picture) thinks crayons are the most incredibly interesting thing on the face of the earth. You probably have more in common with the adults in the picture than with that kid. So, what is it about that kid that makes her (or him) you?</p>
 <p>More precisely, an answer to the question I’m asking will provide a way to fill in the blank in the following sentence:</p>
-<div id="personal-identity-template" class="thesis">
-<p>A at time t is the same person as B at time t* if and only if ______</p>
+<div id="def-personal-identity-template" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.1</strong></span> &nbsp;</p>
+<dl>
+<dt>Template of an Account</dt>
+<dd>
+A at time t is the same person as B at time t* if and only if ______
+</dd>
+</dl>
 </div>
 <p>In other words, when we’re looking at or thinking about a person at one time, under what conditions should we say that this person and a person who exists at another time are one and the same person? In <a href="#sec-promising-and-unpromising-answers" class="quarto-xref"><span>Section 4.3</span></a>, we’ll consider a number of possible ways of filling in the blank, which will further clarify what it is I’m after. But before we get there, let me head off two potential confusions.</p>
 <p>First, the word ‘same’ is ambiguous, and if you don’t keep an eye on the ambiguity you are liable to get very confused. To see the ambiguity, let’s think about a couple examples. Suppose that Jade buys a Honda Civic, and then Tanner goes out and buys one too. Is it true that Jade and Tanner drive the same car? There are multiple ways of taking that question. I could be asking whether the car that Jade drives and the car that Tanner drives are the same color and make and model, in which case the answer is yes. Alternatively, I could be asking whether there’s a single car that Jade and Tanner share and take turns driving, in which case the answer is no. Another example: Suppose you saw some shirt at the GAP, and you liked it so much that you bought two of them. You wore one yesterday, and the other today. I see you today and say: ‘isn’t that the same shirt you were wearing yesterday?’ In one sense, yes: they’re exactly the same design. In another sense, no: you have changed your shirt since I last saw you.</p>
@@ -518,7 +533,7 @@ div.csl-indent {
 <div id="exa-leave-no-trace" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-leave-no-trace-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;4.1: <strong>LEAVE NO TRACE</strong>
+TE4.1: <strong>LEAVE NO TRACE</strong>
 </figcaption>
 <div aria-describedby="exa-leave-no-trace-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -536,30 +551,39 @@ Thought Experiment&nbsp;4.1: <strong>LEAVE NO TRACE</strong>
 <section id="sec-physical-answers" class="level3" data-number="4.3.1">
 <h3 data-number="4.3.1" class="anchored" data-anchor-id="sec-physical-answers"><span class="header-section-number">4.3.1</span> Physical Answers</h3>
 <p>We have already seen one possible answer to the question of personal identity, the Fingerprints Account:</p>
+<div id="def-fingerprints" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.2</strong></span> &nbsp;</p>
 <dl>
 <dt>The Fingerprints Account</dt>
 <dd>
 A at time t is the same person as B at time t* if and only if A and B have indistinguishable fingerprints
 </dd>
 </dl>
+</div>
 <p>And we have already seen one good reason to reject the Fingerprints Account: someone with fingerprints can be the same person as someone (at a later time) with no fingerprints at all. That shows that having indistinguishable fingerprints isn’t necessary for being the same person, which makes this a counterexample to the Fingerprints Account.</p>
 <p>Another reason for rejecting the Fingerprints Account is that, at least in principle, two different people could have indistinguishable fingerprints by sheer coincidence or, more gruesomely, because one person grafts another person’s fingerprints onto their own fingertips for some nefarious purpose. That shows that having indistinguishable fingerprints isn’t even sufficient for being the same person.</p>
 <p>What if we focused on DNA instead of fingerprints?</p>
+<div id="def-dna" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.3</strong></span> &nbsp;</p>
 <dl>
 <dt>The DNA Account</dt>
 <dd>
 A at t is the same person as B at t* if and only if A and B have indistinguishable DNA
 </dd>
 </dl>
+</div>
 <p>The DNA Account does get around some of the problems that arise for the Fingerprints Account. Bekah’s DNA doesn’t change at all before and after searing off her fingerprints, so the DNA Account delivers the correct verdict that pre-searing Bekah is the same person as post-searing Bekah.</p>
 <p>But the DNA Account has problems of its own. Identical twins have indistinguishable DNA, but this doesn’t make them the same person. (Any identical twins reading this are now nodding along vigorously. In unison.) So, having indistinguishable DNA isn’t sufficient for being the same person. Nor is it necessary. There could, at least in principle, be a medication or performance-enhancing drug you can take that would make some small change to the DNA in every cell of your body. But it would still be <em>you</em> after you took the medication, even though your DNA would be somewhat different.</p>
 <p>Still, these answers may be on the right track by focusing on some physical aspect of you. Perhaps, instead of focusing on some small part of your body, like your fingerprints or DNA, we would do better to focus on the body as a whole:</p>
+<div id="def-same-body" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.4</strong></span> &nbsp;</p>
 <dl>
 <dt>The Same Body Account</dt>
 <dd>
 A at t is the same person as B at t* if and only if A has the same body as B
 </dd>
 </dl>
+</div>
 <p>‘Body’ is sometimes used to mean just the torso, not including the head and limbs. That’s not how I’m using it. When I say ‘body’, I mean the <em>whole</em> body, including the head and all the other body parts. And when I say that A and B have the same body, I mean that they have <em>numerically</em> the same body. Bodies obviously can change over time—indeed, your body was composed of almost entirely different cells seven years ago—but that’s not to deny that the body you have now is numerically the same as the body you had seven years ago. It’s not as if you used to have some other arms and legs and now you have entirely new ones!</p>
 <p>The Same Body Account is going to avoid all the other problems we mentioned, since you have the same body even if your fingerprints or DNA change, and separate people with indistinguishable DNA or fingerprints don’t have numerically the same body. It’s true that your body won’t be exactly the same <em>qualitatively</em> after your DNA changes, but what’s required by the Same Body Account is numerical sameness, not qualitative sameness. The body <em>is</em> numerically the same after the DNA changes.</p>
 </section>
@@ -567,31 +591,40 @@ A at t is the same person as B at t* if and only if A has the same body as B
 <h3 data-number="4.3.2" class="anchored" data-anchor-id="sec-psychological-answers"><span class="header-section-number">4.3.2</span> Psychological Answers</h3>
 <p>We’ll see in the next section that the Same Body Account has problems of its own. But before getting there, we should also consider a different sort of account, one framed in terms of people’s psychological features as opposed to their physical features. By ‘psychological features’, I mean to include any features of a person’s mental life: their memories, their personality, their likes and dislikes, their beliefs, their emotions, and even their current perceptual experiences (how things look, sound, smell, and feel to them).</p>
 <p>So how should we formulate an answer to the question of personal identity in terms of psychological features? As a first stab, we might consider the following account:</p>
+<div id="def-psych-matching" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.5</strong></span> &nbsp;</p>
 <dl>
 <dt>The Psychological Matching Account</dt>
 <dd>
 A at t is the same person as B at t* if and only if A’s psychological features are exactly the same as B’s psychological features
 </dd>
 </dl>
+</div>
 <p>But this Psychological Matching Account is obviously far too demanding. Every second that passes, you are forming new memories. For instance, you now have a memory of reading the previous sentence, but you had no memory of it a minute ago (since you hadn’t yet read it a minute ago). You also have slightly different visual experiences now than you had a minute ago, since you’re now looking at different words on the page. Accordingly, the Psychological Matching Account is going to say that the person sitting in your chair a minute ago and the person sitting in your chair now are two different people. But that’s absurd! It was <em>you</em> that was sitting in the chair a minute ago.</p>
 <p>To get around this problem, we might try to loosen things up, so that the account doesn’t require people at different times to have <em>all</em> the same psychological features, but only that they have <em>mostly</em> the same psychological features.</p>
+<div id="def-psych-overlap" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.6</strong></span> &nbsp;</p>
 <dl>
 <dt>The Psychological Overlap Account</dt>
 <dd>
 A at t is the same person as B at t* if and only if A’s psychological features are mostly the same as B’s psychological features
 </dd>
 </dl>
+</div>
 <p>The Psychological Overlap Account avoids the previous problem. You may not have <em>all</em> the same psychological features you had a moment ago, but you do have mostly the same psychological features (beliefs, memories, personality, etc.).</p>
 <p>But the Psychological Overlap Account gets the wrong results when we reach back further into the past. You and that kid in the photo are the same person. That’s you in the photo. But your current psychological features and the kid’s psychological features when the photo was taken <em>aren’t</em> mostly the same. The kid’s personality and likes and dislikes are completely different from yours. You have very few of the same memories, since you’ve forgotten much of what the kid remembers at that time, and the kid at that time hasn’t yet formed most of the memories you now have. So, the Psychological Overlap Account is going to yield the wrong verdict: it says that the kid in that photo isn’t you.</p>
 <p>What we need is something even <em>more</em> flexible, something that can accommodate the fact that, over a long period of time, a person can gradually undergo a massive change in their psychological features. But we don’t need to abandon the notion of psychological overlap entirely. Rather, we can use it to define the new, more flexible notion that we need.</p>
 <p>To see the way forward, notice that, even though there isn’t much overlap between your current psychological features and your psychological features at the time the photo was taken, there is a great deal of psychological overlap between you now and you a year ago. And there’s a great deal of overlap between you a year ago and you <em>two</em> years ago. And between you two years ago and you three years ago. And so on, going all the way back, year-by-year, to you at age six and the five-year-old in the photo. We can picture this as a long chain—running from you now to that five-year-old—where each link represents a “snapshot” of your psychological features at some time, and each link in the chain has mostly the same psychological features as the links immediately before and after it. And the chain needn’t be year-by-year; it can be day-by-day or even moment-by-moment.</p>
 <p>When there is such a moment-by-moment chain of overlap linking a person at one time to a person at a later time, I’ll say that the person at the earlier time is a <em>psychological ancestor</em> of the person at the later time, and that the person at the later time is a <em>psychological descendant</em> of the ancestor. This gives us:</p>
+<div id="def-psych-descendant" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.7</strong></span> &nbsp;</p>
 <dl>
 <dt>The Psychological Descendant Account</dt>
 <dd>
 A at t is the same person as B at t* if and only if A is either a psychological ancestor or a psychological descendant of B
 </dd>
 </dl>
+</div>
 <p>This gives us the right results in all of the cases we have been considering. You are a psychological descendant of the kid in the photo, despite sharing very few psychological features with that kid; Bekah pre-searing is a psychological ancestor of Bekah post-searing; and so on.</p>
 <p>We now have two different, initially promising answers to the question of personal identity: the Same Body Account and the Psychological Descendant Account. It may seem like an embarrassment of riches. They both look great, so how are we supposed to choose between them? As we are about to see, however, both answers are deeply flawed, and we should not accept either of them.</p>
 </section>
@@ -607,7 +640,7 @@ A at t is the same person as B at t* if and only if A is either a psychological 
 <div id="arg-CT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;4.1: <strong>The Conjoined Twins Argument</strong>
+A4.1: <strong>The Conjoined Twins Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -627,7 +660,7 @@ Argument&nbsp;4.1: <strong>The Conjoined Twins Argument</strong>
 <div id="exa-conjoined-drama" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-conjoined-drama-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;4.2: <strong>CONJOINED DRAMA</strong>
+TE4.2: <strong>CONJOINED DRAMA</strong>
 </figcaption>
 <div aria-describedby="exa-conjoined-drama-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -645,7 +678,7 @@ Thought Experiment&nbsp;4.2: <strong>CONJOINED DRAMA</strong>
 <div id="exa-body-swap" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-body-swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;4.3: <strong>BODY SWAP</strong>
+TE4.3: <strong>BODY SWAP</strong>
 </figcaption>
 <div aria-describedby="exa-body-swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -659,7 +692,7 @@ Thought Experiment&nbsp;4.3: <strong>BODY SWAP</strong>
 <div id="arg-BS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;4.2: <strong>The Body Swap Argument</strong>
+A4.2: <strong>The Body Swap Argument</strong>
 </figcaption>
 <div aria-describedby="arg-BS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -686,7 +719,7 @@ Argument&nbsp;4.2: <strong>The Body Swap Argument</strong>
 <div id="exa-total-amnesia" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-total-amnesia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;4.4: <strong>TOTAL AMNESIA</strong>
+TE4.4: <strong>TOTAL AMNESIA</strong>
 </figcaption>
 <div aria-describedby="exa-total-amnesia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -701,7 +734,7 @@ Thought Experiment&nbsp;4.4: <strong>TOTAL AMNESIA</strong>
 <div id="exa-total-blackout" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa quarto-uncaptioned" id="exa-total-blackout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;4.5
+TE4.5
 </figcaption>
 <div aria-describedby="exa-total-blackout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -717,7 +750,7 @@ Thought Experiment&nbsp;4.5
 <div id="arg-BL" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;4.3: <strong>The Blackout Argument</strong>
+A4.3: <strong>The Blackout Argument</strong>
 </figcaption>
 <div aria-describedby="arg-BL-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -737,7 +770,7 @@ Argument&nbsp;4.3: <strong>The Blackout Argument</strong>
 <div id="exa-double-trouble" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-double-trouble-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;4.6: <strong>DOUBLE TROUBLE</strong>
+TE4.6: <strong>DOUBLE TROUBLE</strong>
 </figcaption>
 <div aria-describedby="exa-double-trouble-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <blockquote class="blockquote">
@@ -752,7 +785,7 @@ Thought Experiment&nbsp;4.6: <strong>DOUBLE TROUBLE</strong>
 <div id="arg-FS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;4.4: <strong>The Fission Argument</strong>
+A4.4: <strong>The Fission Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -769,7 +802,8 @@ Argument&nbsp;4.4: <strong>The Fission Argument</strong>
 <p>FS1 is indisputable. The psychological features of ChadRW and AlexRW when they first wake up are virtually indistinguishable from those of JoJo, that is, the woman calling herself ‘JoJo’ just prior to the rewiring. In the minutes and hours that follow, ChadRW and AlexRW will of course begin to diverge psychologically from one another. Indeed, they’ll likely begin diverging from one another the moment they wake up! But they will remain psychological <em>descendants</em> of JoJo, linked by an ever-growing, moment-bymoment chain, with each “link” in the chain exhibiting massive psychological overlap with the preceding link. And that’s all we need in order to get FS1. For, so long as each is a psychological descendant of JoJo, the Psychological Descendant Account will entail that each of them is the same person as her.</p>
 <p>FS2 follows from a highly plausible logical principle: the transitivity of identity. According to this principle, if A = B and B = C, then it follows that A = C. (Here, the ‘=’ symbol signifies numerical sameness.) That’s true no matter what you plug in for ‘A’, ‘B’, and ‘C’. Suppose you find out that Chadwick Boseman is the actor who played the Black Panther, and you also find out that the actor who played the Black Panther was also the star of <em>Ma Rainey’s Black Bottom</em>. You wouldn’t then wonder whether Chadwick Boseman is the same person as the star of <em>Ma Rainey’s Black Bottom</em>. That’s because you already have all the information you need in order to <em>deduce</em> that it’s the same guy: if Chadwick Boseman = the actor who played the Black Panther, and the actor who played the Black Panther = the star of <em>Ma Rainey’s Black Bottom</em>, then (by the transitivity of identity) Chadwick Boseman = the star of <em>Ma Rainey’s Black Bottom</em>. By that same indisputable logic, if ChadRW = JoJo and JoJo = AlexRW, then ChadRW = AlexRW. That’s what gives us FS2.</p>
 <p>Premise FS4 is motivated by a different logical principle, which I’ll call ‘The No Difference Principle’, or ‘NDP’ for short:</p>
-<div id="NDP" class="thesis">
+<div id="def-NDP" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.8</strong></span> &nbsp;</p>
 <dl>
 <dt>The No Difference Principle (NDP)</dt>
 <dd>
@@ -787,12 +821,15 @@ If A is numerically the same as B, then at any given time, anything that’s tru
 <section id="sec-souls" class="level2" data-number="4.6">
 <h2 data-number="4.6" class="anchored" data-anchor-id="sec-souls"><span class="header-section-number">4.6</span> Souls</h2>
 <p>Some may feel that I have overlooked an obvious answer to the question of personal identity, namely that it’s your <em>soul</em> that makes you the person that you are. In other words, one might embrace the Same Soul Account of personal identity:</p>
+<div id="def-same-soul" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.9</strong></span> &nbsp;</p>
 <dl>
 <dt>The Same Soul Account</dt>
 <dd>
 A at t is the same person as B at t* if and only if A has the same soul as B
 </dd>
 </dl>
+</div>
 <p>The Same Soul Account could then be put to work in addressing the various challenging cases we have been discussing. Abby and Brittany, one might say, are different people because they have two different souls. The conscious and unconscious man on the island are the same person because they have the same soul. MaleT and MaleW in the BODY SWAP case are different people because Raúl’s soul left the male body and now inhabits the female body.</p>
 <p>But what exactly is “a soul”? I suspect that when people talk about their souls, this is just a roundabout way of talking about themselves. For instance, if you’re talking about souls in the first place, you probably think that your soul is something that will eventually come apart from your body and that will (if you have behaved yourself) go to heaven. Certainly, though, you don’t think it’s something <em>other than you</em> that goes to heaven. It’s you yourself who will go to heaven. In that case, saying “my soul will go to heaven” is just another way of saying “I will go to heaven,” and maybe calling yourself “a soul” is just a way of signaling that you take yourself to be a ghostly thing that merely inhabits—but isn’t the same thing as—your physical body.</p>
 <p>Let’s suppose that’s what you mean: you are your soul. But then the Same Soul Account doesn’t actually answer the question of personal identity. For suppose that “A’s soul” is just a fancy way of referring to A herself, and “B’s soul” is just a fancy way of referring to B herself. In that case, all that the Same Soul Account is saying is: A is the same person as B if and only if A is the same person as B. And while that’s true, it’s also completely trivial and uninformative. It’s like answering the question of what makes someone a bachelor by saying that A is bachelor if and only if A is a bachelor. That’s true, but it’s trivial, and it certainly doesn’t tell us anything about what <em>makes</em> someone a bachelor.</p>
@@ -807,17 +844,19 @@ A at t is the same person as B at t* if and only if A has the same soul as B
 <h2 data-number="4.7" class="anchored" data-anchor-id="sec-combined-answers"><span class="header-section-number">4.7</span> Combining the Psychological and Bodily Accounts</h2>
 <p>I argued in sections <a href="#sec-against-same-body" class="quarto-xref"><span>4.4</span></a> and <a href="#sec-against-psychological-descendent" class="quarto-xref"><span>4.5</span></a> that neither the Same Body Account nor the Psychological Descendant Account can serve as an adequate theory of personal identity. One might suspect that we ran into all this trouble only because we were focusing too narrowly on just physical aspects or just psychological aspects. Perhaps the problems can all be avoided if we had considered hybrid theories of personal identity that involve a <em>combination</em> of physical and psychological factors.</p>
 <p>To quiet these concerns, I’ll conclude this chapter by considering two ways of incorporating physical and psychological considerations into a single account: a Body-And-Mind Account and a Body-Or-Mind Account.</p>
-<div class="thesis">
+<div id="def-body-and-mind" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.10</strong></span> &nbsp;</p>
 <dl>
-<dt><strong>The Body-And-Mind Account</strong></dt>
+<dt>The Body-And-Mind Account</dt>
 <dd>
 A at t is the same person as B at t* if and only if A has the same body as B <em>and</em> A is a psychological ancestor or descendant of B
 </dd>
 </dl>
 </div>
-<div class="thesis">
+<div id="def-body-or-mind" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 4.11</strong></span> &nbsp;</p>
 <dl>
-<dt><strong>The Body-Or-Mind Account</strong></dt>
+<dt>The Body-Or-Mind Account</dt>
 <dd>
 A at t is the same person as B at t* if and only if A has the same body as B <em>or</em> A is a psychological ancestor or descendant of B
 </dd>
@@ -836,9 +875,9 @@ A at t is the same person as B at t* if and only if A has the same body as B <em
 <section id="reflection-questions" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
 <ol type="1">
-<li>Can you defend the Same Body Account against the Conjoined Twins argument (<a href="#arg-CT" class="quarto-xref">Argument&nbsp;<span>4.1</span></a>) from <a href="#sec-conjoined-twins" class="quarto-xref"><span>Section 4.4.1</span></a>?</li>
+<li>Can you defend the Same Body Account against the Conjoined Twins argument (<a href="#arg-CT" class="quarto-xref">A<span>4.1</span></a>) from <a href="#sec-conjoined-twins" class="quarto-xref"><span>Section 4.4.1</span></a>?</li>
 <li>Would a Same <em>Brain</em> Account be any improvement on a Same Body Account? Why or why not?</li>
-<li>Can the Psychological Descendant Account be defended against the Blackout Argument (<a href="#arg-BL" class="quarto-xref">Argument&nbsp;<span>4.3</span></a>) from (<a href="#sec-against-psychological-descendent" class="quarto-xref"><span>Section 4.5</span></a>)? If so, how?</li>
+<li>Can the Psychological Descendant Account be defended against the Blackout Argument (<a href="#arg-BL" class="quarto-xref">A<span>4.3</span></a>) from (<a href="#sec-against-psychological-descendent" class="quarto-xref"><span>Section 4.5</span></a>)? If so, how?</li>
 <li>In <a href="#sec-combined-answers" class="quarto-xref"><span>Section 4.7</span></a>, I considered two different hybrid accounts of personal identity and raised problems for both. Can you articulate a superior hybrid account that avoids some of these problems?</li>
 </ol>
 </section>

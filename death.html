@@ -65,9 +65,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,8 @@ div.csl-indent {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -255,6 +256,14 @@ div.csl-indent {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -488,7 +497,7 @@ div.csl-indent {
 <div id="arg-FD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;5.1: <strong>Against Fearing Death</strong>
+A5.1: <strong>Against Fearing Death</strong>
 </figcaption>
 <div aria-describedby="arg-FD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -510,7 +519,8 @@ Argument&nbsp;5.1: <strong>Against Fearing Death</strong>
 <p>My argument for FD2 turns on the idea—sometimes known as “hedonism”—that, ultimately speaking, experiencing pleasant sensations is the only thing that’s good for you, and experiencing painful sensations is the only thing that’s bad for you. And when I say ‘painful’, that should be understood in a broad sense, to include psychological and emotional pain, in addition to physical pain and discomfort.</p>
 <p>It’s easy to see the appeal of hedonism. Why is it bad for you if someone kicks you? Because it’s painful. Why it is bad for you not to brush your teeth? Because you might get plaque. Why is that bad for you? Because plaque leads to cavities. Why is that bad for you? Because cavities are painful.</p>
 <p>Still, we must be careful in how exactly we formulate our hedonistic account of what’s bad for you. For instance, suppose we tried the following:</p>
-<div id="HD" class="thesis">
+<div id="def-HD" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 5.1</strong></span> &nbsp;</p>
 <dl>
 <dt>Hedonism (HD)</dt>
 <dd>
@@ -520,7 +530,8 @@ Something is bad for you if and only if it’s painful.
 </div>
 <p>There are multiple problems with HD. First, there are all sorts of things that are bad for you that aren’t themselves painful. For instance, eating a whole large pizza in one sitting isn’t painful, but it is bad for you. Second, there are all sorts of painful things that aren’t bad for you. For instance, a deeptissue massage isn’t bad for you, but it can be somewhat unpleasant while it’s happening.</p>
 <p>Thinking a bit more about these examples can help us see what’s missing from HD. Why is eating the whole pizza bad for you? Because, later in the day, you’ll have a painful stomach ache. Why isn’t the deep-tissue massage bad for you? Because working out the knots in your muscles results in your having less discomfort later on. What we’re seeing is that what makes something bad for you isn’t just whether it itself is painful but also its connection to the presence or absence of future pains. With this in mind, we can revise the principle as follows:</p>
-<div id="HD-star" class="thesis">
+<div id="def-HD-star" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 5.2</strong></span> &nbsp;</p>
 <dl>
 <dt>Hedonism (HD*)</dt>
 <dd>
@@ -536,7 +547,7 @@ Something is bad for you if and only if it results in more pain than you would o
 <div id="arg-AH" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;5.2: <strong>The Argument from Hedonism</strong>
+A5.2: <strong>The Argument from Hedonism</strong>
 </figcaption>
 <div aria-describedby="arg-AH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -554,19 +565,18 @@ Argument&nbsp;5.2: <strong>The Argument from Hedonism</strong>
 <div id="exa-stolen-cruise" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-stolen-cruise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;5.1: <strong>STOLEN CRUISE</strong>
+TE5.1: <strong>STOLEN CRUISE</strong>
 </figcaption>
 <div aria-describedby="exa-stolen-cruise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Brendan is about to go on a week-long cruise. His girlfriend, Pieper, serves him undercooked chicken, in hopes that he’ll get food poisoning and will let her go in his place. Pieper’s plan succeeds, and she has a great time on the cruise. She comes back refreshed, relaxed, and feeling no remorse whatsoever.</p>
-</blockquote>
 </div>
 </figure>
 </div>
 <p>What Pieper did is bad, and yet it didn’t lead to her having any unpleasant sensations.</p>
 <p>Is that a problem for HD*? No.&nbsp;One must be careful to distinguish between something being <em>bad for you</em> and something being <em>bad to do</em>. HD* is only about the former and has nothing to say about the latter. If giving Brendan food poisoning doesn’t end up being unpleasant for Pieper, then it isn’t bad <em>for Pieper</em> that Brendan got food poisoning. But that’s not at all to deny that deliberately giving him food poisoning was a bad thing to do (which of course it was).</p>
 <p>Now for the third objection to HD*. Here the idea is to grant that hedonism is basically right, but to insist upon further changes to its formulation. Specifically, one might suggest that something can be bad for you not just by giving you painful sensations but also by depriving you of pleasant sensations:</p>
-<div id="HD-double-star" class="thesis">
+<div id="def-HD-double-star" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 5.3</strong></span> &nbsp;</p>
 <dl>
 <dt>Hedonism (HD**)</dt>
 <dd>
@@ -579,12 +589,10 @@ Something is bad for you if and only if it results in more pain <em>or less plea
 <div id="exa-unread-mail" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-unread-mail-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;5.2: <strong>UNREAD MAIL</strong>
+TE5.2: <strong>UNREAD MAIL</strong>
 </figcaption>
 <div aria-describedby="exa-unread-mail-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Carly meets Evan, and they immediately fall in love. Because things are going so well with Evan, Carly stops checking her online dating app. They have a long and entirely happy life together. It so happens that Jami had sent Carly a message shortly after Carly met Evan. If she hadn’t met Evan, she would have seen Jami’s message, fallen in love with <em>her</em>, and she and Jami would have had a long and happy life together. As a matter of fact, she would have been a little tiny bit happier with Jami than with Evan.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -593,7 +601,7 @@ Thought Experiment&nbsp;5.2: <strong>UNREAD MAIL</strong>
 <div id="arg-UM" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;5.3: <strong>The Unread Mail Argument</strong>
+A5.3: <strong>The Unread Mail Argument</strong>
 </figcaption>
 <div aria-describedby="arg-UM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -615,7 +623,7 @@ Argument&nbsp;5.3: <strong>The Unread Mail Argument</strong>
 <div id="arg-PC" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;5.4: <strong>Against Post-Mortem Consciousness</strong>
+A5.4: <strong>Against Post-Mortem Consciousness</strong>
 </figcaption>
 <div aria-describedby="arg-PC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -638,7 +646,7 @@ Argument&nbsp;5.4: <strong>Against Post-Mortem Consciousness</strong>
 <div id="arg-TT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;5.5: <strong>The Too Many Thinkers Argument</strong>
+A5.5: <strong>The Too Many Thinkers Argument</strong>
 </figcaption>
 <div aria-describedby="arg-TT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>

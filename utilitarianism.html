@@ -65,9 +65,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,8 @@ div.csl-indent {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -255,6 +256,14 @@ div.csl-indent {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -487,9 +496,10 @@ div.csl-indent {
 <p>We’re constantly confronted with questions about the right or wrong thing to do. Some arise in our daily lives: is it wrong to download pirated movies, run a red light at an empty intersection, tell on a friend who you know cheated on an exam? Some arise in political discussion: is it wrong for the government to ban assault rifles, or abortions? Some arise in stories and movies: is it wrong for the super-villain to kill off half the population so that the survivors can benefit from the abundance of resources?</p>
 <p>We’d like to know which of these things are right and which are wrong. What would be even better is a perfectly general answer to the question of which things are right and wrong, an answer that identifies what makes right actions right and wrong actions wrong. My aim here is to answer that question. In particular, I will defend a <em>utilitarian</em> answer, according to which the rightness or wrongness of an action is entirely a function of how it contributes (positively or negatively) to people’s well-being. Since a person’s well-being is ultimately a matter of how happy they are, what this means is that an action’s rightness or wrongness comes down to how much an action increases or decreases levels of happiness.</p>
 <p>Here, then, is the utilitarian theory of morality that I plan to defend, which we’ll call “act utilitarianism.”</p>
-<div id="ths-act-utilitarianism" class="thesis">
+<div id="def-act-utilitarianism" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 11.1</strong></span> &nbsp;</p>
 <dl>
-<dt><strong>Act Utilitarianism</strong></dt>
+<dt>Act Utilitarianism</dt>
 <dd>
 Performing a certain action is the right thing to do if and only if it will have a more positive effect on overall levels of happiness than any other available action
 </dd>
@@ -501,12 +511,10 @@ Performing a certain action is the right thing to do if and only if it will have
 <div id="exa-terrorist-attack" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-terrorist-attack-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;11.1: <strong>TERRORIST ATTACK</strong>
+TE11.1: <strong>TERRORIST ATTACK</strong>
 </figcaption>
 <div aria-describedby="exa-terrorist-attack-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Kristian discovers that her girlfriend Demi is planning a terrorist attack. Kristian knows that if she calls the cops on Demi, it will end their relationship, Demi will never forgive her, and she’ll feel incredibly guilty about turning Demi in. Kristian also knows that if she doesn’t tell the cops, countless people will lose their lives or their loved ones. Kristian decides not to tell the cops, and Demi carries out the devastating attack. Demi is never caught. Kristian puts it out of her mind and feels no guilt or remorse about not preventing the attack.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -527,12 +535,10 @@ Thought Experiment&nbsp;11.1: <strong>TERRORIST ATTACK</strong>
 <div id="exa-condoned-lobotomies" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-condoned-lobotomies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;11.2: <strong>CONDONED LOBOTOMIES</strong>
+TE11.2: <strong>CONDONED LOBOTOMIES</strong>
 </figcaption>
 <div aria-describedby="exa-condoned-lobotomies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>The leaders of a certain oppressive country instituted a law that requires all newborn girls to be lobotomized. Dissenters were lobotomized as well. After a few generations, there are no more dissenters. The men are all happy with the arrangement, and the women are all lobotomized and have no opinion on the matter.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -547,7 +553,7 @@ Thought Experiment&nbsp;11.2: <strong>CONDONED LOBOTOMIES</strong>
 <div id="exa-organ-distribution" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-organ-distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;11.3: <strong>ORGAN DISTRIBUTION</strong>
+TE11.3: <strong>ORGAN DISTRIBUTION</strong>
 </figcaption>
 <div aria-describedby="exa-organ-distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <p>Jonathan is a doctor, and his patient Nick is coming in for a routine physical. Looking over his past bloodwork, Jonathan realizes that Nick’s organs are an exact match for five patients in critical condition upstairs in the Intensive Care Unit. When Nick arrives, Jonathan kills him (painlessly), making it look like an accident. Since Nick is an organ donor, his body is rushed upstairs, and his heart, lungs, liver, and each of his kidneys are successfully transplanted into those five patients, saving their lives. No other organs arrived that day, and the five patients would have died had Jonathan not killed Nick for his organs. The five patients all go on to lead long, happy lives. No one ever finds out that Nick’s death was not an accident.</p>
@@ -559,7 +565,7 @@ Thought Experiment&nbsp;11.3: <strong>ORGAN DISTRIBUTION</strong>
 <div id="arg-OD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-OD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;11.1: <strong>The Organ Distribution Argument</strong>
+A11.1: <strong>The Organ Distribution Argument</strong>
 </figcaption>
 <div aria-describedby="arg-OD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -586,9 +592,10 @@ Argument&nbsp;11.1: <strong>The Organ Distribution Argument</strong>
 </ul>
 <p>Even if following these rules doesn’t <em>always</em> maximize happiness, it usually does, which is what makes them good rules.</p>
 <p>With this in mind, one possibility for avoiding the implication that Jonathan did the right thing in killing Nick would be to reject act utilitarianism in favor of rule utilitarianism:</p>
-<div id="ths-rule-utilitarianism" class="thesis">
+<div id="def-rule-utilitarianism" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T 11.2</strong></span> &nbsp;</p>
 <dl>
-<dt><strong>Rule Utilitarianism</strong></dt>
+<dt>Rule Utilitarianism</dt>
 <dd>
 Performing a certain action is the right thing to do if and only if it is prescribed by the collection of rules that, if adopted, would have the greatest positive effect on overall levels of happiness
 </dd>
@@ -610,12 +617,10 @@ Performing a certain action is the right thing to do if and only if it is prescr
 <div id="exa-trolley-driver" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-trolley-driver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;11.4: <strong>TROLLEY DRIVER</strong>
+TE11.4: <strong>TROLLEY DRIVER</strong>
 </figcaption>
 <div aria-describedby="exa-trolley-driver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>Corrine is driving a trolley, which is hurtling down the tracks, faster than it should. Five pledges from a local fraternity have been tied to the tracks as part of an initiation ritual. By the time she sees them, it’s too late to slow down. The only way to avoid killing them is to swerve the trolley onto a side track at an upcoming junction. But the pledge master, who is asleep on the side track, will be killed if she does. Corrine decides to steer the trolley onto the side track anyway, killing the pledge master. She then stops the trolley, unties the pledges, and they all go on to lead long, happy lives.</p>
-</blockquote>
 </div>
 </figure>
 </div>
@@ -625,7 +630,7 @@ Thought Experiment&nbsp;11.4: <strong>TROLLEY DRIVER</strong>
 <div id="arg-TR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;11.2: <strong>The Trolley Argument</strong>
+A11.2: <strong>The Trolley Argument</strong>
 </figcaption>
 <div aria-describedby="arg-TR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -643,12 +648,10 @@ Argument&nbsp;11.2: <strong>The Trolley Argument</strong>
 <div id="exa-trolley-lever" class="example quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-exa figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-trolley-lever-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Thought Experiment&nbsp;11.5: <strong>TROLLEY LEVER</strong>
+TE11.5: <strong>TROLLEY LEVER</strong>
 </figcaption>
 <div aria-describedby="exa-trolley-lever-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
 <p>A runaway trolley with no driver is hurtling down the tracks towards five pledges from a local fraternity. Corrine is an onlooker, standing beside the tracks. Next to her is a lever which can divert the trolley onto a side track. She could do nothing, and let the pledges die. But if she pulls the lever and diverts the trolley, it will kill the pledge master, who is asleep on the side track. Corrine decides to pull the lever, killing the pledge master and saving the pledges. She then unties the pledges, and they all go on to lead long, happy lives.</p>
-</blockquote>
 </div>
 </figure>
 </div>

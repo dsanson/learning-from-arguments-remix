@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b737c709a6d2887daa573c9b32911cef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4aafed19d427e003c0f9a952c4c23f0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -222,7 +222,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -235,6 +236,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -451,7 +460,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="arg-" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg--caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.1: <a href="evil.html#arg-AS" class="quarto-xref">Argument&nbsp;<span>2.1</span></a>: <strong>The Argument from Suffering</strong>
+AC.1: <a href="evil.html#arg-AS" class="quarto-xref">A<span>2.1</span></a>: <strong>The Argument from Suffering</strong>
 </figcaption>
 <div aria-describedby="arg--caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -465,7 +474,7 @@ Argument&nbsp;C.1: <a href="evil.html#arg-AS" class="quarto-xref">Argument&nbsp;
 <div id="arg-PS-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PS-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.2: <strong>The Argument from Pointless Suffering</strong>
+AC.2: <strong>The Argument from Pointless Suffering</strong>
 </figcaption>
 <div aria-describedby="arg-PS-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -479,7 +488,7 @@ Argument&nbsp;C.2: <strong>The Argument from Pointless Suffering</strong>
 <div id="arg-DB-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DB-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.3: <strong>The Argument for Disbelief</strong>
+AC.3: <strong>The Argument for Disbelief</strong>
 </figcaption>
 <div aria-describedby="arg-DB-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -494,7 +503,7 @@ Argument&nbsp;C.3: <strong>The Argument for Disbelief</strong>
 <div id="arg-BG-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BG-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.4: <strong>The Argument for Betting on God</strong>
+AC.4: <strong>The Argument for Betting on God</strong>
 </figcaption>
 <div aria-describedby="arg-BG-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -506,7 +515,8 @@ Argument&nbsp;C.4: <strong>The Argument for Betting on God</strong>
 </figure>
 </div>
 <p><a href="personal-identity.html" class="quarto-xref"><span>4&nbsp; What Makes You You</span></a></p>
-<div class="thesis">
+<div id="def-same-body" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T C.1</strong></span> &nbsp;</p>
 <dl>
 <dt>The Same Body Account</dt>
 <dd>
@@ -517,7 +527,7 @@ A at t is the same person as B at t* if and only if A has the same body as B
 <div id="arg-CT-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CT-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.5: <strong>The Conjoined Twins Argument</strong>
+AC.5: <strong>The Conjoined Twins Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CT-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -532,7 +542,7 @@ Argument&nbsp;C.5: <strong>The Conjoined Twins Argument</strong>
 <div id="arg-BS-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BS-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.6: <strong>The Body Swap Argument</strong>
+AC.6: <strong>The Body Swap Argument</strong>
 </figcaption>
 <div aria-describedby="arg-BS-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -544,7 +554,8 @@ Argument&nbsp;C.6: <strong>The Body Swap Argument</strong>
 </div>
 </figure>
 </div>
-<div class="thesis">
+<div id="def-psych-desc" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T C.2</strong></span> &nbsp;</p>
 <dl>
 <dt><strong>The Psychological Descendant Account</strong></dt>
 <dd>
@@ -555,7 +566,7 @@ A at t is the same person as B at t* if and only if A is either a psychological 
 <div id="arg-BL-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-BL-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.7: <strong>The Blackout Argument</strong>
+AC.7: <strong>The Blackout Argument</strong>
 </figcaption>
 <div aria-describedby="arg-BL-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -570,7 +581,7 @@ Argument&nbsp;C.7: <strong>The Blackout Argument</strong>
 <div id="arg-FS-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FS-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.8: <strong>The Fission Argument</strong>
+AC.8: <strong>The Fission Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FS-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -587,7 +598,7 @@ Argument&nbsp;C.8: <strong>The Fission Argument</strong>
 <div id="arg-FD-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FD-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.9: <strong>Against Fearing Death</strong>
+AC.9: <strong>Against Fearing Death</strong>
 </figcaption>
 <div aria-describedby="arg-FD-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -603,7 +614,7 @@ Argument&nbsp;C.9: <strong>Against Fearing Death</strong>
 <div id="arg-AH-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AH-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.10: <strong>The Argument from Hedonism</strong>
+AC.10: <strong>The Argument from Hedonism</strong>
 </figcaption>
 <div aria-describedby="arg-AH-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -619,7 +630,7 @@ Argument&nbsp;C.10: <strong>The Argument from Hedonism</strong>
 <div id="arg-UM-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UM-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.11: <strong>The Unread Mail Argument</strong>
+AC.11: <strong>The Unread Mail Argument</strong>
 </figcaption>
 <div aria-describedby="arg-UM-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -634,7 +645,7 @@ Argument&nbsp;C.11: <strong>The Unread Mail Argument</strong>
 <div id="arg-PC-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PC-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.12: <strong>Against Post-Mortem Consciousness</strong>
+AC.12: <strong>Against Post-Mortem Consciousness</strong>
 </figcaption>
 <div aria-describedby="arg-PC-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -649,7 +660,7 @@ Argument&nbsp;C.12: <strong>Against Post-Mortem Consciousness</strong>
 <div id="arg-TT-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TT-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.13: <strong>The Too Many Thinkers Argument</strong>
+AC.13: <strong>The Too Many Thinkers Argument</strong>
 </figcaption>
 <div aria-describedby="arg-TT-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -664,7 +675,7 @@ Argument&nbsp;C.13: <strong>The Too Many Thinkers Argument</strong>
 <div id="arg-FR-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.14: <strong>The Argument for Freedom</strong>
+AC.14: <strong>The Argument for Freedom</strong>
 </figcaption>
 <div aria-describedby="arg-FR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -678,7 +689,7 @@ Argument&nbsp;C.14: <strong>The Argument for Freedom</strong>
 <div id="arg-DS-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DS-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.15: <strong>The Desire Argument</strong>
+AC.15: <strong>The Desire Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DS-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -694,7 +705,7 @@ Argument&nbsp;C.15: <strong>The Desire Argument</strong>
 <div id="arg-DT-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DT-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.16: <strong>The Argument from Determinism</strong>
+AC.16: <strong>The Argument from Determinism</strong>
 </figcaption>
 <div aria-describedby="arg-DT-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -709,7 +720,7 @@ Argument&nbsp;C.16: <strong>The Argument from Determinism</strong>
 <div id="arg-DM-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DM-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.17: <strong>The Doomed Regardless Argument</strong>
+AC.17: <strong>The Doomed Regardless Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DM-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -726,7 +737,7 @@ Argument&nbsp;C.17: <strong>The Doomed Regardless Argument</strong>
 <div id="arg-CQ-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CQ-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.18: <strong>The Consequence Argument</strong>
+AC.18: <strong>The Consequence Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CQ-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -740,9 +751,10 @@ Argument&nbsp;C.18: <strong>The Consequence Argument</strong>
 </figure>
 </div>
 <p><a href="skepticism.html" class="quarto-xref"><span>7&nbsp; You Know Nothing</span></a></p>
-<div class="thesis">
+<div id="def-FLP" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T C.3</strong></span> &nbsp;</p>
 <dl>
-<dt>(FLP)</dt>
+<dt>FLP</dt>
 <dd>
 Future states of the world will be like past states of the world
 </dd>
@@ -751,7 +763,7 @@ Future states of the world will be like past states of the world
 <div id="arg-KF-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-KF-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.19: <strong>Against Knowing the Future</strong>
+AC.19: <strong>Against Knowing the Future</strong>
 </figcaption>
 <div aria-describedby="arg-KF-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -767,7 +779,7 @@ Argument&nbsp;C.19: <strong>Against Knowing the Future</strong>
 <div id="arg-FF-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FF-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.20: <strong>The Faulty Foundation Argument</strong>
+AC.20: <strong>The Faulty Foundation Argument</strong>
 </figcaption>
 <div aria-describedby="arg-FF-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -781,7 +793,7 @@ Argument&nbsp;C.20: <strong>The Faulty Foundation Argument</strong>
 <div id="arg-UJ-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UJ-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.21: <strong>FLP is Unjustified</strong>
+AC.21: <strong>FLP is Unjustified</strong>
 </figcaption>
 <div aria-describedby="arg-UJ-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -796,7 +808,7 @@ Argument&nbsp;C.21: <strong>FLP is Unjustified</strong>
 <div id="arg-AC-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AC-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.22: <strong>The Anti-Circularity Argument</strong>
+AC.22: <strong>The Anti-Circularity Argument</strong>
 </figcaption>
 <div aria-describedby="arg-AC-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -808,16 +820,19 @@ Argument&nbsp;C.22: <strong>The Anti-Circularity Argument</strong>
 </div>
 </figure>
 </div>
+<div id="def-TDH" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T C.4</strong></span> &nbsp;</p>
 <dl>
-<dt>(TDH)</dt>
+<dt>TDH</dt>
 <dd>
 You are currently lying down in bed dreaming about sitting down reading a philosophy textbook
 </dd>
 </dl>
+</div>
 <div id="arg-DR-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.23: <strong>The Dreaming Argument</strong>
+AC.23: <strong>The Dreaming Argument</strong>
 </figcaption>
 <div aria-describedby="arg-DR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -831,7 +846,7 @@ Argument&nbsp;C.23: <strong>The Dreaming Argument</strong>
 <div id="arg-CH-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CH-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.24: <strong>The Competing Hypotheses Argument</strong>
+AC.24: <strong>The Competing Hypotheses Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CH-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -845,7 +860,7 @@ Argument&nbsp;C.24: <strong>The Competing Hypotheses Argument</strong>
 <div id="arg-DE-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DE-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.25: <strong>The Argument from Deduction</strong>
+AC.25: <strong>The Argument from Deduction</strong>
 </figcaption>
 <div aria-describedby="arg-DE-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -859,7 +874,7 @@ Argument&nbsp;C.25: <strong>The Argument from Deduction</strong>
 <div id="arg-NE-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NE-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.26: <strong>The No Evidence Argument</strong>
+AC.26: <strong>The No Evidence Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NE-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -874,7 +889,7 @@ Argument&nbsp;C.26: <strong>The No Evidence Argument</strong>
 <div id="arg-TX-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TX-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.27: <strong>Against Taxation and Imprisonment</strong>
+AC.27: <strong>Against Taxation and Imprisonment</strong>
 </figcaption>
 <div aria-describedby="arg-TX-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -889,7 +904,7 @@ Argument&nbsp;C.27: <strong>Against Taxation and Imprisonment</strong>
 <div id="arg-NC-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NC-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.28: <strong>No Consent</strong>
+AC.28: <strong>No Consent</strong>
 </figcaption>
 <div aria-describedby="arg-NC-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -903,7 +918,7 @@ Argument&nbsp;C.28: <strong>No Consent</strong>
 <div id="arg-OB-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-OB-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.29: <strong>The Argument for Open Borders</strong>
+AC.29: <strong>The Argument for Open Borders</strong>
 </figcaption>
 <div aria-describedby="arg-OB-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -919,7 +934,7 @@ Argument&nbsp;C.29: <strong>The Argument for Open Borders</strong>
 <div id="arg-RL-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RL-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.30: <strong>The Right to Life Argument</strong>
+AC.30: <strong>The Right to Life Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RL-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -933,7 +948,7 @@ Argument&nbsp;C.30: <strong>The Right to Life Argument</strong>
 <div id="arg-RQ-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RQ-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.31: <strong>The Requirements of Life Argument</strong>
+AC.31: <strong>The Requirements of Life Argument</strong>
 </figcaption>
 <div aria-describedby="arg-RQ-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -949,7 +964,7 @@ Argument&nbsp;C.31: <strong>The Requirements of Life Argument</strong>
 <div id="arg-VA-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-VA-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.32: <strong>The Violinist Argument</strong>
+AC.32: <strong>The Violinist Argument</strong>
 </figcaption>
 <div aria-describedby="arg-VA-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -963,7 +978,7 @@ Argument&nbsp;C.32: <strong>The Violinist Argument</strong>
 <div id="arg-KR-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-KR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.33: <strong>The Known Risk Argument</strong>
+AC.33: <strong>The Known Risk Argument</strong>
 </figcaption>
 <div aria-describedby="arg-KR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -980,7 +995,7 @@ Argument&nbsp;C.33: <strong>The Known Risk Argument</strong>
 <div id="arg-SF-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-SF-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.34: <strong>The Simple FLO Argument</strong>
+AC.34: <strong>The Simple FLO Argument</strong>
 </figcaption>
 <div aria-describedby="arg-SF-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -994,7 +1009,7 @@ Argument&nbsp;C.34: <strong>The Simple FLO Argument</strong>
 <div id="arg-MF-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MF-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.35: <strong>The Modified FLO Argument</strong>
+AC.35: <strong>The Modified FLO Argument</strong>
 </figcaption>
 <div aria-describedby="arg-MF-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -1010,7 +1025,7 @@ Argument&nbsp;C.35: <strong>The Modified FLO Argument</strong>
 <div id="arg-PR-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.36: <strong>The Argument from Precedent</strong>
+AC.36: <strong>The Argument from Precedent</strong>
 </figcaption>
 <div aria-describedby="arg-PR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -1024,7 +1039,7 @@ Argument&nbsp;C.36: <strong>The Argument from Precedent</strong>
 <div id="arg-NO-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NO-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.37: <strong>The Natural Order Argument</strong>
+AC.37: <strong>The Natural Order Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NO-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -1038,7 +1053,7 @@ Argument&nbsp;C.37: <strong>The Natural Order Argument</strong>
 <div id="arg-CP-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CP-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.38: <strong>The Natural Capacity Argument</strong>
+AC.38: <strong>The Natural Capacity Argument</strong>
 </figcaption>
 <div aria-describedby="arg-CP-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -1052,7 +1067,7 @@ Argument&nbsp;C.38: <strong>The Natural Capacity Argument</strong>
 <div id="arg-NP-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NP-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.39: <strong>The Necessity of Protein Argument</strong>
+AC.39: <strong>The Necessity of Protein Argument</strong>
 </figcaption>
 <div aria-describedby="arg-NP-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -1066,7 +1081,7 @@ Argument&nbsp;C.39: <strong>The Necessity of Protein Argument</strong>
 <div id="arg-FP-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FP-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.40: <strong>The Argument from Fred’s Puppies</strong>
+AC.40: <strong>The Argument from Fred’s Puppies</strong>
 </figcaption>
 <div aria-describedby="arg-FP-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -1079,7 +1094,8 @@ Argument&nbsp;C.40: <strong>The Argument from Fred’s Puppies</strong>
 </figure>
 </div>
 <p><a href="utilitarianism.html" class="quarto-xref"><span>11&nbsp; What Makes Things Right</span></a></p>
-<div class="thesis">
+<div id="def-act-utilitarianism" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T C.5</strong></span> &nbsp;</p>
 <dl>
 <dt>Act Utilitarianism</dt>
 <dd>
@@ -1090,7 +1106,7 @@ Performing a certain action is the right thing to do if and only if it will have
 <div id="arg-OD-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-OD-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.41: <strong>The Organ Distribution Argument</strong>
+AC.41: <strong>The Organ Distribution Argument</strong>
 </figcaption>
 <div aria-describedby="arg-OD-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
@@ -1102,7 +1118,8 @@ Argument&nbsp;C.41: <strong>The Organ Distribution Argument</strong>
 </div>
 </figure>
 </div>
-<div class="thesis">
+<div id="def-rule-utilitarianism" class="thesis theorem definition">
+<p><span class="theorem-title"><strong>T C.6</strong></span> &nbsp;</p>
 <dl>
 <dt>Rule Utilitarianism</dt>
 <dd>
@@ -1113,7 +1130,7 @@ Performing a certain action is the right thing to do if and only if it is prescr
 <div id="arg-TR-appendix" class="argument quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-arg figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Argument&nbsp;C.42: <strong>The Trolley Argument</strong>
+AC.42: <strong>The Trolley Argument</strong>
 </figcaption>
 <div aria-describedby="arg-TR-appendix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <ul>
