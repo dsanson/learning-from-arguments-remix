@@ -40,19 +40,23 @@ format:
     crossref:
       tbl-title: Matrix
       tbl-prefix: Matrix
+      def-title: T
+      def-prefix: T
       custom:
       - caption-location: top
         key: arg
         kind: float
-        reference-prefix: "Argument"
-        space-before-numbering: true
+        reference-prefix: "A"
+        space-before-numbering: false
       - caption-location: top
         key: exa
         kind: float
-        reference-prefix: "Thought Experiment" 
-        space-before-numbering: true
+        reference-prefix: "TE" 
+        space-before-numbering: false
+
     reference-location: section
-    format-links: [epub]
+    format-links: [epub,typst]
+    respect-user-color-scheme: true
     theme:
       light: 
         - cosmo
@@ -78,6 +82,24 @@ format:
         space-before-numbering: true
     reference-location: section
     css: epub.css
+  typst:
+    tbl-cap-location: bottom
+    crossref:
+      tbl-title: Matrix
+      tbl-prefix: Matrix
+      def-title: T
+      def-prefix: T
+      custom:
+      - caption-location: top
+        key: arg
+        kind: float
+        reference-prefix: "A"
+        space-before-numbering: false
+      - caption-location: top
+        key: exa
+        kind: float
+        reference-prefix: "TE" 
+        space-before-numbering: false
 
   # pdf:
   #   documentclass: scrreprt
