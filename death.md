@@ -83,8 +83,7 @@ leads to cavities. Why is that bad for you? Because cavities are painful.
 Still, we must be careful in how exactly we formulate our hedonistic account
 of what's bad for you. For instance, suppose we tried the following:
 
-::: {#HD .thesis}
-
+::: {#def-HD .thesis}
 Hedonism (HD)
 :   Something is bad for you if and only if it's painful.
 :::
@@ -105,8 +104,7 @@ you isn't just whether it itself is painful but
 also its connection to the presence or absence of future pains. With this in
 mind, we can revise the principle as follows:
 
-::: {#HD-star .thesis}
-
+::: {#def-HD-star .thesis}
 Hedonism (HD\*)
 :   Something is bad for you if and only if it results in more pain than you
     would otherwise have had
@@ -160,11 +158,11 @@ Second, one might object to HD\* on the grounds that something can be entirely
 pleasurable and yet still be a bad thing to do. Consider the following case:
 
 ::: {#exa-stolen-cruise .example}
-> Brendan is about to go on a week-long cruise. His girlfriend, Pieper, serves
-> him undercooked chicken, in hopes that he'll get food poisoning and will let
-> her go in his place. Pieper's plan succeeds, and she has a great time on the
-> cruise. She comes back refreshed, relaxed, and feeling no remorse
-> whatsoever.
+Brendan is about to go on a week-long cruise. His girlfriend, Pieper, serves
+him undercooked chicken, in hopes that he'll get food poisoning and will let
+her go in his place. Pieper's plan succeeds, and she has a great time on the
+cruise. She comes back refreshed, relaxed, and feeling no remorse
+whatsoever.
 
 **STOLEN CRUISE**
 :::
@@ -186,8 +184,7 @@ Specifically, one might suggest that something can be bad for you not just by
 giving you painful sensations but also by depriving you of pleasant
 sensations:
 
-::: {#HD-double-star .thesis}
-
+::: {#def-HD-double-star .thesis}
 Hedonism (HD\*\*)
 :   Something is bad for you if and only if it results in more pain *or less
     pleasure* than you would otherwise have had.
@@ -204,13 +201,13 @@ The problem with HD\*\* is that it is open to counterexamples like the
 following:
 
 ::: {#exa-unread-mail .example}
-> Carly meets Evan, and they immediately fall in love. Because things are
-> going so well with Evan, Carly stops checking her online dating app. They
-> have a long and entirely happy life together. It so happens that Jami had
-> sent Carly a message shortly after Carly met Evan. If she hadn't met Evan,
-> she would have seen Jami's message, fallen in love with *her*, and she and
-> Jami would have had a long and happy life together. As a matter of fact, she
-> would have been a little tiny bit happier with Jami than with Evan.
+Carly meets Evan, and they immediately fall in love. Because things are
+going so well with Evan, Carly stops checking her online dating app. They
+have a long and entirely happy life together. It so happens that Jami had
+sent Carly a message shortly after Carly met Evan. If she hadn't met Evan,
+she would have seen Jami's message, fallen in love with *her*, and she and
+Jami would have had a long and happy life together. As a matter of fact, she
+would have been a little tiny bit happier with Jami than with Evan.
 
 **UNREAD MAIL**
 :::

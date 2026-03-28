@@ -442,15 +442,15 @@ its citizens:
 
 :::{#exa-vigilante .example}
 
-> Jasmine discovers that some con men have set up a fake charity and are conning
-> some people in her neighborhood. She captures them at gunpoint, takes them to
-> her basement, and plans to keep them there for a year as punishment. Quickly
-> realizing how expensive it is to take care of them, Jasmine goes to her
-> neighbors and demands \$50 from each of them, at gunpoint. She explains that
-> half the money will go towards taking care of her prisoners and that the rest
-> will go towards a community gym to help keep troubled kids off the street.
-> Those who do not comply are locked up in her basement with her other
-> prisoners.
+Jasmine discovers that some con men have set up a fake charity and are conning
+some people in her neighborhood. She captures them at gunpoint, takes them to
+her basement, and plans to keep them there for a year as punishment. Quickly
+realizing how expensive it is to take care of them, Jasmine goes to her
+neighbors and demands \$50 from each of them, at gunpoint. She explains that
+half the money will go towards taking care of her prisoners and that the rest
+will go towards a community gym to help keep troubled kids off the street.
+Those who do not comply are locked up in her basement with her other
+prisoners.
 
 **VIGILANTE**
 :::
@@ -525,14 +525,14 @@ experiment:
 
 :::{#exa-hypnotic-decision .example}
 
-> Tia is on the run from the law and knows the cops are hot on her trail. She is
-> also a master hypnotist. As she passes Colton on the street, she hypnotizes
-> him and plants an irresistible post-hypnotic suggestion: whenever he hears
-> someone shout *Freeze!* he will grow very angry with the person, decide to
-> tackle them, and then tackle them. Just then, Kabir the cop arrives on the
-> scene, sees Tia, and shouts *Freeze!* As a result of the hypnotic suggestion,
-> Colton gets angry at Kabir, consciously decides to tackle him, and then
-> tackles him.
+Tia is on the run from the law and knows the cops are hot on her trail. She is
+also a master hypnotist. As she passes Colton on the street, she hypnotizes
+him and plants an irresistible post-hypnotic suggestion: whenever he hears
+someone shout *Freeze!* he will grow very angry with the person, decide to
+tackle them, and then tackle them. Just then, Kabir the cop arrives on the
+scene, sees Tia, and shouts *Freeze!* As a result of the hypnotic suggestion,
+Colton gets angry at Kabir, consciously decides to tackle him, and then
+tackles him.
 
 **HYPNOTIC DECISION**
 :::
@@ -564,14 +564,14 @@ ways that make them more interesting. For instance, in @sec-utilitarianism you'l
 asked whether Corrine did the right thing in the following case:
 
 :::{#exa-trolley-lever .example}
-> A runaway trolley with no driver is hurtling down the tracks towards five
-> pledges from a local fraternity. Corrine is an onlooker, standing beside the
-> tracks. Next to her is a lever which can divert the trolley onto a side track.
-> She could do nothing, and let the pledges die. But if she pulls the lever and
-> diverts the trolley, it will kill the pledge master, who is asleep on the side
-> track. Corrine decides to pull the lever, killing the pledge master and saving
-> the pledges. She then unties the pledges, and they all go on to lead long,
-> happy lives.
+A runaway trolley with no driver is hurtling down the tracks towards five
+pledges from a local fraternity. Corrine is an onlooker, standing beside the
+tracks. Next to her is a lever which can divert the trolley onto a side track.
+She could do nothing, and let the pledges die. But if she pulls the lever and
+diverts the trolley, it will kill the pledge master, who is asleep on the side
+track. Corrine decides to pull the lever, killing the pledge master and saving
+the pledges. She then unties the pledges, and they all go on to lead long,
+happy lives.
 
 **TROLLEY LEVER**
 :::

@@ -67,8 +67,9 @@ that kid that makes her (or him) you?
 More precisely, an answer to the question I'm asking will provide a way to
 fill in the blank in the following sentence:
 
-:::{#personal-identity-template .thesis}
-A at time t is the same person as B at time t\* if and only if \_\_\_\_\_\_
+:::{#def-personal-identity-template .thesis}
+Template of an Account
+:   A at time t is the same person as B at time t\* if and only if \_\_\_\_\_\_
 :::
 
 In other words, when we're looking at or thinking about a person at one time,
@@ -188,9 +189,11 @@ when assessing philosophical claims, @sec-thought-experiments.)
 We have already seen one possible answer to the question of personal identity,
 the Fingerprints Account:
 
+:::{#def-fingerprints .thesis}
 The Fingerprints Account
 :   A at time t is the same person as B at time t\* if and only if A and B
     have indistinguishable fingerprints
+:::
 
 And we have already seen one good reason to reject the Fingerprints Account:
 someone with fingerprints can be the same person as someone (at a later time)
@@ -207,9 +210,11 @@ for being the same person.
 
 What if we focused on DNA instead of fingerprints?
 
+:::{#def-dna .thesis}
 The DNA Account
 :   A at t is the same person as B at t\* if and only if A and B have
     indistinguishable DNA
+:::
 
 The DNA Account does get around some of the problems that arise for the
 Fingerprints Account. Bekah's DNA doesn't change at all before and after
@@ -230,9 +235,11 @@ aspect of you. Perhaps, instead of focusing on some small part of your body,
 like your fingerprints or DNA, we would do better to focus on the body as a
 whole:
 
+:::{#def-same-body .thesis}
 The Same Body Account
 :   A at t is the same person as B at t\* if and only if A has the same body
     as B
+:::
 
 'Body' is sometimes used to mean just the torso, not including the head and
 limbs. That's not how I'm using it. When I say 'body', I mean the *whole*
@@ -266,9 +273,11 @@ So how should we formulate an answer to the question of personal identity in
 terms of psychological features? As a first stab, we might consider the
 following account:
 
+:::{#def-psych-matching .thesis}
 The Psychological Matching Account
 :   A at t is the same person as B at t\* if and only if A's psychological
     features are exactly the same as B's psychological features
+:::
 
 But this Psychological Matching Account is obviously far too demanding. Every
 second that passes, you are forming new memories. For instance, you now have a
@@ -285,9 +294,11 @@ account doesn't require people at different times to have *all* the same
 psychological features, but only that they have *mostly* the same
 psychological features.
 
+:::{#def-psych-overlap .thesis}
 The Psychological Overlap Account
 :   A at t is the same person as B at t\* if and only if A's psychological
     features are mostly the same as B's psychological features
+:::
 
 The Psychological Overlap Account avoids the previous problem. You may not
 have *all* the same psychological features you had a moment ago, but you do
@@ -330,9 +341,11 @@ is a *psychological ancestor* of the person at the later time, and that the
 person at the later time is a *psychological descendant* of the ancestor. This
 gives us:
 
+:::{#def-psych-descendant .thesis}
 The Psychological Descendant Account
 :   A at t is the same person as B at t\* if and only if A is either a
     psychological ancestor or a psychological descendant of B
+:::
 
 This gives us the right results in all of the cases we have been considering.
 You are a psychological descendant of the kid in the photo, despite sharing
@@ -720,12 +733,10 @@ and JoJo = AlexRW, then ChadRW = AlexRW. That's what gives us FS2.
 Premise FS4 is motivated by a different logical principle, which I'll call
 'The No Difference Principle', or 'NDP' for short:
 
-::: {#NDP .thesis}
-
+::: {#def-NDP .thesis}
 The No Difference Principle (NDP)
 :   If A is numerically the same as B, then at any given time, anything that's
     true of A at that time is also true of B at that time
-
 :::
 
 To illustrate the principle, consider Cassius Clay and Muhammad Ali. Cassius
@@ -788,8 +799,10 @@ personal identity, namely that it's your *soul* that makes you the person that
 you are. In other words, one might embrace the Same Soul Account of personal
 identity:
 
+:::{#def-same-soul .thesis}
 The Same Soul Account
 :   A at t is the same person as B at t\* if and only if A has the same soul as B
+:::
 
 The Same Soul Account could then be put to work in addressing the various
 challenging cases we have been discussing. Abby and Brittany, one might say,
@@ -889,14 +902,14 @@ To quiet these concerns, I'll conclude this chapter by considering two ways of
 incorporating physical and psychological considerations into a single account:
 a Body-And-Mind Account and a Body-Or-Mind Account.
 
-:::{.thesis}
-**The Body-And-Mind Account**
+:::{#def-body-and-mind .thesis}
+The Body-And-Mind Account
 :   A at t is the same person as B at t\* if and only if A has the same body
     as B *and* A is a psychological ancestor or descendant of B
 :::
 
-:::{.thesis}
-**The Body-Or-Mind Account**
+:::{#def-body-or-mind .thesis}
+The Body-Or-Mind Account
 :   A at t is the same person as B at t\* if and only if A has the same body
     as B *or* A is a psychological ancestor or descendant of B
 :::

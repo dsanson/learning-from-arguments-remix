@@ -44,15 +44,15 @@ morally problematic it would be for an ordinary citizen to do more or less the
 same thing.
 
 ::: {#exa-vigilante .example}
-> Jasmine discovers that some con men have set up a fake charity and are
-> conning some people in her neighborhood. She captures them at gunpoint,
-> takes them to her basement, and plans to keep them there for a year as
-> punishment. Quickly realizing how expensive it is to take care of them,
-> Jasmine goes to her neighbors and demands \$50 from each of them, at
-> gunpoint. She explains that half the money will go towards taking care of
-> her prisoners and that the rest will go towards a community gym to help keep
-> troubled kids off the street. Those who do not comply are locked up in her
-> basement with her other prisoners.
+Jasmine discovers that some con men have set up a fake charity and are
+conning some people in her neighborhood. She captures them at gunpoint,
+takes them to her basement, and plans to keep them there for a year as
+punishment. Quickly realizing how expensive it is to take care of them,
+Jasmine goes to her neighbors and demands \$50 from each of them, at
+gunpoint. She explains that half the money will go towards taking care of
+her prisoners and that the rest will go towards a community gym to help keep
+troubled kids off the street. Those who do not comply are locked up in her
+basement with her other prisoners.
 
 **VIGILANTE**
 :::
@@ -150,12 +150,12 @@ you to prison if you keep ignoring their polite reminders. With that in mind,
 let's revise the Jasmine case to tighten the analogy:
 
 ::: {#exa-bureaucratic-vigilante .example}
-> Jasmine sends an email to all of her neighbors, informing them that they
-> must each send her \$50 by April 15; that if they don't, they'll
-> automatically be granted an extension, but will be charged a small late fee;
-> and that if they still don't pay, she will lock them in her basement. Some
-> don't pay even by the extended deadline, and she shows up at their door,
-> escorts them to her home at gunpoint, and locks them in her basement.
+Jasmine sends an email to all of her neighbors, informing them that they
+must each send her \$50 by April 15; that if they don't, they'll
+automatically be granted an extension, but will be charged a small late fee;
+and that if they still don't pay, she will lock them in her basement. Some
+don't pay even by the extended deadline, and she shows up at their door,
+escorts them to her home at gunpoint, and locks them in her basement.
 
 **BUREAUCRATIC VIGILANTE**
 :::
@@ -175,14 +175,14 @@ This may indeed be a morally relevant difference, but we can again revise the
 case so as to circumvent it.
 
 ::: {#exa-elected-vigilante .example}
-> Jasmine plans to start taking prisoners and demanding \$50 at gunpoint from
-> each of her neighbors to pay for the prisoners and a gym. Zhiwen thinks it
-> would be better to demand \$75, with the additional \$25 going towards
-> hiring a nurse to provide free medical care to anyone in the neighborhood.
-> Jasmine and Zhiwen let their neighbors vote on which of them should get to
-> set the policies for kidnapping and extortion. Many don't vote but, of those
-> who do, the majority prefer Jasmine. Zhiwen accepts the results of the
-> election, and Jasmine begins kidnapping and extorting her neighbors.
+Jasmine plans to start taking prisoners and demanding \$50 at gunpoint from
+each of her neighbors to pay for the prisoners and a gym. Zhiwen thinks it
+would be better to demand \$75, with the additional \$25 going towards
+hiring a nurse to provide free medical care to anyone in the neighborhood.
+Jasmine and Zhiwen let their neighbors vote on which of them should get to
+set the policies for kidnapping and extortion. Many don't vote but, of those
+who do, the majority prefer Jasmine. Zhiwen accepts the results of the
+election, and Jasmine begins kidnapping and extorting her neighbors.
 
 **ELECTED VIGILANTE**
 :::
@@ -217,13 +217,13 @@ doesn't necessarily mean it's morally permissible for someone to bring it
 about. To see this, consider the following case:
 
 ::: {#exa-saint-and-sinner .example}
-> A saint and a sinner both need a kidney transplant, but there is only one
-> kidney available. The saint refuses it and insists that it be given to the
-> sinner. The doctor, knowing that the world will be better off if the saint
-> survives than if the sinner survives, forcibly anesthetizes the saint and
-> gives her the kidney against her wishes and without her consent. The saint
-> (who would otherwise have died) goes on to live a long life and does many
-> saintly things.
+A saint and a sinner both need a kidney transplant, but there is only one
+kidney available. The saint refuses it and insists that it be given to the
+sinner. The doctor, knowing that the world will be better off if the saint
+survives than if the sinner survives, forcibly anesthetizes the saint and
+gives her the kidney against her wishes and without her consent. The saint
+(who would otherwise have died) goes on to live a long life and does many
+saintly things.
 
 **SAINT AND SINNER**
 :::
@@ -251,12 +251,12 @@ again revise the case so as to circumvent the putative morally relevant
 difference:
 
 ::: {#exa-landlord .example}
-> Jasmine owns an apartment complex and discovers that some of her tenants
-> have been conning some of the other tenants. She locks the con men in the
-> basement of the complex, and plans to keep them there for a year as
-> punishment. Jasmine then demands an additional \$50 from each of her other
-> tenants, to cover the expense of caring of her prisoners. Tenants who do not
-> comply are locked in the basement with the other prisoners.
+Jasmine owns an apartment complex and discovers that some of her tenants
+have been conning some of the other tenants. She locks the con men in the
+basement of the complex, and plans to keep them there for a year as
+punishment. Jasmine then demands an additional \$50 from each of her other
+tenants, to cover the expense of caring of her prisoners. Tenants who do not
+comply are locked in the basement with the other prisoners.
 
 **LANDLORD**
 :::
@@ -412,13 +412,13 @@ Once again, we'll start with a Jasmine case, and argue from there to a
 conclusion about immigration policy. Here is the case:
 
 ::: {#exa-unwanted-visitors .example}
-> Jasmine and her friends arrive at their neighborhood park for their weekly
-> soccer game, only to find a group from another neighborhood already using
-> the park for a game of their own. Guns drawn, she directs them into her van,
-> drives them back to their own neighborhood, and threatens to lock them in
-> her basement if they ever return without first getting her permission. Some
-> do ask for her permission, and most of the time she refuses. Some return
-> without her permission, and she locks them in her basement.
+Jasmine and her friends arrive at their neighborhood park for their weekly
+soccer game, only to find a group from another neighborhood already using
+the park for a game of their own. Guns drawn, she directs them into her van,
+drives them back to their own neighborhood, and threatens to lock them in
+her basement if they ever return without first getting her permission. Some
+do ask for her permission, and most of the time she refuses. Some return
+without her permission, and she locks them in her basement.
 
 **UNWANTED VISITORS**
 :::

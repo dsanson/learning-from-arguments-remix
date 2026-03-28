@@ -39,9 +39,8 @@ action increases or decreases levels of happiness.
 Here, then, is the utilitarian theory of morality that I plan to defend, which
 we'll call "act utilitarianism."
 
-::: {#ths-act-utilitarianism .thesis}
-
-**Act Utilitarianism**
+::: {#def-act-utilitarianism .thesis}
+Act Utilitarianism
 :   Performing a certain action is the right thing to do if and only if it
     will have a more positive effect on overall levels of happiness than any
     other available action
@@ -69,14 +68,14 @@ does *not* say that the right thing for a person to do is whatever makes *that
 person* the happiest. To help see this, consider the following case:
 
 ::: {#exa-terrorist-attack .example}
-> Kristian discovers that her girlfriend Demi is planning a terrorist attack.
-> Kristian knows that if she calls the cops on Demi, it will end their
-> relationship, Demi will never forgive her, and she'll feel incredibly guilty
-> about turning Demi in. Kristian also knows that if she doesn't tell the
-> cops, countless people will lose their lives or their loved ones. Kristian
-> decides not to tell the cops, and Demi carries out the devastating attack.
-> Demi is never caught. Kristian puts it out of her mind and feels no guilt or
-> remorse about not preventing the attack.
+Kristian discovers that her girlfriend Demi is planning a terrorist attack.
+Kristian knows that if she calls the cops on Demi, it will end their
+relationship, Demi will never forgive her, and she'll feel incredibly guilty
+about turning Demi in. Kristian also knows that if she doesn't tell the
+cops, countless people will lose their lives or their loved ones. Kristian
+decides not to tell the cops, and Demi carries out the devastating attack.
+Demi is never caught. Kristian puts it out of her mind and feels no guilt or
+remorse about not preventing the attack.
 
 **TERRORIST ATTACK**
 :::
@@ -190,11 +189,11 @@ change what's right or wrong just by *changing our minds* about what's right
 or wrong. To see this, consider the following case:
 
 ::: {#exa-condoned-lobotomies .example}
-> The leaders of a certain oppressive country instituted a law that requires
-> all newborn girls to be lobotomized. Dissenters were lobotomized as well.
-> After a few generations, there are no more dissenters. The men are all happy
-> with the arrangement, and the women are all lobotomized and have no opinion
-> on the matter.
+The leaders of a certain oppressive country instituted a law that requires
+all newborn girls to be lobotomized. Dissenters were lobotomized as well.
+After a few generations, there are no more dissenters. The men are all happy
+with the arrangement, and the women are all lobotomized and have no opinion
+on the matter.
 
 **CONDONED LOBOTOMIES**
 :::
@@ -314,9 +313,8 @@ With this in mind, one possibility for avoiding the implication that Jonathan
 did the right thing in killing Nick would be to reject act utilitarianism in
 favor of rule utilitarianism:
 
-::: {#ths-rule-utilitarianism .thesis}
-
-**Rule Utilitarianism**
+::: {#def-rule-utilitarianism .thesis}
+Rule Utilitarianism
 :   Performing a certain action is the right thing to do if and only if it is
     prescribed by the collection of rules that, if adopted, would have the
     greatest positive effect on overall levels of happiness
@@ -413,15 +411,15 @@ My argument against OD3 involves considering a different case, one in which it
 *isn't* wrong to kill one person to save five. Here is the case:
 
 ::: {#exa-trolley-driver .example}
-> Corrine is driving a trolley, which is hurtling down the tracks, faster than
-> it should. Five pledges from a local fraternity have been tied to the tracks
-> as part of an initiation ritual. By the time she sees them, it's too late to
-> slow down. The only way to avoid killing them is to swerve the trolley onto
-> a side track at an upcoming junction. But the pledge master, who is asleep
-> on the side track, will be killed if she does. Corrine decides to steer the
-> trolley onto the side track anyway, killing the pledge master. She then
-> stops the trolley, unties the pledges, and they all go on to lead long,
-> happy lives.
+Corrine is driving a trolley, which is hurtling down the tracks, faster than
+it should. Five pledges from a local fraternity have been tied to the tracks
+as part of an initiation ritual. By the time she sees them, it's too late to
+slow down. The only way to avoid killing them is to swerve the trolley onto
+a side track at an upcoming junction. But the pledge master, who is asleep
+on the side track, will be killed if she does. Corrine decides to steer the
+trolley onto the side track anyway, killing the pledge master. She then
+stops the trolley, unties the pledges, and they all go on to lead long,
+happy lives.
 
 **TROLLEY DRIVER**
 :::
@@ -474,14 +472,14 @@ can revise the trolley case so that it too involves a choice between killing
 and letting die.
 
 ::: {#exa-trolley-lever .example}
-> A runaway trolley with no driver is hurtling down the tracks towards five
-> pledges from a local fraternity. Corrine is an onlooker, standing beside the
-> tracks. Next to her is a lever which can divert the trolley onto a side
-> track. She could do nothing, and let the pledges die. But if she pulls the
-> lever and diverts the trolley, it will kill the pledge master, who is asleep
-> on the side track. Corrine decides to pull the lever, killing the pledge
-> master and saving the pledges. She then unties the pledges, and they all go
-> on to lead long, happy lives.
+A runaway trolley with no driver is hurtling down the tracks towards five
+pledges from a local fraternity. Corrine is an onlooker, standing beside the
+tracks. Next to her is a lever which can divert the trolley onto a side
+track. She could do nothing, and let the pledges die. But if she pulls the
+lever and diverts the trolley, it will kill the pledge master, who is asleep
+on the side track. Corrine decides to pull the lever, killing the pledge
+master and saving the pledges. She then unties the pledges, and they all go
+on to lead long, happy lives.
 
 **TROLLEY LEVER**
 :::

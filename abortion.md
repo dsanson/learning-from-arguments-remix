@@ -41,14 +41,14 @@ but permissible to abort a pregnancy that is likely to kill the mother. To
 help anchor our discussion, it will be useful to focus on a specific case.
 
 ::: {#exa-unwanted-pregnancy .example}
-> Taylor just discovered that she is pregnant with Emm, a six-week-old embryo.
-> The pregnancy resulted from consensual, casual sex. Taylor didn't want to
-> get pregnant, and her partner wore a condom, but they were aware that
-> condoms sometimes break, which is what happened in this case. Both Taylor
-> and Emm are healthy, and carrying out the pregnancy will not pose any threat
-> to Taylor's life. Even so, Taylor knows that going through with the
-> pregnancy will be a huge burden physically, emotionally, and financially.
-> So, Taylor decides to have an abortion, killing Emm.
+Taylor just discovered that she is pregnant with Emm, a six-week-old embryo.
+The pregnancy resulted from consensual, casual sex. Taylor didn't want to
+get pregnant, and her partner wore a condom, but they were aware that
+condoms sometimes break, which is what happened in this case. Both Taylor
+and Emm are healthy, and carrying out the pregnancy will not pose any threat
+to Taylor's life. Even so, Taylor knows that going through with the
+pregnancy will be a huge burden physically, emotionally, and financially.
+So, Taylor decides to have an abortion, killing Emm.
 
 **UNWANTED PREGNANCY**
 :::
@@ -437,28 +437,28 @@ Surprisingly, though, RQ1 is demonstrably false. To see why, consider the
 following two cases:
 
 ::: {#exa-the-violinist .example}
-> During his morning jog, Riley is kidnapped and drugged. When he comes to, he
-> finds himself lying in a hospital bed, connected by some blood-filled tubes
-> to a woman in a separate bed. His kidnappers explain that the woman,
-> Maurissa, is a world-famous violinist. She was found unconscious, and they
-> are trying to save her life. Maurissa is in need of a complete blood
-> transfusion---already underway, using Riley's blood---which will take nine
-> months. Riley is told that if he unplugs himself from Maurissa before the
-> transfusion is complete, she will die immediately. When the kidnappers leave
-> the room, Riley sees his chance to escape. With a heavy heart, he unplugs
-> himself and sneaks away, and Maurissa dies as expected.
+During his morning jog, Riley is kidnapped and drugged. When he comes to, he
+finds himself lying in a hospital bed, connected by some blood-filled tubes
+to a woman in a separate bed. His kidnappers explain that the woman,
+Maurissa, is a world-famous violinist. She was found unconscious, and they
+are trying to save her life. Maurissa is in need of a complete blood
+transfusion---already underway, using Riley's blood---which will take nine
+months. Riley is told that if he unplugs himself from Maurissa before the
+transfusion is complete, she will die immediately. When the kidnappers leave
+the room, Riley sees his chance to escape. With a heavy heart, he unplugs
+himself and sneaks away, and Maurissa dies as expected.
 
 **THE VIOLINIST**
 :::
 
 ::: {#exa-the-rock .example}
-> You have become completely obsessed with People Magazine's 2016 Sexiest Man
-> of the Year, Dwayne "The Rock" Johnson. So obsessed, in fact, that the
-> thought of living without him makes you physically ill. Deathly ill. At this
-> point, the only thing that can save your life is the touch of The Rock's
-> cool hand on your fevered brow. The Rock is notified, and told that you will
-> die if he does not come visit you in the next few days. But The Rock is a
-> busy man and he sends his regrets. You die, as expected.
+You have become completely obsessed with People Magazine's 2016 Sexiest Man
+of the Year, Dwayne "The Rock" Johnson. So obsessed, in fact, that the
+thought of living without him makes you physically ill. Deathly ill. At this
+point, the only thing that can save your life is the touch of The Rock's
+cool hand on your fevered brow. The Rock is notified, and told that you will
+die if he does not come visit you in the next few days. But The Rock is a
+busy man and he sends his regrets. You die, as expected.
 
 **THE ROCK**
 :::
@@ -555,13 +555,13 @@ The problem is that KR2 is a ludicrous theory of consent. To see this,
 consider the following case:
 
 ::: {#exa-open-window .example}
-> Astrid lives in a dangerous neighborhood with lots of hooligans. She has
-> bars on her windows and keeps the windows closed and latched as an extra
-> precaution. One hot summer day, she opens the windows to get some cool air,
-> trusting that the bars will keep the hooligans out (though knowing that they
-> are not 100% reliable). Unfortunately, the bars are defective. Some
-> hooligans pull them off, climb through the window, plant themselves on her
-> couch, and start playing her PlayStation.
+Astrid lives in a dangerous neighborhood with lots of hooligans. She has
+bars on her windows and keeps the windows closed and latched as an extra
+precaution. One hot summer day, she opens the windows to get some cool air,
+trusting that the bars will keep the hooligans out (though knowing that they
+are not 100% reliable). Unfortunately, the bars are defective. Some
+hooligans pull them off, climb through the window, plant themselves on her
+couch, and start playing her PlayStation.
 
 **OPEN WINDOW**
 :::
@@ -659,15 +659,15 @@ work but that can be avoided by revising the argument (@sec-flo-overriding-facto
 First, one might think that the following sort of case is a problem for SF1:
 
 ::: {#exa-hopeful-goner .example}
-> Guillermo has accidentally ingested a deadly poison and is in horrible,
-> debilitating pain. He thinks he'll get better, but he's wrong: the poison is
-> quickly spreading through his body and will kill him within a few hours.
-> Nadja, who finds Guillermo terribly annoying and would like to see him dead
-> as soon as possible, is attempting to inject Guillermo with a substance that
-> will kill him instantly and painlessly. Guillermo resists and pleads for
-> Nadja to stop. But Nadja gives Guillermo the injection, despite his
-> protests, and Guillermo dies mere hours before the poison would have killed
-> him anyway.
+Guillermo has accidentally ingested a deadly poison and is in horrible,
+debilitating pain. He thinks he'll get better, but he's wrong: the poison is
+quickly spreading through his body and will kill him within a few hours.
+Nadja, who finds Guillermo terribly annoying and would like to see him dead
+as soon as possible, is attempting to inject Guillermo with a substance that
+will kill him instantly and painlessly. Guillermo resists and pleads for
+Nadja to stop. But Nadja gives Guillermo the injection, despite his
+protests, and Guillermo dies mere hours before the poison would have killed
+him anyway.
 
 **HOPEFUL GONER**
 :::
@@ -743,8 +743,11 @@ kill normal human adults is that they *desire* a future full of valuable
 experiences. If that's right, then all that is supported by the proper
 explanation of the immorality of killing is the weaker premise SF1\*:
 
-(SF1\*) It is seriously immoral to kill something (or someone) if killing it
-deprives it of a future like ours *that it desires*
+::: {#def-SF1-star .thesis}
+SF1\*
+:   It is seriously immoral to kill something (or someone) if killing it
+    deprives it of a future like ours *that it desires*
+:::
 
 But unlike SF1, SF1\* does *not* imply that it is seriously immoral to kill
 Emm. Emm is a very simple creature, which does not even have a brain, let
@@ -774,13 +777,13 @@ having qualms about killing them, but certainly it's not seriously immoral to
 do so. Or take the following case.
 
 ::: {#exa-cruel-game .example}
-> M'Baku is preparing to detonate an atomic bomb in the heart of a densely
-> populated city. He has kidnapped two innocent people, Okoye and Shuri, and
-> he commands Okoye to kill Shuri. If she complies, he will release Okoye and
-> won't detonate the bomb. If she refuses, he will release both of them and
-> detonate the bomb, killing hundreds of thousands of people. Okoye tries to
-> find a way to stop the detonation without killing Shuri, but M'Baku has
-> thought of everything. So, with a heavy heart, Okoye kills Shuri.
+M'Baku is preparing to detonate an atomic bomb in the heart of a densely
+populated city. He has kidnapped two innocent people, Okoye and Shuri, and
+he commands Okoye to kill Shuri. If she complies, he will release Okoye and
+won't detonate the bomb. If she refuses, he will release both of them and
+detonate the bomb, killing hundreds of thousands of people. Okoye tries to
+find a way to stop the detonation without killing Shuri, but M'Baku has
+thought of everything. So, with a heavy heart, Okoye kills Shuri.
 
 **CRUEL GAME**
 :::
@@ -850,11 +853,11 @@ job or drop out of school. But this too is no FLO-overriding factor. To see
 this, consider the following case.
 
 ::: {#exa-runner-up .example}
-> Krystal has struggled for years to make it as an actress, and finally gets
-> her big audition. If she gets the role, it will catapult her into fame and
-> fortune. As it turns out, Jacqueline gets the role. But Krystal is the
-> runner-up and is told that if anything should happen to Jacqueline, the role
-> will go to her. So, Krystal discreetly kills Jacqueline and gets the role.
+Krystal has struggled for years to make it as an actress, and finally gets
+her big audition. If she gets the role, it will catapult her into fame and
+fortune. As it turns out, Jacqueline gets the role. But Krystal is the
+runner-up and is told that if anything should happen to Jacqueline, the role
+will go to her. So, Krystal discreetly kills Jacqueline and gets the role.
 
 **RUNNER-UP**
 :::
@@ -908,13 +911,13 @@ And, indeed, there is reason to think it is FLO-overriding. Consider the
 following case:
 
 ::: {#exa-quicksand .example}
-> Ahmed is drowning in quicksand. He has gotten ahold of Omar's pantleg, and
-> is frantically trying to pull himself out. But in doing so he is pulling
-> Omar into the quicksand. Ahmed is in such a panicked state that he doesn't
-> realize what he is doing, and Omar's pleas fall on deaf ears. Unless Omar
-> stops him by pushing him under, Ahmed will pull him in and scramble out over
-> Omar's subsumed body, killing him. So, with a heavy heart, and in order to
-> save his own life, Omar kills Ahmed by pushing him under.
+Ahmed is drowning in quicksand. He has gotten ahold of Omar's pantleg, and
+is frantically trying to pull himself out. But in doing so he is pulling
+Omar into the quicksand. Ahmed is in such a panicked state that he doesn't
+realize what he is doing, and Omar's pleas fall on deaf ears. Unless Omar
+stops him by pushing him under, Ahmed will pull him in and scramble out over
+Omar's subsumed body, killing him. So, with a heavy heart, and in order to
+save his own life, Omar kills Ahmed by pushing him under.
 
 **QUICKSAND**
 :::
@@ -972,10 +975,10 @@ It may be illuminating to compare UNWANTED PREGNANCY with the following
 variation on THE ROCK:
 
 ::: {#exa-rock-forced .example}
-> The only thing that can save your life is the touch of The Rock's cool hand
-> on your fevered brow. As it happens, The Rock is passing through the
-> hospital where you lay dying. You ask for his help and he refuses. You grab
-> his hand, but he pulls it away.
+The only thing that can save your life is the touch of The Rock's cool hand
+on your fevered brow. As it happens, The Rock is passing through the
+hospital where you lay dying. You ask for his help and he refuses. You grab
+his hand, but he pulls it away.
 
 **ROCK FORCED**
 :::

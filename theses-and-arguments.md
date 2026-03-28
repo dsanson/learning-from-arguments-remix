@@ -48,7 +48,7 @@ This document is meant to be used as an easy reference for the key arguments and
 
  @sec-personal-identity
 
-:::{.thesis}
+:::{#def-same-body .thesis}
 The Same Body Account
 :   A at t is the same person as B at t\* if and only if A has the same body as B
 :::
@@ -73,7 +73,7 @@ The Same Body Account
 **The Body Swap Argument**
 :::
 
-:::{.thesis}
+:::{#def-psych-desc .thesis}
 **The Psychological Descendant Account**
 :   A at t is the same person as B at t\* if and only if A is either a psychological ancestor or a psychological descendant of B.
 :::
@@ -209,8 +209,8 @@ The Same Body Account
 
  @sec-skepticism
 
-:::{.thesis}
-(FLP)
+:::{#def-FLP .thesis}
+FLP
 :    Future states of the world will be like past states of the world
 :::
 
@@ -254,8 +254,10 @@ The Same Body Account
 **The Anti-Circularity Argument**
 :::
 
-(TDH)
+:::{#def-TDH .thesis}
+TDH
 :   You are currently lying down in bed dreaming about sitting down reading a philosophy textbook
+:::
 
 :::{#arg-DR-appendix .argument}
 
@@ -436,7 +438,7 @@ The Same Body Account
 
  @sec-utilitarianism
 
-:::{.thesis}
+:::{#def-act-utilitarianism .thesis}
 Act Utilitarianism
 : Performing a certain action is the right thing to do if and only if it will have a more positive effect on overall levels of happiness than any other available action
 :::
@@ -451,7 +453,7 @@ Act Utilitarianism
 **The Organ Distribution Argument**
 :::
 
-::: thesis
+:::{#def-rule-utilitarianism .thesis}
 Rule Utilitarianism
 :   Performing a certain action is the right thing to do if and only if it is
     prescribed by the collection of rules that, if adopted, would have the

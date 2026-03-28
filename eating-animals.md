@@ -336,17 +336,17 @@ this fictional case and what you are doing when you eat meat.
 Here is the case:
 
 ::: {#exa-cocoamone-farm .example}
-> As a result of a head injury, Fred's brain stops naturally producing
-> cocoamone, the hormone that enables humans to taste chocolate. Fred
-> discovers that the only way to obtain useable cocoamone is to distill it
-> from the brains of puppies. (The science behind this is very complicated and
-> you wouldn't understand it.) So Fred buys twenty Labrador puppies from a
-> local breeder. He slices off their tails, yanks out their canine teeth, and
-> castrates the males, all without anesthesia. He keeps them locked in small
-> cages in his spare bedroom, slaughters them, grinds up their brains, and
-> distills a month's supply of cocoamone. He sips some cocoamone
-> and---*voilà---*it works! So he buys twenty more puppies for the next
-> month's supply, mutilates them, and locks them up.
+As a result of a head injury, Fred's brain stops naturally producing
+cocoamone, the hormone that enables humans to taste chocolate. Fred
+discovers that the only way to obtain useable cocoamone is to distill it
+from the brains of puppies. (The science behind this is very complicated and
+you wouldn't understand it.) So Fred buys twenty Labrador puppies from a
+local breeder. He slices off their tails, yanks out their canine teeth, and
+castrates the males, all without anesthesia. He keeps them locked in small
+cages in his spare bedroom, slaughters them, grinds up their brains, and
+distills a month's supply of cocoamone. He sips some cocoamone
+and---*voilà---*it works! So he buys twenty more puppies for the next
+month's supply, mutilates them, and locks them up.
 
 **COCOAMONE FARM**
 :::
@@ -416,12 +416,12 @@ Furthermore, we can simply revise the COCOAMONE FARM case so that this
 difference disappears.
 
 ::: {#exa-bred-for-cocoamone .example}
-> Fred goes to a breeder and buys some dogs, some male and some female.
-> Recognizing that these dogs were bred to be human companions, he treats them
-> well. But he breeds the dogs, intending to use their puppies for cocoamone.
-> Once they have their puppies---which *weren't* bred for human
-> companionship---he takes the puppies, locks them in cages, mutilates them,
-> slaughters them, and distills their cocoamone.
+Fred goes to a breeder and buys some dogs, some male and some female.
+Recognizing that these dogs were bred to be human companions, he treats them
+well. But he breeds the dogs, intending to use their puppies for cocoamone.
+Once they have their puppies---which *weren't* bred for human
+companionship---he takes the puppies, locks them in cages, mutilates them,
+slaughters them, and distills their cocoamone.
 
 **BRED FOR COCOAMONE**
 :::
@@ -477,10 +477,10 @@ case, we can revise the Fred story once more to eliminate the putative
 difference.
 
 ::: {#exa-hired-help .example}
-> Too squeamish to mutilate and slaughter the dogs himself, Fred hires Nysha
-> to do it for him. She buys twenty dogs, mutilates them, keeps them confined
-> in small cages, slaughters them, and provides Fred with one vial of
-> cocoamone each month. He pays her for her services.
+Too squeamish to mutilate and slaughter the dogs himself, Fred hires Nysha
+to do it for him. She buys twenty dogs, mutilates them, keeps them confined
+in small cages, slaughters them, and provides Fred with one vial of
+cocoamone each month. He pays her for her services.
 
 **HIRED HELP**
 :::
@@ -522,15 +522,15 @@ That said, this ultimately is not a convincing objection to FP3. For once
 again, we can revise the case to make the difference disappear:
 
 ::: {#exa-second-dessert .example}
-> Fred decides not to start his own cocoamone farm, and has now gone months
-> without tasting chocolate. Out to dinner, for old times' sake, he orders a
-> chocolate mousse for dessert. To his surprise, he is able to taste the
-> chocolate. Elated, he calls the waiter over to order a second mousse and
-> asks if there's something special about it. The waiter explains that, yes,
-> the mousse is infused with cocoamone from the brains of slaughtered,
-> mutilated puppies that they keep caged up in the back. They go through
-> twenty puppies a day, he says. Fred is horrified. But he does not cancel his
-> order, and he enjoys a second cocoamone-infused mousse.
+Fred decides not to start his own cocoamone farm, and has now gone months
+without tasting chocolate. Out to dinner, for old times' sake, he orders a
+chocolate mousse for dessert. To his surprise, he is able to taste the
+chocolate. Elated, he calls the waiter over to order a second mousse and
+asks if there's something special about it. The waiter explains that, yes,
+the mousse is infused with cocoamone from the brains of slaughtered,
+mutilated puppies that they keep caged up in the back. They go through
+twenty puppies a day, he says. Fred is horrified. But he does not cancel his
+order, and he enjoys a second cocoamone-infused mousse.
 
 **SECOND DESSERT**
 :::
@@ -609,12 +609,12 @@ can revise Fred's case to show that it is immoral to buy and consume eggs and
 dairy that come from CAFOs.
 
 ::: {#exa-sweaty-puppies .example}
-> Fred's brain stops producing cocoamone, and the only way to obtain useable
-> cocoamone is to distill it from the sweat of puppies. He asks his friends if
-> he can collect sweat off of their puppies, but they think that's creepy and
-> won't let him do it. So he buys twenty puppies, locks them in cages,
-> mutilates them, collects their sweat, and distills a month's supply of
-> cocoamone.
+Fred's brain stops producing cocoamone, and the only way to obtain useable
+cocoamone is to distill it from the sweat of puppies. He asks his friends if
+he can collect sweat off of their puppies, but they think that's creepy and
+won't let him do it. So he buys twenty puppies, locks them in cages,
+mutilates them, collects their sweat, and distills a month's supply of
+cocoamone.
 
 **SWEATY PUPPIES**
 :::
@@ -628,12 +628,12 @@ How about meat from humanely raised animals? Here, again, we can look to Fred
 for guidance.
 
 ::: {#exa-painless-death .example}
-> Fred's brain stops producing cocoamone, and the only way to obtain useable
-> cocoamone is to distill it from the brains of puppies. So he buys twenty
-> puppies, lets them run around free in his apartment, takes them for walks,
-> buys them toys, and treats them well. Then, once they're a year old, he
-> sneaks up on them one by one, swiftly decapitates them, grinds up their
-> brains, and distills a month's supply of cocoamone.
+Fred's brain stops producing cocoamone, and the only way to obtain useable
+cocoamone is to distill it from the brains of puppies. So he buys twenty
+puppies, lets them run around free in his apartment, takes them for walks,
+buys them toys, and treats them well. Then, once they're a year old, he
+sneaks up on them one by one, swiftly decapitates them, grinds up their
+brains, and distills a month's supply of cocoamone.
 
 **PAINLESS DEATH**
 :::
@@ -652,12 +652,12 @@ wrong to buy and consume their milk and eggs? To find the answer, let's
 consider what would be the analogous case for Fred:
 
 ::: {#exa-happy-puppy-sweat .example}
-> Fred's brain stops producing cocoamone, and the only way to obtain useable
-> cocoamone is to distill it from the sweat of puppies. So he buys twenty
-> puppies, lets them run around free in his apartment, takes them for walks,
-> buys them toys, and treats them well. He collects their sweat---without
-> killing them or harming them in any way---and distills a month's supply of
-> cocoamone.
+Fred's brain stops producing cocoamone, and the only way to obtain useable
+cocoamone is to distill it from the sweat of puppies. So he buys twenty
+puppies, lets them run around free in his apartment, takes them for walks,
+buys them toys, and treats them well. He collects their sweat---without
+killing them or harming them in any way---and distills a month's supply of
+cocoamone.
 
 **HAPPY PUPPY SWEAT**
 :::
@@ -675,10 +675,10 @@ again, we can answer the question by imagining Fred getting his cocoamone in
 an analogous way:
 
 ::: {#exa-cocoamone-lab .example}
-> Fred's brain stops producing cocoamone. So he buys a hundred small clusters
-> of brain cells that were painlessly extracted from living puppies without
-> harming those puppies in any way. He keeps the cells alive in a chemical
-> solution, and collects the cocoamone that they produce.
+Fred's brain stops producing cocoamone. So he buys a hundred small clusters
+of brain cells that were painlessly extracted from living puppies without
+harming those puppies in any way. He keeps the cells alive in a chemical
+solution, and collects the cocoamone that they produce.
 
 **COCOAMONE LAB**
 :::

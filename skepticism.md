@@ -82,9 +82,8 @@ Now that we have a handle on what induction is, let's get to the argument. The
 argument is going to turn on the status of a certain principle, which I'll
 call the *Future Like Past* principle, or FLP for short:
 
-::: thesis
-
-(FLP)
+:::{#def-flp .thesis}
+Future Like Past (FLP)
 :   Future states of the world will be like past states of the world
 :::
 
@@ -160,9 +159,8 @@ use it to infer that there will never be flying cars or a cure for cancer. The
 principle we actually rely on in our reasoning is more nuanced, perhaps
 something like this:
 
-::: thesis
-
-(FLP\*)
+:::{#def-FLP-star .thesis}
+FLP\*
 :   Future states of the world will be like past states of the world *except
     in respects in which we can expect them to differ*
 :::
@@ -178,13 +176,13 @@ faulty foundation: if your reasons for believing something are no good, then
 that belief itself is no good. To help see this, consider the following case:
 
 ::: {#exa-power-pose .example}
-> Jared is getting ready for a job interview, and thinks it will help his
-> chances if he spends five minutes "power posing" in front of the mirror.
-> When his fiancée Ashley asks him why he thinks that will help, Jared tells
-> her that scientists have shown that power posing releases
-> performance-enhancing hormones into your bloodstream. Skeptical, Ashley does
-> some Googling and informs Jared that the power-posing study has been
-> completely discredited and is now widely regarded as "pseudo-science."
+Jared is getting ready for a job interview, and thinks it will help his
+chances if he spends five minutes "power posing" in front of the mirror.
+When his fiancée Ashley asks him why he thinks that will help, Jared tells
+her that scientists have shown that power posing releases
+performance-enhancing hormones into your bloodstream. Skeptical, Ashley does
+some Googling and informs Jared that the power-posing study has been
+completely discredited and is now widely regarded as "pseudo-science."
 
 **POWER POSE**
 :::
@@ -318,13 +316,13 @@ an illustration, consider the following case, involving a Magic 8-Ball toy
 up):
 
 ::: {#exa-magic-eight-ball .example}
-> Madhu shakes up his Magic 8-Ball, asks whether Smitha has a crush on him,
-> and it issues its verdict: *yes*. Madhu's excitement lasts only for a
-> moment, as he suddenly realizes that he has no reason to believe that the
-> 8-ball can be trusted. So, he decides to check. He shakes up the 8- Ball,
-> asks it whether it can be trusted, and it issues its verdict: *yes*. "That
-> settles it," Madhu thinks to himself, "the 8-ball can be trusted, and Smitha
-> does have a crush on me!"
+Madhu shakes up his Magic 8-Ball, asks whether Smitha has a crush on him,
+and it issues its verdict: *yes*. Madhu's excitement lasts only for a
+moment, as he suddenly realizes that he has no reason to believe that the
+8-ball can be trusted. So, he decides to check. He shakes up the 8- Ball,
+asks it whether it can be trusted, and it issues its verdict: *yes*. "That
+settles it," Madhu thinks to himself, "the 8-ball can be trusted, and Smitha
+does have a crush on me!"
 
 **MAGIC 8-BALL**
 :::
@@ -366,8 +364,11 @@ you, and so on.
 My argument involves a certain hypothesis, which I'll call *the dreaming
 hypothesis*, or TDH for short:
 
-(TDH) You are currently lying down in bed dreaming about sitting down reading
-a philosophy textbook
+::: {#def-TDH .thesis}
+The Dreaming Hypothesis (TDH)
+:   You are currently lying down in bed dreaming about sitting down reading a
+    philosophy textbook
+:::
 
 With TDH in mind, here is how I'll argue that you don't know that you're
 sitting down reading:
@@ -590,9 +591,12 @@ counts as evidence against TDH.
 The easiest way to see why this objection won't work is to slightly modify TDH
 as follows:
 
-(TDH+) You are currently lying down in bed dreaming about sitting down reading
-a philosophy textbook, and it's the most incredibly vivid dream you've ever
-had
+::: {#def-TDH-plus .thesis}
+TDH+
+:   You are currently lying down in bed dreaming about sitting down reading a
+    philosophy textbook, and it's the most incredibly vivid dream you've ever
+    had
+:::
 
 You can't know that TDH+ is false just by attending to the vividness of your
 experiences. Nor can the vividness be evidence against TDH+. Having vivid
