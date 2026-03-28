@@ -42,12 +42,13 @@ TODO: add instructions for setting this up.
 - [x] Rewrite the sources/recommended resources using citeproc and embed bibliographic info in metadata.
 - [x] Format and tag all arguments using the custom float crossref king 'arg-'.
 - [x] Format and tag all thought experiments using the custom float crossref king 'exa-'.
-- [ ] How best to tag and format theses?
-    - [x] Currently: formatted as definition lists and wrapped in div with class "thesis".
+- [x] Format all theses as definition lists and tag as 'def-'
+    - [x] Consider making a distinction between different kinds of theses (definitions, accounts, principles...)
     - [ ] Consider ways to allow cross-referencing without adding numbers (something Quarto doesn't like to do).
+- [ ] Consider switching arguments, thought experiments, and theses to custom callouts instead. https://quarto.thecoatlessprofessor.com/custom-callout/
 - [ ] Rendering Korman's version of "standard form":
-  - [ ] Ideally, using a lua filter to transform into well-formed lists in each output format.
   - [x] In HTML and ePub, using CSS hacks.
+  - [ ] Ideally, using a lua filter to transform into well-formed lists with custom labels in each output format.
   - [ ] In PDF using LaTeX
   - [ ] In PDF using Typst
 - [ ] Appendix C
