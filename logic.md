@@ -1,7 +1,3 @@
----
-bibliography: logic.json
----
-
 # Logic {#sec-logic}
 
 Throughout this book, I present arguments, defend their premises, and then
@@ -21,20 +17,22 @@ as a pet, and I've already even given it a name: 'Camilla'. You want to
 slaughter it and eat it. I'm trying to convince you that we shouldn't eat
 Camilla, and I give you the following two arguments:
 
-::: {#arg-CA .argument}
+::: {#argument-CA .argument}
+## The Cuteness Argument {-}
+
 - (CA1) Camilla is cute
 - (CA2) It's wrong to eat cute things
 - (CA3) So, it's wrong to eat Camilla
 
-**The Cuteness Argument**
 :::
 
-::: {#arg-FA .argument}
+::: {#argument-FA .argument}
+## The Feathers Argument {-}
+
 - (FA1) Camilla has feathers
 - (FA2) Feathers are soft
 - (FA3) So, it's wrong to eat Camilla
 
-**The Feathers Argument**
 :::
 
 You probably aren't convinced by either argument. Why not?
@@ -81,7 +79,9 @@ philosophical discussions, it's best to avoid calling premises or points
 One more word of warning: don't confuse *following* and *following from*. To
 see what I have in mind, consider this argument from @sec-death:
 
-::: {#arg-FD-copy2 .argument}
+::: {#argument-FD-copy2 .argument}
+## Against Fearing Death {-}
+
 - (FD1) You cease to be conscious when you die
 - (FD2) If you cease to be conscious when you die, then being dead isn't bad
   for you
@@ -89,7 +89,6 @@ see what I have in mind, consider this argument from @sec-death:
 - (FD4) If being dead isn't bad for you, then you shouldn't fear death
 - (FD5) So, you shouldn't fear death
 
-**Against Fearing Death**
 :::
 
 It's true that FD2 follows FD1. That is, it comes immediately after FD1. But
@@ -124,21 +123,23 @@ examples.
 To see what I have in mind by a "form" of argument, compare these two
 arguments:
 
-::: {#arg-DK-copy .argument}
+::: {#argument-DK-copy .argument}
+## The Drinking Age Argument {-}
+
 - (DK1) Kristina is twenty years old
 - (DK2) If Kristina is twenty years old, then Kristina is not allowed to buy
   alcohol in the US
 - (DK3) So, Kristina is not allowed to buy alcohol in the US
 
-**The Drinking Age Argument**
 :::
 
-::: {#arg-MA .argument}
+::: {#argument-MA .argument}
+## The Moral Argument {-}
+
 - (MA1) There are objective moral values
 - (MA2) If there are objective moral values, then God exists
 - (MA3) So, God exists
 
-**The Moral Argument**
 :::
 
 In some ways, the arguments are pretty different: one is about Kristina and
@@ -157,12 +158,13 @@ same as the antecedent of that conditional, and a conclusion that's the same
 as the consequent of that conditional. In other words, they both have the
 following form:
 
-::: {#arg-MP .argument}
+::: {#argument-MP .argument}
+## Modus Ponens {-}
+
 - If P, then Q
 - P
 - So Q
 
-Modus Ponens
 :::
 
 Arguments with this form are called *modus ponens* arguments. ('Modus ponens'
@@ -174,25 +176,27 @@ Here are two things to note about modus ponens arguments. First, it doesn't
 matter whether the conditional premise comes first or second. For example,
 this is also a modus ponens argument:
 
-::: {#arg-RD .argument}
+::: {#argument-RD .argument}
+## The Rearranged Drinking Age Argument {-}
+
 - (RD1) If Kristina is twenty years old, then Kristina is not allowed to buy
   alcohol in the US
 - (RD2) Kristina is twenty years old
 - (RD3) So, Kristina is not allowed to buy alcohol in the US
 
-**The Rearranged Drinking Age Argument**
 :::
 
 That said, you do have to "mind your Ps and Qs" and how they're distributed in
 the argument. This, for instance, is *not* a modus ponens argument:
 
-::: {#arg-MD .argument}
+::: {#argument-MD .argument}
+## The Mangled Drinking Age Argument {-}
+
 - (MD1) Jean Blanc is not allowed to buy alcohol in the US
 - (MD2) If Jean Blanc is twenty years old, then Jean Blanc is not allowed to
   buy alcohol in the US
 - (MD3) So, Jean Blanc is twenty years old
 
-**The Mangled Drinking Age Argument**
 :::
 
 This one doesn't have the form "P, if P then Q, so Q" but rather "P, if Q then
@@ -213,30 +217,33 @@ denial of the consequent of that conditional, and whose conclusion is the
 denial of the conditional's antecedent. Using the '\~' symbol to symbolize
 denial, we can display the form of modus tollens arguments as follows:
 
-::: {#arg-MT .argument}
+::: {#argument-MT .argument}
+## Modus Tollens {-}
+
 - If P then Q
 - \~Q
 - So, \~P
 
-Modus Tollens
 :::
 
 Here are some examples of modus tollens arguments:
 
-::: {#arg-WF .argument}
+::: {#argument-WF .argument}
+## Whales Aren't Fish {-}
+
 - (WF1) If whales are fish, then whales use gills to breathe
 - (WF2) Whales don't use gills to breathe
 - (WF3) So whales aren't fish
 
-**Whales Aren't Fish**
 :::
 
-::: {#arg-FM .argument}
+::: {#argument-FM .argument}
+## The Flipped Moral Argument {-}
+
 - (FM1) If God does not exist, then there are no objective moral values
 - (FM2) There are objective moral values
 - (FM3) So, God exists
 
-**The Flipped Moral Argument**
 :::
 
 Again, the arguments are about entirely different topics but share a common
@@ -255,7 +262,9 @@ because objective morality presupposes the existence of God.
 With these two types of valid arguments in hand, one can also construct more
 complicated arguments that involve both. For instance:
 
-::: {#arg-FK .argument}
+::: {#argument-FK .argument}
+## The Foreknowledge Argument {-}
+
 - (FK1) God knew before you were born that you were going to read this book
 - (FK2) If God knew before you were born that you were going to read this
   book, then you couldn't have chosen not to read this book
@@ -264,7 +273,6 @@ complicated arguments that involve both. For instance:
   to read this book
 - (FK5) So, you didn't freely choose to read this book
 
-**The Foreknowledge Argument**
 :::
 
 This argument combines a modus ponens argument and a modus tollens argument.
@@ -280,12 +288,13 @@ Here is a third type of valid argument, which I'll call a *chained
 conditional*, since the conclusion chains together the antecedent of one
 conditional premise with the consequent of another conditional premise.
 
-::: {#arg-chained .argument}
+::: {#argument-chained .argument}
+## Chained Conditional {-}
+
 - If P then Q
 - If Q then R
 - So, if P then R
 
-Chained Conditional
 :::
 
 This form of argument is especially useful when you want to argue for a
@@ -294,22 +303,24 @@ conditional as its conclusion.
 
 Here are two examples of arguments with this form:
 
-::: {#arg-FN .argument}
+::: {#argument-FN .argument}
+## Against Fearing Non-Existence {-}
+
 - (FN1) If you stop existing when you die, then being dead is not bad for you
 - (FN2) If being dead is not bad for you, then you shouldn't fear death
 - (FN3) So, if you stop existing when you die, then you shouldn't fear death
 
-**Against Fearing Non-Existence**
 :::
 
-::: {#arg-RW .argument}
+::: {#argument-RW .argument}
+## The Right to the Womb Argument {-}
+
 - (RW1) If the embryo has a right to life, then the embryo has a right to use
   the mother's womb
 - (RW2) If the embryo has a right to use the mother's womb, then abortion is
   immoral
 - (RW3) So, if the embryo has a right to life, then abortion is immoral
 
-**The Right to the Womb Argument**
 :::
 
 ### Universal Instantiation
@@ -321,12 +332,13 @@ category. Together with an additional premise that one or more particular
 things belong to the first category, what follows is that those particular
 things also belong to the second category. Here it is schematically:
 
-::: {#arg-UI .argument}
+::: {#argument-UI .argument}
+## Universal Instantiation {-}
+
 - All Fs are Gs.
 - o is F.
 - So, o is G
 
-Universal Instantiation
 :::
 
 To get a valid argument of this form, you plug in some category for 'F', some
@@ -336,12 +348,13 @@ for the variables 'P', 'Q', and 'R'.)
 
 Here's an example of an argument by universal instantiation:
 
-::: {#arg-PG .argument}
+::: {#argument-PG .argument}
+## The Philosophical Genius Argument {-}
+
 - (PG1) All philosophers are geniuses
 - (PG2) Korman is a philosopher
 - (PG3) So, Korman is a genius
 
-**The Philosophical Genius Argument**
 :::
 
 The argument is valid, and what makes the argument valid is not the truth or
@@ -354,19 +367,22 @@ sleeve. Take the Cuteness Argument:
 
 TODO: repeated argument
 
-::: {#arg-CA-copy .argument}
+::: {#argument-CA-copy .argument}
+## The Cuteness Argument {-}
+
 - (CA1) Camilla is cute
 - (CA2) It's wrong to eat cute things
 - (CA3) So, it's wrong to eat Camilla
 
-**The Cuteness Argument**
 :::
 
 Superficially, this doesn't match the form of a universal instantiation
 argument, specified above. But with just a bit of rewording and rearranging,
 we can see that it's a universal instantiation in disguise:
 
-::: {#arg-CA-star .argument}
+::: {#argument-CA-star .argument}
+## The Cuteness Argument Reworded {-}
+
 - (CA2\*) All cute things are things that are wrong to eat
 - (CA1\*) Camilla is a cute thing
 - (CA3\*) So, Camilla is a thing that is wrong to eat
@@ -390,23 +406,25 @@ tollens arguments are not always valid.
 
 Let's start with modus tollens. Consider the following case:
 
-::: {#exa-flight-confusion .example}
-> I know that Olivia is due to fly from New York to Chicago, but I can't
-> remember if the flight was this morning, or if she's flying tomorrow. So, I
-> know she's either in Chicago or New York right now, but I don't know which.
+::: {#example-flight-confusion .example}
+## FLIGHT CONFUSION {-}
 
-**FLIGHT CONFUSION**
+I know that Olivia is due to fly from New York to Chicago, but I can't
+remember if the flight was this morning, or if she's flying tomorrow. So, I
+know she's either in Chicago or New York right now, but I don't know which.
+
 :::
 
 Now, consider the following argument, which looks to be a counterexample to
 the thesis that all modus tollens arguments are valid:
 
-::: {#arg-DTollens .argument}
+::: {#argument-DTollens .argument}
+## The Defective Tollens {-}
+
 - (DT1) If Olivia is in Chicago, then Olivia must be in Illinois
 - (DT2) It's not the case that Olivia must be in Illinois
 - (DT3) So, Olivia isn't in Chicago
 
-**The Defective Tollens**
 :::
 
 This does appear to be a modus tollens argument: the first premise is a
@@ -426,26 +444,28 @@ to the claim that all modus tollens arguments are valid.
 
 Now for modus ponens. Consider the following case:
 
-::: {#exa-talent-show .example}
-> Celeste, Grant, and Esmée are the three finalists in a talent show.
-> Celeste's performance was a complete disaster. Grant did a pretty good job.
-> Esmée gave the performance of a lifetime, and she receives a standing
-> ovation from the audience as well as all the judges. The judges are about to
-> announce the winner.
+::: {#example-talent-show .example}
+## TALENT SHOW {-}
 
-**TALENT SHOW**
+Celeste, Grant, and Esmée are the three finalists in a talent show.
+Celeste's performance was a complete disaster. Grant did a pretty good job.
+Esmée gave the performance of a lifetime, and she receives a standing
+ovation from the audience as well as all the judges. The judges are about to
+announce the winner.
+
 :::
 
 Now consider the following argument, which looks to be a counterexample to the
 thesis that all modus ponens arguments are valid.
 
-::: {#arg-DP .argument}
+::: {#argument-DP .argument}
+## The Defective Ponens {-}
+
 - (DP1) A woman is going to win
 - (DP2) If a woman is going to win, then: if Esmée loses, then Celeste will
   win
 - (DP3) So, if Esmée loses, then Celeste will win
 
-**The Defective Ponens**
 :::
 
 This is a modus ponens argument. One premise is a conditional (albeit one that

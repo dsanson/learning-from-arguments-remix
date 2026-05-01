@@ -1,5 +1,4 @@
 ---
-bibliography: abortion.json
 nocite: |
   @boonin2019
   @boonin2003
@@ -40,7 +39,7 @@ after six months. Or one might think it's immoral to abort a healthy pregnancy
 but permissible to abort a pregnancy that is likely to kill the mother. To
 help anchor our discussion, it will be useful to focus on a specific case.
 
-::: {#exa-unwanted-pregnancy .example}
+::: {#example-unwanted-pregnancy .example}
 Taylor just discovered that she is pregnant with Emm, a six-week-old embryo.
 The pregnancy resulted from consensual, casual sex. Taylor didn't want to
 get pregnant, and her partner wore a condom, but they were aware that
@@ -121,22 +120,24 @@ tells us that being or having X makes killing wrong, or that lacking Y makes
 killing permissible. In other words, the complete schema for the pro-life
 arguments will look like this:
 
-::: {#arg-X .argument}
+::: {#argument-X .argument}
+## The X-Schema {-}
+
 - (X1) Emm is (or has) X
 - (X2) It's always seriously immoral to kill something that is (or has) X
 - (X3) So it's seriously immoral to kill Emm
 
-**The X-Schema**
 :::
 
 The complete schema for the pro-choice arguments will look like this:
 
-::: {#arg-Y .argument}
+::: {#argument-Y .argument}
+## The Y-Schema {-}
+
 - (Y1) Emm isn't Y
 - (Y2) It's seriously immoral to kill something only if it is Y
 - (Y3) So it's not seriously immoral to kill Emm
 
-**The Y-Schema**
 :::
 
 Let us see, then, which (if any) of the various features that Emm has or lacks
@@ -150,12 +151,13 @@ Y-schema, starting with the observation that Emm isn't rational. In other
 words, she isn't capable of conscious self-reflection or using reason and
 logic. The argument would go like this:
 
-::: {#arg-YR .argument}
+::: {#argument-YR .argument}
+## The Argument from Rationality {-}
+
 - (YR1) Emm isn't rational
 - (YR2) It's seriously immoral to kill something only if it is rational
 - (YR3) So it's not seriously immoral to kill Emm
 
-**The Argument from Rationality**
 :::
 
 YR1 is clearly true: Emm is a very simple creature indeed. But, just as
@@ -169,12 +171,13 @@ it isn't seriously immoral to kill Emm because Emm isn't selfsufficient: she
 is entirely dependent on Taylor and wouldn't be able to survive on her own.
 This yields the following argument:
 
-::: {#arg-YS .argument}
+::: {#argument-YS .argument}
+## The Argument from Self-Sufficiency {-}
+
 - (YS1) Emm isn't self-sufficient
 - (YS2) It's seriously immoral to kill something only if it is self-sufficient
 - (YS3) So it's not seriously immoral to kill Emm
 
-**The Argument from Self-Sufficiency**
 :::
 
 But YS2 is open to the same counterexample as YR2: healthy newborn infants
@@ -186,12 +189,13 @@ Nor is the fact that Taylor doesn't want to have a child sufficient to show
 that it isn't seriously immoral to kill Emm. Here's what that argument would
 look like:
 
-::: {#arg-YU .argument}
+::: {#argument-YU .argument}
+## The Argument from Being Unwanted {-}
+
 - (YU1) Emm isn't wanted.
 - (YU2) It's seriously immoral to kill something only if it is wanted.
 - (YU3) So it's not seriously immoral to kill Emm.
 
-**The Argument from Being Unwanted**
 :::
 
 This one fares a *little* better than the previous arguments. YU2 doesn't
@@ -210,13 +214,14 @@ defense of aborting Emm. One difference that immediately springs to mind is
 that, unlike an infant, Emm is physically attached to someone (namely,
 Taylor). Putting that to work in the argument:
 
-::: {#arg-YA .argument}
+::: {#argument-YA .argument}
+## The Argument from Attachment {-}
+
 - (YA1) Emm is attached to another human.
 - (YA2) It's seriously immoral to kill something only if it isn't attached to
   any other human.
 - (YA3) So it's not seriously immoral to kill Emm.
 
-**The Argument from Attachment**
 :::
 
 YA2 says that it can't ever be seriously immoral to kill something when it's
@@ -234,7 +239,9 @@ Emm to Taylor, namely an umbilical cord. They are, let's say,
 "bodily-attached." The idea then would be to revise the Argument from
 Attachment as follows:
 
-::: {#arg-YA-star .argument}
+::: {#argument-YA-star .argument}
+## A Revised Argument from Attachment {-}
+
 - (YA1\*) Emm is bodily-attached to another human.
 - (YA2\*) It's seriously immoral to kill something only if it isn't
   bodilyattached to any other human.
@@ -257,12 +264,13 @@ counterexamples we have seen thus far. After all, even healthy, unwanted
 conjoined twins in baby wraps are conscious. So, we get what might seem to be
 a more promising argument:
 
-::: {#arg-YC .argument}
+::: {#argument-YC .argument}
+## The Argument from Consciousness {-}
+
 - (YC1) Emm is not conscious
 - (YC2) It's seriously immoral to kill something only if it's conscious
 - (YC3) So it's not seriously immoral to kill Emm
 
-**The Argument from Consciousness**
 :::
 
 Alas, there are counterexamples to YC2 as well. Normal human adults in deep,
@@ -279,12 +287,13 @@ Arguments from the pro-life position can be constructed by identifying some
 features that Emm has, and filling it in for X in the X-Schema (from @sec-identifying-wrong-making-features). Let's begin with the proposal that killing Emm is seriously immoral
 because Emm is alive:
 
-::: {#arg-XL .argument}
+::: {#argument-XL .argument}
+## The Argument from Life {-}
+
 - (XL1) Emm is alive
 - (XL2) It's always seriously immoral to kill something that's alive
 - (XL3) So it's seriously immoral to kill Emm
 
-**The Argument from Life**
 :::
 
 This perhaps captures the common pro-life slogan, "life begins at conception,"
@@ -305,12 +314,13 @@ can grant that it does, but then deny XL2.
 
 The pro-lifer might instead point to the fact that Emm has human DNA:
 
-::: {#arg-XD .argument}
+::: {#argument-XD .argument}
+## The Argument from Human DNA {-}
+
 - (XD1) Emm has human DNA
 - (XD2) It's always seriously immoral to kill something that has human DNA
 - (XD3) So it's seriously immoral to kill Emm
 
-**The Argument from Human DNA**
 :::
 
 XD2 is immune to the previous counterexample: blades of grass don't have human
@@ -321,13 +331,14 @@ seriously immoral to kill human skin cells or cancer cells. So, XD2 is false.
 Next, one might point to the fact that Emm has a beating heart. This suggests
 another line of argument:
 
-::: {#arg-XH .argument}
+::: {#argument-XH .argument}
+## The Argument from Hearts {-}
+
 - (XH1) Emm has a beating heart
 - (XH2) It's always seriously immoral to kill something that has a beating
   heart
 - (XH3) So it's seriously immoral to kill Emm
 
-**The Argument from Hearts**
 :::
 
 XH1 is true: like most six-week-old embryos, Emm does have a beating heart.
@@ -340,12 +351,13 @@ that's not seriously immoral. So, XH2 is false.
 Finally, let's consider the suggestion that it's seriously immoral to kill Emm
 because she has the *potential* to become a person:
 
-::: {#arg-XP .argument}
+::: {#argument-XP .argument}
+## The Argument from Potentiality {-}
+
 - (XP1) Emm is a potential person
 - (XP2) It's always seriously immoral to kill a potential person
 - (XP3) So it's seriously immoral to kill Emm
 
-**The Argument from Potentiality**
 :::
 
 XP1 is true. It's a healthy pregnancy and, if brought to term, Emm will be a
@@ -375,13 +387,14 @@ Let's turn now to a somewhat different pro-life argument. Here the idea is
 that it's seriously immoral to kill Emm because she's a person with a right to
 life. We can frame the argument like this:
 
-::: {#arg-RL .argument}
+::: {#argument-RL .argument}
+## The Right to Life Argument {-}
+
 - (RL1) Emm has a right to life
 - (RL2) If Emm has a right to life, then it is seriously immoral to deprive
   Emm of Taylor's womb
 - (RL3) So, it's seriously immoral to deprive Emm of Taylor's womb
 
-**The Right to Life Argument**
 :::
 
 Since abortion deprives Emm of Taylor's womb, it follows trivially from RL3
@@ -413,7 +426,9 @@ To see the problem, let's take a closer look at RL2 and at why we are supposed
 to accept that premise in the first place. If we were to unpack the reasoning
 behind that premise, it would presumably go something like this:
 
-::: {#arg-RQ .argument}
+::: {#argument-RQ .argument}
+## The Requirements of Life Argument {-}
+
 - (RQ1) If something (or someone) has a right to life, and it needs a certain
   something in order to survive, then it has a right to that thing
 - (RQ2) Emm needs Taylor's womb in order to survive
@@ -423,7 +438,6 @@ behind that premise, it would presumably go something like this:
 - (RL2) So, if Emm has a right to life, then it is seriously immoral to
   deprive Emm of Taylor's womb
 
-**The Requirements of Life Argument**
 :::
 
 RQ1, at least at first glance, seems fairly plausible: having a right to life
@@ -436,7 +450,9 @@ depriving her of it is plausibly seriously immoral.
 Surprisingly, though, RQ1 is demonstrably false. To see why, consider the
 following two cases:
 
-::: {#exa-the-violinist .example}
+::: {#example-the-violinist .example}
+## THE VIOLINIST {-}
+
 During his morning jog, Riley is kidnapped and drugged. When he comes to, he
 finds himself lying in a hospital bed, connected by some blood-filled tubes
 to a woman in a separate bed. His kidnappers explain that the woman,
@@ -448,10 +464,11 @@ transfusion is complete, she will die immediately. When the kidnappers leave
 the room, Riley sees his chance to escape. With a heavy heart, he unplugs
 himself and sneaks away, and Maurissa dies as expected.
 
-**THE VIOLINIST**
 :::
 
-::: {#exa-the-rock .example}
+::: {#example-the-rock .example}
+## THE ROCK {-}
+
 You have become completely obsessed with People Magazine's 2016 Sexiest Man
 of the Year, Dwayne "The Rock" Johnson. So obsessed, in fact, that the
 thought of living without him makes you physically ill. Deathly ill. At this
@@ -460,7 +477,6 @@ cool hand on your fevered brow. The Rock is notified, and told that you will
 die if he does not come visit you in the next few days. But The Rock is a
 busy man and he sends his regrets. You die, as expected.
 
-**THE ROCK**
 :::
 
 No doubt, it would have been morally praiseworthy of Riley to remain plugged
@@ -481,14 +497,15 @@ right to life, and Riley is depriving her of something she needs in order to
 survive (his blood), but Riley does not have a right to that thing. We can
 make the latter argument against RQ1 explicit, as follows:
 
-::: {#arg-VA .argument}
+::: {#argument-VA .argument}
+## The Violinist Argument {-}
+
 - (VA1) Maurissa has a right to life and needs Riley's blood in order to
   survive
 - (VA2) Maurissa does not have a right to Riley's blood
 - (VA3) So, someone who has a right to life does not thereby have a right to
   all the things they need in order to survive
 
-**The Violinist Argument**
 :::
 
 One might point out that there are disanalogies between these cases and
@@ -530,7 +547,9 @@ Putting the pieces together, the argument that Emm has a right to Taylor's
 womb, and that the abortion was therefore seriously immoral, would go
 something like this:
 
-::: {#arg-KR .argument}
+::: {#argument-KR .argument}
+## The Known Risk Argument {-}
+
 - (KR1) Taylor freely chose to have sex and knew that this could lead to Emm
   using her womb
 - (KR2) Whenever someone freely does something and knows that it could lead to
@@ -542,7 +561,6 @@ something like this:
   deprive Emm of Taylor's womb
 - (KR6) So, it is seriously immoral to deprive Emm of Taylor's womb
 
-**The Known Risk Argument**
 :::
 
 You might worry a bit about KR4. Just because Taylor at one point consented to
@@ -554,7 +572,9 @@ thinks of KR4, there is an even more glaring problem with the argument.
 The problem is that KR2 is a ludicrous theory of consent. To see this,
 consider the following case:
 
-::: {#exa-open-window .example}
+::: {#example-open-window .example}
+## OPEN WINDOW {-}
+
 Astrid lives in a dangerous neighborhood with lots of hooligans. She has
 bars on her windows and keeps the windows closed and latched as an extra
 precaution. One hot summer day, she opens the windows to get some cool air,
@@ -563,7 +583,6 @@ are not 100% reliable). Unfortunately, the bars are defective. Some
 hooligans pull them off, climb through the window, plant themselves on her
 couch, and start playing her PlayStation.
 
-**OPEN WINDOW**
 :::
 
 Astrid freely chose to open the windows and knew this could lead to hooligans
@@ -598,13 +617,14 @@ filled with valuable experiences.
 Aborting Emm deprives her of FLO and this, I contend, is what makes the
 abortion seriously immoral:
 
-::: {#arg-SF .argument}
+::: {#argument-SF .argument}
+## The Simple FLO Argument {-}
+
 - (SF1) It is seriously immoral to kill something (or someone) if killing it
   deprives it of a future like ours
 - (SF2) Killing Emm deprives Emm of a future like ours
 - (SF3) So, it is seriously immoral to kill Emm
 
-**The Simple FLO Argument**
 :::
 
 I call this "The Simple FLO Argument" because, as we'll see in @sec-making-exceptions, we
@@ -658,7 +678,9 @@ work but that can be avoided by revising the argument (@sec-flo-overriding-facto
 
 First, one might think that the following sort of case is a problem for SF1:
 
-::: {#exa-hopeful-goner .example}
+::: {#example-hopeful-goner .example}
+## HOPEFUL GONER {-}
+
 Guillermo has accidentally ingested a deadly poison and is in horrible,
 debilitating pain. He thinks he'll get better, but he's wrong: the poison is
 quickly spreading through his body and will kill him within a few hours.
@@ -669,7 +691,6 @@ Nadja to stop. But Nadja gives Guillermo the injection, despite his
 protests, and Guillermo dies mere hours before the poison would have killed
 him anyway.
 
-**HOPEFUL GONER**
 :::
 
 What Nadja did seems to be seriously immoral, and yet she didn't deprive
@@ -691,14 +712,15 @@ is seriously immoral. After all, the idea goes, when one uses condoms or
 spermicide, one is depriving millions of sperm cells of FLO. The argument
 would go like this:
 
-::: {#arg-CC .argument}
+::: {#argument-CC .argument}
+## The Contraception Argument {-}
+
 - (CC1) Killing sperm deprives them of a future like ours
 - (CC2) If killing sperm deprives them of a future like ours, then: if SF1 is
   true, then it is seriously immoral to kill sperm
 - (CC3) It isn't seriously immoral to kill sperm
 - (CC4) So, SF1 is false
 
-**The Contraception Argument**
 :::
 
 The problem with this argument is CC1. *No* sperm cell has FLO, not even a
@@ -714,14 +736,15 @@ Even if sperm cells don't have FLO, what *is* true is that the spermicide
 prevents a being with FLO from coming into existence. Is that enough to cause
 trouble for SF1? The argument would have to go like this:
 
-::: {#arg-CC-star .argument}
+::: {#argument-CC-star .argument}
+## The Revised Contraception Argument {-}
+
 - (CC1\*) Killing sperm prevents the creation of a being with FLO
 - (CC2\*) If killing sperm prevents the creation of a being with FLO, then: if
   SF1 is true, then it is seriously immoral to kill sperm
 - (CC3) It isn't seriously immoral to kill sperm
 - (CC4) So, SF1 is false
 
-**The Revised Contraception Argument**
 :::
 
 We have merely moved the bump in the rug, for now the problem is the second
@@ -743,7 +766,7 @@ kill normal human adults is that they *desire* a future full of valuable
 experiences. If that's right, then all that is supported by the proper
 explanation of the immorality of killing is the weaker premise SF1\*:
 
-::: {#def-SF1-star .thesis}
+::: {#thesis-SF1-star .thesis}
 SF1\*
 :   It is seriously immoral to kill something (or someone) if killing it
     deprives it of a future like ours *that it desires*
@@ -776,7 +799,9 @@ and you can save your own life only by killing them first. One can imagine
 having qualms about killing them, but certainly it's not seriously immoral to
 do so. Or take the following case.
 
-::: {#exa-cruel-game .example}
+::: {#example-cruel-game .example}
+## CRUEL GAME {-}
+
 M'Baku is preparing to detonate an atomic bomb in the heart of a densely
 populated city. He has kidnapped two innocent people, Okoye and Shuri, and
 he commands Okoye to kill Shuri. If she complies, he will release Okoye and
@@ -785,7 +810,6 @@ detonate the bomb, killing hundreds of thousands of people. Okoye tries to
 find a way to stop the detonation without killing Shuri, but M'Baku has
 thought of everything. So, with a heavy heart, Okoye kills Shuri.
 
-**CRUEL GAME**
 :::
 
 Given the circumstances, what Okoye did isn't seriously immoral, despite the
@@ -813,7 +837,9 @@ adult.
 Using the notion of a FLO-overriding factor, we can patch up the Simple FLO
 Argument as follows:
 
-::: {#arg-MF .argument}
+::: {#argument-MF .argument}
+## The Modified FLO Argument {-}
+
 - (MF1) It is seriously immoral to kill something (or someone) if killing it
   deprives it of a future like ours *and* the killing does not involve any
   FLO-overriding factors
@@ -821,7 +847,6 @@ Argument as follows:
 - (MF3) Killing Emm does not involve any FLO-overriding factors
 - (MF4) So, it is seriously immoral to kill Emm
 
-**The Modified FLO Argument**
 :::
 
 MF1 has all of the plausibility of SF1, without being open to counterexamples
@@ -852,14 +877,15 @@ have seriously disrupted Taylor's life plans, perhaps forcing her to quit her
 job or drop out of school. But this too is no FLO-overriding factor. To see
 this, consider the following case.
 
-::: {#exa-runner-up .example}
+::: {#example-runner-up .example}
+## RUNNER-UP {-}
+
 Krystal has struggled for years to make it as an actress, and finally gets
 her big audition. If she gets the role, it will catapult her into fame and
 fortune. As it turns out, Jacqueline gets the role. But Krystal is the
 runner-up and is told that if anything should happen to Jacqueline, the role
 will go to her. So, Krystal discreetly kills Jacqueline and gets the role.
 
-**RUNNER-UP**
 :::
 
 Having Jacqueline around was severely disruptive to Krystal's life plans and
@@ -910,7 +936,9 @@ of factor that would justify killing a normal human adult.
 And, indeed, there is reason to think it is FLO-overriding. Consider the
 following case:
 
-::: {#exa-quicksand .example}
+::: {#example-quicksand .example}
+## QUICKSAND {-}
+
 Ahmed is drowning in quicksand. He has gotten ahold of Omar's pantleg, and
 is frantically trying to pull himself out. But in doing so he is pulling
 Omar into the quicksand. Ahmed is in such a panicked state that he doesn't
@@ -919,7 +947,6 @@ stops him by pushing him under, Ahmed will pull him in and scramble out over
 Omar's subsumed body, killing him. So, with a heavy heart, and in order to
 save his own life, Omar kills Ahmed by pushing him under.
 
-**QUICKSAND**
 :::
 
 What Omar had to do may be horrifying, but it is not seriously immoral. The
@@ -974,13 +1001,14 @@ Emm's right to life.
 It may be illuminating to compare UNWANTED PREGNANCY with the following
 variation on THE ROCK:
 
-::: {#exa-rock-forced .example}
+::: {#example-rock-forced .example}
+## ROCK FORCED {-}
+
 The only thing that can save your life is the touch of The Rock's cool hand
 on your fevered brow. As it happens, The Rock is passing through the
 hospital where you lay dying. You ask for his help and he refuses. You grab
 his hand, but he pulls it away.
 
-**ROCK FORCED**
 :::
 
 Even if The Rock's refusal is morally monstrous in this case---and I would

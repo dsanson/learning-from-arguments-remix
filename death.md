@@ -1,5 +1,4 @@
 ---
-bibliography: death.json
 nocite: |
   @long1987a
   @borges1962
@@ -26,7 +25,9 @@ sensations. Accordingly, since you won't be experiencing any unpleasant
 sensations once you're dead, being dead isn't bad for you, and you shouldn't
 fear things that aren't bad for you. In other words:
 
-::: {#arg-FD .argument}
+::: {#argument-FD .argument}
+## Against Fearing Death {-}
+
 - (FD1) You cease to be conscious when you die
 - (FD2) If you cease to be conscious when you die, then being dead is not bad
   for you
@@ -34,7 +35,6 @@ fear things that aren't bad for you. In other words:
 - (FD4) If being dead is not bad for you, then you should not fear death
 - (FD5) So, you should not fear death
 
-**Against Fearing Death**
 :::
 
 I should emphasize that I am not denying that *dying* is bad. The process of
@@ -83,7 +83,7 @@ leads to cavities. Why is that bad for you? Because cavities are painful.
 Still, we must be careful in how exactly we formulate our hedonistic account
 of what's bad for you. For instance, suppose we tried the following:
 
-::: {#def-HD .thesis}
+::: {#thesis-HD .thesis}
 Hedonism (HD)
 :   Something is bad for you if and only if it's painful.
 :::
@@ -104,7 +104,7 @@ you isn't just whether it itself is painful but
 also its connection to the presence or absence of future pains. With this in
 mind, we can revise the principle as follows:
 
-::: {#def-HD-star .thesis}
+::: {#thesis-HD-star .thesis}
 Hedonism (HD\*)
 :   Something is bad for you if and only if it results in more pain than you
     would otherwise have had
@@ -122,7 +122,9 @@ for you is still just a matter of what is or isn't painful for you.
 With HD\* in hand, we can now run an argument for FD2 of the Against Fearing
 Death argument.
 
-::: {#arg-AH .argument}
+::: {#argument-AH .argument}
+## The Argument from Hedonism {-}
+
 - (AH1) If you cease to be conscious when you die, then being dead doesn't
   result in more pain than you would otherwise have had
 - (AH2) Something is bad for you if and only if it results in more pain than
@@ -130,7 +132,6 @@ Death argument.
 - (FD2) So, if you cease to be conscious when you die, then being dead isn't
   bad for you
 
-**The Argument from Hedonism**
 :::
 
 Premise AH1 is trivial. Pain is a conscious state, so *if* you aren't
@@ -157,14 +158,15 @@ experiencing these sorts of psychological pains.
 Second, one might object to HD\* on the grounds that something can be entirely
 pleasurable and yet still be a bad thing to do. Consider the following case:
 
-::: {#exa-stolen-cruise .example}
+::: {#example-stolen-cruise .example}
+## STOLEN CRUISE {-}
+
 Brendan is about to go on a week-long cruise. His girlfriend, Pieper, serves
 him undercooked chicken, in hopes that he'll get food poisoning and will let
 her go in his place. Pieper's plan succeeds, and she has a great time on the
 cruise. She comes back refreshed, relaxed, and feeling no remorse
 whatsoever.
 
-**STOLEN CRUISE**
 :::
 
 What Pieper did is bad, and yet it didn't lead to her having any unpleasant
@@ -184,7 +186,7 @@ Specifically, one might suggest that something can be bad for you not just by
 giving you painful sensations but also by depriving you of pleasant
 sensations:
 
-::: {#def-HD-double-star .thesis}
+::: {#thesis-HD-double-star .thesis}
 Hedonism (HD\*\*)
 :   Something is bad for you if and only if it results in more pain *or less
     pleasure* than you would otherwise have had.
@@ -200,7 +202,9 @@ had they not died when they did, in which case HD\*\* entails that being dead
 The problem with HD\*\* is that it is open to counterexamples like the
 following:
 
-::: {#exa-unread-mail .example}
+::: {#example-unread-mail .example}
+## UNREAD MAIL {-}
+
 Carly meets Evan, and they immediately fall in love. Because things are
 going so well with Evan, Carly stops checking her online dating app. They
 have a long and entirely happy life together. It so happens that Jami had
@@ -209,7 +213,6 @@ she would have seen Jami's message, fallen in love with *her*, and she and
 Jami would have had a long and happy life together. As a matter of fact, she
 would have been a little tiny bit happier with Jami than with Evan.
 
-**UNREAD MAIL**
 :::
 
 Carly would have been a tiny bit better off if she hadn't met Evan. Does that
@@ -219,14 +222,15 @@ would have had more pleasure in her life had she not met him.
 
 This gives us a compelling argument against HD\*\*:
 
-::: {#arg-UM .argument}
+::: {#argument-UM .argument}
+## The Unread Mail Argument {-}
+
 - (UM1) Carly would have had more pleasure had she not met Evan
 - (UM2) If Carly would have had more pleasure had she not met Evan, then: if
   HD\*\* is true, then meeting Evan was bad for her
 - (UM3) Meeting Evan was not bad for her
 - (UM4) So, HD\*\* is false
 
-**The Unread Mail Argument**
 :::
 
 Thus, one shouldn't prefer HD\*\* to my formulation of the principle of
@@ -254,14 +258,15 @@ fleshand-blood human animal. For simplicity, I'll refer to it as 'Animal'.
 Here, then, is the argument that you will permanently cease to be conscious
 once you die:
 
-::: {#arg-PC .argument}
+::: {#argument-PC .argument}
+## Against Post-Mortem Consciousness {-}
+
 - (PC1) If Animal ceases to be conscious when you die *and* you are Animal,
   then you cease to be conscious when you die
 - (PC2) Animal ceases to be conscious when you die
 - (PC3) You are Animal
 - (FD1) So, you cease to be conscious when you die
 
-**Against Post-Mortem Consciousness**
 :::
 
 First, I'll explain the idea behind PC1 and PC2, which are both
@@ -306,12 +311,13 @@ And yet there is a simple and powerful argument for this premise. You'll want
 to sit down for this. (Seriously, sit down. And sit by yourself if you've got
 a cat in your lap, shoo it away.) Here is the argument:
 
-::: {#arg-TT .argument}
+::: {#argument-TT .argument}
+## The Too Many Thinkers Argument {-}
+
 - (TT1) Animal is in your chair and is thinking
 - (TT2) You are the only thing in your chair that is thinking
 - (PC3) So you are Animal
 
-**The Too Many Thinkers Argument**
 :::
 
 Let's take the premises one at a time. If both TT1 and TT2 can be successfully
@@ -437,6 +443,6 @@ The argument advanced here originates with the ancient Greek philosopher
 Epicurus, in his "Letter to Menoeceus" (see @long1987a). See @feldman1994 for a more in-depth discussion of philosophical questions
 about death, and in particular chapter 8 of his book for a defense of the idea
 that death is bad because it deprives one of good things. The Too Many
-Thinkers argument in @sec-too-many-thinkers is drawn from @olson2009. Here are some additional resources:
+Thinkers argument in @sec-too-many-thinkers is drawn from @olson2009.
 
 

@@ -1,5 +1,4 @@
 ---
-bibliography: eating-animals.json
 nocite: |
   @anderson2004
   @humaneventures
@@ -92,13 +91,14 @@ different from what our ancestors have done.
 
 The argument evidently runs as follows:
 
-::: {#arg-PR .argument}
+::: {#argument-PR .argument}
+## The Argument from Precedent {-}
+
 - (PR1) There have been people who eat meat throughout human history.
 - (PR2) If there have been people doing a certain thing throughout human
   history, then it is morally permissible for you to do it.
 - (PR3) So, it is morally permissible for you to eat meat.
 
-**The Argument from Precedent**
 :::
 
 PR1 is indisputable. But PR2 is obviously false. People have murdered other
@@ -111,13 +111,14 @@ it's not true that *most* people have been murderers throughout human history.
 This suggests a way of reinstating the Argument from Precedent, without the
 overly strong premise PR2:
 
-::: {#arg-PR-star .argument}
+::: {#argument-PR-star .argument}
+## The Argument from Majority Precedent {-}
+
 - (PR1\*) Most people have eaten meat throughout human history.
 - (PR2\*) If most people have done a certain thing throughout human history,
   then it is morally permissible for you to do it.
 - (PR3) So, it is morally permissible for you to eat meat.
 
-**The Argument from Majority Precedent**
 :::
 
 Since it isn't true that most people throughout human history have been
@@ -157,13 +158,14 @@ chickens and pigs and cows. This is just part of nature.
 
 The argument evidently runs as follows:
 
-::: {#arg-NO .argument}
+::: {#argument-NO .argument}
+## The Natural Order Argument {-}
+
 - (NO1) Other animals eat meat
 - (NO2) If other animals do something, then it's morally permissible for you
   to do it
 - (NO3) So, it's morally permissible for you to eat meat
 
-**The Natural Order Argument**
 :::
 
 There is no denying NO1. But just like PR2 above, NO2 is open to endless
@@ -203,13 +205,14 @@ meat.
 
 What is the argument here? It seems to be the following:
 
-::: {#arg-CP .argument}
+::: {#argument-CP .argument}
+## The Natural Capacity Argument {-}
+
 - (CP1) You are naturally capable of eating meat.
 - (CP2) If you are naturally capable of doing a certain thing, then it is
   morally permissible for you to do that thing.
 - (CP3) So, it is morally permissible for you to eat meat.
 
-**The Natural Capacity Argument**
 :::
 
 CP1 is of course true. But CP2 is obviously false. There are plenty of things
@@ -233,13 +236,14 @@ you can't get the necessary amounts of *protein* without eating meat. If
 that's right, then perhaps the following argument can be used to establish the
 permissibility of eating meat:
 
-::: {#arg-NP .argument}
+::: {#argument-NP .argument}
+## The Necessity of Protein Argument {-}
+
 - (NP1) Eating meat is necessary for getting enough protein.
 - (NP2) If doing something is necessary for getting enough protein, then it is
   morally permissible for you to do it.
 - (NP3) So, it is morally permissible for you to eat meat.
 
-**The Necessity of Protein Argument**
 :::
 
 We already saw, however, that NP1 is false. I listed a number of alternative
@@ -335,7 +339,9 @@ this fictional case and what you are doing when you eat meat.
 
 Here is the case:
 
-::: {#exa-cocoamone-farm .example}
+::: {#example-cocoamone-farm .example}
+## COCOAMONE FARM {-}
+
 As a result of a head injury, Fred's brain stops naturally producing
 cocoamone, the hormone that enables humans to taste chocolate. Fred
 discovers that the only way to obtain useable cocoamone is to distill it
@@ -348,12 +354,13 @@ distills a month's supply of cocoamone. He sips some cocoamone
 and---*voilà---*it works! So he buys twenty more puppies for the next
 month's supply, mutilates them, and locks them up.
 
-**COCOAMONE FARM**
 :::
 
 And here is the argument:
 
-::: {#arg-FP .argument}
+::: {#argument-FP .argument}
+## The Argument from Fred's Puppies {-}
+
 - (FP1) If there is no morally relevant difference between two actions A and
   B, and A is immoral, then B is immoral.
 - (FP2) What Fred does is immoral.
@@ -361,7 +368,6 @@ And here is the argument:
   buying and eating factory-farmed meat.
 - (FP4) So, it is immoral for you to buy and eat factory-farmed meat.
 
-**The Argument from Fred's Puppies**
 :::
 
 The idea behind FP1 is that, whenever there is some moral difference between
@@ -415,7 +421,9 @@ children would be just as immoral as enslaving any other child.
 Furthermore, we can simply revise the COCOAMONE FARM case so that this
 difference disappears.
 
-::: {#exa-bred-for-cocoamone .example}
+::: {#example-bred-for-cocoamone .example}
+## BRED FOR COCOAMONE {-}
+
 Fred goes to a breeder and buys some dogs, some male and some female.
 Recognizing that these dogs were bred to be human companions, he treats them
 well. But he breeds the dogs, intending to use their puppies for cocoamone.
@@ -423,7 +431,6 @@ Once they have their puppies---which *weren't* bred for human
 companionship---he takes the puppies, locks them in cages, mutilates them,
 slaughters them, and distills their cocoamone.
 
-**BRED FOR COCOAMONE**
 :::
 
 By revising the case in this way, we eliminate the difference that was
@@ -476,13 +483,14 @@ have done is no less wrong than if I had committed the murder myself. In any
 case, we can revise the Fred story once more to eliminate the putative
 difference.
 
-::: {#exa-hired-help .example}
+::: {#example-hired-help .example}
+## HIRED HELP {-}
+
 Too squeamish to mutilate and slaughter the dogs himself, Fred hires Nysha
 to do it for him. She buys twenty dogs, mutilates them, keeps them confined
 in small cages, slaughters them, and provides Fred with one vial of
 cocoamone each month. He pays her for her services.
 
-**HIRED HELP**
 :::
 
 Now, Fred is not directly harming the puppies. But his hands are not clean; it
@@ -521,7 +529,9 @@ moral difference between the two actions.
 That said, this ultimately is not a convincing objection to FP3. For once
 again, we can revise the case to make the difference disappear:
 
-::: {#exa-second-dessert .example}
+::: {#example-second-dessert .example}
+## SECOND DESSERT {-}
+
 Fred decides not to start his own cocoamone farm, and has now gone months
 without tasting chocolate. Out to dinner, for old times' sake, he orders a
 chocolate mousse for dessert. To his surprise, he is able to taste the
@@ -532,7 +542,6 @@ mutilated puppies that they keep caged up in the back. They go through
 twenty puppies a day, he says. Fred is horrified. But he does not cancel his
 order, and he enjoys a second cocoamone-infused mousse.
 
-**SECOND DESSERT**
 :::
 
 It's wrong for Fred to order a second mousse, now that he knows about the
@@ -608,7 +617,9 @@ and mutilations as the cows and chickens raised for meat. In light of that, we
 can revise Fred's case to show that it is immoral to buy and consume eggs and
 dairy that come from CAFOs.
 
-::: {#exa-sweaty-puppies .example}
+::: {#example-sweaty-puppies .example}
+## SWEATY PUPPIES {-}
+
 Fred's brain stops producing cocoamone, and the only way to obtain useable
 cocoamone is to distill it from the sweat of puppies. He asks his friends if
 he can collect sweat off of their puppies, but they think that's creepy and
@@ -616,7 +627,6 @@ won't let him do it. So he buys twenty puppies, locks them in cages,
 mutilates them, collects their sweat, and distills a month's supply of
 cocoamone.
 
-**SWEATY PUPPIES**
 :::
 
 What Fred does is immoral. But there's no morally relevant difference between
@@ -627,7 +637,9 @@ Fred has no choice but to cage and mutilate the puppies.)
 How about meat from humanely raised animals? Here, again, we can look to Fred
 for guidance.
 
-::: {#exa-painless-death .example}
+::: {#example-painless-death .example}
+## PAINLESS DEATH {-}
+
 Fred's brain stops producing cocoamone, and the only way to obtain useable
 cocoamone is to distill it from the brains of puppies. So he buys twenty
 puppies, lets them run around free in his apartment, takes them for walks,
@@ -635,7 +647,6 @@ buys them toys, and treats them well. Then, once they're a year old, he
 sneaks up on them one by one, swiftly decapitates them, grinds up their
 brains, and distills a month's supply of cocoamone.
 
-**PAINLESS DEATH**
 :::
 
 Is Fred doing something immoral? I would say so, though I'll admit that what
@@ -651,7 +662,9 @@ slaughters them, and sells their milk and (unfertilized) eggs. Would it be
 wrong to buy and consume their milk and eggs? To find the answer, let's
 consider what would be the analogous case for Fred:
 
-::: {#exa-happy-puppy-sweat .example}
+::: {#example-happy-puppy-sweat .example}
+## HAPPY PUPPY SWEAT {-}
+
 Fred's brain stops producing cocoamone, and the only way to obtain useable
 cocoamone is to distill it from the sweat of puppies. So he buys twenty
 puppies, lets them run around free in his apartment, takes them for walks,
@@ -659,7 +672,6 @@ buys them toys, and treats them well. He collects their sweat---without
 killing them or harming them in any way---and distills a month's supply of
 cocoamone.
 
-**HAPPY PUPPY SWEAT**
 :::
 
 This case seems to combine all the best features of the previous two cases
@@ -674,13 +686,14 @@ buy this lab-grown meat in stores and restaurants. Would that be immoral? Once
 again, we can answer the question by imagining Fred getting his cocoamone in
 an analogous way:
 
-::: {#exa-cocoamone-lab .example}
+::: {#example-cocoamone-lab .example}
+## COCOAMONE LAB {-}
+
 Fred's brain stops producing cocoamone. So he buys a hundred small clusters
 of brain cells that were painlessly extracted from living puppies without
 harming those puppies in any way. He keeps the cells alive in a chemical
 solution, and collects the cocoamone that they produce.
 
-**COCOAMONE LAB**
 :::
 
 When we drastically change the details of the case in this way, it no longer
@@ -735,7 +748,3 @@ drawn from @norcross2004. The argument from
 killing mice in @sec-no-impact-objection is drawn from @archer2011, and the response to that
 argument is drawn from @allanimalsaustralia2014. The statistics in @sec-no-impact-objection about the proportion of
 crops grown to feed animals are drawn from @plumer2014.
-Here are some additional
-resources:
-
-

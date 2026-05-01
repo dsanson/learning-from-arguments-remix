@@ -139,7 +139,9 @@ the ultimate conclusion of the argument.
 
 As an illustration, consider the following argument:
 
-:::{#arg-FD-copy .argument}
+:::{#argument-FD-copy .argument}
+## Against Fearing Death {-}
+
 - (FD1) You cease to be conscious when you die
 - (FD2) If you cease to be conscious when you die, then being dead isn't bad
   for you
@@ -147,7 +149,6 @@ As an illustration, consider the following argument:
 - (FD4) If being dead isn't bad for you, then you shouldn't fear death
 - (FD5) So, you shouldn't fear death
 
-**Against Fearing Death**
 :::
 
 @arg-FD The argument has three premises: FD1, FD2, and FD4. FD5 is the conclusion of
@@ -227,13 +228,14 @@ claims are linked in the way a conditional says they are, even if you don't
 agree with the claims themselves. To see this, consider the following
 argument:
 
-:::{#arg-DK .argument}
+:::{#argument-DK .argument}
+## The Drinking Age Argument {-}
+
 - (DK1) Kristina is twenty years old
 - (DK2) If Kristina is twenty years old, then Kristina is not allowed to buy
   alcohol in the US
 - (DK3) So, Kristina is not allowed to buy alcohol in the US
 
-**The Drinking Age Argument**
 :::
 
 You might object to this argument because you think that Kristina is 22 and
@@ -261,13 +263,14 @@ conscious when you die---is hardly obvious. So, someone who likes the Against
 Fearing Death argument might try to produce a further argument in defense of
 that premise, like the following:
 
-:::{#arg-BD .argument}
+:::{#argument-BD .argument}
+## The Brain Death Argument {-}
+
 - (BD1) Your brain stops working when you die
 - (BD2) If your brain stops working when you die, then you cease to be
   conscious when you die
 - (FD1) So, you cease to be conscious when you die
 
-**The Brain Death Argument**
 :::
 
 Notice that in the context of the Brain Death Argument FD1 is a *conclusion*,
@@ -283,13 +286,14 @@ ways of doing so. One would be to produce an argument for the opposite
 conclusion. For instance, one might advance the following argument against
 FD5:
 
-:::{#arg-UF .argument}
+:::{#argument-UF .argument}
+## The Uncertain Fate Argument {-}
+
 - (UF1) You don't know what will happen to you after you die
 - (UF2) If you don't know what will happen to you after you die, then you
   should fear death
 - (UF3) So, you should fear death
 
-**The Uncertain Fate Argument**
 :::
 
 Notice that UF3 is a denial of the conclusion of the Against Fearing Death
@@ -301,13 +305,14 @@ Another way to challenge an argument is to produce a new argument against a
 *premise* of the argument you wish to challenge. Here, for instance, is an
 argument against FD1 of the Against Fearing Death argument:
 
-:::{#arg-AF .argument}
+:::{#argument-AF .argument}
+## The Afterlife Argument {-}
+
 - (AF1) You go to heaven or hell after you die
 - (AF2) If you go to heaven or hell after you die, then you don't cease to be
   conscious when you die
 - (AF3) So, you don't cease to be conscious when you die
 
-**The Afterlife Argument**
 :::
 
 Unlike the Uncertain Fate Argument, The Afterlife Argument challenges a
@@ -328,12 +333,13 @@ Arguments often contain premises which contend that things are *always* a
 certain way. For instance, someone who is pro-life might advance the following
 argument:
 
-:::{#arg-BH .argument}
+:::{#argument-BH .argument}
+## The Beating Heart Argument {-}
+
 - (BH1) A six-week-old embryo has a beating heart
 - (BH2) It's always immoral to kill something that has a beating heart
 - (BH3) So, it's immoral to kill a six-week-old embryo
 
-**The Beating Heart Argument**
 :::
 
 The second premise, BH2, says that killing things that have beating hearts is
@@ -344,12 +350,13 @@ Arguments also often contain premises which contend that things are *never* a
 certain way. For instance, someone who is pro-choice might advance the
 following argument in defense of abortion:
 
-:::{#arg-CN .argument}
+:::{#argument-CN .argument}
+## The Consciousness Argument {-}
+
 - (CN1) A six-week-old embryo isn't conscious
 - (CN2) It's never wrong to kill something that isn't conscious
 - (CN3) So, it isn't wrong to kill a six-week-old embryo
 
-**The Consciousness Argument**
 :::
 
 The second premise, CN2, says that killing things that aren't conscious is
@@ -370,23 +377,25 @@ to CN2.
 These counterexamples can then be put to work in arguments of their own, for
 instance:
 
-:::{#arg-WA .argument}
+:::{#argument-WA .argument}
+## The Worm Argument {-}
+
 - (WA1) If it's always immoral to kill something that has a beating heart,
   then it's immoral to kill worms
 - (WA2) It isn't immoral to kill worms
 - (WA3) So, it isn't always immoral to kill something that has a beating heart
 
-**The Worm Argument**
 :::
 
 
-:::{#arg-TA .argument}
+:::{#argument-TA .argument}
+## The Temporary Anesthesia Argument {-}
+
 - (TA1) If it's never wrong to kill something that's unconscious, then it
   isn't wrong to kill a temporarily anesthetized adult
 - (TA2) It is wrong to kill a temporarily anesthetized adult
 - (TA3) So, it is sometimes wrong to kill something that's unconscious
 
-**The Temporary Anesthesia Argument**
 :::
 
 Argument by counterexample is a very common argumentative strategy, and we'll
@@ -440,7 +449,8 @@ such arguments repeatedly in this book. Here is an example from @sec-coercion,
 which is meant to show that it's wrong for the government to tax and imprison
 its citizens:
 
-:::{#exa-vigilante .example}
+:::{#example-vigilante .example}
+## VIGILANTE {-}
 
 Jasmine discovers that some con men have set up a fake charity and are conning
 some people in her neighborhood. She captures them at gunpoint, takes them to
@@ -452,7 +462,6 @@ will go towards a community gym to help keep troubled kids off the street.
 Those who do not comply are locked up in her basement with her other
 prisoners.
 
-**VIGILANTE**
 :::
 
 Thinking about this scenario is meant to elicit the intuition that Jasmine is
@@ -468,7 +477,9 @@ morally relevant difference between what Jasmine does and what the government
 does, that is, no difference between them that could explain why the one is
 wrong while the other is okay. The argument can be framed as follows:
 
-:::{#arg-TX-copy .argument}
+:::{#argument-TX-copy .argument}
+## Against Taxation and Imprisonment {-}
+
 - (TX1) If there is no morally relevant difference between two actions A and
   B, and A is wrong, then B is wrong
 - (TX2) It is wrong for Jasmine to extort and kidnap her neighbors
@@ -477,7 +488,6 @@ wrong while the other is okay. The argument can be framed as follows:
   citizens
 - (TX4) So, it is wrong for the government to tax and imprison its citizens
 
-**Against Taxation and Imprisonment**
 :::
 
 The idea behind TX1 is that, if one action is immoral and another isn't, there
@@ -509,13 +519,14 @@ argument by analogy. They also often play a supporting role in arguments by
 counterexample. In @sec-no-freedom, for instance, we'll encounter the following
 argument for the idea that we sometimes do things of our own free will:
 
-:::{#arg-FR-copy .argument}
+:::{#argument-FR-copy .argument}
+## The Argument for Freedom {-}
+
 - (FR1) Sometimes you perform an action after deciding to perform that action
 - (FR2) If one performs an action after deciding to perform it, then one
   performs that action freely
 - (FR3) So some of your actions are performed freely
 
-**The Argument for Freedom**
 :::
 
 The second premise, FR2, says that so long as someone does what they decided
@@ -523,7 +534,8 @@ to do, that by itself suffices for it to count as a free action. Later on, in
 @sec-no-freedom, I try to cast doubt on this premise with the following thought
 experiment:
 
-:::{#exa-hypnotic-decision .example}
+:::{#example-hypnotic-decision .example}
+## HYPNOTIC DECISION {-}
 
 Tia is on the run from the law and knows the cops are hot on her trail. She is
 also a master hypnotist. As she passes Colton on the street, she hypnotizes
@@ -534,7 +546,6 @@ scene, sees Tia, and shouts *Freeze!* As a result of the hypnotic suggestion,
 Colton gets angry at Kabir, consciously decides to tackle him, and then
 tackles him.
 
-**HYPNOTIC DECISION**
 :::
 
 Colton did do exactly what he decided to do, namely tackle Kabir. But when we
@@ -563,7 +574,9 @@ out some important details, and you may be tempted to fill in the details in
 ways that make them more interesting. For instance, in @sec-utilitarianism you'll be
 asked whether Corrine did the right thing in the following case:
 
-:::{#exa-trolley-lever .example}
+:::{#example-trolley-lever .example}
+## TROLLEY LEVER {-}
+
 A runaway trolley with no driver is hurtling down the tracks towards five
 pledges from a local fraternity. Corrine is an onlooker, standing beside the
 tracks. Next to her is a lever which can divert the trolley onto a side track.
@@ -573,7 +586,6 @@ track. Corrine decides to pull the lever, killing the pledge master and saving
 the pledges. She then unties the pledges, and they all go on to lead long,
 happy lives.
 
-**TROLLEY LEVER**
 :::
 
 You might be tempted to ask, "what if the pledge master is Corrine's brother?"

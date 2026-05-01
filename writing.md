@@ -38,12 +38,13 @@ demonstrate an appreciation of your opponent's perspective.
 For purposes of illustration, I'll imagine that your assignment asks you to
 criticize the Argument from Suffering from @sec-can-god-allow-suffering.
 
-::: {#arg-AS-copy .argument}
+::: {#argument-AS-copy .argument}
+## The Argument from Suffering {-}
+
 - (AS1) There is suffering in the world
 - (AS2) If there is suffering in the world, then God does not exist
 - (AS3) So, God does not exist
 
-**The Argument from Suffering**
 :::
 
 Your plan, let's suppose, is to reject AS2 by arguing that God allows
@@ -274,10 +275,10 @@ rough draft of your paper very slowly, at a snail's pace, lingering on every
 sentence. Read each sentence out loud, and ask yourself the following four
 questions about it.
 
-- 1.  Is this exactly what I meant to say?
-- 2.  How might someone challenge this?
-- 3.  Can I make the sentence clearer?
-- 4.  Can I make the sentence shorter?
+1.  Is this exactly what I meant to say?
+2.  How might someone challenge this?
+3.  Can I make the sentence clearer?
+4.  Can I make the sentence shorter?
 
 Let me say a bit about each of these questions.
 

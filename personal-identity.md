@@ -1,5 +1,4 @@
 ---
-bibliography: personal-identity.json
 nocite: |
   @documeaning2011
   @camp2016
@@ -18,6 +17,7 @@ nocite: |
   @schechtman2014
   @siderits2003
   @menketi1979
+  @darrow1929
 ---
 
 # What Makes You You {#sec-personal-identity}
@@ -67,7 +67,7 @@ that kid that makes her (or him) you?
 More precisely, an answer to the question I'm asking will provide a way to
 fill in the blank in the following sentence:
 
-:::{#def-personal-identity-template .thesis}
+:::{#thesis-personal-identity-template .thesis}
 Template of an Account
 :   A at time t is the same person as B at time t\* if and only if \_\_\_\_\_\_
 :::
@@ -142,15 +142,15 @@ fingerprints are exactly alike. But since I want something absolutely
 exceptionless, this Fingerprints Account won't do. To see why that is,
 consider the following case:
 
-:::{#exa-leave-no-trace .example}
- 
-> After robbing the mansion, Bekah realizes that she may have left some
-> fingerprints behind. To help ensure that the police can't prove that she was
-> the burglar, she soaks her fingers in acid, completely searing off her
-> fingerprints. The police track her down and, just as she hoped, they are
-> unable to prove that she committed the burglary.
+:::{#example-leave-no-trace .example}
+## LEAVE NO TRACE {-}
 
- **LEAVE NO TRACE**
+After robbing the mansion, Bekah realizes that she may have left some
+fingerprints behind. To help ensure that the police can't prove that she was
+the burglar, she soaks her fingers in acid, completely searing off her
+fingerprints. The police track her down and, just as she hoped, they are
+unable to prove that she committed the burglary.
+
 :::
 
 It's the same person, Bekah, both before and after the fingerprints are seared
@@ -189,7 +189,7 @@ when assessing philosophical claims, @sec-thought-experiments.)
 We have already seen one possible answer to the question of personal identity,
 the Fingerprints Account:
 
-:::{#def-fingerprints .thesis}
+:::{#thesis-fingerprints .thesis}
 The Fingerprints Account
 :   A at time t is the same person as B at time t\* if and only if A and B
     have indistinguishable fingerprints
@@ -210,7 +210,7 @@ for being the same person.
 
 What if we focused on DNA instead of fingerprints?
 
-:::{#def-dna .thesis}
+:::{#thesis-dna .thesis}
 The DNA Account
 :   A at t is the same person as B at t\* if and only if A and B have
     indistinguishable DNA
@@ -235,7 +235,7 @@ aspect of you. Perhaps, instead of focusing on some small part of your body,
 like your fingerprints or DNA, we would do better to focus on the body as a
 whole:
 
-:::{#def-same-body .thesis}
+:::{#thesis-same-body .thesis}
 The Same Body Account
 :   A at t is the same person as B at t\* if and only if A has the same body
     as B
@@ -273,7 +273,7 @@ So how should we formulate an answer to the question of personal identity in
 terms of psychological features? As a first stab, we might consider the
 following account:
 
-:::{#def-psych-matching .thesis}
+:::{#thesis-psych-matching .thesis}
 The Psychological Matching Account
 :   A at t is the same person as B at t\* if and only if A's psychological
     features are exactly the same as B's psychological features
@@ -294,7 +294,7 @@ account doesn't require people at different times to have *all* the same
 psychological features, but only that they have *mostly* the same
 psychological features.
 
-:::{#def-psych-overlap .thesis}
+:::{#thesis-psych-overlap .thesis}
 The Psychological Overlap Account
 :   A at t is the same person as B at t\* if and only if A's psychological
     features are mostly the same as B's psychological features
@@ -341,7 +341,7 @@ is a *psychological ancestor* of the person at the later time, and that the
 person at the later time is a *psychological descendant* of the ancestor. This
 gives us:
 
-:::{#def-psych-descendant .thesis}
+:::{#thesis-psych-descendant .thesis}
 The Psychological Descendant Account
 :   A at t is the same person as B at t\* if and only if A is either a
     psychological ancestor or a psychological descendant of B
@@ -397,15 +397,15 @@ person.
 We can make the argument more explicit as follows:
 
 
-:::{#arg-CT .argument}
+:::{#argument-CT .argument}
+## The Conjoined Twins Argument {-}
 
-- (CT1) If the Same Body Account is true, then *either* Abby and Brittany have
+- (CT1) If the Same Body Account is true, then *either* Abby and Brittany haveperson
   different bodies or Abby and Brittany are the same person
 - (CT2) Abby and Brittany have the same body
 - (CT3) Abby and Brittany are not the same person
 - (CT4) So, the Same Body Account is false
 
-**The Conjoined Twins Argument**
 :::
 
 CT1 is merely reporting an implication of the Same Body Account. If *same
@@ -447,14 +447,15 @@ good at math" and then saying (out of her other mouth) "I'm terrible at math."
 But this seems entirely implausible when applied to Abby and Brittany. To see
 this, consider the following case:
 
-:::{#exa-conjoined-drama .example}
+:::{#example-conjoined-drama .example}
 
-> Abby is dating Arie. Brittany is secretly in love with Arie and has always
-> been jealous of their relationship. One night, while Abby is sleeping,
-> Brittany confesses her feelings to Arie, and Arie kisses her. Later, when
-> Abby finds out, she strangles Brittany.
+## CONJOINED DRAMA {-}
 
-**CONJOINED DRAMA**
+Abby is dating Arie. Brittany is secretly in love with Arie and has always
+been jealous of their relationship. One night, while Abby is sleeping,
+Brittany confesses her feelings to Arie, and Arie kisses her. Later, when
+Abby finds out, she strangles Brittany.
+
 :::
 
 Here's how we'd naturally describe what happened: Arie cheated on Abby and
@@ -480,21 +481,21 @@ cannot admit of any exceptions, even in principle.
 
 Now for the case:
 
-::: {#exa-body-swap .example}
+::: {#example-body-swap .example}
+## BODY SWAP {-}
 
-> Rachel is a neurotechnologist. Using an fMRI, a supercomputer, and advanced
-> laser technology, she has devised a way to get a complete neuron-for-neuron
-> scan of one person's brain, and then rewire a second person's brain to be an
-> exact duplicate of it. She recruits a pair of volunteers to have their
-> wiring "swapped" for a day: a man named Raúl and a woman named June.
-> Rachel's team performs the procedure on Tuesday night, and the volunteers
-> are awakened on Wednesday. Both stare down at their bodies in disbelief. The
-> person with the male body says 'my name is June' and can recount all of
-> June's memories but knows nothing at all about Raúl's past. The person with
-> the female body says 'my name is Raúl' and can tell you all about Raúl's
-> past but nothing about June's.
+Rachel is a neurotechnologist. Using an fMRI, a supercomputer, and advanced
+laser technology, she has devised a way to get a complete neuron-for-neuron
+scan of one person's brain, and then rewire a second person's brain to be an
+exact duplicate of it. She recruits a pair of volunteers to have their
+wiring "swapped" for a day: a man named Raúl and a woman named June.
+Rachel's team performs the procedure on Tuesday night, and the volunteers
+are awakened on Wednesday. Both stare down at their bodies in disbelief. The
+person with the male body says 'my name is June' and can recount all of
+June's memories but knows nothing at all about Raúl's past. The person with
+the female body says 'my name is Raúl' and can tell you all about Raúl's
+past but nothing about June's.
 
-**BODY SWAP**
 :::
 
 I think we can all agree on how we ought to describe what is happening on
@@ -514,7 +515,8 @@ with the female body on Tuesday; "MaleW" for the person with the male body on
 Wednesday, and "FemaleW" for the person with the female body on Wednesday.
 Here, then, is the argument:
 
-:::{#arg-BS .argument}
+:::{#argument-BS .argument}
+## The Body Swap Argument {-}
 
 - (BS1) MaleT and MaleW have the same body
 - (BS2) If MaleT and MaleW have the same body, then: if the Same Body Account
@@ -522,7 +524,6 @@ Here, then, is the argument:
 - (BS3) MaleT and MaleW are not the same person
 - (BS4) So, the Same Body Account is false
 
-**The Body Swap Argument**
 :::
 
 BS1 is true: it's the same male body that enters the lab on Tuesday and leaves
@@ -570,14 +571,13 @@ case that does seem to be conclusive.
 
 Our first case involves dramatic memory loss:
 
-:::{#exa-total-amnesia .example}
-> 
-> Jiwoo is stranded on a deserted island. Adding injury to insult, a coconut
-> fell on Jiwoo's head at noon today, instantly resulting in total amnesia. She
-> can't remember how she got on the island or anything else about her past. She
-> can't even remember her own name.
+:::{#example-total-amnesia .example}
+## TOTAL AMNESIA {-}
+Jiwoo is stranded on a deserted island. Adding injury to insult, a coconut
+fell on Jiwoo's head at noon today, instantly resulting in total amnesia. She
+can't remember how she got on the island or anything else about her past. She
+can't even remember her own name.
 
-**TOTAL AMNESIA**
 :::
 
 To see why this case is supposed to pose a problem for the Psychological
@@ -610,22 +610,23 @@ TOTAL AMNESIA to count as a case of descendance, I'll instead shift to a new
 case, one in which there is *no* overlap in the mental states, thus rendering
 this response unavailable. Here is the new case:
 
-:::{#exa-total-blackout .example}
-> 
-> Minjun is stranded on a deserted island. Adding injury to insult, a coconut
-> fell on Minjun's head at noon today, temporarily knocking him unconscious.
-> While unconscious, he is not dreaming, nor does he have any thoughts or
-> experiences or any physical sensations whatsoever. He is completely blacked
-> out. When he finally awakens hours later, it will feel as if no time has
-> passed.
+:::{#example-total-blackout .example}
+## TOTAL BLACKOUT {-}
 
-> **TOTAL BLACKOUT**
+Minjun is stranded on a deserted island. Adding injury to insult, a coconut
+fell on Minjun's head at noon today, temporarily knocking him unconscious.
+While unconscious, he is not dreaming, nor does he have any thoughts or
+experiences or any physical sensations whatsoever. He is completely blacked
+out. When he finally awakens hours later, it will feel as if no time has
+passed.
+
 :::
 
 Here is how to turn the case into an argument against the Psychological
 Descendant Account:
 
-:::{#arg-BL .argument}
+:::{#argument-BL .argument}
+## The Blackout Argument {-}
 
 - (BL1) The unconscious man is not a psychological descendant of the conscious
   man
@@ -635,7 +636,6 @@ Descendant Account:
 - (BL3) The conscious man is the same person as the unconscious man
 - (BL4) So, the Psychological Descendant Account is false
 
-**The Blackout Argument**
 :::
 
 The idea behind BL1 is that the conscious man has a wealth of sensations and
@@ -653,19 +653,18 @@ I turn now to a second argument against the Psychological Descendant Account,
 for which I will once again recruit the help of our neurotechnologist from
 @sec-body-swaps:
 
-:::{#exa-double-trouble .example}
+:::{#example-double-trouble .example}
+## DOUBLE TROUBLE {-}
 
-> 
-> Rachel's rewiring program has been tremendously successful, and she is now
-> performing dozens of body swaps a day. But she's starting to get a little
-> sloppy. Today, after rewiring Chad's brain to duplicate JoJo's, Rachel then
-> accidentally rewires Alex's brain to duplicate JoJo's as well. As a result,
-> both the person with Chad's original body and the person with Alex's original
-> body wake up and say 'my name is JoJo'. Both can tell you all about JoJo's
-> past; neither can tell you anything about Chad or Alex's past. Rachel's team
-> also accidently obliterates JoJo's original body.
+Rachel's rewiring program has been tremendously successful, and she is now
+performing dozens of body swaps a day. But she's starting to get a little
+sloppy. Today, after rewiring Chad's brain to duplicate JoJo's, Rachel then
+accidentally rewires Alex's brain to duplicate JoJo's as well. As a result,
+both the person with Chad's original body and the person with Alex's original
+body wake up and say 'my name is JoJo'. Both can tell you all about JoJo's
+past; neither can tell you anything about Chad or Alex's past. Rachel's team
+also accidently obliterates JoJo's original body.
 
- **DOUBLE TROUBLE**
 :::
 
 Figuratively speaking, JoJo's mind has "fissioned" like an amoeba, into two
@@ -687,7 +686,8 @@ the rewired brain in Chad's original body and "AlexRW" for the person with the
 rewired brain in Alex's original body. Now we can state the argument against
 the Psychological Descendant Account as follows:
 
-:::{#arg-FS .argument}
+:::{#argument-FS .argument}
+## The Fission Argument {-}
 
 - (FS1) If the Psychological Descendant Account is true, then JoJo is the same
   person as ChadRW *and* is the same person as AlexRW
@@ -698,7 +698,6 @@ the Psychological Descendant Account as follows:
 - (FS4) ChadRW is not the same person as AlexRW
 - (FS5) So the Psychological Descendant Account is false
 
-**The Fission Argument**
 :::
 
 Let's take the premises one at a time.
@@ -733,7 +732,7 @@ and JoJo = AlexRW, then ChadRW = AlexRW. That's what gives us FS2.
 Premise FS4 is motivated by a different logical principle, which I'll call
 'The No Difference Principle', or 'NDP' for short:
 
-::: {#def-NDP .thesis}
+::: {#thesis-NDP .thesis}
 The No Difference Principle (NDP)
 :   If A is numerically the same as B, then at any given time, anything that's
     true of A at that time is also true of B at that time
@@ -799,7 +798,7 @@ personal identity, namely that it's your *soul* that makes you the person that
 you are. In other words, one might embrace the Same Soul Account of personal
 identity:
 
-:::{#def-same-soul .thesis}
+:::{#thesis-same-soul .thesis}
 The Same Soul Account
 :   A at t is the same person as B at t\* if and only if A has the same soul as B
 :::
@@ -902,13 +901,13 @@ To quiet these concerns, I'll conclude this chapter by considering two ways of
 incorporating physical and psychological considerations into a single account:
 a Body-And-Mind Account and a Body-Or-Mind Account.
 
-:::{#def-body-and-mind .thesis}
+:::{#thesis-body-and-mind .thesis}
 The Body-And-Mind Account
 :   A at t is the same person as B at t\* if and only if A has the same body
     as B *and* A is a psychological ancestor or descendant of B
 :::
 
-:::{#def-body-or-mind .thesis}
+:::{#thesis-body-or-mind .thesis}
 The Body-Or-Mind Account
 :   A at t is the same person as B at t\* if and only if A has the same body
     as B *or* A is a psychological ancestor or descendant of B
@@ -998,16 +997,7 @@ without an answer to the question of personal identity.
 ## Sources {.unnumbered}
 
 The debate over personal identity largely traces back to John Locke's *Essay
-Concerning Human Understanding*, which advances a psychological account of
+Concerning Human Understanding*, [Book II, Chapter 27: "Of Identity and Diversity"](https://www.gutenberg.org/files/10615/10615-h/10615-h.htm#chap2.27), which advances a psychological account of
 personal identity and presents a version of the Body Swap Argument as well as
-an argument against the Same Soul Account. See Derek Parfit's "Personal
-Identity" for a classic discussion of fission cases, and see Heather
-Demarest's "Fission May Kill You" for an exploration of the "one person, two
-bodies" strategy. Here are some additional resources:
-
-<!--TODO: find a good source for Locke-->
-
-
-- Clarence Darrow: The Myth of Immortality (?)
-
-
+an argument against the Same Soul Account. See @parfit1971a for a classic discussion of fission cases, and see @demarest2016 for an exploration of the "one person, two
+bodies" strategy.

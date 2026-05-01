@@ -1,5 +1,4 @@
 ---
-bibliography: skepticism.json
 nocite: |
   @greco2014
   @greco2014a

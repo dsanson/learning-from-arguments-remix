@@ -3,7 +3,6 @@ nocite: |
   @adams2009; @adams2000; @antony2007; @chiang2002a; @clack2013;
   @ekstrom2004; @frances2013; @haslanger2013; @alimobini2013;
   @perkins2007; @perry1999; @rowe1979; @stump1985; @pike1965a
-bibliography: evil.json
 ---
 
 # Can God Allow Suffering? {#sec-can-god-allow-suffering}
@@ -48,12 +47,13 @@ hidden from us ([-@sec-hidden-reasons]).
 My argument that God doesn't exist is easy to state and highly
 intuitive:
 
-::: {#arg-AS .argument}
-- (AS1) There is suffering in the world
-- (AS2) If there is suffering in the world, then God does not exist
-- (AS3) So, God does not exist
+::: {#argument-AS .argument}
+## The Argument from Suffering {-}
 
-**The Argument from Suffering**
+- (AS1) There is suffering in the world.
+- (AS2) If there is suffering in the world, then God does not exist.
+- (AS3) So, God does not exist.
+
 :::
 
 By 'suffering', here, I mean any pain or discomfort that living beings
@@ -76,7 +76,7 @@ whatsoever on what she is able to do. So, if she noticed some suffering
 occurring, it would be entirely within her power to stop it if she
 wanted to. Since she is omnibenevolent, she would want the best for
 everyone. So, if she noticed some suffering occurring, she would want to
-prevent. It follows that she would prevent any suffering that she
+prevent it. It follows that she would prevent any suffering that she
 notices. But since she is omniscient, she knows absolutely everything;
 nothing that happens in the universe escapes her notice, and that
 includes all of our suffering. So, being an omnibeing, she would notice
@@ -153,13 +153,13 @@ we endure serves no conceivable purpose.
 Let us then replace the Argument from Suffering with the following
 Argument from *Pointless* Suffering:
 
-::: {#arg-PS .argument}
-- (PS1) There is pointless suffering in the world
-- (PS2) If there is pointless suffering in the world, then there is no
-  omnibeing
-- (PS3) So, there is no omnibeing
+::: {#argument-PS .argument}
+## The Argument from Pointless Suffering {-}
 
-**The Argument from Pointless Suffering**
+- (PS1) There is pointless suffering in the world.
+- (PS2) If there is pointless suffering in the world, then there is no
+  omnibeing.
+- (PS3) So, there is no omnibeing.
 :::
 
 PS1 is admittedly more controversial than AS1, since PS1 says not just
@@ -388,19 +388,19 @@ not. You should continue laughing.
 This suggests the following argument against appealing to hidden
 reasons:
 
-::: {#arg-DB .argument}
+::: {#argument-DB .argument}
+## The Argument for Disbelief {-}
 - (DB1) You should not believe that all the suffering in Nornia is
-  necessary for some unknown greater good that its ruler has in mind
+  necessary for some unknown greater good that its ruler has in mind.
 - (DB2) If you should not believe that all the suffering in Nornia is
   necessary for some unknown greater good that its ruler has in mind,
   then you should not believe that all the suffering in the actual world
   is necessary for some unknown greater good that an omnibeing has in
-  mind
+  mind.
 - (DB3) So, you should not believe that all the suffering in the actual
   world is necessary for some unknown greater good that an omnibeing has
-  in mind
+  in mind.
 
-**The Argument for Disbelief**
 :::
 
 DB1 is plausible. You can of course admit that it's *possible* that the

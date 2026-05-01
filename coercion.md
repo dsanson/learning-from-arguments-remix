@@ -1,5 +1,4 @@
 ---
-bibliography: coercion.json
 nocite: |
   @anderson2014a
   @boonin2008
@@ -43,7 +42,9 @@ and tax its citizens. To begin to see why it's not so obvious, notice how
 morally problematic it would be for an ordinary citizen to do more or less the
 same thing.
 
-::: {#exa-vigilante .example}
+::: {#example-vigilante .example}
+## VIGILANTE {-}
+
 Jasmine discovers that some con men have set up a fake charity and are
 conning some people in her neighborhood. She captures them at gunpoint,
 takes them to her basement, and plans to keep them there for a year as
@@ -54,7 +55,6 @@ her prisoners and that the rest will go towards a community gym to help keep
 troubled kids off the street. Those who do not comply are locked up in her
 basement with her other prisoners.
 
-**VIGILANTE**
 :::
 
 I'm going to go out on a limb here and say that what Jasmine is doing is
@@ -98,16 +98,17 @@ morally relevant.
 Now that I have explained the notion of a morally relevant difference, we are
 ready to see the argument:
 
-::: {#arg-TX .argument}
+::: {#argument-TX .argument}
+## Against Taxation and Imprisonment {-}
+
 - (TX1) If there is no morally relevant difference between two actions A and
-  B, and A is wrong, then B is wrong
-- (TX2) It is wrong for Jasmine to extort and kidnap her neighbors
+  B, and A is wrong, then B is wrong.
+- (TX2) It is wrong for Jasmine to extort and kidnap her neighbors.
 - (TX3) There is no morally relevant difference between Jasmine extorting and
   kidnapping her neighbors and the government taxing and imprisoning its
-  citizens
-- (TX4) So, it is wrong for the government to tax and imprison its citizens
+  citizens.
+- (TX4) So, it is wrong for the government to tax and imprison its citizens.
 
-**Against Taxation and Imprisonment**
 :::
 
 The idea behind TX1 is that, whenever there is some moral difference between
@@ -149,7 +150,9 @@ let's not forget that they will eventually come to your door with guns to take
 you to prison if you keep ignoring their polite reminders. With that in mind,
 let's revise the Jasmine case to tighten the analogy:
 
-::: {#exa-bureaucratic-vigilante .example}
+::: {#example-bureaucratic-vigilante .example}
+## BUREAUCRATIC VIGILANTE {-}
+
 Jasmine sends an email to all of her neighbors, informing them that they
 must each send her \$50 by April 15; that if they don't, they'll
 automatically be granted an extension, but will be charged a small late fee;
@@ -157,7 +160,6 @@ and that if they still don't pay, she will lock them in her basement. Some
 don't pay even by the extended deadline, and she shows up at their door,
 escorts them to her home at gunpoint, and locks them in her basement.
 
-**BUREAUCRATIC VIGILANTE**
 :::
 
 By revising the story so that Jasmine doesn't take their money at gunpoint but
@@ -174,7 +176,9 @@ serve as representatives of our interests, whereas Jasmine was not elected.
 This may indeed be a morally relevant difference, but we can again revise the
 case so as to circumvent it.
 
-::: {#exa-elected-vigilante .example}
+::: {#example-elected-vigilante .example}
+## ELECTED VIGILANTE {-}
+
 Jasmine plans to start taking prisoners and demanding \$50 at gunpoint from
 each of her neighbors to pay for the prisoners and a gym. Zhiwen thinks it
 would be better to demand \$75, with the additional \$25 going towards
@@ -184,7 +188,6 @@ set the policies for kidnapping and extortion. Many don't vote but, of those
 who do, the majority prefer Jasmine. Zhiwen accepts the results of the
 election, and Jasmine begins kidnapping and extorting her neighbors.
 
-**ELECTED VIGILANTE**
 :::
 
 It still seems as if Jasmine is doing something wrong. So TX2 remains true.
@@ -216,7 +219,9 @@ Furthermore, just because something would make the world a better place, that
 doesn't necessarily mean it's morally permissible for someone to bring it
 about. To see this, consider the following case:
 
-::: {#exa-saint-and-sinner .example}
+::: {#example-saint-and-sinner .example}
+## SAINT AND SINNER {-}
+
 A saint and a sinner both need a kidney transplant, but there is only one
 kidney available. The saint refuses it and insists that it be given to the
 sinner. The doctor, knowing that the world will be better off if the saint
@@ -225,7 +230,6 @@ gives her the kidney against her wishes and without her consent. The saint
 (who would otherwise have died) goes on to live a long life and does many
 saintly things.
 
-**SAINT AND SINNER**
 :::
 
 Surely you'll agree that it was morally impermissible for the doctor to force
@@ -250,7 +254,9 @@ Furthermore, even supposing that government owns the country, we can once
 again revise the case so as to circumvent the putative morally relevant
 difference:
 
-::: {#exa-landlord .example}
+::: {#example-landlord .example}
+## LANDLORD {-}
+
 Jasmine owns an apartment complex and discovers that some of her tenants
 have been conning some of the other tenants. She locks the con men in the
 basement of the complex, and plans to keep them there for a year as
@@ -258,7 +264,6 @@ punishment. Jasmine then demands an additional \$50 from each of her other
 tenants, to cover the expense of caring of her prisoners. Tenants who do not
 comply are locked in the basement with the other prisoners.
 
-**LANDLORD**
 :::
 
 It still seems as if Jasmine is doing something wrong. So TX2 remains true.
@@ -381,14 +386,15 @@ is not recognized.
 We can turn these observations into an argument that we have not tacitly
 consented to paying taxes and following the laws.
 
-::: {#arg-NC .argument}
-- (NC1) Someone tacitly consents to an arrangement only if (i) there is a
-  reasonable way to opt out and (ii) explicit refusal to opt in is recognized
-- (NC2) There is no reasonable way to opt out of paying taxes and following
-  laws, and explicit refusal to opt in is not recognized
-- (NC3) So, we have not tacitly consented to paying taxes and following laws
+::: {#argument-NC .argument}
+## No Consent {-}
 
-**No Consent**
+- (NC1) Someone tacitly consents to an arrangement only if (i) there is a
+  reasonable way to opt out and (ii) explicit refusal to opt in is recognized.
+- (NC2) There is no reasonable way to opt out of paying taxes and following
+  laws, and explicit refusal to opt in is not recognized.
+- (NC3) So, we have not tacitly consented to paying taxes and following laws.
+
 :::
 
 Since we have not tacitly consented to following the laws or being subjected
@@ -411,7 +417,9 @@ practices as well. Let's look at just one example: immigration.
 Once again, we'll start with a Jasmine case, and argue from there to a
 conclusion about immigration policy. Here is the case:
 
-::: {#exa-unwanted-visitors .example}
+::: {#example-unwanted-visitors .example}
+## UNWANTED VISITORS {-}
+
 Jasmine and her friends arrive at their neighborhood park for their weekly
 soccer game, only to find a group from another neighborhood already using
 the park for a game of their own. Guns drawn, she directs them into her van,
@@ -420,20 +428,20 @@ her basement if they ever return without first getting her permission. Some
 do ask for her permission, and most of the time she refuses. Some return
 without her permission, and she locks them in her basement.
 
-**UNWANTED VISITORS**
 :::
 
 And here is the argument:
 
-::: {#arg-OB .argument}
-- (OB1) If there is no morally relevant difference between two actions A and
-  B, and A is wrong, then B is wrong
-- (OB2) It is wrong for Jasmine to restrict access to the park
-- (OB3) There is no morally relevant difference between Jasmine restricting
-  access to the park and the government restricting access to the country
-- (OB4) So, it is wrong for the government to restrict access to the country
+::: {#argument-OB .argument}
+## The Argument for Open Borders {-}
 
-**The Argument for Open Borders**
+- (OB1) If there is no morally relevant difference between two actions A and
+  B, and A is wrong, then B is wrong.
+- (OB2) It is wrong for Jasmine to restrict access to the park.
+- (OB3) There is no morally relevant difference between Jasmine restricting
+  access to the park and the government restricting access to the country.
+- (OB4) So, it is wrong for the government to restrict access to the country.
+
 :::
 
 OB1 is the same as TX1, so no further defense is needed. OB2, I hope, is

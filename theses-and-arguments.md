@@ -8,16 +8,16 @@ This document is meant to be used as an easy reference for the key arguments and
 
 @sec-can-god-allow-suffering
 
-:::{#arg-}
+:::{#argument .argument}
+## @argument-AS: **The Argument from Suffering**
 
 - (AS1) There is suffering in the world
 - (AS2) If there is suffering in the world, then God does not exist
 - (AS3) So, God does not exist
 
-@arg-AS: **The Argument from Suffering**
 :::
 
-:::{#arg-PS-appendix .argument}
+:::{#argument-PS-appendix .argument}
 
 - (PS1) There is pointless suffering in the world
 - (PS2) If there is pointless suffering in the world, then there is no omnibeing
@@ -26,7 +26,7 @@ This document is meant to be used as an easy reference for the key arguments and
 **The Argument from Pointless Suffering**
 :::
 
-:::{#arg-DB-appendix .argument}
+:::{#argument-DB-appendix .argument}
 
 - (DB1) You should not believe that all the suffering in Nornia is necessary for some unknown greater good that its ruler has in mind
 - (DB2) If you should not believe that all the suffering in Nornia is necessary for some unknown greater good that its ruler has in mind, then you should not believe that all the suffering in the actual world is necessary for some unknown greater good that an omnibeing has in mind
@@ -37,7 +37,7 @@ This document is meant to be used as an easy reference for the key arguments and
 
  @sec-wager
 
-:::{#arg-BG-appendix .argument}
+:::{#argument-BG-appendix .argument}
 
 - (BG1) One should always choose the option with the greatest expected utility
 - (BG2) Believing in God has a greater expected utility than not believing in God
@@ -53,7 +53,7 @@ The Same Body Account
 :   A at t is the same person as B at t\* if and only if A has the same body as B
 :::
 
-:::{#arg-CT-appendix .argument}
+:::{#argument-CT-appendix .argument}
 
 - (CT1) If the Same Body Account is true, then *either* Abby and Brittany have different bodies or Abby and Brittany are the same person
 - (CT2) Abby and Brittany have the same body
@@ -63,7 +63,7 @@ The Same Body Account
 **The Conjoined Twins Argument**
 :::
 
-:::{#arg-BS-appendix .argument}
+:::{#argument-BS-appendix .argument}
 
 - (BS1) MaleT and MaleW have the same body
 - (BS2) If MaleT and MaleW have the same body, then: if the Same Body Account is true, then MaleT and MaleW are the same person
@@ -78,7 +78,7 @@ The Same Body Account
 :   A at t is the same person as B at t\* if and only if A is either a psychological ancestor or a psychological descendant of B.
 :::
 
-:::{#arg-BL-appendix .argument}
+:::{#argument-BL-appendix .argument}
 
 - (BL1) The unconscious man is not a psychological descendant of the conscious man
 - (BL2) If the unconscious man is not a psychological descendant of the conscious man, then: if the Psychological Descendant Account is true, then the conscious man is not the same person as the unconscious man
@@ -88,7 +88,7 @@ The Same Body Account
 **The Blackout Argument**
 :::
 
-:::{#arg-FS-appendix .argument}
+:::{#argument-FS-appendix .argument}
 
 - (FS1) If the Psychological Descendant Account is true, then JoJo is the same person as ChadRW *and* is the same person as AlexRW
 - (FS2) If JoJo is the same person as ChadRW and the same person as AlexRW, then ChadRW is the same person as AlexRW
@@ -101,7 +101,7 @@ The Same Body Account
 
  @sec-death
 
-:::{#arg-FD-appendix .argument}
+:::{#argument-FD-appendix .argument}
 
 - (FD1) You cease to be conscious when you die
 - (FD2) If you cease to be conscious when you die, then being dead is not bad for you
@@ -112,7 +112,7 @@ The Same Body Account
 **Against Fearing Death**
 :::
 
-:::{#arg-AH-appendix .argument}
+:::{#argument-AH-appendix .argument}
 
 - (AH1) If you cease to be conscious when you die, then being dead doesn't result in more pain than you would otherwise have had
 - (AH2) Something is bad for you if and only if it results in more pain than you would otherwise have had
@@ -123,7 +123,7 @@ The Same Body Account
 **The Argument from Hedonism**
 :::
 
-:::{#arg-UM-appendix .argument}
+:::{#argument-UM-appendix .argument}
 
 - (UM1) Carly would have had more pleasure had she not met Evan
 - (UM2) If Carly would have had more pleasure had she not met Evan, then: if HD\*\* is true, then meeting Evan was bad for her
@@ -133,7 +133,7 @@ The Same Body Account
 **The Unread Mail Argument**
 :::
 
-:::{#arg-PC-appendix .argument}
+:::{#argument-PC-appendix .argument}
 
 - (PC1) If Animal ceases to be conscious when you die *and* you are Animal, then you cease to be conscious when you die
 - (PC2) Animal ceases to be conscious when you die
@@ -143,7 +143,7 @@ The Same Body Account
 **Against Post-Mortem Consciousness**
 :::
 
-:::{#arg-TT-appendix .argument}
+:::{#argument-TT-appendix .argument}
 
 - (TT1) Animal is in your chair and is thinking
 - (TT2) You are the only thing in your chair that is thinking
@@ -154,7 +154,7 @@ The Same Body Account
 
  @sec-no-freedom
 
-:::{#arg-FR-appendix .argument}
+:::{#argument-FR-appendix .argument}
 
 - (FR1) Sometimes you perform an action after deciding to perform that action
 - (FR2) If one performs an action after deciding to perform it, then one performs that action freely
@@ -163,7 +163,7 @@ The Same Body Account
 **The Argument for Freedom**
 :::
 
-:::{#arg-DS-appendix .argument}
+:::{#argument-DS-appendix .argument}
 
 - (DS1) What you choose to do is always determined by your desires
 - (DS2) You can't control your desires
@@ -174,7 +174,7 @@ The Same Body Account
 **The Desire Argument**
 :::
 
-:::{#arg-DT-appendix .argument}
+:::{#argument-DT-appendix .argument}
 
 - (DT1) Determinism is true
 - (DT2) If determinism is true, then you are never able to do otherwise
@@ -184,7 +184,7 @@ The Same Body Account
 **The Argument from Determinism**
 :::
 
-:::{#arg-DM-appendix .argument}
+:::{#argument-DM-appendix .argument}
 
 - (DM1) If an action is determined to happen, then you couldn't have done otherwise
 - (DM2) If you couldn't have done otherwise, then the action is not free
@@ -196,7 +196,7 @@ The Same Body Account
 **The Doomed Regardless Argument**
 :::
 
-:::{#arg-CQ-appendix .argument}
+:::{#argument-CQ-appendix .argument}
 
 - (CQ1) If determinism is true, then what you do is always a consequence of the laws of nature and the distant past
 - (CQ2) You have no control over the laws of nature or the distant past
@@ -214,7 +214,7 @@ FLP
 :    Future states of the world will be like past states of the world
 :::
 
-:::{#arg-KF-appendix .argument}
+:::{#argument-KF-appendix .argument}
 
 - (KF1) If you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified
 - (KF2) You are not justified in believing that FLP is true
@@ -225,7 +225,7 @@ FLP
 **Against Knowing the Future**
 :::
 
-:::{#arg-FF-appendix .argument}
+:::{#argument-FF-appendix .argument}
 
 - (FF1) Your belief that the sun will set in the west tomorrow is based on FLP
 - (FF2) If a belief is based on something that you aren't justified in believing, then that belief itself is unjustified
@@ -234,7 +234,7 @@ FLP
 **The Faulty Foundation Argument**
 :::
 
-:::{#arg-UJ-appendix .argument}
+:::{#argument-UJ-appendix .argument}
 
 - (UJ1) If your belief in FLP is justified, then it is either justified by direct observation or by inductive reasoning
 - (UJ2) Your belief in FLP isn't justified by direct observation
@@ -244,7 +244,7 @@ FLP
 **FLP is Unjustified**
 :::
 
-:::{#arg-AC-appendix .argument}
+:::{#argument-AC-appendix .argument}
 
 - (AC1) All inductive reasoning about the future assumes the truth of FLP
 - (AC2) If all inductive reasoning about the future assumes the truth of FLP, then any inductive reasoning about FLP is circular
@@ -259,7 +259,7 @@ TDH
 :   You are currently lying down in bed dreaming about sitting down reading a philosophy textbook
 :::
 
-:::{#arg-DR-appendix .argument}
+:::{#argument-DR-appendix .argument}
 
 - (DR1) If you have no way of knowing that TDH is false, then you don't know that you're sitting down reading
 - (DR2) You have no way of knowing that TDH is false
@@ -268,7 +268,7 @@ TDH
 **The Dreaming Argument**
 :::
 
-:::{#arg-CH-appendix .argument}
+:::{#argument-CH-appendix .argument}
 
 - (CH1) One knows a certain thing only if one has some way of knowing that all competing hypotheses are false
 - (CH2) TDH is a hypothesis that competes with your belief that you're sitting down reading
@@ -277,7 +277,7 @@ TDH
 **The Competing Hypotheses Argument**
 :::
 
-:::{#arg-DE-appendix .argument}
+:::{#argument-DE-appendix .argument}
 
 - (DE1) If you know you're sitting down reading, you can deduce that TDH is false from things you know
 - (DE2) If you can deduce something from things you know, then you have a way of knowing that thing
@@ -286,7 +286,7 @@ TDH
 **The Argument from Deduction**
 :::
 
-:::{#arg-NE-appendix .argument}
+:::{#argument-NE-appendix .argument}
 
 - (NE1) If you have no evidence against something, then you have no way of knowing it's false
 - (NE2) You have no evidence against TDH
@@ -297,7 +297,7 @@ TDH
 
  @sec-coercion
 
-:::{#arg-TX-appendix .argument}
+:::{#argument-TX-appendix .argument}
 
 - (TX1) If there is no morally relevant difference between two actions A and B, and A is wrong, then B is wrong
 - (TX2) It is wrong for Jasmine to extort and kidnap her neighbors
@@ -307,7 +307,7 @@ TDH
 **Against Taxation and Imprisonment**
 :::
 
-:::{#arg-NC-appendix .argument}
+:::{#argument-NC-appendix .argument}
 
 - (NC1) Someone tacitly consents to an arrangement only if (i) there is a reasonable way to opt out and (ii) explicit refusal to opt in is recognized
 - (NC2) There is no reasonable way to opt out of paying taxes and following laws, and explicit refusal to opt in is not recognized
@@ -316,7 +316,7 @@ TDH
 **No Consent**
 :::
 
-:::{#arg-OB-appendix .argument}
+:::{#argument-OB-appendix .argument}
 
 - (OB1) If there is no morally relevant difference between two actions A and B, and A is wrong, then B is wrong
 - (OB2) It is wrong for Jasmine to restrict access to the park
@@ -328,7 +328,7 @@ TDH
 
  @sec-abortion
 
-:::{#arg-RL-appendix .argument}
+:::{#argument-RL-appendix .argument}
 
 - (RL1) Emm has a right to life
 - (RL2) If Emm has a right to life, then it is seriously immoral to deprive Emm of Taylor's womb
@@ -337,7 +337,7 @@ TDH
 **The Right to Life Argument**
 :::
 
-:::{#arg-RQ-appendix .argument}
+:::{#argument-RQ-appendix .argument}
 
 - (RQ1) If something (or someone) has a right to life, and it needs a certain something in order to survive, then it has a right to that thing
 - (RQ2) Emm needs Taylor's womb in order to survive
@@ -348,7 +348,7 @@ TDH
 **The Requirements of Life Argument**
 :::
 
-:::{#arg-VA-appendix .argument}
+:::{#argument-VA-appendix .argument}
 
 - (VA1) Maurissa has a right to life and needs Riley's blood in order to survive
 - (VA2) Maurissa does not have a right to Riley's blood
@@ -357,7 +357,7 @@ TDH
 **The Violinist Argument**
 :::
 
-:::{#arg-KR-appendix .argument}
+:::{#argument-KR-appendix .argument}
 
 - (KR1) Taylor freely chose to have sex and knew that this could lead to Emm using her womb
 - (KR2) Whenever someone freely does something and knows that it could lead to certain consequences, one consents to those consequences
@@ -369,7 +369,7 @@ TDH
 **The Known Risk Argument**
 :::
 
-:::{#arg-SF-appendix .argument}
+:::{#argument-SF-appendix .argument}
 
 - (SF1) It is seriously immoral to kill something (or someone) if killing it deprives it of a future like ours
 - (SF2) Killing Emm deprives Emm of a future like ours
@@ -378,7 +378,7 @@ TDH
 **The Simple FLO Argument**
 :::
 
-:::{#arg-MF-appendix .argument}
+:::{#argument-MF-appendix .argument}
 
 - (MF1) It is seriously immoral to kill something (or someone) if killing it deprives it of a future like ours *and* the killing does not involve any FLO-overriding factors
 - (MF2) Killing Emm deprives Emm of a future like ours
@@ -390,7 +390,7 @@ TDH
 
  @sec-eating-animals
 
-:::{#arg-PR-appendix .argument}
+:::{#argument-PR-appendix .argument}
 
 - (PR1) There have been people who eat meat throughout human history
 - (PR2) If there have been people doing a certain thing throughout human history, then it is morally permissible for you to do it
@@ -399,7 +399,7 @@ TDH
 **The Argument from Precedent**
 :::
 
-:::{#arg-NO-appendix .argument}
+:::{#argument-NO-appendix .argument}
 
 - (NO1) Other animals eat meat
 - (NO2) If other animals do something, then it's morally permissible for you to do it
@@ -408,7 +408,7 @@ TDH
 **The Natural Order Argument**
 :::
 
-:::{#arg-CP-appendix .argument}
+:::{#argument-CP-appendix .argument}
 
 - (CP1) You are naturally capable of eating meat
 - (CP2) If you are naturally capable of doing a certain thing, then it is morally permissible for you to do that thing
@@ -417,7 +417,7 @@ TDH
 **The Natural Capacity Argument**
 :::
 
-:::{#arg-NP-appendix .argument}
+:::{#argument-NP-appendix .argument}
 
 - (NP1) Eating meat is necessary for getting enough protein
 - (NP2) If doing something is necessary for getting enough protein, then it is morally permissible for you to do it
@@ -426,7 +426,7 @@ TDH
 **The Necessity of Protein Argument**
 :::
 
-:::{#arg-FP-appendix .argument}
+:::{#argument-FP-appendix .argument}
 
 - (FP1) If there is no morally relevant difference between two actions A and B, and A is immoral, then B is immoral
 - (FP2) What Fred does is immoral
@@ -443,7 +443,7 @@ Act Utilitarianism
 : Performing a certain action is the right thing to do if and only if it will have a more positive effect on overall levels of happiness than any other available action
 :::
 
-:::{#arg-OD-appendix .argument}
+:::{#argument-OD-appendix .argument}
 
 - (OD1) Killing Nick has a greater positive effect on overall levels of happiness than letting him live
 - (OD2) If killing Nick has a greater positive effect on overall levels of happiness than letting him live, then: if act utilitarianism is true, then killing Nick was the right thing to do
@@ -460,7 +460,7 @@ Rule Utilitarianism
     greatest positive effect on overall levels of happiness
 :::
 
-:::{#arg-TR-appendix .argument}
+:::{#argument-TR-appendix .argument}
 
 - (TR1) If there is no morally relevant difference between two actions A and B, and A is the right thing to do, then B is the right thing to do
 - (TR2) Diverting the trolley was the right thing to do

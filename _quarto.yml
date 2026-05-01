@@ -34,27 +34,44 @@ book:
   repo-url: https://github.com/dsanson/learning-from-arguments-remix
   repo-actions: [issue, source]
 
+bibliography: [refs.json]
+citeproc: true
+reference-location: section
+
+filters:
+  - label-bullets.lua
+  - custom-callout
+
+custom-callout:
+  argument:
+    icon-symbol: "🥊"
+    color: "yellow"
+    appearance: "minimal"
+  example:
+    icon-symbol: "💭"
+    color: "purple"
+    appearance: "minimal"
+
+tbl-cap-location: bottom
+crossref:
+  tbl-title: Matrix
+  tbl-prefix: Matrix
+  def-title: T
+  def-prefix: T
+  custom:
+  - caption-location: top
+    key: arg
+    kind: float
+    reference-prefix: "A"
+    space-before-numbering: false
+  - caption-location: top
+    key: exa
+    kind: float
+    reference-prefix: "TE" 
+    space-before-numbering: false
+
 format:
   html:
-    tbl-cap-location: bottom
-    crossref:
-      tbl-title: Matrix
-      tbl-prefix: Matrix
-      def-title: T
-      def-prefix: T
-      custom:
-      - caption-location: top
-        key: arg
-        kind: float
-        reference-prefix: "A"
-        space-before-numbering: false
-      - caption-location: top
-        key: exa
-        kind: float
-        reference-prefix: "TE" 
-        space-before-numbering: false
-
-    reference-location: section
     format-links: [epub,typst]
     respect-user-color-scheme: true
     theme:
@@ -64,60 +81,12 @@ format:
       dark: 
         - darkly
         - custom.scss
+
   epub:
-    tbl-cap-location: bottom
-    crossref:
-      tbl-title: Matrix
-      tbl-prefix: Matrix
-      custom:
-      - caption-location: top
-        key: arg
-        kind: float
-        reference-prefix: "Argument"
-        space-before-numbering: true
-      - caption-location: top
-        key: exa
-        kind: float
-        reference-prefix: "Thought Experiment" 
-        space-before-numbering: true
-    reference-location: section
     css: epub.css
+
   typst:
-    tbl-cap-location: bottom
-    crossref:
-      tbl-title: Matrix
-      tbl-prefix: Matrix
-      def-title: T
-      def-prefix: T
-      custom:
-      - caption-location: top
-        key: arg
-        kind: float
-        reference-prefix: "A"
-        space-before-numbering: false
-      - caption-location: top
-        key: exa
-        kind: float
-        reference-prefix: "TE" 
-        space-before-numbering: false
-
-  # pdf:
-  #   documentclass: scrreprt
-  #   tbl-cap-location: bottom
-  #   crossref:
-  #     tbl-title: Matrix
-  #     tbl-prefix: Matrix
-  #     custom:
-  #     - caption-location: top
-  #       key: arg
-  #       kind: float
-  #       reference-prefix: "Argument"
-  #       space-before-numbering: true
-  #     - caption-location: top
-  #       key: exa
-  #       kind: float
-  #       reference-prefix: "Thought Experiment" 
-  #       space-before-numbering: true
-  #   reference-location: section
-
-
+    citeproc: true
+    bibliography: [refs.json]
+    cite-method: citeproc
+    pdf-standard: ua-1

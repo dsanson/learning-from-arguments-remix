@@ -19,10 +19,26 @@ figure.quarto-float-exa {
   }
 }
 
+/* formatting of labeled list items */
+
+ul:has(.li-label) {
+  margin-left: 1em;
+}
+li:has(.li-label) { 
+  list-style: none;
+  position: relative;
+  text-indent: -2em;
+}
+.li-label {
+  margin-right: 0.5em; 
+}
+
+
 /* argument formatting */
 figure.quarto-float-arg,
 figure.quarto-float-exa,
-.definition {
+.definition,
+.callout {
   text-align: left;
   border: thin solid lightgray;
   border-radius: .5em;
@@ -50,6 +66,16 @@ figure.quarto-float-exa,
     margin-bottom: 0;
   }
 
+
+  li:has(.li-label) { 
+    list-style: none;
+    position: relative;
+    text-indent: -2em;
+  }
+  .li-label {
+    margin-right: 0.5em; 
+  }
+
   ul > li {
     list-style: none;
     text-indent: -2em;
@@ -60,30 +86,6 @@ figure.quarto-float-exa,
   }
 }
 
-
-// /* argument formatting */
-//
-// figure.quarto-float-arg {
-//
-//   padding-left: 1em;
-//
-//   figcaption {
-//     margin-bottom: .5em;
-//   };
-//   &> div > ul {
-//     text-align: left;
-//   }
-//
-//   &> p {
-//     margin-bottom: 0;
-//   }
-//
-//   li {
-//     list-style: none;
-//     padding-left: 1em;
-//     text-indent: -3em;
-//   }
-// }
 
 /* thesis formatting */
 .thesis li {

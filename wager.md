@@ -2,7 +2,6 @@
 nocite: |
   @alam2017 @bostrom2009 @garber2009 @hayek2015 @buchak2018 @jackson2019
   @lycan1971 @rota2016 @pascal1995 @donaldson2013 @rinard2017
-bibliography: wager.json
 ---
 
 
@@ -126,10 +125,10 @@ To make this a bit more concrete, let's suppose that in the crush case
 the eventualities are ranked from best to worst as follows (where a
 higher number represents a better eventuality):
 
-- 4: Confess your feelings and he's into you
-- 3: Don't confess your feelings and he's not into you
-- 2: Confess your feelings and he's not into you
-- 1: Don't confess your feelings and he is into you
+- \(4) Confess your feelings and he's into you
+- \(3) Don't confess your feelings and he's not into you
+- \(2) Confess your feelings and he's not into you
+- \(1) Don't confess your feelings and he is into you
 
 And let's suppose you think there's about a 75% chance that he likes you
 back. Then the matrix would look like this:
@@ -192,14 +191,15 @@ expected utility of not telling him (1.5).
 
 This gives us an argument for confessing your feelings:
 
-::: {#arg-CF .argument}
-- (CF1) One should always choose the option with the greatest expected
-  utility
-- (CF2) Confessing your feelings has a greater expected utility than not
-  confessing
-- (CF3) So, you should confess your feelings
+::: {.argument}
+## The Argument for Confessing Feelings {-}
 
-**The Argument for Confessing Feelings**
+- (CF1) One should always choose the option with the greatest expected
+  utility.
+- (CF2) Confessing your feelings has a greater expected utility than not
+  confessing.
+- (CF3) So, you should confess your feelings.
+
 :::
 
 Premise CF1 is justified by the fact that, in ordinary cases like this,
@@ -273,14 +273,15 @@ utility, and---*voilà!*---now you know what you should do.
 This same sort of reasoning from expected utilities can be put to work
 in an argument that you ought to believe in God:
 
-::: {#arg-BG .argument}
-- (BG1) One should always choose the option with the greatest expected
-  utility
-- (BG2) Believing in God has a greater expected utility than not
-  believing in God
-- (BG3) So you should believe in God
+::: {.argument}
+## The Argument for Betting on God {-}
 
-**The Argument for Betting on God**
+- (BG1) One should always choose the option with the greatest expected
+  utility.
+- (BG2) Believing in God has a greater expected utility than not
+  believing in God.
+- (BG3) So you should believe in God.
+
 :::
 
 Premise BG1---which is exactly the same as CF1 above---is justified by
@@ -607,14 +608,15 @@ can't be done.
 We can now revise the original Argument for Betting on God to reflect
 the fact that changing your beliefs takes some effort.
 
-::: {#arg-TB .argument}
-- (TB1) One should always choose the option with the greatest expected
-  utility
-- (TB2) Making an effort to believe in God has greater expected utility
-  than not making an effort to believe in God
-- (TB3) So, one should make an effort to believe in God
+::: {.argument}
+## The Argument for Trying to Believe {-}
 
-**The Argument for Trying to Believe**
+- (TB1) One should always choose the option with the greatest expected
+  utility.
+- (TB2) Making an effort to believe in God has greater expected utility
+  than not making an effort to believe in God.
+- (TB3) So, one should make an effort to believe in God.
+
 :::
 
 We have already seen the argument for TB1 (a.k.a. BG1), and I'll leave
