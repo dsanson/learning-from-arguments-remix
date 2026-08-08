@@ -11,7 +11,6 @@ book:
     - part: Preface
       chapters:
       - index.md
-      - README.md
       - preface-students.md
       - preface-instructors.md
     - part: Chapters

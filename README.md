@@ -1,10 +1,7 @@
 ## README {-}
 
-
-This is a hacked up version of @korman2022. The original PDF version of Korman's book, without my changes,
-is available on [PhilPapers](https://philarchive.org/rec/KORLFA).
-
-### License
+This is a hacked up version of Dan Korman's intro philosophy textbook, *Learning from Arguments*. The original PDF version of Korman's book
+is available on [PhilPapers](https://philarchive.org/rec/KORLFA). 
 
 Korman's book was published "open access" by the PhilPapers Foundation, under a [CC BY-NC] license. 
 This license allows users to copy and redistribute the
@@ -20,9 +17,14 @@ provide a link to the license, and indicate if changes were made.
 
 The cover of Korman's book features a lovely portrait of the philosopher Ruth
 Barcan Marcus, entitled "Converse Formula," by the philosopher and artist [Renée
-Jørgensen](https://www.reneebolinger.com/). I see no reason to think that
-permission to use this painting was meant to be included in the CC BY-NC license
-that covers the book. I have removed it from this hacked up version.
+Jørgensen](https://www.reneebolinger.com/). You can see the portrait on her
+[Philosophy Portraits page](https://www.reneebolinger.com/portraits.html). I see
+no reason to think that permission to use this painting was included in the CC
+BY-NC license that covers the book. I have removed it from this hacked up
+version.
+
+![](media/by-nc.png){fig-align="center" width="100" fig-alt="CC BY NC license badge"}
+
 
 ### Changes
 
@@ -97,7 +99,6 @@ is wonky, and I have disabled their download links.
   - [ ] include links
   - [ ] decide how to handle historical sources.
 
-### References
 
 <!--
 ## Ideas for Additional Chapters
