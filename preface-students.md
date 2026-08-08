@@ -1,16 +1,74 @@
 # Preface for Students {-}
 
-I'm going to argue that you have no free will. I'm going to argue for some other surprising things too, for instance that death isn't bad for you, taxation is immoral, and you can't know anything whatsoever about the world around you. I'm also going to argue for some things you're probably not going to like: that abortion is immoral, you shouldn't eat meat, and God doesn't exist.
+I'm going to argue that you have no free will. I'm going to argue for some other
+surprising things too, for instance that death isn't bad for you, taxation is
+immoral, and you can't know anything whatsoever about the world around you. I'm
+also going to argue for some things you're probably not going to like: that
+abortion is immoral, you shouldn't eat meat, and God doesn't exist.
 
-The arguments aren't my own. I didn't come up with them. I don't even accept all of them: there are two chapters whose conclusions I accept, three I'm undecided about, and five I'm certain can't be right. (I'll let you guess which are which.) This isn't merely for the sake of playing devil's advocate. Rather, the idea is that the best way to appreciate what's at stake in philosophical disagreements is to study and engage with serious arguments against the views you'd like to hold.
+The arguments aren't my own. I didn't come up with them. I don't even accept all
+of them: there are two chapters whose conclusions I accept, three I'm undecided
+about, and five I'm certain can't be right. (I'll let you guess which are
+which.) This isn't merely for the sake of playing devil's advocate. Rather, the
+idea is that the best way to appreciate what's at stake in philosophical
+disagreements is to study and engage with serious arguments against the views
+you'd like to hold.
 
-Each chapter offers a sustained argument for some controversial thesis, specifically written for an audience of beginners. The aim is to introduce newcomers to the dynamics of philosophical argumentation, using some of the arguments standardly covered in an introductory philosophy course, but without the additional hurdles one encounters when reading the primary sources of the arguments: challenging writing, obscure jargon, and references to unfamiliar books, philosophers, or schools of thought.
+Each chapter offers a sustained argument for some controversial thesis,
+specifically written for an audience of beginners. The aim is to introduce
+newcomers to the dynamics of philosophical argumentation, using some of the
+arguments standardly covered in an introductory philosophy course, but without
+the additional hurdles one encounters when reading the primary sources of the
+arguments: challenging writing, obscure jargon, and references to unfamiliar
+books, philosophers, or schools of thought.
 
-The different chapters aren't all written from the *same* perspective. This is obvious from a quick glance at the opening chapters: the first chapter argues that you shouldn't believe in God, while the second argues that you should. You'll also find that chapters 3 and 4 contain arguments pointing to different conclusions about the relationship between people and their bodies, and chapter 7 contains arguments against the very theory of morality that's defended in chapter 10. So, you will be exposed to a variety of different philosophical perspectives, and you should be on the lookout for ways in which the arguments in one chapter provide the resources for resisting arguments in other chapters.
+The different chapters aren't all written from the *same* perspective. This is
+obvious from a quick glance at the opening chapters: the first chapter argues
+that you shouldn't believe in God, while the second argues that you should.
+You'll also find that chapters 3 and 4 contain arguments pointing to different
+conclusions about the relationship between people and their bodies, and chapter
+7 contains arguments against the very theory of morality that's defended in
+chapter 10. So, you will be exposed to a variety of different philosophical
+perspectives, and you should be on the lookout for ways in which the arguments
+in one chapter provide the resources for resisting arguments in other chapters.
 
-And while there are chapters arguing both for and against belief in God, that isn't the case for other topics we'll cover. For instance, there's a chapter arguing that you don't have free will, but no chapter arguing that you *do* have free will. That doesn't mean that you'll only get to hear one side of the argument. Along the way you will be exposed to many of the standard objections to the views and arguments I'm advancing, and you can decide for yourself whether those objections are convincing. Those who need help finding the flaws in the reasoning (or ideas for paper topics) can look to the reflection questions at the end of each chapter for some clues.
+And while there are chapters arguing both for and against belief in God, that
+isn't the case for other topics we'll cover. For instance, there's a chapter
+arguing that you don't have free will, but no chapter arguing that you *do* have
+free will. That doesn't mean that you'll only get to hear one side of the
+argument. Along the way you will be exposed to many of the standard objections
+to the views and arguments I'm advancing, and you can decide for yourself
+whether those objections are convincing. Those who need help finding the flaws
+in the reasoning (or ideas for paper topics) can look to the reflection
+questions at the end of each chapter for some clues.
 
-As I said, the arguments advanced in the book are not my own, and at the end of each chapter I point out the original sources of the arguments. In some chapters, the central arguments have a long history, and the formulations I use can't be credited to any one philosopher in particular. Other chapters, however, are more directly indebted to the work of specific contemporary philosophers, reproducing the contents of their books and articles (though often with some modifications and simplifications). In particular, chapter 7 closely follows the opening chapters of Michael Huemer's *The Problem of Political Authority*; chapter 8 reproduces the central arguments of Judith Jarvis Thomson's "A Defense of Abortion" and Don Marquis's "Why Abortion is Immoral"; and chapter 9 draws heavily from Dan Lowe's "Common Arguments for the Moral Acceptability of Eating Meat" and Alastair Norcross's "Puppies, Pigs, and People."
+As I said, the arguments advanced in the book are not my own, and at the end of
+each chapter I point out the original sources of the arguments. In some
+chapters, the central arguments have a long history, and the formulations I use
+can't be credited to any one philosopher in particular. Other chapters, however,
+are more directly indebted to the work of specific contemporary philosophers,
+reproducing the contents of their books and articles (though often with some
+modifications and simplifications). In particular, chapter 7 closely follows the
+opening chapters of Michael Huemer's *The Problem of Political Authority*;
+chapter 8 reproduces the central arguments of Judith Jarvis Thomson's "A Defense
+of Abortion" and Don Marquis's "Why Abortion is Immoral"; and chapter 9 draws
+heavily from Dan Lowe's "Common Arguments for the Moral Acceptability of Eating
+Meat" and Alastair Norcross's "Puppies, Pigs, and People."
 
-I'm grateful to Jeff Bagwell, Jacob Berger, Matt Davidson, Nikki Evans, Jason Fishbein, Bill Hartmann, Colton Heiberg, Will Huesser, İrem Kurtsal, Leo Iacono, Jeonggyu Lee, Clayton Littlejohn, Neil Manson, David Mokriski, Charles Perkins, Seán Pierce, Ryan Ross, David Shoemaker, Neil Sinhababu, Dan Sturgis, Joshua Tepley, and Travis Timmerman for helpful suggestions, and to the Facebook Hivemind for help selecting the further readings for the various chapters. Special thanks are due to Chad Carmichael, David King, Jonathan Livengood, and Daniel Story for extensive feedback on earlier drafts of the textbook, and to the students in my 2019 Freshman Seminar: Shreya Acharya, Maile Buckman, Andrea Chavez, Dylan Choi, Lucas Goefft, Mino Han, PK Kottapalli, Mollie Kraus, Mia Lombardo, Dean Mantelzak, Sam Min, Vivian Nguyen, Ariana Pacheco Lara, Kaelen Perrochet, Rijul Singhal, Austin Tam, Jennifer Vargas, Kerry Wang, and Lilly Witonsky. Finally, thanks to Renée Jorgensen for permission to use her portrait of the great 20th century philosopher and logician Ruth Barcan Marcus on the cover. You can see more of her portraits of philosophers here: www.reneebolinger.com/portraits.html
+I'm grateful to Jeff Bagwell, Jacob Berger, Matt Davidson, Nikki Evans, Jason
+Fishbein, Bill Hartmann, Colton Heiberg, Will Huesser, İrem Kurtsal, Leo Iacono,
+Jeonggyu Lee, Clayton Littlejohn, Neil Manson, David Mokriski, Charles Perkins,
+Seán Pierce, Ryan Ross, David Shoemaker, Neil Sinhababu, Dan Sturgis, Joshua
+Tepley, and Travis Timmerman for helpful suggestions, and to the Facebook
+Hivemind for help selecting the further readings for the various chapters.
+Special thanks are due to Chad Carmichael, David King, Jonathan Livengood, and
+Daniel Story for extensive feedback on earlier drafts of the textbook, and to
+the students in my 2019 Freshman Seminar: Shreya Acharya, Maile Buckman, Andrea
+Chavez, Dylan Choi, Lucas Goefft, Mino Han, PK Kottapalli, Mollie Kraus, Mia
+Lombardo, Dean Mantelzak, Sam Min, Vivian Nguyen, Ariana Pacheco Lara, Kaelen
+Perrochet, Rijul Singhal, Austin Tam, Jennifer Vargas, Kerry Wang, and Lilly
+Witonsky. Finally, thanks to Renée Jorgensen for permission to use her portrait
+of the great 20th century philosopher and logician Ruth Barcan Marcus on the
+cover. You can see more of her portraits of philosophers here:
+www.reneebolinger.com/portraits.html
 

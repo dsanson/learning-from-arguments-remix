@@ -121,10 +121,12 @@ editing rough drafts; I identify some criteria that philosophy instructors
 commonly use when evaluating papers; and I explain the difference between
 consulting online sources and plagiarizing them.
 
+<!--
 In @sec-theses-and-arguments, I collect together the key arguments and
 theses discussed in the book. Readers may find it helpful to have a printed
 copy of this appendix at hand, or have it open in a separate tab, while
 reading through the chapters.
+-->
 
 ## The Elements of Arguments {#sec-the-elements-of-arguments}
 
@@ -139,7 +141,7 @@ the ultimate conclusion of the argument.
 
 As an illustration, consider the following argument:
 
-:::{#argument-FD-copy .argument}
+:::{#argument-FD .argument}
 ## Against Fearing Death {-}
 
 - (FD1) You cease to be conscious when you die
@@ -151,7 +153,7 @@ As an illustration, consider the following argument:
 
 :::
 
-@arg-FD The argument has three premises: FD1, FD2, and FD4. FD5 is the conclusion of
+The argument has three premises: FD1, FD2, and FD4. FD5 is the conclusion of
 the argument, since that's what the argument is ultimately trying to
 establish. FD3 is a subconclusion. It isn't *the* conclusion, since the
 ultimate goal of the argument is to establish that you shouldn't fear death,
@@ -642,7 +644,7 @@ which the fact that something has a beating heart makes it wrong to kill that
 thing. Suppose, though, that this were put forward merely as a useful, but not
 exceptionless, rule of thumb: that it's typically wrong to kill things with
 beating hearts. In that case, even if I could convince you beyond any doubt
-that it's typically wrong to kill things with heartbeats and that sixweek-old
+that it's typically wrong to kill things with heartbeats and that six week-old
 embryos have a heartbeat, that would not yet settle the question of whether
 it's wrong to kill them. After all, maybe embryos are one of the exceptions to
 the rule, one of the atypical cases where it's okay to kill something that has
@@ -687,10 +689,10 @@ assumptions using rational argumentation alone. (Though this doesn't mean that
 philosophical argumentation *can't* be informed by scientific discoveries and
 other worldly observations.) As Delia Graff Fara puts it,
 
-"By doing philosophy we can discover eternal and mind-independent truths about
+> By doing philosophy we can discover eternal and mind-independent truths about
 the nature of the world by investigating our own conceptions of it, and by
 subjecting our most commonly or firmly held beliefs to what would otherwise be
-perversely strict scrutiny."
+perversely strict scrutiny.
 
 After finishing this book, I think you'll have a pretty good sense of what
 Professor Fara means by "perversely strict scrutiny." And I don't think she

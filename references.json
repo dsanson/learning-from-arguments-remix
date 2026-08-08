@@ -1,5 +1,70 @@
 [
   {
+    "id": "adams2000",
+    "author": [
+      {
+        "family": "Adams",
+        "given": "Marilyn McCord"
+      }
+    ],
+    "citation-key": "adams2000",
+    "ISBN": "978-0-8014-8686-9",
+    "issued": {
+      "date-parts": [
+        [
+          "2000"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "240",
+    "publisher": "Cornell University Press",
+    "publisher-place": "Ithaca, N.Y.",
+    "title": "Horrendous Evils and the Goodness of God",
+    "type": "book"
+  },
+  {
+    "id": "adams2009",
+    "author": [
+      {
+        "family": "Adams",
+        "given": "Marilyn McCord"
+      }
+    ],
+    "citation-key": "adams2009",
+    "collection-title": "Philosophy Bites",
+    "guest": [
+      {
+        "family": "Adams",
+        "given": "Marilyn McCord"
+      }
+    ],
+    "host": [
+      {
+        "family": "Edmonds",
+        "given": "David"
+      },
+      {
+        "family": "Warburton",
+        "given": "Nigel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2009",
+          7,
+          12
+        ]
+      ]
+    },
+    "language": "en-GB",
+    "number": "103",
+    "title": "Marilyn McCord Adams on Evil",
+    "type": "broadcast",
+    "URL": "https://philosophybites.com/podcast/marilyn-mccord-adams-on-evil/"
+  },
+  {
     "id": "alam2017",
     "author": [
       {
@@ -9,6 +74,7 @@
     ],
     "citation-key": "alam2017",
     "container-title": "Islamic Studies",
+    "container-title-short": "Islam. Stud.",
     "ISSN": "0578-8072",
     "issue": "1/2",
     "issued": {
@@ -25,6 +91,35 @@
     "type": "article-journal",
     "URL": "https://www.jstor.org/stable/26617637",
     "volume": "56"
+  },
+  {
+    "id": "alimobini2013",
+    "author": [
+      {
+        "family": "Ali Mobini",
+        "given": "Mohammad"
+      }
+    ],
+    "citation-key": "alimobini2013",
+    "container-title": "The Blackwell Companion to the Problem of Evil",
+    "DOI": "10.1002/9781118608005.ch20",
+    "ISBN": "978-1-118-60800-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "296–308",
+    "publisher": "Wiley",
+    "section": "20",
+    "source": "Wiley Online Library",
+    "title": "Earth's epistemic fruits for harmony with God: an Islamic theodicy",
+    "title-short": "Earth's Epistemic Fruits for Harmony with God",
+    "type": "chapter",
+    "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118608005.ch20"
   },
   {
     "id": "allanimalsaustralia2014",
@@ -49,6 +144,35 @@
     "title-short": "Debunking “Ordering the vegetarian meal?",
     "type": "post-weblog",
     "URL": "https://allanimalsaustralia.wordpress.com/2014/11/12/debunking-ordering-the-vegetarian-meal-theres-more-animal-blood-on-your-hands/"
+  },
+  {
+    "id": "antony2007",
+    "author": [
+      {
+        "family": "Antony",
+        "given": "Louise"
+      }
+    ],
+    "citation-key": "antony2007",
+    "container-title": "Philosophers without gods",
+    "editor": [
+      {
+        "family": "Antony",
+        "given": "Louise M."
+      }
+    ],
+    "ISBN": "978-0-19-517307-9",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "title": "For the love of reason",
+    "type": "chapter"
   },
   {
     "id": "archer2011",
@@ -77,26 +201,6 @@
     "URL": "http://theconversation.com/ordering-the-vegetarian-meal-theres-more-animal-blood-on-your-hands-4659"
   },
   {
-    "id": "baier1991",
-    "author": [
-      {
-        "family": "Baier",
-        "given": "Annette C."
-      }
-    ],
-    "citation-key": "baier1991",
-    "collection-title": "Tanner Lectures on Human Values",
-    "issued": {
-      "date-parts": [
-        [
-          "1991"
-        ]
-      ]
-    },
-    "title": "Trust",
-    "type": "book"
-  },
-  {
     "id": "bostrom2009",
     "author": [
       {
@@ -106,7 +210,6 @@
     ],
     "citation-key": "bostrom2009",
     "container-title": "Analysis",
-    "container-title-short": "Analysis",
     "DOI": "10.1093/analys/anp062",
     "ISSN": "0003-2638",
     "issue": "3",
@@ -127,6 +230,127 @@
     "volume": "69"
   },
   {
+    "id": "breyer2019",
+    "citation-key": "breyer2019",
+    "director": [
+      {
+        "family": "Breyer",
+        "given": "Daniel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "language": "en",
+    "title": "Understanding the dark side of human nature",
+    "type": "motion_picture",
+    "URL": "https://shop.thegreatcourses.com/understanding-the-dark-side-of-human-nature"
+  },
+  {
+    "id": "buchak2018",
+    "author": [
+      {
+        "family": "Buchak",
+        "given": "Lara"
+      }
+    ],
+    "call-number": "BD21 .N67 2018",
+    "citation-key": "buchak2018",
+    "container-title": "The Norton introduction To philosophy",
+    "edition": "Second edition",
+    "editor": [
+      {
+        "family": "Rosen",
+        "given": "Gideon A."
+      },
+      {
+        "family": "Byrne",
+        "given": "Alex"
+      },
+      {
+        "family": "Cohen",
+        "given": "Joshua"
+      },
+      {
+        "family": "Shiffrin",
+        "given": "Seana Valentine"
+      }
+    ],
+    "ISBN": "978-0-393-62442-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "115--128",
+    "publisher": "W.W. Norton & Company",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "When is faith rational?",
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/6QKTAHRK?page=170&annotation=D83AV4Z2"
+  },
+  {
+    "id": "chiang2002a",
+    "author": [
+      {
+        "family": "Chiang",
+        "given": "Ted"
+      }
+    ],
+    "citation-key": "chiang2002a",
+    "container-title": "Stories of Your Life and Others",
+    "ISBN": "978-1-4050-4102-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2002"
+        ]
+      ]
+    },
+    "language": "en",
+    "note": "Item ID: _:n1",
+    "publisher": "Tor",
+    "title": "Hell is the Absence of God",
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/3SRAMB9D?page=NaN&annotation=BFHRT3NI"
+  },
+  {
+    "id": "clack2013",
+    "author": [
+      {
+        "family": "Clack",
+        "given": "Beverley"
+      }
+    ],
+    "citation-key": "clack2013",
+    "container-title": "The Blackwell Companion to the Problem of Evil",
+    "DOI": "10.1002/9781118608005.ch22",
+    "ISBN": "978-1-118-60800-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "326–339",
+    "publisher": "Wiley",
+    "section": "22",
+    "source": "Wiley Online Library",
+    "title": "Feminism and the problem of evil",
+    "type": "chapter",
+    "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118608005.ch22"
+  },
+  {
     "id": "demarest2016",
     "author": [
       {
@@ -136,6 +360,7 @@
     ],
     "citation-key": "demarest2016",
     "container-title": "Philosophy and Phenomenological Research",
+    "container-title-short": "Philos. Phenomenol. Res.",
     "DOI": "10.1111/phpr.12192",
     "ISSN": "1933-1592",
     "issue": "3",
@@ -213,6 +438,37 @@
     "type": "chapter"
   },
   {
+    "id": "ekstrom2004",
+    "author": [
+      {
+        "family": "Ekstrom",
+        "given": "Laura W."
+      }
+    ],
+    "citation-key": "ekstrom2004",
+    "container-title": "Christian Faith and the problem of evil",
+    "editor": [
+      {
+        "family": "Inwagen",
+        "given": "Peter",
+        "dropping-particle": "van"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    },
+    "page": "95–110",
+    "publisher": "Grand Rapids, MI",
+    "publisher-place": "Wm B. Eerdmans",
+    "source": "PhilPapers",
+    "title": "Suffering as religious experience",
+    "type": "chapter"
+  },
+  {
     "id": "feldman1994",
     "author": [
       {
@@ -229,7 +485,7 @@
         ]
       ]
     },
-    "language": "eng",
+    "language": "en",
     "number-of-pages": "1",
     "publisher": "Oxford University Press",
     "publisher-place": "New York",
@@ -248,6 +504,7 @@
     ],
     "citation-key": "foot1967",
     "container-title": "Oxford Review",
+    "container-title-short": "Oxf. Rev.",
     "issued": {
       "date-parts": [
         [
@@ -263,6 +520,54 @@
     "volume": "5"
   },
   {
+    "id": "frances2013",
+    "author": [
+      {
+        "family": "Frances",
+        "given": "Bryan"
+      }
+    ],
+    "citation-key": "frances2013",
+    "ISBN": "978-0-415-66296-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "208",
+    "publisher": "Routledge",
+    "publisher-place": "New York",
+    "title": "Gratuitous Suffering and the Problem of Evil",
+    "type": "book"
+  },
+  {
+    "id": "frankfurt1964a",
+    "author": [
+      {
+        "family": "Frankfurt",
+        "given": "Harry G"
+      }
+    ],
+    "citation-key": "frankfurt1964a",
+    "container-title": "Philosophical Review",
+    "container-title-short": "Philos. Rev.",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "1964"
+        ]
+      ]
+    },
+    "page": "262–263",
+    "title": "The logic of omnipotence",
+    "type": "article-journal",
+    "volume": "73"
+  },
+  {
     "id": "frankfurt1969",
     "author": [
       {
@@ -272,6 +577,7 @@
     ],
     "citation-key": "frankfurt1969",
     "container-title": "Journal of Philosophy",
+    "container-title-short": "J. Philos.",
     "DOI": "10.2307/2023833",
     "issue": "23",
     "issued": {
@@ -304,7 +610,7 @@
         ]
       ]
     },
-    "language": "English",
+    "language": "en",
     "number-of-pages": "248",
     "publisher": "Rowman & Littlefield",
     "publisher-place": "Lanham, Md",
@@ -329,7 +635,7 @@
         ]
       ]
     },
-    "language": "eng",
+    "language": "en",
     "note": "Open Library ID: OL22853161M",
     "publisher": "Marquette University Press",
     "publisher-place": "Milwaukee",
@@ -356,7 +662,7 @@
         ]
       ]
     },
-    "language": "eng",
+    "language": "en",
     "note": "OCLC: 254425877",
     "number-of-pages": "276",
     "publisher": "Cambridge University Press",
@@ -364,6 +670,28 @@
     "source": "Gemeinsamer Bibliotheksverbund ISBN",
     "title": "Philosophy of logics",
     "type": "book"
+  },
+  {
+    "id": "haslanger2013",
+    "author": [
+      {
+        "family": "Haslanger",
+        "given": "Sally"
+      }
+    ],
+    "citation-key": "haslanger2013",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "The Problem of Evil",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/the-problem-of-evil-2/"
   },
   {
     "id": "hick1966",
@@ -446,6 +774,7 @@
     ],
     "citation-key": "jackson2019",
     "container-title": "Philosophia Christi",
+    "container-title-short": "Philos. Christi",
     "DOI": "10.5840/pc201921110",
     "issue": "1",
     "issued": {
@@ -476,6 +805,7 @@
     ],
     "citation-key": "kolodny2010",
     "container-title": "Journal of Philosophy",
+    "container-title-short": "J. Philos.",
     "DOI": "10.5840/jphil2010107310",
     "issue": "3",
     "issued": {
@@ -490,6 +820,26 @@
     "title": "Ifs and Oughts",
     "type": "article-journal",
     "volume": "107"
+  },
+  {
+    "id": "korman2022",
+    "author": [
+      {
+        "family": "Korman",
+        "given": "Daniel"
+      }
+    ],
+    "citation-key": "korman2022",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "title": "Learning from arguments: an introduction to philosophy",
+    "type": "book",
+    "URL": "https://philarchive.org/rec/KORLFA"
   },
   {
     "id": "long1987a",
@@ -518,6 +868,35 @@
     "volume": "I"
   },
   {
+    "id": "long1987a",
+    "citation-key": "long1987a",
+    "container-author": [
+      {
+        "family": "Long",
+        "given": "A. A."
+      },
+      {
+        "family": "Sedley",
+        "given": "D. N."
+      }
+    ],
+    "container-title": "The Hellenistic Philosophers",
+    "issued": {
+      "date-parts": [
+        [
+          "1987"
+        ]
+      ]
+    },
+    "page": "149--154",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "title": "Death",
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/YCGMX2NR?page=161&annotation=RPS6GAEQ",
+    "volume": "I"
+  },
+  {
     "id": "lowe2016a",
     "author": [
       {
@@ -527,6 +906,7 @@
     ],
     "citation-key": "lowe2016a",
     "container-title": "Between the Species",
+    "container-title-short": "Species",
     "issue": "1",
     "issued": {
       "date-parts": [
@@ -584,6 +964,7 @@
     ],
     "citation-key": "mackie1955",
     "container-title": "Mind",
+    "DOI": "10.1093/mind/LXIV.254.200",
     "ISSN": "0026-4423",
     "issue": "254",
     "issued": {
@@ -596,7 +977,7 @@
     "page": "200–212",
     "publisher": "[Oxford University Press, Mind Association]",
     "source": "JSTOR",
-    "title": "Evil and Omnipotence",
+    "title": "Evil and omnipotence",
     "type": "article-journal",
     "URL": "https://www.jstor.org/stable/2251467",
     "volume": "64"
@@ -611,6 +992,7 @@
     ],
     "citation-key": "marquis1989",
     "container-title": "The Journal of Philosophy",
+    "container-title-short": "J. Philos.",
     "DOI": "10.2307/2026961",
     "ISSN": "0022-362X",
     "issue": "4",
@@ -683,7 +1065,7 @@
         ]
       ]
     },
-    "language": "English",
+    "language": "en",
     "publisher": "Oxford University Press",
     "publisher-place": "Oxford",
     "title": "Distilling metaphysics from quantum physics",
@@ -699,7 +1081,7 @@
     ],
     "citation-key": "mcgee1985",
     "container-title": "The Journal of Philosophy",
-    "container-title-short": "The Journal of Philosophy",
+    "container-title-short": "J. Philos.",
     "DOI": "10.2307/2026276",
     "ISSN": "0022362X",
     "issue": "9",
@@ -720,27 +1102,6 @@
     "volume": "82"
   },
   {
-    "id": "mills1997a",
-    "author": [
-      {
-        "family": "Mills",
-        "given": "Charles Wade"
-      }
-    ],
-    "citation-key": "mills1997a",
-    "ISBN": "978-0-8014-3454-9",
-    "issued": {
-      "date-parts": [
-        [
-          "1997"
-        ]
-      ]
-    },
-    "publisher": "Cornell University Press",
-    "title": "The Racial Contract",
-    "type": "book"
-  },
-  {
     "id": "norcross2004",
     "author": [
       {
@@ -750,6 +1111,7 @@
     ],
     "citation-key": "norcross2004",
     "container-title": "Philosophical Perspectives",
+    "container-title-short": "Philos. Perspect.",
     "DOI": "10.1111/j.1520-8583.2004.00027.x",
     "issue": "1",
     "issued": {
@@ -807,6 +1169,7 @@
     ],
     "citation-key": "parfit1971a",
     "container-title": "Philosophical Review",
+    "container-title-short": "Philos. Rev.",
     "issue": "January",
     "issued": {
       "date-parts": [
@@ -851,6 +1214,60 @@
     "type": "book"
   },
   {
+    "id": "perkins2007",
+    "author": [
+      {
+        "family": "Perkins",
+        "given": "Franklin"
+      }
+    ],
+    "citation-key": "perkins2007",
+    "container-title": "The Proceedings of the Twenty-First World Congress of Philosophy",
+    "container-title-short": "Proc. Twenty-First World Congr. Philos.",
+    "DOI": "10.5840/wcp2120077162",
+    "issued": {
+      "date-parts": [
+        [
+          "2007",
+          1,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "149–155",
+    "source": "www.pdcnet.org",
+    "title": "The Problem of Evil in Classical Chinese Philosophy",
+    "type": "article-journal",
+    "URL": "https://www.pdcnet.org/pdc/bvdb.nsf/purchase?openform&fp=wcp21&id=wcp21_2007_0007_0149_0155",
+    "volume": "7"
+  },
+  {
+    "id": "perry1999",
+    "author": [
+      {
+        "family": "Perry",
+        "given": "John"
+      }
+    ],
+    "call-number": "BJ1401 .P46 1999",
+    "citation-key": "perry1999",
+    "ISBN": "978-0-87220-460-7 978-0-87220-461-4",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "number-of-pages": "71",
+    "publisher": "Hackett",
+    "publisher-place": "Indianapolis",
+    "source": "Library of Congress ISBN",
+    "title": "Dialogue on good, evil, and the existence of God",
+    "type": "book"
+  },
+  {
     "id": "pike1965a",
     "author": [
       {
@@ -860,6 +1277,7 @@
     ],
     "citation-key": "pike1965a",
     "container-title": "The Philosophical Review",
+    "container-title-short": "Philos. Rev.",
     "DOI": "10.2307/2183529",
     "ISSN": "00318108",
     "issue": "1",
@@ -997,6 +1415,34 @@
     "type": "book"
   },
   {
+    "id": "rowe1979",
+    "author": [
+      {
+        "family": "Rowe",
+        "given": "William L."
+      }
+    ],
+    "citation-key": "rowe1979",
+    "container-title": "American Philosophical Quarterly",
+    "container-title-short": "Am. Philos. Q.",
+    "ISSN": "0003-0481",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1979"
+        ]
+      ]
+    },
+    "page": "335–341",
+    "publisher": "[North American Philosophical Publications, University of Illinois Press]",
+    "source": "JSTOR",
+    "title": "The Problem of Evil and Some Varieties of Atheism",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/20009775",
+    "volume": "16"
+  },
+  {
     "id": "sainsbury2001",
     "author": [
       {
@@ -1050,33 +1496,6 @@
     "type": "book"
   },
   {
-    "id": "shiffrin2014",
-    "author": [
-      {
-        "family": "Shiffrin",
-        "given": "Seana Valentine"
-      }
-    ],
-    "call-number": "BJ1421 .S554 2014",
-    "citation-key": "shiffrin2014",
-    "collection-title": "Carl G. Hempel lecture series",
-    "ISBN": "978-0-691-15702-3",
-    "issued": {
-      "date-parts": [
-        [
-          "2014"
-        ]
-      ]
-    },
-    "number-of-pages": "234",
-    "publisher": "Princeton University Press",
-    "publisher-place": "Princeton",
-    "source": "Library of Congress ISBN",
-    "title": "Speech matters: on lying, morality, and the law",
-    "title-short": "Speech matters",
-    "type": "book"
-  },
-  {
     "id": "smullyan1983",
     "author": [
       {
@@ -1093,7 +1512,7 @@
         ]
       ]
     },
-    "language": "eng",
+    "language": "en",
     "note": "Open Library ID: OL21215992M",
     "number-of-pages": "182",
     "publisher": "St. Martin's Press",
@@ -1101,6 +1520,36 @@
     "source": "The Open Library",
     "title": "5000 B.C. and other philosophical fantasies",
     "type": "book"
+  },
+  {
+    "id": "stump1985",
+    "author": [
+      {
+        "family": "Stump",
+        "given": "Eleonore"
+      }
+    ],
+    "citation-key": "stump1985",
+    "container-title": "Faith and Philosophy",
+    "container-title-short": "Faith Philos.",
+    "DOI": "10.5840/faithphil19852443",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1985",
+          11,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "392–423",
+    "source": "www.pdcnet.org",
+    "title": "The Problem of Evil",
+    "type": "article-journal",
+    "URL": "https://www.pdcnet.org/pdc/bvdb.nsf/purchase?openform&fp=faithphil&id=faithphil_1985_0002_0004_0392_0423",
+    "volume": "2"
   },
   {
     "id": "thomson1971",
@@ -1112,6 +1561,7 @@
     ],
     "citation-key": "thomson1971",
     "container-title": "Philosophy and Public Affairs",
+    "container-title-short": "Philos. Public Aff.",
     "issue": "1",
     "issued": {
       "date-parts": [
@@ -1137,6 +1587,7 @@
     ],
     "citation-key": "thomson1985",
     "container-title": "The Yale Law Journal",
+    "container-title-short": "Yale Law J.",
     "DOI": "10.2307/796133",
     "ISSN": "0044-0094",
     "issue": "6",

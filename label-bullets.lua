@@ -90,7 +90,7 @@ end
 local function render_inlines(fmt, inlines)
   local ok, out = pcall(pandoc.write, pandoc.Pandoc(pandoc.Blocks(pandoc.Plain(inlines))), fmt)
   if not ok then return utils.stringify(inlines) end
-  if fmt:match("^html") or fmt == "revealjs" then
+  if fmt:match("^html") or fmt == "revealjs" or fmt:match("^epub")  then
     out = out:gsub("^%s*<p>", ""):gsub("</p>%s*$", "")
   end
   return out

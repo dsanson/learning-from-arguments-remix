@@ -1,8 +1,3 @@
----
-nocite: |
-  @alam2017 @bostrom2009 @garber2009 @hayek2015 @buchak2018 @jackson2019
-  @lycan1971 @rota2016 @pascal1995 @donaldson2013 @rinard2017
----
 
 
 # Why You Should Bet on God {#sec-wager}
@@ -221,17 +216,17 @@ using a weighted ranking, giving the eventuality of confessing and
 getting rejected a value that's 100 times lower than the others:
 
   ----------------------------------------------------------------------------------------
-                He's into             He's not into         Expected`<br>`{=html}Utility
-                you`<br>`{=html}75%   you`<br>`{=html}25%   
+                    He's into you\     He's not into you\          Expected Utility
+                         75%                   25%
   ------------- --------------------- --------------------- ------------------------------
-  Confess your  100                   1                     75.25
-  feelings                                                  
+   Confess your          100                    1                       75.25
+       feelings
 
-  Don't confess 98                    99                    98.25
-  your feelings                                             
+  Don't confess          98                    99                       98.25
+  your feelings
   ----------------------------------------------------------------------------------------
 
-: When humiliation is way worse {#tbl-2}
+  : When humiliation is way worse {#tbl-2}
 
 Now, the expected utility of confessing is less than the expected
 utility of not confessing, and so the calculations tell us that you
@@ -296,8 +291,8 @@ To justify BG2, we have to construct the decision matrix. And that's
 going to look something like this:
 
   -------------------------------------------------------------------------------------------
-              God                      God doesn't             Expected`<br>`{=html}Utility
-              exists`<br>`{=html}50%   exist`<br>`{=html}50%   
+               God exists\               God doesn't exist\            Expected Utility\ 
+               50%                       50%                           &nbsp; 
   ----------- ------------------------ ----------------------- ------------------------------
   Believe in  ∞                        2                       ∞
   God                                                          
@@ -322,7 +317,6 @@ lifestyle (for instance skipping church) without any punishment at the
 end. Top score goes to the eventuality in which you believe in God and
 God does turn out to exist, and this gets a value of infinity (∞) rather
 than 4, since the amount of pleasure and fulfillment you
-
 receive in an eternal afterlife in heaven is infinitely greater than
 what you get in any of the other eventualities.
 
@@ -372,7 +366,7 @@ an infinite quantity, gives you more of a good thing than the first.
 One might complain that I've grossly overestimated the probability that
 God exists, by assuming that it's a 50/50 chance that he exists. Perhaps
 you think it's extremely unlikely that God exists. Surely, though,
-you'll admit that it's at least *possible*that God exists. If you die
+you'll admit that it's at least *possible* that God exists. If you die
 and are ushered into God's presence, you'll be surprised, but not in the
 way that you'd be surprised if you were ushered into the presence of
 something you think is genuinely impossible, like a round square.
@@ -383,8 +377,8 @@ that case, we need to update a couple of the boxes in the original
 decision matrix:
 
   ------------------------------------------------------------------------------------------
-              God                     God doesn't             Expected`<br>`{=html}Utility
-              exists`<br>`{=html}1%   exist`<br>`{=html}99%   
+               God exists\             God doesn't exist\            Expected Utility\
+               1%                         99%                      &nbsp; 
   ----------- ----------------------- ----------------------- ------------------------------
   Believe in  ∞                       2                       ∞
   God                                                         
@@ -415,7 +409,7 @@ conditions, for instance that you led a good, moral life and followed
 God's commandments. I might ask you how you know that, but then again
 you might ask me how I know that badly-behaved believers go to heaven.
 (Touché.) So, let me just grant the point for the sake of argument: only
-wellbehaved believers get into heaven. What that means is that the
+well-behaved believers get into heaven. What that means is that the
 original decision matrix is inadequate, since it runs together two
 importantly different options: being a well-behaved believer and being a
 badly-behaved believer.
@@ -423,22 +417,19 @@ badly-behaved believer.
 The fix is to expand our matrix so that each of these options has a row
 of its own.
 
-  --------------------------------------------------------------------------------------------
-               God                      God doesn't             Expected`<br>`{=html}Utility
-               exists`<br>`{=html}50%   exist`<br>`{=html}50%   
-  ------------ ------------------------ ----------------------- ------------------------------
-  Believe in   ∞                        3                       ∞
-  God and be                                                    
-  good                                                          
+  ------------------------------------------------------------------------------------------------
+                    God exists\               God doesn't exist\     Expected Utility\
+                    50%                       50%                    &nbsp;
+  ---------------- ------------------------ ----------------------- ------------------------------
+  Believe in God\      ∞                        3                       ∞
+  and be good                                                   
 
-  Believe in   2                        4                       3
-  God and be                                                    
-  bad                                                           
+  Believe in God\      2                        4                       3
+  and be bad
 
-  Don't        1                        5                       3
-  believe in                                                    
-  God                                                           
-  --------------------------------------------------------------------------------------------
+  Don't believe\        1                        5                       3
+  in God                                                   
+  ------------------------------------------------------------------------------------------------
 
 : Good theist vs. bad theist vs. atheist {#tbl-6}
 
@@ -450,14 +441,14 @@ little more lenient since you at least believed in him. I've scored
 being an atheist in a Godless world (5) higher than being a
 badly-behaved believer in a Godless world (4), and I've ranked both
 ahead of the life of a well-behaved believer in a Godless world (3).
-Finally, the eventuality in which you're a wellbehaved believer and God
+Finally, the eventuality in which you're a well-behaved believer and God
 does exist gets ∞, since this is what will get you into heaven, and
 that's infinitely better than any of the other eventualities.
 
 So, what does this all mean? What it means is that---assuming that you
 have to be a well-behaved believer to get into heaven---being a
-wellbehaved believer has greater expected utility than either being a
-badlybehaved believer or not believing in God at all. It's still true,
+well-behaved believer has greater expected utility than either being a
+badly-behaved believer or not believing in God at all. It's still true,
 then, that the option with the greatest expected utility requires you to
 believe in God. So, we have not yet found a reason to reject BG2.
 
@@ -495,16 +486,16 @@ offers infinite rewards, one for the possibility of a stingy God who
 offers only finite rewards, and one for the possibility that there's no
 God.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------
-            Generous                                 Stingy                                   No                    Expected`<br>`{=html}Utility
-            God`<br>`{=html}exists`<br>`{=html}25%   God`<br>`{=html}exists`<br>`{=html}25%   God`<br>`{=html}50%   
-  --------- ---------------------------------------- ---------------------------------------- --------------------- ------------------------------
-  Believe   ∞                                        1,000,000                                2                     ∞
-  in God                                                                                                            
+  ----------------------------------------------------------------------------------------------------------
+              Generous God exists\     Stingy God exists\   No God exists\     Expected Utility\
+              25%                      25%                  50%                &nbsp;
+  --------- ------------------------ --------------------- ------------------ ------------------------------
+  Believe   ∞                         1,000,000                 2                  ∞
+  in God                                                                      
 
-  Don't     1                                        1                                        3                     2
-  believe                                                                                                           
-  ------------------------------------------------------------------------------------------------------------------------------------------------
+  Don't     1                         1                         3                  2
+  believe                                                                     
+  -------------------------------------------------------- -------------------------------------------------
 
 : Generous vs. stingy God {#tbl-7}
 
@@ -532,13 +523,17 @@ reflecting the different gods we can choose to believe in, and
 additional columns reflecting the different gods that might turn out to
 exist. So, let's rectify that: \*
 
-                    Christian God exists   Zeus exists   No God   Expected
-  ----------------- ---------------------- ------------- -------- ----------
-                    25%                    25%           50%      Utility
-  Believe in        ∞                      1             3        ∞
-  Christian God                                                   
-  Believe in Zeus   1                      ∞             3        ∞
-  Don't believe     2                      2             4        3
+  ----------------- ---------------------- ------------- ----------------------------
+                     Christian God exists\  Zeus exists\  No God exists\   Expected\ 
+                     25%                    25%           50%              Utility
+  ----------------- ---------------------- ------------- ---------------- -----------
+  Believe in        ∞                      1             3                  ∞
+  Christian God                                                             
+
+  Believe in Zeus   1                      ∞             3                  ∞
+
+  Don't believe     2                      2             4                  3
+  -----------------------------------------------------------------------------------
 
 : Many gods {#tbl-8}
 
@@ -674,4 +669,16 @@ Wager", can be found in Abū Hāmid Muhammad al-Ghāzāli's *The Alchemy of
 Happiness* and Blaise Pascal's *Pensées*. Here are some additional
 resources:
 
-<!--TODO: better reference to al-Ghazālī-->
+---
+nocite: |
+  @alam2017 @bostrom2009 @garber2009 @hayek2015 @buchak2018 @jackson2019
+  @lycan1971 @rota2016 @pascal1995 @donaldson2013 @rinard2017
+---
+
+## TODO
+
+- [ ] find better reference to al-Ghazālī.
+- [ ] consider different formatting for the assignment of values to outcomes.
+- [ ] improve spacing in tables?
+- [ ] maybe revise to use the word 'outcome' instead of 'eventuality'?
+- [ ] maybe revise to be a bit less cagey about the difference between "ranking" outcomes and assigning values to outcomes.

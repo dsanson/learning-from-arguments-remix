@@ -1,10 +1,3 @@
----
-nocite: |
-  @adams2009; @adams2000; @antony2007; @chiang2002a; @clack2013;
-  @ekstrom2004; @frances2013; @haslanger2013; @alimobini2013;
-  @perkins2007; @perry1999; @rowe1979; @stump1985; @pike1965a
----
-
 # Can God Allow Suffering? {#sec-can-god-allow-suffering}
 
 {{< include _authorial-endorsement.md >}}
@@ -473,16 +466,71 @@ perspective, we have been unable to identify.
     reasonable to believe in hidden reasons in the one case but not the
     other"?
 
-## Sources
+## Sources and Additional Reading
 
-The Argument from Suffering (often called "The Problem of Evil") traces
-back at least as far as the ancient Greek philosopher Epicurus. A
-classic discussion can be found in David Hume's *Dialogues on Natural
+The "Argument from Suffering" is often called "The Problem of Evil." It has been around
+for a very long time. The Roman philosopher Lactantius (d. 325 CE) attributes it to the
+ancient Greek philosopher Epicurus (d. 270 BCE):
+
+> God, he says, either wishes to take away evils, and is unable; or He is able,
+> and is unwilling; or He is neither willing nor able, or He is both willing and
+> able. If He is willing and is unable, He is feeble, which is not in accordance
+> with the character of God; if He is able and unwilling, He is envious, which
+> is equally at variance with God; if He is neither willing nor able, He is both
+> envious and feeble, and therefore not God; if He is both willing and able,
+> which alone is suitable to God, from what source then are evils? or why does
+> He not remove them? ([Lactantius, On the anger of God
+> 13](https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VII/Lactantius/A_Treatise_on_the_Anger_of_God_Addressed_to_Donatus/Chap._XIII))
+
+A classic discussion of the problem can be found in David Hume's *Dialogues on Natural
 Religion* (parts
 [X](https://www.gutenberg.org/files/4583/4583-h/4583-h.htm#chap10) and
-[XI](https://www.gutenberg.org/files/4583/4583-h/4583-h.htm#chap11). See
-@mackie1955 for a more recent defense of the argument. A version of the
-Character Building Defense can be found in @hick1966, and a version of
-the Free Will Defense can be found in @plantinga1974. The problem of
-divine foreknowledge is advanced in @pike1965a. Here are some additional
-resources:
+[XI](https://www.gutenberg.org/files/4583/4583-h/4583-h.htm#chap11).)
+
+Shifting to more recent work, @mackie1955 offers a robust and influential
+defense of the argument. @hick1966 offers a version of the Character Building
+Defense. @plantinga1974 offers a version of the Free Will Defense. @rowe1979
+further refines and defends the argument.
+
+For some deeper dives, @stump1985 offers a development of a free will defense
+grounded in the commitments of Christian theology, specifically the idea that,
+as a consequence of Adam's fall, we are defective and need to be mended---something even an omnipotent being cannot do by fiat.
+@ekstrom2004 explores the idea that suffering is, at least in some cases, a form
+of religious experience: "Why," she asks, "would the divine agent permit
+instances of evil? Perhaps a reply applicable to some instances of personal
+suffering is this: in order to provide occasions in which we can perceive God,
+understand him to some degree, know him, even meet him directly." In a similar
+vein, @alimobini2013 argues, from an Islamic perspective, that the experience of
+evil and suffering is necessary to "remove our epistemic deficiencies and make
+us ready for harmony with God." @adams2000 offers an extended treatment of evil from a Christian perspective, suggesting that by grappling with a wider set of Christian values and commitments, we can find new ways to resolve the problem. For a more accessible introduction to her views, you can listen to her talk about them on a podcast [@adams2009].
+
+For other attempts to move beyond the traditional framing of the problem, 
+see @clack2013, who provides an overview of approaches to the problem of evil from feminist philosophy, and 
+@perkins2007 discusses the problem of evil as it occurs in Chinese philosophy.
+
+For a personal account from a philosopher who was driven by the problem of evil to abandon her faith, see @antony2007.
+For a short story that explores the theme, see @chiang2002a.
+
+If you are looking for approachable overviews of the topic, @haslanger2013 is a nice video lecture
+and @perry1999 is an approachable dialogue designed to be assigned in 101 classes. @frances2013 is a book length introduction to the problem and possible responses.
+
+If you prefer to listen rather than read, Illinois State's own Daniel Breyer has a "Great Courses" series on
+topics related to evil [@breyer2019]. 
+
+There are other puzzles about the nature of God you may wish to explore. An influential treatment of 
+the "Problem of Divine Foreknowledge" can be found in @pike1965a. @frankfurt1964a offers a short discussion
+of the "Paradox of Omnipotence: can an omnipotent God create a stone so heavy that she cannot lift it?
+
+Finally, as always, a good resource for further information is the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/), which has useful articles on the problem of evil, the concept of evil, arguments for and against the existence of God, foreknowledge, omnipotence, and so on.
+
+## References
+
+
+
+
+
+
+
+
+
+

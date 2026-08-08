@@ -15,23 +15,95 @@ figure.quarto-float-exa > figure > div {
   text-align: left;
 }
 
+/* formatting of labeled list items */
+ul:has(.li-label) {
+  margin-left: 1em;
+}
+
+li:has(.li-label) {
+  list-style: none;
+  position: relative;
+  text-indent: -2em;
+}
+
+.li-label {
+  margin-right: 0.5em;
+}
+
 /* argument formatting */
-figure.quarto-float-arg {
-  padding-left: 1em;
+figure.quarto-float-arg,
+figure.quarto-float-exa,
+.definition,
+.callout {
+  text-align: left;
+  border: thin solid lightgray;
+  border-radius: 0.5em;
+  padding: 0.5em 0.5em 0 0.5em;
+  margin-bottom: 1em;
 }
-figure.quarto-float-arg figcaption {
-  margin-bottom: 0.5em;
+figure.quarto-float-arg figcaption,
+figure.quarto-float-arg .theorem-title,
+figure.quarto-float-exa figcaption,
+figure.quarto-float-exa .theorem-title,
+.definition figcaption,
+.definition .theorem-title,
+.callout figcaption,
+.callout .theorem-title {
+  display: block;
+  margin-bottom: -1em;
+  padding-right: 2em;
+  text-align: right;
+  font-size: 0.8em;
 }
-figure.quarto-float-arg > div > ul {
+figure.quarto-float-arg > div,
+figure.quarto-float-exa > div,
+.definition > div,
+.callout > div {
+  text-align: left;
+  padding: 1em;
+}
+figure.quarto-float-arg > div > ul, figure.quarto-float-arg > div > ol,
+figure.quarto-float-exa > div > ul,
+figure.quarto-float-exa > div > ol,
+.definition > div > ul,
+.definition > div > ol,
+.callout > div > ul,
+.callout > div > ol {
+  padding-left: 2em;
   text-align: left;
 }
-figure.quarto-float-arg > p {
+figure.quarto-float-arg > p,
+figure.quarto-float-exa > p,
+.definition > p,
+.callout > p {
   margin-bottom: 0;
 }
-figure.quarto-float-arg li {
+figure.quarto-float-arg li:has(.li-label),
+figure.quarto-float-exa li:has(.li-label),
+.definition li:has(.li-label),
+.callout li:has(.li-label) {
   list-style: none;
+  position: relative;
+  text-indent: -2em;
+}
+figure.quarto-float-arg .li-label,
+figure.quarto-float-exa .li-label,
+.definition .li-label,
+.callout .li-label {
+  margin-right: 0.5em;
+}
+figure.quarto-float-arg ul > li,
+figure.quarto-float-exa ul > li,
+.definition ul > li,
+.callout ul > li {
+  list-style: none;
+  text-indent: -2em;
+}
+figure.quarto-float-arg dl,
+figure.quarto-float-exa dl,
+.definition dl,
+.callout dl {
   padding-left: 1em;
-  text-indent: -3em;
 }
 
 /* thesis formatting */
@@ -87,12 +159,21 @@ figcaption {
 /* print tweaks */
 /* don't print header and footer */
 @media print {
+  body {
+    margin: 0;
+  }
+  #quarto-content {
+    display: block;
+  }
   #quarto-header {
     display: none;
   }
   footer {
     display: none;
   }
+}
+@page {
+  margin: 1in;
 }
 
 /*# sourceMappingURL=epub.css.map */

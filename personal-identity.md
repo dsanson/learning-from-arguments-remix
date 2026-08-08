@@ -69,7 +69,7 @@ fill in the blank in the following sentence:
 
 :::{#thesis-personal-identity-template .thesis}
 Template of an Account
-:   A at time t is the same person as B at time t\* if and only if \_\_\_\_\_\_
+:   A at time t is the same person as B at time t\* if and only if \_\_\_\_\_\_.
 :::
 
 In other words, when we're looking at or thinking about a person at one time,
@@ -192,7 +192,7 @@ the Fingerprints Account:
 :::{#thesis-fingerprints .thesis}
 The Fingerprints Account
 :   A at time t is the same person as B at time t\* if and only if A and B
-    have indistinguishable fingerprints
+    have indistinguishable fingerprints.
 :::
 
 And we have already seen one good reason to reject the Fingerprints Account:
@@ -213,7 +213,7 @@ What if we focused on DNA instead of fingerprints?
 :::{#thesis-dna .thesis}
 The DNA Account
 :   A at t is the same person as B at t\* if and only if A and B have
-    indistinguishable DNA
+    indistinguishable DNA.
 :::
 
 The DNA Account does get around some of the problems that arise for the
@@ -238,7 +238,7 @@ whole:
 :::{#thesis-same-body .thesis}
 The Same Body Account
 :   A at t is the same person as B at t\* if and only if A has the same body
-    as B
+    as B.
 :::
 
 'Body' is sometimes used to mean just the torso, not including the head and
@@ -276,7 +276,7 @@ following account:
 :::{#thesis-psych-matching .thesis}
 The Psychological Matching Account
 :   A at t is the same person as B at t\* if and only if A's psychological
-    features are exactly the same as B's psychological features
+    features are exactly the same as B's psychological features.
 :::
 
 But this Psychological Matching Account is obviously far too demanding. Every
@@ -297,7 +297,7 @@ psychological features.
 :::{#thesis-psych-overlap .thesis}
 The Psychological Overlap Account
 :   A at t is the same person as B at t\* if and only if A's psychological
-    features are mostly the same as B's psychological features
+    features are mostly the same as B's psychological features.
 :::
 
 The Psychological Overlap Account avoids the previous problem. You may not
@@ -344,7 +344,7 @@ gives us:
 :::{#thesis-psych-descendant .thesis}
 The Psychological Descendant Account
 :   A at t is the same person as B at t\* if and only if A is either a
-    psychological ancestor or a psychological descendant of B
+    psychological ancestor or a psychological descendant of B.
 :::
 
 This gives us the right results in all of the cases we have been considering.
@@ -386,8 +386,8 @@ much more clearly pose a problem for the Same Body Account.
 ### Conjoined Twins {#sec-conjoined-twins}
 
 The first objection I'll raise against the Same Body Account involves
-conjoined twins. Abby and Brittany Hensel are dicephalic parapagus twins,
-which means there are two heads on a single torso. They are alive and well and
+conjoined twins. Abby and Brittany Hensel are dicephalic parapagus twins.
+This means that they have two heads attached to a single torso. They are alive and well and
 are currently about 30 years old. It's easy to see why conjoined twins pose a
 problem for the Same Body Account. We would naturally describe Abby and
 Brittany as two people sharing a single body. But the Same Body Account rules
@@ -735,7 +735,7 @@ Premise FS4 is motivated by a different logical principle, which I'll call
 ::: {#thesis-NDP .thesis}
 The No Difference Principle (NDP)
 :   If A is numerically the same as B, then at any given time, anything that's
-    true of A at that time is also true of B at that time
+    true of A at that time is also true of B at that time.
 :::
 
 To illustrate the principle, consider Cassius Clay and Muhammad Ali. Cassius
@@ -800,7 +800,7 @@ identity:
 
 :::{#thesis-same-soul .thesis}
 The Same Soul Account
-:   A at t is the same person as B at t\* if and only if A has the same soul as B
+:   A at t is the same person as B at t\* if and only if A has the same soul as B.
 :::
 
 The Same Soul Account could then be put to work in addressing the various
@@ -904,13 +904,13 @@ a Body-And-Mind Account and a Body-Or-Mind Account.
 :::{#thesis-body-and-mind .thesis}
 The Body-And-Mind Account
 :   A at t is the same person as B at t\* if and only if A has the same body
-    as B *and* A is a psychological ancestor or descendant of B
+    as B *and* A is a psychological ancestor or descendant of B.
 :::
 
 :::{#thesis-body-or-mind .thesis}
 The Body-Or-Mind Account
 :   A at t is the same person as B at t\* if and only if A has the same body
-    as B *or* A is a psychological ancestor or descendant of B
+    as B *or* A is a psychological ancestor or descendant of B.
 :::
 
 Let's begin with the Body-And-Mind Account. This account does have certain
@@ -984,11 +984,11 @@ without an answer to the question of personal identity.
 
 ## Reflection Questions {.unnumbered}
 
-1.  Can you defend the Same Body Account against the Conjoined Twins argument (@arg-CT) from @sec-conjoined-twins?
+1.  Can you defend the Same Body Account against the Conjoined Twins argument from @sec-conjoined-twins?
 2.  Would a Same *Brain* Account be any improvement on a Same Body Account?
     Why or why not?
 3.  Can the Psychological Descendant Account be defended against the Blackout
-    Argument (@arg-BL) from (@sec-against-psychological-descendent)? If so,
+    Argument from (@sec-against-psychological-descendent)? If so,
     how?
 4.  In @sec-combined-answers, I considered two different hybrid accounts of
     personal identity and raised problems for both. Can you articulate a

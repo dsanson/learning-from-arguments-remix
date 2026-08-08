@@ -3,13 +3,15 @@ project:
 
 book:
   title: "Learning from Arguments"
-  subtitle: "blono remix"
+  subtitle: "(hacked up version)"
   author: 
-    -  "Daniel Z. Korman (original)"
+    -  "Daniel Z. Korman"
+    -  "hacked up by David Sanson"
   chapters:
     - part: Preface
       chapters:
       - index.md
+      - README.md
       - preface-students.md
       - preface-instructors.md
     - part: Chapters
@@ -28,13 +30,13 @@ book:
   appendices:
     - logic.md
     - writing.md
-    - theses-and-arguments.md
+    # - theses-and-arguments.md
   page-navigation: true
-  downloads: [epub]
+  #downloads: [epub,pdf]
   repo-url: https://github.com/dsanson/learning-from-arguments-remix
   repo-actions: [issue, source]
 
-bibliography: [refs.json]
+bibliography: [references.json]
 citeproc: true
 reference-location: section
 
@@ -87,6 +89,3 @@ format:
 
   typst:
     citeproc: true
-    bibliography: [refs.json]
-    cite-method: citeproc
-    pdf-standard: ua-1
