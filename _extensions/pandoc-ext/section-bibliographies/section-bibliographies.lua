@@ -203,10 +203,10 @@ local function get_options (meta)
   opts.bibliography = opts.bibliography
     or meta['section-bibs-bibliography']
     or meta['bibliography']
-  opts.level = tonumber(opts.level)
+  opts.level = tonumber(utils.stringify(opts.level))
     or tonumber(meta['section-bibs-level'])
     or 1
-  opts.minlevel = tonumber(opts.minlevel)
+  opts.minlevel = tonumber(utils.stringify(opts.minlevel))
     or 1
   opts.references = opts.references
     or meta['references']
