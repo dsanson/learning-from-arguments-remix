@@ -66,11 +66,14 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-axe/axe.min.js"></script>
+<script src="site_libs/quarto-axe/axe-check.js" type="module"></script>
+<script id="quarto-axe-checker-options" type="text/plain">dHJ1ZQ==</script>
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0809737f52dc844734ccdd6515608fb8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-54ff841e1c91defd9467df8b4af4c098.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0809737f52dc844734ccdd6515608fb8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -99,17 +102,6 @@ div.csl-indent {
   }
 }</script>
 <style>
-div.callout-argument.callout {
-  border-left-color: yellow;
-}
-div.callout-argument.callout-style-default .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
-}
-div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
-  content: '🥊';
-  background-image: none;
-}
 div.callout-example.callout {
   border-left-color: purple;
 }
@@ -119,6 +111,17 @@ div.callout-example.callout-style-default .callout-header {
 div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
   background-image: none;
 }
 </style>
@@ -870,7 +873,7 @@ Pyke, Steve. 2011. <em>Philosophers</em>. Oxford University Press.
 <p>Another incredibly useful resource is the <a href="https://plato.stanford.edu/index.html">Stanford Encyclopedia of Philosophy</a>, with peer-reviewed overview articles covering a wide range of topics. These articles can be technical and challenging—they are pitched to advanced undergrads and grad students. For example, <span class="citation" data-cites="brown2026--74b2ecfa983dee78978473d5b1627d07adb62c0e">Brown and Fehige (<a href="#ref-brown2026--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2026</a>)</span> is an in-depth overview of philosophical work on thought experiments, and <span class="citation" data-cites="devine2023--74b2ecfa983dee78978473d5b1627d07adb62c0e">Devine and Lopez Frias (<a href="#ref-devine2023--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2023</a>)</span> is an overview of work on the philosophy of sport.</p>
 <p><a href="https://compass.onlinelibrary.wiley.com/journal/17479991">Philosophy Compass</a> is a peer-reviewed journal that publishes opinionated accessible topical surveys. For example, <span class="citation" data-cites="nguyen2017--74b2ecfa983dee78978473d5b1627d07adb62c0e">Nguyen (<a href="#ref-nguyen2017--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2017</a>)</span>, on the philosophy of games, <span class="citation" data-cites="meskin2011--74b2ecfa983dee78978473d5b1627d07adb62c0e">Meskin (<a href="#ref-meskin2011--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2011</a>)</span>, on the philosophy of comics, and <span class="citation" data-cites="marino2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Marino (<a href="#ref-marino2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span>, on the philosophy of sex. (Yes, I picked those examples because I thought one of them might intrigue you enough that you’d follow the link.) Philosophy Compass requires a paid subscription. Our library has paid for this. Use the “Institutional Login” option to access the full text of these articles.</p>
 <p><a href="https://www.wi-phi.com/">Wireless Philosophy</a> is a curated collection of video lectures on a range of topics, pitched at a level appropriate to undergraduate courses. The videos at <a href="https://thecrashcourse.com/topic/philosophy/">Crash Course Philosophy</a> are pitched to a broader audience and go into less depth, but can be useful. Here is their video introducing philosophy as a subject:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1A_CAkYt3GY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1A_CAkYt3GY" title="What is Philosophy?" aria-label="Crashcourse video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <p>For more serious research, you need a good searchable database. For philosophy, this is <a href="https://philpapers.org">PhilPapers</a>. Search a topic, and you will find more or less everything that has been written on that topic. If you are lucky, it will even include a link that gives you access.</p>
 <!--
 
