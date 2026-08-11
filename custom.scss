@@ -88,10 +88,15 @@ figure.quarto-float-exa,
 
 
 /* thesis formatting */
-.thesis li {
-  list-style: none;
-  padding-left: 1em;
-  text-indent: -2em;
+.thesis {
+  li {
+    list-style: none;
+    padding-left: 1em;
+    text-indent: -2em;
+  }
+  dl {
+    padding-left: 1em;
+  }
 }
 
 /* caption formatting */
