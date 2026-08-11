@@ -534,7 +534,7 @@ problem seriously, even as she holds on to her faith. (For a taste of her approa
 you can also listen to her appearance on the "Philosophy Bites" podcast [@adams2009].
 
 If thinking about evil has sparked your interest, another nice resource is
-@breyer2019, a "Great Courses" series on the "Dark Side of Human Nature." The best way I know to get
+@breyer2019. The best way I know to get
 access to this without paying for it is to sign up for a library card at one of our local public libraries, which give you access to it via 
  [Kanopy](https://www.kanopy.com/en/video/6522995).
 

@@ -652,13 +652,13 @@
   },
   {
     "id": "breyer2019",
-    "citation-key": "breyer2019",
-    "director": [
+    "author": [
       {
         "family": "Breyer",
         "given": "Daniel"
       }
     ],
+    "citation-key": "breyer2019",
     "issued": {
       "date-parts": [
         [
@@ -668,7 +668,7 @@
     },
     "language": "en",
     "title": "Understanding the dark side of human nature",
-    "type": "motion_picture",
+    "type": "book",
     "URL": "https://shop.thegreatcourses.com/understanding-the-dark-side-of-human-nature"
   },
   {
