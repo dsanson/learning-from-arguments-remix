@@ -723,6 +723,14 @@ to a 100% (or 99%) vegetarian diet.
 
 ## Sources and Resources {-}
 
+
+:::{.callout-caution}
+## Under Construction
+
+I am still working on reorganizing this section.
+
+:::
+
 The discussion of the Arguments from Precedent, Naturalness, and Necessity
 draws heavily from @lowe2016a. The Argument from Fred's Puppies and subsequent discussion is
 drawn from @norcross2004. The argument from

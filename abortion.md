@@ -1030,7 +1030,14 @@ should) be pro-life without supporting forced birth.
     Thinkers Argument (discussed in @sec-death) compatible with the idea that
     we used to be embryos?
 
-## Sources
+## Sources and Resources {-}
+
+:::{.callout-caution}
+## Under Construction
+
+I am still working on reorganizing this section.
+
+:::
 
 The Violinist argument and the critique of the Right to Life argument are
 drawn from @thomson1971. The FLO argument is
@@ -1056,6 +1063,7 @@ and -@sec-bad-pro-life-arguments.
   @warren1973
 
 
+<!--
 Boonin, David. 2019. *Beyond Roe: Why Abortion Should Be Legal\--Even If
 the Fetus Is a Person*. New York, NY: Oxford University Press.
 
@@ -1102,3 +1110,4 @@ Affairs* 2 (1): 37--65. <https://www.jstor.org/stable/2264919>.
 
 Warren, Mary Anne. 1973. "On the Moral and Legal Status of Abortion."
 *The Monist* 57 (1): 43--61. <https://www.jstor.org/stable/27902294>.
+-->

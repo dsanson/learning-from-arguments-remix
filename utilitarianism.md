@@ -524,52 +524,58 @@ person to save five.
 
 ## Sources and Resources {-}
 
-Classic defenses of utilitarianism can be found in Jeremy Bentham's
-*Principles of Morals and Legislation* and John Stuart Mill's
-*Utilitarianism*. See @foot1967 and @thomson1985. See @shafer-landau2024 for a
+
+Classic defenses of utilitarianism can be found in @bentham1970 ([free text](https://en.wikisource.org/wiki/An_Introduction_to_the_Principles_of_Morals_and_Legislation)) and
+@mill1985a. See @foot1967 and @thomson1985 for discussion of the organ distribution and trolley cases. See @shafer-landau2024 for a
 broader overview of theories of well-being and morality. See the opening
 chapter of @mason2022 (titled 'Feminism in the Multicultural Context') on
-defending universal values in the face of cultural disagreement. Here are some
-additional resources:
+defending universal values in the face of cultural disagreement. 
+
+*CrashCourse* has a short overview [@crashcourse2016a]:
 
 
-@carritt1947 [ch. 4, "Crude Moral Theories"]
-
-@harris1975
-
-@smart1973
-
-@williams1988
+{{< 
+  video https://youtu.be/-a739VjqdSI
+  title="Utilitarianism" 
+  aria-label="CrashCourse Video"
+>}}
 
 
+*Wireless Philosophy* offers a three-lecture series on Utilitarianism [
+@markovits2014; -@markovits2014a; -@markovits2015]. Here is the first:
+
+{{< 
+  video https://youtu.be/uvmz5E75ZIA
+  title="What is Utilitarianism?" 
+  aria-label="Wireless Philosophy Video"
+>}}
 
 
+@leguin2017 is a classic short story which raises the question of whether it is morally acceptable to harm one
+to make many happy.
 
-Mozi, Universal Love 
-https://ctext.org/mozi/universal-love-i
-https://ctext.org/mozi/universal-love-ii
-https://ctext.org/mozi/universal-love-iii
+@carritt1947 [ch. 4, "Crude Moral Theories"] offers several objections to Utilitarianism.
+@smart1973 offers two essays, one by Smart defending Utilitarianism, and one by Williams raising objections to the view.
+
+For the articulation and defense of a consequentialist view in traditional
+Chinese Philosophy, see @mozi2020 (the title of this selection is also
+translated as "Universal Love") [free
+text](https://ctext.org/mozi/universal-love-i).
+
+@harris1975 imagines a "Survival Lottery", where, whenever anyone needs an organ transplant to survive,
+a donor is chosen at random, against their will, from the wider population. 
+
+@masicampo2016 is a silly video that went viral a few years ago, in which a toddler offers the definitive solution
+to the Trolley Problem:
+
+{{< 
+  video https://youtu.be/-N_RZJUAQY4
+  title="A two-year-old's solution to the trolley problem"
+  aria-label="youtube video"
+>}}
 
 
-@leguin2017: Omelas
-
-Videos:
-
-@masicampo2016: silly video of toddler solving trolley problem
-
-@markovits2015
-@markovits2014a
-@markovits2014
-
-@crashcourse2016a
-
-
-
-<!-- 
-TODO bentham and mill 
-
-- E.F. Carritt: Criticisms of Utilitarianism This is a selection from @carritt1947,
-as republished in @vaughn2012. Not sure how best to cite.
+<!--
 - Alastair Norcross: Consequences Make Actions Right
 -->
 

@@ -456,6 +456,45 @@
     "type": "chapter"
   },
   {
+    "id": "bentham1970",
+    "author": [
+      {
+        "family": "Bentham",
+        "given": "Jeremy"
+      }
+    ],
+    "citation-key": "bentham1970",
+    "editor": [
+      {
+        "family": "Hart",
+        "given": "H. L. A."
+      },
+      {
+        "family": "Burns,",
+        "given": "J. H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1970"
+        ]
+      ]
+    },
+    "original-date": {
+      "date-parts": [
+        [
+          "1789"
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "Oxford University Press",
+    "title": "An introduction to the principles of morals and legislation",
+    "type": "book"
+  },
+  {
     "id": "boonin2003",
     "author": [
       {
@@ -667,6 +706,7 @@
       ]
     },
     "language": "en",
+    "publisher": "The Great Courses",
     "title": "Understanding the dark side of human nature",
     "type": "book",
     "URL": "https://shop.thegreatcourses.com/understanding-the-dark-side-of-human-nature"
@@ -2457,6 +2497,7 @@
     ],
     "citation-key": "harris1975",
     "container-title": "Philosophy",
+    "DOI": "10.1017/S0031819100059118",
     "ISSN": "0031-8191",
     "issue": "191",
     "issued": {
@@ -2467,9 +2508,8 @@
       ]
     },
     "page": "81–87",
-    "publisher": "Cambridge University Press",
     "source": "JSTOR",
-    "title": "The Survival Lottery",
+    "title": "The survival lottery",
     "type": "article-journal",
     "URL": "https://www.jstor.org/stable/3749647",
     "volume": "50"
@@ -2974,6 +3014,7 @@
         ]
       ]
     },
+    "language": "en-US",
     "title": "Learning from arguments: an introduction to philosophy",
     "type": "book",
     "URL": "https://philarchive.org/rec/KORLFA"
@@ -3748,6 +3789,44 @@
     "URL": "https://philarchive.org/rec/MICTMA-3"
   },
   {
+    "id": "mill1985a",
+    "author": [
+      {
+        "family": "Mill",
+        "given": "John Stuart"
+      }
+    ],
+    "citation-key": "mill1985a",
+    "collection-title": "The Collected Works of John Stuart Mill",
+    "container-title": "Essays on ethics, religion, and society, ed. John M. Robson,",
+    "editor": [
+      {
+        "family": "Robson",
+        "given": "John M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1985"
+        ]
+      ]
+    },
+    "original-date": {
+      "date-parts": [
+        [
+          "1861"
+        ]
+      ]
+    },
+    "publisher": "University of Toronto Press",
+    "publisher-place": "Toronto",
+    "title": "Utilitarianism",
+    "type": "chapter",
+    "URL": "https://oll.libertyfund.org/titles/mill-the-collected-works-of-john-stuart-mill-volume-x-essays-on-ethics-religion-and-society#lf0223-10_head_045",
+    "volume": "10"
+  },
+  {
     "id": "millgram2004",
     "archive": "JSTOR",
     "author": [
@@ -3823,6 +3902,35 @@
     "title": "Proof of an External World",
     "type": "article-journal",
     "volume": "25"
+  },
+  {
+    "id": "mozi2020",
+    "author": [
+      {
+        "literal": "Mozi"
+      }
+    ],
+    "citation-key": "mozi2020",
+    "container-title": "The essential Mozi: ethical, political, and dialectical writings",
+    "editor": [
+      {
+        "family": "Fraser",
+        "given": "Chris"
+      }
+    ],
+    "ISBN": "978-0-19-884810-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "Inclusive Care",
+    "type": "chapter"
   },
   {
     "id": "nagel1970",
@@ -5326,35 +5434,6 @@
     "publisher": "Cambridge University Press",
     "publisher-place": "Cambridge",
     "title": "The Makropulos case: reflections on the tedium of immortality",
-    "type": "chapter"
-  },
-  {
-    "id": "williams1988",
-    "author": [
-      {
-        "family": "Williams",
-        "given": "Bernard"
-      }
-    ],
-    "citation-key": "williams1988",
-    "container-title": "Consequentialism and its critics",
-    "editor": [
-      {
-        "family": "Scheffler",
-        "given": "Samuel"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1988"
-        ]
-      ]
-    },
-    "page": "20–50",
-    "publisher": "Oxford University Press",
-    "source": "PhilPapers",
-    "title": "Consequentialism and integrity",
     "type": "chapter"
   },
   {
