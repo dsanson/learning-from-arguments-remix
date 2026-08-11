@@ -465,7 +465,6 @@
     ],
     "call-number": "HQ767.15 .B66 2003",
     "citation-key": "boonin2003",
-    "collection-title": "Cambridge studies in philosophy and public policy",
     "ISBN": "978-0-521-81701-1 978-0-521-52035-5",
     "issued": {
       "date-parts": [
@@ -476,7 +475,7 @@
     },
     "number-of-pages": "350",
     "publisher": "Cambridge University Press",
-    "publisher-place": "Cambridge, UK ; New York",
+    "publisher-place": "Cambridge",
     "source": "Library of Congress ISBN",
     "title": "A defense of abortion",
     "type": "book"
@@ -498,10 +497,10 @@
         ]
       ]
     },
-    "language": "en",
+    "language": "en-US",
     "number-of-pages": "1",
     "publisher": "Cambridge University Press",
-    "publisher-place": "Cambridge New York",
+    "publisher-place": "Cambridge",
     "source": "K10plus ISBN",
     "title": "The problem of punishment",
     "type": "book"
@@ -2733,20 +2732,22 @@
     "type": "book"
   },
   {
-    "id": "hume2007",
+    "id": "hume2007a",
     "author": [
       {
         "family": "Hume",
         "given": "David"
-      },
+      }
+    ],
+    "call-number": "192",
+    "citation-key": "hume2007a",
+    "container-title": "Dialogues concerning natural religion and other writings",
+    "editor": [
       {
         "family": "Coleman",
         "given": "Dorothy"
       }
     ],
-    "call-number": "192",
-    "citation-key": "hume2007",
-    "collection-title": "Cambridge texts in the history of philosophy",
     "ISBN": "978-0-521-60359-1 978-0-521-84260-0",
     "issued": {
       "date-parts": [
@@ -2766,8 +2767,8 @@
     "publisher": "Cambridge University Press",
     "publisher-place": "Cambridge",
     "source": "BnF ISBN",
-    "title": "Dialogues concerning natural religion and other writings",
-    "type": "book"
+    "title": "Dialogues concerning Natural Religion",
+    "type": "chapter"
   },
   {
     "id": "inwagen1986b",

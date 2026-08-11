@@ -499,7 +499,7 @@ basic dilemma:
 
 > Epicurus's old questions are yet unanswered. Is he willing to prevent evil,
 > but not able? then is he impotent. Is he able, but not willing? then is he
-> malevolent. Is he both able and willing? whence then is evil? [@hume2007, part 10] ([free
+> malevolent. Is he both able and willing? whence then is evil? [@hume2007a, part 10] ([free
 > text](https://www.gutenberg.org/files/4583/4583-h/4583-h.htm#chap10))
 
 If you would like to explore the wide-ranging history of philosophical work on
