@@ -41,7 +41,7 @@ This process inevitably involved making some choices and tweaking the original
 formatting. Cross-references were reimplemented. Literature references are generated using
 citeproc.
 
-Other small changes will gradually creep in, as I rework the text to suit my own
+Other changes are gradually creeping in, as I rework the text to suit my own
 teaching. I am currently reworking the "additional sources" section at the end
 of each chapter to include more sources and include more guidance.
 
