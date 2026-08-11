@@ -984,7 +984,11 @@ Account. See @parfit1971a for a classic discussion of fission cases, and see
 If you are looking for additional introductory material on the topic,
 @crashcourse2016 is not a bad place to start:
 
-{{< video https://www.youtube.com/watch?v=trqDnLNRuSc >}}
+{{< video 
+  https://www.youtube.com/watch?v=trqDnLNRuSc 
+  title="Personal Identity"
+  aria-label="Crashcourse Video"
+>}}
 
 There is also @vance2014 (*1000-Word Philosophy*).
 
@@ -1007,7 +1011,11 @@ is that it appears to be circular. @schechtman2014 defends a version of this vie
 the "person-life view"---to be a person is to live a "person life," a life with
 a distinctive structure. Camp's *Wireless Philosophy* video offers an overview of the basic idea:
 
-{{< video https://youtu.be/lcIqoN9oRgo >}}
+{{< 
+  video https://youtu.be/lcIqoN9oRgo 
+  title="Who Am I?"
+  aria-label="Wireless Philosophy video"
+>}}
 
 For an exploration of the problem from the perspective of Buddhist philosophy, see @siderits2003 and [this episode](https://historyofphilosophy.net/podcast/india/origins/buddhism-gethin) from the *History of Philosophy without any Gaps* podcast.
 

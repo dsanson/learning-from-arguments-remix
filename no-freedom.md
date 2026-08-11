@@ -786,7 +786,11 @@ find them for yourself!
 
 *Wireless Philosophy* has surprisingly little directly on the topic. @holton2013 is the closest thing they have, and it focuses more on the apparent incompatibility of free will and foreknowledge:
 
-{{< video https://youtu.be/iSfXdNIolQA >}}
+{{< 
+  video https://youtu.be/iSfXdNIolQA
+  title="Is Free Will Compatible with Foreknowledge?"
+  aria-label="Wireless Philosophy Video"
+>}}
 
 For a book length introduction to the problem of free will, of the sort that might be assigned in a class
 devoted to this topic, see @griffith2022. @fischer2024 offers four essays by four

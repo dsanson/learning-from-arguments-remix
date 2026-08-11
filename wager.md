@@ -126,6 +126,7 @@ higher number represents a better eventuality):
 And let's suppose you think there's about a 75% chance that he likes you
 back. Then the matrix would look like this:
 
+
   ----------------------------------------------------------------------
                              He's into you\ He's not into     Expected
                              75%            you\              Utility
@@ -713,7 +714,11 @@ The *History of Philosophy without any Gaps* podcast has two episodes on Pascal'
 Liz @jackson2021 also wrote the *1000-Word Philosophy* article on the topic. For
 something more in-depth, see @rota2017 (*Philosophy Compass*). There is also this video by @rinard2017 (*Wireless Philosophy*):
 
-{{< video https://youtu.be/2F_LUFIeUk0 >}}
+{{< 
+  video https://youtu.be/2F_LUFIeUk0 
+  title="Pascal's Wager"
+  aria-label="Wireless Philosophy Video"
+>}}
 
 Much of the contemporary literature on the argument focuses on the "Many Gods"
 objection mentioned above, along with a "Mixed Strategies" objection not
@@ -743,7 +748,11 @@ puzzle that also involves the infinite reward of heaven, see
 idea that you cannot simply decide to believe something in the absence of
 evidence:
 
-{{< video https://youtu.be/uzmLXIuAspQ >}}
+{{< 
+  video https://youtu.be/uzmLXIuAspQ 
+  title="The Will to Believe"
+  aria-label="Wireless Philosophy Video"
+>}}
 
 
 <!--

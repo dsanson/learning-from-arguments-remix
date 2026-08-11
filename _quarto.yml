@@ -81,11 +81,13 @@ crossref:
 
 format:
   html:
+    axe: true
     format-links: [epub,typst]
     respect-user-color-scheme: true
     theme:
       light: 
         - cosmo
+        - theme-light.scss
         - custom.scss
       dark: 
         - darkly

@@ -745,7 +745,11 @@ are pitched to a broader audience and go into less depth, but can be useful.
 Here
 is their video introducing philosophy as a subject:
 
-{{< video https://youtu.be/1A_CAkYt3GY >}}
+{{< 
+  video https://youtu.be/1A_CAkYt3GY 
+  title="What is Philosophy?" 
+  aria-label="Crashcourse video"
+>}}
 
 For more serious research, you need a good searchable database. For philosophy,
 this is [PhilPapers](https://philpapers.org). Search a topic, and you will find

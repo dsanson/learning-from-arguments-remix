@@ -516,7 +516,11 @@ Defense, and @plantinga1974 offers a version of the Free Will Defense.
 For additional introductory material, @metcalf2014 is a 1000-Word Philosophy article on the topic, and
 @haslanger2013 is a Wireless Philosophy video lecture:
 
-{{< video  https://youtu.be/9pRzyioUKp0  >}}
+{{< 
+  video  https://youtu.be/9pRzyioUKp0  
+  title="The Problem of Evil"
+  aria-label="Wireless Philosophy video"
+>}}
 
 @perry1999 is an approachable introduction to the topic in the form of a
 dialogue. @frances2013 is a "comprehensive textbook," of the sort that might be

@@ -446,16 +446,27 @@ Thinkers argument in @sec-too-many-thinkers is drawn from @olson2009.
 *1000-Word Philosophy* offers not one but two articles on the fear of death, @purves2014 and @kaufman2020. @cholbi2023 (*Philosophy Compass*) offers a more in-depth overview.
 @timmerman2017 (*Wireless Philosophy*) is an introductory lecture on the topic:
 
-{{< video https://youtu.be/wbQQxRelC_Q >}}
+{{< 
+  video https://youtu.be/wbQQxRelC_Q 
+  title="Should We Fear Death?"
+  aria-label="Wireless Philosophy video" 
+>}}
 
 @rowland2014 (*Wireless Philosophy*) is a lecture on hedonism:
 
-{{< video https://youtu.be/yJ1dsNauhGE >}}
+{{< 
+  video https://youtu.be/yJ1dsNauhGE 
+  title="Is Pleasure All the Matters?"
+  aria-label="Wireless Philosophy video" 
+>}}
 
 For a deeper dive into the issues, @kagan2008 is the archive of an entire course
 on the philosophy of death, offered at Yale in Spring 2007, with taped lectures. Here is the first of several lectures on the badness of death:
 
-{{< video https://youtu.be/yJVpJ588ASc >}}
+{{< 
+  video https://youtu.be/yJVpJ588ASc 
+  title="Dying alone; The badness of death, Part I"
+>}}
 
 @nagel1970 is a classic defense of the view that death is bad because it deprives one of future goods.
 On the possibility of posthumous harm, see @grover1989. On the idea that death is a *social* harm rather than

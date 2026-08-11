@@ -508,7 +508,11 @@ while @hampton1984 argues that the only justified form of punishment is punishme
 @rawls1999 attempts to derive a theory of justice from facts about the sort of social contract we *would* agree to in an idealized situation he calls "the original position".
 @anderson2014a (*Wireless Philosophy*) is a useful lecture on this idea:
 
-{{< video  https://youtu.be/nO5me_5c8dM  >}}
+{{< 
+  video  https://youtu.be/nO5me_5c8dM  
+  title="The Original Position"
+  aria-label="Wireless Philosophy video" 
+>}}
 
 One objection to a Rawlsian understanding of the social contract is that it at
 best involves *hypothetical* consent---each of us *would*, if we were in the
