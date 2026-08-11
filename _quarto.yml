@@ -94,5 +94,5 @@ format:
   epub:
     css: epub.css
 
-  typst:
-    citeproc: false
+  # typst:
+  #   citeproc: false
