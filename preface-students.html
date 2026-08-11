@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,14 +44,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -76,6 +79,30 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+</style>
 
 
 </head>
@@ -276,9 +303,8 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Learning from Arguments</a> 
-        <div class="sidebar-tools-main tools-wide">
+        <div class="sidebar-tools-main">
     <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Learning-from-Arguments.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -302,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About this Remix</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -331,67 +357,67 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wager.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./death.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./coercion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abortion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
   </div>
 </li>
       </ul>
@@ -415,12 +441,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./writing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
   </div>
 </li>
       </ul>
@@ -461,7 +481,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Each chapter offers a sustained argument for some controversial thesis, specifically written for an audience of beginners. The aim is to introduce newcomers to the dynamics of philosophical argumentation, using some of the arguments standardly covered in an introductory philosophy course, but without the additional hurdles one encounters when reading the primary sources of the arguments: challenging writing, obscure jargon, and references to unfamiliar books, philosophers, or schools of thought.</p>
 <p>The different chapters aren’t all written from the <em>same</em> perspective. This is obvious from a quick glance at the opening chapters: the first chapter argues that you shouldn’t believe in God, while the second argues that you should. You’ll also find that chapters 3 and 4 contain arguments pointing to different conclusions about the relationship between people and their bodies, and chapter 7 contains arguments against the very theory of morality that’s defended in chapter 10. So, you will be exposed to a variety of different philosophical perspectives, and you should be on the lookout for ways in which the arguments in one chapter provide the resources for resisting arguments in other chapters.</p>
 <p>And while there are chapters arguing both for and against belief in God, that isn’t the case for other topics we’ll cover. For instance, there’s a chapter arguing that you don’t have free will, but no chapter arguing that you <em>do</em> have free will. That doesn’t mean that you’ll only get to hear one side of the argument. Along the way you will be exposed to many of the standard objections to the views and arguments I’m advancing, and you can decide for yourself whether those objections are convincing. Those who need help finding the flaws in the reasoning (or ideas for paper topics) can look to the reflection questions at the end of each chapter for some clues.</p>
-<p>As I said, the arguments advanced in the book are not my own, and at the end of each chapter I point out the original sources of the arguments. In some chapters, the central arguments have a long history, and the formulations I use can’t be credited to any one philosopher in particular. Other chapters, however, are more directly indebted to the work of specific contemporary philosophers, reproducing the contents of their books and articles (though often with some modifications and simplifications). In particular, chapter 7 closely follows the opening chapters of Michael Huemer’s <em>The Problem of Political Authority</em>; chapter 8 reproduces the central arguments of Judith Jarvis Thomson’s “A Defense of Abortion” and Don Marquis’s “Why Abortion is Immoral”; and chapter 9 draws heavily from Dan Lowe’s “Common Arguments for the Moral Acceptability of Eating Meat” and Alastair Norcross’s “Puppies, Pigs, and People.”</p>
+<p>As I said, the arguments advanced in the book are not my own, and at the end of each chapter I point out the original sources of the arguments. In some chapters, the central arguments have a long history, and the formulations I use can’t be credited to any one philosopher in particular. Other chapters, however, are more directly indebted to the work of specific contemporary philosophers, reproducing the contents of their books and articles (though often with some modifications and simplifications). In particular, chapter 7 closely follows the opening chapters of <span class="citation" data-cites="huemer2013a">@huemer2013a</span>; chapter 8 reproduces the central arguments of <span class="citation" data-cites="thomson1971">@thomson1971</span> and <span class="citation" data-cites="marquis1989">@marquis1989</span>; and chapter 9 draws heavily from <span class="citation" data-cites="lowe2016a">@lowe2016a</span> and <span class="citation" data-cites="norcross2004">@norcross2004</span>.</p>
 <p>I’m grateful to Jeff Bagwell, Jacob Berger, Matt Davidson, Nikki Evans, Jason Fishbein, Bill Hartmann, Colton Heiberg, Will Huesser, İrem Kurtsal, Leo Iacono, Jeonggyu Lee, Clayton Littlejohn, Neil Manson, David Mokriski, Charles Perkins, Seán Pierce, Ryan Ross, David Shoemaker, Neil Sinhababu, Dan Sturgis, Joshua Tepley, and Travis Timmerman for helpful suggestions, and to the Facebook Hivemind for help selecting the further readings for the various chapters. Special thanks are due to Chad Carmichael, David King, Jonathan Livengood, and Daniel Story for extensive feedback on earlier drafts of the textbook, and to the students in my 2019 Freshman Seminar: Shreya Acharya, Maile Buckman, Andrea Chavez, Dylan Choi, Lucas Goefft, Mino Han, PK Kottapalli, Mollie Kraus, Mia Lombardo, Dean Mantelzak, Sam Min, Vivian Nguyen, Ariana Pacheco Lara, Kaelen Perrochet, Rijul Singhal, Austin Tam, Jennifer Vargas, Kerry Wang, and Lilly Witonsky. Finally, thanks to Renée Jorgensen for permission to use her portrait of the great 20th century philosopher and logician Ruth Barcan Marcus on the cover. You can see more of her portraits of philosophers here: www.reneebolinger.com/portraits.html</p>
 
 
@@ -882,8 +902,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="About this Remix">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About this Remix</span>
+      <a href="./index.html" class="pagination-link" aria-label="About">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

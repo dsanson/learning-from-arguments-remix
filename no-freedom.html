@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6&nbsp; No Freedom – Learning from Arguments</title>
+<title>5&nbsp; No Freedom – Learning from Arguments</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -60,14 +63,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -95,6 +98,30 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<style>
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+</style>
 
 
 </head>
@@ -279,7 +306,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./no-freedom.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./no-freedom.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -295,9 +322,8 @@ div.csl-indent {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Learning from Arguments</a> 
-        <div class="sidebar-tools-main tools-wide">
+        <div class="sidebar-tools-main">
     <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Learning-from-Arguments.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -321,7 +347,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About this Remix</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -350,67 +376,67 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wager.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./death.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./no-freedom.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./coercion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abortion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
   </div>
 </li>
       </ul>
@@ -436,12 +462,6 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -454,22 +474,25 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">6.1</span> Introduction</a></li>
-  <li><a href="#sec-freedom-unmotivated" id="toc-sec-freedom-unmotivated" class="nav-link" data-scroll-target="#sec-freedom-unmotivated"><span class="header-section-number">6.2</span> Freedom Unmotivated</a></li>
-  <li><a href="#sec-the-desire-argument" id="toc-sec-the-desire-argument" class="nav-link" data-scroll-target="#sec-the-desire-argument"><span class="header-section-number">6.3</span> The Desire Argument Against Free Action</a></li>
-  <li><a href="#sec-the-argument-from-undesired-actions" id="toc-sec-the-argument-from-undesired-actions" class="nav-link" data-scroll-target="#sec-the-argument-from-undesired-actions"><span class="header-section-number">6.4</span> The Argument from Undesired Actions</a></li>
-  <li><a href="#sec-the-argument-from-desire-defeating-actions" id="toc-sec-the-argument-from-desire-defeating-actions" class="nav-link" data-scroll-target="#sec-the-argument-from-desire-defeating-actions"><span class="header-section-number">6.5</span> The Argument from Desire-Defeating Actions</a></li>
-  <li><a href="#sec-determinism" id="toc-sec-determinism" class="nav-link" data-scroll-target="#sec-determinism"><span class="header-section-number">6.6</span> Determinism</a></li>
-  <li><a href="#sec-the-argument-from-determinism" id="toc-sec-the-argument-from-determinism" class="nav-link" data-scroll-target="#sec-the-argument-from-determinism"><span class="header-section-number">6.7</span> The Argument from Determinism</a></li>
-  <li><a href="#sec-on-rejecting-determinism" id="toc-sec-on-rejecting-determinism" class="nav-link" data-scroll-target="#sec-on-rejecting-determinism"><span class="header-section-number">6.8</span> On Rejecting Determinism</a></li>
-  <li><a href="#sec-compatibilism" id="toc-sec-compatibilism" class="nav-link" data-scroll-target="#sec-compatibilism"><span class="header-section-number">6.9</span> Compatibilism</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">5.1</span> Introduction</a></li>
+  <li><a href="#sec-freedom-unmotivated" id="toc-sec-freedom-unmotivated" class="nav-link" data-scroll-target="#sec-freedom-unmotivated"><span class="header-section-number">5.2</span> Freedom Unmotivated</a></li>
+  <li><a href="#sec-the-desire-argument" id="toc-sec-the-desire-argument" class="nav-link" data-scroll-target="#sec-the-desire-argument"><span class="header-section-number">5.3</span> The Desire Argument Against Free Action</a></li>
+  <li><a href="#sec-the-argument-from-undesired-actions" id="toc-sec-the-argument-from-undesired-actions" class="nav-link" data-scroll-target="#sec-the-argument-from-undesired-actions"><span class="header-section-number">5.4</span> The Argument from Undesired Actions</a></li>
+  <li><a href="#sec-the-argument-from-desire-defeating-actions" id="toc-sec-the-argument-from-desire-defeating-actions" class="nav-link" data-scroll-target="#sec-the-argument-from-desire-defeating-actions"><span class="header-section-number">5.5</span> The Argument from Desire-Defeating Actions</a></li>
+  <li><a href="#sec-determinism" id="toc-sec-determinism" class="nav-link" data-scroll-target="#sec-determinism"><span class="header-section-number">5.6</span> Determinism</a></li>
+  <li><a href="#sec-the-argument-from-determinism" id="toc-sec-the-argument-from-determinism" class="nav-link" data-scroll-target="#sec-the-argument-from-determinism"><span class="header-section-number">5.7</span> The Argument from Determinism</a></li>
+  <li><a href="#sec-on-rejecting-determinism" id="toc-sec-on-rejecting-determinism" class="nav-link" data-scroll-target="#sec-on-rejecting-determinism"><span class="header-section-number">5.8</span> On Rejecting Determinism</a></li>
+  <li><a href="#sec-compatibilism" id="toc-sec-compatibilism" class="nav-link" data-scroll-target="#sec-compatibilism"><span class="header-section-number">5.9</span> Compatibilism</a>
   <ul class="collapse">
-  <li><a href="#sec-consequence-argument" id="toc-sec-consequence-argument" class="nav-link" data-scroll-target="#sec-consequence-argument"><span class="header-section-number">6.9.1</span> The Consequence Argument</a></li>
-  <li><a href="#sec-freedom-without-options" id="toc-sec-freedom-without-options" class="nav-link" data-scroll-target="#sec-freedom-without-options"><span class="header-section-number">6.9.2</span> Freedom without Options</a></li>
+  <li><a href="#sec-consequence-argument" id="toc-sec-consequence-argument" class="nav-link" data-scroll-target="#sec-consequence-argument"><span class="header-section-number">5.9.1</span> The Consequence Argument</a></li>
+  <li><a href="#sec-freedom-without-options" id="toc-sec-freedom-without-options" class="nav-link" data-scroll-target="#sec-freedom-without-options"><span class="header-section-number">5.9.2</span> Freedom without Options</a></li>
   </ul></li>
-  <li><a href="#sec-freedom-and-responsibility" id="toc-sec-freedom-and-responsibility" class="nav-link" data-scroll-target="#sec-freedom-and-responsibility"><span class="header-section-number">6.10</span> Freedom and Responsibility</a></li>
-  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions"><span class="header-section-number">6.11</span> Reflection Questions</a></li>
-  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">6.12</span> Sources</a></li>
+  <li><a href="#sec-freedom-and-responsibility" id="toc-sec-freedom-and-responsibility" class="nav-link" data-scroll-target="#sec-freedom-and-responsibility"><span class="header-section-number">5.10</span> Freedom and Responsibility</a></li>
+  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection Questions</a></li>
+  <li><a href="#sources-and-resources" id="toc-sources-and-resources" class="nav-link" data-scroll-target="#sources-and-resources">Sources and Resources</a>
+  <ul class="collapse">
+  <li><a href="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" id="toc-bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="nav-link" data-scroll-target="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/no-freedom.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -477,9 +500,9 @@ div.csl-indent {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./no-freedom.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./no-freedom.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-no-freedom" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></h1>
+<h1 class="title"><span id="sec-no-freedom" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></h1>
 </div>
 
 
@@ -499,77 +522,85 @@ div.csl-indent {
 <div class="authorial-intent">
 <p><em>Views and arguments advanced in this chapter are not necessarily endorsed by the author of the textbook, nor are they original to the author, nor are they meant to be consistent with arguments advanced in other chapters. Different chapters represent different philosophical perspectives.</em></p>
 </div>
-<section id="introduction" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">6.1</span> Introduction</h2>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction"><span class="header-section-number">5.1</span> Introduction</h2>
 <p>Do we ever do anything of our own free will? You might think it’s obvious that we do. It may seem obvious that your decision to read this chapter isn’t unfree in the way that, say, an action performed under hypnosis is. You thought about whether to start reading the chapter, you made the decision to read it, and then you did that very thing that you decided to do. What more could be required for your action to count as free?</p>
 <p>In what follows, I will argue that more is needed for freedom and, moreover, <em>nothing</em> anyone ever does has what it takes to count as free. I admit that this is a radical thesis, with radical implications. For instance, our very practice of holding people morally responsible for their actions presupposes that those actions were performed freely. (You wouldn’t blame someone for kicking you when they’re under the control of a hypnotist.) Accordingly, my thesis that no one acts freely evidently implies that no one should be held responsible for anything they do. But just because it’s a radical thesis with radical implications, that doesn’t mean it isn’t true.</p>
-<p>I’ll present two arguments for my thesis that no one ever acts freely. The first turns on the idea that everything we do is a result of our desires, which are not under our control (sections <a href="#sec-the-desire-argument" class="quarto-xref"><span>6.3</span></a>–<a href="#sec-the-argument-from-desire-defeating-actions" class="quarto-xref"><span>6.5</span></a>). The second turns on the idea that everything we do is the inevitable result of things that happened long before we were even born (sections <a href="#sec-determinism" class="quarto-xref"><span>6.6</span></a>–<a href="#sec-compatibilism" class="quarto-xref"><span>6.9</span></a>). Those who wish to stand by the intuitive idea that we do at least some things freely must find some flaw in each of the arguments.</p>
+<p>I’ll present two arguments for my thesis that no one ever acts freely. The first turns on the idea that everything we do is a result of our desires, which are not under our control (sections <a href="#sec-the-desire-argument" class="quarto-xref"><span>5.3</span></a>–<a href="#sec-the-argument-from-desire-defeating-actions" class="quarto-xref"><span>5.5</span></a>). The second turns on the idea that everything we do is the inevitable result of things that happened long before we were even born (sections <a href="#sec-determinism" class="quarto-xref"><span>5.6</span></a>–<a href="#sec-compatibilism" class="quarto-xref"><span>5.9</span></a>). Those who wish to stand by the intuitive idea that we do at least some things freely must find some flaw in each of the arguments.</p>
 </section>
-<section id="sec-freedom-unmotivated" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="sec-freedom-unmotivated"><span class="header-section-number">6.2</span> Freedom Unmotivated</h2>
+<section id="sec-freedom-unmotivated" class="level2">
+<h2 class="anchored" data-anchor-id="sec-freedom-unmotivated"><span class="header-section-number">5.2</span> Freedom Unmotivated</h2>
 <p>Before turning to my arguments that we never act freely, let me address and attempt to undermine—the powerful intuition that we do often act freely. As indicated above, we tend to think we act freely because many of our actions seem to have all of the marks of freedom: we examine our options, we decide what to do, and we do what we decided to do. To better assess this line of reasoning, let’s frame it as an explicit argument in defense of free action:</p>
-<div id="arg-FR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.1: <strong>The Argument for Freedom</strong>
-</figcaption>
-<div aria-describedby="arg-FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument for Freedom
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FR1) Sometimes you perform an action after deciding to perform that action</li>
-<li>(FR2) If one performs an action after deciding to perform it, then one performs that action freely</li>
-<li>(FR3) So some of your actions are performed freely</li>
+<li><span class="li-label">FR1.</span> Sometimes you perform an action after deciding to perform that action.</li>
+<li><span class="li-label">FR2.</span> If one performs an action after deciding to perform it, then one performs that action freely.</li>
+<li><span class="li-label">FR3.</span> So some of your actions are performed freely.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Premise FR1 is certainly true: we do make decisions, and often our actions line up with our decisions. And premise FR2 has its merits as well. You decided to read this chapter right now, and here you are reading this chapter. That seems like a free action, and FR2 correctly predicts that it’s a free action. But FR2 doesn’t imply that <em>all</em> actions are free. To see this, consider the following case (inspired by a scene from the movie <em>Now You See Me</em>):</p>
-<div id="exa-hypnotic-action" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hypnotic-action-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE6.1: <strong>HYPNOTIC ACTION</strong>
-</figcaption>
-<div aria-describedby="exa-hypnotic-action-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
-<p>Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Jordan on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout <em>Freeze!</em> he will fall into a hypnotic trance and tackle the person who said it. Just then, Kabir the cop arrives on the scene, sees Tia, shouts <em>Freeze!</em>, and Jordan tackles him.</p>
-</blockquote>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</figure>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HYPNOTIC ACTION
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Jordan on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout <em>Freeze!</em> he will fall into a hypnotic trance and tackle the person who said it. Just then, Kabir the cop arrives on the scene, sees Tia, shouts <em>Freeze!</em>, and Jordan tackles him.</p>
+</div>
 </div>
 <p>Jordan never <em>decided</em> to tackle Kabir. He just fell into a trance, and when he emerged from the trance he found himself on top of Kabir pinning him to the ground. Certainly, Jordan’s action isn’t free: he didn’t freely tackle Kabir. FR2 doesn’t say that this action is free, and rightly so. Good job, FR2!</p>
 <p>On closer inspection, though, it’s clear that FR2 cannot be correct. Consider a variant of HYPNOTIC ACTION, in which the hypnotist is not only in control of the person’s actions but also their decisions.</p>
-<div id="exa-hypnotic-decision" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hypnotic-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE6.2: <strong>HYPNOTIC DECISION</strong>
-</figcaption>
-<div aria-describedby="exa-hypnotic-decision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
-<p>Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Colton on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout <em>Freeze!</em> he will grow very angry with the person, decide to tackle them, and then tackle them. Just then, Kabir the cop arrives on the scene, sees Tia, and shouts <em>Freeze!</em> As a result of the hypnotic suggestion, Colton gets angry at Kabir, consciously decides to tackle him, and then tackles him.</p>
-</blockquote>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</figure>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HYPNOTIC DECISION
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Colton on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout <em>Freeze!</em> he will grow very angry with the person, decide to tackle them, and then tackle them. Just then, Kabir the cop arrives on the scene, sees Tia, and shouts <em>Freeze!</em> As a result of the hypnotic suggestion, Colton gets angry at Kabir, consciously decides to tackle him, and then tackles him.</p>
+</div>
 </div>
 <p>Clearly, tackling Kabir isn’t something Colton did of his own free will. True, it may seem to him, from the inside, as if he was free to do otherwise. He may even experience regret, feeling that he could have and should have controlled his temper and made a better decision. But, whether he realizes it or not, Tia’s hypnotic hold over him is so powerful that he couldn’t have decided otherwise. His will was not free nor was the action that sprung from it.</p>
-<p>It’s true that the HYPNOTIC DECISION case is unrealistic. But that doesn’t stop it from being a counterexample to premise FR2. FR2 says that someone acted freely so long as they did what they decided to do, and Colton is a clear example of someone who isn’t acting freely despite doing exactly what they decided to do. Since FR2 is false, our ordinary reason for thinking that we sometimes act freely is undermined. (For a discussion of how unrealistic cases can be relevant for assessing philosophical claims, see <a href="introduction.html#sec-thought-experiments" class="quarto-xref"><span>Section 1.7</span></a>.)</p>
+<p>It’s true that the HYPNOTIC DECISION case is unrealistic. But that doesn’t stop it from being a counterexample to premise FR2. FR2 says that someone acted freely so long as they did what they decided to do, and Colton is a clear example of someone who isn’t acting freely despite doing exactly what they decided to do. Since FR2 is false, our ordinary reason for thinking that we sometimes act freely is undermined. (For a discussion of how unrealistic cases can be relevant for assessing philosophical claims, see <a href="introduction.html#sec-thought-experiments" class="quarto-xref"><span>Section 7</span></a> of the Introduction.)</p>
 </section>
-<section id="sec-the-desire-argument" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="sec-the-desire-argument"><span class="header-section-number">6.3</span> The Desire Argument Against Free Action</h2>
+<section id="sec-the-desire-argument" class="level2">
+<h2 class="anchored" data-anchor-id="sec-the-desire-argument"><span class="header-section-number">5.3</span> The Desire Argument Against Free Action</h2>
 <p>Colton’s action in HYPNOTIC DECISION isn’t free. But why not? The natural answer is that, although he made a choice and did what he wanted to do, his <em>desires</em> weren’t under his control: he wasn’t in control of the overwhelming desire to tackle Kabir. What this suggests is that freedom requires more than just making choices and doing what you desire to do. It requires that your desires be under your control as well. And this is the insight that drives the first of my two arguments against free action. The argument can be stated as follows:</p>
-<div id="arg-DS" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.2: <strong>The Desire Argument</strong>
-</figcaption>
-<div aria-describedby="arg-DS-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Desire Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DS1) What you choose to do is always determined by your desires</li>
-<li>(DS2) You can’t control your desires</li>
-<li>(DS3) So, what you choose to do is always determined by something you can’t control</li>
-<li>(DS4) If what you choose to do is always determined by something you can’t control, then you never act freely</li>
-<li>(DS5) So, you never act freely</li>
+<li><span class="li-label">DS1.</span> What you choose to do is always determined by your desires.</li>
+<li><span class="li-label">DS2.</span> You can’t control your desires.</li>
+<li><span class="li-label">DS3.</span> So, what you choose to do is always determined by something you can’t control.</li>
+<li><span class="li-label">DS4.</span> If what you choose to do is always determined by something you can’t control, then you never act freely.</li>
+<li><span class="li-label">DS5.</span> So, you never act freely.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>By ‘desire’, I mean any kind of wanting, including passionately yearning for something, but also less dramatic things, like wanting to buy some new socks. Let us examine the idea behind each of the premises, and then I’ll turn to two ways that one might try to resist the argument.</p>
 <p>Here is the idea behind DS1. You made a choice about what to have for lunch yesterday, and you chose to have Taco Bell rather than Panda Express. Why? Presumably, it’s because you had a stronger desire for Mexican food than for Chinese. Or perhaps you decided to stay home and make a salad for lunch. Why? Because your desire to save money or for a healthy lunch was stronger than your desire for some delicious fast food.</p>
@@ -581,55 +612,61 @@ A6.2: <strong>The Desire Argument</strong>
 <p>HYPNOTIC DECISION shows why that’s a misguided response. It’s plain to see that Colton wasn’t acting freely when he tackled Kabir. And yet it’s true that <em>he</em> chose to tackle Kabir, as a result of <em>his</em> desire to tackle Kabir. So, the mere fact that one’s actions are the product of one’s own desires and one’s own choices is not enough to make those actions free.</p>
 <p>Now that we have seen why the premises of the argument are at least initially plausible, let me address two important objections. According to the first, DS1 should be rejected because one’s strongest desires do not always win out. According to the second, DS2 should be rejected because there are ways of controlling one’s desires.</p>
 </section>
-<section id="sec-the-argument-from-undesired-actions" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="sec-the-argument-from-undesired-actions"><span class="header-section-number">6.4</span> The Argument from Undesired Actions</h2>
+<section id="sec-the-argument-from-undesired-actions" class="level2">
+<h2 class="anchored" data-anchor-id="sec-the-argument-from-undesired-actions"><span class="header-section-number">5.4</span> The Argument from Undesired Actions</h2>
 <p>A natural reaction to DS1 is to attempt to find cases in which one manages to overcome one’s strongest desires. Suppose your alarm goes off early in the morning, waking you up for your 8am class. Your bed is so cozy; your hangover, so vicious. There is no part of you that wants to get out of bed. And yet, somehow, you drag yourself out of bed and get to class. Is this not a counterexample to DS1?</p>
 <p>It isn’t. The argument underlying this objection would have to go something like this:</p>
-<div id="arg-UA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.3: <strong>The Argument from Undesired Action</strong>
-</figcaption>
-<div aria-describedby="arg-UA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Undesired Action
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(UA1) Your desire to stay in bed was stronger than your desire to get out of bed</li>
-<li>(UA2) If your desire to stay in bed was stronger than your desire to get out of bed, then what you choose to do is not always determined by your desires</li>
-<li>(UA3) So, what you choose to do is not always determined by your desires</li>
+<li><span class="li-label">UA1.</span> Your desire to stay in bed was stronger than your desire to get out of bed.</li>
+<li><span class="li-label">UA2.</span> If your desire to stay in bed was stronger than your desire to get out of bed, then what you choose to do is not always determined by your desires.</li>
+<li><span class="li-label">UA3.</span> So, what you choose to do is not always determined by your desires.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>UA1 may well be true. It may well be that you have no desire at all to get out of bed. But UA2 is false. What’s true is that the desire to stay in bed isn’t overpowered by a desire to get out of bed. But you have other desires that overpower it, for instance the desire to get a good grade in the class. If not for <em>that</em> desire, you wouldn’t have gotten out of bed. So, in the end, this is just another case of your actions being determined by your desires.</p>
 <p>Other putative counterexamples to DS1 fail for similar reasons. Maybe after reading my argument, just to (try to!) prove me wrong, you’ll make yourself a banana and toothpaste omelet for lunch, and eat the whole thing despite how disgusting it tastes. Does that show that your actions aren’t determined by your desires? No, it just shows that your desire to do something absurd and unpredictable is stronger than your desire to eat</p>
 <p>something tasty. Or maybe you’ll flip a coin to decide where to go for lunch: Panda Express if it’s heads, Taco Bell if it’s tails. It comes up heads and you go to Panda Express despite feeling more like Taco Bell. Does that show that something other than your desires is determining what you choose to do? No.&nbsp;All it shows is that your desire to honor the coin flip was stronger than your desire to eat what sounds tastiest.</p>
 <p>One might still be worried about DS1. Suppose you’re at a job interview and your arm suddenly and randomly twitches, causing you to spill a glass of water all over your interviewer. You surely had no desire motivating you to do that. Doesn’t that show that what you do isn’t always determined by your desires? Indeed, it does. But that’s no problem for DS1. DS1 doesn’t say that what you <em>do</em> is always determined by your desires. It says that what you <em>choose to do</em> is always determined by your desires. Since you didn’t <em>choose</em> to spill the water—it’s just something you did by accident—this is no counterexample to DS1.</p>
 </section>
-<section id="sec-the-argument-from-desire-defeating-actions" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="sec-the-argument-from-desire-defeating-actions"><span class="header-section-number">6.5</span> The Argument from Desire-Defeating Actions</h2>
+<section id="sec-the-argument-from-desire-defeating-actions" class="level2">
+<h2 class="anchored" data-anchor-id="sec-the-argument-from-desire-defeating-actions"><span class="header-section-number">5.5</span> The Argument from Desire-Defeating Actions</h2>
 <p>DS2 says that you cannot control your desires, which I motivated by pointing out that you don’t choose your desires. One might object that, just because you don’t <em>choose</em> your desires, that doesn’t mean that you have no <em>control</em> over them. I didn’t choose to have dark hair, but I do have control over whether I have dark hair. I can always dye it or shave my head. Likewise, even if I didn’t choose my desires, I can take steps to change them.</p>
 <p>An example. Suppose that, for ethical reasons, I decide to become a vegetarian. Yet I have such an overwhelming desire for meat that I can’t stop myself from eating it. What’s a wannabe vegetarian to do? Here’s one thing I can do. I can force myself to sit through hours of horrific and disturbing videos of farm animals being slaughtered. In time, I will have conditioned myself to be nauseated by meat and will lose the desire for it altogether. Or suppose that I have become addicted to some drug, and I want to kick the addiction. I can check myself into rehab until the desire for the drug subsides. In other words, even though I never initially chose to desire meat or drugs so strongly, I can change those desires by taking actions that lead me to have the desires I’d prefer to have.</p>
 <p>Let’s call these actions that enable one to overcome one’s desires “desiredefeating actions.” One could try to argue against DS2 on the grounds that we are able to control our desires by performing desire-defeating actions:</p>
-<div id="arg-DD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.4: <strong>The Argument from Desire-Defeating Action</strong>
-</figcaption>
-<div aria-describedby="arg-DD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Desire-Defeating Action
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DD1) Your desires can be changed by performing desire-defeating actions</li>
-<li>(DD2) If your desires can be changed by performing desire-defeating actions, then you can control your desires</li>
-<li>(DD3) So, you can control your desires</li>
+<li><span class="li-label">DD1.</span> Your desires can be changed by performing desire-defeating actions.</li>
+<li><span class="li-label">DD2.</span> If your desires can be changed by performing desire-defeating actions, then you can control your desires.</li>
+<li><span class="li-label">DD3.</span> So, you can control your desires.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>I find this argument unconvincing, and here’s why. In order to decide to perform a desire-defeating action, you have to <em>want</em> to perform it. If I had no desire to watch the videos to help curb my craving for meat, I wouldn’t have. More generally, whether you <em>do</em> end up choosing to perform a desiredefeating action is determined by whether you have a <em>strong enough desire</em> to perform that desire-defeating action.</p>
 <p>To see why that’s a problem for the Argument from Desire-Defeating Action, forget about free will for a moment, and let’s just think about the connection between ability and control. Suppose I’m taking a ferry across the river, and I want to get to the other side quickly. There are two ferries one of which is much faster than the other—and there’s an attendant directing people onto the ferries. He puts some people on the fast ferry and some on the slow ferry, and no one has any say over which ferry he puts them on. Yes, it’s true is that I am able to get to the other side quickly if I get on the fast ferry. But it’s not up to me which ferry I take. That’s determined by the attendant, who I can’t control and who has complete control over which ferry I take. Since I have no control over whether I get on the fast ferry, I have no control over whether I get to the other side quickly.</p>
 <p>An exactly parallel point holds for desire-defeating actions. It’s true that my desires can be changed by performing desire-defeating actions. (In other words, DD1 is true.) But it’s not up to me whether I perform the desire-defeating action. That’s determined by the strength of my desire to perform a desire-defeating action, which is something I don’t control and which has complete control over whether I perform it. Since I have no control over whether I perform desire-defeating actions, I have no control over the desires I’m trying to change. So DD2 is false, and the Argument from Desire-Defeating Action fails.</p>
 </section>
-<section id="sec-determinism" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="sec-determinism"><span class="header-section-number">6.6</span> Determinism</h2>
-<p>That completes our discussion of my first argument against free action. My second argument against free action involves the thesis of determinism, and argues from the truth of determinism to the conclusion that no actions are free. I present the Argument from Determinism in <a href="#sec-the-argument-from-determinism" class="quarto-xref"><span>Section 6.7</span></a>, I address some challenges to determinism in 1, and I address some attempts to show that free action is compatible with determinism in <a href="#sec-compatibilism" class="quarto-xref"><span>Section 6.9</span></a>.</p>
+<section id="sec-determinism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-determinism"><span class="header-section-number">5.6</span> Determinism</h2>
+<p>That completes our discussion of my first argument against free action. My second argument against free action involves the thesis of determinism, and argues from the truth of determinism to the conclusion that no actions are free. I present the Argument from Determinism in <a href="#sec-the-argument-from-determinism" class="quarto-xref"><span>Section 5.7</span></a>, I address some challenges to determinism in 1, and I address some attempts to show that free action is compatible with determinism in <a href="#sec-compatibilism" class="quarto-xref"><span>Section 5.9</span></a>.</p>
 <p>But I’m getting ahead of myself: what is <em>determinism</em>? Roughly put, the idea is that everything that’s happening now and that will happen in the future was already guaranteed to happen by things that happened in the distant past. Determinism can be stated more rigorously using the notion of <em>physical necessitation</em>. To say that one state of the universe physically necessitates some other state is to say that it is logically impossible for the one to occur without the other occurring, given what the laws of nature are. Determinism can then be formulated as the thesis that all present and future states of the universe are physically necessitated by states of the universe in the distant past (that is, before any of us were born).</p>
 <p>To get a better sense of what determinism is saying, let’s look at an analogy. Consider the counting rhyme <em>One Potato Two Potato</em>, which can be used as a way of randomly selecting some person or thing:</p>
 <ul>
@@ -643,23 +680,26 @@ A6.4: <strong>The Argument from Desire-Defeating Action</strong>
 <p>The following analogy may be helpful. Imagine a pool table with billiard balls scattered all around it. And imagine that, like me, you’re a terrible pool player and your go-to strategy is just to hit the cue ball as hard as you can towards the biggest cluster of balls and hope that in all the chaos something ends up going in. Suppose your wish comes true: the cue ball hits the seven ball and the eleven ball, and the seven ball knocks the nine ball towards the pocket and the eleven ball knocks the two ball out of the way just in time for the nine ball to go in. Given how the balls were arranged on the pool table just before your shot, together with how hard you hit the ball, the nine ball was bound to go in (as long as there was no outside interference). But there is no one ball that was responsible for the nine ball going in. It isn’t just that the nine ball was placed here, or just that the eleven ball was placed there, or just that you were aiming the cue ball in that exact direction. It was all of these things taken together that guaranteed that the nine ball would go in, and any changes in any one of them would have changed the final outcome.</p>
 <p>Likewise, determinism isn’t saying that there’s some one fact in the distant past we can identify that’s responsible for some decision you made today. Rather, the idea is that the universe is like a gigantic pool table with atoms crashing around in seemingly chaotic but actually lawfully guided ways, and that those laws guarantee that whole earlier states of the universe will give way to specific later states of the universe.</p>
 </section>
-<section id="sec-the-argument-from-determinism" class="level2" data-number="6.7">
-<h2 data-number="6.7" class="anchored" data-anchor-id="sec-the-argument-from-determinism"><span class="header-section-number">6.7</span> The Argument from Determinism</h2>
+<section id="sec-the-argument-from-determinism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-the-argument-from-determinism"><span class="header-section-number">5.7</span> The Argument from Determinism</h2>
 <p>Perhaps you can already see how determinism is going to cause trouble for free action. But let’s make the argument explicit:</p>
-<div id="arg-DT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.5: <strong>The Argument from Determinism</strong>
-</figcaption>
-<div aria-describedby="arg-DT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Determinism
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DT1) Determinism is true</li>
-<li>(DT2) If determinism is true, then you are never able to do otherwise</li>
-<li>(DT3) If you are never able to do otherwise, then none of your actions are free</li>
-<li>(DT4) So, none of your actions are free</li>
+<li><span class="li-label">DT1.</span> Determinism is true.</li>
+<li><span class="li-label">DT2.</span> If determinism is true, then you are never able to do otherwise.</li>
+<li><span class="li-label">DT3.</span> If you are never able to do otherwise, then none of your actions are free.</li>
+<li><span class="li-label">DT4.</span> So, none of your actions are free.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>In the previous section, I explained what determinism is. But I haven’t yet given you any reason to think it’s true. So why accept DT1? Here’s one reason. Suppose that you are taking a physics exam, which poses a question about a game of pool. The cue ball has just been struck and is headed towards the eight ball. You’re given complete information about the state of the pool table immediately following the shot: the masses and positions of the various balls, the velocity of the cue ball and the direction it’s traveling, the dimensions of the table, the positions and size of the pockets, and so on. The question is whether the eight ball will go in the pocket.</p>
 <p>This is a fair question. With some effort, you can use the laws of physics and information about the balls and the table to calculate whether the shot is successful. But the question is fair, it would seem, only if determinism is true. For if the laws of physics together with the initial state of the table don’t determine whether the ball will go in—if things could go either way, as far as physics is concerned—then there would be no way to tell, even in principle, whether the eight ball will go in.</p>
@@ -668,8 +708,8 @@ A6.5: <strong>The Argument from Determinism</strong>
 <p>How about DT3? Here, the idea is that acting freely requires having multiple courses of action available to you and being able to choose among them. Yet if those courses of action you didn’t take weren’t really available you—if in truth you couldn’t have done anything other than what you in fact did—then your action wasn’t free after all.</p>
 <p>Any one of these premises can be resisted. So, let’s consider each of them in turn.</p>
 </section>
-<section id="sec-on-rejecting-determinism" class="level2" data-number="6.8">
-<h2 data-number="6.8" class="anchored" data-anchor-id="sec-on-rejecting-determinism"><span class="header-section-number">6.8</span> On Rejecting Determinism</h2>
+<section id="sec-on-rejecting-determinism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-on-rejecting-determinism"><span class="header-section-number">5.8</span> On Rejecting Determinism</h2>
 <p>As its name suggests, the Argument from Determinism is premised on the assumption that determinism is true. Here I’ll consider two things that one might say in order to challenge that assumption: first that decisions and other mental events are exempt from determination by the laws of nature and the distant past, and second that there is genuine randomness in the universe.</p>
 <p>I can imagine someone insisting that determinism is true only when restricted to its proper domain: the physical world. What’s true is that physical states of the universe in the distant past physically necessitate all present and future <em>physical</em> states of the universe. But, the idea goes, they don’t physically necessitate present and future <em>nonphysical</em> states of the universe, like decisions and other mental states.</p>
 <p>It’s hardly obvious that mental states aren’t physical states (aren’t they just brain states?), but, for the sake of the argument, let’s just grant that mental states are nonphysical. Still, this is not enough to block the Argument from Determinism. For the envisaged objector agrees that determinism still applies to all physical events, which includes everything that happens in and to our physical bodies. However, if everything that our bodies do is determined, then, by the same reasoning given above, our bodies are never able to do otherwise than what they in fact do. In that case, nothing we do with our bodies is done freely. But <em>everything</em> we do (other than thinking) is something we do with our bodies. So, we still get the result that virtually nothing anyone does is done freely, including everyday actions like going to Taco Bell for lunch or going for a morning run.</p>
@@ -678,176 +718,224 @@ A6.5: <strong>The Argument from Determinism</strong>
 <p>Perhaps one could challenge quantum mechanics, though that seems unwise, especially for those of us who don’t have a Ph.D.&nbsp;in physics. More modestly, one could challenge the standard, indeterministic <em>interpretation</em> of quantum mechanics (the “Copenhagen” interpretation), and argue for one of the alternative, deterministic interpretations (like the “manyworlds” interpretation). But I’m not going to do either of those things. In fact, let’s just grant the point. Suppose that there is genuine randomness in the universe. Suppose DT1 is false. Still, it’s a shallow victory, since it’s hard to see how randomness is supposed to vindicate free action.</p>
 <p>To see why, let’s suppose it was a matter of chance that you decided to read this chapter right now. Let’s say there was a 30% chance that you’d decide to read the chapter, a 25% chance you’d decide to go for a walk, and a 45% chance that you’d decide to take a nap, and that for no further reason than that—just as a random fluke—you ended up deciding to read rather than nap or walk. That doesn’t sound like freedom to me! Think of it this way. If you were to rewind time to the moment just before you decided to read this chapter, over and over again a hundred times, then you’d do the reading about 30 times, nap about 45 times, and go for a walk about 25 times. It’s completely random that, in this actual timeline, you decided to read. But if it was a random occurrence, then it wasn’t in any sense up to you or under your control whether to read or nap or walk. And actions that aren’t up to you or under your control aren’t free.</p>
 <p>What this suggests is that, surprisingly, our actions are unfree <em>whether or not</em> they’re determined. We can use this insight to fortify the Argument from Determinism, doing away with the assumption that determinism is in fact true:</p>
-<div id="arg-DM" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.6: <strong>The Doomed Regardless Argument</strong>
-</figcaption>
-<div aria-describedby="arg-DM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Doomed Regardless Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DM1) If an action is determined to happen, then you couldn’t have done otherwise</li>
-<li>(DM2) If you couldn’t have done otherwise, then the action is not free</li>
-<li>(DM3) So, if an action is determined to happen, then it is not free</li>
-<li>(DM4) If an action happens randomly, then it is not free</li>
-<li>(DM5) Every action you perform is either determined to happen or happens randomly</li>
-<li>(DM6) So, none of your actions are free</li>
+<li><span class="li-label">DM1.</span> If an action is determined to happen, then you couldn’t have done otherwise.</li>
+<li><span class="li-label">DM2.</span> If you couldn’t have done otherwise, then the action is not free.</li>
+<li><span class="li-label">DM3.</span> So, if an action is determined to happen, then it is not free.</li>
+<li><span class="li-label">DM4.</span> If an action happens randomly, then it is not free.</li>
+<li><span class="li-label">DM5.</span> Every action you perform is either determined to happen or happens randomly.</li>
+<li><span class="li-label">DM6.</span> So, none of your actions are free.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>We have already seen the motivation behind most of the premises, so I can be brief. The idea behind DM1 is that if an action is determined, then you have no control over the factors that are controlling your action (namely, the laws and distant past). The idea behind DM2 is that freedom requires a genuine ability to choose among different courses of action. The idea behind DM4 is that, if it was just a random matter of chance that you did what you did, then it was not up to you whether you did it. DM5 says that all actions are either random ones or determined ones, and indeed it is hard to see what middle ground there could be. If something is undetermined then nothing guarantees that it happens, in which case it must be a matter of chance that it happened. DM6 follows from these four premises: since there are only the two categories of actions, and actions belonging to either category are unfree, no actions are free.</p>
 </section>
-<section id="sec-compatibilism" class="level2" data-number="6.9">
-<h2 data-number="6.9" class="anchored" data-anchor-id="sec-compatibilism"><span class="header-section-number">6.9</span> Compatibilism</h2>
+<section id="sec-compatibilism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-compatibilism"><span class="header-section-number">5.9</span> Compatibilism</h2>
 <p>What we have seen is that it is no use trying to resist the Argument from Determinism by rejecting determinism, since I can always shift to the Doomed Regardless Argument. Indeed, what we have just seen is that free action might <em>require</em> determinism, since undetermined random actions can never be free. Thus, one might be tempted by a different strategy, a <em>compatibilist</em> strategy, which grants the truth of determinism (DT1) but insists that free action is actually entirely compatible with determinism.</p>
 <p>Don’t get too excited. A compatibilist still has to find some premise to deny in the Argument from Determinism (as well as the Doomed Regardless Argument). Here again is the argument:</p>
-<div id="arg-DT-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DT-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.7: <strong>The Argument from Determinism</strong>
-</figcaption>
-<div aria-describedby="arg-DT-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Determinism
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DT1) Determinism is true</li>
-<li>(DT2) If determinism is true, then you are never able to do otherwise</li>
-<li>(DT3) If you are never able to do otherwise, then none of your actions are free</li>
-<li>(DT4) So, none of your actions are free</li>
+<li><span class="li-label">DT1.</span> Determinism is true.</li>
+<li><span class="li-label">DT2.</span> If determinism is true, then you are never able to do otherwise.</li>
+<li><span class="li-label">DT3.</span> If you are never able to do otherwise, then none of your actions are free.</li>
+<li><span class="li-label">DT4.</span> So, none of your actions are free.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>The compatibilist does not deny DT1. So, she has to reject either DT2 or DT3. Let’s consider the prospects of each of these options.</p>
-<section id="sec-consequence-argument" class="level3" data-number="6.9.1">
-<h3 data-number="6.9.1" class="anchored" data-anchor-id="sec-consequence-argument"><span class="header-section-number">6.9.1</span> The Consequence Argument</h3>
+<section id="sec-consequence-argument" class="level3">
+<h3 class="anchored" data-anchor-id="sec-consequence-argument"><span class="header-section-number">5.9.1</span> The Consequence Argument</h3>
 <p>The idea behind DT2 was that, if determinism is true, then all of your actions are consequences of things that you are powerless to change—the laws of nature and the distant past—which in turn means that the actions themselves are things you are powerless to change. Let’s break down this line of reasoning.</p>
-<div id="arg-CQ" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CQ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.8: <strong>The Consequence Argument</strong>
-</figcaption>
-<div aria-describedby="arg-CQ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Consequence Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(CQ1) If determinism is true, then what you do is always a consequence of the laws of nature and the distant past</li>
-<li>(CQ2) You have no control over the laws of nature or the distant past</li>
-<li>(CQ3) So, if determinism is true, then what you do is always a consequence of things over which you have no control</li>
-<li>(CQ4) If what you do is always a consequence of things over which you have no control, then you are never able to do otherwise (DT2) So, if determinism is true, you are never able to do otherwise</li>
+<li><span class="li-label">CQ1.</span> If determinism is true, then what you do is always a consequence of the laws of nature and the distant past.</li>
+<li><span class="li-label">CQ2.</span> You have no control over the laws of nature or the distant past</li>
+<li><span class="li-label">CQ3.</span> So, if determinism is true, then what you do is always a consequence of things over which you have no control.</li>
+<li><span class="li-label">CQ4.</span> If what you do is always a consequence of things over which you have no control, then you are never able to do otherwise (DT2) So, if determinism is true, you are never able to do otherwise.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>The idea behind CQ1 is that, given determinism, <em>everything</em> that is happening and will happen is physically necessitated by events in the distant past, and what your body and brain do is no exception. Notice that CQ1 is not saying that determinism <em>is</em> true. Nor is it saying that what you do is always a consequence of the laws of nature and the distant past. Rather, it’s drawing a conceptual connection between two things: <em>if</em> everything is determined by the laws and the distant past <em>then</em> everything you do is determined by the laws and the distant past. By analogy, suppose that Kristina just got carded at the bar. Even if you think that Kristina is over 21 and is old enough order a drink, you could still agree that <em>if</em> Kristina is under 21 <em>then</em> she isn’t old enough to order a drink. Likewise, even if you reject determinism, you could (and should) still accept CQ1.</p>
 <p>CQ2 is certainly true as well: try as you might, you can’t change the physical laws and you can’t change what happened before you were born. Perhaps you could if you had a time machine but, alas, you don’t.</p>
 <p>To see why CQ4 is true, imagine that I’ve got you by the wrists, and I’m hitting you with your own fists and taunting you: “Stop hitting yourself! Stop hitting yourself!” Why is that so upsetting? Because I have overpowered you, and you can’t stop hitting yourself. You can’t do otherwise. And why is that? Because you have no control over that which is determining what you’re doing (namely, me). Generalizing: if you never have control over the things that determine what you do, then you could never have done otherwise than what you in fact did.</p>
 </section>
-<section id="sec-freedom-without-options" class="level3" data-number="6.9.2">
-<h3 data-number="6.9.2" class="anchored" data-anchor-id="sec-freedom-without-options"><span class="header-section-number">6.9.2</span> Freedom without Options</h3>
+<section id="sec-freedom-without-options" class="level3">
+<h3 class="anchored" data-anchor-id="sec-freedom-without-options"><span class="header-section-number">5.9.2</span> Freedom without Options</h3>
 <p>The case for DT2 seems airtight: clearly, you can never do otherwise if everything you do is a consequence of things that lie outside your control. That means that compatibilists will have to deny DT3. But how could anyone deny DT3? How could an action be free if you had no choice but to perform that action?</p>
 <p>To see how this is possible, the compatibilist might invoke a hypnosis case of her own.</p>
-<div id="exa-hypnotic-backup" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-hypnotic-backup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE6.3: <strong>HYPNOTIC BACKUP</strong>
-</figcaption>
-<div aria-describedby="exa-hypnotic-backup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
-<p>Tia the master hypnotist is on the run from the law and hires Clay to tackle any cop who turns up. Concerned that Clay might betray her, Tia gives Clay an irresistible post-hypnotic suggestion to tackle any cop he sees, but which will kick in only if she triggers it by shouting <em>Abracadabra!</em> When Kabir the cop arrives on the scene, Tia keeps a watchful eye on Clay to see if he’s going to back out. But Clay comes through: he decides to tackle Kabir all on his own, without Tia having to trigger the post-hypnotic suggestion that would have forced him to tackle Kabir.</p>
-</blockquote>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</figure>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HYPNOTIC BACKUP
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tia the master hypnotist is on the run from the law and hires Clay to tackle any cop who turns up. Concerned that Clay might betray her, Tia gives Clay an irresistible post-hypnotic suggestion to tackle any cop he sees, but which will kick in only if she triggers it by shouting <em>Abracadabra!</em> When Kabir the cop arrives on the scene, Tia keeps a watchful eye on Clay to see if he’s going to back out. But Clay comes through: he decides to tackle Kabir all on his own, without Tia having to trigger the post-hypnotic suggestion that would have forced him to tackle Kabir.</p>
+</div>
 </div>
 <p>Here is how this case is supposed to help the compatibilist. Notice that Clay could not have done otherwise. He’s either going to decide on his own to tackle Kabir, or he’s going to decide not to in which case Tia will trigger the irresistible post-hypnotic suggestion forcing him to tackle Kabir. Either way he tackles Kabir. But the mere fact that he couldn’t have done otherwise doesn’t stop us from holding him responsible for what he did. That fact by itself doesn’t convince us that tackling Kabir is something he didn’t do freely. After all, as it happens neither his decision nor his action was the result of hypnosis (although the tackling <em>would</em> have been the result of hypnosis had he shown signs of backing out). What this suggests is that the mere inability to do otherwise isn’t <em>by itself</em> reason to think that an action is unfree. Accordingly, the compatibilist might say, we have no good reason to accept DT3.</p>
 <p>Even I have to admit that this is a clever objection. But ultimately the argument can be revised so as to sidestep this case. To see how, let me first try to diagnose our reaction to HYPNOTIC BACKUP. When we think about the tackling, we are inclined to hold Clay responsible and think that being prevented from doing otherwise didn’t prevent him from acting freely. Why are we so inclined? Because we think it was at least up to him whether to <em>decide</em> to tackle Kabir. Since he could have decided not to tackle Kabir, and since he did decide to tackle Kabir, we are open to thinking of the tackling as something he did freely.</p>
 <p>But if determinism is true, then not only your actions but also your (and Clay’s) <em>decisions</em> are determined. With this in mind, we can revise the Argument from Determinism as follows:</p>
-<div id="arg-DT-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DT-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A6.9: <strong>The Argument from Determined Decision</strong>
-</figcaption>
-<div aria-describedby="arg-DT-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Determined Decision
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DT1) Determinism is true</li>
-<li>(DT2*) If determinism is true, then you are never able to <em>decide</em> to do otherwise</li>
-<li>(DT3*) If you are never able to <em>decide</em> to do otherwise, then none of your actions are free</li>
-<li>(DT4) So, none of your actions are free</li>
+<li><span class="li-label">DT1.</span> Determinism is true.</li>
+<li><span class="li-label">DT2*.</span> If determinism is true, then you are never able to <em>decide</em> to do otherwise.</li>
+<li><span class="li-label">DT3*.</span> If you are never able to <em>decide</em> to do otherwise, then none of your actions are free.</li>
+<li><span class="li-label">DT4.</span> So, none of your actions are free.</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>DT2* is just as plausible as DT2: if determinism is true then everything about you, including what goes on in your brain, is determined by factors outside your control. And DT3* is no longer threatened by HYPNOTIC BACKUP. As I said, HYPNOTIC BACKUP gives us reason to reject DT3 only insofar as we were thinking that Clay could have decided not to tackle Kabir. In order to challenge DT3*, we’d need to change the case so that Clay couldn’t even have decided not to tackle Kabir. But when we revise the case in that way, our sense that he may still have been acting freely vanishes altogether.</p>
 </section>
 </section>
-<section id="sec-freedom-and-responsibility" class="level2" data-number="6.10">
-<h2 data-number="6.10" class="anchored" data-anchor-id="sec-freedom-and-responsibility"><span class="header-section-number">6.10</span> Freedom and Responsibility</h2>
+<section id="sec-freedom-and-responsibility" class="level2">
+<h2 class="anchored" data-anchor-id="sec-freedom-and-responsibility"><span class="header-section-number">5.10</span> Freedom and Responsibility</h2>
 <p>I have provided two arguments against the seemingly obvious claim that people sometimes act freely. The first turned on the assumption that our actions are determined by our desires, and the second turned on the assumption that our actions are determined by the laws of nature together with events that long preceded our births. Either way, our actions are determined by something over which we have no control, which, I have argued, suffices to show that no one ever acts freely.</p>
 <p>At this point, you may be wondering whether it really even matters whether our actions are free. Of course it does! If nothing we do is under our control and no one ever does anything freely, then no one is ever morally responsible for what they do (just as no one is responsible for things they do when they are in a hypnotic trance). Nor does anyone genuinely deserve praise or blame for anything they do. Accepting the arguments of this chapter requires drastically rethinking our assessments of people and their actions.</p>
 <p>If no one is responsible or blameworthy for the things that they do, does it mean that no one should ever be punished for wrongdoing? Not necessarily. What’s true is that people should not be punished <em>because</em> they deserve it or <em>because</em> they’re to blame for what they’ve done. But it still makes good sense to punish people—and to threaten would-be criminals with punishment—to the extent that this has a positive effect on their behavior. In a world without free will, punishment must be seen as “forward-looking” as opposed to “backward-looking.” We should punish</p>
 <p>people because punishment (and the threat thereof) has certain desirable consequences, not because it “sets things right” by addressing some past wrongdoing.</p>
 </section>
-<section id="reflection-questions" class="level2" data-number="6.11">
-<h2 data-number="6.11" class="anchored" data-anchor-id="reflection-questions"><span class="header-section-number">6.11</span> Reflection Questions</h2>
+<section id="reflection-questions" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
 <ol type="1">
 <li>Premise DS1 of the Desire Argument says that what you choose to do is always determined by your desires. But isn’t what you choose to do also at least <em>partly</em> determined by your beliefs? For instance, whether your desire for Taco Bell causes you to go to Taco Bell depends in part on whether you believe that Taco Bell is open for business. Can this observation about the influence of beliefs be used to challenge to Desire Argument?</li>
-<li>Can the Argument from Undesired Actions be defended against the sorts of objections I raise in <a href="#sec-the-argument-from-undesired-actions" class="quarto-xref"><span>Section 6.4</span></a>? Are there better examples of undesired actions, which escape my objections?</li>
+<li>Can the Argument from Undesired Actions be defended against the sorts of objections I raise in <a href="#sec-the-argument-from-undesired-actions" class="quarto-xref"><span>Section 5.4</span></a>? Are there better examples of undesired actions, which escape my objections?</li>
 <li>Premise DM5 of the Doomed Regardless Argument
 <ol class="example" type="1">
 <li>says that every action is either determined to happen or random. Is there really no middle ground?</li>
 </ol></li>
-<li>At the end of <a href="#sec-compatibilism" class="quarto-xref"><span>Section 6.9</span></a>, I said that the HYPNOTIC BACKUP case cannot be revised to serve as a counterexample to DT3* of the Argument from Determined Decisions. Is that true?</li>
+<li>At the end of <a href="#sec-compatibilism" class="quarto-xref"><span>Section 5.9</span></a>, I said that the HYPNOTIC BACKUP case cannot be revised to serve as a counterexample to DT3* of the Argument from Determined Decisions. Is that true?</li>
 </ol>
 </section>
-<section id="sources" class="level2" data-number="6.12">
-<h2 data-number="6.12" class="anchored" data-anchor-id="sources"><span class="header-section-number">6.12</span> Sources</h2>
-<p>Both the Desire Argument and the Argument from Determinism can be found in Baron d’Holbach’s “Of the System of Man’s Free Agency.” The Consequence Argument in <a href="#sec-consequence-argument" class="quarto-xref"><span>Section 6.9.1</span></a> is drawn from <span class="citation" data-cites="inwagen1986b">van Inwagen (<a href="#ref-inwagen1986b" role="doc-biblioref">1986</a>)</span>, and the hypnotic backup case in <a href="#sec-freedom-without-options" class="quarto-xref"><span>Section 6.9.2</span></a> is a variation on an example from <span class="citation" data-cites="frankfurt1969">Frankfurt (<a href="#ref-frankfurt1969" role="doc-biblioref">1969</a>)</span>. For discussion of whether quantum mechanics is at odds with determinism, see <span class="citation" data-cites="maudlin2005">Maudlin (<a href="#ref-maudlin2005" role="doc-biblioref">2005</a>)</span>. Here are some additional resources:</p>
-<!--TODO: find best sources for:
+<section id="sources-and-resources" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sources-and-resources">Sources and Resources</h2>
+<p>Both the Desire Argument and the Argument from Determinism can be found in <span class="citation" data-cites="dholbach1868--74b2ecfa983dee78978473d5b1627d07adb62c0e">D’Holbach (<a href="#ref-dholbach1868--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1868</a>, ch.&nbsp;11)</span> (<a href="https://www.gutenberg.org/files/8909/8909-h/8909-h.htm#link2H_4_0018">free version of the public domain text</a>), while <span class="citation" data-cites="hume1999--74b2ecfa983dee78978473d5b1627d07adb62c0e">Hume (<a href="#ref-hume1999--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1999, sec. 8</a>)</span> defends a compatiblist position (<a href="https://www.gutenberg.org/files/9662/9662-h/9662-h.htm#section8">free version of public domain text</a>).</p>
+<p>The Consequence Argument in <a href="#sec-consequence-argument" class="quarto-xref"><span>Section 5.9.1</span></a> is drawn from <span class="citation" data-cites="inwagen1986b--74b2ecfa983dee78978473d5b1627d07adb62c0e">Inwagen (<a href="#ref-inwagen1986b--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1986</a>)</span>, and the hypnotic backup case in <a href="#sec-freedom-without-options" class="quarto-xref"><span>Section 5.9.2</span></a> is a variation on an example from <span class="citation" data-cites="frankfurt1969--74b2ecfa983dee78978473d5b1627d07adb62c0e">Frankfurt (<a href="#ref-frankfurt1969--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1969</a>)</span>. For discussion of whether quantum mechanics is at odds with determinism, see <span class="citation" data-cites="maudlin2005--74b2ecfa983dee78978473d5b1627d07adb62c0e">Maudlin (<a href="#ref-maudlin2005--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2005</a>)</span>.</p>
+<p>There are several 1000-Word Philosophy articles on Free Will. You don’t really need me to provide you with links. I will let you find them for yourself!</p>
+<p><em>Wireless Philosophy</em> has surprisingly little directly on the topic. <span class="citation" data-cites="holton2013--74b2ecfa983dee78978473d5b1627d07adb62c0e">Holton (<a href="#ref-holton2013--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2013</a>)</span> is the closest thing they have, and it focuses more on the apparent incompatibility of free will and foreknowledge:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/iSfXdNIolQA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>For a book length introduction to the problem of free will, of the sort that might be assigned in a class devoted to this topic, see <span class="citation" data-cites="griffith2022--74b2ecfa983dee78978473d5b1627d07adb62c0e">Griffith (<a href="#ref-griffith2022--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2022</a>)</span>. <span class="citation" data-cites="fischer2024--74b2ecfa983dee78978473d5b1627d07adb62c0e">Fischer et al. (<a href="#ref-fischer2024--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2024</a>)</span> offers four essays by four prominent theorists, presenting four different views on the issue.</p>
+<p><span class="citation" data-cites="ayer1954--74b2ecfa983dee78978473d5b1627d07adb62c0e">Ayer (<a href="#ref-ayer1954--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1954</a>)</span> and <span class="citation" data-cites="hobart1934--74b2ecfa983dee78978473d5b1627d07adb62c0e">Hobart (<a href="#ref-hobart1934--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1934</a>)</span> are classic defenses of compatibilism.</p>
+<p><span class="citation" data-cites="vaninwagen2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Inwagen (<a href="#ref-vaninwagen2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span> argues that free will is a mystery for both the determinist and the indeterminist.</p>
+<p><span class="citation" data-cites="alvarez2009--74b2ecfa983dee78978473d5b1627d07adb62c0e">Alvarez (<a href="#ref-alvarez2009--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2009</a>)</span> argues that, despite how it seems, examples like HYPNOTIC BACKUP fail to establish that free will does not involve the possibility of doing otherwise.</p>
+<p><span class="citation" data-cites="darrow1902--74b2ecfa983dee78978473d5b1627d07adb62c0e">Darrow (<a href="#ref-darrow1902--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1902</a>)</span> is a classic work by the famous attorney, Clarence Darrow, arguing that crime is not the result of free choice, and our usual ways of thinking about crime, punishment, and moral responsibility are wrong.</p>
+<p><span class="citation" data-cites="caruso2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Caruso (<a href="#ref-caruso2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span> is a TED talk, arguing that we don’t have free will, and that this is not a bad thing: we are better off not believing we have it.</p>
+<p><span class="citation" data-cites="wolf1987a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Wolf (<a href="#ref-wolf1987a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1987</a>)</span> suggests that we can better understand the threat posed by determinism by thinking about the relationship between free will, moral responsibility, and sanity.</p>
+<p>Here is another argument for the incompatibility of free will and determinism: offers a careful treatment of another argument</p>
+<blockquote class="blockquote">
+<p>Imagine that mischievous neuroscientists have developed technology which allows them to covertly invoke any mental states they like in their chosen victim, ‘Vic.’ The neuroscientists have grown tired of Vic’s wife, so they press a series of buttons which cause Vic to undergo a process of reasoning which ends with his decision to kill her. Since there is nothing standing in Vic’s way, he carries out the plan. Now, a question: Is Vic free and morally responsible for killing his wife? It certainly seems not: although Vic’s decision to kill his wife is the causal product of his own inner states, these states are ultimately under the causal control of the neuroscientists. As such, Vic seems no more free—and, so, no more morally responsible—than a marionette. But, assuming that the laws of nature are deterministic, it seems that we, too, are mere marionettes: each of us is bound by ‘causal strings’ to facts in the distant past over which we had no control. Being subject to deterministic causal laws, then, is no different than being subject to freedom-undermining manipulation. <span class="citation" data-cites="mickelson2016--74b2ecfa983dee78978473d5b1627d07adb62c0e">(<a href="#ref-mickelson2016--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">Mickelson 2016, 166</a>)</span></p>
+</blockquote>
+<p>See <span class="citation" data-cites="mickelson2016--74b2ecfa983dee78978473d5b1627d07adb62c0e">Mickelson (<a href="#ref-mickelson2016--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2016</a>)</span> for more discussion.</p>
+<p>The arguments in this chapter did not depend on any surprising results from neuroscience. <span class="citation" data-cites="roskies2006--74b2ecfa983dee78978473d5b1627d07adb62c0e">Roskies (<a href="#ref-roskies2006--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2006</a>)</span> considers the question of whether and how results from neuroscience might alter the debate.</p>
+<p>Hume and D’Holbach were hardly the first philosophers to consider the problem of free will.</p>
+<p><span class="citation" data-cites="frede2011a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Frede and Long (<a href="#ref-frede2011a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2011</a>)</span> tells some of that earlier history, and argues that our concept of free will is not the inevitable product of common sense, but a philosophical construct shaped by our contingent history.</p>
+<!--
 
--   Baron d'Holbach's "Of the System of Man's Free Agency."
-- Clarence Darrow: Crime and Criminals (Address to the Prisoners in the
-  Chicago Jail)
--  Hume, Enquiry SECTION VIII. Of Liberty and Necessity.
-
-Consider adding references to medieval sources...
+TODO: Consider adding references to medieval sources...
 
 -->
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-alvarez2009" class="csl-entry" role="listitem">
-Alvarez, Maria. 2009. <span>“Actions, Thought-Experiments and the ?Principle of Alternate Possibilities?”</span> <em>Australasian Journal of Philosophy</em> 87 (1): 61–68. <a href="https://doi.org/10.1080/00048400802215505">https://doi.org/10.1080/00048400802215505</a>.
+<section id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</h3>
+<div id="refs--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-alvarez2009--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Alvarez, Maria. 2009. <span>“Actions, Thought-Experiments and the <span>‘Principle of Alternate Possibilities’</span>.”</span> <em>Australasian Journal of Philosophy</em> 87 (1): 61–68. <a href="https://doi.org/10.1080/00048400802215505">https://doi.org/10.1080/00048400802215505</a>.
 </div>
-<div id="ref-ayer1954" class="csl-entry" role="listitem">
-Ayer, Alfred. 1954. <span>“Freedom and Necessity.”</span> In <em>Philosophical Essays</em>. Greenwood Press.
+<div id="ref-ayer1954--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Ayer, Alfred. 1954. <span>“Freedom and <span>Necessity</span>.”</span> In <em>Philosophical Essays</em>. Greenwood Press.
 </div>
-<div id="ref-caruso2014" class="csl-entry" role="listitem">
-Caruso, Gregg, dir. 2014. <em>The Dark Side of Free Will</em>. TEDx Chemung River. 10:11. <a href="https://www.youtube.com/watch?v=rfOMqehl-ZA">https://www.youtube.com/watch?v=rfOMqehl-ZA</a>.
+<div id="ref-caruso2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Caruso, Gregg. 2014. <span>“The Dark Side of Free Will.”</span> December 9. <a href="https://www.youtube.com/watch?v=rfOMqehl-ZA">https://www.youtube.com/watch?v=rfOMqehl-ZA</a>.
 </div>
-<div id="ref-fischer2024" class="csl-entry" role="listitem">
-Fischer, John Martin, Robert H. Kane, Derk Pereboom, and Manuel Vargas. 2024. <em>Four Views on Free Will</em>. 2nd ed. Wiley.
+<div id="ref-dholbach1868--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+D’Holbach, Baron. 1868. <em>The <span>System</span> of <span>Nature</span> <span>OR</span> <span>Laws</span> of the <span>Moral</span> and <span>Physical</span> <span>World</span></em>. Translated by H. D. Robinson.
 </div>
-<div id="ref-frankfurt1969" class="csl-entry" role="listitem">
-Frankfurt, Harry G. 1969. <span>“Alternate Possibilities and Moral Responsibility.”</span> <em>Journal of Philosophy</em> 66 (23): 829–39. <a href="https://doi.org/10.2307/2023833">https://doi.org/10.2307/2023833</a>.
+<div id="ref-darrow1902--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Darrow, Clarence. 1902. <em>Crime and Criminals: An Address Delivered to the Prisoners in the <span>Chicago</span> County Jail</em>. Charles H. Kerr; Company. <a href="http://archive.org/details/2917176.0001.001.umich.edu">http://archive.org/details/2917176.0001.001.umich.edu</a>.
 </div>
-<div id="ref-griffith2022" class="csl-entry" role="listitem">
+<div id="ref-fischer2024--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Fischer, John Martin, Robert H. Kane, Derk Pereboom, and Manuel Vargas. 2024. <em>Four <span>Views</span> on <span>Free</span> <span>Will</span></em>. 2nd ed. Wiley.
+</div>
+<div id="ref-frankfurt1969--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Frankfurt, Harry G. 1969. <span>“Alternate <span>Possibilities</span> and <span>Moral</span> <span>Responsibility</span>.”</span> <em>Journal of Philosophy</em> 66 (23): 829–39. <a href="https://doi.org/10.2307/2023833">https://doi.org/10.2307/2023833</a>.
+</div>
+<div id="ref-frede2011a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Frede, Michael, and A. A. Long. 2011. <em>A Free Will : Origins of the Notion in Ancient Thought</em>. 1st ed. University of California Press.
+</div>
+<div id="ref-griffith2022--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Griffith, Meghan. 2022. <em>Free Will: The Basics</em>. 2nd ed. Routledge.
 </div>
-<div id="ref-hobart1934" class="csl-entry" role="listitem">
+<div id="ref-hobart1934--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Hobart, R. E. 1934. <span>“Free Will as Involving Determination and Inconceivable Without It.”</span> <em>Mind</em> 43 (169): 1–27. <a href="https://doi.org/10.1093/mind/xliii.169.1">https://doi.org/10.1093/mind/xliii.169.1</a>.
 </div>
-<div id="ref-inwagen1986b" class="csl-entry" role="listitem">
+<div id="ref-holton2013--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Holton, Richard. 2013. <em>The Problem of Free Will</em>. <a href="https://www.wi-phi.com/videos/problem-of-free-will-2/">https://www.wi-phi.com/videos/problem-of-free-will-2/</a>.
+</div>
+<div id="ref-hume1999--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Hume, David. 1999. <em>An Enquiry Concerning Human Understanding</em>. Edited by Tom L. Beauchamp. Oxford University Press.
+</div>
+<div id="ref-inwagen1986b--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Inwagen, Peter van. 1986. <em>An Essay on Free Will</em>. Oxford University Press.
 </div>
-<div id="ref-maudlin2005" class="csl-entry" role="listitem">
-Maudlin, Tim. 2005. <span>“Distilling metaphysics from quantum physics.”</span> In <em>The Oxford Handbook of Metaphysics</em>, edited by Michael J. Loux and Dean W. Zimmerman. Oxford University Press.
+<div id="ref-vaninwagen2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Inwagen, Peter van. 2014. <span>“The Powers of Rational Beings: Freedom of the Will.”</span> In <em>Metaphysics</em>, 4th ed. Westview Press.
 </div>
-<div id="ref-mickelson2016" class="csl-entry" role="listitem">
-Mickelson, Kristin. 2016. <span>“The Manipulation Argument.”</span> In <em>The Routlege Companion to Free Will</em>, edited by Kevin Timpe, Meghan Griffith, and Neil Levy. Routledge. <a href="https://philarchive.org/rec/MICTMA-3">https://philarchive.org/rec/MICTMA-3</a>.
+<div id="ref-maudlin2005--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Maudlin, Tim. 2005. <span>“Distilling Metaphysics from Quantum Physics.”</span> In <em>The Oxford Handbook of Metaphysics</em>, edited by Michael J. Loux and Dean W. Zimmerman. Oxford University Press.
 </div>
-<div id="ref-roskies2006" class="csl-entry" role="listitem">
-Roskies, Adina. 2006. <span>“Neuroscientific challenges to free will and responsibility.”</span> <em>Trends in Cognitive Sciences</em> 10 (9): 419–23. <a href="https://doi.org/10.1016/j.tics.2006.07.011">https://doi.org/10.1016/j.tics.2006.07.011</a>.
+<div id="ref-mickelson2016--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Mickelson, Kristin. 2016. <span>“The <span>Manipulation</span> <span>Argument</span>.”</span> In <em>The Routlege Companion to Free Will</em>, edited by Kevin Timpe, Meghan Griffith, and Neil Levy. Routledge. <a href="https://philarchive.org/rec/MICTMA-3">https://philarchive.org/rec/MICTMA-3</a>.
 </div>
-<div id="ref-wolf1987a" class="csl-entry" role="listitem">
-Wolf, Susan. 1987. <span>“Sanity and the Metaphysics of Responsibility.”</span> In <em>Responsibility, Character, and the Emotions: New Essays in Moral Psychology</em>, edited by Ferdinand David Schoeman. Cambridge University Press.
+<div id="ref-roskies2006--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Roskies, Adina. 2006. <span>“Neuroscientific Challenges to Free Will and Responsibility.”</span> <em>Trends in Cognitive Sciences</em> 10 (9): 419–23. <a href="https://doi.org/10.1016/j.tics.2006.07.011">https://doi.org/10.1016/j.tics.2006.07.011</a>.
+</div>
+<div id="ref-wolf1987a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Wolf, Susan. 1987. <span>“Sanity and the <span>Metaphysics</span> of <span>Responsibility</span>.”</span> In <em>Responsibility, Character, and the Emotions: New Essays in Moral Psychology</em>, edited by Ferdinand David Schoeman. Cambridge University Press.
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1267,12 +1355,12 @@ Wolf, Susan. 1987. <span>“Sanity and the Metaphysics of Responsibility.”</sp
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./death.html" class="pagination-link" aria-label="Don't Fear the Reaper">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./skepticism.html" class="pagination-link" aria-label="You Know Nothing">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

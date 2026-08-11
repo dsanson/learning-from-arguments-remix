@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>11&nbsp; What Makes Things Right – Learning from Arguments</title>
+<title>10&nbsp; What Makes Things Right – Learning from Arguments</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -60,14 +63,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -95,6 +98,30 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<style>
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+</style>
 
 
 </head>
@@ -279,7 +306,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./utilitarianism.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./utilitarianism.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -295,9 +322,8 @@ div.csl-indent {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Learning from Arguments</a> 
-        <div class="sidebar-tools-main tools-wide">
+        <div class="sidebar-tools-main">
     <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Learning-from-Arguments.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -321,7 +347,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About this Remix</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -350,67 +376,67 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wager.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./death.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./coercion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abortion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
   </div>
 </li>
       </ul>
@@ -436,12 +462,6 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -454,14 +474,17 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-utilitarianism-intro" id="toc-sec-utilitarianism-intro" class="nav-link active" data-scroll-target="#sec-utilitarianism-intro"><span class="header-section-number">11.1</span> Utilitarianism</a></li>
-  <li><a href="#sec-why-accept-act-utilitarianism" id="toc-sec-why-accept-act-utilitarianism" class="nav-link" data-scroll-target="#sec-why-accept-act-utilitarianism"><span class="header-section-number">11.2</span> Why Accept Act Utilitarianism?</a></li>
-  <li><a href="#sec-killing-one-to-save-five" id="toc-sec-killing-one-to-save-five" class="nav-link" data-scroll-target="#sec-killing-one-to-save-five"><span class="header-section-number">11.3</span> Killing One to Save Five</a></li>
-  <li><a href="#sec-rule-utilitarianism" id="toc-sec-rule-utilitarianism" class="nav-link" data-scroll-target="#sec-rule-utilitarianism"><span class="header-section-number">11.4</span> Rule Utilitarianism</a></li>
-  <li><a href="#sec-trolley-argument" id="toc-sec-trolley-argument" class="nav-link" data-scroll-target="#sec-trolley-argument"><span class="header-section-number">11.5</span> The Trolley Argument</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">11.6</span> Conclusion</a></li>
-  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions"><span class="header-section-number">11.7</span> Reflection Questions</a></li>
-  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">11.8</span> Sources</a></li>
+  <li><a href="#sec-utilitarianism-intro" id="toc-sec-utilitarianism-intro" class="nav-link active" data-scroll-target="#sec-utilitarianism-intro"><span class="header-section-number">10.1</span> Utilitarianism</a></li>
+  <li><a href="#sec-why-accept-act-utilitarianism" id="toc-sec-why-accept-act-utilitarianism" class="nav-link" data-scroll-target="#sec-why-accept-act-utilitarianism"><span class="header-section-number">10.2</span> Why Accept Act Utilitarianism?</a></li>
+  <li><a href="#sec-killing-one-to-save-five" id="toc-sec-killing-one-to-save-five" class="nav-link" data-scroll-target="#sec-killing-one-to-save-five"><span class="header-section-number">10.3</span> Killing One to Save Five</a></li>
+  <li><a href="#sec-rule-utilitarianism" id="toc-sec-rule-utilitarianism" class="nav-link" data-scroll-target="#sec-rule-utilitarianism"><span class="header-section-number">10.4</span> Rule Utilitarianism</a></li>
+  <li><a href="#sec-trolley-argument" id="toc-sec-trolley-argument" class="nav-link" data-scroll-target="#sec-trolley-argument"><span class="header-section-number">10.5</span> The Trolley Argument</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">10.6</span> Conclusion</a></li>
+  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection Questions</a></li>
+  <li><a href="#sources-and-resources" id="toc-sources-and-resources" class="nav-link" data-scroll-target="#sources-and-resources">Sources and Resources</a>
+  <ul class="collapse">
+  <li><a href="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" id="toc-bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="nav-link" data-scroll-target="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/utilitarianism.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -469,9 +492,9 @@ div.csl-indent {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./utilitarianism.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./utilitarianism.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-utilitarianism" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></h1>
+<h1 class="title"><span id="sec-utilitarianism" class="quarto-section-identifier"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></h1>
 </div>
 
 
@@ -491,13 +514,12 @@ div.csl-indent {
 <div class="authorial-intent">
 <p><em>Views and arguments advanced in this chapter are not necessarily endorsed by the author of the textbook, nor are they original to the author, nor are they meant to be consistent with arguments advanced in other chapters. Different chapters represent different philosophical perspectives.</em></p>
 </div>
-<section id="sec-utilitarianism-intro" class="level2" data-number="11.1">
-<h2 data-number="11.1" class="anchored" data-anchor-id="sec-utilitarianism-intro"><span class="header-section-number">11.1</span> Utilitarianism</h2>
+<section id="sec-utilitarianism-intro" class="level2">
+<h2 class="anchored" data-anchor-id="sec-utilitarianism-intro"><span class="header-section-number">10.1</span> Utilitarianism</h2>
 <p>We’re constantly confronted with questions about the right or wrong thing to do. Some arise in our daily lives: is it wrong to download pirated movies, run a red light at an empty intersection, tell on a friend who you know cheated on an exam? Some arise in political discussion: is it wrong for the government to ban assault rifles, or abortions? Some arise in stories and movies: is it wrong for the super-villain to kill off half the population so that the survivors can benefit from the abundance of resources?</p>
 <p>We’d like to know which of these things are right and which are wrong. What would be even better is a perfectly general answer to the question of which things are right and wrong, an answer that identifies what makes right actions right and wrong actions wrong. My aim here is to answer that question. In particular, I will defend a <em>utilitarian</em> answer, according to which the rightness or wrongness of an action is entirely a function of how it contributes (positively or negatively) to people’s well-being. Since a person’s well-being is ultimately a matter of how happy they are, what this means is that an action’s rightness or wrongness comes down to how much an action increases or decreases levels of happiness.</p>
 <p>Here, then, is the utilitarian theory of morality that I plan to defend, which we’ll call “act utilitarianism.”</p>
-<div id="def-act-utilitarianism" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 11.1</strong></span> &nbsp;</p>
+<div id="thesis-act-utilitarianism" class="thesis">
 <dl>
 <dt>Act Utilitarianism</dt>
 <dd>
@@ -506,23 +528,26 @@ Performing a certain action is the right thing to do if and only if it will have
 </dl>
 </div>
 <p>By ‘happiness’, I mean any sort of pleasurable mental state, including both physical and emotional pleasures. And I’m thinking of “levels of happiness” as including degrees of <em>un</em>happiness. Two situations in which everyone is unhappy may still differ in their level of happiness if they are unhappier in one than in the other.</p>
-<p>In <a href="#sec-why-accept-act-utilitarianism" class="quarto-xref"><span>Section 11.2</span></a>, I’ll explain why act utilitarianism is an appealing theory of morality. Then, in <a href="#sec-killing-one-to-save-five" class="quarto-xref"><span>Section 11.3</span></a>, I’ll consider an important objection to the view, namely that it implies that killing an innocent person and distributing his organs to save five lives is the right thing to do. In <a href="#sec-rule-utilitarianism" class="quarto-xref"><span>Section 11.4</span></a>, I consider, but ultimately reject, an alternative utilitarian view—“rule utilitarianism” which seems to avoid this undesirable consequence. Finally, in <a href="#sec-trolley-argument" class="quarto-xref"><span>Section 11.5</span></a>, I argue that act utilitarianism is <em>correct</em> to say that killing one person to save five is the right thing to do, as becomes clear when we consider other sorts of cases (involving runaway trolleys).</p>
+<p>In <a href="#sec-why-accept-act-utilitarianism" class="quarto-xref"><span>Section 10.2</span></a>, I’ll explain why act utilitarianism is an appealing theory of morality. Then, in <a href="#sec-killing-one-to-save-five" class="quarto-xref"><span>Section 10.3</span></a>, I’ll consider an important objection to the view, namely that it implies that killing an innocent person and distributing his organs to save five lives is the right thing to do. In <a href="#sec-rule-utilitarianism" class="quarto-xref"><span>Section 10.4</span></a>, I consider, but ultimately reject, an alternative utilitarian view—“rule utilitarianism” which seems to avoid this undesirable consequence. Finally, in <a href="#sec-trolley-argument" class="quarto-xref"><span>Section 10.5</span></a>, I argue that act utilitarianism is <em>correct</em> to say that killing one person to save five is the right thing to do, as becomes clear when we consider other sorts of cases (involving runaway trolleys).</p>
 <p>Before proceeding, let me clarify a couple things. First, act utilitarianism does <em>not</em> say that the right thing for a person to do is whatever makes <em>that person</em> the happiest. To help see this, consider the following case:</p>
-<div id="exa-terrorist-attack" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-terrorist-attack-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE11.1: <strong>TERRORIST ATTACK</strong>
-</figcaption>
-<div aria-describedby="exa-terrorist-attack-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TERRORIST ATTACK
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Kristian discovers that her girlfriend Demi is planning a terrorist attack. Kristian knows that if she calls the cops on Demi, it will end their relationship, Demi will never forgive her, and she’ll feel incredibly guilty about turning Demi in. Kristian also knows that if she doesn’t tell the cops, countless people will lose their lives or their loved ones. Kristian decides not to tell the cops, and Demi carries out the devastating attack. Demi is never caught. Kristian puts it out of her mind and feels no guilt or remorse about not preventing the attack.</p>
 </div>
-</figure>
 </div>
 <p>Keeping the information to herself has a greater positive effect on <em>Kristian’s</em> overall level of happiness than ratting out Demi would have. Still, act utilitarianism says that the right thing for Kristian to have done was to tell the cops. Why? Because act utilitarianism requires us to take into account the happiness of <em>everyone</em> affected by the action, not just the person who performed the action. The effects of withholding the information include not just Kristian and Demi’s happiness but also the grief experienced by the victims’ families and friends. The effects of telling the cops would include not just Kristian and Demi’s unhappiness but also all the happy experiences that the victims and their families and friends would otherwise have enjoyed. Turning Demi in clearly would have had a greater positive effect on overall levels of happiness in the world. So, according to act utilitarianism, Kristian should have turned Demi in.</p>
-<p>Second, I say that I am defending <em>a</em> utilitarian theory. What makes a view utilitarian is that it considers rightness and wrongness to be a function of how actions affect overall well-being, that is, a function of the things that make people better or worse off. I am assuming that people’s well-being is entirely a matter of how happy or unhappy they are, though one could in principle defend a utilitarian theory on which well-being consists in something other than happiness (for instance, people getting what they want, even when it doesn’t make them happy). Additionally, act utilitarianism describes <em>one</em> way in which morality might be a function of happiness, but there are other possible ways of saying what the function is. For instance, as we’ll see in <a href="#sec-rule-utilitarianism" class="quarto-xref"><span>Section 11.4</span></a>, one could say that it’s a function not simply of how one’s specific actions affect people’s happiness but rather of how the <em>rules</em> that one is following generally tend to affect people’s happiness.</p>
+<p>Second, I say that I am defending <em>a</em> utilitarian theory. What makes a view utilitarian is that it considers rightness and wrongness to be a function of how actions affect overall well-being, that is, a function of the things that make people better or worse off. I am assuming that people’s well-being is entirely a matter of how happy or unhappy they are, though one could in principle defend a utilitarian theory on which well-being consists in something other than happiness (for instance, people getting what they want, even when it doesn’t make them happy). Additionally, act utilitarianism describes <em>one</em> way in which morality might be a function of happiness, but there are other possible ways of saying what the function is. For instance, as we’ll see in <a href="#sec-rule-utilitarianism" class="quarto-xref"><span>Section 10.4</span></a>, one could say that it’s a function not simply of how one’s specific actions affect people’s happiness but rather of how the <em>rules</em> that one is following generally tend to affect people’s happiness.</p>
 </section>
-<section id="sec-why-accept-act-utilitarianism" class="level2" data-number="11.2">
-<h2 data-number="11.2" class="anchored" data-anchor-id="sec-why-accept-act-utilitarianism"><span class="header-section-number">11.2</span> Why Accept Act Utilitarianism?</h2>
+<section id="sec-why-accept-act-utilitarianism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-why-accept-act-utilitarianism"><span class="header-section-number">10.2</span> Why Accept Act Utilitarianism?</h2>
 <p>I’m not sure how to argue definitively for the truth of act utilitarianism. Still, I can give several reasons for taking it seriously as a theory of morality.</p>
 <p>First, act utilitarianism delivers the right verdicts about which actions are right and wrong in a wide range of cases. Cheating on your romantic partner is wrong because it leads to so much emotional pain, in exchange for a comparably small and short-lived amount of sexual gratification. If I promise to drive you to the airport early in the morning and then I don’t bother to show up because I don’t feel like getting out of bed, I’ve done something wrong because your financial loss and distress over missing your flight has a bigger negative effect on overall happiness (taking into account both yours and mine) than does dragging myself out of bed and getting you to the airport.</p>
 <p>On the other hand, suppose I promise to drive you to the airport and I don’t show up because, on the way out the door, I happen upon someone in desperate need of medical attention, and I drive him to the hospital. In that case, I did the right thing, even though I broke my promise. Why? Because leaving him to die would have had a greater negative effect on the overall level of happiness of all involved (including yours, mine, his, and his family and friends’) than you missing your flight.</p>
@@ -532,55 +557,64 @@ TE11.1: <strong>TERRORIST ATTACK</strong>
 <p>Fourth, act utilitarianism makes good sense of the respects in which morality is, and isn’t, a subjective matter. Morality is subjective insofar as the same action might affect one person’s happiness differently from how it affects another’s. For instance, suppose I tell you to close your eyes, and I feed you a bite of pepperoni pizza. Have I done something wrong? It depends. If you love pepperoni pizza and it makes you happy, then no. If you’re a vegetarian and what I did makes you furious and nauseous, then yes. Act utilitarianism easily explains why what I did is right in the one situation and wrong in the other.</p>
 <p>The same goes for cultural differences. In countries like the U.S., tipping your waiter is customary, whereas in countries like Japan it can be considered offensive. Accordingly, tipping is the right thing to do in the U.S. and the wrong thing to do in Japan. Act utilitarianism explains why the same action can be right in once place and wrong in another: because in the one place it makes people happy and in the other it makes them unhappy.</p>
 <p>That’s not to say that morality is entirely a subjective matter. We cannot change what’s right or wrong just by <em>changing our minds</em> about what’s right or wrong. To see this, consider the following case:</p>
-<div id="exa-condoned-lobotomies" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-condoned-lobotomies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE11.2: <strong>CONDONED LOBOTOMIES</strong>
-</figcaption>
-<div aria-describedby="exa-condoned-lobotomies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>CONDONED LOBOTOMIES
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>The leaders of a certain oppressive country instituted a law that requires all newborn girls to be lobotomized. Dissenters were lobotomized as well. After a few generations, there are no more dissenters. The men are all happy with the arrangement, and the women are all lobotomized and have no opinion on the matter.</p>
 </div>
-</figure>
 </div>
 <p>No one in this country thinks that it is wrong to lobotomize newborn girls. And yet obviously the leaders are doing something deeply immoral. Act utilitarianism explains why: the women of this country are deprived of the full range of intellectual and emotional enjoyments that they would otherwise have had. The fact that no one in the country <em>believes</em> that the practice is wrong is neither here nor there. What matters is how the practice affects the well-being of all involved, and (unlike tipping) the effects of lobotomies don’t vary from one country to the next.</p>
 </section>
-<section id="sec-killing-one-to-save-five" class="level2" data-number="11.3">
-<h2 data-number="11.3" class="anchored" data-anchor-id="sec-killing-one-to-save-five"><span class="header-section-number">11.3</span> Killing One to Save Five</h2>
+<section id="sec-killing-one-to-save-five" class="level2">
+<h2 class="anchored" data-anchor-id="sec-killing-one-to-save-five"><span class="header-section-number">10.3</span> Killing One to Save Five</h2>
 <p>We saw that act utilitarianism tends to give the right answers to moral questions. But one might object that it at least <em>sometimes</em> gives the wrong answer, misidentifying a wrong action as the right thing to do. In other words, the objection is that there are counterexamples to act utilitarianism, examples in which one action does more than another to increase overall levels of happiness and yet is not the right thing to do. So, it is incumbent upon me, as a defender of act utilitarianism, to address all such cases and show that they are not genuine counterexamples.</p>
 <p>One might wonder, though, why any such defense is needed. If act utilitarianism generally gives the correct verdicts, why does it matter if it doesn’t get the answer right in <em>every single</em> case? It matters because I am trying to do more than just give a useful rule of thumb for answering moral questions. For suppose act utilitarianism <em>were</em> just a useful, but not exceptionless, rule of thumb. In that case, even if I could convince you beyond any doubt that legalizing polyamorous marriages would increase overall levels of happiness, that would not yet settle the question of whether legalizing them is the right thing to do. After all, maybe polyamorous marriage is one of the exceptions to the rule, where increasing overall levels of happiness isn’t the right thing to do.</p>
 <p>A merely useful rule of thumb for investigating moral questions ends up being useless for <em>settling</em> moral questions. For that reason, I want to defend the view that act utilitarianism provides the complete story of what makes actions right or wrong. I want to defend a theory on which showing that one action is better than any alternative at improving happiness levels definitively settles the question of whether it is the right thing to do. Accordingly, even one case in which my theory misclassifies the wrong thing to do as the right thing to do, or vice versa, would be enough to falsify the theory.</p>
 <p>Here, then, is the case I want to discuss, which is meant to be a counterexample to act utilitarianism.</p>
-<div id="exa-organ-distribution" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-organ-distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE11.3: <strong>ORGAN DISTRIBUTION</strong>
-</figcaption>
-<div aria-describedby="exa-organ-distribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>ORGAN DISTRIBUTION
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Jonathan is a doctor, and his patient Nick is coming in for a routine physical. Looking over his past bloodwork, Jonathan realizes that Nick’s organs are an exact match for five patients in critical condition upstairs in the Intensive Care Unit. When Nick arrives, Jonathan kills him (painlessly), making it look like an accident. Since Nick is an organ donor, his body is rushed upstairs, and his heart, lungs, liver, and each of his kidneys are successfully transplanted into those five patients, saving their lives. No other organs arrived that day, and the five patients would have died had Jonathan not killed Nick for his organs. The five patients all go on to lead long, happy lives. No one ever finds out that Nick’s death was not an accident.</p>
 </div>
-</figure>
 </div>
 <p>Some will say that what Jonathan did is immoral. And yet, killing Nick and saving the five patients results in higher overall levels of happiness than letting him live and allowing the five patients to die. After all, killing Nick results in the loss of one life’s worth of happiness and one group of mourners, whereas letting the five patients die would have resulted in the loss of five lives’ worth of happiness and five times as many mourners.</p>
 <p>If all that is right, then act utilitarianism is false. The argument can be reconstructed as follows:</p>
-<div id="arg-OD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-OD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A11.1: <strong>The Organ Distribution Argument</strong>
-</figcaption>
-<div aria-describedby="arg-OD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Organ Distribution Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(OD1) Killing Nick has a greater positive effect on overall levels of happiness than letting him live</li>
-<li>(OD2) If killing Nick has a greater positive effect on overall levels of happiness than letting him live, then: if act utilitarianism is true, then killing Nick was the right thing to do</li>
-<li>(OD3) Killing Nick was not the right thing to do</li>
-<li>(OD4) So, act utilitarianism is false</li>
+<li><span class="li-label">OD1.</span> Killing Nick has a greater positive effect on overall levels of happiness than letting him live</li>
+<li><span class="li-label">OD2.</span> If killing Nick has a greater positive effect on overall levels of happiness than letting him live, then: if act utilitarianism is true, then killing Nick was the right thing to do</li>
+<li><span class="li-label">OD3.</span> Killing Nick was not the right thing to do</li>
+<li><span class="li-label">OD4.</span> So, act utilitarianism is false</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>OD1 is true. There would have been more mourning and fewer happy lives if Jonathan hadn’t killed Nick. OD2 is true as well: act utilitarianism says that, without exception, the action with the greatest positive effect on happiness levels is the right thing to do. And OD3 is supposed to simply be obvious. Even I agree that killing Nick <em>seems</em> to be morally wrong.</p>
 </section>
-<section id="sec-rule-utilitarianism" class="level2" data-number="11.4">
-<h2 data-number="11.4" class="anchored" data-anchor-id="sec-rule-utilitarianism"><span class="header-section-number">11.4</span> Rule Utilitarianism</h2>
+<section id="sec-rule-utilitarianism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-rule-utilitarianism"><span class="header-section-number">10.4</span> Rule Utilitarianism</h2>
 <p>One option for a utilitarian—which is worth exploring, but which I do not myself endorse—is to grant that the Organ Distribution Argument works and that act utilitarianism is false. The idea would then be to provide an alternative utilitarian view, one that won’t deliver the result that Jonathan did the right thing in killing Nick. What would such an alternative view look like?</p>
 <p>One idea would be to insist that doing the right thing isn’t so much a matter of how a single action affects happiness levels, but rather a matter of how the <em>rules</em> one is following tend to affect happiness levels. Consider the following rules that one might choose to follow:</p>
 <ul>
@@ -592,8 +626,7 @@ A11.1: <strong>The Organ Distribution Argument</strong>
 </ul>
 <p>Even if following these rules doesn’t <em>always</em> maximize happiness, it usually does, which is what makes them good rules.</p>
 <p>With this in mind, one possibility for avoiding the implication that Jonathan did the right thing in killing Nick would be to reject act utilitarianism in favor of rule utilitarianism:</p>
-<div id="def-rule-utilitarianism" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 11.2</strong></span> &nbsp;</p>
+<div id="thesis-rule-utilitarianism" class="thesis">
 <dl>
 <dt>Rule Utilitarianism</dt>
 <dd>
@@ -604,121 +637,151 @@ Performing a certain action is the right thing to do if and only if it is prescr
 <p>Even though following the rules listed above won’t have the greatest positive effect on overall levels of happiness in every single case, following them does more often than not have a positive effect on happiness. If so, they may well belong to the collection of rules that, if adopted, would have the greatest positive effect on overall levels of happiness—or, in short, “the best collection of rules.”</p>
 <p>Here is how rule utilitarianism is supposed to help with ORGAN DISTRIBUTION. According to rule utilitarianism, the right thing to do is to follow the best collection of rules. So, let us compare two rules: <em>don’t kill an innocent person unless doing so saves multiple lives</em> and <em>don’t ever kill any innocent people.</em> While it’s true that following the first rule sometimes has a better effect on happiness levels (as in ORGAN DISTRIBUTION), typically it doesn’t. If doctors were constantly killing healthy patients to distribute their organs, word would get out. There would be widespread panic. People would be terrified to go to the hospital, leading to all sorts of untreated illnesses and injuries. Even though five people would be saved for every one person killed, thousands of others would be sick, scared, and miserable.</p>
 <p>Following the first rule tends, on the whole, to have a negative effect on happiness levels. Following the second rule, by contrast, tends on the whole to have a positive effect on happiness levels, even though in some rare cases it has a negative effect. Accordingly, the best collection of rules is going to include the second rule, not the first. Rule utilitarianism therefore tells us that the right thing for Jonathan to do is to let Nick live, since that’s what’s dictated by the better rule: <em>don’t ever kill any innocent people</em>. Rule utilitarianism, unlike act utilitarianism, delivers what intuitively seems to be the right result in ORGAN DISTRIBUTION.</p>
-<p>The problem with rule utilitarianism is that it faces counterexamples of its own—counterexamples that, to my mind, are even more damning than the alleged counterexample to act utilitarianism. For instance, recall the case mentioned in <a href="#sec-why-accept-act-utilitarianism" class="quarto-xref"><span>Section 11.2</span></a> where I break my promise to take you to the airport because, on my way to get you, I find someone desperately in need of medical attention and decide to drive them to the hospital instead. Clearly, I am doing the right thing in that case. But rule utilitarianism says that I’ve done the wrong thing. After all, the rule I am following, <em>don’t break promises unless something more important comes up</em>, tends on the whole to have a negative effect on overall happiness. If everyone broke their promises every time something more important came up, no one would trust anyone to keep their promises, and not being able to trust one another would have a huge negative impact on our emotional well-being.</p>
+<p>The problem with rule utilitarianism is that it faces counterexamples of its own—counterexamples that, to my mind, are even more damning than the alleged counterexample to act utilitarianism. For instance, recall the case mentioned in <a href="#sec-why-accept-act-utilitarianism" class="quarto-xref"><span>Section 10.2</span></a> where I break my promise to take you to the airport because, on my way to get you, I find someone desperately in need of medical attention and decide to drive them to the hospital instead. Clearly, I am doing the right thing in that case. But rule utilitarianism says that I’ve done the wrong thing. After all, the rule I am following, <em>don’t break promises unless something more important comes up</em>, tends on the whole to have a negative effect on overall happiness. If everyone broke their promises every time something more important came up, no one would trust anyone to keep their promises, and not being able to trust one another would have a huge negative impact on our emotional well-being.</p>
 <p>By contrast, following the simpler rule <em>don’t ever break promises</em> tends on the whole to have a positive effect on happiness levels, even though in some rare cases is has a negative effect. So, by the same logic as above, rule utilitarianism says that the right thing to do is to keep my promise and leave the needy person to die. But that clearly is not the right thing to do. So, rule utilitarianism is false.</p>
 <p>Perhaps the rule utilitarian will respond that there’s a rule I’m overlooking: <em>don’t break promises unless you need to break them in order to drive a dying person to the hospital</em>. Following <em>that</em> rule will tend on the whole to have a positive effect on happiness levels, since it only allows promisebreaking in certain rare cases where promise-breaking really is the right thing to do. So, the rule utilitarian might say, it’s this rule—and neither of the previous two rules about promises—that belongs to the best collection of rules.</p>
 <p>But if the “rules” that the rule utilitarian has in mind can be that specific, then we need to reassess what rule utilitarianism says about ORGAN DISTRIBUTION. After all, Jonathan is following the rule <em>don’t kill innocent people unless you’re absolutely certain you can do it secretly and you’ll save five people with the organs</em>. Following that rule will tend to have the greatest positive effect on the whole, since it only allows killing innocent people in rare cases where the killings save lives and don’t lead to widespread panic (because they’re done in secret). So, by rule utilitarianism, Jonathan <em>is</em> doing the right thing by killing Nick—exactly the consequence the rule utilitarian wanted to avoid!</p>
 <p>The point here is that the rule utilitarian faces a dilemma. Either her rules are understood to be relatively general things, in which case rule utilitarianism has the absurd implication that I’m never allowed to break my promises, even in extreme cases. Or her rules can be highly specific, in which case rule utilitarianism <em>does</em> imply that killing Nick was the right thing to do, and switching from act utilitarianism to rule utilitarianism is no help in escaping that consequence. Since rule utilitarianism is either false or unhelpful, let’s set it aside, return to act utilitarianism, and reassess whether act utilitarianism can be defended against the Organ Distribution Argument.</p>
 </section>
-<section id="sec-trolley-argument" class="level2" data-number="11.5">
-<h2 data-number="11.5" class="anchored" data-anchor-id="sec-trolley-argument"><span class="header-section-number">11.5</span> The Trolley Argument</h2>
+<section id="sec-trolley-argument" class="level2">
+<h2 class="anchored" data-anchor-id="sec-trolley-argument"><span class="header-section-number">10.5</span> The Trolley Argument</h2>
 <p>Premise OD3 of the Organ Distribution Argument says that killing Nick was not the right thing to do. I admitted above that this premise seems true: it <em>seems</em> morally wrong for Jonathan to kill Nick. But things are not always as they seem. I will now argue that, despite appearances, OD3 is false.</p>
 <p>My argument against OD3 involves considering a different case, one in which it <em>isn’t</em> wrong to kill one person to save five. Here is the case:</p>
-<div id="exa-trolley-driver" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-trolley-driver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE11.4: <strong>TROLLEY DRIVER</strong>
-</figcaption>
-<div aria-describedby="exa-trolley-driver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TROLLEY DRIVER
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Corrine is driving a trolley, which is hurtling down the tracks, faster than it should. Five pledges from a local fraternity have been tied to the tracks as part of an initiation ritual. By the time she sees them, it’s too late to slow down. The only way to avoid killing them is to swerve the trolley onto a side track at an upcoming junction. But the pledge master, who is asleep on the side track, will be killed if she does. Corrine decides to steer the trolley onto the side track anyway, killing the pledge master. She then stops the trolley, unties the pledges, and they all go on to lead long, happy lives.</p>
 </div>
-</figure>
 </div>
 <p>Corrine did the right thing: it was morally better to steer onto the side track, killing the pledge master, than to continue forward and kill the five pledges.</p>
 <p>And yet there would seem to be no morally relevant difference between what Corrine did and what Jonathan did. Both killed one person to save five. So, if it was right for Corrine to do what had to be done to save five people, how could it be wrong for Jonathan to do what had to be done to save five people?</p>
 <p>Here, more explicitly, is the argument:</p>
-<div id="arg-TR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A11.2: <strong>The Trolley Argument</strong>
-</figcaption>
-<div aria-describedby="arg-TR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Trolley Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(TR1) If there is no morally relevant difference between two actions A and B, and A is the right thing to do, then B is the right thing to do</li>
-<li>(TR2) Diverting the trolley was the right thing to do</li>
-<li>(TR3) There is no morally relevant difference between diverting the trolley and killing Nick</li>
-<li>(TR4) So, killing Nick was the right thing to do</li>
+<li><span class="li-label">TR1.</span> If there is no morally relevant difference between two actions A and B, and A is the right thing to do, then B is the right thing to do</li>
+<li><span class="li-label">TR2.</span> Diverting the trolley was the right thing to do</li>
+<li><span class="li-label">TR3.</span> There is no morally relevant difference between diverting the trolley and killing Nick</li>
+<li><span class="li-label">TR4.</span> So, killing Nick was the right thing to do</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>The idea behind TR1 is that, whenever there is some moral difference between two cases, there must always be some explanation of why they differ morally. Absent some such explanation, it would be arbitrary to say that the one action is wrong and the other isn’t. TR2 is hopefully obvious; I’m not sure what more I could do to argue for it. And TR3 seems true as well: the cases are structurally identical, both being cases in which one person is sacrificed to save five. Thus, even though the act utilitarian conclusion that Jonathan did the right thing may strike you as counterintuitive, we nevertheless have excellent reason to think it’s correct. Those who wish to say that it was wrong to kill Nick must find some flaw in the Trolley Argument.</p>
 <p>I can imagine someone objecting to TR3, insisting that there is an important difference between the cases. Here’s the idea. If Corrine hadn’t swerved onto the other track, she would have killed those five pledges. By contrast, if Jonathan hadn’t killed Nick, we wouldn’t say that he <em>killed</em> the five needy patients. He merely <em>let them die</em>, and allowing people to die is not morally equivalent to actually killing them. Killing is worse, one might say, and that’s why Jonathan’s actions are worse than Corrine’s: Corrine but not Jonathan had to do what she did in order to avoid <em>killing</em> five people.</p>
 <p>I have my doubts about whether there is any morally relevant difference between killing and letting die. But let’s suppose that there is. Even so, we can revise the trolley case so that it too involves a choice between killing and letting die.</p>
-<div id="exa-trolley-lever" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-trolley-lever-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE11.5: <strong>TROLLEY LEVER</strong>
-</figcaption>
-<div aria-describedby="exa-trolley-lever-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TROLLEY LEVER
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>A runaway trolley with no driver is hurtling down the tracks towards five pledges from a local fraternity. Corrine is an onlooker, standing beside the tracks. Next to her is a lever which can divert the trolley onto a side track. She could do nothing, and let the pledges die. But if she pulls the lever and diverts the trolley, it will kill the pledge master, who is asleep on the side track. Corrine decides to pull the lever, killing the pledge master and saving the pledges. She then unties the pledges, and they all go on to lead long, happy lives.</p>
 </div>
-</figure>
 </div>
 <p>Again, Corrine intuitively did the right thing by pulling the lever and killing one person to save five. But the earlier objection no longer holds. For if she hadn’t pulled the lever, <em>she</em> wouldn’t thereby be killing anyone. She would merely be letting five people die. Just like Jonathan. So, the alleged morally relevant difference disappears, and the objection to TR3 disappears along with it. Importantly, TR2 remains plausible even once the case is revised: faced with a decision between killing one and letting five die, killing the one is the right thing to do.</p>
 </section>
-<section id="conclusion" class="level2" data-number="11.6">
-<h2 data-number="11.6" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">11.6</span> Conclusion</h2>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion"><span class="header-section-number">10.6</span> Conclusion</h2>
 <p>I have defended a utilitarian theory of morality, according to which the right thing to do is always whatever will have the greatest positive effect on overall levels of happiness. We saw that there are powerful motivations for accepting utilitarianism, for instance that it is intuitive, that it is egalitarian, and that it respects the subjectivity and culture-relativity of morality without entailing an extreme subjectivism according to which what’s right or wrong can be changed at whim. Finally, we saw some ways of defending utilitarianism against the objection that it wrongly condones killing one person to save five.</p>
 </section>
-<section id="reflection-questions" class="level2" data-number="11.7">
-<h2 data-number="11.7" class="anchored" data-anchor-id="reflection-questions"><span class="header-section-number">11.7</span> Reflection Questions</h2>
+<section id="reflection-questions" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
 <ol type="1">
-<li>In <a href="#sec-why-accept-act-utilitarianism" class="quarto-xref"><span>Section 11.2</span></a>, I said that act utilitarianism is admirably egalitarian, opposing the mistreatment of women and minorities. But might it be egalitarian for the wrong reasons? Is the problem with oppression really that the oppressed group’s suffering outweighs the benefits the oppressors derive from the oppression?</li>
-<li>Can you defend rule utilitarianism against the objections raised in <a href="#sec-rule-utilitarianism" class="quarto-xref"><span>Section 11.4</span></a>?</li>
+<li>In <a href="#sec-why-accept-act-utilitarianism" class="quarto-xref"><span>Section 10.2</span></a>, I said that act utilitarianism is admirably egalitarian, opposing the mistreatment of women and minorities. But might it be egalitarian for the wrong reasons? Is the problem with oppression really that the oppressed group’s suffering outweighs the benefits the oppressors derive from the oppression?</li>
+<li>Can you defend rule utilitarianism against the objections raised in <a href="#sec-rule-utilitarianism" class="quarto-xref"><span>Section 10.4</span></a>?</li>
 <li>In the trolley cases, the pledge master—who tied the pledges to the tracks—is morally responsible for the pledges being in harm’s way. Is this a morally relevant difference between ORGAN DISTRIBUTION and the trolley cases? Can the cases be revised in a way that eliminates this difference?</li>
 <li>Suppose act utilitarianism is true. In that case, in order to know whether something is the right thing to do, one would evidently have to know all of the different ways that the action might affect people’s happiness, both in the short-term and long into the future. Is that a problem for act utilitarianism? How might a utilitarian respond?</li>
 <li>What should an act utilitarian say about the morality of eating meat and other animal products?</li>
 </ol>
 </section>
-<section id="sources" class="level2" data-number="11.8">
-<h2 data-number="11.8" class="anchored" data-anchor-id="sources"><span class="header-section-number">11.8</span> Sources</h2>
-<p>Classic defenses of utilitarianism can be found in Jeremy Bentham’s <em>Principles of Morals and Legislation</em> and John Stuart Mill’s <em>Utilitarianism</em>. See <span class="citation" data-cites="foot1967">Foot (<a href="#ref-foot1967" role="doc-biblioref">1967</a>)</span> and <span class="citation" data-cites="thomson1985">Thomson (<a href="#ref-thomson1985" role="doc-biblioref">1985</a>)</span>. See <span class="citation" data-cites="shafer-landau2024">Shafer-Landau (<a href="#ref-shafer-landau2024" role="doc-biblioref">2024</a>)</span> for a broader overview of theories of well-being and morality. See the opening chapter of <span class="citation" data-cites="mason2022">Mason (<a href="#ref-mason2022" role="doc-biblioref">2022</a>)</span> (titled ‘Feminism in the Multicultural Context’) on defending universal values in the face of cultural disagreement. Here are some additional resources:</p>
-<!-- TODO bentham and mill 
+<section id="sources-and-resources" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sources-and-resources">Sources and Resources</h2>
+<p>Classic defenses of utilitarianism can be found in Jeremy Bentham’s <em>Principles of Morals and Legislation</em> and John Stuart Mill’s <em>Utilitarianism</em>. See <span class="citation" data-cites="foot1967--74b2ecfa983dee78978473d5b1627d07adb62c0e">Foot (<a href="#ref-foot1967--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1967</a>)</span> and <span class="citation" data-cites="thomson1985--74b2ecfa983dee78978473d5b1627d07adb62c0e">Thomson (<a href="#ref-thomson1985--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1985</a>)</span>. See <span class="citation" data-cites="shafer-landau2024--74b2ecfa983dee78978473d5b1627d07adb62c0e">Shafer-Landau (<a href="#ref-shafer-landau2024--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2024</a>)</span> for a broader overview of theories of well-being and morality. See the opening chapter of <span class="citation" data-cites="mason2022--74b2ecfa983dee78978473d5b1627d07adb62c0e">Mason (<a href="#ref-mason2022--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2022</a>)</span> (titled ‘Feminism in the Multicultural Context’) on defending universal values in the face of cultural disagreement. Here are some additional resources:</p>
+<p><span class="citation" data-cites="carritt1947--74b2ecfa983dee78978473d5b1627d07adb62c0e">Carritt (<a href="#ref-carritt1947--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1947</a>, ch.&nbsp;4, “Crude Moral Theories”)</span></p>
+<p><span class="citation" data-cites="harris1975--74b2ecfa983dee78978473d5b1627d07adb62c0e">Harris (<a href="#ref-harris1975--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1975</a>)</span></p>
+<p><span class="citation" data-cites="smart1973--74b2ecfa983dee78978473d5b1627d07adb62c0e">Smart and Williams (<a href="#ref-smart1973--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1973</a>)</span></p>
+<p><span class="citation" data-cites="williams1988--74b2ecfa983dee78978473d5b1627d07adb62c0e">Williams (<a href="#ref-williams1988--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1988</a>)</span></p>
+<p>Mozi, Universal Love https://ctext.org/mozi/universal-love-i https://ctext.org/mozi/universal-love-ii https://ctext.org/mozi/universal-love-iii</p>
+<p><span class="citation" data-cites="leguin2017--74b2ecfa983dee78978473d5b1627d07adb62c0e">Le Guin (<a href="#ref-leguin2017--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2017</a>)</span>: Omelas</p>
+<p>Videos:</p>
+<p><span class="citation" data-cites="masicampo2016--74b2ecfa983dee78978473d5b1627d07adb62c0e"><em>A Two-Year-Old’s Solution to the Trolley Problem</em> (<a href="#ref-masicampo2016--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2016</a>)</span>: silly video of toddler solving trolley problem</p>
+<p><span class="citation" data-cites="markovits2015--74b2ecfa983dee78978473d5b1627d07adb62c0e">Markovits (<a href="#ref-markovits2015--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2015</a>)</span> <span class="citation" data-cites="markovits2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Markovits (<a href="#ref-markovits2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014b</a>)</span> <span class="citation" data-cites="markovits2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Markovits (<a href="#ref-markovits2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014a</a>)</span></p>
+<p><span class="citation" data-cites="crashcourse2016a--74b2ecfa983dee78978473d5b1627d07adb62c0e"><em>Utilitarianism</em> (<a href="#ref-crashcourse2016a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2016</a>)</span></p>
+<!-- 
+TODO bentham and mill 
 
 - E.F. Carritt: Criticisms of Utilitarianism This is a selection from @carritt1947,
 as republished in @vaughn2012. Not sure how best to cite.
-- Bernard Williams: Utilitarianism and Integrity 
 - Alastair Norcross: Consequences Make Actions Right
-- Mozi: Universal Love
 -->
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-crashcourse2016a" class="csl-entry" role="listitem">
-CrashCourse, dir. 2016. <em>Utilitarianism: Crash Course Philosophy #36</em>. 10:01. <a href="https://www.youtube.com/watch?v=-a739VjqdSI">https://www.youtube.com/watch?v=-a739VjqdSI</a>.
+<section id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</h3>
+<div id="refs--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-masicampo2016--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+<em>A Two-Year-Old’s Solution to the Trolley Problem</em>. 2016. <a href="https://www.youtube.com/watch?v=-N_RZJUAQY4">https://www.youtube.com/watch?v=-N_RZJUAQY4</a>.
 </div>
-<div id="ref-foot1967" class="csl-entry" role="listitem">
-Foot, Philippa. 1967. <span>“The Problem of Abortion and the Doctrine of the Double Effect.”</span> <em>Oxford Review</em> 5: 5–15. <a href="https://philarchive.org/rec/FOOTPO-2">https://philarchive.org/rec/FOOTPO-2</a>.
+<div id="ref-carritt1947--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Carritt, E. F. 1947. <em>Ethical and Political Thinking</em>. Oxford University Press.
 </div>
-<div id="ref-harris1975" class="csl-entry" role="listitem">
-Harris, John. 1975. <span>“The Survival Lottery.”</span> <em>Philosophy</em> 50 (191): 81–87. <a href="https://www.jstor.org/stable/3749647">https://www.jstor.org/stable/3749647</a>.
+<div id="ref-foot1967--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Foot, Philippa. 1967. <span>“The <span>Problem</span> of <span>Abortion</span> and the <span>Doctrine</span> of the <span>Double</span> <span>Effect</span>.”</span> <em>Oxford Review</em> 5: 5–15. <a href="https://philarchive.org/rec/FOOTPO-2">https://philarchive.org/rec/FOOTPO-2</a>.
 </div>
-<div id="ref-leguin2017" class="csl-entry" role="listitem">
-Le Guin, Ursula K. 2017. <em>The Ones Who Walk Away from Omelas</em>. HarperCollins.
+<div id="ref-harris1975--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Harris, John. 1975. <span>“The <span>Survival</span> <span>Lottery</span>.”</span> <em>Philosophy</em> 50 (191): 81–87. <a href="https://www.jstor.org/stable/3749647">https://www.jstor.org/stable/3749647</a>.
 </div>
-<div id="ref-markovits2014" class="csl-entry" role="listitem">
-Markovits, Julia. 2014a. <span>“Utilitarianism Part 1.”</span> <em>Wireless Philosophy</em>, September 26. <a href="https://www.wi-phi.com/videos/utilitarianism-part-1/">https://www.wi-phi.com/videos/utilitarianism-part-1/</a>.
+<div id="ref-leguin2017--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Le Guin, Ursula K. 2017. <em>The Ones Who Walk Away from <span>Omelas</span></em>. HarperCollins.
 </div>
-<div id="ref-markovits2014a" class="csl-entry" role="listitem">
-Markovits, Julia. 2014b. <span>“Utilitarianism Part 2.”</span> <em>Wireless Philosophy</em>, October 3. <a href="https://www.wi-phi.com/videos/utilitarianism-part-2/">https://www.wi-phi.com/videos/utilitarianism-part-2/</a>.
+<div id="ref-markovits2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Markovits, Julia. 2014a. <em>Utilitarianism <span>Part</span> 1</em>. <a href="https://www.wi-phi.com/videos/utilitarianism-part-1/">https://www.wi-phi.com/videos/utilitarianism-part-1/</a>.
 </div>
-<div id="ref-masicampo2016" class="csl-entry" role="listitem">
-Masicampo, E.J., dir. 2016. <em>A Two-Year-Old’s Solution to the Trolley Problem</em>. 0:26. <a href="https://www.youtube.com/watch?v=-N_RZJUAQY4">https://www.youtube.com/watch?v=-N_RZJUAQY4</a>.
+<div id="ref-markovits2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Markovits, Julia. 2014b. <em>Utilitarianism <span>Part</span> 2</em>. <a href="https://www.wi-phi.com/videos/utilitarianism-part-2/">https://www.wi-phi.com/videos/utilitarianism-part-2/</a>.
 </div>
-<div id="ref-mason2022" class="csl-entry" role="listitem">
+<div id="ref-markovits2015--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Markovits, Julia. 2015. <em>Utilitarianism <span>Part</span> 3</em>. <a href="https://www.wi-phi.com/videos/utilitarianism-part-3/">https://www.wi-phi.com/videos/utilitarianism-part-3/</a>.
+</div>
+<div id="ref-mason2022--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Mason, Elinor. 2022. <em>Feminist Philosophy: An Introduction</em>. Routledge.
 </div>
-<div id="ref-shafer-landau2024" class="csl-entry" role="listitem">
+<div id="ref-shafer-landau2024--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Shafer-Landau, Russ. 2024. <em>Fundamentals of Ethics</em>. Sixth edition. Oxford University Press.
 </div>
-<div id="ref-smart1973" class="csl-entry" role="listitem">
-Smart, J. J. C., and Bernard Williams. 1973. <em>Utilitarianism for and against</em>. Cambridge University Press.
+<div id="ref-smart1973--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Smart, J. J. C., and Bernard Williams. 1973. <em>Utilitarianism for and Against</em>. Cambridge University Press.
 </div>
-<div id="ref-thomson1985" class="csl-entry" role="listitem">
-Thomson, Judith Jarvis. 1985. <span>“The Trolley Problem.”</span> <em>The Yale Law Journal</em> 94 (6): 1395–415. <a href="https://doi.org/10.2307/796133">https://doi.org/10.2307/796133</a>.
+<div id="ref-thomson1985--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Thomson, Judith Jarvis. 1985. <span>“The <span>Trolley</span> <span>Problem</span>.”</span> <em>The Yale Law Journal</em> 94 (6): 1395–415. <a href="https://doi.org/10.2307/796133">https://doi.org/10.2307/796133</a>.
+</div>
+<div id="ref-crashcourse2016a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+<em>Utilitarianism: <span>Crash</span> <span>Course</span> <span>Philosophy</span> #36</em>. 2016. <a href="https://www.youtube.com/watch?v=-a739VjqdSI">https://www.youtube.com/watch?v=-a739VjqdSI</a>.
+</div>
+<div id="ref-williams1988--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Williams, Bernard. 1988. <span>“Consequentialism and Integrity.”</span> In <em>Consequentialism and Its Critics</em>, edited by Samuel Scheffler. Oxford University Press.
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1138,7 +1201,7 @@ Thomson, Judith Jarvis. 1985. <span>“The Trolley Problem.”</span> <em>The Ya
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./eating-animals.html" class="pagination-link" aria-label="Eating Animals is Immoral">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

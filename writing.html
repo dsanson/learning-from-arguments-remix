@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,7 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./theses-and-arguments.html" rel="next">
 <link href="./logic.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -41,14 +43,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -76,6 +78,30 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+</style>
 
 
 </head>
@@ -276,9 +302,8 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Learning from Arguments</a> 
-        <div class="sidebar-tools-main tools-wide">
+        <div class="sidebar-tools-main">
     <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Learning-from-Arguments.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -302,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About this Remix</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -331,67 +356,67 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wager.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./death.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./coercion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abortion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
   </div>
 </li>
       </ul>
@@ -415,12 +440,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./writing.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
   </div>
 </li>
       </ul>
@@ -476,24 +495,27 @@ ul.task-list li input[type="checkbox"] {
 <p>This appendix provides some advice for writing papers for philosophy courses. The advice primarily concerns assignments requiring you to critically assess some view or argument, though much of what I say applies equally to assignments only requiring you to explain some view, argument, or debate in your own words (without weighing in with your own view on the matter). Of course, you should follow all instructions you receive from your instructors and disregard anything I say here that conflicts with those instructions. Absent explicit conflicts, however, it’s likely that your instructor is looking for the sort of paper I describe here.</p>
 <p>If you follow the advice I offer below, the final result will be a paper with three numbered and labeled sections, with each section broken up into multiple paragraphs, just as I have done in the chapters of this book. The first section introduces the view or argument you’re criticizing, the second advances your objections to that view or argument, and the third addresses possible responses to your objections. (Some instructors may expect a short concluding paragraph at the end of the paper, summarizing what you’ve argued for. Others may find it unnecessary, especially for very short papers. Check with your instructor.)</p>
 <p>To be clear, there is nothing sacred about this three-section model. Depending on the content of your paper, it may be useful to organize it differently. For instance, if your plan is to advance two very different objections to some premise, then perhaps a better structure for you would be to introduce the argument you’re criticizing in section 1; advance your first objection and address possible responses to it in section 2; and advance your second objection and address possible responses to it in section 3. Or perhaps you plan to <em>defend</em> some argument against a particular objection. In that case, you might opt for a four-section model: introduce the argument in section 1, introduce the objection you’ll defend it against in section 2, respond to the objection in section 3, and defend your response against potential challenges in section 4. The main thing is just that your paper be clearly organized, and that you take the time not just to present your own perspective but also to demonstrate an appreciation of your opponent’s perspective.</p>
-<p>For purposes of illustration, I’ll imagine that your assignment asks you to criticize the Argument from Suffering from <a href="evil.html" class="quarto-xref"><span>Chapter 2</span></a>.</p>
-<div id="arg-AS-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AS-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AB.1: <strong>The Argument from Suffering</strong>
-</figcaption>
-<div aria-describedby="arg-AS-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>For purposes of illustration, I’ll imagine that your assignment asks you to criticize the Argument from Suffering from <a href="evil.html" class="quarto-xref"><span>Chapter 1</span></a>.</p>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Suffering
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(AS1) There is suffering in the world</li>
-<li>(AS2) If there is suffering in the world, then God does not exist</li>
-<li>(AS3) So, God does not exist</li>
+<li><span class="li-label">AS1.</span> There is suffering in the world</li>
+<li><span class="li-label">AS2.</span> If there is suffering in the world, then God does not exist</li>
+<li><span class="li-label">AS3.</span> So, God does not exist</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Your plan, let’s suppose, is to reject AS2 by arguing that God allows suffering in order to test our devotion.</p>
-<section id="sec-target" class="level2" data-number="B.1">
-<h2 data-number="B.1" class="anchored" data-anchor-id="sec-target"><span class="header-section-number">B.1</span> Introducing Your Target</h2>
+<section id="sec-target" class="level2">
+<h2 class="anchored" data-anchor-id="sec-target"><span class="header-section-number">B.1</span> Introducing Your Target</h2>
 <p>The point of section 1 of your paper is to introduce your target—the view or argument you plan to criticize—and indicate what you plan to do in the paper. There are five main elements you’ll want to make sure to include in this section, though not necessarily in this order.</p>
 <p>First, you’ll identify the topic of the paper. In this case, that’s the Argument from Suffering. So, you’ll want to begin the paper by saying something like this: “My aim in this paper is to assess a certain argument against the existence of God.” Beginning your paper with a straightforward sentence like that is preferable to a flowery opening sentence like, “For centuries upon centuries, men have debated the existence of God.”</p>
 <p>Second, you’ll state the view or argument that you’re targeting. In the case at hand, you can simply copy and paste my formulation of the Argument from Suffering into your paper, of course citing the book and the page where you found it. (Ask your instructor for their preferred method of citation.)</p>
@@ -503,8 +525,8 @@ AB.1: <strong>The Argument from Suffering</strong>
 <p>Fourth, state your thesis, that is, the conclusion that you are ultimately arguing for. For instance, you’ll want to say something like this: “My aim is to show that the Argument from Suffering fails because AS2 is false: even an all-good God would want to allow suffering so that we could have the opportunity to prove our devotion.” Here, you are only <em>stating</em> your thesis, not yet defending it (that’s what section 2 is for). Also, here and throughout the paper, it is perfectly appropriate to use first-person pronouns like ‘I’ and ‘my’.</p>
 <p>Fifth, you’ll give an outline of your paper. If you’re using the threesection model, you’ll say something like this: “In section 2, I will present my objection to AS2 of the Argument from Suffering. Then, in section 3, I will address two possible responses to my objection.”</p>
 </section>
-<section id="sec-advancing" class="level2" data-number="B.2">
-<h2 data-number="B.2" class="anchored" data-anchor-id="sec-advancing"><span class="header-section-number">B.2</span> Advancing Your Argument</h2>
+<section id="sec-advancing" class="level2">
+<h2 class="anchored" data-anchor-id="sec-advancing"><span class="header-section-number">B.2</span> Advancing Your Argument</h2>
 <p>Section 2 is where you offer your own criticism of your target. In other words, this is where you present your argument for the thesis of your paper. We’re imagining that your thesis is that God allows suffering in order to test our devotion. What you need to do now is offer some <em>reasons</em> for thinking that God would do this. For instance, you would need to explain why there would have to be suffering in order for our devotion to be tested, and why being able to test our devotion is sufficiently important that a good God would want to do it despite having to make us suffer.</p>
 <p>Here are some further tips for section 2.</p>
 <p>First, it’s crucial that you deny a <em>premise</em> of the argument you want to resist, and it should be 100% clear <em>which</em> premise your objection is meant to be targeting. If your aim is to criticize the Argument from Suffering, you shouldn’t be arguing directly against AS3, that God doesn’t exist (for instance by arguing that God must exist because <em>someone</em> must have created the universe). Rather, your goal is to show where the Argument from Suffering goes wrong, and you do that by challenging one of its premises. Have a look at the discussion of the Uncertain Fate argument and the Afterlife Argument in section 4 of the Introduction to this textbook for a refresher on the difference between denying a premise and denying the conclusion of an argument.</p>
@@ -515,8 +537,8 @@ AB.1: <strong>The Argument from Suffering</strong>
 <p>What if you’re having trouble coming up with an objection to use in section 2? My advice would be to read and re-read and re-re-read the chapter that you plan to criticize. (The chapters aren’t <em>that</em> long.) If you have your choice of chapters to criticize, choose the one whose conclusion you are most inclined to disagree with. On the first reading, let it all wash over you. On the second reading, keep an eye out for claims that seem especially fishy. On the third reading, skim through the parts you agree with but slow down and very carefully read the parts that seemed fishy, trying to pinpoint the exact sentence where the reasoning go wrong. Having pinpointed</p>
 <p>where it goes wrong, try to articulate <em>why</em> you think it goes wrong, and use that as the basis for your section 2.</p>
 </section>
-<section id="sec-anticipating" class="level2" data-number="B.3">
-<h2 data-number="B.3" class="anchored" data-anchor-id="sec-anticipating"><span class="header-section-number">B.3</span> Anticipating Possible Responses</h2>
+<section id="sec-anticipating" class="level2">
+<h2 class="anchored" data-anchor-id="sec-anticipating"><span class="header-section-number">B.3</span> Anticipating Possible Responses</h2>
 <p>The point of section 3 of your paper is to address possible responses to the things you said in section 2. To understand what you’re supposed to be doing in this section, consider an analogy. A governor is giving a televised speech, trying to convince his constituents to support a proposition abolishing the death penalty. His argument is that it should be abolished because the death penalty isn’t actually effective in deterring people from committing violent crimes. He knows that some people will be skeptical of his argument, but he also knows he can’t talk to them all one on one. So, he tries to anticipate and address the most likely objections people will have. For instance, he says: “Look, a lot of people are going to say: what about Oklahoma? When they reinstated the death penalty, violent crime dropped by ten percent. But those statistics are misleading. It was actually the new gun laws they passed, not the reinstatement of the death penalty, that accounts for the drop in violent crime.”</p>
 <p>This is the sort of thing you’ll be doing in section 3. Put yourself in the shoes of your readers, and try to identify one or two ways that they are likely to push back against the argument you gave in section 2. For instance, if you claimed in section 2 that God allows suffering in order to test our devotion, you might imagine someone objecting that God is supposed to be all-knowing, in which case he should already know how devoted people are without having to test their devotion. And then you should respond to that objection, for instance by explaining why it’s important for God to test our devotion despite already knowing how devoted we are.</p>
 <p>Keep in mind that the point of section 3 is to <em>defend the objection</em> you originally put forward in section 2. Accordingly, you should avoid introducing a brand-new line of objection to the target argument from section 1. To see what I mean, imagine two different students, both of whom have argued (in section 2) that God allows suffering in order to test our devotion. Now compare the following two responses (in section 3) to the complaint that God would already know how devoted people are without having to test their devotion.</p>
@@ -528,24 +550,16 @@ AB.1: <strong>The Argument from Suffering</strong>
 <p>Second, make sure that the objections you anticipate actually advance the discussion. In particular, don’t imagine your opponent simply reiterating the argument from section 1 in defense of the targeted premise. In the case at hand, that would look something like this: “One might respond to my objection to AS2 by insisting that God is supposed to be allpowerful and all-good and such a being cannot allow any suffering.” But if one were to say that, one would just be ignoring your argument from section 2. Contrast this with the anticipated objection I suggested just above: that God wouldn’t need to test us to know whether we’re devoted. That isn’t merely a defense of AS2. Rather, it challenges your stated reasons for rejecting AS2, and that’s what makes it a good objection to address in section 3.</p>
 <p>Third, one way for your opponents to respond to your objections from section 2 is to try to show that those objections fail. But that’s not the only way. Another possibility is for them to concede that your objections work, but then try to revise their own argument in a way that makes it immune to your objections, perhaps by revising some of the premises. In section 3, you could consider some way that they might try to do that, and then respond by raising a new objection to their revised argument.</p>
 </section>
-<section id="sec-editing" class="level2" data-number="B.4">
-<h2 data-number="B.4" class="anchored" data-anchor-id="sec-editing"><span class="header-section-number">B.4</span> Editing</h2>
+<section id="sec-editing" class="level2">
+<h2 class="anchored" data-anchor-id="sec-editing"><span class="header-section-number">B.4</span> Editing</h2>
 <p>Make sure to leave yourself plenty of time to revise your paper after completing the initial draft. First drafts tend to be pretty messy and full of small mistakes, and cleaning up the mess and catching all these small mistakes will go a long way towards improving the paper.</p>
 <p>Here is the procedure I would recommend for editing your paper. Go through the rough draft of your paper very slowly, at a snail’s pace, lingering on every sentence. Read each sentence out loud, and ask yourself the following four questions about it.</p>
-<ul>
-<li><ol type="1">
+<ol type="1">
 <li>Is this exactly what I meant to say?</li>
-</ol></li>
-<li><ol start="2" type="1">
 <li>How might someone challenge this?</li>
-</ol></li>
-<li><ol start="3" type="1">
 <li>Can I make the sentence clearer?</li>
-</ol></li>
-<li><ol start="4" type="1">
 <li>Can I make the sentence shorter?</li>
-</ol></li>
-</ul>
+</ol>
 <p>Let me say a bit about each of these questions.</p>
 <p><em>Is this exactly what I meant to say?</em> Philosophers—including your instructor—care a great deal about getting the small details right, and you will be amazed by their laser-like focus on the exact wording of your sentences. You might write something like “Killing is always wrong,” and they’ll leave a comment like: “Even killing blades of grass?” Presumably what you meant was that killing <em>people</em> is always wrong. But it’s not their job to read your mind; it’s your job to say exactly what you mean. Getting the details right is especially important when you’re explaining the views and arguments you plan to criticize. One or two small errors in your description of those views and arguments will often be enough to convince your instructor that you don’t really understand them.</p>
 <p><em>How might someone challenge this?</em> This question is especially important in section 2, when you’re advancing your own argument or objection. Thinking hard about every possible way someone might try to deny something you’ve said is a great strategy for identifying good responses to address in section 3. But you should also be on the lookout for “cheap” ways that someone might challenge the sentence, which can be addressed by simply rewording it. For instance, you might close off the “what about blades of grass?” objection above by changing “killing is always wrong” to “killing people is always wrong.” But then of course you should be thinking about other challenges, for instance that killing in self-defense isn’t wrong.</p>
@@ -554,32 +568,32 @@ AB.1: <strong>The Argument from Suffering</strong>
 <p><em>Can I make the sentence shorter?</em> A philosophy paper should be a lean, mean, arguing machine. If a word or phrase isn’t serving some clear purpose, cut it out. You might find that you’ve written “I will argue that God doesn’t exists and that anyone who believes in God is mistaken.” If so, you’ve said the same thing twice; you should delete the second half of the sentence. In some cases, the right way to make a sentence shorter is to delete <em>all</em> the words in it, getting rid of the sentence altogether. For instance, you might find that some sentence is just repeating the very same point you made earlier in the paragraph. In that case, choose the sentence you like best and delete the other one. Or you might find that the sentence is making a point that, although interesting, is actually just a digression that’s irrelevant to your argument. Delete it.</p>
 <p>Finally, when editing, make sure to give special attention to sentences starting with words like ‘So’ or ‘Therefore’ or ‘Thus’. When your laserfocused instructor sees any of these words, her head is going to whip back to the previous sentence to see whether the current sentence really does follow from the previous one, or if it’s just a separate point (in which case you shouldn’t have said ‘Therefore’). Likewise for ‘That is’ or ‘In other words’. Suppose you say: “We weren’t created by God. In other words, humans did not have an intelligent designer.” The ‘in other words’ suggests that the sentences are saying the same thing. But they don’t: saying that God didn’t create us still leaves open that we had an intelligent designer other than God (maybe aliens). Since the two sentences don’t say exactly the same thing, you shouldn’t have said ‘In other words’.</p>
 </section>
-<section id="sec-grading" class="level2" data-number="B.5">
-<h2 data-number="B.5" class="anchored" data-anchor-id="sec-grading"><span class="header-section-number">B.5</span> Likely Criteria for Grading</h2>
+<section id="sec-grading" class="level2">
+<h2 class="anchored" data-anchor-id="sec-grading"><span class="header-section-number">B.5</span> Likely Criteria for Grading</h2>
 <p>Even if your instructor does not have an explicit rubric for the assignment, it’s likely that your grade will be largely determined by four criteria: comprehension, critical development, use (or misuse) of philosophical vocabulary, and quality of writing.</p>
-<section id="sec-comprehension" class="level3" data-number="B.5.1">
-<h3 data-number="B.5.1" class="anchored" data-anchor-id="sec-comprehension"><span class="header-section-number">B.5.1</span> Comprehension</h3>
+<section id="sec-comprehension" class="level3">
+<h3 class="anchored" data-anchor-id="sec-comprehension"><span class="header-section-number">B.5.1</span> Comprehension</h3>
 <p>Your grade will likely be determined primarily by how well you demonstrate understanding of the philosophical concepts, views, and arguments you’re discussing in your paper. Because you’re being evaluated on whether you’ve <em>demonstrated</em> understanding of the material, you should try to explain things in such a way that any intelligent person would be able to understand your paper, particularly someone who is not in the class and has never encountered the argument or chapter you’re talking about.</p>
 <p>Among other things, this means you have to define any technical jargon you’re using. For instance, if the argument includes terms like ‘expected utility’ or ‘omnibeing’, you have to explain what these terms mean. Even though your instructor of course already knows what they mean, she wants to see whether <em>you</em> know what they mean well enough to explain them in your own words. There typically is no need to define perfectly ordinary terms like ‘suffering’ or ‘wrong’.</p>
 <p>To check whether you’ve pitched the paper at the right level, show a draft to your smartest friends, and see what they do and don’t understand.</p>
 <p>Demonstrating comprehension of the material also requires explaining things <em>in your own words</em>. For this reason, it’s important not to rely too heavily on quotations from the readings. As I mentioned earlier, it’s fine to directly copy and paste the indented arguments used in the textbook. But when (in your section 1) you’re trying to explain the idea behind some premise, don’t simply quote the textbook’s explanation of the premise and move on. My own advice would be to read and re-read the textbook’s explanation until you’re sure you understand it, and then set the textbook aside and explain in your own words what you’ve just read and understood. You may find it easier to find your <em>own</em> words when you don’t have the textbook’s words right in front of you.</p>
 </section>
-<section id="sec-critical-development" class="level3" data-number="B.5.2">
-<h3 data-number="B.5.2" class="anchored" data-anchor-id="sec-critical-development"><span class="header-section-number">B.5.2</span> Critical Development</h3>
+<section id="sec-critical-development" class="level3">
+<h3 class="anchored" data-anchor-id="sec-critical-development"><span class="header-section-number">B.5.2</span> Critical Development</h3>
 <p>Assuming that your assignment is to critically assess some view or argument, and not simply to explain it in your own words, your instructor will want to see you developing an interesting objection or response. As I emphasized in connection with section 2, it’s important to do more than simply express your opinion. You need to give reasons for adopting the position you do. And as I emphasized in connection with section 3, it’s important to be thinking about, and explicitly addressing, concerns that an imagined opponent might have about the way you’ve defended your position.</p>
 <p>Additionally, remember that you’re being evaluated for comprehension even in the critical development portion of your paper. If you “straw man” your opponents by downplaying or ignoring sensible things they might say in response to your objections, your instructor may take that as evidence that you haven’t entirely understood their position. If you rush too quickly to developing your own position without first carefully laying out the view or argument that you’re criticizing, your instructor may feel that you haven’t demonstrated an understanding of the views under discussion. So, take the time to explain the views or arguments you’re targeting before trying to respond to them.</p>
 </section>
-<section id="sec-terminology" class="level3" data-number="B.5.3">
-<h3 data-number="B.5.3" class="anchored" data-anchor-id="sec-terminology"><span class="header-section-number">B.5.3</span> Philosophical Terminology</h3>
+<section id="sec-terminology" class="level3">
+<h3 class="anchored" data-anchor-id="sec-terminology"><span class="header-section-number">B.5.3</span> Philosophical Terminology</h3>
 <p>Your instructor will be paying careful attention to how you use philosophical terminology like ‘argument’, ‘conclusion’, ‘premise’, ‘counterexample’, ‘valid’, and so on. Here are three things to be especially careful about. First, as I explain in appendix A, ‘valid’ has a special meaning in philosophy. Arguments are the only things that should be called ‘valid’ in a philosophy paper, and an argument does not necessarily count as invalid just because it has false or implausible premises. Second, the conclusion and subconclusions of an argument are not premises. In the Argument from Suffering, only AS1 and AS2 are premises, not AS3. Third, the view that someone is defending isn’t itself an argument. If someone is advancing the Argument from Suffering, you shouldn’t say “her argument is that God doesn’t exist.” Rather, her <em>view</em> is that God doesn’t exist, she <em>argues</em> that God doesn’t exist, and her <em>argument</em> is the whole sequence of claims consisting of AS1, AS2, and AS3.</p>
 </section>
-<section id="sec-quality-of-writing" class="level3" data-number="B.5.4">
-<h3 data-number="B.5.4" class="anchored" data-anchor-id="sec-quality-of-writing"><span class="header-section-number">B.5.4</span> Quality of Writing</h3>
+<section id="sec-quality-of-writing" class="level3">
+<h3 class="anchored" data-anchor-id="sec-quality-of-writing"><span class="header-section-number">B.5.4</span> Quality of Writing</h3>
 <p>Your instructor likely won’t be too fussy about whether your use of commas or semicolons is exactly right. Still, she will be unlikely to give you a good grade if your writing is full of typos and blatantly ungrammatical sentences, or if your writing is unclear or poorly organized. After all, this is a humanities class, and an “A” in such a class indicates, among other things, that you are a competent writer.</p>
 </section>
 </section>
-<section id="sec-citation-and-plagiarism" class="level2" data-number="B.6">
-<h2 data-number="B.6" class="anchored" data-anchor-id="sec-citation-and-plagiarism"><span class="header-section-number">B.6</span> Citation and Plagiarism</h2>
+<section id="sec-citation-and-plagiarism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-citation-and-plagiarism"><span class="header-section-number">B.6</span> Citation and Plagiarism</h2>
 <p>When discussing this book in class assignments, remember that I don’t myself endorse all of these arguments, so you shouldn’t say “According to Korman, …” Instead, you can say “According to The Author, …” and then cite the page numbers where I made the statement or argument you are discussing.</p>
 <p>You may wish to consult outside sources when writing your essays, for instance the sources listed at the end of each chapter or other things floating around online. But this is not something your instructor will typically expect you to do. Indeed, in my experience (especially in one’s first philosophy course), reading through journal articles and other materials you find online—and trying to reproduce the advanced ideas you find in there—often does more harm than good. Your time is better spent closely reading and re-reading the assigned texts.</p>
 <p>Most importantly, you must make sure to acknowledge any sources you’re drawing from by promptly citing them in your paper. Otherwise, you may be charged with <em>plagiarism</em>, that is, presenting someone else’s work as your own. This includes not only directly copying and pasting sentences from outside sources without putting them in quotation marks and citing the source, but also copying sentences from outside sources and changing around some of the words. Here are some examples of plagiarism that I’ve encountered in my own classes:</p>
@@ -1016,9 +1030,6 @@ AB.1: <strong>The Argument from Suffering</strong>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./theses-and-arguments.html" class="pagination-link" aria-label="Theses and Arguments">
-        <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -60,14 +63,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -95,6 +98,30 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<style>
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+</style>
 
 
 </head>
@@ -295,9 +322,8 @@ div.csl-indent {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Learning from Arguments</a> 
-        <div class="sidebar-tools-main tools-wide">
+        <div class="sidebar-tools-main">
     <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Learning-from-Arguments.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -321,7 +347,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About this Remix</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -350,67 +376,67 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wager.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./death.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./coercion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abortion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
   </div>
 </li>
       </ul>
@@ -436,12 +462,6 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -463,7 +483,10 @@ div.csl-indent {
   <li><a href="#universal-instantiation" id="toc-universal-instantiation" class="nav-link" data-scroll-target="#universal-instantiation"><span class="header-section-number">A.2.4</span> Universal Instantiation</a></li>
   </ul></li>
   <li><a href="#challenging-modus-ponens-and-modus-tollens" id="toc-challenging-modus-ponens-and-modus-tollens" class="nav-link" data-scroll-target="#challenging-modus-ponens-and-modus-tollens"><span class="header-section-number">A.3</span> Challenging Modus Ponens and Modus Tollens</a></li>
-  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">A.4</span> Sources</a></li>
+  <li><a href="#sources-and-resources" id="toc-sources-and-resources" class="nav-link" data-scroll-target="#sources-and-resources">Sources and Resources</a>
+  <ul class="collapse">
+  <li><a href="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" id="toc-bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="nav-link" data-scroll-target="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/logic.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -491,36 +514,42 @@ div.csl-indent {
 
 
 <p>Throughout this book, I present arguments, defend their premises, and then claim that the conclusions of those arguments <em>follow from</em> the premises. In this appendix, I’ll explain what it means for a conclusion to follow from some premises and how you can tell when a conclusion follows from some premises. In section 1, I introduce the notion of a <em>valid</em> argument, that is, an argument whose conclusion follows from its premises. Then, in section 2, I identify four types of valid arguments. Finally, in section 3—because nothing is sacred in philosophy—I show how even claims about which types of arguments are valid can be called into question.</p>
-<section id="valid-arguments" class="level2" data-number="A.1">
-<h2 data-number="A.1" class="anchored" data-anchor-id="valid-arguments"><span class="header-section-number">A.1</span> Valid Arguments</h2>
+<section id="valid-arguments" class="level2">
+<h2 class="anchored" data-anchor-id="valid-arguments"><span class="header-section-number">A.1</span> Valid Arguments</h2>
 <p>Suppose you and I have gotten our hands on a live chicken. I want to keep it as a pet, and I’ve already even given it a name: ‘Camilla’. You want to slaughter it and eat it. I’m trying to convince you that we shouldn’t eat Camilla, and I give you the following two arguments:</p>
-<div id="arg-CA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.1: <strong>The Cuteness Argument</strong>
-</figcaption>
-<div aria-describedby="arg-CA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Cuteness Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(CA1) Camilla is cute</li>
-<li>(CA2) It’s wrong to eat cute things</li>
-<li>(CA3) So, it’s wrong to eat Camilla</li>
+<li><span class="li-label">CA1.</span> Camilla is cute</li>
+<li><span class="li-label">CA2.</span> It’s wrong to eat cute things</li>
+<li><span class="li-label">CA3.</span> So, it’s wrong to eat Camilla</li>
 </ul>
 </div>
-</figure>
 </div>
-<div id="arg-FA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.2: <strong>The Feathers Argument</strong>
-</figcaption>
-<div aria-describedby="arg-FA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Feathers Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FA1) Camilla has feathers</li>
-<li>(FA2) Feathers are soft</li>
-<li>(FA3) So, it’s wrong to eat Camilla</li>
+<li><span class="li-label">FA1.</span> Camilla has feathers</li>
+<li><span class="li-label">FA2.</span> Feathers are soft</li>
+<li><span class="li-label">FA3.</span> So, it’s wrong to eat Camilla</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>You probably aren’t convinced by either argument. Why not?</p>
 <p>It’s easy to say what goes wrong with the Cuteness Argument. You might say the first premise is false, because chickens are ugly. Or you might deny the second premise, saying that just because something is cute doesn’t mean it’s wrong to eat it. Or maybe you’ll deny both. Either way, the problem with the argument is that its premises aren’t true.</p>
@@ -528,377 +557,439 @@ AA.2: <strong>The Feathers Argument</strong>
 <p>A <em>valid</em> argument is an argument whose conclusion is a <em>logical consequence</em> of its premises. When an argument is valid, the premises guarantee the truth of the conclusion; it’s impossible for the premises to be true without the conclusion being true. You would be contradicting yourself if you accepted all the premises but denied the conclusion.</p>
 <p>The problem with the Feathers Argument is that it’s invalid: it doesn’t follow from Camilla’s having feathers and feathers’ being soft that it’s wrong to eat her. There’s no contradiction in accepting the premises of that argument while denying its conclusion. The Cuteness Argument, by contrast, is valid: the claim that it’s wrong to eat Camilla <em>is</em> a logical consequence of the claim that Camilla is cute and the claim that it’s wrong to eat cute things. Anyone who accepts the premises of the Cuteness Argument is logically required to accept the conclusion as well, on pain of contradicting themselves.</p>
 <p>You might be surprised that I just called the Cuteness Argument ‘valid’. But look again at my definition of ‘valid’. That definition doesn’t require the premises of a valid argument to be true, or even plausible. All that’s required is that <em>if</em> the premises are true, then the conclusion is guaranteed to be true as well. An argument can be valid and still be a pretty bad argument, like the Cuteness Argument, because its premises are implausible. (Philosophers have a different word for arguments that are valid <em>and</em> all of whose premises are true. We call them <em>sound</em> arguments.) Also, as defined above, validity can only ever be a feature of <em>arguments</em>. So, at least in philosophical discussions, it’s best to avoid calling premises or points ‘valid’. Only arguments should be described as valid or invalid.</p>
-<p>One more word of warning: don’t confuse <em>following</em> and <em>following from</em>. To see what I have in mind, consider this argument from <a href="death.html" class="quarto-xref"><span>Chapter 5</span></a>:</p>
-<div id="arg-FD-copy2" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FD-copy2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.3: <strong>Against Fearing Death</strong>
-</figcaption>
-<div aria-describedby="arg-FD-copy2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>One more word of warning: don’t confuse <em>following</em> and <em>following from</em>. To see what I have in mind, consider this argument from <a href="death.html" class="quarto-xref"><span>Chapter 4</span></a>:</p>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Fearing Death
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FD1) You cease to be conscious when you die</li>
-<li>(FD2) If you cease to be conscious when you die, then being dead isn’t bad for you</li>
-<li>(FD3) So, being dead isn’t bad for you</li>
-<li>(FD4) If being dead isn’t bad for you, then you shouldn’t fear death</li>
-<li>(FD5) So, you shouldn’t fear death</li>
+<li><span class="li-label">FD1.</span> You cease to be conscious when you die</li>
+<li><span class="li-label">FD2.</span> If you cease to be conscious when you die, then being dead isn’t bad for you</li>
+<li><span class="li-label">FD3.</span> So, being dead isn’t bad for you</li>
+<li><span class="li-label">FD4.</span> If being dead isn’t bad for you, then you shouldn’t fear death</li>
+<li><span class="li-label">FD5.</span> So, you shouldn’t fear death</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>It’s true that FD2 follows FD1. That is, it comes immediately after FD1. But FD2 does not follow <em>from</em> FD1. To say that it follows from FD1 is to say that there’s a valid argument whose conclusion is FD2 and whose only premise is FD1. That, in turn, implies that you would be contradicting yourself if you accepted FD1 while at the same time denying FD2. But notice that this isn’t at all contradictory. You can agree that you cease to be conscious when you die (FD1), and yet reject FD2 on the grounds that you don’t have to be consciously aware of bad things in order for them to be bad for you. What <em>is</em> true is that FD3 follows from FD1 and FD2. But FD2 doesn’t itself follow from FD1.</p>
 </section>
-<section id="how-to-check-for-validity" class="level2" data-number="A.2">
-<h2 data-number="A.2" class="anchored" data-anchor-id="how-to-check-for-validity"><span class="header-section-number">A.2</span> How to Check for Validity</h2>
+<section id="how-to-check-for-validity" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-check-for-validity"><span class="header-section-number">A.2</span> How to Check for Validity</h2>
 <p>Many of the arguments in this book have conclusions you won’t like. If the arguments were invalid then, as with the Feathers Argument, you could just reject the conclusion without having to find a premise to reject. But since the arguments <em>are</em> all valid—I made sure of it!—rejecting the conclusion of any one of them always requires finding some premise to deny.</p>
 <p>But what did I <em>do</em> to ensure that the arguments were all valid? How can you tell if an argument is valid? One way is to eyeball it: look at the premises, and check whether it seems like the conclusion follows from them. But we can do better than that. We can identify certain recurring forms or patterns whose presence guarantees that an argument is valid, regardless of what the argument is about. Accordingly, another way to check for validity is to see if the argument has one of these forms. If it does, then it’s valid. I’ll give four examples.</p>
-<section id="modus-ponens" class="level3" data-number="A.2.1">
-<h3 data-number="A.2.1" class="anchored" data-anchor-id="modus-ponens"><span class="header-section-number">A.2.1</span> Modus Ponens</h3>
+<section id="modus-ponens" class="level3">
+<h3 class="anchored" data-anchor-id="modus-ponens"><span class="header-section-number">A.2.1</span> Modus Ponens</h3>
 <p>To see what I have in mind by a “form” of argument, compare these two arguments:</p>
-<div id="arg-DK-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DK-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.4: <strong>The Drinking Age Argument</strong>
-</figcaption>
-<div aria-describedby="arg-DK-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Drinking Age Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DK1) Kristina is twenty years old</li>
-<li>(DK2) If Kristina is twenty years old, then Kristina is not allowed to buy alcohol in the US</li>
-<li>(DK3) So, Kristina is not allowed to buy alcohol in the US</li>
+<li><span class="li-label">DK1.</span> Kristina is twenty years old</li>
+<li><span class="li-label">DK2.</span> If Kristina is twenty years old, then Kristina is not allowed to buy alcohol in the US</li>
+<li><span class="li-label">DK3.</span> So, Kristina is not allowed to buy alcohol in the US</li>
 </ul>
 </div>
-</figure>
 </div>
-<div id="arg-MA" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.5: <strong>The Moral Argument</strong>
-</figcaption>
-<div aria-describedby="arg-MA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Moral Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(MA1) There are objective moral values</li>
-<li>(MA2) If there are objective moral values, then God exists</li>
-<li>(MA3) So, God exists</li>
+<li><span class="li-label">MA1.</span> There are objective moral values</li>
+<li><span class="li-label">MA2.</span> If there are objective moral values, then God exists</li>
+<li><span class="li-label">MA3.</span> So, God exists</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>In some ways, the arguments are pretty different: one is about Kristina and drinking, the other is about God and morality. But there’s also something they have in common, something structural.</p>
-<p>To see what they have in common, let’s recall some vocabulary that we learned in <a href="introduction.html#sec-premises-and-conditionals" class="quarto-xref"><span>Section 1.3</span></a>. Claims of the form ‘if… then…’, like DK2 and MA2, are called <em>conditionals</em>. The bit that comes between the ‘if’ and the ‘then’ is the <em>antecedent</em> of the conditional, and the bit that comes after the ‘then’ is the <em>consequent</em> of the conditional.</p>
+<p>To see what they have in common, let’s recall some vocabulary that we learned in <a href="introduction.html#sec-premises-and-conditionals" class="quarto-xref"><span>Section 3</span></a> of the Introduction. Claims of the form ‘if… then…’, like DK2 and MA2, are called <em>conditionals</em>. The bit that comes between the ‘if’ and the ‘then’ is the <em>antecedent</em> of the conditional, and the bit that comes after the ‘then’ is the <em>consequent</em> of the conditional.</p>
 <p>What the Drinking Age Argument and the Moral Argument have in common is that each contains one premise that’s a conditional, another premise that’s the same as the antecedent of that conditional, and a conclusion that’s the same as the consequent of that conditional. In other words, they both have the following form:</p>
-<div id="arg-MP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.6: Modus Ponens
-</figcaption>
-<div aria-describedby="arg-MP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Modus Ponens
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
 <li>If P, then Q</li>
 <li>P</li>
 <li>So Q</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Arguments with this form are called <em>modus ponens</em> arguments. (‘Modus ponens’ is Latin for <em>method of affirming</em>: you reach the conclusion by taking a conditional premise and combining it with a premise that affirms its antecedent.) Every modus ponens argument is a valid argument.</p>
 <p>Here are two things to note about modus ponens arguments. First, it doesn’t matter whether the conditional premise comes first or second. For example, this is also a modus ponens argument:</p>
-<div id="arg-RD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.7: <strong>The Rearranged Drinking Age Argument</strong>
-</figcaption>
-<div aria-describedby="arg-RD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Rearranged Drinking Age Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(RD1) If Kristina is twenty years old, then Kristina is not allowed to buy alcohol in the US</li>
-<li>(RD2) Kristina is twenty years old</li>
-<li>(RD3) So, Kristina is not allowed to buy alcohol in the US</li>
+<li><span class="li-label">RD1.</span> If Kristina is twenty years old, then Kristina is not allowed to buy alcohol in the US</li>
+<li><span class="li-label">RD2.</span> Kristina is twenty years old</li>
+<li><span class="li-label">RD3.</span> So, Kristina is not allowed to buy alcohol in the US</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>That said, you do have to “mind your Ps and Qs” and how they’re distributed in the argument. This, for instance, is <em>not</em> a modus ponens argument:</p>
-<div id="arg-MD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.8: <strong>The Mangled Drinking Age Argument</strong>
-</figcaption>
-<div aria-describedby="arg-MD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Mangled Drinking Age Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(MD1) Jean Blanc is not allowed to buy alcohol in the US</li>
-<li>(MD2) If Jean Blanc is twenty years old, then Jean Blanc is not allowed to buy alcohol in the US</li>
-<li>(MD3) So, Jean Blanc is twenty years old</li>
+<li><span class="li-label">MD1.</span> Jean Blanc is not allowed to buy alcohol in the US</li>
+<li><span class="li-label">MD2.</span> If Jean Blanc is twenty years old, then Jean Blanc is not allowed to buy alcohol in the US</li>
+<li><span class="li-label">MD3.</span> So, Jean Blanc is twenty years old</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>This one doesn’t have the form “P, if P then Q, so Q” but rather “P, if Q then P, so Q.” This other argument form is called ‘affirming the consequent’, and is clearly invalid. Think about it. You can consistently accept MD1 and MD2 while denying MD3, for instance if you thought Jean Blanc was 18 years old. (You’d still accept MD2, that <em>if</em> he’s twenty, he’s still not allowed to buy alcohol.) By contrast, you can’t consistently accept RD1 and RD2 while denying RD3. That’s because the argument for RD3 is valid, whereas the argument for MD3 is invalid.</p>
 </section>
-<section id="modus-tollens" class="level3" data-number="A.2.2">
-<h3 data-number="A.2.2" class="anchored" data-anchor-id="modus-tollens"><span class="header-section-number">A.2.2</span> Modus Tollens</h3>
+<section id="modus-tollens" class="level3">
+<h3 class="anchored" data-anchor-id="modus-tollens"><span class="header-section-number">A.2.2</span> Modus Tollens</h3>
 <p>Another form that guarantees the validity of an argument is what’s called <em>modus tollens</em>, Latin for <em>method of denying</em>. A modus tollens argument is an argument with one premise that’s a conditional, another premise that’s a denial of the consequent of that conditional, and whose conclusion is the denial of the conditional’s antecedent. Using the ‘~’ symbol to symbolize denial, we can display the form of modus tollens arguments as follows:</p>
-<div id="arg-MT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-MT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.9: Modus Tollens
-</figcaption>
-<div aria-describedby="arg-MT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Modus Tollens
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
 <li>If P then Q</li>
 <li>~Q</li>
 <li>So, ~P</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Here are some examples of modus tollens arguments:</p>
-<div id="arg-WF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-WF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.10: <strong>Whales Aren’t Fish</strong>
-</figcaption>
-<div aria-describedby="arg-WF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Whales Aren’t Fish
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(WF1) If whales are fish, then whales use gills to breathe</li>
-<li>(WF2) Whales don’t use gills to breathe</li>
-<li>(WF3) So whales aren’t fish</li>
+<li><span class="li-label">WF1.</span> If whales are fish, then whales use gills to breathe</li>
+<li><span class="li-label">WF2.</span> Whales don’t use gills to breathe</li>
+<li><span class="li-label">WF3.</span> So whales aren’t fish</li>
 </ul>
 </div>
-</figure>
 </div>
-<div id="arg-FM" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.11: <strong>The Flipped Moral Argument</strong>
-</figcaption>
-<div aria-describedby="arg-FM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Flipped Moral Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FM1) If God does not exist, then there are no objective moral values</li>
-<li>(FM2) There are objective moral values</li>
-<li>(FM3) So, God exists</li>
+<li><span class="li-label">FM1.</span> If God does not exist, then there are no objective moral values</li>
+<li><span class="li-label">FM2.</span> There are objective moral values</li>
+<li><span class="li-label">FM3.</span> So, God exists</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Again, the arguments are about entirely different topics but share a common structure. Also, as with modus ponens arguments, the order of the premises doesn’t matter: it would still be a modus tollens argument if WF2 came first and WF1 came second. But the order within the premises does matter. You’ve got to have the denial of the conditional’s consequent as a premise and a denial of its antecedent as the conclusion, not vice versa.</p>
 <p>One other thing to notice here is that the same basic line of thought can be presented either as a modus ponens or as a modus tollens argument. The Moral Argument (from section 2.1) and the Flipped Moral Argument (just above) are really just two ways of packaging one and the same idea: that God must exist because objective morality presupposes the existence of God.</p>
 <p>With these two types of valid arguments in hand, one can also construct more complicated arguments that involve both. For instance:</p>
-<div id="arg-FK" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.12: <strong>The Foreknowledge Argument</strong>
-</figcaption>
-<div aria-describedby="arg-FK-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Foreknowledge Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FK1) God knew before you were born that you were going to read this book</li>
-<li>(FK2) If God knew before you were born that you were going to read this book, then you couldn’t have chosen not to read this book</li>
-<li>(FK3) So, you couldn’t have chosen not to read this book</li>
-<li>(FK4) If you freely choose to read this book, then you could have chosen not to read this book</li>
-<li>(FK5) So, you didn’t freely choose to read this book</li>
+<li><span class="li-label">FK1.</span> God knew before you were born that you were going to read this book</li>
+<li><span class="li-label">FK2.</span> If God knew before you were born that you were going to read this book, then you couldn’t have chosen not to read this book</li>
+<li><span class="li-label">FK3.</span> So, you couldn’t have chosen not to read this book</li>
+<li><span class="li-label">FK4.</span> If you freely choose to read this book, then you could have chosen not to read this book</li>
+<li><span class="li-label">FK5.</span> So, you didn’t freely choose to read this book</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>This argument combines a modus ponens argument and a modus tollens argument. The subconclusion FK3 follows, by modus ponens, from FK1 and FK2. And the conclusion FK5 follows, by modus tollens, from FK3 and FK4. Looking back at the Against Fearing Death argument in section 1, you can see that that argument combines two instances of modus ponens: a modus ponens argument from FD1 and FD2 to FD3, and another modus ponens argument from FD3 and FD4 to FD5.</p>
 </section>
-<section id="chained-conditionals" class="level3" data-number="A.2.3">
-<h3 data-number="A.2.3" class="anchored" data-anchor-id="chained-conditionals"><span class="header-section-number">A.2.3</span> Chained Conditionals</h3>
+<section id="chained-conditionals" class="level3">
+<h3 class="anchored" data-anchor-id="chained-conditionals"><span class="header-section-number">A.2.3</span> Chained Conditionals</h3>
 <p>Here is a third type of valid argument, which I’ll call a <em>chained conditional</em>, since the conclusion chains together the antecedent of one conditional premise with the consequent of another conditional premise.</p>
-<div id="arg-chained" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-chained-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.13: Chained Conditional
-</figcaption>
-<div aria-describedby="arg-chained-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Chained Conditional
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
 <li>If P then Q</li>
 <li>If Q then R</li>
 <li>So, if P then R</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>This form of argument is especially useful when you want to argue for a conditional claim, that is, when you want to give an argument that has a whole conditional as its conclusion.</p>
 <p>Here are two examples of arguments with this form:</p>
-<div id="arg-FN" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FN-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.14: <strong>Against Fearing Non-Existence</strong>
-</figcaption>
-<div aria-describedby="arg-FN-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Fearing Non-Existence
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FN1) If you stop existing when you die, then being dead is not bad for you</li>
-<li>(FN2) If being dead is not bad for you, then you shouldn’t fear death</li>
-<li>(FN3) So, if you stop existing when you die, then you shouldn’t fear death</li>
+<li><span class="li-label">FN1.</span> If you stop existing when you die, then being dead is not bad for you</li>
+<li><span class="li-label">FN2.</span> If being dead is not bad for you, then you shouldn’t fear death</li>
+<li><span class="li-label">FN3.</span> So, if you stop existing when you die, then you shouldn’t fear death</li>
 </ul>
 </div>
-</figure>
 </div>
-<div id="arg-RW" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-RW-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.15: <strong>The Right to the Womb Argument</strong>
-</figcaption>
-<div aria-describedby="arg-RW-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Right to the Womb Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(RW1) If the embryo has a right to life, then the embryo has a right to use the mother’s womb</li>
-<li>(RW2) If the embryo has a right to use the mother’s womb, then abortion is immoral</li>
-<li>(RW3) So, if the embryo has a right to life, then abortion is immoral</li>
+<li><span class="li-label">RW1.</span> If the embryo has a right to life, then the embryo has a right to use the mother’s womb</li>
+<li><span class="li-label">RW2.</span> If the embryo has a right to use the mother’s womb, then abortion is immoral</li>
+<li><span class="li-label">RW3.</span> So, if the embryo has a right to life, then abortion is immoral</li>
 </ul>
 </div>
-</figure>
 </div>
 </section>
-<section id="universal-instantiation" class="level3" data-number="A.2.4">
-<h3 data-number="A.2.4" class="anchored" data-anchor-id="universal-instantiation"><span class="header-section-number">A.2.4</span> Universal Instantiation</h3>
+<section id="universal-instantiation" class="level3">
+<h3 class="anchored" data-anchor-id="universal-instantiation"><span class="header-section-number">A.2.4</span> Universal Instantiation</h3>
 <p>I’ll mention one more form that a valid argument can have. This one is called <em>universal instantiation</em>, since it involves a “universal” premise claiming that everything belonging to one category also belongs to some second category. Together with an additional premise that one or more particular things belong to the first category, what follows is that those particular things also belong to the second category. Here it is schematically:</p>
-<div id="arg-UI" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.16: Universal Instantiation
-</figcaption>
-<div aria-describedby="arg-UI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Universal Instantiation
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
 <li>All Fs are Gs.</li>
 <li>o is F.</li>
 <li>So, o is G</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>To get a valid argument of this form, you plug in some category for ‘F’, some second category for ‘G’, and a person or object for ‘o’. (This makes it unlike the previous three types of valid arguments, where you plug in whole sentences for the variables ‘P’, ‘Q’, and ‘R’.)</p>
 <p>Here’s an example of an argument by universal instantiation:</p>
-<div id="arg-PG" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PG-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.17: <strong>The Philosophical Genius Argument</strong>
-</figcaption>
-<div aria-describedby="arg-PG-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Philosophical Genius Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(PG1) All philosophers are geniuses</li>
-<li>(PG2) Korman is a philosopher</li>
-<li>(PG3) So, Korman is a genius</li>
+<li><span class="li-label">PG1.</span> All philosophers are geniuses</li>
+<li><span class="li-label">PG2.</span> Korman is a philosopher</li>
+<li><span class="li-label">PG3.</span> So, Korman is a genius</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>The argument is valid, and what makes the argument valid is not the truth or the plausibility of the premises, but rather that the conclusion is a logical consequence of the premises. If you affirm the premises and yet deny the conclusion, you’ve contradicted yourself.</p>
 <p>Universal instantiation arguments don’t always wear their form right on their sleeve. Take the Cuteness Argument:</p>
 <p>TODO: repeated argument</p>
-<div id="arg-CA-copy" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CA-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.18: <strong>The Cuteness Argument</strong>
-</figcaption>
-<div aria-describedby="arg-CA-copy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Cuteness Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(CA1) Camilla is cute</li>
-<li>(CA2) It’s wrong to eat cute things</li>
-<li>(CA3) So, it’s wrong to eat Camilla</li>
+<li><span class="li-label">CA1.</span> Camilla is cute</li>
+<li><span class="li-label">CA2.</span> It’s wrong to eat cute things</li>
+<li><span class="li-label">CA3.</span> So, it’s wrong to eat Camilla</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Superficially, this doesn’t match the form of a universal instantiation argument, specified above. But with just a bit of rewording and rearranging, we can see that it’s a universal instantiation in disguise:</p>
-<div id="arg-CA-star" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg quarto-uncaptioned" id="arg-CA-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.19
-</figcaption>
-<div aria-describedby="arg-CA-star-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Cuteness Argument Reworded
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(CA2*) All cute things are things that are wrong to eat</li>
-<li>(CA1*) Camilla is a cute thing</li>
-<li>(CA3*) So, Camilla is a thing that is wrong to eat</li>
+<li><span class="li-label">CA2*.</span> All cute things are things that are wrong to eat</li>
+<li><span class="li-label">CA1*.</span> Camilla is a cute thing</li>
+<li><span class="li-label">CA3*.</span> So, Camilla is a thing that is wrong to eat</li>
 </ul>
 </div>
-</figure>
 </div>
 </section>
 </section>
-<section id="challenging-modus-ponens-and-modus-tollens" class="level2" data-number="A.3">
-<h2 data-number="A.3" class="anchored" data-anchor-id="challenging-modus-ponens-and-modus-tollens"><span class="header-section-number">A.3</span> Challenging Modus Ponens and Modus Tollens</h2>
+<section id="challenging-modus-ponens-and-modus-tollens" class="level2">
+<h2 class="anchored" data-anchor-id="challenging-modus-ponens-and-modus-tollens"><span class="header-section-number">A.3</span> Challenging Modus Ponens and Modus Tollens</h2>
 <p>We have now seen four types of valid arguments: modus ponens arguments, modus tollens arguments, chained conditionals, and universal instantiations. These are not the <em>only</em> types of valid argument, and there’s some controversy (in the philosophy of logic) about what would go on a complete list of valid forms of argument. But when you’re constructing arguments of your own, so long as they have one of these four forms—or combine together arguments of these forms in the way suggested in section 2.2—you can be confident that your own argument is valid.</p>
 <p>That said, because I apparently cannot go ten pages without arguing for some outrageous conclusion, I’m now going to argue—contrary to what virtually every philosopher and logician will tell you—that modus ponens and modus tollens arguments are not always valid.</p>
 <p>Let’s start with modus tollens. Consider the following case:</p>
-<div id="exa-flight-confusion" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-flight-confusion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TEA.1: <strong>FLIGHT CONFUSION</strong>
-</figcaption>
-<div aria-describedby="exa-flight-confusion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
-<p>I know that Olivia is due to fly from New York to Chicago, but I can’t remember if the flight was this morning, or if she’s flying tomorrow. So, I know she’s either in Chicago or New York right now, but I don’t know which.</p>
-</blockquote>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</figure>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>FLIGHT CONFUSION
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I know that Olivia is due to fly from New York to Chicago, but I can’t remember if the flight was this morning, or if she’s flying tomorrow. So, I know she’s either in Chicago or New York right now, but I don’t know which.</p>
+</div>
 </div>
 <p>Now, consider the following argument, which looks to be a counterexample to the thesis that all modus tollens arguments are valid:</p>
-<div id="arg-DTollens" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DTollens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.20: <strong>The Defective Tollens</strong>
-</figcaption>
-<div aria-describedby="arg-DTollens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Defective Tollens
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DT1) If Olivia is in Chicago, then Olivia must be in Illinois</li>
-<li>(DT2) It’s not the case that Olivia must be in Illinois</li>
-<li>(DT3) So, Olivia isn’t in Chicago</li>
+<li><span class="li-label">DT1.</span> If Olivia is in Chicago, then Olivia must be in Illinois</li>
+<li><span class="li-label">DT2.</span> It’s not the case that Olivia must be in Illinois</li>
+<li><span class="li-label">DT3.</span> So, Olivia isn’t in Chicago</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>This does appear to be a modus tollens argument: the first premise is a conditional, the second is a denial of its consequent, and the conclusion is a denial of its antecedent. Moreover, the premises are both true. DT1 is true because Chicago is in Illinois, so Olivia can’t very well be in Chicago without being in Illinois. DT2 is true too. If someone were to say “she must be in Illinois,” I could rightly respond: no, she might still be in New York. So DT2 rightly denies that she <em>must</em> be in Illinois.</p>
 <p>But surely the argument is not valid. If it were, then DT3 would follow from those premises, and I would be able to use this argument to figure out where she is: she isn’t in Chicago, so she must be in New York. Clearly, though, I can’t know that Olivia is not in Chicago by using this argument. So, the argument must not be valid. In other words, this looks to be a counterexample to the claim that all modus tollens arguments are valid.</p>
 <p>Now for modus ponens. Consider the following case:</p>
-<div id="exa-talent-show" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-talent-show-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TEA.2: <strong>TALENT SHOW</strong>
-</figcaption>
-<div aria-describedby="exa-talent-show-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<blockquote class="blockquote">
-<p>Celeste, Grant, and Esmée are the three finalists in a talent show. Celeste’s performance was a complete disaster. Grant did a pretty good job. Esmée gave the performance of a lifetime, and she receives a standing ovation from the audience as well as all the judges. The judges are about to announce the winner.</p>
-</blockquote>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</figure>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TALENT SHOW
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Celeste, Grant, and Esmée are the three finalists in a talent show. Celeste’s performance was a complete disaster. Grant did a pretty good job. Esmée gave the performance of a lifetime, and she receives a standing ovation from the audience as well as all the judges. The judges are about to announce the winner.</p>
+</div>
 </div>
 <p>Now consider the following argument, which looks to be a counterexample to the thesis that all modus ponens arguments are valid.</p>
-<div id="arg-DP" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-AA.21: <strong>The Defective Ponens</strong>
-</figcaption>
-<div aria-describedby="arg-DP-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Defective Ponens
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DP1) A woman is going to win</li>
-<li>(DP2) If a woman is going to win, then: if Esmée loses, then Celeste will win</li>
-<li>(DP3) So, if Esmée loses, then Celeste will win</li>
+<li><span class="li-label">DP1.</span> A woman is going to win</li>
+<li><span class="li-label">DP2.</span> If a woman is going to win, then: if Esmée loses, then Celeste will win</li>
+<li><span class="li-label">DP3.</span> So, if Esmée loses, then Celeste will win</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>This is a modus ponens argument. One premise is a conditional (albeit one that has a whole conditional as its consequent); another premise affirms the antecedent of that conditional; and the conclusion is the consequent of the first conditional. Moreover, the premises are both true. Esmée is clearly going to win, and she is a woman. So DP1 is true. DP2 is true as well. If a woman wins and it isn’t Esmée then it has to be Celeste, since she is the only other woman still in the running. But DP3 is false: if Esmée loses, then it’s <em>Grant</em> who’s going to win. Celeste’s performance was a disaster, so if Esmée lost, it would certainly be because a majority of the judges voted for Grant, not because they voted for Celeste.</p>
 <p>If the argument were valid, then the truth of the premises would guarantee the truth of the conclusion. But since the premises are true and the conclusion is false, the premises clearly <em>don’t</em> guarantee the truth of the conclusion. So, the argument isn’t valid. Thus, not all modus ponens arguments are valid.</p>
 <p>I’ll leave it to you to figure out what (if anything) goes wrong in these arguments against the validity of modus ponens and modus tollens.</p>
 </section>
-<section id="sources" class="level2" data-number="A.4">
-<h2 data-number="A.4" class="anchored" data-anchor-id="sources"><span class="header-section-number">A.4</span> Sources</h2>
-<p>The argument against modus tollens is drawn from <span class="citation" data-cites="kolodny2010">Kolodny and MacFarlane (<a href="#ref-kolodny2010" role="doc-biblioref">2010</a>)</span>. The argument against modus ponens is drawn from <span class="citation" data-cites="mcgee1985">McGee (<a href="#ref-mcgee1985" role="doc-biblioref">1985</a>)</span>. For more on the philosophy of logic, see <span class="citation" data-cites="haack2007">Haack (<a href="#ref-haack2007" role="doc-biblioref">2007</a>)</span> or <span class="citation" data-cites="sainsbury2001">Sainsbury (<a href="#ref-sainsbury2001" role="doc-biblioref">2001</a>)</span>.</p>
+<section id="sources-and-resources" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sources-and-resources">Sources and Resources</h2>
+<p>The argument against modus tollens is drawn from <span class="citation" data-cites="kolodny2010--74b2ecfa983dee78978473d5b1627d07adb62c0e">Kolodny and MacFarlane (<a href="#ref-kolodny2010--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2010</a>)</span>. The argument against modus ponens is drawn from <span class="citation" data-cites="mcgee1985--74b2ecfa983dee78978473d5b1627d07adb62c0e">McGee (<a href="#ref-mcgee1985--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1985</a>)</span>. For more on the philosophy of logic, see <span class="citation" data-cites="haack2007--74b2ecfa983dee78978473d5b1627d07adb62c0e">Haack (<a href="#ref-haack2007--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2007</a>)</span> or <span class="citation" data-cites="sainsbury2001--74b2ecfa983dee78978473d5b1627d07adb62c0e">Sainsbury (<a href="#ref-sainsbury2001--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2001</a>)</span>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-haack2007" class="csl-entry" role="listitem">
-Haack, Susan. 2007. <em>Philosophy of logics</em>. 16th printing. Cambridge University Press.
+<section id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</h3>
+<div id="refs--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-haack2007--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Haack, Susan. 2007. <em>Philosophy of Logics</em>. 16th printing. Cambridge University Press.
 </div>
-<div id="ref-kolodny2010" class="csl-entry" role="listitem">
-Kolodny, Niko, and John MacFarlane. 2010. <span>“Ifs and Oughts.”</span> <em>Journal of Philosophy</em> 107 (3): 115–43. <a href="https://doi.org/10.5840/jphil2010107310">https://doi.org/10.5840/jphil2010107310</a>.
+<div id="ref-kolodny2010--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Kolodny, Niko, and John MacFarlane. 2010. <span>“Ifs and <span>Oughts</span>.”</span> <em>Journal of Philosophy</em> 107 (3): 115–43. <a href="https://doi.org/10.5840/jphil2010107310">https://doi.org/10.5840/jphil2010107310</a>.
 </div>
-<div id="ref-mcgee1985" class="csl-entry" role="listitem">
-McGee, Vann. 1985. <span>“A Counterexample to Modus Ponens.”</span> <em>The Journal of Philosophy</em> 82 (9): 462. <a href="https://doi.org/10.2307/2026276">https://doi.org/10.2307/2026276</a>.
+<div id="ref-mcgee1985--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+McGee, Vann. 1985. <span>“A Counterexample to <span>Modus</span> <span>Ponens</span>.”</span> <em>The Journal of Philosophy</em> 82 (9): 462. <a href="https://doi.org/10.2307/2026276">https://doi.org/10.2307/2026276</a>.
 </div>
-<div id="ref-sainsbury2001" class="csl-entry" role="listitem">
+<div id="ref-sainsbury2001--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Sainsbury, R. M. 2001. <em>Logical Forms: An Introduction to Philosophical Logic</em>. 2nd ed. Blackwell Publishers.
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1318,7 +1409,7 @@ Sainsbury, R. M. 2001. <em>Logical Forms: An Introduction to Philosophical Logic
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./utilitarianism.html" class="pagination-link" aria-label="What Makes Things Right">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

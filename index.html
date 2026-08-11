@@ -2,21 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Daniel Z. Korman (original)">
+<meta name="author" content="Daniel Z. Korman">
+<meta name="author" content="hacked up by David Sanson">
 
 <title>Learning from Arguments</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -24,7 +28,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -41,14 +64,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -76,6 +99,30 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+</style>
 
 
 </head>
@@ -260,7 +307,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li><li class="breadcrumb-item"><a href="./index.html">About this Remix</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li><li class="breadcrumb-item"><a href="./index.html">About</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -276,9 +323,8 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Learning from Arguments</a> 
-        <div class="sidebar-tools-main tools-wide">
+        <div class="sidebar-tools-main">
     <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Learning-from-Arguments.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -302,7 +348,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">About this Remix</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -331,67 +377,67 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wager.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./death.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./coercion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abortion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
   </div>
 </li>
       </ul>
@@ -417,12 +463,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -435,9 +475,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#about-this-remix" id="toc-about-this-remix" class="nav-link active" data-scroll-target="#about-this-remix">About this Remix</a></li>
-  <li><a href="#building" id="toc-building" class="nav-link" data-scroll-target="#building">Building</a></li>
-  <li><a href="#todo" id="toc-todo" class="nav-link" data-scroll-target="#todo">TODO</a></li>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a>
+  <ul class="collapse">
+  <li><a href="#bibliography--6b21fb791ac05170893860c248401cd24a59b732" id="toc-bibliography--6b21fb791ac05170893860c248401cd24a59b732" class="nav-link" data-scroll-target="#bibliography--6b21fb791ac05170893860c248401cd24a59b732">References</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/index.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -445,10 +486,10 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li><li class="breadcrumb-item"><a href="./index.html">About this Remix</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li><li class="breadcrumb-item"><a href="./index.html">About</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Learning from Arguments</h1>
-<p class="subtitle lead">blono remix</p>
+<p class="subtitle lead">(hacked up version)</p>
 </div>
 
 
@@ -456,9 +497,10 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Daniel Z. Korman (original) </p>
+             <p>Daniel Z. Korman </p>
+             <p>hacked up by David Sanson </p>
           </div>
   </div>
     
@@ -471,53 +513,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="about-this-remix" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="about-this-remix">About this Remix</h2>
-<p>This is a draft of a remixed version of Danel Z. Korman’s <a href="https://philarchive.org/rec/KORLFA">Learning from Arguments: An Introduction to Philosophy</a>.</p>
-<p>The first goal of the remix is accessibility. Using <a href="https://quarto.org/">Quarto 1.9</a>, it should be easy to produce a standards-compliant accessible HTML version of the book and an accessible tagged PDF version from the same source.</p>
-<p>A second goal is customizability. When I adopt a textbook for my courses, I often get irritated at small things, and want the freedom to tweak the details to fit my idiosyncratic preferences. But also, while I really like Dan’s book, I don’t always want to teach exactly the topics Dan has chosen to cover. This remix should make it easy for me to incorporate additional chapters on other topics, written in the same style.</p>
-<p>All of this is possible because Korman generously published the original book under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> license. This allows users to copy and redistribute the material for non-commercial use, in any medium or format, and remix, transform, and build upon the material, so long as they give appropriate credit, provide a link to the license, and indicate if changes were made.</p>
-<p>All changes introduced in this remix are likewise licensed under the same <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> license. So you are also free to redistribute and remix this remix for non-commercial use, with proper attribution.</p>
-<p>The cover of Korman’s book features a painting by <a href="https://www.reneebolinger.com/">Renée Jørgensen</a> of the philosopher Ruth Barcan Marcus, entitled “Converse Formula.” I doubt that permission to use this painting was meant to be included as part of the CC BY-NC license, so I have not included it here.</p>
-</section>
-<section id="building" class="level2">
-<h2 class="anchored" data-anchor-id="building">Building</h2>
-<p>The book is built using Quarto and Github actions, and hosted using Github pages.</p>
-<p>TODO: add instructions for setting this up.</p>
-</section>
-<section id="todo" class="level2">
-<h2 class="anchored" data-anchor-id="todo">TODO</h2>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">Fix all cross-references to sections and chapters.</label></li>
-<li><label><input type="checkbox" checked="">Format all tables</label></li>
-<li><label><input type="checkbox" checked="">Rewrite the sources/recommended resources using citeproc and embed bibliographic info in metadata.</label></li>
-<li><label><input type="checkbox" checked="">Format and tag all arguments using the custom float crossref king ‘arg-’.</label></li>
-<li><label><input type="checkbox" checked="">Format and tag all thought experiments using the custom float crossref king ‘exa-’.</label></li>
-<li><label><input type="checkbox" checked="">Format all theses as definition lists and tag as ‘def-’</label>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">Consider making a distinction between different kinds of theses (definitions, accounts, principles…)</label></li>
-<li><label><input type="checkbox">Consider ways to allow cross-referencing without adding numbers (something Quarto doesn’t like to do).</label></li>
-</ul></li>
-<li><label><input type="checkbox">Consider switching arguments, thought experiments, and theses to custom callouts instead. https://quarto.thecoatlessprofessor.com/custom-callout/</label></li>
-<li><label><input type="checkbox">Rendering Korman’s version of “standard form”:</label>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">In HTML and ePub, using CSS hacks.</label></li>
-<li><label><input type="checkbox">Ideally, using a lua filter to transform into well-formed lists with custom labels in each output format.</label></li>
-<li><label><input type="checkbox">In PDF using LaTeX</label></li>
-<li><label><input type="checkbox">In PDF using Typst</label></li>
-</ul></li>
-<li><label><input type="checkbox">Appendix C</label>
-<ul class="task-list">
-<li><label><input type="checkbox">Ideally generate automatically, like <code>\listoffigures</code>.</label></li>
-<li><label><input type="checkbox">Consider also including all the thought experiments.</label></li>
-</ul></li>
-<li><label><input type="checkbox" checked="">Enable ePub generation</label></li>
-<li><label><input type="checkbox">Enable PDF generation using LaTeX</label></li>
-<li><label><input type="checkbox">Enable PDF generation using Typst</label></li>
-<li><label><input type="checkbox">Provide instructions for how to fork, build, modify, and host one’s own version.</label></li>
-</ul>
+<section id="about" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="about">About</h2>
+<p>This is a hacked up version of <span class="citation" data-cites="korman2022--6b21fb791ac05170893860c248401cd24a59b732">Korman (<a href="#ref-korman2022--6b21fb791ac05170893860c248401cd24a59b732" role="doc-biblioref">2022</a>)</span>. The original PDF version of Korman’s book is available on <a href="https://philarchive.org/rec/KORLFA">PhilPapers</a>.</p>
+<p>Korman’s book was published “open access” by the PhilPapers Foundation, under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> license. This license allows users to copy and redistribute the material for non-commercial use, in any medium or format, and remix, transform, and build upon the material, so long as they give appropriate credit, provide a link to the license, and indicate if changes were made.</p>
+<p>Changes have been made. Like the original, they are also made available under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> license. So you are free to copy and redistribute this hacked up version for non-commercial use, in any medium or format, and remix, transform, and build upon the material, so long as you also give appropriate credit, provide a link to the license, and indicate if changes were made.</p>
+<p>The easiest way to do so is to <a href="https://github.com/dsanson/learning-from-arguments-remix">fork the project on Github</a>. If you make improvements or additions, pull requests are always appreciated.</p>
+<p>The cover of Korman’s book features a lovely portrait of the philosopher Ruth Barcan Marcus, entitled “Converse Formula,” by the philosopher and artist <a href="https://www.reneebolinger.com/">Renée Jørgensen</a>. You can see the portrait on her <a href="https://www.reneebolinger.com/portraits.html">Philosophy Portraits page</a>. I see no reason to think that permission to use this painting is included in the CC BY-NC license that covers the book. So I have removed it from this hacked up version.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/by-nc.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="CC BY NC license badge" width="100"></p>
+</figure>
+</div>
 
 
+<section id="bibliography--6b21fb791ac05170893860c248401cd24a59b732" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="bibliography--6b21fb791ac05170893860c248401cd24a59b732">References</h3>
+<div id="refs--6b21fb791ac05170893860c248401cd24a59b732" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-korman2022--6b21fb791ac05170893860c248401cd24a59b732" class="csl-entry" role="listitem">
+Korman, Daniel. 2022. <em>Learning from Arguments: An Introduction to Philosophy</em>. <a href="https://philarchive.org/rec/KORLFA">https://philarchive.org/rec/KORLFA</a>.
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->

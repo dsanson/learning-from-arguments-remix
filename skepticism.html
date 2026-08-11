@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>7&nbsp; You Know Nothing – Learning from Arguments</title>
+<title>6&nbsp; You Know Nothing – Learning from Arguments</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -60,14 +63,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -95,6 +98,30 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<style>
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+</style>
 
 
 </head>
@@ -279,7 +306,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./skepticism.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./skepticism.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -295,9 +322,8 @@ div.csl-indent {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Learning from Arguments</a> 
-        <div class="sidebar-tools-main tools-wide">
+        <div class="sidebar-tools-main">
     <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Learning-from-Arguments.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -321,7 +347,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About this Remix</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -350,67 +376,67 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wager.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./death.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./skepticism.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./coercion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abortion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
   </div>
 </li>
       </ul>
@@ -436,12 +462,6 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -454,18 +474,21 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-future" id="toc-sec-future" class="nav-link active" data-scroll-target="#sec-future"><span class="header-section-number">7.1</span> Skepticism about the Future</a></li>
-  <li><a href="#sec-knowing-future" id="toc-sec-knowing-future" class="nav-link" data-scroll-target="#sec-knowing-future"><span class="header-section-number">7.2</span> What It Takes to Know the Future</a></li>
-  <li><a href="#sec-why-flp" id="toc-sec-why-flp" class="nav-link" data-scroll-target="#sec-why-flp"><span class="header-section-number">7.3</span> Why Believe the Future Will Be Like the Past?</a></li>
-  <li><a href="#sec-inductive-arg-for-flp" id="toc-sec-inductive-arg-for-flp" class="nav-link" data-scroll-target="#sec-inductive-arg-for-flp"><span class="header-section-number">7.4</span> No Inductive Argument for FLP</a></li>
-  <li><a href="#sec-dreaming-argument" id="toc-sec-dreaming-argument" class="nav-link" data-scroll-target="#sec-dreaming-argument"><span class="header-section-number">7.5</span> The Dreaming Argument</a></li>
-  <li><a href="#sec-have-to-rule-out-dh" id="toc-sec-have-to-rule-out-dh" class="nav-link" data-scroll-target="#sec-have-to-rule-out-dh"><span class="header-section-number">7.6</span> Why You Have to Rule Out the Dreaming Hypothesis</a></li>
-  <li><a href="#sec-cannot-rule-out-dh" id="toc-sec-cannot-rule-out-dh" class="nav-link" data-scroll-target="#sec-cannot-rule-out-dh"><span class="header-section-number">7.7</span> Why You Can’t Rule Out the Dreaming Hypothesis</a></li>
-  <li><a href="#sec-can-you-tell-dreaming" id="toc-sec-can-you-tell-dreaming" class="nav-link" data-scroll-target="#sec-can-you-tell-dreaming"><span class="header-section-number">7.8</span> Can You Tell You’re Not Dreaming?</a></li>
-  <li><a href="#sec-no-useful-tests" id="toc-sec-no-useful-tests" class="nav-link" data-scroll-target="#sec-no-useful-tests"><span class="header-section-number">7.9</span> No Useful Tests for Dreaming</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">7.10</span> Conclusion</a></li>
-  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions"><span class="header-section-number">7.11</span> Reflection Questions</a></li>
-  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">7.12</span> Sources</a></li>
+  <li><a href="#sec-future" id="toc-sec-future" class="nav-link active" data-scroll-target="#sec-future"><span class="header-section-number">6.1</span> Skepticism about the Future</a></li>
+  <li><a href="#sec-knowing-future" id="toc-sec-knowing-future" class="nav-link" data-scroll-target="#sec-knowing-future"><span class="header-section-number">6.2</span> What It Takes to Know the Future</a></li>
+  <li><a href="#sec-why-flp" id="toc-sec-why-flp" class="nav-link" data-scroll-target="#sec-why-flp"><span class="header-section-number">6.3</span> Why Believe the Future Will Be Like the Past?</a></li>
+  <li><a href="#sec-inductive-arg-for-flp" id="toc-sec-inductive-arg-for-flp" class="nav-link" data-scroll-target="#sec-inductive-arg-for-flp"><span class="header-section-number">6.4</span> No Inductive Argument for FLP</a></li>
+  <li><a href="#sec-dreaming-argument" id="toc-sec-dreaming-argument" class="nav-link" data-scroll-target="#sec-dreaming-argument"><span class="header-section-number">6.5</span> The Dreaming Argument</a></li>
+  <li><a href="#sec-have-to-rule-out-dh" id="toc-sec-have-to-rule-out-dh" class="nav-link" data-scroll-target="#sec-have-to-rule-out-dh"><span class="header-section-number">6.6</span> Why You Have to Rule Out the Dreaming Hypothesis</a></li>
+  <li><a href="#sec-cannot-rule-out-dh" id="toc-sec-cannot-rule-out-dh" class="nav-link" data-scroll-target="#sec-cannot-rule-out-dh"><span class="header-section-number">6.7</span> Why You Can’t Rule Out the Dreaming Hypothesis</a></li>
+  <li><a href="#sec-can-you-tell-dreaming" id="toc-sec-can-you-tell-dreaming" class="nav-link" data-scroll-target="#sec-can-you-tell-dreaming"><span class="header-section-number">6.8</span> Can You Tell You’re Not Dreaming?</a></li>
+  <li><a href="#sec-no-useful-tests" id="toc-sec-no-useful-tests" class="nav-link" data-scroll-target="#sec-no-useful-tests"><span class="header-section-number">6.9</span> No Useful Tests for Dreaming</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">6.10</span> Conclusion</a></li>
+  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection Questions</a></li>
+  <li><a href="#sources-and-resources" id="toc-sources-and-resources" class="nav-link" data-scroll-target="#sources-and-resources">Sources and Resources</a>
+  <ul class="collapse">
+  <li><a href="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" id="toc-bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="nav-link" data-scroll-target="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/skepticism.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -473,9 +496,9 @@ div.csl-indent {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./skepticism.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./skepticism.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-skepticism" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></h1>
+<h1 class="title"><span id="sec-skepticism" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></h1>
 </div>
 
 
@@ -496,16 +519,15 @@ div.csl-indent {
 <p><em>Views and arguments advanced in this chapter are not necessarily endorsed by the author of the textbook, nor are they original to the author, nor are they meant to be consistent with arguments advanced in other chapters. Different chapters represent different philosophical perspectives.</em></p>
 </div>
 <p>You probably think you know all sorts of things about the world. You know when your earliest class starts tomorrow. You know that it will be colder on average in February than in August, and that the sun will rise and set tomorrow. You know who the president is, you know where your family lives, you know how you celebrated your last birthday, you know some trivia—like the capital of Alaska—and you know some immediately obvious things, like that you’re reading a book right now.</p>
-<p>I will argue that you don’t know any of these things. My aim will be to show that you don’t know anything about the world, by which I mean the external physical world. I won’t try to argue that you don’t know anything about your own internal states—like thoughts and feelings—nor will I try to argue that you don’t know anything about nonphysical things like numbers, for instance that 1+1=2. (The title of the chapter admittedly overstates things a bit.) I’ll begin by arguing that you don’t know what the world will be like in the future, not even one moment from now (sections <a href="#sec-future" class="quarto-xref"><span>7.1</span></a>–<a href="#sec-inductive-arg-for-flp" class="quarto-xref"><span>7.4</span></a>). Then I’ll argue that you don’t even know what the world is like <em>presently</em>, not even what’s happening right in front of you (sections <a href="#sec-dreaming-argument" class="quarto-xref"><span>7.5</span></a>–<a href="#sec-no-useful-tests" class="quarto-xref"><span>7.9</span></a>).</p>
-<section id="sec-future" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="sec-future"><span class="header-section-number">7.1</span> Skepticism about the Future</h2>
+<p>I will argue that you don’t know any of these things. My aim will be to show that you don’t know anything about the world, by which I mean the external physical world. I won’t try to argue that you don’t know anything about your own internal states—like thoughts and feelings—nor will I try to argue that you don’t know anything about nonphysical things like numbers, for instance that 1+1=2. (The title of the chapter admittedly overstates things a bit.) I’ll begin by arguing that you don’t know what the world will be like in the future, not even one moment from now (sections <a href="#sec-future" class="quarto-xref"><span>6.1</span></a>–<a href="#sec-inductive-arg-for-flp" class="quarto-xref"><span>6.4</span></a>). Then I’ll argue that you don’t even know what the world is like <em>presently</em>, not even what’s happening right in front of you (sections <a href="#sec-dreaming-argument" class="quarto-xref"><span>6.5</span></a>–<a href="#sec-no-useful-tests" class="quarto-xref"><span>6.9</span></a>).</p>
+<section id="sec-future" class="level2">
+<h2 class="anchored" data-anchor-id="sec-future"><span class="header-section-number">6.1</span> Skepticism about the Future</h2>
 <p>My first skeptical argument begins with the observation that <em>if</em> we know anything about the world, it would have to be in one of two ways. The first way is by <em>direct observation</em>. This is just what it sounds like: using your sense organs to obtain information that’s immediately available to you. That would be how you know that you’re holding a book (or a laptop) in your hands right now, that you’re wearing a bracelet, that the room smells like grandma for some reason, and so on.</p>
 <p>But not everything we take ourselves to know about the world can be known on the basis of direct observation. Here’s an example. You wake up in the morning, look out the window, and see that everything is wet: the trees are dripping, the lawn is soaked, there are puddles in the street, and so on. You conclude that it rained overnight. But you didn’t directly observe it raining. Rather, you <em>infer</em> that it rained from things that you’ve directly observed in the past. In the past, you’ve observed this sort of watery result being caused by rain falling from the sky. So, you draw the seemingly plausible inference that that’s how it happened this time.</p>
 <p>This sort of reasoning is what’s called an <em>induction</em>: reasoning from the fact that certain things you’ve directly observed are always or usually a certain way to the conclusion that certain things you haven’t directly observed are that way too. Inductive reasoning isn’t foolproof. It’s possible that a plane dropped all that water to put out a fire, and that’s why everything is soaked. But the mere fact that induction can sometimes lead us astray doesn’t (by itself) show that it’s irrational to rely on it.</p>
 <p>Our beliefs about how the world will be in the future are likewise based on induction. You expect the sun to set in the west tomorrow. Why? Because every time you’ve observed the sun set, it has set in the west. Or maybe you’re some kind of nerd and you believe the sun will set in the west tomorrow on the basis of laws of planetary motion. But why think those same laws of planetary motion will be in effect tomorrow? Presumably, it’s because they’ve always been in effect in the past.</p>
 <p>Now that we have a handle on what induction is, let’s get to the argument. The argument is going to turn on the status of a certain principle, which I’ll call the <em>Future Like Past</em> principle, or FLP for short:</p>
-<div id="def-flp" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 7.1</strong></span> &nbsp;</p>
+<div id="thesis-FLP" class="thesis">
 <dl>
 <dt>Future Like Past (FLP)</dt>
 <dd>
@@ -515,40 +537,46 @@ Future states of the world will be like past states of the world
 </div>
 <p>The argument, in short, is that we can’t know anything about the future because we’re not justified in believing FLP, that is, we have no good reason to believe that FLP is true.</p>
 <p>Using your belief that the sun will set in the west tomorrow as an illustration, the argument runs as follows:</p>
-<div id="arg-KF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-KF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.1: <strong>Against Knowing the Future</strong>
-</figcaption>
-<div aria-describedby="arg-KF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Knowing the Future
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(KF1) If you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified</li>
-<li>(KF2) You are not justified in believing that FLP is true</li>
-<li>(KF3) So, your belief that the sun will set in the west tomorrow is unjustified</li>
-<li>(KF4) If your belief that the sun will set in the west tomorrow is unjustified, then you don’t know that the sun will set in the west tomorrow</li>
-<li>(KF5) So, you don’t know that the sun will set in the west tomorrow</li>
+<li><span class="li-label">KF1.</span> If you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified</li>
+<li><span class="li-label">KF2.</span> You are not justified in believing that FLP is true</li>
+<li><span class="li-label">KF3.</span> So, your belief that the sun will set in the west tomorrow is unjustified</li>
+<li><span class="li-label">KF4.</span> If your belief that the sun will set in the west tomorrow is unjustified, then you don’t know that the sun will set in the west tomorrow</li>
+<li><span class="li-label">KF5.</span> So, you don’t know that the sun will set in the west tomorrow</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>I’ll explain the rationale behind KF1 and KF2 in the following two sections. (Though you may find it worthwhile to pause for a moment right now and ask yourself: what reason <em>do</em> you have for believing FLP?) As for KF4, the idea is that being justified in believing something—having good reason for believing it—is a bare minimum requirement for counting as knowing it. For instance, if you think that there are sparrows in Australia, but this is just a guess and you don’t actually have any evidence that there are, then you obviously don’t <em>know</em> that there are sparrows in Australia, even if you happen to have guessed right.</p>
 </section>
-<section id="sec-knowing-future" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="sec-knowing-future"><span class="header-section-number">7.2</span> What It Takes to Know the Future</h2>
+<section id="sec-knowing-future" class="level2">
+<h2 class="anchored" data-anchor-id="sec-knowing-future"><span class="header-section-number">6.2</span> What It Takes to Know the Future</h2>
 <p>Premise KF1 says that your belief that the sun will rise tomorrow is justified <em>only if</em> you have good reason to think that that FLP is true. Here’s the argument for that premise:</p>
-<div id="arg-FF" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.2: <strong>The Faulty Foundation Argument</strong>
-</figcaption>
-<div aria-describedby="arg-FF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Faulty Foundation Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FF1) Your belief that the sun will set in the west tomorrow is based on FLP</li>
-<li>(FF2) If a belief is based on something that you aren’t justified in believing, then that belief itself is unjustified</li>
-<li>(KF1) So, if you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified</li>
+<li><span class="li-label">FF1.</span> Your belief that the sun will set in the west tomorrow is based on FLP</li>
+<li><span class="li-label">FF2.</span> If a belief is based on something that you aren’t justified in believing, then that belief itself is unjustified</li>
+<li><span class="li-label">KF1.</span> So, if you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>To see the idea behind FF1, let’s again ask: why do you believe that the sun will set in the west tomorrow? You infer it from the fact that in the past it has always set in the west. But, implicitly, the inference relies on FLP. In other words, you’re at least implicitly running through a line of reasoning something like this:</p>
 <p><em>In the past the sun has always set in the west Future states of the world will be like past states of the world So, tomorrow the sun will set in the west</em></p>
@@ -556,8 +584,7 @@ A7.2: <strong>The Faulty Foundation Argument</strong>
 <p><em>In the past eating an entire extra value meal always made me sleepy Future states of the world will be like past states of the world So, eating this entire extra value meal will make me sleepy</em></p>
 <p>Implicitly or explicitly, you arrive at all your beliefs about future states of the world in this way.</p>
 <p>I don’t mean to suggest that we treat FLP as a hard and fast rule. No one thinks that the future will be like the past <em>in every respect</em>. We wouldn’t use it to infer that there will never be flying cars or a cure for cancer. The principle we actually rely on in our reasoning is more nuanced, perhaps something like this:</p>
-<div id="def-FLP-star" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 7.2</strong></span> &nbsp;</p>
+<div id="thesis-FLP-star" class="thesis">
 <dl>
 <dt>FLP*</dt>
 <dd>
@@ -567,59 +594,68 @@ Future states of the world will be like past states of the world <em>except in r
 </div>
 <p>These complications needn’t concern us here. All I need for the argument for FF1 is that we always rely on <em>some</em> principle like this in our reasoning about the future, and that much seems indisputable. You can feel free to replace FLP with FLP*—or whichever other inductive principle you prefer—in the arguments below.</p>
 <p>How about FF2? The idea there is that a justified belief can’t be built on a faulty foundation: if your reasons for believing something are no good, then that belief itself is no good. To help see this, consider the following case:</p>
-<div id="exa-power-pose" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-power-pose-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE7.1: <strong>POWER POSE</strong>
-</figcaption>
-<div aria-describedby="exa-power-pose-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>POWER POSE
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Jared is getting ready for a job interview, and thinks it will help his chances if he spends five minutes “power posing” in front of the mirror. When his fiancée Ashley asks him why he thinks that will help, Jared tells her that scientists have shown that power posing releases performance-enhancing hormones into your bloodstream. Skeptical, Ashley does some Googling and informs Jared that the power-posing study has been completely discredited and is now widely regarded as “pseudo-science.”</p>
 </div>
-</figure>
 </div>
 <p>When Jared finds out that the study has been discredited, that renders his belief that power posing releases performance-enhancing hormones unjustified. But if <em>that</em> belief is unjustified, then any belief based on it is going to be unjustified as well. It would obviously be irrational for Jared to go on believing that power posing will help him in the interview once he admits that he has no good reason to believe that power posing releases performance-enhancing hormones. That’s the idea behind FF2.</p>
 </section>
-<section id="sec-why-flp" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="sec-why-flp"><span class="header-section-number">7.3</span> Why Believe the Future Will Be Like the Past?</h2>
+<section id="sec-why-flp" class="level2">
+<h2 class="anchored" data-anchor-id="sec-why-flp"><span class="header-section-number">6.3</span> Why Believe the Future Will Be Like the Past?</h2>
 <p>What we have just seen is that your belief about tomorrow’s sunset is justified <em>only if</em> you’re justified in believing FLP, the Future Like Past principle. That means that, if I can establish that you’re <em>not</em> justified in believing FLP, it follows that your beliefs about tomorrow’s sunset aren’t justified either. So, let’s turn now to KF2, which says that you indeed aren’t justified in believing FLP.</p>
 <p>The idea behind KF2 is that there are only two possible ways for a belief in FLP to be justified, and it isn’t justified in either of those ways. Here is the argument:</p>
-<div id="arg-UJ" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UJ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.3: <strong>FLP is Unjustified</strong>
-</figcaption>
-<div aria-describedby="arg-UJ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>FLP is Unjustified
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(UJ1) If your belief in FLP is justified, then it is either justified by direct observation or by inductive reasoning</li>
-<li>(UJ2) Your belief in FLP isn’t justified by direct observation</li>
-<li>(UJ3) Your belief in FLP isn’t justified by inductive reasoning</li>
-<li>(KF2) So, your belief in FLP is unjustified</li>
+<li><span class="li-label">UJ1.</span> If your belief in FLP is justified, then it is either justified by direct observation or by inductive reasoning</li>
+<li><span class="li-label">UJ2.</span> Your belief in FLP isn’t justified by direct observation</li>
+<li><span class="li-label">UJ3.</span> Your belief in FLP isn’t justified by inductive reasoning</li>
+<li><span class="li-label">KF2.</span> So, your belief in FLP is unjustified</li>
 </ul>
 </div>
-</figure>
 </div>
-<p>I’ll quickly explain why we should accept UJ1 and UJ2, and then in <a href="#sec-inductive-arg-for-flp" class="quarto-xref"><span>Section 7.4</span></a> we’ll turn to UJ3.</p>
+<p>I’ll quickly explain why we should accept UJ1 and UJ2, and then in <a href="#sec-inductive-arg-for-flp" class="quarto-xref"><span>Section 6.4</span></a> we’ll turn to UJ3.</p>
 <p>Why accept UJ1? You might worry that direct observation and inductive reasoning aren’t the <em>only</em> possible sources of justification. For instance, your beliefs about your own mental life—that you’re having certain thoughts and feelings right now—aren’t based on any inference (inductive or otherwise) and also aren’t based on direct observation (using your sense organs). Rather, they seem to have some further source of justification, as do beliefs about nonphysical things like numbers (for instance, that 3+4=7).</p>
 <p>I don’t deny that there are other possible sources of justification, for instance introspection or mathematical intuitions. Still, it is hard to see what other than direct observation and induction could justify the beliefs I am targeting here, namely <em>beliefs about the external physical world</em>. Introspection and mathematical intuitions can tell you about internal states like thoughts and feelings and nonphysical things like numbers, but they don’t by themselves tell us anything about the external physical world. (Of course, they can tell you something about the external world when <em>combined</em> with direct observation. For instance, if you saw three slices of pizza, and then you see two of them get eaten, mathematical intuition, together with these direct observations, can tell you that there’s one slice left.) And since FLP is a claim about the external physical world—it tells us that future physical states of the external world resemble past physical states of the external world—a belief in FLP would have to be justified by direct observation or inductive inference. Just as UJ1 says.</p>
 <p>To see the idea behind UJ2, notice that FLP is a claim about similarity. It’s claiming that two things (the past and the future) are similar to one another. Plausibly, in order for direct observation to justify you in believing that two things are similar, you have to be able to directly observe both of them. But you <em>can’t</em> directly observe the future. (Maybe you could if you had a time machine but, drat, you don’t.) So, you can’t be justified in believing that the future will be like the past on the basis of direct observation. That’s UJ2.</p>
 </section>
-<section id="sec-inductive-arg-for-flp" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="sec-inductive-arg-for-flp"><span class="header-section-number">7.4</span> No Inductive Argument for FLP</h2>
+<section id="sec-inductive-arg-for-flp" class="level2">
+<h2 class="anchored" data-anchor-id="sec-inductive-arg-for-flp"><span class="header-section-number">6.4</span> No Inductive Argument for FLP</h2>
 <p>All that remains to be done is to defend UJ3. If I can show that it’s true that FLP can’t be justified by inductive inference—then we have a wellmotivated argument that your belief in FLP isn’t justified, and an argument from there to the conclusion that you don’t know that the sun will set in the west tomorrow. The idea behind UJ3 is that any inductive justification for FLP would be circular, and circularity is bad. Unpacking that a bit:</p>
-<div id="arg-AC" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.4: <strong>The Anti-Circularity Argument</strong>
-</figcaption>
-<div aria-describedby="arg-AC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Anti-Circularity Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(AC1) All inductive reasoning about the future assumes the truth of FLP</li>
-<li>(AC2) If all inductive reasoning about the future assumes the truth of FLP, then any inductive reasoning about FLP is circular</li>
-<li>(AC3) No belief can be justified by circular reasoning</li>
-<li>(UJ3) So, FLP isn’t justified by inductive reasoning</li>
+<li><span class="li-label">AC1.</span> All inductive reasoning about the future assumes the truth of FLP</li>
+<li><span class="li-label">AC2.</span> If all inductive reasoning about the future assumes the truth of FLP, then any inductive reasoning about FLP is circular</li>
+<li><span class="li-label">AC3.</span> No belief can be justified by circular reasoning</li>
+<li><span class="li-label">UJ3.</span> So, FLP isn’t justified by inductive reasoning</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Let’s take it one premise at a time.</p>
 <p>The case for AC1 is the same as the case for premise FF1 of the Faulty Foundation Argument. All inductive reasoning about what’s going to happen in the future either explicitly or at least implicitly relies on FLP. In the past the sun has set in the west, and future states of the world will be like past states of the world, so in the future it’ll set in the west. The laws of planetary motion have always been this way in the past, and future states of the world will be like past states of the world, so in the future they’ll be like this. In the past, beer before liquor makes you sicker, and future states of the world will be like past states of the world, so… you get the idea. All of these lines of reasoning rely on FLP. That’s what AC1 says.</p>
@@ -628,25 +664,27 @@ A7.4: <strong>The Anti-Circularity Argument</strong>
 <p><em>In the past, each day resembled the day that preceded it Future states of the world will be like past states of the world So, future days will resemble days in the past</em></p>
 <p>The conclusion of this line of reasoning, “Future days will resemble days in the past,” is just another way of saying “Future states of the world will be like past states of the world,” which is the second premise of the reasoning. That means that you’ve got one and the same claim showing up both as a premise and as the conclusion of the reasoning. That fits our definition of circularity.</p>
 <p>As for AC3, it’s easy to see that circular reasoning is terrible reasoning. As an illustration, consider the following case, involving a Magic 8-Ball toy (which randomly displays answers like Yes, No, and Maybe when you shake it up):</p>
-<div id="exa-magic-eight-ball" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-magic-eight-ball-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE7.2: <strong>MAGIC 8-BALL</strong>
-</figcaption>
-<div aria-describedby="exa-magic-eight-ball-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>MAGIC 8-BALL
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Madhu shakes up his Magic 8-Ball, asks whether Smitha has a crush on him, and it issues its verdict: <em>yes</em>. Madhu’s excitement lasts only for a moment, as he suddenly realizes that he has no reason to believe that the 8-ball can be trusted. So, he decides to check. He shakes up the 8- Ball, asks it whether it can be trusted, and it issues its verdict: <em>yes</em>. “That settles it,” Madhu thinks to himself, “the 8-ball can be trusted, and Smitha does have a crush on me!”</p>
 </div>
-</figure>
 </div>
 <p>Obviously, Madhu’s reasoning here is deeply problematic. The first time he shakes up the toy, he reasons from <em>it said she has a crush on me</em> to <em>she does have a crush on me</em>, implicitly relying on the assumption that the 8-Ball can be trusted—which he has no good reason to assume. The second time he shakes it up, he reasons from <em>it said it can be trusted</em> to <em>it indeed can be trusted</em>, again relying on the assumption that he can trust what it says. The first time was bad enough, since the assumption was unfounded. The second time is even worse, and the natural diagnosis of why that line of reasoning is so bad is that it’s circular: <em>the 8-ball can be trusted</em> appears both as the conclusion and as a premise of Madhu’s reasoning. Surely you can’t be justified in believing anything on the basis of reasoning like that. And that’s just what AC3 is saying.</p>
 <p>This concludes my argument that you don’t know that the sun will set in the west tomorrow. But the example of tomorrow’s sunset was chosen more or less at random. I could have chosen virtually any belief you have about the future and used the same reasoning to show that it is justified only if your belief in FLP is justified. Accordingly, if KF2 is true—and I have just argued at length that it <em>is</em>true—then all of your beliefs about how things will be in the future are unjustified. You don’t know what’s going to happen one year from now, one hour from now, or even one second from now.</p>
 </section>
-<section id="sec-dreaming-argument" class="level2" data-number="7.5">
-<h2 data-number="7.5" class="anchored" data-anchor-id="sec-dreaming-argument"><span class="header-section-number">7.5</span> The Dreaming Argument</h2>
+<section id="sec-dreaming-argument" class="level2">
+<h2 class="anchored" data-anchor-id="sec-dreaming-argument"><span class="header-section-number">6.5</span> The Dreaming Argument</h2>
 <p>We just saw that you don’t know anything at all about what the world is going to be like in the future. Now I want to turn to an even more radical conclusion, namely that you don’t know anything about what’s going on in the world at this very moment, not even what is going on right in front of your eyes. My argument will focus on one particular thing you take yourself to know about the world—that you’re sitting down reading—but it will be obvious how the argument generalizes to all your other beliefs about the world: the color of the chair you’re sitting in, the number of people in the room with you, and so on.</p>
 <p>My argument involves a certain hypothesis, which I’ll call <em>the dreaming hypothesis</em>, or TDH for short:</p>
-<div id="def-TDH" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 7.3</strong></span> &nbsp;</p>
+<div id="thesis-TDH" class="thesis">
 <dl>
 <dt>The Dreaming Hypothesis (TDH)</dt>
 <dd>
@@ -655,123 +693,152 @@ You are currently lying down in bed dreaming about sitting down reading a philos
 </dl>
 </div>
 <p>With TDH in mind, here is how I’ll argue that you don’t know that you’re sitting down reading:</p>
-<div id="arg-DR" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.5: <strong>The Dreaming Argument</strong>
-</figcaption>
-<div aria-describedby="arg-DR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Dreaming Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DR1) If you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading</li>
-<li>(DR2) You have no way of knowing that TDH is false</li>
-<li>(DR3) So you don’t know that you’re sitting down reading</li>
+<li><span class="li-label">DR1.</span> If you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading</li>
+<li><span class="li-label">DR2.</span> You have no way of knowing that TDH is false</li>
+<li><span class="li-label">DR3.</span> So you don’t know that you’re sitting down reading</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Notice that TDH is not itself a premise of the argument. Accordingly, I don’t have to try to convince you that TDH is true, or even that it’s probably true. Indeed, I don’t need to give you any reason whatsoever for thinking it’s true, and it’s fine with me if you think that it’s incredibly unlikely that it’s true. All I need to show concerning TDH is that you have no way of knowing it’s false. And that I can do.</p>
-<p>Let’s turn, then, to the defense of the premises. In <a href="#sec-have-to-rule-out-dh" class="quarto-xref"><span>Section 7.6</span></a>, I’ll present some arguments for DR1. Then, in <a href="#sec-cannot-rule-out-dh" class="quarto-xref"><span>Section 7.7</span></a>, I’ll present an argument for DR2. Finally, in sections <a href="#sec-can-you-tell-dreaming" class="quarto-xref"><span>7.8</span></a>–<a href="#sec-no-useful-tests" class="quarto-xref"><span>7.9</span></a>, I’ll conclude the discussion of the dreaming argument by addressing a likely objection to DR2, namely that you can tell you’re not dreaming by performing some sort of test, like pinching yourself.</p>
+<p>Let’s turn, then, to the defense of the premises. In <a href="#sec-have-to-rule-out-dh" class="quarto-xref"><span>Section 6.6</span></a>, I’ll present some arguments for DR1. Then, in <a href="#sec-cannot-rule-out-dh" class="quarto-xref"><span>Section 6.7</span></a>, I’ll present an argument for DR2. Finally, in sections <a href="#sec-can-you-tell-dreaming" class="quarto-xref"><span>6.8</span></a>–<a href="#sec-no-useful-tests" class="quarto-xref"><span>6.9</span></a>, I’ll conclude the discussion of the dreaming argument by addressing a likely objection to DR2, namely that you can tell you’re not dreaming by performing some sort of test, like pinching yourself.</p>
 </section>
-<section id="sec-have-to-rule-out-dh" class="level2" data-number="7.6">
-<h2 data-number="7.6" class="anchored" data-anchor-id="sec-have-to-rule-out-dh"><span class="header-section-number">7.6</span> Why You Have to Rule Out the Dreaming Hypothesis</h2>
+<section id="sec-have-to-rule-out-dh" class="level2">
+<h2 class="anchored" data-anchor-id="sec-have-to-rule-out-dh"><span class="header-section-number">6.6</span> Why You Have to Rule Out the Dreaming Hypothesis</h2>
 <p>DR1 says that you must be able to rule out the dreaming hypothesis in order to know that you’re sitting down reading. Why is that? Why can’t you claim to know that you’re sitting down reading, while at the same time admitting that you have no way to rule out crazy ideas like TDH? I’ll give two reasons.</p>
 <p>The first reason for accepting DR1 involves thinking about everyday ways of challenging someone’s claim to know something. If we see a large bird in the sky and you say that it’s a hawk, I might ask how you know it’s not an eagle or a falcon. Perhaps you are able to rule out these competing hypotheses. For instance, perhaps you can tell it’s not an eagle by its tailfeathers or by its beak. If, however, you <em>aren’t</em> able to rule out these competing hypotheses, then you can’t truly claim to know that it’s a hawk.</p>
 <p>This suggests the following argument for DR1:</p>
-<div id="arg-CH" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-CH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.6: <strong>The Competing Hypotheses Argument</strong>
-</figcaption>
-<div aria-describedby="arg-CH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Competing Hypotheses Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(CH1) One knows a certain thing only if one has some way of knowing that all competing hypotheses are false</li>
-<li>(CH2) TDH is a hypothesis that competes with your belief that you’re sitting down reading</li>
-<li>(DR1) So, if you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading</li>
+<li><span class="li-label">CH1.</span> One knows a certain thing only if one has some way of knowing that all competing hypotheses are false</li>
+<li><span class="li-label">CH2.</span> TDH is a hypothesis that competes with your belief that you’re sitting down reading</li>
+<li><span class="li-label">DR1.</span> So, if you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>CH1 reflects a general lesson that can be extracted from the hawk example: in order to truly know what’s going on in a given situation, you have to be able to rule out competing hypotheses about what’s going on in that situation. That’s why the observation that you can’t rule out the hypothesis that the bird we saw is an eagle constitutes a genuine challenge to your claim to know that the bird is a hawk.</p>
 <p>CH2 is straightforward: when you have all of these experiences as of sitting down and reading, and you assume that you indeed are sitting down reading, a competing explanation of what’s going on is that you’re in bed having an incredibly vivid dream in which you’re sitting down reading. I’m not saying this is an especially plausible hypothesis, just that it’s a competing hypothesis.</p>
 <p>Now for the second reason to accept DR1. Suppose you really did know that you were sitting down reading right now. In that case, you <em>would</em> have a way of definitively ruling out TDH. After all, if you genuinely knew that you were sitting, then you’d be able to infer that you aren’t lying down since you can’t simultaneously be sitting and lying down—and thus that you aren’t lying down dreaming. Knowing you’re sitting down would therefore give you a way of knowing that TDH is false, so if you truly have <em>no</em> way of knowing that TDH is false then you must not know that you’re sitting down reading. Which is exactly what DR1 says.</p>
 <p>We can develop this idea more explicitly using the notion of a <em>deduction</em>. A deduction is a certain type of reasoning, where the conclusion of the reasoning is logically guaranteed by the premises. In other words, you would be contradicting yourself if you accepted all the premises and yet denied the conclusion. As an illustration, if you reason from <em>the coin either landed heads or tails</em> and <em>it did not land heads</em> to the conclusion <em>it landed tails</em>, that’s a deduction. You deduced that it landed tails from those other two beliefs. Using this notion of deduction, we can run the following argument:</p>
-<div id="arg-DE" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-DE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.7: <strong>The Argument from Deduction</strong>
-</figcaption>
-<div aria-describedby="arg-DE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Deduction
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DE1) If you know you’re sitting down reading, then you can deduce that TDH is false from things you know</li>
-<li>(DE2) If you can deduce something from things you know, then you have a way of knowing that thing</li>
-<li>(DE3) So, if you know you’re sitting down reading, then you have a way of knowing that TDH is false</li>
+<li><span class="li-label">DE1.</span> If you know you’re sitting down reading, then you can deduce that TDH is false from things you know.</li>
+<li><span class="li-label">DE2.</span> If you can deduce something from things you know, then you have a way of knowing that thing.</li>
+<li><span class="li-label">DE3.</span> So, if you know you’re sitting down reading, then you have a way of knowing that TDH is false.</li>
 </ul>
 </div>
-</figure>
 </div>
+<!--
+
+TODO: This definition of 'deduction' is weird' and the example is too.
+
+-->
 <p>DE1 says that there’s a certain kind of deduction you’d be able to perform if you really did know that you were sitting down reading. Specifically, you’d be able to perform the following deduction:</p>
-<ul>
-<li><em>(i) I’m sitting down reading</em></li>
-<li><em>(ii) If I’m sitting down reading, then I’m sitting</em></li>
-<li><em>(iii) If I’m sitting, then I’m not lying down</em></li>
-<li><em>(iv) If I’m not lying down, then I’m not lying down dreaming</em></li>
-<li><em>(v) If I’m not lying down dreaming, then TDH is false</em></li>
-<li><em>(vi) So, TDH is false</em></li>
-</ul>
+<ol type="i">
+<li>I’m sitting down reading.</li>
+<li>If I’m sitting down reading, then I’m sitting.</li>
+<li>If I’m sitting, then I’m not lying down.</li>
+<li>If I’m not lying down, then I’m not lying down dreaming.</li>
+<li>If I’m not lying down dreaming, then TDH is false.</li>
+<li>So, TDH is false.</li>
+</ol>
 <p>This is a way of deducing that TDH is false. Steps (ii), (iii), (iv), and (v) of the reasoning are easily known conceptual truths. For instance, you know (iii) just by observing that it follows from the definition of <em>sitting</em> that if you’re sitting you’re not lying down. So, <em>if</em> you know the first step as well that you’re sitting down reading—then what we have here is a way of deducing that TDH is false from things you know. That’s what DE1 says.</p>
 <p>The idea behind DE2 is straightforward. Suppose I tell you that I flipped a normal coin and that it didn’t come up heads. You tell me that it came up tails. How did you know?? Answer: by deducing it from things you know: that it was either heads or tails, and that it wasn’t heads. Of course, if you ran through that same deduction, but you didn’t actually know that it wasn’t heads—you were merely guessing it wasn’t heads, let’s say—we wouldn’t say that you <em>knew</em> it was tails. But when you deduce something from things you actually do know, then you know the thing you deduced as well. That’s what DE2 is saying.</p>
 <p>DE1 and DE2 are both true, and they together entail DE3. But notice that DE3 says <em>exactly the same thing</em> as DR1:</p>
-<div class="argument">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(DE3) If you know you’re sitting down reading, then you have a way of knowing that TDH is false</li>
-<li>(DR1) If you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading</li>
+<li><span class="li-label">DE3.</span> If you know you’re sitting down reading, then you have a way of knowing that TDH is false.</li>
+<li><span class="li-label">DR1.</span> If you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading.</li>
 </ul>
+</div>
 </div>
 <p>To see that these say the same thing, notice that “if A is true then B is true” is just another way of saying “if B isn’t true, then A isn’t true.” These are simply two different ways of saying that you don’t get A without B. (An example: “if Farid is from Paris then he is from France” is exactly equivalent to saying “if Farid isn’t from France then he isn’t from Paris.”) And since DR1 and DE3 say exactly the same thing, the Argument from Deduction serves as an argument for DR1.</p>
 </section>
-<section id="sec-cannot-rule-out-dh" class="level2" data-number="7.7">
-<h2 data-number="7.7" class="anchored" data-anchor-id="sec-cannot-rule-out-dh"><span class="header-section-number">7.7</span> Why You Can’t Rule Out the Dreaming Hypothesis</h2>
+<section id="sec-cannot-rule-out-dh" class="level2">
+<h2 class="anchored" data-anchor-id="sec-cannot-rule-out-dh"><span class="header-section-number">6.7</span> Why You Can’t Rule Out the Dreaming Hypothesis</h2>
 <p>Having shown that you <em>have</em> to be able to rule out TDH in order to know that you’re sitting down reading, I turn now to the second premise, DR2, which says that you <em>can’t</em> rule out TDH. Simply put, the argument is that you haven’t got any evidence against TDH, and you can’t know that a claim is false if you haven’t got any evidence against it.</p>
-<div id="arg-NE" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.8: <strong>The No Evidence Argument</strong>
-</figcaption>
-<div aria-describedby="arg-NE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The No Evidence Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(NE1) If you have no evidence against something, then you have no way of knowing it’s false</li>
-<li>(NE2) You have no evidence against TDH</li>
-<li>(DR2) So, you have no way of knowing that TDH is false</li>
+<li><span class="li-label">NE1.</span> If you have no evidence against something, then you have no way of knowing it’s false</li>
+<li><span class="li-label">NE2.</span> You have no evidence against TDH</li>
+<li><span class="li-label">DR2.</span> So, you have no way of knowing that TDH is false</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>NE1 is eminently plausible. I might tell you that J. K. Rowling is the bestselling author of all time. You may have your doubts. You may choose not to believe me. But you can’t <em>know</em> that what I said is false unless you have at least some evidence that she isn’t the best-selling author of all time.</p>
 <p>The idea behind NE2 is that TDH is compatible with all your evidence. After all, what evidence do you have that you’re sitting down reading? Your evidence is that it <em>looks</em> to you like your legs are bent in a sitting position atop a chair (or couch), that it <em>feels</em> like you’re holding a book (or tablet or laptop), and so on. But that’s all entirely compatible with TDH. Indeed, this is exactly how things would look and feel to you if you were merely dreaming that you were sitting down reading. So, the fact that it looks and feels like you’re sitting down reading is hardly evidence that you aren’t merely dreaming that you’re sitting down reading. In other words, it’s not evidence that TDH is false.</p>
 <p>You might suspect at this point that my own argument can be turned against me. After all, you might insist, we don’t have any evidence <em>for</em> TDH either. So, it would seem that we can run a parallel argument for the conclusion that we can’t know that TDH is <em>true</em>:</p>
-<div id="arg-FE" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.9: <strong>The Flipped Evidence Argument</strong>
-</figcaption>
-<div aria-describedby="arg-FE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Flipped Evidence Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FE1) If you have no evidence for something, then you have no way of knowing it’s true</li>
-<li>(FE2) You have no evidence for TDH</li>
-<li>(FE3) So, you have no way of knowing that TDH is true</li>
+<li><span class="li-label">FE1.</span> If you have no evidence for something, then you have no way of knowing it’s true</li>
+<li><span class="li-label">FE2.</span> You have no evidence for TDH</li>
+<li><span class="li-label">FE3.</span> So, you have no way of knowing that TDH is true</li>
 </ul>
 </div>
-</figure>
 </div>
-<p>But this argument doesn’t worry me at all. It’s not that I have some objection to one of the premises. Indeed, I agree with both of the premises, and I happily accept the conclusion of the argument. As I already explained above (in <a href="#sec-dreaming-argument" class="quarto-xref"><span>Section 7.5</span></a>), my argument doesn’t require establishing that TDH is true, or even that TDH is probably true. All I need to establish is that you can’t know it’s false. And I have now done so, using the No Evidence Argument.</p>
+<p>But this argument doesn’t worry me at all. It’s not that I have some objection to one of the premises. Indeed, I agree with both of the premises, and I happily accept the conclusion of the argument. As I already explained above (in <a href="#sec-dreaming-argument" class="quarto-xref"><span>Section 6.5</span></a>), my argument doesn’t require establishing that TDH is true, or even that TDH is probably true. All I need to establish is that you can’t know it’s false. And I have now done so, using the No Evidence Argument.</p>
 <p>Still, you might wonder how I can accept both arguments. After all, don’t their conclusions contradict one another? Not at all: DR2 and FE3 are entirely compatible. It <em>would</em> be contradictory to say that TDH both is and isn’t true, or that you both can and can’t know that TDH is true. But that’s not what you get when you combine DR2 and FE3. Instead, what you get is a perfectly consistent claim with which I am in complete agreement: that we have no way of knowing, one way or the other, whether TDH is true or false.</p>
 </section>
-<section id="sec-can-you-tell-dreaming" class="level2" data-number="7.8">
-<h2 data-number="7.8" class="anchored" data-anchor-id="sec-can-you-tell-dreaming"><span class="header-section-number">7.8</span> Can You Tell You’re Not Dreaming?</h2>
+<section id="sec-can-you-tell-dreaming" class="level2">
+<h2 class="anchored" data-anchor-id="sec-can-you-tell-dreaming"><span class="header-section-number">6.8</span> Can You Tell You’re Not Dreaming?</h2>
 <p>I can imagine someone objecting that there <em>is</em> a way to know you’re not dreaming: dreams are different from waking life in all sorts of ways, and you can know whether you’re dreaming by checking for those differences. For instance, you might point out that your present experiences are incredibly vivid and coherent, whereas dreams tend to be blurry nonsense. You might then claim that this undermines DR2: you can know that TDH is false by attending to the vividness of your experiences. And you might insist that NE2 of the No Evidence Argument is false as well, because the vividness of your experience counts as evidence against TDH.</p>
 <p>The easiest way to see why this objection won’t work is to slightly modify TDH as follows:</p>
-<div id="def-TDH-plus" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 7.4</strong></span> &nbsp;</p>
+<div id="thesis-TDH-plus" class="thesis">
 <dl>
 <dt>TDH+</dt>
 <dd>
@@ -784,102 +851,141 @@ You are currently lying down in bed dreaming about sitting down reading a philos
 <p>First of all, don’t sell yourself short: if Paul McCartney can compose the song <em>Yesterday</em> in a dream, then you can come up with the Dreaming Argument in a dream. (It’s not <em>that</em> brilliant, really.) Second, we can once again sidestep this concern by simply modifying TDH. For instance, we can modify it to say that you’re a brilliant philosophy professor, dreaming that you’re a student reading a philosophy textbook for the first time. Or that you’re dreaming about reading philosophical arguments that only <em>seem</em> brilliant but actually they’re complete gibberish.</p>
 <p>(There’s an old joke about a guy who dreamed that he came up with a single objection that could refute every philosophical position. One by one, he approached every great philosopher in history, all of whom presented their arguments but then admitted defeat upon hearing the objection. He woke up in a daze, scribbled the objection on a piece of paper so he wouldn’t forget it, and went back to sleep. When he awoke the next morning, he grabbed the piece of paper excitedly, and found that what he had scribbled down was: “that’s what <em>you</em> say!”)</p>
 </section>
-<section id="sec-no-useful-tests" class="level2" data-number="7.9">
-<h2 data-number="7.9" class="anchored" data-anchor-id="sec-no-useful-tests"><span class="header-section-number">7.9</span> No Useful Tests for Dreaming</h2>
+<section id="sec-no-useful-tests" class="level2">
+<h2 class="anchored" data-anchor-id="sec-no-useful-tests"><span class="header-section-number">6.9</span> No Useful Tests for Dreaming</h2>
 <p>It should be fairly clear that, for any test you come up with for checking whether you’re dreaming, I’ll be able to modify TDH to get around the test. Even better, though, if I can nip this sort of response in the bud by giving a more direct argument that no test can ever enable you to know whether you’re dreaming. Not pinching yourself and checking if you feel it, not flipping light switches and checking if the lighting changes, not—as a student of mine once argued in a term paper—peeing and checking if you still feel like you have to pee. (If you do, he argued, then you must have only dreamt that you peed.)</p>
 <p>Let’s call a way of testing whether you’re dreaming a “dreaming test.” A <em>reliable</em> dreaming test is one that tells you you’re dreaming only when you really are dreaming, and that tells you you’re awake only when you really are awake. Here’s the argument:</p>
-<div id="arg-NU" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-NU-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A7.10: <strong>The No Useful Tests Argument</strong>
-</figcaption>
-<div aria-describedby="arg-NU-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The No Useful Tests Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(NU1) If you don’t know that a dreaming test is reliable, then you can’t know whether you’re dreaming by using it</li>
-<li>(NU2) You can never know that a dreaming test is reliable</li>
-<li>(NU3) So, you can never know whether you’re dreaming by using a dreaming test</li>
+<li><span class="li-label">NU1.</span> If you don’t know that a dreaming test is reliable, then you can’t know whether you’re dreaming by using it</li>
+<li><span class="li-label">NU2.</span> You can never know that a dreaming test is reliable</li>
+<li><span class="li-label">NU3.</span> So, you can never know whether you’re dreaming by using a dreaming test</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>NU1 says that, in order to know whether you’re dreaming by using a certain dreaming test, you have to know that the test actually <em>works</em>. Suppose I ask you how you know you’re awake and you say, “because I spun a top and it fell over instead of spinning forever.” Then I ask you how you know that’s a good test for whether you’re dreaming and you say, “oh, I have no idea if it works, I just saw it in a movie once.” If you don’t already somehow know that tops always spin forever in dreams and never spin forever in reality—that is, unless you know that the spinning top test is a reliable dreaming test—then you can’t know you’re awake by using that test.</p>
 <p>What about NU2? Why can’t you ever know that a dreaming test is reliable? Here’s why. Knowing a test is reliable is a matter of knowing that it’s worked in the past: those times you were dreaming, the test correctly said you were dreaming, and those times you were awake, it correctly said you were awake. So, for instance, to assure yourself that the pinching test is reliable, you might reason as follows: “Yesterday, I pinched myself while I was awake at the gym and I felt it. Last night, I pinched myself while I was dreaming and I didn’t feel anything. This morning, right after I woke up, I pinched myself again and I felt it.”</p>
 <p>But wait a minute. That line of reasoning presupposes that you really were awake on the first and third occasion. For all you know, maybe you merely <em>dreamed</em> that you woke up this morning. Maybe you are still dreaming, and the supposed awakening was merely a dream within a dream coming to an end. Perhaps for the last fifteen years you’ve been lying in bed in a coma, moving in and out of dreams in which you feel pinches and dreams-within-dreams in which you can’t feel them. You have no way of ruling that out. And if you can’t rule that out, then you can’t know that your rationale for thinking the pinching test is reliable is any good. And if you can’t know that your rationale for thinking the pinching test is reliable is any good, then you can’t know that the pinching test is reliable. And the same goes for all other dreaming tests. Just like NU2 says.</p>
 </section>
-<section id="conclusion" class="level2" data-number="7.10">
-<h2 data-number="7.10" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">7.10</span> Conclusion</h2>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion"><span class="header-section-number">6.10</span> Conclusion</h2>
 <p>I’ve argued that you know nothing about the external world, either how it will be in the future or even how it is right now. You can’t know anything about future because all of your beliefs about the future are based on an assumption that you have no good reason to accept: that future states of the world will be like past states of the world. And you can’t know anything about the present because you have no way to rule out the possibility that all of your present experiences are part of an unusually vivid dream.</p>
 </section>
-<section id="reflection-questions" class="level2" data-number="7.11">
-<h2 data-number="7.11" class="anchored" data-anchor-id="reflection-questions"><span class="header-section-number">7.11</span> Reflection Questions</h2>
+<section id="reflection-questions" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
 <ol type="1">
-<li>The argument in <a href="#sec-why-flp" class="quarto-xref"><span>Section 7.3</span></a> turns on the claim that induction and direct observation are the only ways of knowing about the world. Is that true? When a detective solves a crime unlike any crime she’s ever seen before, is she using resources other than induction and direct observation? If so, how might that help with resisting the argument?</li>
-<li>At the end of <a href="#sec-inductive-arg-for-flp" class="quarto-xref"><span>Section 7.4</span></a>, I say that the argument extends to all of your beliefs about the future. Is that true? Can it be used to undermine the belief that 1+1 will still be equal to 2 tomorrow? If not, why not?</li>
-<li>Are you convinced by the Competing Hypotheses argument in <a href="#sec-have-to-rule-out-dh" class="quarto-xref"><span>Section 7.6</span></a>? If you think that not all competing hypotheses need to be ruled out, how would you distinguish between those that do and those that don’t?</li>
-<li>Do you have any evidence that the dreaming hypothesis is false? If so, what is it? If the evidence takes the form of a dreaming test, how would you respond to the No Useful Tests argument in <a href="#sec-no-useful-tests" class="quarto-xref"><span>Section 7.9</span></a>?</li>
+<li>The argument in <a href="#sec-why-flp" class="quarto-xref"><span>Section 6.3</span></a> turns on the claim that induction and direct observation are the only ways of knowing about the world. Is that true? When a detective solves a crime unlike any crime she’s ever seen before, is she using resources other than induction and direct observation? If so, how might that help with resisting the argument?</li>
+<li>At the end of <a href="#sec-inductive-arg-for-flp" class="quarto-xref"><span>Section 6.4</span></a>, I say that the argument extends to all of your beliefs about the future. Is that true? Can it be used to undermine the belief that 1+1 will still be equal to 2 tomorrow? If not, why not?</li>
+<li>Are you convinced by the Competing Hypotheses argument in <a href="#sec-have-to-rule-out-dh" class="quarto-xref"><span>Section 6.6</span></a>? If you think that not all competing hypotheses need to be ruled out, how would you distinguish between those that do and those that don’t?</li>
+<li>Do you have any evidence that the dreaming hypothesis is false? If so, what is it? If the evidence takes the form of a dreaming test, how would you respond to the No Useful Tests argument in <a href="#sec-no-useful-tests" class="quarto-xref"><span>Section 6.9</span></a>?</li>
 <li>Can you think of a way of modifying some of the arguments from this chapter to produce an argument that we can’t know anything about the <em>past</em>?</li>
 <li>I argued that no one knows anything about the world. Are my arguments self-defeating? Can they also be used to show that <em>I don’t know</em> that no one knows anything about the world? If so, is that a problem? If not, why not?</li>
 </ol>
 </section>
-<section id="sources" class="level2" data-number="7.12">
-<h2 data-number="7.12" class="anchored" data-anchor-id="sources"><span class="header-section-number">7.12</span> Sources</h2>
-<p>The Against Knowing the Future Argument—more commonly known as the problem of induction—can be found in David Hume’s <em>Enquiry Concerning Human Understanding</em>. The Magic 8-Ball example is drawn from <span class="citation" data-cites="fumerton1995">Fumerton (<a href="#ref-fumerton1995" role="doc-biblioref">1995</a>)</span>. The Dreaming Argument is drawn from René Descartes’s <em>Meditations on First Philosophy</em>, and also has roots in Zhuangzi’s “Discussion on Making All Things Equal.” See <span class="citation" data-cites="dretske2013">Dretske (<a href="#ref-dretske2013" role="doc-biblioref">2013</a>)</span> for discussion of the Argument from Deduction. The joke about the philosopher’s dream in <a href="#sec-can-you-tell-dreaming" class="quarto-xref"><span>Section 7.8</span></a> is from <span class="citation" data-cites="smullyan1983">Smullyan (<a href="#ref-smullyan1983" role="doc-biblioref">1983</a>)</span>. Here are some additional resources:</p>
-<!-- TODO: best version of Hume's Enquiry -->
+<section id="sources-and-resources" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sources-and-resources">Sources and Resources</h2>
+<p>The Against Knowing the Future Argument—more commonly known as the problem of induction—can be found in <span class="citation" data-cites="hume1999--74b2ecfa983dee78978473d5b1627d07adb62c0e">Hume (<a href="#ref-hume1999--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1999, sec. 4</a>)</span> (<a href="https://www.gutenberg.org/files/9662/9662-h/9662-h.htm#section4">free text</a>). The Magic 8-Ball example is drawn from <span class="citation" data-cites="fumerton1995--74b2ecfa983dee78978473d5b1627d07adb62c0e">Fumerton (<a href="#ref-fumerton1995--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1995</a>)</span>. The Dreaming Argument is drawn from <span class="citation" data-cites="descartes1996a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Descartes (<a href="#ref-descartes1996a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1996</a>, Meditation I)</span> (<a href="https://www.marxists.org/reference/archive/descartes/1639/meditations.htm">free text</a>), and also has roots in <span class="citation" data-cites="zhuangzi2013a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Zhuangzi (<a href="#ref-zhuangzi2013a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2013</a>)</span> (<a href="https://ctext.org/zhuangzi/adjustment-of-controversies">free text</a>). See <span class="citation" data-cites="dretske2013--74b2ecfa983dee78978473d5b1627d07adb62c0e">Dretske (<a href="#ref-dretske2013--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2013</a>)</span> for discussion of the Argument from Deduction. The joke about the philosopher’s dream in <a href="#sec-can-you-tell-dreaming" class="quarto-xref"><span>Section 6.8</span></a> is from <span class="citation" data-cites="smullyan1983--74b2ecfa983dee78978473d5b1627d07adb62c0e">Smullyan (<a href="#ref-smullyan1983--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1983</a>)</span>.</p>
+<p><span class="citation" data-cites="chapman2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Chapman (<a href="#ref-chapman2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span> (<em>1000-Word Philosophy</em>) offers a brief overview of skepticism about the external world, while <span class="citation" data-cites="ramsey2020--74b2ecfa983dee78978473d5b1627d07adb62c0e">Ramsey (<a href="#ref-ramsey2020--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2020</a>)</span> discusses a dream argument from al-Ghazālī. There are other articles on <em>1000-Word Philosophy</em> relevant to this chapter: search for “epistemology”, “skepticism”, “induction”, and “dream”.</p>
+<p>There are several <em>Wireless Philosophy</em> videos on the topics introduced in this chapter: <span class="citation" data-cites="nagel2016--74b2ecfa983dee78978473d5b1627d07adb62c0e">Nagel (<a href="#ref-nagel2016--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2016a</a>)</span> <span class="citation" data-cites="nagel2016c--74b2ecfa983dee78978473d5b1627d07adb62c0e">(<a href="#ref-nagel2016c--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2016b</a>)</span> <span class="citation" data-cites="nagel2016b--74b2ecfa983dee78978473d5b1627d07adb62c0e">(<a href="#ref-nagel2016b--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2016c</a>)</span> are on skepticism; <span class="citation" data-cites="greco2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Greco (<a href="#ref-greco2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014a</a>)</span> <span class="citation" data-cites="greco2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">(<a href="#ref-greco2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014b</a>)</span> are on Hume’s skepticism specifically.</p>
+<p><span class="citation" data-cites="nagel2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Nagel (<a href="#ref-nagel2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span> is part Oxford’s “Very Short Introduction” series of books. It is a nice self-contained introduction to epistemology, the theory of knowledge.</p>
+<p>For the history of skepticism, you might look the <em>History of Philosophy without any Gaps</em> podcast. Here are some key episodes:</p>
+<ul>
+<li><a href="https://historyofphilosophy.net/podcast/later-antiquity/hellenistic/pyrrho">Beyond Belief: Pyrrho and Skepticism</a>: the first of several episodes of ancient Greek skepticism.</li>
+<li><a href="https://historyofphilosophy.net/podcast/india/age-sutra/rise-skepticism">When in Doubt: the Rise of Skepticism</a>: skepticism in the context Indian thought.</li>
+<li><a href="https://historyofphilosophy.net/podcast/china/warring-states-period/zhuangzi-skepticism">To Speak or Not to Speak: Skepticism in the Zhuangzi</a></li>
+<li><a href="https://historyofphilosophy.net/podcast/medieval/fourteenth-century/autrecourt-skepticism">Seeing is Believing: Nicholas of Autrecourt’s Skeptical Challenge</a>: a late Medieval debate about the possibility of certain knowledge</li>
+<li><a href="https://historyofphilosophy.net/podcast/early-modern/france-and-netherlands/descartes-skeptical-method">Perchance to Dream: Descartes’ Skeptical Method</a></li>
+</ul>
+<p>For a more thorough overview of the history of skepticism in the “Western” tradition descending from Greek philosophy, see <span class="citation" data-cites="lagerlund2020--74b2ecfa983dee78978473d5b1627d07adb62c0e">Lagerlund (<a href="#ref-lagerlund2020--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2020</a>)</span>. For a history of skepticism in the Buddhist tradition, see <span class="citation" data-cites="stoltz2021--74b2ecfa983dee78978473d5b1627d07adb62c0e">Stoltz (<a href="#ref-stoltz2021--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2021</a>)</span>, especially chapter 7. For a deep dive on Descartes specifically, see <span class="citation" data-cites="wilson2003--74b2ecfa983dee78978473d5b1627d07adb62c0e">Wilson (<a href="#ref-wilson2003--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2003</a>)</span>.</p>
+<p>For more on the problem of induction, see <span class="citation" data-cites="salmon1975--74b2ecfa983dee78978473d5b1627d07adb62c0e">Salmon (<a href="#ref-salmon1975--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1975</a>)</span> and <span class="citation" data-cites="weintraub2008--74b2ecfa983dee78978473d5b1627d07adb62c0e">Weintraub (<a href="#ref-weintraub2008--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2008</a>)</span>. For some responses to the Dreaming Argument, see <span class="citation" data-cites="moore1939a--74b2ecfa983dee78978473d5b1627d07adb62c0e moore1925a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Moore (<a href="#ref-moore1939a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1939</a>; <a href="#ref-moore1925a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1925</a>)</span>, <span class="citation" data-cites="markosian2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Markosian (<a href="#ref-markosian2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span>, and <span class="citation" data-cites="stine1976b--74b2ecfa983dee78978473d5b1627d07adb62c0e">Stine (<a href="#ref-stine1976b--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1976</a>)</span>. For an argument that external world skepticism is self-defeating, see <span class="citation" data-cites="rinard2018--74b2ecfa983dee78978473d5b1627d07adb62c0e">Rinard (<a href="#ref-rinard2018--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2018</a>)</span>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-descartes1996a" class="csl-entry" role="listitem">
+<section id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</h3>
+<div id="refs--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-chapman2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Chapman, Andrew. 2014. <span>“External World Skepticism.”</span> <em>1000-Word Philosophy</em>, February 6. <a href="https://1000wordphilosophy.com/2014/02/06/external-world-skepticism/">https://1000wordphilosophy.com/2014/02/06/external-world-skepticism/</a>.
+</div>
+<div id="ref-descartes1996a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Descartes, René. 1996. <em>Meditations on First Philosophy</em>. Edited by John Cottingham. Cambridge University Press.
 </div>
-<div id="ref-dretske2013" class="csl-entry" role="listitem">
-Dretske, Fred. 2013. <span>“Is Knowledge Closed Under Known Entailment? The Case Against Closure.”</span> In <em>Contemporary Debates in Epistemology</em>, edited by Matthias Steup and John Turri. Wiley-Blackwell.
+<div id="ref-dretske2013--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Dretske, Fred. 2013. <span>“Is <span>Knowledge</span> <span>Closed</span> <span>Under</span> <span>Known</span> <span>Entailment?</span> <span>The</span> <span>Case</span> <span>Against</span> <span>Closure</span>.”</span> In <em>Contemporary Debates in Epistemology</em>, edited by Matthias Steup and John Turri. Wiley-Blackwell.
 </div>
-<div id="ref-fumerton1995" class="csl-entry" role="listitem">
-Fumerton, Richard. 1995. <em>Metaepistemology and Skepticism</em>. Rowman &amp; Littlefield.
+<div id="ref-fumerton1995--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Fumerton, Richard. 1995. <em>Metaepistemology and <span>Skepticism</span></em>. Rowman &amp; Littlefield.
 </div>
-<div id="ref-greco2014a" class="csl-entry" role="listitem">
-Greco, Daniel. 2014a. <span>“Hume’s Skepticism Part 1.”</span> <em>Wireless Philosophy</em>, November 20. <a href="https://www.wi-phi.com/videos/humes-skepticism-part-1/">https://www.wi-phi.com/videos/humes-skepticism-part-1/</a>.
+<div id="ref-greco2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Greco, Daniel. 2014a. <em>Hume’s <span>Skepticism</span> <span>Part</span> 1</em>. <a href="https://www.wi-phi.com/videos/humes-skepticism-part-1/">https://www.wi-phi.com/videos/humes-skepticism-part-1/</a>.
 </div>
-<div id="ref-greco2014" class="csl-entry" role="listitem">
-Greco, Daniel. 2014b. <span>“Hume’s Skepticism Part 2.”</span> <em>Wireless Philosophy</em>, November 28. <a href="https://www.wi-phi.com/videos/humes-skepticism-part-2/">https://www.wi-phi.com/videos/humes-skepticism-part-2/</a>.
+<div id="ref-greco2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Greco, Daniel. 2014b. <em>Hume’s <span>Skepticism</span> <span>Part</span> 2</em>. <a href="https://www.wi-phi.com/videos/humes-skepticism-part-2/">https://www.wi-phi.com/videos/humes-skepticism-part-2/</a>.
 </div>
-<div id="ref-huemer1999" class="csl-entry" role="listitem">
-Huemer, Michael. 1999. <span>“The Problem of Memory Knowledge.”</span> <em>Pacific Philosophical Quarterly</em> 80 (4): 346–57. <a href="https://doi.org/10.1111/1468-0114.00088">https://doi.org/10.1111/1468-0114.00088</a>.
+<div id="ref-hume1999--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Hume, David. 1999. <em>An Enquiry Concerning Human Understanding</em>. Edited by Tom L. Beauchamp. Oxford University Press.
 </div>
-<div id="ref-markosian2014a" class="csl-entry" role="listitem">
-Markosian, Ned. 2014. <span>“Do You Know That You Are Not a Brain in a Vat?”</span> <em>Logos and Episteme</em> 5 (2): 161–81.
+<div id="ref-lagerlund2020--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Lagerlund, Henrik. 2020. <em>Skepticism in Philosophy: A Comprehensive, Historical Introduction</em>. Routledge.
 </div>
-<div id="ref-nagel2014" class="csl-entry" role="listitem">
+<div id="ref-markosian2014a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Markosian, Ned. 2014. <span>“Do You Know That You Are Not a Brain in a Vat?”</span> <em>Logos and Episteme</em> 5 (2): 161–81. https://doi.org/<a href="https://doi.org/10.5840/logos-episteme20145214">https://doi.org/10.5840/logos-episteme20145214</a>.
+</div>
+<div id="ref-moore1939a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Moore, G. E. 1939. <span>“Proof of an <span>External</span> <span>World</span>.”</span> <em>Proceedings of the British Academy</em> 25: 273–300.
+</div>
+<div id="ref-moore1925a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Moore, George Edward. 1925. <span>“A Defence of Common Sense.”</span> In <em>Contemporary British Philosophy, Second Series</em>, edited by J. H. Muirhead. George Allen; Unwin.
+</div>
+<div id="ref-nagel2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Nagel, Jennifer. 2014. <em>Knowledge: A Very Short Introduction</em>. First edition. Very Short Introductions 400. Oxford University Press.
 </div>
-<div id="ref-nagel2016" class="csl-entry" role="listitem">
-Nagel, Jennifer. 2016a. <span>“Epistemology: 2. The Problem of Skepticism.”</span> <em>Wireless Philosophy</em>, February 17. <a href="https://www.wi-phi.com/videos/the-problem-of-skepticism/">https://www.wi-phi.com/videos/the-problem-of-skepticism/</a>.
+<div id="ref-nagel2016--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Nagel, Jennifer. 2016a. <em>Epistemology: 2. <span>The</span> <span>Problem</span> of <span>Skepticism</span></em>. <a href="https://www.wi-phi.com/videos/the-problem-of-skepticism/">https://www.wi-phi.com/videos/the-problem-of-skepticism/</a>.
 </div>
-<div id="ref-nagel2016c" class="csl-entry" role="listitem">
-Nagel, Jennifer. 2016b. <span>“Epistemology: 3. Three Responses to Skepticism.”</span> <em>Wireless Philosophy</em>, February 19. <a href="https://www.wi-phi.com/videos/three-responses-to-skepticism/">https://www.wi-phi.com/videos/three-responses-to-skepticism/</a>.
+<div id="ref-nagel2016c--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Nagel, Jennifer. 2016b. <em>Epistemology: 3. <span>Three</span> <span>Responses</span> to <span>Skepticism</span></em>. <a href="https://www.wi-phi.com/videos/three-responses-to-skepticism/">https://www.wi-phi.com/videos/three-responses-to-skepticism/</a>.
 </div>
-<div id="ref-nagel2016b" class="csl-entry" role="listitem">
-Nagel, Jennifer. 2016c. <span>“Epistemology: 4. New Responses to Skepticism.”</span> <em>Wireless Philosophy</em>, February 26. <a href="https://www.wi-phi.com/videos/new-responses-to-skepticism/">https://www.wi-phi.com/videos/new-responses-to-skepticism/</a>.
+<div id="ref-nagel2016b--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Nagel, Jennifer. 2016c. <em>Epistemology: 4. <span>New</span> <span>Responses</span> to <span>Skepticism</span></em>. <a href="https://www.wi-phi.com/videos/new-responses-to-skepticism/">https://www.wi-phi.com/videos/new-responses-to-skepticism/</a>.
 </div>
-<div id="ref-rinard2018" class="csl-entry" role="listitem">
-Rinard, Susanna. 2018. <span>“Reasoning One’s Way Out of Skepticism.”</span> In <em>The Mystery of Skepticism: New Explorations</em>, edited by Kevin McCain and Ted Poston. Brill.
+<div id="ref-ramsey2020--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Ramsey, John. 2020. <span>“Al-Ghazālī’s Dream Argument for Skepticism.”</span> <em>1000-Word Philosophy</em>, July 25. <a href="https://1000wordphilosophy.com/2020/07/25/al-ghazalis-dream-argument/">https://1000wordphilosophy.com/2020/07/25/al-ghazalis-dream-argument/</a>.
 </div>
-<div id="ref-salmon1975" class="csl-entry" role="listitem">
-Salmon, Wesley. 1975. <span>“An Encounter with David Hume.”</span> In <em>Reason and Responsibility</em>, 3rd ed., edited by Joel Feinberg. Dickenson Publishing.
+<div id="ref-rinard2018--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Rinard, Susanna. 2018. <span>“Reasoning <span class="nocase">One’s</span> <span>Way</span> <span>Out</span> of <span>Skepticism</span>.”</span> In <em>The Mystery of Skepticism: New Explorations</em>, edited by Kevin McCain and Ted Poston. Brill.
 </div>
-<div id="ref-smullyan1983" class="csl-entry" role="listitem">
-Smullyan, Raymond M. 1983. <em>5000 B.C. and other philosophical fantasies</em>. St. Martin’s Press.
+<div id="ref-salmon1975--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Salmon, Wesley. 1975. <span>“An <span>Encounter</span> with <span>David</span> <span>Hume</span>.”</span> In <em>Reason and Responsibility</em>, 3rd ed., edited by Joel Feinberg. Dickenson Publishing.
 </div>
-<div id="ref-stine1976b" class="csl-entry" role="listitem">
-Stine, G. C. 1976. <span>“Skepticism, Relevant Alternatives, and Deductive Closure.”</span> <em>Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition</em> 29 (4): 249–61. <a href="http://www.jstor.org/stable/4319027">http://www.jstor.org/stable/4319027</a>.
+<div id="ref-smullyan1983--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Smullyan, Raymond M. 1983. <em>5000 <span>B.C.</span> And Other Philosophical Fantasies</em>. St. Martin’s Press.
 </div>
-<div id="ref-weintraub2008" class="csl-entry" role="listitem">
-Weintraub, Ruth. 2008. <span>“Skepticism About Induction.”</span> In <em>The Oxford Handbook of Skepticism</em>, edited by John Greco. Oxford University Press. <a href="https://philarchive.org/rec/WEISAI">https://philarchive.org/rec/WEISAI</a>.
+<div id="ref-stine1976b--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Stine, Gail. C. 1976. <span>“Skepticism, Relevant Alternatives, and Deductive Closure.”</span> <em>Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition</em> 29 (4): 249–61. <a href="http://www.jstor.org/stable/4319027">http://www.jstor.org/stable/4319027</a>.
 </div>
-<div id="ref-wilson2003" class="csl-entry" role="listitem">
-Wilson, Catherine. 2003. <em>Descartes’s Meditations: an introduction</em>. Cambridge introductions to key philosophical texts. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9780511805004">https://doi.org/10.1017/CBO9780511805004</a>.
+<div id="ref-stoltz2021--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Stoltz, Jonathan. 2021. <em>Illuminating the Mind: An Introduction to <span>Buddhist</span> Epistemology</em>. Buddhist Philosophy for Philosophers. Oxford University Press.
+</div>
+<div id="ref-weintraub2008--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Weintraub, Ruth. 2008. <span>“Skepticism <span>About</span> <span>Induction</span>.”</span> In <em>The Oxford Handbook of Skepticism</em>, edited by John Greco. Oxford University Press. <a href="https://philarchive.org/rec/WEISAI">https://philarchive.org/rec/WEISAI</a>.
+</div>
+<div id="ref-wilson2003--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Wilson, Catherine. 2003. <em>Descartes’s <span>Meditations:</span> An Introduction</em>. Cambridge Introductions to Key Philosophical Texts. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9780511805004">https://doi.org/10.1017/CBO9780511805004</a>.
+</div>
+<div id="ref-zhuangzi2013a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Zhuangzi. 2013. <span>“Discussion on Making All Things Equal.”</span> In <em>The Complete Works of Zhuangzi</em>, translated by Burton Watson. Columbia University Press.
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1299,12 +1405,12 @@ Wilson, Catherine. 2003. <em>Descartes’s Meditations: an introduction</em>. Ca
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./no-freedom.html" class="pagination-link" aria-label="No Freedom">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./coercion.html" class="pagination-link" aria-label="Against Prisons and Taxes">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

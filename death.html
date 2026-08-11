@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5&nbsp; Don’t Fear the Reaper – Learning from Arguments</title>
+<title>4&nbsp; Don’t Fear the Reaper – Learning from Arguments</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -60,14 +63,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8e85a2d79e769b8644e979eed8e70e22.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cee3c3868fc0c4b80742429615d4716b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78d1cc7b04b643eaa8eb0d129773219d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bf055ff1d2f939288296a6edfa07e404.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -95,6 +98,30 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<style>
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+</style>
 
 
 </head>
@@ -279,7 +306,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./death.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./death.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -295,9 +322,8 @@ div.csl-indent {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Learning from Arguments</a> 
-        <div class="sidebar-tools-main tools-wide">
+        <div class="sidebar-tools-main">
     <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Learning-from-Arguments.epub" title="Download ePub" class="quarto-navigation-tool px-1" aria-label="Download ePub"><i class="bi bi-journal"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -321,7 +347,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About this Remix</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -350,67 +376,67 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wager.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./death.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./coercion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abortion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
   </div>
 </li>
       </ul>
@@ -436,12 +462,6 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./theses-and-arguments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Theses and Arguments</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -454,14 +474,17 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">5.1</span> Introduction</a></li>
-  <li><a href="#sec-hedonism" id="toc-sec-hedonism" class="nav-link" data-scroll-target="#sec-hedonism"><span class="header-section-number">5.2</span> Hedonism</a></li>
-  <li><a href="#sec-arg-from-hedonism" id="toc-sec-arg-from-hedonism" class="nav-link" data-scroll-target="#sec-arg-from-hedonism"><span class="header-section-number">5.3</span> The Argument from Hedonism</a></li>
-  <li><a href="#sec-against-post-mortem-consciousness" id="toc-sec-against-post-mortem-consciousness" class="nav-link" data-scroll-target="#sec-against-post-mortem-consciousness"><span class="header-section-number">5.4</span> Against Post-Mortem Consciousness</a></li>
-  <li><a href="#sec-too-many-thinkers" id="toc-sec-too-many-thinkers" class="nav-link" data-scroll-target="#sec-too-many-thinkers"><span class="header-section-number">5.5</span> The Too Many Thinkers Argument</a></li>
-  <li><a href="#sec-irrational-fears" id="toc-sec-irrational-fears" class="nav-link" data-scroll-target="#sec-irrational-fears"><span class="header-section-number">5.6</span> Irrational Fears</a></li>
-  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions"><span class="header-section-number">5.7</span> Reflection Questions</a></li>
-  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">5.8</span> Sources</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">4.1</span> Introduction</a></li>
+  <li><a href="#sec-hedonism" id="toc-sec-hedonism" class="nav-link" data-scroll-target="#sec-hedonism"><span class="header-section-number">4.2</span> Hedonism</a></li>
+  <li><a href="#sec-arg-from-hedonism" id="toc-sec-arg-from-hedonism" class="nav-link" data-scroll-target="#sec-arg-from-hedonism"><span class="header-section-number">4.3</span> The Argument from Hedonism</a></li>
+  <li><a href="#sec-against-post-mortem-consciousness" id="toc-sec-against-post-mortem-consciousness" class="nav-link" data-scroll-target="#sec-against-post-mortem-consciousness"><span class="header-section-number">4.4</span> Against Post-Mortem Consciousness</a></li>
+  <li><a href="#sec-too-many-thinkers" id="toc-sec-too-many-thinkers" class="nav-link" data-scroll-target="#sec-too-many-thinkers"><span class="header-section-number">4.5</span> The Too Many Thinkers Argument</a></li>
+  <li><a href="#sec-irrational-fears" id="toc-sec-irrational-fears" class="nav-link" data-scroll-target="#sec-irrational-fears"><span class="header-section-number">4.6</span> Irrational Fears</a></li>
+  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection Questions</a></li>
+  <li><a href="#sources-and-resources" id="toc-sources-and-resources" class="nav-link" data-scroll-target="#sources-and-resources">Sources and Resources</a>
+  <ul class="collapse">
+  <li><a href="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" id="toc-bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="nav-link" data-scroll-target="#bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/death.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -469,9 +492,9 @@ div.csl-indent {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./death.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="./death.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-death" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></h1>
+<h1 class="title"><span id="sec-death" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></h1>
 </div>
 
 
@@ -491,36 +514,38 @@ div.csl-indent {
 <div class="authorial-intent">
 <p><em>Views and arguments advanced in this chapter are not necessarily endorsed by the author of the textbook, nor are they original to the author, nor are they meant to be consistent with arguments advanced in other chapters. Different chapters represent different philosophical perspectives.</em></p>
 </div>
-<section id="introduction" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">5.1</span> Introduction</h2>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction"><span class="header-section-number">4.1</span> Introduction</h2>
 <p>My aim in this chapter is to argue for the surprising conclusion that you shouldn’t fear death. In short, the idea is that the only things that can be bad for you, ultimately speaking, are pains and other such unpleasant sensations. Accordingly, since you won’t be experiencing any unpleasant sensations once you’re dead, being dead isn’t bad for you, and you shouldn’t fear things that aren’t bad for you. In other words:</p>
-<div id="arg-FD" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-FD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A5.1: <strong>Against Fearing Death</strong>
-</figcaption>
-<div aria-describedby="arg-FD-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Fearing Death
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(FD1) You cease to be conscious when you die</li>
-<li>(FD2) If you cease to be conscious when you die, then being dead is not bad for you</li>
-<li>(FD3) So, being dead is not bad for you</li>
-<li>(FD4) If being dead is not bad for you, then you should not fear death</li>
-<li>(FD5) So, you should not fear death</li>
+<li><span class="li-label">FD1.</span> You cease to be conscious when you die</li>
+<li><span class="li-label">FD2.</span> If you cease to be conscious when you die, then being dead is not bad for you</li>
+<li><span class="li-label">FD3.</span> So, being dead is not bad for you</li>
+<li><span class="li-label">FD4.</span> If being dead is not bad for you, then you should not fear death</li>
+<li><span class="li-label">FD5.</span> So, you should not fear death</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>I should emphasize that I am not denying that <em>dying</em> is bad. The process of dying can of course be quite painful—both physically and emotionally and, thus, bad for you. If you’re going to be torn apart by piranhas tomorrow, that’s certainly bad for you and something to be afraid of. But you should fear it because the dying will be painful, not because you will be dead at the end of it. On the other hand, if you are about to be anesthetized for some surgery and there is a very good chance that you will die painlessly while under anesthesia, this is not bad for you and there is nothing to fear.</p>
-<p>I’ll defend the opening premises in reverse order, first arguing (in sections <a href="#sec-hedonism" class="quarto-xref"><span>5.2</span></a>–<a href="#sec-arg-from-hedonism" class="quarto-xref"><span>5.3</span></a>) that <em>if</em> it’s true that you cease to be conscious when you die <em>then</em> being dead is not bad for you, and then arguing (in sections <a href="#sec-against-post-mortem-consciousness" class="quarto-xref"><span>5.4</span></a>–<a href="#sec-too-many-thinkers" class="quarto-xref"><span>5.5</span></a>) that it indeed is true that you cease to be conscious when you die. Then, having established that being dead isn’t bad for you, I defend FD4 (in <a href="#sec-irrational-fears" class="quarto-xref"><span>Section 5.6</span></a>) on the grounds that it is irrational to fear things that aren’t bad for you.</p>
+<p>I’ll defend the opening premises in reverse order, first arguing (in sections <a href="#sec-hedonism" class="quarto-xref"><span>4.2</span></a>–<a href="#sec-arg-from-hedonism" class="quarto-xref"><span>4.3</span></a>) that <em>if</em> it’s true that you cease to be conscious when you die <em>then</em> being dead is not bad for you, and then arguing (in sections <a href="#sec-against-post-mortem-consciousness" class="quarto-xref"><span>4.4</span></a>–<a href="#sec-too-many-thinkers" class="quarto-xref"><span>4.5</span></a>) that it indeed is true that you cease to be conscious when you die. Then, having established that being dead isn’t bad for you, I defend FD4 (in <a href="#sec-irrational-fears" class="quarto-xref"><span>Section 4.6</span></a>) on the grounds that it is irrational to fear things that aren’t bad for you.</p>
 <p>Let me make one last preliminary remark before launching into the defense of FD2. Some readers may be strongly inclined to reject the first premise, FD1, because they think that they will go on, after death, to have conscious experiences in the afterlife. Perhaps pleasant experiences, or perhaps painful experiences, depending on the will of their Creator. But even such readers have reason to think carefully about FD2. For the Creator may instead decide to punish sinners and nonbelievers, not by sending them to hell, but by permanently snuffing out their consciousness after they die. You probably think that this would be bad for you. But if FD2 is true, then it wouldn’t in any way be bad for you (and thus wouldn’t be any sort of punishment). So if you are inclined to say that being snuffed out by your Creator is bad for you, then you’ll need to find some way to resist my argument below for FD2.</p>
 </section>
-<section id="sec-hedonism" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="sec-hedonism"><span class="header-section-number">5.2</span> Hedonism</h2>
+<section id="sec-hedonism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-hedonism"><span class="header-section-number">4.2</span> Hedonism</h2>
 <p>My argument for FD2 turns on the idea—sometimes known as “hedonism”—that, ultimately speaking, experiencing pleasant sensations is the only thing that’s good for you, and experiencing painful sensations is the only thing that’s bad for you. And when I say ‘painful’, that should be understood in a broad sense, to include psychological and emotional pain, in addition to physical pain and discomfort.</p>
 <p>It’s easy to see the appeal of hedonism. Why is it bad for you if someone kicks you? Because it’s painful. Why it is bad for you not to brush your teeth? Because you might get plaque. Why is that bad for you? Because plaque leads to cavities. Why is that bad for you? Because cavities are painful.</p>
 <p>Still, we must be careful in how exactly we formulate our hedonistic account of what’s bad for you. For instance, suppose we tried the following:</p>
-<div id="def-HD" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 5.1</strong></span> &nbsp;</p>
+<div id="thesis-HD" class="thesis">
 <dl>
 <dt>Hedonism (HD)</dt>
 <dd>
@@ -530,8 +555,7 @@ Something is bad for you if and only if it’s painful.
 </div>
 <p>There are multiple problems with HD. First, there are all sorts of things that are bad for you that aren’t themselves painful. For instance, eating a whole large pizza in one sitting isn’t painful, but it is bad for you. Second, there are all sorts of painful things that aren’t bad for you. For instance, a deeptissue massage isn’t bad for you, but it can be somewhat unpleasant while it’s happening.</p>
 <p>Thinking a bit more about these examples can help us see what’s missing from HD. Why is eating the whole pizza bad for you? Because, later in the day, you’ll have a painful stomach ache. Why isn’t the deep-tissue massage bad for you? Because working out the knots in your muscles results in your having less discomfort later on. What we’re seeing is that what makes something bad for you isn’t just whether it itself is painful but also its connection to the presence or absence of future pains. With this in mind, we can revise the principle as follows:</p>
-<div id="def-HD-star" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 5.2</strong></span> &nbsp;</p>
+<div id="thesis-HD-star" class="thesis">
 <dl>
 <dt>Hedonism (HD*)</dt>
 <dd>
@@ -541,42 +565,47 @@ Something is bad for you if and only if it results in more pain than you would o
 </div>
 <p>This is still true to the core hedonist insight stated above. Eating the whole pizza in one sitting is bad for you because it results in a painful stomach ache that you wouldn’t otherwise have had. Massages aren’t bad for you because, even if they’re painful in the moment, they eliminate future pains that you would otherwise have had. Ultimately speaking, what is or isn’t bad for you is still just a matter of what is or isn’t painful for you.</p>
 </section>
-<section id="sec-arg-from-hedonism" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="sec-arg-from-hedonism"><span class="header-section-number">5.3</span> The Argument from Hedonism</h2>
+<section id="sec-arg-from-hedonism" class="level2">
+<h2 class="anchored" data-anchor-id="sec-arg-from-hedonism"><span class="header-section-number">4.3</span> The Argument from Hedonism</h2>
 <p>With HD* in hand, we can now run an argument for FD2 of the Against Fearing Death argument.</p>
-<div id="arg-AH" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-AH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A5.2: <strong>The Argument from Hedonism</strong>
-</figcaption>
-<div aria-describedby="arg-AH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Hedonism
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(AH1) If you cease to be conscious when you die, then being dead doesn’t result in more pain than you would otherwise have had</li>
-<li>(AH2) Something is bad for you if and only if it results in more pain than you would otherwise have had</li>
-<li>(FD2) So, if you cease to be conscious when you die, then being dead isn’t bad for you</li>
+<li><span class="li-label">AH1.</span> If you cease to be conscious when you die, then being dead doesn’t result in more pain than you would otherwise have had</li>
+<li><span class="li-label">AH2.</span> Something is bad for you if and only if it results in more pain than you would otherwise have had</li>
+<li><span class="li-label">FD2.</span> So, if you cease to be conscious when you die, then being dead isn’t bad for you</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Premise AH1 is trivial. Pain is a conscious state, so <em>if</em> you aren’t conscious while you’re dead, then you don’t have any pain while you’re dead. And the second premise is just our modified hedonist principle, HD*. Accordingly, one might try to resist the argument by attacking HD*. I’ll consider three sorts of attacks.</p>
 <p>First, one might point to people who suffer from congenital analgesia, a rare condition which involves an inability to experience pain. While this may at first seem like a good thing, it’s easy to see on reflection why this is actually very bad for those who have it. They might, for instance, inadvertently place their hand in a fire and not realize it before their hand is irreparably damaged. But (the idea goes) HD* seems to entail that this condition can’t be bad for those who have it, nor for that matter can anything bad ever befall them, since nothing can be painful for them.</p>
 <p>In response, I deny that HD* entails any such thing. Remember that ‘pain’ isn’t restricted to unpleasant physical sensations. It also includes the sort of <em>emotional</em> distress that one would have from irreparably damaging one’s hand, and those suffering from this condition are entirely capable of experiencing these sorts of psychological pains.</p>
 <p>Second, one might object to HD* on the grounds that something can be entirely pleasurable and yet still be a bad thing to do. Consider the following case:</p>
-<div id="exa-stolen-cruise" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-stolen-cruise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE5.1: <strong>STOLEN CRUISE</strong>
-</figcaption>
-<div aria-describedby="exa-stolen-cruise-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>STOLEN CRUISE
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Brendan is about to go on a week-long cruise. His girlfriend, Pieper, serves him undercooked chicken, in hopes that he’ll get food poisoning and will let her go in his place. Pieper’s plan succeeds, and she has a great time on the cruise. She comes back refreshed, relaxed, and feeling no remorse whatsoever.</p>
 </div>
-</figure>
 </div>
 <p>What Pieper did is bad, and yet it didn’t lead to her having any unpleasant sensations.</p>
 <p>Is that a problem for HD*? No.&nbsp;One must be careful to distinguish between something being <em>bad for you</em> and something being <em>bad to do</em>. HD* is only about the former and has nothing to say about the latter. If giving Brendan food poisoning doesn’t end up being unpleasant for Pieper, then it isn’t bad <em>for Pieper</em> that Brendan got food poisoning. But that’s not at all to deny that deliberately giving him food poisoning was a bad thing to do (which of course it was).</p>
 <p>Now for the third objection to HD*. Here the idea is to grant that hedonism is basically right, but to insist upon further changes to its formulation. Specifically, one might suggest that something can be bad for you not just by giving you painful sensations but also by depriving you of pleasant sensations:</p>
-<div id="def-HD-double-star" class="thesis theorem definition">
-<p><span class="theorem-title"><strong>T 5.3</strong></span> &nbsp;</p>
+<div id="thesis-HD-double-star" class="thesis">
 <dl>
 <dt>Hedonism (HD**)</dt>
 <dd>
@@ -586,76 +615,88 @@ Something is bad for you if and only if it results in more pain <em>or less plea
 </div>
 <p>In short, the idea is that what’s bad for you is what—in one way or another—makes you worse off in terms of pleasure and pain. If HD** is right, then we won’t be able to get the Argument from Hedonism off the ground. After all, it’s true (for most people) that they would have had more pleasure had they not died when they did, in which case HD** entails that being dead <em>is</em> bad for them.</p>
 <p>The problem with HD** is that it is open to counterexamples like the following:</p>
-<div id="exa-unread-mail" class="example quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-exa figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-exa" id="exa-unread-mail-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-TE5.2: <strong>UNREAD MAIL</strong>
-</figcaption>
-<div aria-describedby="exa-unread-mail-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>UNREAD MAIL
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Carly meets Evan, and they immediately fall in love. Because things are going so well with Evan, Carly stops checking her online dating app. They have a long and entirely happy life together. It so happens that Jami had sent Carly a message shortly after Carly met Evan. If she hadn’t met Evan, she would have seen Jami’s message, fallen in love with <em>her</em>, and she and Jami would have had a long and happy life together. As a matter of fact, she would have been a little tiny bit happier with Jami than with Evan.</p>
 </div>
-</figure>
 </div>
 <p>Carly would have been a tiny bit better off if she hadn’t met Evan. Does that mean that it was bad for her that she met Evan? Of course not. Yet HD** wrongly implies that it <em>is</em> bad for her that she met Evan. After all, she would have had more pleasure in her life had she not met him.</p>
 <p>This gives us a compelling argument against HD**:</p>
-<div id="arg-UM" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-UM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A5.3: <strong>The Unread Mail Argument</strong>
-</figcaption>
-<div aria-describedby="arg-UM-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Unread Mail Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(UM1) Carly would have had more pleasure had she not met Evan</li>
-<li>(UM2) If Carly would have had more pleasure had she not met Evan, then: if HD** is true, then meeting Evan was bad for her</li>
-<li>(UM3) Meeting Evan was not bad for her</li>
-<li>(UM4) So, HD** is false</li>
+<li><span class="li-label">UM1.</span> Carly would have had more pleasure had she not met Evan</li>
+<li><span class="li-label">UM2.</span> If Carly would have had more pleasure had she not met Evan, then: if HD** is true, then meeting Evan was bad for her</li>
+<li><span class="li-label">UM3.</span> Meeting Evan was not bad for her</li>
+<li><span class="li-label">UM4.</span> So, HD** is false</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Thus, one shouldn’t prefer HD** to my formulation of the principle of hedonism, HD*, and we have not found any good reason to reject HD*, the second premise of the Argument from Hedonism.</p>
 </section>
-<section id="sec-against-post-mortem-consciousness" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="sec-against-post-mortem-consciousness"><span class="header-section-number">5.4</span> Against Post-Mortem Consciousness</h2>
+<section id="sec-against-post-mortem-consciousness" class="level2">
+<h2 class="anchored" data-anchor-id="sec-against-post-mortem-consciousness"><span class="header-section-number">4.4</span> Against Post-Mortem Consciousness</h2>
 <p>We’ve just seen an argument for the conditional premise that <em>if</em> you cease to be conscious when you die, <em>then</em> being dead is not bad for you. But why think that you do cease to be conscious when you die? In other words, why accept premise FD1 of the Against Fearing Death argument?</p>
 <p>Some readers likely already accept it: when you die, you cease to exist and your consciousness is snuffed out completely. After all, your brain stops working and that’s the source of all conscious experience. Others, however, may need some convincing. They may think that, after death, we continue to have conscious experiences in some sort of afterlife, perhaps in heaven or hell. Or they may be agnostic: we can’t know what happens after we die, and we just have to wait and see.</p>
 <p>I say we don’t have to wait and see. We can settle the matter right now. Start by noticing that, right where you are, there is a living, breathing, fleshand-blood human animal. For simplicity, I’ll refer to it as ‘Animal’. Here, then, is the argument that you will permanently cease to be conscious once you die:</p>
-<div id="arg-PC" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-PC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A5.4: <strong>Against Post-Mortem Consciousness</strong>
-</figcaption>
-<div aria-describedby="arg-PC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Post-Mortem Consciousness
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(PC1) If Animal ceases to be conscious when you die <em>and</em> you are Animal, then you cease to be conscious when you die</li>
-<li>(PC2) Animal ceases to be conscious when you die</li>
-<li>(PC3) You are Animal</li>
-<li>(FD1) So, you cease to be conscious when you die</li>
+<li><span class="li-label">PC1.</span> If Animal ceases to be conscious when you die <em>and</em> you are Animal, then you cease to be conscious when you die</li>
+<li><span class="li-label">PC2.</span> Animal ceases to be conscious when you die</li>
+<li><span class="li-label">PC3.</span> You are Animal</li>
+<li><span class="li-label">FD1.</span> So, you cease to be conscious when you die</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>First, I’ll explain the idea behind PC1 and PC2, which are both straightforward. Then I’ll argue for PC3, which admittedly is more controversial.</p>
 <p>PC1 is extremely plausible once you wrap your mind around what it’s saying. PC1 is not saying that you are Animal, nor is it saying that Animal ceases to be conscious when you die. Rather, it’s saying that <em>if</em> both of these things are true, <em>then</em> you (yourself) cease to be conscious when you die. Why is that? Suppose that you are literally the same thing as Animal. In that case, you and Animal are one thing, not two; ‘you’ and ‘Animal’ are just two ways of referring to one and the same thing. If you and Animal truly are one and the same thing, then anything that’s true about Animal is also true of you. It can’t be that Snoop Dogg goes to heaven and Calvin Broadus doesn’t, since Snoop Dogg <em>is</em> Calvin Broadus. (‘Snoop Dogg’ is Calvin Broadus’s stage name.) There is only one individual there to go or not go to heaven. By the same reasoning, if Animal ceases to be conscious when you die, then—supposing you are Animal—you must also cease to be conscious when you die. That’s PC1.</p>
 <p>Now for PC2. Set aside for a moment whether <em>you</em> cease to be conscious when you die, and just focus on Animal. Why think that Animal isn’t conscious after you die? When you die, Animal will still be here on Earth, as a dead animal, waiting to be buried or cremated. It will have no brain function whatsoever. We can poke and prod it, and it won’t feel anything. Even if you think there might be a conscious afterlife, you certainly don’t think that it’s the rotting human animals in the cemetery (the corpses) that are having the conscious experiences. In other words, even if you think there will be or might be a conscious afterlife, you should still accept PC2: you shouldn’t think that Animal itself will be conscious after you die.</p>
 </section>
-<section id="sec-too-many-thinkers" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="sec-too-many-thinkers"><span class="header-section-number">5.5</span> The Too Many Thinkers Argument</h2>
+<section id="sec-too-many-thinkers" class="level2">
+<h2 class="anchored" data-anchor-id="sec-too-many-thinkers"><span class="header-section-number">4.5</span> The Too Many Thinkers Argument</h2>
 <p>If you think that you will (or might) go on to enjoy a conscious afterlife, what you’ll probably want to say is that you and Animal part ways after death: Animal ceases to be conscious at that point, but you go on having conscious experiences in the afterlife. But, as I have already argued, you and Animal can part ways <em>only if</em> you and Animal are two different things. Accordingly, you’ll have to deny PC3, which says that you and Animal are one and the same.</p>
 <p>And yet there is a simple and powerful argument for this premise. You’ll want to sit down for this. (Seriously, sit down. And sit by yourself if you’ve got a cat in your lap, shoo it away.) Here is the argument:</p>
-<div id="arg-TT" class="argument quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-arg figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-arg" id="arg-TT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-A5.5: <strong>The Too Many Thinkers Argument</strong>
-</figcaption>
-<div aria-describedby="arg-TT-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Too Many Thinkers Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>(TT1) Animal is in your chair and is thinking</li>
-<li>(TT2) You are the only thing in your chair that is thinking</li>
-<li>(PC3) So you are Animal</li>
+<li><span class="li-label">TT1.</span> Animal is in your chair and is thinking</li>
+<li><span class="li-label">TT2.</span> You are the only thing in your chair that is thinking</li>
+<li><span class="li-label">PC3.</span> So you are Animal</li>
 </ul>
 </div>
-</figure>
 </div>
 <p>Let’s take the premises one at a time. If both TT1 and TT2 can be successfully defended, then I will in turn have defended PC3, the crucial premise of the argument that you will cease to be conscious when you die.</p>
 <p>At least on the face of it, TT1 is incredibly plausible. Your head is part of Animal and so is your brain. And this brain of yours is a fully functioning brain. Of course, it won’t be a fully functioning brain after you die. But that’s irrelevant, because TT1 doesn’t say that Animal will be thinking after you die. It says that that Animal is thinking right now. And that seems undeniable, given that it now has a fully functioning brain as a part.</p>
@@ -664,8 +705,8 @@ A5.5: <strong>The Too Many Thinkers Argument</strong>
 <p>You might try to lessen the absurdity by saying that, yes, you and Animal are two different things, both in your chair, both thinking, <em>but</em> you’re thinking about different things. You’re thinking about abstract philosophical matters, and it’s thinking about bodily concerns like eating lunch or taking a nap. But that can’t be right. It’s got the same brain as you, which means that it’s thinking exactly the same thoughts as you. For instance, if you’re thinking to yourself right now, “I’m a <em>person</em>, not a mere animal,” it’s because your brain is in a certain specific state. But Animal’s brain is in exactly that same state. After all, it’s got the same brain as you! So, it must be thinking exactly the same thing: “I’m a <em>person</em>, not a mere animal.” The same goes for absolutely anything you and Animal are thinking. And that’s completely absurd: surely there aren’t two different things in your chair, simultaneously thinking all the same thoughts.</p>
 <p>TT1 and TT2 together entail PC3. What that means is that if you don’t want to accept PC3, you must reject one of these two premises. But, as we just saw, the premises are hard to deny, and in any case PC3 is already highly plausible. So, you should accept PC3.</p>
 </section>
-<section id="sec-irrational-fears" class="level2" data-number="5.6">
-<h2 data-number="5.6" class="anchored" data-anchor-id="sec-irrational-fears"><span class="header-section-number">5.6</span> Irrational Fears</h2>
+<section id="sec-irrational-fears" class="level2">
+<h2 class="anchored" data-anchor-id="sec-irrational-fears"><span class="header-section-number">4.6</span> Irrational Fears</h2>
 <p>I have thus far argued that being dead is not bad for you. The first premise, FD1, was that you cease to be conscious when you die, and I argued for this premise on the grounds that the human animal that’s where you are ceases to be conscious when you die, which in turn means that <em>you</em> cease to be conscious when you die (since you are that animal). The second premise, FD2, was that death is bad for you only if you continue to be conscious after you die; after all, the only things that are bad for you, ultimately speaking, are pains and things that lead to pain.</p>
 <p>But the claim that being dead is not bad for you (FD3) is merely a subconclusion of the argument. The ultimate conclusion (FD5) is that you shouldn’t fear death, and for that we need one more premise.</p>
 <p>The final premise of the Against Fearing Death argument, FD4, says that if being dead isn’t bad for you, then you shouldn’t fear death. To see why we should accept that, we need to think more generally about what makes a fear rational or irrational. Suppose a tarantula crawls onto your hand. Really, it’s not all that dangerous. It’s pretty unlikely to bite you, and even if it did it actually wouldn’t be any more painful or harmful than an ordinary bee sting. But even knowing how harmless they are, you might still be utterly terrified of a tarantula crawling onto you. And that would be irrational. Why? Because that amount of fear is disproportionate to the likelihood of something bad happening to you and how bad it would be if it did.</p>
@@ -673,55 +714,96 @@ A5.5: <strong>The Too Many Thinkers Argument</strong>
 <p>One might object that it’s <em>unnatural</em> to fear all these other things, whereas it’s completely natural to fear death. Fair enough. I’m not denying that fearing death is natural. I’m denying that fearing death is <em>rational</em>. Just because it comes naturally to us to act or react in a certain way, that doesn’t mean it’s rational. (Google ‘cognitive biases’, and you’ll see what I mean.) And in any case, it just isn’t true that all of those other fears are unnatural. It’s entirely normal for people to experience excessive fear of spiders and other creepy crawlies. And we can all recognize, on reflection, that this degree of fear is excessive and irrational, despite being our natural reaction.</p>
 <p>Thus, I conclude that death isn’t bad for you and you shouldn’t fear it. This is a surprising result, but not necessarily a bad one. After all, fearfulness is emotionally painful, and if this argument helps you do without that pain, that’s good for you!</p>
 </section>
-<section id="reflection-questions" class="level2" data-number="5.7">
-<h2 data-number="5.7" class="anchored" data-anchor-id="reflection-questions"><span class="header-section-number">5.7</span> Reflection Questions</h2>
+<section id="reflection-questions" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
 <ol type="1">
-<li>Can you think of any counterexamples to the hedonist principle HD* from <a href="#sec-hedonism" class="quarto-xref"><span>Section 5.2</span></a>? Could such an example give us reason to prefer HD** from <a href="#sec-arg-from-hedonism" class="quarto-xref"><span>Section 5.3</span></a>?</li>
-<li>Do the hedonist principles discussed in sections <a href="#sec-hedonism" class="quarto-xref"><span>5.2</span></a>–<a href="#sec-arg-from-hedonism" class="quarto-xref"><span>5.3</span></a> imply that being born into this world was bad for you? Why or why not? If they do, can they be modified to avoid this implication?</li>
-<li>Are you convinced by the Against Post-Mortem Consciousness argument in sections <a href="#sec-against-post-mortem-consciousness" class="quarto-xref"><span>5.4</span></a>–<a href="#sec-too-many-thinkers" class="quarto-xref"><span>5.5</span></a>? In particular, are you convinced by the argument that you and Animal are one and the same thing?</li>
-<li>In the final section (<a href="#sec-irrational-fears" class="quarto-xref"><span>5.6</span></a>), I suggested that it can never be rational to fear something that is not bad for you. Is that true? Can it be rational to fear something because it’s bad for <em>others</em>? Should we fear death because (and only because) of how our deaths will affect other people?</li>
+<li>Can you think of any counterexamples to the hedonist principle HD* from <a href="#sec-hedonism" class="quarto-xref"><span>Section 4.2</span></a>? Could such an example give us reason to prefer HD** from <a href="#sec-arg-from-hedonism" class="quarto-xref"><span>Section 4.3</span></a>?</li>
+<li>Do the hedonist principles discussed in sections <a href="#sec-hedonism" class="quarto-xref"><span>4.2</span></a>–<a href="#sec-arg-from-hedonism" class="quarto-xref"><span>4.3</span></a> imply that being born into this world was bad for you? Why or why not? If they do, can they be modified to avoid this implication?</li>
+<li>Are you convinced by the Against Post-Mortem Consciousness argument in sections <a href="#sec-against-post-mortem-consciousness" class="quarto-xref"><span>4.4</span></a>–<a href="#sec-too-many-thinkers" class="quarto-xref"><span>4.5</span></a>? In particular, are you convinced by the argument that you and Animal are one and the same thing?</li>
+<li>In the final section (<a href="#sec-irrational-fears" class="quarto-xref"><span>4.6</span></a>), I suggested that it can never be rational to fear something that is not bad for you. Is that true? Can it be rational to fear something because it’s bad for <em>others</em>? Should we fear death because (and only because) of how our deaths will affect other people?</li>
 </ol>
 </section>
-<section id="sources" class="level2" data-number="5.8">
-<h2 data-number="5.8" class="anchored" data-anchor-id="sources"><span class="header-section-number">5.8</span> Sources</h2>
-<p>The argument advanced here originates with the ancient Greek philosopher Epicurus, in his “Letter to Menoeceus” (see <span class="citation" data-cites="long1987a">Long and Sedley (<a href="#ref-long1987a" role="doc-biblioref">1987</a>)</span>). See <span class="citation" data-cites="feldman1994">Feldman (<a href="#ref-feldman1994" role="doc-biblioref">1994</a>)</span> for a more in-depth discussion of philosophical questions about death, and in particular chapter 8 of his book for a defense of the idea that death is bad because it deprives one of good things. The Too Many Thinkers argument in <a href="#sec-too-many-thinkers" class="quarto-xref"><span>Section 5.5</span></a> is drawn from <span class="citation" data-cites="olson2009">Olson (<a href="#ref-olson2009" role="doc-biblioref">2009</a>)</span>. Here are some additional resources:</p>
+<section id="sources-and-resources" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sources-and-resources">Sources and Resources</h2>
+<p>The argument advanced here originates with the ancient Greek philosopher Epicurus, in his “<a href="https://classics.mit.edu/Epicurus/menoec.html">Letter to Menoeceus</a>” (link is to a public domain translation, but translation below is from Long and Sedley):</p>
+<blockquote class="blockquote">
+<p>Accustom yourself to the belief that death is nothing to us. For all good and evil lie in sensation, whereas death is the absence of sensation. Hence a correct understanding that death is nothing to us makes the mortality of life enjoyable, not by adding infinite time, but by ridding us of the desire for immortality. <span class="citation" data-cites="long1987a--74b2ecfa983dee78978473d5b1627d07adb62c0e">(<a href="#ref-long1987a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">Long and Sedley 1987, 149</a>)</span>.</p>
+</blockquote>
+<p>The <em>History of Philosophy without any Gaps</em> podcast has <a href="https://historyofphilosophy.net/podcast/later-antiquity/hellenistic/epicurus-gods-death">an episode on Epicureans on death</a> ( for a text alternative, see <span class="citation" data-cites="adamson2015a--74b2ecfa983dee78978473d5b1627d07adb62c0e">Adamson (<a href="#ref-adamson2015a--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2015</a>, ch.&nbsp;6)</span>.)</p>
+<p>See <span class="citation" data-cites="feldman1994--74b2ecfa983dee78978473d5b1627d07adb62c0e">Feldman (<a href="#ref-feldman1994--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1994</a>)</span> for a more in-depth discussion of philosophical questions about death, and in particular chapter 8 of his book for a defense of the idea that death is bad because it deprives one of good things. The Too Many Thinkers argument in <a href="#sec-too-many-thinkers" class="quarto-xref"><span>Section 4.5</span></a> is drawn from <span class="citation" data-cites="olson2009--74b2ecfa983dee78978473d5b1627d07adb62c0e">Olson (<a href="#ref-olson2009--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2009</a>)</span>.</p>
+<p><em>1000-Word Philosophy</em> offers not one but two articles on the fear of death, <span class="citation" data-cites="purves2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Purves (<a href="#ref-purves2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span> and <span class="citation" data-cites="kaufman2020--74b2ecfa983dee78978473d5b1627d07adb62c0e">Kaufman (<a href="#ref-kaufman2020--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2020</a>)</span>. <span class="citation" data-cites="cholbi2023--74b2ecfa983dee78978473d5b1627d07adb62c0e">Cholbi (<a href="#ref-cholbi2023--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2023</a>)</span> (<em>Philosophy Compass</em>) offers a more in-depth overview. <span class="citation" data-cites="timmerman2017--74b2ecfa983dee78978473d5b1627d07adb62c0e">Timmerman (<a href="#ref-timmerman2017--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2017</a>)</span> (<em>Wireless Philosophy</em>) is an introductory lecture on the topic:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wbQQxRelC_Q" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><span class="citation" data-cites="rowland2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Rowland (<a href="#ref-rowland2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span> (<em>Wireless Philosophy</em>) is a lecture on hedonism:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yJ1dsNauhGE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>For a deeper dive into the issues, <span class="citation" data-cites="kagan2008--74b2ecfa983dee78978473d5b1627d07adb62c0e">Kagan (<a href="#ref-kagan2008--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2008</a>)</span> is the archive of an entire course on the philosophy of death, offered at Yale in Spring 2007, with taped lectures. Here is the first of several lectures on the badness of death:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yJVpJ588ASc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><span class="citation" data-cites="nagel1970--74b2ecfa983dee78978473d5b1627d07adb62c0e">Nagel (<a href="#ref-nagel1970--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1970</a>)</span> is a classic defense of the view that death is bad because it deprives one of future goods. On the possibility of posthumous harm, see <span class="citation" data-cites="grover1989--74b2ecfa983dee78978473d5b1627d07adb62c0e">Grover (<a href="#ref-grover1989--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1989</a>)</span>. On the idea that death is a <em>social</em> harm rather than a harm to the individual who dies, see <span class="citation" data-cites="gruen2014--74b2ecfa983dee78978473d5b1627d07adb62c0e">Gruen (<a href="#ref-gruen2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2014</a>)</span>. For a contemporary defense of the view that fear of future non-existence is irrational, see <span class="citation" data-cites="bradley2015--74b2ecfa983dee78978473d5b1627d07adb62c0e">Bradley (<a href="#ref-bradley2015--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2015</a>)</span>.</p>
+<p>As the Too Many Thinkers argument makes clear, questions about death are closely connected to questions about personal identity. The first half of Kagan’s course on death, linked above, is actually on what it is to be a person. With this in mind, <span class="citation" data-cites="baker2005--74b2ecfa983dee78978473d5b1627d07adb62c0e">Baker (<a href="#ref-baker2005--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2005</a>)</span> explores the relationship between answers to that question and how we might understanding the Christian doctrine of bodily resurrection.</p>
+<p>Worries about death are also closely tied to the desire for immortality. But would immortality actually be a good thing? For a short story on the topic, read <span class="citation" data-cites="borges1962--74b2ecfa983dee78978473d5b1627d07adb62c0e">Borges (<a href="#ref-borges1962--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1962</a>)</span>. For an influential argument against the desirability of immortality, see <span class="citation" data-cites="williams1973b--74b2ecfa983dee78978473d5b1627d07adb62c0e">Williams (<a href="#ref-williams1973b--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">1973</a>)</span>. (And for an overview of that argument, see <span class="citation" data-cites="pereira2020--74b2ecfa983dee78978473d5b1627d07adb62c0e">Pereira (<a href="#ref-pereira2020--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2020</a>)</span> (<em>1000-Word Philosophy</em>). For a challenging article on boredom, mortality, and makes life worth living, see <span class="citation" data-cites="millgram2004--74b2ecfa983dee78978473d5b1627d07adb62c0e">Millgram (<a href="#ref-millgram2004--74b2ecfa983dee78978473d5b1627d07adb62c0e" role="doc-biblioref">2004</a>)</span>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-baker2005" class="csl-entry" role="listitem">
-Baker, Lynne Rudder. 2005. <span>“Death and the Afterlife.”</span> In <em>The Oxford Handbook of Philosophy of Religion</em>, edited by William Wainwright. Oxford University Press.
+<section id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="bibliography--74b2ecfa983dee78978473d5b1627d07adb62c0e">References</h3>
+<div id="refs--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-adamson2015a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Adamson, Peter. 2015. <em>Philosophy in the <span>Hellenistic</span> and <span>Roman</span> <span>Worlds</span></em>. Vol. 2. A History of Philosophy Without Any Gaps. Oxford University Press.
 </div>
-<div id="ref-bradley2015" class="csl-entry" role="listitem">
+<div id="ref-baker2005--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Baker, Lynne Rudder. 2005. <span>“Death and the <span>Afterlife</span>.”</span> In <em>The Oxford Handbook of Philosophy of Religion</em>, edited by William Wainwright. Oxford University Press.
+</div>
+<div id="ref-borges1962--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Borges, Jorge Luis. 1962. <span>“The <span>Immortal</span>.”</span> In <em>Labyrinths: Selected Stories &amp; Other Writings</em>, edited by Donald A. Yates and James E. Irby. New Directions.
+</div>
+<div id="ref-bradley2015--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Bradley, Ben. 2015. <span>“Existential Terror.”</span> <em>The Journal of Ethics</em> 19 (3/4): 409–18. <a href="https://www.jstor.org/stable/43895960">https://www.jstor.org/stable/43895960</a>.
 </div>
-<div id="ref-feldman1994" class="csl-entry" role="listitem">
-Feldman, Fred. 1994. <em>Confrontations with the Reaper: A Philosophical Study of the Nature and Value of Death</em>. Oxford University Press.
+<div id="ref-cholbi2023--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Cholbi, Michael. 2023. <span>“Rationally Facing Death: Fear and Other Alternatives.”</span> <em>Philosophy Compass</em> 18 (6): e12931. <a href="https://doi.org/10.1111/phc3.12931">https://doi.org/10.1111/phc3.12931</a>.
 </div>
-<div id="ref-grover1989" class="csl-entry" role="listitem">
-Grover, Dorothy. 1989. <span>“Posthumous Harm.”</span> <em>The Philosophical Quarterly (1950-)</em> 39 (156): 334–53. <a href="https://doi.org/10.2307/2220175">https://doi.org/10.2307/2220175</a>.
+<div id="ref-feldman1994--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Feldman, Fred. 1994. <em>Confrontations with the <span>Reaper:</span> <span>A</span> <span>Philosophical</span> <span>Study</span> of the <span>Nature</span> and <span>Value</span> of <span>Death</span></em>. Oxford University Press.
 </div>
-<div id="ref-gruen2014" class="csl-entry" role="listitem">
-Gruen, Lori. 2014. <span>“Death as a Social Harm.”</span> <em>Southern Journal of Philosophy</em> 52 (S1): 53–65. <a href="https://doi.org/10.1111/sjp.12064">https://doi.org/10.1111/sjp.12064</a>.
+<div id="ref-grover1989--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Grover, Dorothy. 1989. <span>“Posthumous <span>Harm</span>.”</span> <em>Philosophical Quarterly</em> 39 (156): 334–53. <a href="https://doi.org/10.2307/2220175">https://doi.org/10.2307/2220175</a>.
 </div>
-<div id="ref-kagan2008" class="csl-entry" role="listitem">
-Kagan, Shelly. 2008. <span>“Death.”</span> Open Yale Courses. <a href="https://oyc.yale.edu/death/phil-176">https://oyc.yale.edu/death/phil-176</a>.
+<div id="ref-gruen2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Gruen, Lori. 2014. <span>“Death as a <span>Social</span> <span>Harm</span>.”</span> <em>Southern Journal of Philosophy</em> 52 (S1): 53–65. <a href="https://doi.org/10.1111/sjp.12064">https://doi.org/10.1111/sjp.12064</a>.
 </div>
-<div id="ref-long1987a" class="csl-entry" role="listitem">
-Long, A. A., and D. N. Sedley. 1987. <em>The Hellenistic Philosophers</em>. I. Cambridge University Press.
+<div id="ref-kagan2008--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Kagan, Shelly. 2008. <span>“Death.”</span> <a href="https://oyc.yale.edu/death/phil-176">https://oyc.yale.edu/death/phil-176</a>.
 </div>
-<div id="ref-nagel1970" class="csl-entry" role="listitem">
+<div id="ref-kaufman2020--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Kaufman, Frederik. 2020. <span>“Is Death Bad? <span>Epicurus</span> and <span>Lucretius</span> on the Fear of Death.”</span> <em>1000-Word Philosophy</em>. <a href="https://1000wordphilosophy.com/2020/10/02/is-death-bad/">https://1000wordphilosophy.com/2020/10/02/is-death-bad/</a>.
+</div>
+<div id="ref-long1987a--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Long, A. A., and D. N. Sedley. 1987. <em>The <span>Hellenistic</span> <span>Philosophers</span></em>. I. Cambridge University Press.
+</div>
+<div id="ref-millgram2004--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Millgram, Elijah. 2004. <span>“On <span>Being</span> <span>Bored</span> Out of <span>Your</span> <span>Mind</span>.”</span> <em>Proceedings of the Aristotelian Society</em> 104: 165–86. <a href="https://www.jstor.org/stable/4545411">https://www.jstor.org/stable/4545411</a>.
+</div>
+<div id="ref-nagel1970--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Nagel, Thomas. 1970. <span>“Death.”</span> <em>Noûs</em> 4 (1): 73–80. <a href="https://doi.org/10.2307/2214297">https://doi.org/10.2307/2214297</a>.
 </div>
-<div id="ref-olson2009" class="csl-entry" role="listitem">
+<div id="ref-olson2009--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
 Olson, Eric T. 2009. <span>“An Argument for Animalism.”</span> In <em>Defining the Beginning and End of Life: Readings on Personal Identity and Bioethics</em>, edited by John P. Lizza. Johns Hopkins University Press.
 </div>
-<div id="ref-rowland2014" class="csl-entry" role="listitem">
-Rowland, Richard. 2014. <span>“Hedonism and the Experience Machine.”</span> <em>Wireless Philosophy</em>, September 5. <a href="https://www.wi-phi.com/videos/hedonism-and-the-experience-machine/">https://www.wi-phi.com/videos/hedonism-and-the-experience-machine/</a>.
+<div id="ref-pereira2020--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Pereira, Felipe. 2020. <span>“Is Immortality Desirable?”</span> <em>1000-Word Philosophy</em>, January 23. <a href="https://1000wordphilosophy.com/2020/01/23/is-immortality-desirable/">https://1000wordphilosophy.com/2020/01/23/is-immortality-desirable/</a>.
 </div>
-<div id="ref-timmerman2017" class="csl-entry" role="listitem">
-Timmerman, Travis. 2017. <span>“Symmetry Argument Against the Badness of Death.”</span> <em>Wireless Philosophy</em>, September 1. <a href="https://www.wi-phi.com/videos/symmetry-argument-against-the-badness-of-death/">https://www.wi-phi.com/videos/symmetry-argument-against-the-badness-of-death/</a>.
+<div id="ref-purves2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Purves, Duncan. 2014. <span>“The Badness of Death.”</span> <em>1000-Word Philosophy</em>. <a href="https://1000wordphilosophy.com/2014/05/01/the-badness-of-death/">https://1000wordphilosophy.com/2014/05/01/the-badness-of-death/</a>.
+</div>
+<div id="ref-rowland2014--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Rowland, Richard. 2014. <em>Hedonism and the <span>Experience</span> <span>Machine</span></em>. <a href="https://www.wi-phi.com/videos/hedonism-and-the-experience-machine/">https://www.wi-phi.com/videos/hedonism-and-the-experience-machine/</a>.
+</div>
+<div id="ref-timmerman2017--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Timmerman, Travis. 2017. <em>Symmetry <span>Argument</span> <span>Against</span> the <span>Badness</span> of <span>Death</span></em>. <a href="https://www.wi-phi.com/videos/symmetry-argument-against-the-badness-of-death/">https://www.wi-phi.com/videos/symmetry-argument-against-the-badness-of-death/</a>.
+</div>
+<div id="ref-williams1973b--74b2ecfa983dee78978473d5b1627d07adb62c0e" class="csl-entry" role="listitem">
+Williams, Bernard. 1973. <span>“The <span>Makropulos</span> Case: Reflections on the Tedium of Immortality.”</span> In <em>Problems of the Self - Philosophical Papers 1956-1972</em>. Cambridge University Press.
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1141,12 +1223,12 @@ Timmerman, Travis. 2017. <span>“Symmetry Argument Against the Badness of Death
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./personal-identity.html" class="pagination-link" aria-label="What Makes You You">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What Makes You You</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./no-freedom.html" class="pagination-link" aria-label="No Freedom">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">No Freedom</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
