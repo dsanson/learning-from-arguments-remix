@@ -1,6 +1,6 @@
 # Preface for Students {-}
 
-I'm going to argue that you have no free will. I'm going to argue for some other
+I'm[^1] going to argue that you have no free will. I'm going to argue for some other
 surprising things too, for instance that death isn't bad for you, taxation is
 immoral, and you can't know anything whatsoever about the world around you. I'm
 also going to argue for some things you're probably not going to like: that
@@ -48,10 +48,16 @@ chapters, the central arguments have a long history, and the formulations I use
 can't be credited to any one philosopher in particular. Other chapters, however,
 are more directly indebted to the work of specific contemporary philosophers,
 reproducing the contents of their books and articles (though often with some
-modifications and simplifications). In particular, chapter 7 closely follows the
-opening chapters of @huemer2013a; 
-chapter 8 reproduces the central arguments of @thomson1971 and @marquis1989; and chapter 9 draws
+modifications and simplifications). In particular, chapter @sec-coercion closely follows the
+opening chapters of @huemer2013a;
+@sec-abortion reproduces the central arguments of @thomson1971 and @marquis1989; and @sec-eating-animals draws
 heavily from @lowe2016a and @norcross2004.
+
+<!--
+
+TODO: why are these citations not being processed?
+
+-->
 
 I'm grateful to Jeff Bagwell, Jacob Berger, Matt Davidson, Nikki Evans, Jason
 Fishbein, Bill Hartmann, Colton Heiberg, Will Huesser, İrem Kurtsal, Leo Iacono,
@@ -68,5 +74,11 @@ Perrochet, Rijul Singhal, Austin Tam, Jennifer Vargas, Kerry Wang, and Lilly
 Witonsky. Finally, thanks to Renée Jorgensen for permission to use her portrait
 of the great 20th century philosopher and logician Ruth Barcan Marcus on the
 cover. You can see more of her portraits of philosophers here:
-www.reneebolinger.com/portraits.html
+[www.reneebolinger.com/portraits.html](https://www.reneebolinger.com/portraits.html)
+
+[^1]: The use if the first person 'I' becomes confusing when an open-source
+textbook is hacked up and remixed by someone other than the original author. 
+I (David Sanson) have attempted to resolve this problem. For the most part, it
+should not matter. The acknowledgements at the end of this preface are untouched,
+and should be read as coming from Daniel Korman.
 

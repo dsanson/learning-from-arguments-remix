@@ -21,9 +21,9 @@ If you make improvements or additions, pull requests are always appreciated.
 The cover of Korman's book features a lovely portrait of the philosopher Ruth
 Barcan Marcus, entitled "Converse Formula," by the philosopher and artist [Renée
 Jørgensen](https://www.reneebolinger.com/). You can see the portrait on her
-[Philosophy Portraits page](https://www.reneebolinger.com/portraits.html). I see
+[Philosophy Portraits page](https://www.reneebolinger.com/portraits.html). I (David Sanson) see
 no reason to think that permission to use this painting is included in the CC
-BY-NC license that covers the book. So I have removed it from this hacked up
+BY-NC license that covers the book. So it has been removed from this hacked up
 version.
 
 ![](media/by-nc.png){fig-align="center" width="100" fig-alt="CC BY NC license badge"}
