@@ -35,13 +35,21 @@ book:
   repo-url: https://github.com/dsanson/learning-from-arguments-remix
   repo-actions: [issue, source]
 
-bibliography: [references.json]
-citeproc: true
+bibliography: [references.bib]
+citeproc: false
 reference-location: section
+reference-section-title: References
+section-bibliographies:
+  cleanup-first: true
+  level: 2
+  minlevel: 2
+  bibliography: [references.bib]
 
 filters:
   - label-bullets.lua
   - custom-callout
+  - quarto
+  - section-bibliographies
 
 custom-callout:
   argument:
@@ -87,4 +95,4 @@ format:
     css: epub.css
 
   typst:
-    citeproc: true
+    citeproc: false
