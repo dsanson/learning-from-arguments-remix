@@ -65,6 +65,68 @@
     "URL": "https://philosophybites.com/podcast/marilyn-mccord-adams-on-evil/"
   },
   {
+    "id": "adamson2015a",
+    "author": [
+      {
+        "family": "Adamson",
+        "given": "Peter"
+      }
+    ],
+    "citation-key": "adamson2015a",
+    "collection-title": "A History of Philosophy without any gaps",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "title": "Philosophy in the Hellenistic and Roman Worlds",
+    "type": "book",
+    "volume": "2"
+  },
+  {
+    "id": "al-ghazali2005",
+    "author": [
+      {
+        "literal": "al-Ghazālī"
+      }
+    ],
+    "call-number": "B753.G33 K413 2005",
+    "citation-key": "al-ghazali2005",
+    "issued": {
+      "date-parts": [
+        [
+          "2005"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "note": "OCLC: 70284207",
+    "number-of-pages": "2",
+    "original-date": {
+      "circa": true,
+      "date-parts": [
+        [
+          "1105"
+        ]
+      ]
+    },
+    "publisher": "Great Books of the Islamic World",
+    "publisher-place": "Chicago, IL",
+    "source": "opac.agakhanlibrary.org",
+    "title": "The alchemy of happiness",
+    "translator": [
+      {
+        "family": "Crook",
+        "given": "Jay R."
+      }
+    ],
+    "type": "book"
+  },
+  {
     "id": "alam2017",
     "author": [
       {
@@ -84,8 +146,8 @@
         ]
       ]
     },
+    "language": "en-US",
     "page": "9–30",
-    "publisher": "Islamic Research Institute, International Islamic University, Islamabad",
     "source": "JSTOR",
     "title": "Pragmatic Arguments for Belief in the Qur’ān",
     "type": "article-journal",
@@ -146,6 +208,91 @@
     "URL": "https://allanimalsaustralia.wordpress.com/2014/11/12/debunking-ordering-the-vegetarian-meal-theres-more-animal-blood-on-your-hands/"
   },
   {
+    "id": "alvarez2009",
+    "author": [
+      {
+        "family": "Alvarez",
+        "given": "Maria"
+      }
+    ],
+    "citation-key": "alvarez2009",
+    "container-title": "Australasian Journal of Philosophy",
+    "container-title-short": "Australas. J. Philos.",
+    "DOI": "10.1080/00048400802215505",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "2009"
+        ]
+      ]
+    },
+    "page": "61–68",
+    "source": "PhilArchive",
+    "title": "Actions, thought-experiments and the 'principle of alternate possibilities'",
+    "title-short": "Actions, Thought-Experiments and the ?",
+    "type": "article-journal",
+    "URL": "https://philarchive.org/rec/ALVATA",
+    "volume": "87"
+  },
+  {
+    "id": "anderson2004",
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "anderson2004",
+    "container-title": "Animal rights: current debates and new directions",
+    "editor": [
+      {
+        "family": "Sunstein",
+        "given": "Cass R."
+      },
+      {
+        "family": "Nussbaum",
+        "given": "Martha Craven"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "PhilPapers",
+    "title": "Animal Rights and the Values of Nonhuman Life",
+    "type": "chapter"
+  },
+  {
+    "id": "anderson2014a",
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "Luvell"
+      }
+    ],
+    "citation-key": "anderson2014a",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          6,
+          17
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "The Original Position",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/the-original-position/"
+  },
+  {
     "id": "antony2007",
     "author": [
       {
@@ -201,6 +348,226 @@
     "URL": "http://theconversation.com/ordering-the-vegetarian-meal-theres-more-animal-blood-on-your-hands-4659"
   },
   {
+    "id": "arntzenius2004a",
+    "author": [
+      {
+        "family": "Arntzenius",
+        "given": "Frank"
+      },
+      {
+        "family": "Elga",
+        "given": "Adam"
+      },
+      {
+        "family": "Hawthorne",
+        "given": "John"
+      }
+    ],
+    "citation-key": "arntzenius2004a",
+    "container-title": "Mind",
+    "DOI": "10.1093/mind/113.450.251",
+    "ISSN": "0026-4423",
+    "issue": "450",
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    },
+    "page": "251–283",
+    "source": "JSTOR",
+    "title": "Bayesianism, infinite decisions, and binding",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/3489134",
+    "volume": "113"
+  },
+  {
+    "id": "asinpalacios1920",
+    "author": [
+      {
+        "family": "Asín Palacios",
+        "given": "Miguel"
+      }
+    ],
+    "citation-key": "asinpalacios1920",
+    "issued": {
+      "date-parts": [
+        [
+          "1920"
+        ]
+      ]
+    },
+    "language": "es",
+    "source": "www.cervantesvirtual.com",
+    "title": "Los precedentes Musulmanes del «pari» de Pascal",
+    "type": "article-journal",
+    "URL": "https://www.cervantesvirtual.com/obra/los-precedentes-musulmanes-del-pari-de-pascal-973348/"
+  },
+  {
+    "id": "ayer1954",
+    "author": [
+      {
+        "family": "Ayer",
+        "given": "Alfred"
+      }
+    ],
+    "citation-key": "ayer1954",
+    "container-title": "Philosophical essays",
+    "issued": {
+      "date-parts": [
+        [
+          "1954"
+        ]
+      ]
+    },
+    "page": "271–284",
+    "publisher": "Greenwood Press",
+    "source": "PhilPapers",
+    "title": "Freedom and Necessity",
+    "type": "chapter"
+  },
+  {
+    "id": "baker2005",
+    "author": [
+      {
+        "family": "Baker",
+        "given": "Lynne Rudder"
+      }
+    ],
+    "citation-key": "baker2005",
+    "container-title": "The Oxford handbook of philosophy of religion",
+    "editor": [
+      {
+        "family": "Wainwright",
+        "given": "William"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2005"
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "source": "PhilPapers",
+    "title": "Death and the Afterlife",
+    "type": "chapter"
+  },
+  {
+    "id": "boonin2003",
+    "author": [
+      {
+        "family": "Boonin",
+        "given": "David"
+      }
+    ],
+    "call-number": "HQ767.15 .B66 2003",
+    "citation-key": "boonin2003",
+    "collection-title": "Cambridge studies in philosophy and public policy",
+    "ISBN": "978-0-521-81701-1 978-0-521-52035-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "number-of-pages": "350",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge, UK ; New York",
+    "source": "Library of Congress ISBN",
+    "title": "A defense of abortion",
+    "type": "book"
+  },
+  {
+    "id": "boonin2008",
+    "author": [
+      {
+        "family": "Boonin",
+        "given": "David"
+      }
+    ],
+    "citation-key": "boonin2008",
+    "ISBN": "978-0-511-81925-4 978-0-511-38833-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "1",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge New York",
+    "source": "K10plus ISBN",
+    "title": "The problem of punishment",
+    "type": "book"
+  },
+  {
+    "id": "boonin2019",
+    "author": [
+      {
+        "family": "Boonin",
+        "given": "David"
+      }
+    ],
+    "call-number": "HQ767.15 .B658 2019",
+    "citation-key": "boonin2019",
+    "ISBN": "978-0-19-090484-5 978-0-19-090483-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "number-of-pages": "212",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York, NY",
+    "source": "Library of Congress ISBN",
+    "title": "Beyond roe: why abortion should be legal--even if the fetus is a person",
+    "title-short": "Beyond roe",
+    "type": "book"
+  },
+  {
+    "id": "borges1962",
+    "author": [
+      {
+        "family": "Borges",
+        "given": "Jorge Luis"
+      }
+    ],
+    "citation-key": "borges1962",
+    "container-title": "Labyrinths: selected stories & other writings",
+    "editor": [
+      {
+        "family": "Yates",
+        "given": "Donald A."
+      },
+      {
+        "family": "Irby",
+        "given": "James E."
+      }
+    ],
+    "ISBN": "978-0-8112-1699-9",
+    "issued": {
+      "date-parts": [
+        [
+          "1962"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "publisher": "New Directions",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "The Immortal",
+    "type": "chapter"
+  },
+  {
     "id": "bostrom2009",
     "author": [
       {
@@ -230,6 +597,61 @@
     "volume": "69"
   },
   {
+    "id": "boyle2020",
+    "author": [
+      {
+        "family": "Boyle",
+        "given": "Alexandria"
+      }
+    ],
+    "citation-key": "boyle2020",
+    "container-title": "Philosophical Studies",
+    "container-title-short": "Philos. Stud.",
+    "DOI": "10.1007/s11098-019-01316-x",
+    "issue": "8",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "page": "2395–2415",
+    "publisher": "Springer Verlag",
+    "source": "PhilPapers",
+    "title": "Conjoined Twinning & Biological Individuation",
+    "type": "article-journal",
+    "volume": "177"
+  },
+  {
+    "id": "bradley2015",
+    "author": [
+      {
+        "family": "Bradley",
+        "given": "Ben"
+      }
+    ],
+    "citation-key": "bradley2015",
+    "container-title": "The Journal of Ethics",
+    "container-title-short": "J. Ethics",
+    "ISSN": "1382-4554",
+    "issue": "3/4",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "page": "409–418",
+    "publisher": "Springer",
+    "source": "JSTOR",
+    "title": "Existential terror",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/43895960",
+    "volume": "19"
+  },
+  {
     "id": "breyer2019",
     "citation-key": "breyer2019",
     "director": [
@@ -249,6 +671,46 @@
     "title": "Understanding the dark side of human nature",
     "type": "motion_picture",
     "URL": "https://shop.thegreatcourses.com/understanding-the-dark-side-of-human-nature"
+  },
+  {
+    "id": "brown2026",
+    "author": [
+      {
+        "family": "Brown",
+        "given": "James Robert"
+      },
+      {
+        "family": "Fehige",
+        "given": "Yiftach"
+      }
+    ],
+    "citation-key": "brown2026",
+    "container-title": "The stanford encyclopedia of philosophy",
+    "edition": "Summer 2026",
+    "editor": [
+      {
+        "family": "Zalta",
+        "given": "Edward N."
+      },
+      {
+        "family": "Nodelman",
+        "given": "Uri"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "note": "titleTranslation: Thought experiments",
+    "publisher": "Metaphysics Research Lab, Stanford University",
+    "source": "Stanford Encyclopedia of Philosophy",
+    "title": "Thought experiments",
+    "type": "chapter",
+    "URL": "https://plato.stanford.edu/archives/sum2026/entrieshought-experiment/"
   },
   {
     "id": "buchak2018",
@@ -294,8 +756,221 @@
     "publisher-place": "New York",
     "source": "Library of Congress ISBN",
     "title": "When is faith rational?",
-    "type": "chapter",
-    "URL": "zotero://open-pdf/library/items/6QKTAHRK?page=170&annotation=D83AV4Z2"
+    "type": "chapter"
+  },
+  {
+    "id": "callahan1986",
+    "author": [
+      {
+        "family": "Callahan",
+        "given": "Sydney"
+      }
+    ],
+    "citation-key": "callahan1986",
+    "container-title": "Commonweal",
+    "issued": {
+      "date-parts": [
+        [
+          "1986",
+          4,
+          25
+        ]
+      ]
+    },
+    "page": "232–238",
+    "title": "Abortion and the sexual agenda: A case for pro-life feminism",
+    "type": "article-magazine",
+    "volume": "113"
+  },
+  {
+    "id": "camp2016",
+    "author": [
+      {
+        "family": "Camp",
+        "given": "Elisabeth"
+      }
+    ],
+    "citation-key": "camp2016",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          2,
+          5
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Personal Identity (The Narrative Self)",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/personal-identity-the-narrative-self/"
+  },
+  {
+    "id": "campbell2016",
+    "author": [
+      {
+        "family": "Campbell",
+        "given": "Tim"
+      },
+      {
+        "family": "McMahan",
+        "given": "Jeff"
+      }
+    ],
+    "citation-key": "campbell2016",
+    "container-title": "Animalism: new essays on persons, animals, and identity",
+    "editor": [
+      {
+        "family": "Blatti",
+        "given": "Stephan"
+      },
+      {
+        "family": "Snowdon",
+        "given": "Paul F."
+      }
+    ],
+    "ISBN": "978-0-19-960875-1 978-0-19-108343-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "229--252",
+    "publisher": "Oxford University Press USA - OSO",
+    "publisher-place": "Oxford",
+    "source": "K10plus ISBN",
+    "title": "Animalism and the varieties of conjoined twinning",
+    "type": "chapter"
+  },
+  {
+    "id": "carritt1947",
+    "author": [
+      {
+        "family": "Carritt",
+        "given": "E. F."
+      }
+    ],
+    "citation-key": "carritt1947",
+    "issued": {
+      "date-parts": [
+        [
+          "1947"
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "title": "Ethical and political thinking",
+    "type": "book"
+  },
+  {
+    "id": "caruso2014",
+    "author": [
+      {
+        "family": "Caruso",
+        "given": "Gregg"
+      }
+    ],
+    "citation-key": "caruso2014",
+    "event-title": "TEDx Chemung River",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          12,
+          9
+        ]
+      ]
+    },
+    "title": "The dark side of free will",
+    "type": "speech",
+    "URL": "https://www.youtube.com/watch?v=rfOMqehl-ZA"
+  },
+  {
+    "id": "casati2008i",
+    "author": [
+      {
+        "family": "Casati",
+        "given": "Roberto"
+      },
+      {
+        "family": "Varzi",
+        "given": "Achille C"
+      }
+    ],
+    "citation-key": "casati2008i",
+    "container-title": "Insurmountable simplicities: thirty-nine philosophical conundrums",
+    "ISBN": "978-0-231-13723-2 0-231-13723-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "language": "translated from the italian.",
+    "publisher": "Columbia University Press",
+    "publisher-place": "New York; Chichester",
+    "title": "Partial amnesia",
+    "type": "chapter"
+  },
+  {
+    "id": "casati2008j",
+    "author": [
+      {
+        "family": "Casati",
+        "given": "Roberto"
+      },
+      {
+        "family": "Varzi",
+        "given": "Achille C"
+      }
+    ],
+    "citation-key": "casati2008j",
+    "container-title": "Insurmountable simplicities: thirty-nine philosophical conundrums",
+    "ISBN": "978-0-231-13723-2 0-231-13723-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "language": "translated from the italian.",
+    "publisher": "Columbia University Press",
+    "publisher-place": "New York; Chichester",
+    "title": "Person transplant",
+    "type": "chapter"
+  },
+  {
+    "id": "chapman2014",
+    "author": [
+      {
+        "family": "Chapman",
+        "given": "Andrew"
+      }
+    ],
+    "citation-key": "chapman2014",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          2,
+          6
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "External world skepticism",
+    "title-short": "External World Skepticism - 1000-Word Philosophy",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2014/02/06/external-world-skepticism/"
   },
   {
     "id": "chiang2002a",
@@ -319,8 +994,71 @@
     "note": "Item ID: _:n1",
     "publisher": "Tor",
     "title": "Hell is the Absence of God",
-    "type": "chapter",
-    "URL": "zotero://open-pdf/library/items/3SRAMB9D?page=NaN&annotation=BFHRT3NI"
+    "type": "chapter"
+  },
+  {
+    "id": "chignell2016",
+    "call-number": "TX357 .P525 2016",
+    "citation-key": "chignell2016",
+    "editor": [
+      {
+        "family": "Chignell",
+        "given": "Andrew"
+      },
+      {
+        "family": "Cuneo",
+        "given": "Terence"
+      },
+      {
+        "family": "Halteman",
+        "given": "Matthew C."
+      }
+    ],
+    "ISBN": "978-0-415-80682-4 978-0-415-80683-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
+    },
+    "number-of-pages": "299",
+    "publisher": "Routledge-Taylor & Francis",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "Philosophy comes to dinner: arguments on the ethics of eating",
+    "title-short": "Philosophy comes to dinner",
+    "type": "book"
+  },
+  {
+    "id": "cholbi2023",
+    "author": [
+      {
+        "family": "Cholbi",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "cholbi2023",
+    "container-title": "Philosophy Compass",
+    "container-title-short": "Philos. Compass",
+    "DOI": "10.1111/phc3.12931",
+    "ISSN": "1747-9991",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "e12931",
+    "source": "Wiley Online Library",
+    "title": "Rationally facing death: fear and other alternatives",
+    "title-short": "Rationally Facing Death",
+    "type": "article-journal",
+    "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/phc3.12931",
+    "volume": "18"
   },
   {
     "id": "clack2013",
@@ -351,6 +1089,235 @@
     "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118608005.ch22"
   },
   {
+    "id": "coetzee2003",
+    "call-number": "B5305 .A375 2003",
+    "citation-key": "coetzee2003",
+    "edition": "2nd ed",
+    "editor": [
+      {
+        "family": "Coetzee",
+        "given": "P. H."
+      },
+      {
+        "family": "Roux",
+        "given": "A. P. J."
+      }
+    ],
+    "ISBN": "978-0-415-96809-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "number-of-pages": "667",
+    "publisher": "Routledge",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "The African philosophy reader: a text with readings",
+    "title-short": "The African philosophy reader",
+    "type": "book"
+  },
+  {
+    "id": "crashcourse2016",
+    "citation-key": "crashcourse2016",
+    "dimensions": "8:32",
+    "director": [
+      {
+        "literal": "CrashCourse"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          6,
+          27
+        ]
+      ]
+    },
+    "source": "YouTube",
+    "title": "Personal Identity: Crash Course Philosophy #19",
+    "title-short": "Personal Identity",
+    "type": "motion_picture",
+    "URL": "https://www.youtube.com/watch?v=trqDnLNRuSc"
+  },
+  {
+    "id": "crashcourse2016a",
+    "citation-key": "crashcourse2016a",
+    "dimensions": "10:01",
+    "director": [
+      {
+        "literal": "CrashCourse"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          11,
+          21
+        ]
+      ]
+    },
+    "source": "YouTube",
+    "title": "Utilitarianism: Crash Course Philosophy #36",
+    "title-short": "Utilitarianism",
+    "type": "motion_picture",
+    "URL": "https://www.youtube.com/watch?v=-a739VjqdSI"
+  },
+  {
+    "id": "cudd1990",
+    "author": [
+      {
+        "family": "Cudd",
+        "given": "Ann E."
+      }
+    ],
+    "citation-key": "cudd1990",
+    "container-title": "Philosophical Studies",
+    "container-title-short": "Philos. Stud.",
+    "DOI": "10.1007/bf00370976",
+    "issue": "1–2",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "page": "47–59",
+    "publisher": "Springer",
+    "source": "PhilPapers",
+    "title": "Enforced Pregnancy, Rape, and the Image of Woman",
+    "type": "article-journal",
+    "volume": "60"
+  },
+  {
+    "id": "darrow1902",
+    "author": [
+      {
+        "family": "Darrow",
+        "given": "Clarence"
+      }
+    ],
+    "citation-key": "darrow1902",
+    "issued": {
+      "date-parts": [
+        [
+          "1902"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "20",
+    "publisher": "Charles H. Kerr and Company",
+    "publisher-place": "Chicago",
+    "source": "Internet Archive",
+    "title": "Crime and criminals: an address delivered to the prisoners in the Chicago county jail",
+    "title-short": "Crime and Criminals",
+    "type": "book",
+    "URL": "http://archive.org/details/2917176.0001.001.umich.edu"
+  },
+  {
+    "id": "darrow1929",
+    "author": [
+      {
+        "family": "Darrow",
+        "given": "Clarence"
+      }
+    ],
+    "citation-key": "darrow1929",
+    "issued": {
+      "date-parts": [
+        [
+          "1929"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "38",
+    "publisher": "Haldeman-Julius Publications",
+    "publisher-place": "Girard, Kansas",
+    "source": "Internet Archive",
+    "title": "The myth of the soul",
+    "type": "book",
+    "URL": "http://archive.org/details/mythofsoul1404darr"
+  },
+  {
+    "id": "dellarocca2014",
+    "author": [
+      {
+        "family": "Della Rocca",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "dellarocca2014",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          8,
+          29
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Locke on Personal Identity Part 1",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/locke-on-personal-identity-part-1/"
+  },
+  {
+    "id": "dellarocca2014a",
+    "author": [
+      {
+        "family": "Della Rocca",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "dellarocca2014a",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          8,
+          29
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Locke on Personal Identity Part 2",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/locke-on-personal-identity-part-2/"
+  },
+  {
+    "id": "dellarocca2014b",
+    "author": [
+      {
+        "family": "Della Rocca",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "dellarocca2014b",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          8,
+          29
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Locke on Personal Identity Part 3",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/locke-on-personal-identity-part-3/"
+  },
+  {
     "id": "demarest2016",
     "author": [
       {
@@ -378,6 +1345,185 @@
     "type": "article-journal",
     "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/phpr.12192",
     "volume": "93"
+  },
+  {
+    "id": "dennett1978",
+    "author": [
+      {
+        "family": "Dennett",
+        "given": "Daniel C."
+      }
+    ],
+    "citation-key": "dennett1978",
+    "container-title": "Brainstorms",
+    "issued": {
+      "date-parts": [
+        [
+          "1978"
+        ]
+      ]
+    },
+    "publisher": "MIT Press",
+    "source": "PhilPapers",
+    "title": "Where Am I?",
+    "type": "chapter"
+  },
+  {
+    "id": "descartes1996a",
+    "author": [
+      {
+        "family": "Descartes",
+        "given": "René"
+      }
+    ],
+    "citation-key": "descartes1996a",
+    "editor": [
+      {
+        "family": "Cottingham",
+        "given": "John"
+      }
+    ],
+    "ISBN": "0-521-55252-4 978-0-521-55252-3 0-521-55818-2 978-0-521-55818-1",
+    "issued": {
+      "date-parts": [
+        [
+          "1996"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "original-date": {
+      "date-parts": [
+        [
+          "1641"
+        ]
+      ]
+    },
+    "publisher": "Cambridge University Press",
+    "publisher-place": "New York",
+    "title": "Meditations on first philosophy",
+    "type": "book"
+  },
+  {
+    "id": "devine2023",
+    "author": [
+      {
+        "family": "Devine",
+        "given": "John William"
+      },
+      {
+        "family": "Lopez Frias",
+        "given": "Francisco Javier"
+      }
+    ],
+    "citation-key": "devine2023",
+    "container-title": "The stanford encyclopedia of philosophy",
+    "edition": "Fall 2023",
+    "editor": [
+      {
+        "family": "Zalta",
+        "given": "Edward N."
+      },
+      {
+        "family": "Nodelman",
+        "given": "Uri"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    },
+    "publisher": "Metaphysics Research Lab, Stanford University",
+    "source": "Stanford Encyclopedia of Philosophy",
+    "title": "Philosophy of sport",
+    "type": "chapter",
+    "URL": "https://plato.stanford.edu/archives/fall2023/entries/sport/"
+  },
+  {
+    "id": "dholbach1868",
+    "author": [
+      {
+        "family": "D'Holbach",
+        "given": "Baron"
+      }
+    ],
+    "citation-key": "dholbach1868",
+    "issued": {
+      "date-parts": [
+        [
+          "1868"
+        ]
+      ]
+    },
+    "original-date": {
+      "date-parts": [
+        [
+          "1790"
+        ]
+      ]
+    },
+    "title": "The System of Nature OR Laws of the Moral and Physical World",
+    "translator": [
+      {
+        "family": "Robinson",
+        "given": "H. D."
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "id": "diamond1978",
+    "author": [
+      {
+        "family": "Diamond",
+        "given": "Cora"
+      }
+    ],
+    "citation-key": "diamond1978",
+    "container-title": "Philosophy",
+    "ISSN": "0031-8191",
+    "issue": "206",
+    "issued": {
+      "date-parts": [
+        [
+          "1978"
+        ]
+      ]
+    },
+    "page": "465–479",
+    "publisher": "Cambridge University Press",
+    "source": "JSTOR",
+    "title": "Eating Meat and Eating People",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/3749876",
+    "volume": "53"
+  },
+  {
+    "id": "doggett2014",
+    "author": [
+      {
+        "family": "Doggett",
+        "given": "Tyler"
+      }
+    ],
+    "citation-key": "doggett2014",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          7,
+          24
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Killing Animals for Food",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/killing-animals-for-food/"
   },
   {
     "id": "donaldson2013",
@@ -462,11 +1608,66 @@
       ]
     },
     "page": "95–110",
-    "publisher": "Grand Rapids, MI",
-    "publisher-place": "Wm B. Eerdmans",
+    "publisher": "Wm B. Eerdmans",
+    "publisher-place": "Grand Rapids, MI",
     "source": "PhilPapers",
     "title": "Suffering as religious experience",
     "type": "chapter"
+  },
+  {
+    "id": "engel2019",
+    "author": [
+      {
+        "family": "Engel",
+        "given": "Mylan"
+      }
+    ],
+    "citation-key": "engel2019",
+    "container-title": "Between the Species",
+    "container-title-short": "Species",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          4,
+          1
+        ]
+      ]
+    },
+    "source": "COinS",
+    "title": "Fishy Reasoning and the Ethics of Eating",
+    "type": "article-journal",
+    "URL": "https://digitalcommons.calpoly.edu/bts/vol23/iss1/3",
+    "volume": "23"
+  },
+  {
+    "id": "english1975",
+    "author": [
+      {
+        "family": "English",
+        "given": "Jane"
+      }
+    ],
+    "citation-key": "english1975",
+    "container-title": "Canadian Journal of Philosophy",
+    "container-title-short": "Can. J. Philos.",
+    "ISSN": "0045-5091",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "page": "233–243",
+    "publisher": "[Taylor & Francis, Ltd., Canadian Journal of Philosophy]",
+    "source": "JSTOR",
+    "title": "Abortion and the Concept of a Person",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/40230568",
+    "volume": "5"
   },
   {
     "id": "feldman1994",
@@ -495,6 +1696,41 @@
     "type": "book"
   },
   {
+    "id": "fischer2024",
+    "author": [
+      {
+        "family": "Fischer",
+        "given": "John Martin"
+      },
+      {
+        "family": "Kane",
+        "given": "Robert H."
+      },
+      {
+        "family": "Pereboom",
+        "given": "Derk"
+      },
+      {
+        "family": "Vargas",
+        "given": "Manuel"
+      }
+    ],
+    "citation-key": "fischer2024",
+    "edition": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
+    },
+    "publisher": "Wiley",
+    "publisher-place": "Hoboken, NJ",
+    "source": "PhilPapers",
+    "title": "Four Views on Free Will",
+    "type": "book"
+  },
+  {
     "id": "foot1967",
     "author": [
       {
@@ -518,6 +1754,28 @@
     "type": "article-journal",
     "URL": "https://philarchive.org/rec/FOOTPO-2",
     "volume": "5"
+  },
+  {
+    "id": "fosterwallace2004",
+    "author": [
+      {
+        "family": "Foster Wallace",
+        "given": "David"
+      }
+    ],
+    "citation-key": "fosterwallace2004",
+    "container-title": "Gourmet",
+    "issued": {
+      "date-parts": [
+        [
+          "2004",
+          8
+        ]
+      ]
+    },
+    "title": "Consider the Lobster",
+    "type": "article-magazine",
+    "URL": "http://www.gourmet.com.s3-website-us-east-1.amazonaws.com/magazine/2000s/2004/08/consider_the_lobster.html"
   },
   {
     "id": "frances2013",
@@ -554,6 +1812,7 @@
     "citation-key": "frankfurt1964a",
     "container-title": "Philosophical Review",
     "container-title-short": "Philos. Rev.",
+    "DOI": "10.2307/2183341",
     "issue": "2",
     "issued": {
       "date-parts": [
@@ -565,6 +1824,7 @@
     "page": "262–263",
     "title": "The logic of omnipotence",
     "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2183341",
     "volume": "73"
   },
   {
@@ -592,6 +1852,34 @@
     "title": "Alternate Possibilities and Moral Responsibility",
     "type": "article-journal",
     "volume": "66"
+  },
+  {
+    "id": "frede2011a",
+    "author": [
+      {
+        "family": "Frede",
+        "given": "Michael"
+      },
+      {
+        "family": "Long",
+        "given": "A. A."
+      }
+    ],
+    "citation-key": "frede2011a",
+    "edition": "1",
+    "ISBN": "978-0-520-94837-2",
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    },
+    "publisher": "University of California Press",
+    "publisher-place": "Berkeley",
+    "title": "A free will : origins of the notion in ancient thought",
+    "title-short": "A free will",
+    "type": "book"
   },
   {
     "id": "fumerton1995",
@@ -645,6 +1933,285 @@
     "type": "book"
   },
   {
+    "id": "gilbert2006",
+    "author": [
+      {
+        "family": "Gilbert",
+        "given": "Margaret"
+      }
+    ],
+    "call-number": "JC329.5 .G55 2006",
+    "citation-key": "gilbert2006",
+    "ISBN": "978-0-19-927495-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2006"
+        ]
+      ]
+    },
+    "number-of-pages": "332",
+    "publisher": "Clarendon Press ; Oxford University Press",
+    "publisher-place": "Oxford : New York",
+    "source": "Library of Congress ISBN",
+    "title": "A theory of political obligation: membership, commitment, and the bonds of society",
+    "title-short": "A theory of political obligation",
+    "type": "book"
+  },
+  {
+    "id": "gonzalez2015",
+    "citation-key": "gonzalez2015",
+    "container-title": "Bojack Horseman",
+    "director": [
+      {
+        "family": "Gonzalez",
+        "given": "J.C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          7,
+          17
+        ]
+      ]
+    },
+    "number": "S02E05",
+    "publisher": "Netflix",
+    "title": "Chickens",
+    "type": "broadcast",
+    "URL": "https://youtu.be/y4xytsouUYo"
+  },
+  {
+    "id": "greco2014",
+    "author": [
+      {
+        "family": "Greco",
+        "given": "Daniel"
+      }
+    ],
+    "citation-key": "greco2014",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          11,
+          28
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Hume’s Skepticism Part 2",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/humes-skepticism-part-2/"
+  },
+  {
+    "id": "greco2014a",
+    "author": [
+      {
+        "family": "Greco",
+        "given": "Daniel"
+      }
+    ],
+    "citation-key": "greco2014a",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          11,
+          20
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Hume’s Skepticism Part 1",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/humes-skepticism-part-1/"
+  },
+  {
+    "id": "griffith2022",
+    "author": [
+      {
+        "family": "Griffith",
+        "given": "Meghan"
+      }
+    ],
+    "call-number": "BJ1461",
+    "citation-key": "griffith2022",
+    "edition": "2",
+    "ISBN": "978-0-429-02748-2",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "number-of-pages": "1",
+    "publisher": "Routledge",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "Free will: the basics",
+    "title-short": "Free will",
+    "type": "book"
+  },
+  {
+    "id": "grover1989",
+    "author": [
+      {
+        "family": "Grover",
+        "given": "Dorothy"
+      }
+    ],
+    "citation-key": "grover1989",
+    "container-title": "Philosophical Quarterly",
+    "container-title-short": "Philos. Q.",
+    "DOI": "10.2307/2220175",
+    "ISSN": "0031-8094",
+    "issue": "156",
+    "issued": {
+      "date-parts": [
+        [
+          "1989"
+        ]
+      ]
+    },
+    "page": "334–353",
+    "source": "JSTOR",
+    "title": "Posthumous Harm",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2220175",
+    "volume": "39"
+  },
+  {
+    "id": "gruen2011",
+    "author": [
+      {
+        "family": "Gruen",
+        "given": "Lori"
+      }
+    ],
+    "citation-key": "gruen2011",
+    "ISBN": "978-0-511-97616-2 978-0-511-99113-4 978-0-511-99314-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "1",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "K10plus ISBN",
+    "title": "Ethics and animals: an introduction",
+    "title-short": "Ethics and animals",
+    "type": "book"
+  },
+  {
+    "id": "gruen2014",
+    "author": [
+      {
+        "family": "Gruen",
+        "given": "Lori"
+      }
+    ],
+    "citation-key": "gruen2014",
+    "container-title": "Southern Journal of Philosophy",
+    "container-title-short": "South. J. Philos.",
+    "DOI": "10.1111/sjp.12064",
+    "issue": "S1",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "page": "53–65",
+    "publisher": "Wiley-Blackwell",
+    "source": "PhilPapers",
+    "title": "Death as a Social Harm",
+    "type": "article-journal",
+    "volume": "52"
+  },
+  {
+    "id": "gyekye1978",
+    "author": [
+      {
+        "family": "Gyekye",
+        "given": "Kwame"
+      }
+    ],
+    "citation-key": "gyekye1978",
+    "container-title": "International Philosophical Quarterly",
+    "container-title-short": "Int. Philos. Q.",
+    "DOI": "10.5840/ipq197818329",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1978",
+          8,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "277–287",
+    "source": "www.pdcnet.org",
+    "title": "The Akan concept of a person",
+    "type": "article-journal",
+    "URL": "https://www.pdcnet.org/pdc/bvdb.nsf/purchase?openform&fp=ipq&id=ipq_1978_0018_0003_0277_0287",
+    "volume": "18"
+  },
+  {
+    "id": "gyekye1984",
+    "author": [
+      {
+        "family": "Gyekye",
+        "given": "Kwame"
+      }
+    ],
+    "citation-key": "gyekye1984",
+    "container-title": "African philosophy: an introduction",
+    "edition": "3",
+    "editor": [
+      {
+        "family": "Wright",
+        "given": "Richard A."
+      }
+    ],
+    "ISBN": "978-0-8191-3785-2",
+    "issued": {
+      "date-parts": [
+        [
+          "1984",
+          1,
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "original-date": {
+      "date-parts": [
+        [
+          "1978"
+        ]
+      ]
+    },
+    "original-publisher": "International Philosophical Quarterly",
+    "publisher": "University Press of America",
+    "publisher-place": "New York",
+    "source": "Google Books",
+    "title": "Akan Concept of a Person",
+    "type": "chapter"
+  },
+  {
     "id": "haack2007",
     "author": [
       {
@@ -670,6 +2237,270 @@
     "source": "Gemeinsamer Bibliotheksverbund ISBN",
     "title": "Philosophy of logics",
     "type": "book"
+  },
+  {
+    "id": "hajek2015",
+    "author": [
+      {
+        "family": "Hájek",
+        "given": "Alan"
+      }
+    ],
+    "citation-key": "hajek2015",
+    "container-title": "The Norton Introduction To Philosophy",
+    "editor": [
+      {
+        "family": "Rosen",
+        "given": "Gideon"
+      },
+      {
+        "family": "Byrne",
+        "given": "Alex"
+      },
+      {
+        "family": "Cohen",
+        "given": "Joshua"
+      },
+      {
+        "family": "Shiffrin",
+        "given": "Seana Valentine"
+      }
+    ],
+    "ISBN": "978-0-393-93220-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "page": "65--75",
+    "publisher": "W. W. Norton & Company",
+    "title": "Pascal's ultimate gamble",
+    "type": "chapter"
+  },
+  {
+    "id": "hampton1984",
+    "author": [
+      {
+        "family": "Hampton",
+        "given": "Jean"
+      }
+    ],
+    "citation-key": "hampton1984",
+    "container-title": "Philosophy & Public Affairs",
+    "container-title-short": "Philos. Public Aff.",
+    "ISSN": "0048-3915",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1984"
+        ]
+      ]
+    },
+    "page": "208–238",
+    "publisher": "Wiley",
+    "source": "JSTOR",
+    "title": "The moral education theory of punishment",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2265412",
+    "volume": "13"
+  },
+  {
+    "id": "hampton1997",
+    "author": [
+      {
+        "family": "Hampton",
+        "given": "Jean"
+      }
+    ],
+    "call-number": "JA71 .H275 1997",
+    "citation-key": "hampton1997",
+    "collection-title": "Dimensions of philosophy series",
+    "ISBN": "978-0-8133-0857-9 978-0-8133-0858-6",
+    "issued": {
+      "date-parts": [
+        [
+          "1997"
+        ]
+      ]
+    },
+    "number-of-pages": "272",
+    "publisher": "Westview Press",
+    "publisher-place": "Boulder, Colo",
+    "source": "Library of Congress ISBN",
+    "title": "Political philosophy",
+    "type": "book"
+  },
+  {
+    "id": "harman1999",
+    "author": [
+      {
+        "family": "Harman",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "harman1999",
+    "container-title": "Philosophy and Public Affairs",
+    "container-title-short": "Philos. Public Aff.",
+    "DOI": "10.1111/j.1088-4963.1999.00310.x",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "page": "310–324",
+    "publisher": "Wiley-Blackwell",
+    "source": "PhilPapers",
+    "title": "Creation Ethics: The Moral Status of Early Fetuses and the Ethics of Abortion",
+    "title-short": "Creation Ethics",
+    "type": "article-journal",
+    "volume": "28"
+  },
+  {
+    "id": "harman2003",
+    "author": [
+      {
+        "family": "Harman",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "harman2003",
+    "container-title": "Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition",
+    "container-title-short": "Philos. Stud. Int. J. Philos. Anal. Tradit.",
+    "ISSN": "0031-8116",
+    "issue": "1/2",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "page": "173–198",
+    "publisher": "Springer",
+    "source": "JSTOR",
+    "title": "The Potentiality Problem",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/4321378",
+    "volume": "114"
+  },
+  {
+    "id": "harman2011",
+    "author": [
+      {
+        "family": "Harman",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "harman2011",
+    "container-title": "The Oxford Handbook of Animal Ethics",
+    "editor": [
+      {
+        "family": "Tom",
+        "given": "Beauchamp"
+      },
+      {
+        "family": "Frey",
+        "given": "R. G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    },
+    "page": "726–737",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "PhilPapers",
+    "title": "The Moral Significance of Animal Pain and Animal Death",
+    "type": "chapter"
+  },
+  {
+    "id": "harman2021",
+    "author": [
+      {
+        "family": "Harman",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "harman2021",
+    "container-title": "New York Daily News",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          12,
+          9
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "What Amy Coney Barrett doesn’t understand about abortion",
+    "type": "article-newspaper",
+    "URL": "https://www.nydailynews.com/2021/12/09/what-amy-coney-barrett-doesnt-understand-about-abortion/"
+  },
+  {
+    "id": "harris1975",
+    "author": [
+      {
+        "family": "Harris",
+        "given": "John"
+      }
+    ],
+    "citation-key": "harris1975",
+    "container-title": "Philosophy",
+    "ISSN": "0031-8191",
+    "issue": "191",
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "page": "81–87",
+    "publisher": "Cambridge University Press",
+    "source": "JSTOR",
+    "title": "The Survival Lottery",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/3749647",
+    "volume": "50"
+  },
+  {
+    "id": "harris1986",
+    "author": [
+      {
+        "family": "Harris",
+        "given": "George W."
+      }
+    ],
+    "citation-key": "harris1986",
+    "container-title": "Ethics",
+    "ISSN": "0014-1704",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1986"
+        ]
+      ]
+    },
+    "page": "594–603",
+    "publisher": "University of Chicago Press",
+    "source": "JSTOR",
+    "title": "Fathers and Fetuses",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2381073",
+    "volume": "96"
   },
   {
     "id": "haslanger2013",
@@ -715,6 +2546,93 @@
     "type": "book"
   },
   {
+    "id": "hobart1934",
+    "author": [
+      {
+        "family": "Hobart",
+        "given": "R. E."
+      }
+    ],
+    "citation-key": "hobart1934",
+    "container-title": "Mind",
+    "DOI": "10.1093/mind/xliii.169.1",
+    "issue": "169",
+    "issued": {
+      "date-parts": [
+        [
+          "1934"
+        ]
+      ]
+    },
+    "page": "1–27",
+    "source": "PhilArchive",
+    "title": "Free will as involving determination and inconceivable without it",
+    "type": "article-journal",
+    "URL": "https://philarchive.org/rec/HOBFWA",
+    "volume": "43"
+  },
+  {
+    "id": "hobbes1994a",
+    "author": [
+      {
+        "family": "Hobbes",
+        "given": "Thomas"
+      }
+    ],
+    "call-number": "192",
+    "citation-key": "hobbes1994a",
+    "container-title": "Leviathan: with selected variants from the latin edition of 1668",
+    "editor": [
+      {
+        "family": "Curley",
+        "given": "E. M."
+      }
+    ],
+    "ISBN": "978-0-87220-178-1 978-0-87220-177-4",
+    "issued": {
+      "date-parts": [
+        [
+          "1994"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "original-date": {
+      "date-parts": [
+        [
+          "1651"
+        ]
+      ]
+    },
+    "publisher": "Hackett pub. co",
+    "publisher-place": "Indianapolis (Ind.)",
+    "source": "BnF ISBN",
+    "title": "Leviathan",
+    "type": "chapter"
+  },
+  {
+    "id": "holton2013",
+    "author": [
+      {
+        "family": "Holton",
+        "given": "Richard"
+      }
+    ],
+    "citation-key": "holton2013",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "The problem of free will",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/problem-of-free-will-2/"
+  },
+  {
     "id": "huemer2013a",
     "author": [
       {
@@ -723,7 +2641,6 @@
       }
     ],
     "citation-key": "huemer2013a",
-    "edition": "1",
     "ISBN": "978-1-137-28165-4 978-1-137-28166-1",
     "issued": {
       "date-parts": [
@@ -736,6 +2653,120 @@
     "publisher": "Palgrave Macmillan",
     "publisher-place": "New York",
     "title": "The problem of political authority: an examination of the right to coerce and the duty to obey",
+    "type": "book"
+  },
+  {
+    "id": "huemer2019",
+    "author": [
+      {
+        "family": "Huemer",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "huemer2019",
+    "ISBN": "978-1-138-32829-7 978-1-138-32830-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "1",
+    "publisher": "Routledge",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "Dialogues on ethical vegetarianism",
+    "type": "book"
+  },
+  {
+    "id": "humaneventures",
+    "author": [
+      {
+        "literal": "Humane Ventures"
+      }
+    ],
+    "citation-key": "humaneventures",
+    "container-title": "Animal Kill Clock",
+    "language": "en",
+    "title": "U.S. Animal Kill Clock",
+    "type": "webpage",
+    "URL": "http://animalclock.org"
+  },
+  {
+    "id": "hume1999",
+    "author": [
+      {
+        "family": "Hume",
+        "given": "David"
+      }
+    ],
+    "citation-key": "hume1999",
+    "editor": [
+      {
+        "family": "Beauchamp",
+        "given": "Tom L."
+      }
+    ],
+    "ISBN": "978-0-19-875249-3 978-0-19-875248-6",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "296",
+    "original-date": {
+      "date-parts": [
+        [
+          "1777"
+        ]
+      ]
+    },
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "K10plus ISBN",
+    "title": "An enquiry concerning human understanding",
+    "type": "book"
+  },
+  {
+    "id": "hume2007",
+    "author": [
+      {
+        "family": "Hume",
+        "given": "David"
+      },
+      {
+        "family": "Coleman",
+        "given": "Dorothy"
+      }
+    ],
+    "call-number": "192",
+    "citation-key": "hume2007",
+    "collection-title": "Cambridge texts in the history of philosophy",
+    "ISBN": "978-0-521-60359-1 978-0-521-84260-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "language": "en",
+    "original-date": {
+      "date-parts": [
+        [
+          "1779"
+        ]
+      ]
+    },
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "BnF ISBN",
+    "title": "Dialogues concerning natural religion and other writings",
     "type": "book"
   },
   {
@@ -792,6 +2823,111 @@
     "volume": "21"
   },
   {
+    "id": "jackson2021",
+    "author": [
+      {
+        "family": "Jackson",
+        "given": "Liz"
+      }
+    ],
+    "citation-key": "jackson2021",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Pascal’s wager: a pragmatic argument for belief in God",
+    "title-short": "Pascal’s Wager",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2021/01/04/pascals-wager/"
+  },
+  {
+    "id": "jauernig",
+    "author": [
+      {
+        "family": "Jauernig",
+        "given": "Anja"
+      }
+    ],
+    "citation-key": "jauernig",
+    "language": "en",
+    "title": "Speaking up for animals",
+    "type": "webpage",
+    "URL": "https://www.anjajauernig.com/animals"
+  },
+  {
+    "id": "kagan2008",
+    "author": [
+      {
+        "family": "Kagan",
+        "given": "Shelly"
+      }
+    ],
+    "citation-key": "kagan2008",
+    "container-title": "Open Yale Courses",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "title": "Death",
+    "type": "webpage",
+    "URL": "https://oyc.yale.edu/death/phil-176"
+  },
+  {
+    "id": "kaufman2020",
+    "author": [
+      {
+        "family": "Kaufman",
+        "given": "Frederik"
+      }
+    ],
+    "citation-key": "kaufman2020",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Is death bad? Epicurus and Lucretius on the fear of death",
+    "title-short": "Is Death Bad?",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2020/10/02/is-death-bad/"
+  },
+  {
+    "id": "kind2015",
+    "author": [
+      {
+        "family": "Kind",
+        "given": "Amy"
+      }
+    ],
+    "citation-key": "kind2015",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "publisher": "Polity",
+    "publisher-place": "Malden, MA",
+    "source": "PhilPapers",
+    "title": "Persons and Personal Identity",
+    "type": "book"
+  },
+  {
     "id": "kolodny2010",
     "author": [
       {
@@ -842,6 +2978,249 @@
     "URL": "https://philarchive.org/rec/KORLFA"
   },
   {
+    "id": "korsgaard2015",
+    "author": [
+      {
+        "family": "Korsgaard",
+        "given": "Christine"
+      }
+    ],
+    "citation-key": "korsgaard2015",
+    "container-title": "The Ethics of Killing Animals",
+    "editor": [
+      {
+        "family": "Višak",
+        "given": "Tatjana"
+      },
+      {
+        "family": "Garner",
+        "given": "Robert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "page": "154–177",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York",
+    "source": "PhilPapers",
+    "title": "A Kantian case for animal rights",
+    "type": "chapter"
+  },
+  {
+    "id": "lactantius1885",
+    "author": [
+      {
+        "literal": "Lactantius"
+      }
+    ],
+    "citation-key": "lactantius1885",
+    "container-title": "The ante-Nicene fathers: the writings of the fathers down to A.D. 325",
+    "editor": [
+      {
+        "family": "Roberts",
+        "given": "Alexander"
+      },
+      {
+        "family": "Donaldson",
+        "given": "James"
+      },
+      {
+        "family": "Coxe",
+        "given": "Arthur Cleveland"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1885"
+        ]
+      ]
+    },
+    "publisher": "Christian Literature Company",
+    "title": "A Treatise on the Anger of God Addressed to Donatus",
+    "translator": [
+      {
+        "family": "Fletcher",
+        "given": "William"
+      }
+    ],
+    "type": "chapter",
+    "URL": "https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VII/Lactantius/A_Treatise_on_the_Anger_of_God_Addressed_to_Donatus",
+    "volume": "VII"
+  },
+  {
+    "id": "lagerlund2020",
+    "author": [
+      {
+        "family": "Lagerlund",
+        "given": "Henrik"
+      }
+    ],
+    "call-number": "B837 .L34 2020",
+    "citation-key": "lagerlund2020",
+    "ISBN": "978-1-138-55554-9 978-1-138-55556-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Routledge",
+    "publisher-place": "New York, NY",
+    "source": "Library of Congress ISBN",
+    "title": "Skepticism in philosophy: a comprehensive, historical introduction",
+    "title-short": "Skepticism in philosophy",
+    "type": "book"
+  },
+  {
+    "id": "leguin2017",
+    "author": [
+      {
+        "family": "Le Guin",
+        "given": "Ursula K."
+      }
+    ],
+    "citation-key": "leguin2017",
+    "ISBN": "978-0-06-247097-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "publisher": "HarperCollins",
+    "title": "The ones who walk away from Omelas",
+    "type": "book"
+  },
+  {
+    "id": "little1999",
+    "author": [
+      {
+        "family": "Little",
+        "given": "Margaret Olivia"
+      }
+    ],
+    "citation-key": "little1999",
+    "container-title": "Ethical Theory and Moral Practice",
+    "container-title-short": "Ethical Theory Moral Pract.",
+    "ISSN": "1386-2820",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "page": "295–312",
+    "publisher": "Springer",
+    "source": "JSTOR",
+    "title": "Abortion, Intimacy, and the Duty to Gestate",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/27504096",
+    "volume": "2"
+  },
+  {
+    "id": "locke1975",
+    "author": [
+      {
+        "family": "Locke",
+        "given": "John"
+      }
+    ],
+    "citation-key": "locke1975",
+    "editor": [
+      {
+        "family": "Nidditch",
+        "given": "Peter H."
+      }
+    ],
+    "ISBN": "978-0-19-824386-1",
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "914",
+    "original-date": {
+      "date-parts": [
+        [
+          "1690"
+        ]
+      ]
+    },
+    "publisher": "Clarendon Press",
+    "publisher-place": "Oxford",
+    "source": "Google Books",
+    "title": "An essay concerning human understanding",
+    "type": "book"
+  },
+  {
+    "id": "locke2021",
+    "author": [
+      {
+        "family": "Locke",
+        "given": "John"
+      }
+    ],
+    "citation-key": "locke2021",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "original-date": {
+      "date-parts": [
+        [
+          "1690"
+        ]
+      ]
+    },
+    "publisher": "Project Gutenberg",
+    "title": "Second treatise of government",
+    "type": "book"
+  },
+  {
+    "id": "lomasky2013",
+    "author": [
+      {
+        "family": "Lomasky",
+        "given": "Loren"
+      }
+    ],
+    "citation-key": "lomasky2013",
+    "container-title": "Social Philosophy and Policy",
+    "container-title-short": "Soc. Philos. Policy",
+    "DOI": "10.1017/s0265052513000083",
+    "issue": "1–2",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "page": "177–200",
+    "publisher": "Cambridge University Press",
+    "source": "PhilPapers",
+    "title": "Is It Wrong to Eat Animals?",
+    "type": "article-journal",
+    "volume": "30"
+  },
+  {
     "id": "long1987a",
     "author": [
       {
@@ -868,35 +3247,6 @@
     "volume": "I"
   },
   {
-    "id": "long1987a",
-    "citation-key": "long1987a",
-    "container-author": [
-      {
-        "family": "Long",
-        "given": "A. A."
-      },
-      {
-        "family": "Sedley",
-        "given": "D. N."
-      }
-    ],
-    "container-title": "The Hellenistic Philosophers",
-    "issued": {
-      "date-parts": [
-        [
-          "1987"
-        ]
-      ]
-    },
-    "page": "149--154",
-    "publisher": "Cambridge University Press",
-    "publisher-place": "Cambridge",
-    "title": "Death",
-    "type": "chapter",
-    "URL": "zotero://open-pdf/library/items/YCGMX2NR?page=161&annotation=RPS6GAEQ",
-    "volume": "I"
-  },
-  {
     "id": "lowe2016a",
     "author": [
       {
@@ -919,10 +3269,11 @@
     "page": "173–193",
     "title": "Common Arguments for the Moral Acceptability of Eating Meat: A Discussion for Students",
     "type": "article-journal",
+    "URL": "https://digitalcommons.calpoly.edu/bts/vol19/iss1/7/",
     "volume": "19"
   },
   {
-    "id": "lycan1971",
+    "id": "lycan1989",
     "author": [
       {
         "family": "Lycan",
@@ -933,8 +3284,9 @@
         "given": "George N."
       }
     ],
-    "citation-key": "lycan1971",
+    "citation-key": "lycan1989",
     "container-title": "Reason and responsibility",
+    "edition": "7",
     "editor": [
       {
         "family": "Feinberg",
@@ -944,14 +3296,15 @@
     "issued": {
       "date-parts": [
         [
-          "1971"
+          "1989"
         ]
       ]
     },
-    "publisher": "Dickenson Publishing",
-    "source": "PhilPapers",
-    "title": "You Bet Your Life: Pascal's Wager Defended",
-    "title-short": "You Bet Your Life",
+    "page": "82--90",
+    "publisher": "Wadsworth",
+    "publisher-place": "Belmont, CA",
+    "title": "You bet your life: Pascal's wager defended",
+    "title-short": "You bet your life",
     "type": "chapter"
   },
   {
@@ -974,6 +3327,7 @@
         ]
       ]
     },
+    "language": "en-US",
     "page": "200–212",
     "publisher": "[Oxford University Press, Mind Association]",
     "source": "JSTOR",
@@ -981,6 +3335,132 @@
     "type": "article-journal",
     "URL": "https://www.jstor.org/stable/2251467",
     "volume": "64"
+  },
+  {
+    "id": "marino2014",
+    "author": [
+      {
+        "family": "Marino",
+        "given": "Patricia"
+      }
+    ],
+    "citation-key": "marino2014",
+    "container-title": "Philosophy Compass",
+    "container-title-short": "Philos. Compass",
+    "DOI": "10.1111/phc3.12098",
+    "ISSN": "1747-9991",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "22–32",
+    "source": "Wiley Online Library",
+    "title": "Philosophy of sex",
+    "type": "article-journal",
+    "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/phc3.12098",
+    "volume": "9"
+  },
+  {
+    "id": "markosian2014a",
+    "author": [
+      {
+        "family": "Markosian",
+        "given": "Ned"
+      }
+    ],
+    "citation-key": "markosian2014a",
+    "container-title": "Logos and Episteme",
+    "container-title-short": "Logos Episteme",
+    "DOI": "https://doi.org/10.5840/logos-episteme20145214",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "page": "161–181",
+    "title": "Do you know that you are not a brain in a vat?",
+    "type": "article-journal",
+    "volume": "5"
+  },
+  {
+    "id": "markovits2014",
+    "author": [
+      {
+        "family": "Markovits",
+        "given": "Julia"
+      }
+    ],
+    "citation-key": "markovits2014",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          9,
+          26
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Utilitarianism Part 1",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/utilitarianism-part-1/"
+  },
+  {
+    "id": "markovits2014a",
+    "author": [
+      {
+        "family": "Markovits",
+        "given": "Julia"
+      }
+    ],
+    "citation-key": "markovits2014a",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Utilitarianism Part 2",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/utilitarianism-part-2/"
+  },
+  {
+    "id": "markovits2015",
+    "author": [
+      {
+        "family": "Markovits",
+        "given": "Julia"
+      }
+    ],
+    "citation-key": "markovits2015",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          1,
+          22
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Utilitarianism Part 3",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/utilitarianism-part-3/"
   },
   {
     "id": "marquis1989",
@@ -1010,6 +3490,30 @@
     "type": "article-journal",
     "URL": "https://www.jstor.org/stable/2026961",
     "volume": "86"
+  },
+  {
+    "id": "masicampo2016",
+    "citation-key": "masicampo2016",
+    "dimensions": "0:26",
+    "director": [
+      {
+        "family": "Masicampo",
+        "given": "E.J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          8,
+          31
+        ]
+      ]
+    },
+    "source": "YouTube",
+    "title": "A two-year-old's solution to the trolley problem",
+    "type": "motion_picture",
+    "URL": "https://www.youtube.com/watch?v=-N_RZJUAQY4"
   },
   {
     "id": "mason2022",
@@ -1102,6 +3606,417 @@
     "volume": "82"
   },
   {
+    "id": "mcmahan2010",
+    "author": [
+      {
+        "family": "McMahan",
+        "given": "Jeff"
+      }
+    ],
+    "citation-key": "mcmahan2010",
+    "container-title": "New York Times",
+    "issued": {
+      "date-parts": [
+        [
+          "2010",
+          9,
+          19
+        ]
+      ]
+    },
+    "language": "en",
+    "section": "Opinion",
+    "title": "The Meat Eaters",
+    "type": "article-newspaper",
+    "URL": "https://archive.nytimes.com/opinionator.blogs.nytimes.com/2010/09/19/the-meat-eaters/"
+  },
+  {
+    "id": "meskin2011",
+    "author": [
+      {
+        "family": "Meskin",
+        "given": "Aaron"
+      }
+    ],
+    "citation-key": "meskin2011",
+    "container-title": "Philosophy Compass",
+    "container-title-short": "Philos. Compass",
+    "DOI": "10.1111/j.1747-9991.2011.00450.x",
+    "ISSN": "1747-9991",
+    "issue": "12",
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "854–864",
+    "source": "Wiley Online Library",
+    "title": "The philosophy of comics",
+    "type": "article-journal",
+    "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1747-9991.2011.00450.x",
+    "volume": "6"
+  },
+  {
+    "id": "metcalf2014",
+    "author": [
+      {
+        "family": "Metcalf",
+        "given": "Thomas"
+      }
+    ],
+    "citation-key": "metcalf2014",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          4,
+          7
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "The problem of evil: is suffering evidence that there is not a god?",
+    "title-short": "The Problem of Evil",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2014/04/07/the-problem-of-evil/"
+  },
+  {
+    "id": "metcalf2020",
+    "author": [
+      {
+        "family": "Metcalf",
+        "given": "Thomas"
+      }
+    ],
+    "citation-key": "metcalf2020",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "What is philosophy?",
+    "title-short": "What is Philosophy?",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2020/10/10/philosophy/"
+  },
+  {
+    "id": "mickelson2016",
+    "author": [
+      {
+        "family": "Mickelson",
+        "given": "Kristin"
+      }
+    ],
+    "citation-key": "mickelson2016",
+    "container-title": "The Routlege Companion to Free Will",
+    "editor": [
+      {
+        "family": "Timpe",
+        "given": "Kevin"
+      },
+      {
+        "family": "Griffith",
+        "given": "Meghan"
+      },
+      {
+        "family": "Levy",
+        "given": "Neil"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
+    },
+    "publisher": "Routledge",
+    "source": "PhilArchive",
+    "title": "The Manipulation Argument",
+    "type": "chapter",
+    "URL": "https://philarchive.org/rec/MICTMA-3"
+  },
+  {
+    "id": "millgram2004",
+    "archive": "JSTOR",
+    "author": [
+      {
+        "family": "Millgram",
+        "given": "Elijah"
+      }
+    ],
+    "citation-key": "millgram2004",
+    "container-title": "Proceedings of the Aristotelian Society",
+    "container-title-short": "Proc. Aristot. Soc.",
+    "ISSN": "0066-7374",
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    },
+    "page": "165–186",
+    "source": "JSTOR",
+    "title": "On Being Bored out of Your Mind",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/4545411",
+    "volume": "104"
+  },
+  {
+    "id": "moore1925a",
+    "author": [
+      {
+        "family": "Moore",
+        "given": "George Edward"
+      }
+    ],
+    "citation-key": "moore1925a",
+    "container-title": "Contemporary British Philosophy, Second Series",
+    "editor": [
+      {
+        "family": "Muirhead",
+        "given": "J. H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1925"
+        ]
+      ]
+    },
+    "publisher": "George Allen and Unwin",
+    "title": "A defence of common sense",
+    "type": "chapter"
+  },
+  {
+    "id": "moore1939a",
+    "author": [
+      {
+        "family": "Moore",
+        "given": "G. E."
+      }
+    ],
+    "citation-key": "moore1939a",
+    "container-title": "Proceedings of the British Academy",
+    "container-title-short": "Proc. Br. Acad.",
+    "issued": {
+      "date-parts": [
+        [
+          "1939"
+        ]
+      ]
+    },
+    "page": "273–300",
+    "title": "Proof of an External World",
+    "type": "article-journal",
+    "volume": "25"
+  },
+  {
+    "id": "nagel1970",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Thomas"
+      }
+    ],
+    "citation-key": "nagel1970",
+    "container-title": "Noûs",
+    "DOI": "10.2307/2214297",
+    "ISSN": "0029-4624",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "1970"
+        ]
+      ]
+    },
+    "page": "73–80",
+    "publisher": "Wiley",
+    "source": "JSTOR",
+    "title": "Death",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2214297",
+    "volume": "4"
+  },
+  {
+    "id": "nagel2014",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Jennifer"
+      }
+    ],
+    "call-number": "BD161 .N24 2014",
+    "citation-key": "nagel2014",
+    "collection-number": "400",
+    "collection-title": "Very short introductions",
+    "edition": "First edition",
+    "ISBN": "978-0-19-966126-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "note": "OCLC: ocn876680745",
+    "number-of-pages": "133",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "Library of Congress ISBN",
+    "title": "Knowledge: a very short introduction",
+    "title-short": "Knowledge",
+    "type": "book"
+  },
+  {
+    "id": "nagel2016",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Jennifer"
+      }
+    ],
+    "citation-key": "nagel2016",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          2,
+          17
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Epistemology: 2. The Problem of Skepticism",
+    "title-short": "Epistemology",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/the-problem-of-skepticism/"
+  },
+  {
+    "id": "nagel2016b",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Jennifer"
+      }
+    ],
+    "citation-key": "nagel2016b",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          2,
+          26
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Epistemology: 4. New Responses to Skepticism",
+    "title-short": "Epistemology",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/new-responses-to-skepticism/"
+  },
+  {
+    "id": "nagel2016c",
+    "author": [
+      {
+        "family": "Nagel",
+        "given": "Jennifer"
+      }
+    ],
+    "citation-key": "nagel2016c",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          2,
+          19
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Epistemology: 3. Three Responses to Skepticism",
+    "title-short": "Epistemology",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/three-responses-to-skepticism/"
+  },
+  {
+    "id": "nguyen2017",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "C. Thi"
+      }
+    ],
+    "citation-key": "nguyen2017",
+    "container-title": "Philosophy Compass",
+    "container-title-short": "Philos. Compass",
+    "DOI": "10.1111/phc3.12426",
+    "ISSN": "1747-9991",
+    "issue": "8",
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "© 2017 The Author(s) Philosophy Compass © 2017 John Wiley & Sons Ltd",
+    "page": "e12426",
+    "source": "Wiley Online Library",
+    "title": "Philosophy of games",
+    "type": "article-journal",
+    "URL": "http://onlinelibrary.wiley.com/doi/abs/10.1111/phc3.12426",
+    "volume": "12"
+  },
+  {
+    "id": "norcross1990",
+    "author": [
+      {
+        "family": "Norcross",
+        "given": "Alastair"
+      }
+    ],
+    "citation-key": "norcross1990",
+    "container-title": "The Journal of Philosophy",
+    "container-title-short": "J. Philos.",
+    "DOI": "10.2307/2026835",
+    "ISSN": "0022-362X",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "page": "268–277",
+    "publisher": "Journal of Philosophy, Inc.",
+    "source": "JSTOR",
+    "title": "Killing, Abortion, and Contraception: A Reply to Marquis",
+    "title-short": "Killing, Abortion, and Contraception",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2026835",
+    "volume": "87"
+  },
+  {
     "id": "norcross2004",
     "author": [
       {
@@ -1170,6 +4085,7 @@
     "citation-key": "parfit1971a",
     "container-title": "Philosophical Review",
     "container-title-short": "Philos. Rev.",
+    "DOI": "10.2307/2184309",
     "issue": "January",
     "issued": {
       "date-parts": [
@@ -1181,17 +4097,19 @@
     "page": "3–27",
     "title": "Personal identity",
     "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2184309",
     "volume": "80"
   },
   {
-    "id": "pascal1995",
+    "id": "pascal1995a",
     "author": [
       {
         "family": "Pascal",
         "given": "Blaise"
       }
     ],
-    "citation-key": "pascal1995",
+    "citation-key": "pascal1995a",
+    "container-title": "Pensées and other writings",
     "ISBN": "978-0-19-954036-5",
     "issued": {
       "date-parts": [
@@ -1200,47 +4118,99 @@
         ]
       ]
     },
-    "number-of-pages": "320",
+    "original-date": {
+      "date-parts": [
+        [
+          "1670"
+        ]
+      ]
+    },
+    "page": "3--181",
     "publisher": "Oxford University Press",
-    "publisher-place": "Oxford, New York",
+    "publisher-place": "Oxford",
     "source": "Oxford University Press",
-    "title": "Pensées and Other Writings",
+    "title": "Pensées",
     "translator": [
       {
         "family": "Levi",
         "given": "Honor"
       }
     ],
-    "type": "book"
+    "type": "chapter"
   },
   {
-    "id": "perkins2007",
+    "id": "pereira2020",
+    "author": [
+      {
+        "family": "Pereira",
+        "given": "Felipe"
+      }
+    ],
+    "citation-key": "pereira2020",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          1,
+          23
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Is immortality desirable?",
+    "title-short": "Is Immortality Desirable?",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2020/01/23/is-immortality-desirable/"
+  },
+  {
+    "id": "perkins2014",
     "author": [
       {
         "family": "Perkins",
         "given": "Franklin"
       }
     ],
-    "citation-key": "perkins2007",
-    "container-title": "The Proceedings of the Twenty-First World Congress of Philosophy",
-    "container-title-short": "Proc. Twenty-First World Congr. Philos.",
-    "DOI": "10.5840/wcp2120077162",
+    "citation-key": "perkins2014",
+    "ISBN": "978-0-253-01168-8 978-0-253-01172-5 978-0-253-01176-3",
     "issued": {
       "date-parts": [
         [
-          "2007",
-          1,
-          1
+          "2014"
         ]
       ]
     },
     "language": "en",
-    "page": "149–155",
-    "source": "www.pdcnet.org",
-    "title": "The Problem of Evil in Classical Chinese Philosophy",
-    "type": "article-journal",
-    "URL": "https://www.pdcnet.org/pdc/bvdb.nsf/purchase?openform&fp=wcp21&id=wcp21_2007_0007_0149_0155",
-    "volume": "7"
+    "publisher": "Indiana University Press",
+    "publisher-place": "Bloomington (Ind.)",
+    "source": "BnF ISBN",
+    "title": "Heaven and earth are not humane: the problem of evil in classical Chinese philosophy",
+    "title-short": "Heaven and earth are not humane",
+    "type": "book"
+  },
+  {
+    "id": "perry1978a",
+    "author": [
+      {
+        "family": "Perry",
+        "given": "John R."
+      }
+    ],
+    "citation-key": "perry1978a",
+    "ISBN": "0-915144-53-0",
+    "issued": {
+      "date-parts": [
+        [
+          "1978",
+          3
+        ]
+      ]
+    },
+    "publisher": "Hackett",
+    "publisher-place": "Indianapolis",
+    "title": "A dialogue on personal identity and immortality",
+    "type": "book"
   },
   {
     "id": "perry1999",
@@ -1266,6 +4236,82 @@
     "source": "Library of Congress ISBN",
     "title": "Dialogue on good, evil, and the existence of God",
     "type": "book"
+  },
+  {
+    "id": "peterson2023",
+    "author": [
+      {
+        "family": "Peterson",
+        "given": "Martin"
+      }
+    ],
+    "citation-key": "peterson2023",
+    "container-title": "The stanford encyclopedia of philosophy",
+    "edition": "Fall 2023",
+    "editor": [
+      {
+        "family": "Zalta",
+        "given": "Edward N."
+      },
+      {
+        "family": "Nodelman",
+        "given": "Uri"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    },
+    "publisher": "Metaphysics Research Lab, Stanford University",
+    "source": "Stanford Encyclopedia of Philosophy",
+    "title": "The st. Petersburg paradox",
+    "type": "chapter",
+    "URL": "https://plato.stanford.edu/archives/fall2023/entries/paradox-stpetersburg/"
+  },
+  {
+    "id": "pihlaja2007",
+    "citation-key": "pihlaja2007",
+    "container-title": "Extraordinary People",
+    "contributor": [
+      {
+        "family": "Boozikee",
+        "given": "Kevin"
+      },
+      {
+        "family": "Carlson",
+        "given": "Kim"
+      },
+      {
+        "family": "Fisk",
+        "given": "Nicholas M."
+      }
+    ],
+    "dimensions": "1h",
+    "director": [
+      {
+        "family": "Pihlaja",
+        "given": "Rachael"
+      }
+    ],
+    "event-place": "United Kingdom, United States",
+    "issued": {
+      "date-parts": [
+        [
+          "2007",
+          2,
+          19
+        ]
+      ]
+    },
+    "note": "IMDb ID: tt0964994",
+    "publisher": "Figure 8 Films, True North Productions",
+    "source": "IMDb",
+    "title": "The twins who share a body",
+    "type": "broadcast",
+    "URL": "https://youtu.be/K57IcN9DWXo"
   },
   {
     "id": "pike1965a",
@@ -1341,6 +4387,80 @@
     "URL": "https://www.vox.com/2014/8/21/6053187/cropland-map-food-fuel-animal-feed"
   },
   {
+    "id": "purves2014",
+    "author": [
+      {
+        "family": "Purves",
+        "given": "Duncan"
+      }
+    ],
+    "citation-key": "purves2014",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "The badness of death",
+    "title-short": "The Badness of Death - 1000-Word Philosophy",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2014/05/01/the-badness-of-death/"
+  },
+  {
+    "id": "pyke2011",
+    "author": [
+      {
+        "family": "Pyke",
+        "given": "Steve"
+      }
+    ],
+    "citation-key": "pyke2011",
+    "ISBN": "978-0-19-975714-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York",
+    "source": "BnF ISBN",
+    "title": "Philosophers",
+    "type": "book"
+  },
+  {
+    "id": "ramsey2020",
+    "author": [
+      {
+        "family": "Ramsey",
+        "given": "John"
+      }
+    ],
+    "citation-key": "ramsey2020",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          7,
+          25
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Al-Ghazālī’s dream argument for skepticism",
+    "title-short": "al-Ghazālī’s Dream Argument for Skepticism - 1000-Word Philosophy",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2020/07/25/al-ghazalis-dream-argument/"
+  },
+  {
     "id": "rawls1999",
     "author": [
       {
@@ -1389,6 +4509,69 @@
     "URL": "https://www.wi-phi.com/videos/pascals-wager/"
   },
   {
+    "id": "rinard2018",
+    "author": [
+      {
+        "family": "Rinard",
+        "given": "Susanna"
+      }
+    ],
+    "citation-key": "rinard2018",
+    "container-title": "The Mystery of Skepticism: New Explorations",
+    "editor": [
+      {
+        "family": "McCain",
+        "given": "Kevin"
+      },
+      {
+        "family": "Poston",
+        "given": "Ted"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    },
+    "page": "240–264",
+    "publisher": "Brill",
+    "source": "PhilPapers",
+    "title": "Reasoning One's Way Out of Skepticism",
+    "type": "chapter"
+  },
+  {
+    "id": "roskies2006",
+    "author": [
+      {
+        "family": "Roskies",
+        "given": "Adina"
+      }
+    ],
+    "citation-key": "roskies2006",
+    "container-title": "Trends in Cognitive Sciences",
+    "container-title-short": "Trends Cogn. Sci.",
+    "DOI": "10.1016/j.tics.2006.07.011",
+    "ISSN": "1364-6613",
+    "issue": "9",
+    "issued": {
+      "date-parts": [
+        [
+          "2006",
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "419–423",
+    "PMID": "16901745",
+    "source": "PubMed",
+    "title": "Neuroscientific challenges to free will and responsibility",
+    "type": "article-journal",
+    "volume": "10"
+  },
+  {
     "id": "rota2016",
     "author": [
       {
@@ -1413,6 +4596,66 @@
     "title": "Taking Pascal's wager: faith, evidence, and the abundant life",
     "title-short": "Taking Pascal's wager",
     "type": "book"
+  },
+  {
+    "id": "rota2017",
+    "author": [
+      {
+        "family": "Rota",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "rota2017",
+    "container-title": "Philosophy Compass",
+    "container-title-short": "Philos. Compass",
+    "DOI": "10.1111/phc3.12404",
+    "ISSN": "1747-9991",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "language": "en",
+    "page": "e12404",
+    "source": "Wiley Online Library",
+    "title": "Pascal's wager",
+    "type": "article-journal",
+    "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/phc3.12404",
+    "volume": "12"
+  },
+  {
+    "id": "rousseau1997a",
+    "author": [
+      {
+        "family": "Rousseau",
+        "given": "Jean-Jacques"
+      }
+    ],
+    "citation-key": "rousseau1997a",
+    "container-title": "\"The social contract\" and other later political writings",
+    "ISBN": "978-0-521-41382-4",
+    "issued": {
+      "date-parts": [
+        [
+          "1997"
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "New York",
+    "source": "BnF ISBN",
+    "title": "The social contract",
+    "translator": [
+      {
+        "family": "Gourevitch",
+        "given": "Victor"
+      }
+    ],
+    "type": "chapter"
   },
   {
     "id": "rowe1979",
@@ -1443,6 +4686,30 @@
     "volume": "16"
   },
   {
+    "id": "rowland2014",
+    "author": [
+      {
+        "family": "Rowland",
+        "given": "Richard"
+      }
+    ],
+    "citation-key": "rowland2014",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          9,
+          5
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Hedonism and the Experience Machine",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/hedonism-and-the-experience-machine/"
+  },
+  {
     "id": "sainsbury2001",
     "author": [
       {
@@ -1467,6 +4734,62 @@
     "source": "Library of Congress ISBN",
     "title": "Logical forms: an introduction to philosophical logic",
     "title-short": "Logical forms",
+    "type": "book"
+  },
+  {
+    "id": "salmon1975",
+    "author": [
+      {
+        "family": "Salmon",
+        "given": "Wesley"
+      }
+    ],
+    "citation-key": "salmon1975",
+    "container-title": "Reason and Responsibility",
+    "edition": "3",
+    "editor": [
+      {
+        "family": "Feinberg",
+        "given": "Joel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "page": "190–208",
+    "publisher": "Dickenson Publishing",
+    "publisher-place": "Encino",
+    "title": "An Encounter with David Hume",
+    "type": "chapter"
+  },
+  {
+    "id": "schechtman2014",
+    "author": [
+      {
+        "family": "Schechtman",
+        "given": "Marya"
+      }
+    ],
+    "call-number": "BD236 .S34 2014",
+    "citation-key": "schechtman2014",
+    "ISBN": "978-0-19-968487-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "number-of-pages": "214",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "Staying alive: personal identity, practical concerns, and the unity of a life",
+    "title-short": "Staying alive",
     "type": "book"
   },
   {
@@ -1496,6 +4819,79 @@
     "type": "book"
   },
   {
+    "id": "siderits2003",
+    "author": [
+      {
+        "family": "Siderits",
+        "given": "Mark"
+      }
+    ],
+    "citation-key": "siderits2003",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "publisher": "Ashgate",
+    "publisher-place": "Burlington, VT",
+    "source": "PhilPapers",
+    "title": "Personal identity and Buddhist philosophy: empty persons",
+    "title-short": "Personal Identity and Buddhist Philosophy",
+    "type": "book"
+  },
+  {
+    "id": "singer1975",
+    "citation-key": "singer1975",
+    "container-author": [
+      {
+        "family": "Singer",
+        "given": "Peter"
+      }
+    ],
+    "container-title": "Animal liberation",
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "publisher": "HarperCollins",
+    "title": "All animals are equal",
+    "type": "chapter"
+  },
+  {
+    "id": "smart1973",
+    "author": [
+      {
+        "family": "Smart",
+        "given": "J. J. C."
+      },
+      {
+        "family": "Williams",
+        "given": "Bernard"
+      }
+    ],
+    "citation-key": "smart1973",
+    "ISBN": "978-0-521-09822-9 978-0-521-20297-8",
+    "issued": {
+      "date-parts": [
+        [
+          "1973"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "155",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "K10plus ISBN",
+    "title": "Utilitarianism for and against",
+    "type": "book"
+  },
+  {
     "id": "smullyan1983",
     "author": [
       {
@@ -1520,6 +4916,115 @@
     "source": "The Open Library",
     "title": "5000 B.C. and other philosophical fantasies",
     "type": "book"
+  },
+  {
+    "id": "stark2000",
+    "author": [
+      {
+        "family": "Stark",
+        "given": "Cynthia"
+      }
+    ],
+    "citation-key": "stark2000",
+    "container-title": "Journal of Philosophy",
+    "container-title-short": "J. Philos.",
+    "DOI": "10.2307/2678406",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          "2000"
+        ]
+      ]
+    },
+    "page": "313",
+    "source": "PhilArchive",
+    "title": "Hypothetical Consent and Justification",
+    "type": "article-journal",
+    "URL": "https://philarchive.org/rec/STAHCA-7",
+    "volume": "97"
+  },
+  {
+    "id": "stine1976b",
+    "author": [
+      {
+        "family": "Stine",
+        "given": "Gail. C."
+      }
+    ],
+    "citation-key": "stine1976b",
+    "container-title": "Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition",
+    "container-title-short": "Philos. Stud. Int. J. Philos. Anal. Tradit.",
+    "ISSN": "00318116, 15730883",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1976"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "page": "249–261",
+    "title": "Skepticism, relevant alternatives, and deductive closure",
+    "type": "article-journal",
+    "URL": "http://www.jstor.org/stable/4319027",
+    "volume": "29"
+  },
+  {
+    "id": "stoltz2021",
+    "author": [
+      {
+        "family": "Stoltz",
+        "given": "Jonathan"
+      }
+    ],
+    "citation-key": "stoltz2021",
+    "collection-title": "Buddhist philosophy for philosophers",
+    "ISBN": "978-0-19-090753-2 978-0-19-090754-9",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "260",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York, NY",
+    "source": "K10plus ISBN",
+    "title": "Illuminating the mind: an introduction to Buddhist epistemology",
+    "title-short": "Illuminating the mind",
+    "type": "book"
+  },
+  {
+    "id": "strohminger2015",
+    "author": [
+      {
+        "family": "Strohminger",
+        "given": "Nina"
+      },
+      {
+        "family": "Nichols",
+        "given": "Shaun"
+      }
+    ],
+    "citation-key": "strohminger2015",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          6,
+          8
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Personal Identity (The Essential Moral Self)",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/personal-identity-the-essential-moral-self/"
   },
   {
     "id": "stump1985",
@@ -1560,8 +5065,9 @@
       }
     ],
     "citation-key": "thomson1971",
-    "container-title": "Philosophy and Public Affairs",
+    "container-title": "Philosophy & Public Affairs",
     "container-title-short": "Philos. Public Aff.",
+    "ISSN": "0048-3915",
     "issue": "1",
     "issued": {
       "date-parts": [
@@ -1571,10 +5077,10 @@
       ]
     },
     "page": "47–66",
-    "publisher": "Wiley-Blackwell",
-    "source": "PhilPapers",
-    "title": "A Defense of Abortion",
+    "source": "JSTOR",
+    "title": "A defense of abortion",
     "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2265091",
     "volume": "1"
   },
   {
@@ -1605,5 +5111,361 @@
     "type": "article-journal",
     "URL": "https://www.jstor.org/stable/796133",
     "volume": "94"
+  },
+  {
+    "id": "timmerman2017",
+    "author": [
+      {
+        "family": "Timmerman",
+        "given": "Travis"
+      }
+    ],
+    "citation-key": "timmerman2017",
+    "container-title": "Wireless Philosophy",
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          9,
+          1
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Symmetry Argument Against the Badness of Death",
+    "type": "post-weblog",
+    "URL": "https://www.wi-phi.com/videos/symmetry-argument-against-the-badness-of-death/"
+  },
+  {
+    "id": "tooley1972",
+    "author": [
+      {
+        "family": "Tooley",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "tooley1972",
+    "container-title": "Philosophy & Public Affairs",
+    "container-title-short": "Philos. Public Aff.",
+    "ISSN": "0048-3915",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "1972"
+        ]
+      ]
+    },
+    "page": "37–65",
+    "publisher": "Wiley",
+    "source": "JSTOR",
+    "title": "Abortion and Infanticide",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2264919",
+    "volume": "2"
+  },
+  {
+    "id": "vance2014",
+    "author": [
+      {
+        "family": "Vance",
+        "given": "Chad"
+      }
+    ],
+    "citation-key": "vance2014",
+    "container-title": "1000-Word Philosophy",
+    "container-title-short": "1000-Word Philos.",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          2,
+          10
+        ]
+      ]
+    },
+    "language": "en-US",
+    "title": "Personal identity: how we exist over time",
+    "title-short": "Personal Identity",
+    "type": "article-journal",
+    "URL": "https://1000wordphilosophy.com/2014/02/10/personal-identity/"
+  },
+  {
+    "id": "vaninwagen2014",
+    "author": [
+      {
+        "family": "Inwagen",
+        "given": "Peter",
+        "non-dropping-particle": "van"
+      }
+    ],
+    "citation-key": "vaninwagen2014",
+    "container-title": "Metaphysics",
+    "edition": "4",
+    "ISBN": "978-0-8133-4935-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "page": "267--286",
+    "publisher": "Westview Press",
+    "publisher-place": "New York",
+    "title": "The powers of rational beings: freedom of the will",
+    "type": "chapter"
+  },
+  {
+    "id": "warren1973",
+    "author": [
+      {
+        "family": "Warren",
+        "given": "Mary Anne"
+      }
+    ],
+    "citation-key": "warren1973",
+    "container-title": "The Monist",
+    "ISSN": "0026-9662",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "1973"
+        ]
+      ]
+    },
+    "page": "43–61",
+    "publisher": "Oxford University Press",
+    "source": "JSTOR",
+    "title": "On the Moral and Legal Status of Abortion",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/27902294",
+    "volume": "57"
+  },
+  {
+    "id": "weintraub2008",
+    "author": [
+      {
+        "family": "Weintraub",
+        "given": "Ruth"
+      }
+    ],
+    "citation-key": "weintraub2008",
+    "container-title": "The Oxford handbook of skepticism",
+    "editor": [
+      {
+        "family": "Greco",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "page": "129",
+    "publisher": "Oxford University Press",
+    "source": "PhilArchive",
+    "title": "Skepticism About Induction",
+    "type": "chapter",
+    "URL": "https://philarchive.org/rec/WEISAI"
+  },
+  {
+    "id": "wellman2005",
+    "author": [
+      {
+        "family": "Wellman",
+        "given": "Christopher Heath"
+      },
+      {
+        "family": "Simmons",
+        "given": "Alan John"
+      }
+    ],
+    "citation-key": "wellman2005",
+    "collection-title": "For and against",
+    "ISBN": "978-0-511-80928-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2005"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "1",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "K10plus ISBN",
+    "title": "Is there a duty to obey the law?",
+    "type": "book"
+  },
+  {
+    "id": "williams1973b",
+    "author": [
+      {
+        "family": "Williams",
+        "given": "Bernard"
+      }
+    ],
+    "citation-key": "williams1973b",
+    "container-title": "Problems of the self - philosophical papers 1956-1972",
+    "ISBN": "978-0-521-20225-1",
+    "issued": {
+      "date-parts": [
+        [
+          "1973"
+        ]
+      ]
+    },
+    "page": "82--100",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "title": "The Makropulos case: reflections on the tedium of immortality",
+    "type": "chapter"
+  },
+  {
+    "id": "williams1988",
+    "author": [
+      {
+        "family": "Williams",
+        "given": "Bernard"
+      }
+    ],
+    "citation-key": "williams1988",
+    "container-title": "Consequentialism and its critics",
+    "editor": [
+      {
+        "family": "Scheffler",
+        "given": "Samuel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1988"
+        ]
+      ]
+    },
+    "page": "20–50",
+    "publisher": "Oxford University Press",
+    "source": "PhilPapers",
+    "title": "Consequentialism and integrity",
+    "type": "chapter"
+  },
+  {
+    "id": "wilson2003",
+    "author": [
+      {
+        "family": "Wilson",
+        "given": "Catherine"
+      }
+    ],
+    "citation-key": "wilson2003",
+    "collection-title": "Cambridge introductions to key philosophical texts",
+    "DOI": "10.1017/CBO9780511805004",
+    "ISBN": "978-0-521-00766-5 978-0-511-80500-4",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "language": "en",
+    "number-of-pages": "1",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "K10plus ISBN",
+    "title": "Descartes's Meditations: an introduction",
+    "title-short": "Descartes's Meditations",
+    "type": "book"
+  },
+  {
+    "id": "wolf1987a",
+    "author": [
+      {
+        "family": "Wolf",
+        "given": "Susan"
+      }
+    ],
+    "citation-key": "wolf1987a",
+    "container-title": "Responsibility, Character, and the Emotions: New Essays in Moral Psychology",
+    "editor": [
+      {
+        "family": "Schoeman",
+        "given": "Ferdinand David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1987"
+        ]
+      ]
+    },
+    "page": "46–62",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "title": "Sanity and the Metaphysics of Responsibility",
+    "type": "chapter"
+  },
+  {
+    "id": "wolff1998",
+    "author": [
+      {
+        "family": "Wolff",
+        "given": "Robert Paul"
+      }
+    ],
+    "call-number": "JC571 .W86 1998",
+    "citation-key": "wolff1998",
+    "ISBN": "978-0-520-21573-3",
+    "issued": {
+      "date-parts": [
+        [
+          "1998"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "number-of-pages": "86",
+    "publisher": "University of California Press",
+    "publisher-place": "Berkeley, Calif",
+    "source": "Library of Congress ISBN",
+    "title": "In defense of anarchism",
+    "type": "book"
+  },
+  {
+    "id": "zhuangzi2013a",
+    "author": [
+      {
+        "literal": "Zhuangzi"
+      }
+    ],
+    "citation-key": "zhuangzi2013a",
+    "container-title": "The complete works of zhuangzi",
+    "ISBN": "978-0-231-53650-9",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "language": "en-US",
+    "publisher": "Columbia University Press",
+    "publisher-place": "New York",
+    "title": "Discussion on making all things equal",
+    "translator": [
+      {
+        "family": "Watson",
+        "given": "Burton"
+      }
+    ],
+    "type": "chapter"
   }
 ]

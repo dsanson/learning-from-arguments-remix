@@ -49,11 +49,9 @@ can't be credited to any one philosopher in particular. Other chapters, however,
 are more directly indebted to the work of specific contemporary philosophers,
 reproducing the contents of their books and articles (though often with some
 modifications and simplifications). In particular, chapter 7 closely follows the
-opening chapters of Michael Huemer's *The Problem of Political Authority*;
-chapter 8 reproduces the central arguments of Judith Jarvis Thomson's "A Defense
-of Abortion" and Don Marquis's "Why Abortion is Immoral"; and chapter 9 draws
-heavily from Dan Lowe's "Common Arguments for the Moral Acceptability of Eating
-Meat" and Alastair Norcross's "Puppies, Pigs, and People."
+opening chapters of @huemer2013a; 
+chapter 8 reproduces the central arguments of @thomson1971 and @marquis1989; and chapter 9 draws
+heavily from @lowe2016a and @norcross2004.
 
 I'm grateful to Jeff Bagwell, Jacob Berger, Matt Davidson, Nikki Evans, Jason
 Fishbein, Bill Hartmann, Colton Heiberg, Will Huesser, İrem Kurtsal, Leo Iacono,

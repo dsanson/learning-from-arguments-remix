@@ -1,18 +1,3 @@
----
-nocite: |
-  @ayer1954
-  @alvarez2009
-  @frankfurt1969
-  @fischer2024
-  @griffith2022
-  @caruso2014
-  @hobart1934
-  @mickelson2016
-  @roskies2006
-  @vaninwagen2014
-  @wolf1987a
----
-
 # No Freedom {#sec-no-freedom}
 
 {{< include _authorial-endorsement.md >}}
@@ -74,12 +59,12 @@ Me*):
 ::: {#example-hypnotic-action .example}
 ## HYPNOTIC ACTION {-}
 
-> Tia is on the run from the law and knows the cops are hot on her trail. She
-> is also a master hypnotist. As she passes Jordan on the street, she
-> hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever
-> he hears someone shout *Freeze!* he will fall into a hypnotic trance and
-> tackle the person who said it. Just then, Kabir the cop arrives on the
-> scene, sees Tia, shouts *Freeze!*, and Jordan tackles him.
+Tia is on the run from the law and knows the cops are hot on her trail. She
+is also a master hypnotist. As she passes Jordan on the street, she
+hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever
+he hears someone shout *Freeze!* he will fall into a hypnotic trance and
+tackle the person who said it. Just then, Kabir the cop arrives on the
+scene, sees Tia, shouts *Freeze!*, and Jordan tackles him.
 
 :::
 
@@ -95,14 +80,14 @@ the person's actions but also their decisions.
 ::: {#example-hypnotic-decision .example}
 ## HYPNOTIC DECISION {-}
 
-> Tia is on the run from the law and knows the cops are hot on her trail. She
-> is also a master hypnotist. As she passes Colton on the street, she
-> hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever
-> he hears someone shout *Freeze!* he will grow very angry with the person,
-> decide to tackle them, and then tackle them. Just then, Kabir the cop
-> arrives on the scene, sees Tia, and shouts *Freeze!* As a result of the
-> hypnotic suggestion, Colton gets angry at Kabir, consciously decides to
-> tackle him, and then tackles him.
+Tia is on the run from the law and knows the cops are hot on her trail. She
+is also a master hypnotist. As she passes Colton on the street, she
+hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever
+he hears someone shout *Freeze!* he will grow very angry with the person,
+decide to tackle them, and then tackle them. Just then, Kabir the cop
+arrives on the scene, sees Tia, and shouts *Freeze!* As a result of the
+hypnotic suggestion, Colton gets angry at Kabir, consciously decides to
+tackle him, and then tackles him.
 
 :::
 
@@ -119,7 +104,7 @@ acted freely so long as they did what they decided to do, and Colton is a
 clear example of someone who isn't acting freely despite doing exactly what
 they decided to do. Since FR2 is false, our ordinary reason for thinking that
 we sometimes act freely is undermined. (For a discussion of how unrealistic
-cases can be relevant for assessing philosophical claims, see @sec-thought-experiments.)
+cases can be relevant for assessing philosophical claims, see @sec-thought-experiments of the Introduction.)
 
 ## The Desire Argument Against Free Action {#sec-the-desire-argument}
 
@@ -676,14 +661,14 @@ her own.
 ::: {#example-hypnotic-backup .example}
 ## HYPNOTIC BACKUP {-}
 
-> Tia the master hypnotist is on the run from the law and hires Clay to tackle
-> any cop who turns up. Concerned that Clay might betray her, Tia gives Clay
-> an irresistible post-hypnotic suggestion to tackle any cop he sees, but
-> which will kick in only if she triggers it by shouting *Abracadabra!* When
-> Kabir the cop arrives on the scene, Tia keeps a watchful eye on Clay to see
-> if he's going to back out. But Clay comes through: he decides to tackle
-> Kabir all on his own, without Tia having to trigger the post-hypnotic
-> suggestion that would have forced him to tackle Kabir.
+Tia the master hypnotist is on the run from the law and hires Clay to tackle
+any cop who turns up. Concerned that Clay might betray her, Tia gives Clay
+an irresistible post-hypnotic suggestion to tackle any cop he sees, but
+which will kick in only if she triggers it by shouting *Abracadabra!* When
+Kabir the cop arrives on the scene, Tia keeps a watchful eye on Clay to see
+if he's going to back out. But Clay comes through: he decides to tackle
+Kabir all on his own, without Tia having to trigger the post-hypnotic
+suggestion that would have forced him to tackle Kabir.
 
 :::
 
@@ -767,7 +752,7 @@ people because punishment (and the threat thereof) has certain desirable
 consequences, not because it "sets things right" by addressing some past
 wrongdoing.
 
-## Reflection Questions
+## Reflection Questions {-}
 
 1.  Premise DS1 of the Desire Argument says that what you choose to do is
     always determined by your desires. But isn't what you choose to do also at
@@ -786,22 +771,76 @@ wrongdoing.
     cannot be revised to serve as a counterexample to DT3\* of the Argument
     from Determined Decisions. Is that true?
 
-## Sources
+## Sources and Resources {-}
 
-Both the Desire Argument and the Argument from Determinism can be found in
-Baron d'Holbach's "Of the System of Man's Free Agency." The Consequence
-Argument in @sec-consequence-argument is drawn from @inwagen1986b, and the hypnotic backup case in @sec-freedom-without-options is a variation on an
-example from @frankfurt1969. For discussion of whether quantum mechanics is at odds with
-determinism, see @maudlin2005. Here are some additional resources:
+Both the Desire Argument and the Argument from Determinism can be found in @dholbach1868 [ch. 11] ([free version of the public domain text](https://www.gutenberg.org/files/8909/8909-h/8909-h.htm#link2H_4_0018)), while @hume1999 [§8] defends a compatiblist position ([free version of public domain text](https://www.gutenberg.org/files/9662/9662-h/9662-h.htm#section8)).
 
-<!--TODO: find best sources for:
+The Consequence Argument in @sec-consequence-argument is drawn from
+@inwagen1986b, and the hypnotic backup case in @sec-freedom-without-options is a
+variation on an example from @frankfurt1969. For discussion of whether quantum
+mechanics is at odds with determinism, see @maudlin2005. 
 
--   Baron d'Holbach's "Of the System of Man's Free Agency."
-- Clarence Darrow: Crime and Criminals (Address to the Prisoners in the
-  Chicago Jail)
--  Hume, Enquiry SECTION VIII. Of Liberty and Necessity.
+There are several 1000-Word Philosophy articles on Free Will. You don't really
+need me to provide you with links. I will let you
+find them for yourself! 
 
-Consider adding references to medieval sources...
+*Wireless Philosophy* has surprisingly little directly on the topic. @holton2013 is the closest thing they have, and it focuses more on the apparent incompatibility of free will and foreknowledge:
+
+{{< video https://youtu.be/iSfXdNIolQA >}}
+
+For a book length introduction to the problem of free will, of the sort that might be assigned in a class
+devoted to this topic, see @griffith2022. @fischer2024 offers four essays by four
+prominent theorists, presenting four different views on the issue.
+
+@ayer1954 and  @hobart1934 are classic defenses of compatibilism. 
+
+@vaninwagen2014 argues that free will is a mystery for both the determinist and the indeterminist.
+
+@alvarez2009 argues that, despite how it seems, examples like HYPNOTIC BACKUP fail to establish that free will does not involve the possibility of doing otherwise.
+
+@darrow1902 is a classic work by the famous attorney, Clarence Darrow, arguing that crime is not the result of free choice, and our usual ways of thinking about crime, punishment, and moral responsibility are wrong.
+
+@caruso2014 is a TED talk, arguing that we don't have free will, and that this is not a bad thing: we are better off not believing we have it.
+
+@wolf1987a suggests that we can better understand the threat posed by determinism by thinking about the relationship between free will, moral responsibility, and sanity.
+
+Here is another argument for the incompatibility of free will and determinism: offers a careful treatment of another argument 
+
+> Imagine that mischievous neuroscientists have developed technology which
+> allows them to covertly invoke any mental states they like in their chosen
+> victim, 'Vic.' The neuroscientists have grown tired of Vic's wife, so they
+> press a series of buttons which cause Vic to undergo a process of reasoning
+> which ends with his decision to kill her. Since there is nothing standing in
+> Vic's way, he carries out the plan. Now, a question: Is Vic free and morally
+> responsible for killing his wife? It certainly seems not: although Vic's
+> decision to kill his wife is the causal product of his own inner states, these
+> states are ultimately under the causal control of the neuroscientists. As
+> such, Vic seems no more free---and, so, no more morally responsible---than a
+> marionette. But, assuming that the laws of nature are deterministic, it seems
+> that we, too, are mere marionettes: each of us is bound by 'causal strings' to
+> facts in the distant past over which we had no control. Being subject to
+> deterministic causal laws, then, is no different than being subject to
+> freedom-undermining manipulation. [@mickelson2016, p. 166]
+
+See @mickelson2016 for more discussion.
+
+
+The arguments in this chapter did not depend on any surprising results from neuroscience. @roskies2006 considers
+the question of whether and how results from neuroscience might alter the debate.
+
+Hume and D'Holbach were hardly the first philosophers to consider the problem of free will. 
+
+@frede2011a tells some of that earlier history, and argues that our concept of
+free will is not the inevitable product of common sense, but a philosophical
+construct shaped by our contingent history.
+
+
+
+
+
+<!--
+
+TODO: Consider adding references to medieval sources...
 
 -->
 

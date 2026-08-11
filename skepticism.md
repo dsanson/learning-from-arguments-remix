@@ -1,22 +1,3 @@
----
-nocite: |
-  @greco2014
-  @greco2014a
-  @nagel2016c
-  @nagel2016b
-  @nagel2016
-  @descartes1996a
-  @zhuangzi2013a
-  @huemer1999
-  @markosian2014a
-  @nagel2014
-  @rinard2018
-  @salmon1975
-  @stine1976b
-  @stolz2021
-  @weintraub2008
-  @wilson2003
----
 
 # You Know Nothing {#sec-skepticism}
 
@@ -81,7 +62,8 @@ Now that we have a handle on what induction is, let's get to the argument. The
 argument is going to turn on the status of a certain principle, which I'll
 call the *Future Like Past* principle, or FLP for short:
 
-:::{#def-flp .thesis}
+
+::: {#thesis-FLP .thesis}
 Future Like Past (FLP)
 :   Future states of the world will be like past states of the world
 :::
@@ -93,7 +75,9 @@ to believe that FLP is true.
 Using your belief that the sun will set in the west tomorrow as an
 illustration, the argument runs as follows:
 
-::: {#arg-KF .argument}
+::: {#argument-KF .argument}
+## Against Knowing the Future {-}
+
 - (KF1) If you are not justified in believing that FLP is true, then your
   belief that the sun will set in the west tomorrow is unjustified
 - (KF2) You are not justified in believing that FLP is true
@@ -103,7 +87,6 @@ illustration, the argument runs as follows:
   unjustified, then you don't know that the sun will set in the west tomorrow
 - (KF5) So, you don't know that the sun will set in the west tomorrow
 
-**Against Knowing the Future**
 :::
 
 I'll explain the rationale behind KF1 and KF2 in the following two sections.
@@ -122,14 +105,15 @@ Premise KF1 says that your belief that the sun will rise tomorrow is justified
 *only if* you have good reason to think that that FLP is true. Here's the
 argument for that premise:
 
-::: {#arg-FF .argument}
+::: {#argument-FF .argument}
+## The Faulty Foundation Argument {-}
+
 - (FF1) Your belief that the sun will set in the west tomorrow is based on FLP
 - (FF2) If a belief is based on something that you aren't justified in
   believing, then that belief itself is unjustified
 - (KF1) So, if you are not justified in believing that FLP is true, then your
   belief that the sun will set in the west tomorrow is unjustified
 
-**The Faulty Foundation Argument**
 :::
 
 To see the idea behind FF1, let's again ask: why do you believe that the sun
@@ -158,7 +142,7 @@ use it to infer that there will never be flying cars or a cure for cancer. The
 principle we actually rely on in our reasoning is more nuanced, perhaps
 something like this:
 
-:::{#def-FLP-star .thesis}
+:::{#thesis-FLP-star .thesis}
 FLP\*
 :   Future states of the world will be like past states of the world *except
     in respects in which we can expect them to differ*
@@ -174,7 +158,9 @@ How about FF2? The idea there is that a justified belief can't be built on a
 faulty foundation: if your reasons for believing something are no good, then
 that belief itself is no good. To help see this, consider the following case:
 
-::: {#exa-power-pose .example}
+::: {#example-power-pose .example}
+## POWER POSE {-}
+
 Jared is getting ready for a job interview, and thinks it will help his
 chances if he spends five minutes "power posing" in front of the mirror.
 When his fiancée Ashley asks him why he thinks that will help, Jared tells
@@ -183,7 +169,6 @@ performance-enhancing hormones into your bloodstream. Skeptical, Ashley does
 some Googling and informs Jared that the power-posing study has been
 completely discredited and is now widely regarded as "pseudo-science."
 
-**POWER POSE**
 :::
 
 When Jared finds out that the study has been discredited, that renders his
@@ -207,14 +192,15 @@ The idea behind KF2 is that there are only two possible ways for a belief in
 FLP to be justified, and it isn't justified in either of those ways. Here is
 the argument:
 
-::: {#arg-UJ .argument}
+::: {#argument-UJ .argument}
+## FLP is Unjustified {-}
+
 - (UJ1) If your belief in FLP is justified, then it is either justified by
   direct observation or by inductive reasoning
 - (UJ2) Your belief in FLP isn't justified by direct observation
 - (UJ3) Your belief in FLP isn't justified by inductive reasoning
 - (KF2) So, your belief in FLP is unjustified
 
-**FLP is Unjustified**
 :::
 
 I'll quickly explain why we should accept UJ1 and UJ2, and then in @sec-inductive-arg-for-flp 
@@ -263,14 +249,15 @@ set in the west tomorrow. The idea behind UJ3 is that any inductive
 justification for FLP would be circular, and circularity is bad. Unpacking
 that a bit:
 
-::: {#arg-AC .argument}
+::: {#argument-AC .argument}
+## The Anti-Circularity Argument {-}
+
 - (AC1) All inductive reasoning about the future assumes the truth of FLP
 - (AC2) If all inductive reasoning about the future assumes the truth of FLP,
   then any inductive reasoning about FLP is circular
 - (AC3) No belief can be justified by circular reasoning
 - (UJ3) So, FLP isn't justified by inductive reasoning
 
-**The Anti-Circularity Argument**
 :::
 
 Let's take it one premise at a time.
@@ -314,7 +301,9 @@ an illustration, consider the following case, involving a Magic 8-Ball toy
 (which randomly displays answers like Yes, No, and Maybe when you shake it
 up):
 
-::: {#exa-magic-eight-ball .example}
+::: {#example-magic-eight-ball .example}
+## MAGIC 8-BALL {-}
+
 Madhu shakes up his Magic 8-Ball, asks whether Smitha has a crush on him,
 and it issues its verdict: *yes*. Madhu's excitement lasts only for a
 moment, as he suddenly realizes that he has no reason to believe that the
@@ -323,7 +312,6 @@ asks it whether it can be trusted, and it issues its verdict: *yes*. "That
 settles it," Madhu thinks to himself, "the 8-ball can be trusted, and Smitha
 does have a crush on me!"
 
-**MAGIC 8-BALL**
 :::
 
 Obviously, Madhu's reasoning here is deeply problematic. The first time he
@@ -363,7 +351,7 @@ you, and so on.
 My argument involves a certain hypothesis, which I'll call *the dreaming
 hypothesis*, or TDH for short:
 
-::: {#def-TDH .thesis}
+::: {#thesis-TDH .thesis}
 The Dreaming Hypothesis (TDH)
 :   You are currently lying down in bed dreaming about sitting down reading a
     philosophy textbook
@@ -372,13 +360,14 @@ The Dreaming Hypothesis (TDH)
 With TDH in mind, here is how I'll argue that you don't know that you're
 sitting down reading:
 
-::: {#arg-DR .argument}
+::: {#argument-DR .argument}
+## The Dreaming Argument {-}
+
 - (DR1) If you have no way of knowing that TDH is false, then you don't know
   that you're sitting down reading
 - (DR2) You have no way of knowing that TDH is false
 - (DR3) So you don't know that you're sitting down reading
 
-**The Dreaming Argument**
 :::
 
 Notice that TDH is not itself a premise of the argument. Accordingly, I don't
@@ -411,7 +400,9 @@ then you can't truly claim to know that it's a hawk.
 
 This suggests the following argument for DR1:
 
-::: {#arg-CH .argument}
+::: {#argument-CH .argument}
+## The Competing Hypotheses Argument {-}
+
 - (CH1) One knows a certain thing only if one has some way of knowing that all
   competing hypotheses are false
 - (CH2) TDH is a hypothesis that competes with your belief that you're sitting
@@ -419,15 +410,14 @@ This suggests the following argument for DR1:
 - (DR1) So, if you have no way of knowing that TDH is false, then you don't
   know that you're sitting down reading
 
-**The Competing Hypotheses Argument**
 :::
 
 CH1 reflects a general lesson that can be extracted from the hawk example: in
-order to truly know what's going on in a given situation, you have to be able
-to rule out competing hypotheses about what's going on in that situation.
-That's why the observation that you can't rule out the hypothesis that the
-bird we saw is an eagle constitutes a genuine challenge to your claim to know
-that the bird is a hawk.
+order to truly know what's going on in a given situation, you have to be able to
+rule out competing hypotheses about what's going on in that situation. That's
+why the observation that you can't rule out the hypothesis that the bird we saw
+is an eagle constitutes a genuine challenge to your claim to know that the bird
+is a hawk.
 
 CH2 is straightforward: when you have all of these experiences as of sitting
 down and reading, and you assume that you indeed are sitting down reading, a
@@ -456,27 +446,34 @@ tails*, that's a deduction. You deduced that it landed tails from those other
 two beliefs. Using this notion of deduction, we can run the following
 argument:
 
-::: {#arg-DE .argument}
-- (DE1) If you know you're sitting down reading, then you can deduce that TDH
-  is false from things you know
-- (DE2) If you can deduce something from things you know, then you have a way
-  of knowing that thing
-- (DE3) So, if you know you're sitting down reading, then you have a way of
-  knowing that TDH is false
+::: {#argument-DE .argument}
+## The Argument from Deduction {-}
 
-**The Argument from Deduction**
+- (DE1) If you know you're sitting down reading, then you can deduce that TDH
+  is false from things you know.
+- (DE2) If you can deduce something from things you know, then you have a way
+  of knowing that thing.
+- (DE3) So, if you know you're sitting down reading, then you have a way of
+  knowing that TDH is false.
+
 :::
+
+<!--
+
+TODO: This definition of 'deduction' is weird' and the example is too.
+
+-->
 
 DE1 says that there's a certain kind of deduction you'd be able to perform if
 you really did know that you were sitting down reading. Specifically, you'd be
 able to perform the following deduction:
 
-- *(i) I'm sitting down reading*
-- *(ii) If I'm sitting down reading, then I'm sitting*
-- *(iii) If I'm sitting, then I'm not lying down*
-- *(iv) If I'm not lying down, then I'm not lying down dreaming*
-- *(v) If I'm not lying down dreaming, then TDH is false*
-- *(vi) So, TDH is false*
+  (i) I'm sitting down reading.
+ (ii) If I'm sitting down reading, then I'm sitting.
+(iii) If I'm sitting, then I'm not lying down.
+ (iv) If I'm not lying down, then I'm not lying down dreaming.
+  (v) If I'm not lying down dreaming, then TDH is false.
+ (vi) So, TDH is false.
 
 This is a way of deducing that TDH is false. Steps (ii), (iii), (iv), and (v)
 of the reasoning are easily known conceptual truths. For instance, you know
@@ -500,9 +497,9 @@ says *exactly the same thing* as DR1:
 
 ::: argument
 - (DE3) If you know you're sitting down reading, then you have a way of
-  knowing that TDH is false
+  knowing that TDH is false.
 - (DR1) If you have no way of knowing that TDH is false, then you don't know
-  that you're sitting down reading
+  that you're sitting down reading.
 :::
 
 To see that these say the same thing, notice that "if A is true then B is
@@ -521,13 +518,14 @@ that you *can't* rule out TDH. Simply put, the argument is that you haven't
 got any evidence against TDH, and you can't know that a claim is false if you
 haven't got any evidence against it.
 
-::: {#arg-NE .argument}
+::: {#argument-NE .argument}
+## The No Evidence Argument {-}
+
 - (NE1) If you have no evidence against something, then you have no way of
   knowing it's false
 - (NE2) You have no evidence against TDH
 - (DR2) So, you have no way of knowing that TDH is false
 
-**The No Evidence Argument**
 :::
 
 NE1 is eminently plausible. I might tell you that J. K. Rowling is the
@@ -551,13 +549,14 @@ After all, you might insist, we don't have any evidence *for* TDH either. So,
 it would seem that we can run a parallel argument for the conclusion that we
 can't know that TDH is *true*:
 
-::: {#arg-FE .argument}
+::: {#argument-FE .argument}
+## The Flipped Evidence Argument {-}
+
 - (FE1) If you have no evidence for something, then you have no way of knowing
   it's true
 - (FE2) You have no evidence for TDH
 - (FE3) So, you have no way of knowing that TDH is true
 
-**The Flipped Evidence Argument**
 :::
 
 But this argument doesn't worry me at all. It's not that I have some objection
@@ -590,7 +589,7 @@ counts as evidence against TDH.
 The easiest way to see why this objection won't work is to slightly modify TDH
 as follows:
 
-::: {#def-TDH-plus .thesis}
+::: {#thesis-TDH-plus .thesis}
 TDH+
 :   You are currently lying down in bed dreaming about sitting down reading a
     philosophy textbook, and it's the most incredibly vivid dream you've ever
@@ -645,14 +644,15 @@ Let's call a way of testing whether you're dreaming a "dreaming test." A
 really are dreaming, and that tells you you're awake only when you really are
 awake. Here's the argument:
 
-::: {#arg-NU .argument}
+::: {#argument-NU .argument}
+## The No Useful Tests Argument {-}
+
 - (NU1) If you don't know that a dreaming test is reliable, then you can't
   know whether you're dreaming by using it
 - (NU2) You can never know that a dreaming test is reliable
 - (NU3) So, you can never know whether you're dreaming by using a dreaming
   test
 
-**The No Useful Tests Argument**
 :::
 
 NU1 says that, in order to know whether you're dreaming by using a certain
@@ -698,7 +698,7 @@ be like past states of the world. And you can't know anything about the
 present because you have no way to rule out the possibility that all of your
 present experiences are part of an unusually vivid dream.
 
-## Reflection Questions
+## Reflection Questions {-}
 
 1.  The argument in @sec-why-flp turns on the claim that induction and direct
     observation are the only ways of knowing about the world. Is that true?
@@ -722,19 +722,49 @@ present experiences are part of an unusually vivid dream.
     one knows anything about the world? If so, is that a problem? If not, why
     not?
 
-## Sources
+## Sources and Resources {-} 
 
 The Against Knowing the Future Argument---more commonly known as the problem
-of induction---can be found in David Hume's *Enquiry Concerning Human
-Understanding*. The Magic 8-Ball example is drawn from @fumerton1995. The
-Dreaming Argument is drawn from René Descartes's *Meditations on First
-Philosophy*, and also has roots in Zhuangzi's "Discussion on Making All Things
-Equal." See @dretske2013 for discussion of the Argument from Deduction. The
+of induction---can be found in @hume1999 [§4] ([free text](https://www.gutenberg.org/files/9662/9662-h/9662-h.htm#section4)).
+The Magic 8-Ball example is drawn from @fumerton1995. The
+Dreaming Argument is drawn from @descartes1996a [Meditation I] ([free text](https://www.marxists.org/reference/archive/descartes/1639/meditations.htm)),
+and also has roots in @zhuangzi2013a ([free text](https://ctext.org/zhuangzi/adjustment-of-controversies)).
+See @dretske2013 for discussion of the Argument from Deduction. The
 joke about the philosopher's dream in @sec-can-you-tell-dreaming is from
-@smullyan1983. Here are some additional resources:
+@smullyan1983. 
+
+@chapman2014 (*1000-Word Philosophy*) offers a brief overview of skepticism about the external world, while
+@ramsey2020 discusses a dream argument from al-Ghazālī. There are other articles on *1000-Word Philosophy* relevant to this chapter: search for "epistemology", "skepticism", "induction", and "dream".
+
+There are several *Wireless Philosophy* videos on the topics introduced in this
+chapter: @nagel2016 -@nagel2016c -@nagel2016b are on skepticism; 
+ @greco2014a -@greco2014 are on Hume's skepticism specifically.
+
+@nagel2014 is part Oxford's "Very Short Introduction" series of books. It is a
+nice self-contained introduction to epistemology, the theory of knowledge.
+
+For the history of skepticism, you might look the *History of Philosophy without any Gaps* podcast. Here are some key episodes:
+
+-   [Beyond Belief: Pyrrho and Skepticism](https://historyofphilosophy.net/podcast/later-antiquity/hellenistic/pyrrho): the first of several episodes of ancient Greek skepticism.
+-    [When in Doubt: the Rise of Skepticism](https://historyofphilosophy.net/podcast/india/age-sutra/rise-skepticism): skepticism in the context Indian thought.
+-   [To Speak or Not to Speak: Skepticism in the Zhuangzi](https://historyofphilosophy.net/podcast/china/warring-states-period/zhuangzi-skepticism)
+-   [Seeing is Believing: Nicholas of Autrecourt’s Skeptical Challenge](https://historyofphilosophy.net/podcast/medieval/fourteenth-century/autrecourt-skepticism): a late Medieval debate about the possibility of certain knowledge
+-   [Perchance to Dream: Descartes’ Skeptical Method](https://historyofphilosophy.net/podcast/early-modern/france-and-netherlands/descartes-skeptical-method)
+
+
+For a more thorough overview of the history of skepticism in the "Western"
+tradition descending from Greek philosophy, see @lagerlund2020. For a history of
+skepticism in the Buddhist tradition, see @stoltz2021, especially chapter 7. For
+a deep dive on Descartes specifically, see @wilson2003.
+
+For more on the problem of induction, see @salmon1975 and @weintraub2008.
+For some responses to the Dreaming Argument, see
+@moore1939a [-@moore1925a], @markosian2014a, and @stine1976b.
+For an argument that external world skepticism is self-defeating, see @rinard2018.
 
 
 
-<!-- TODO: best version of Hume's Enquiry -->
+
+
 
 

@@ -1,25 +1,3 @@
----
-nocite: |
-  @documeaning2011
-  @camp2016
-  @strohminger2015
-  @dellarocca2014
-  @dellarocca2014a
-  @dellarocca2014b
-  @crashcourse2016
-  @boyle2020
-  @campbell2016
-  @casati2008i
-  @casati2008j
-  @dennett1978
-  @kind2015
-  @perry1978a
-  @schechtman2014
-  @siderits2003
-  @menketi1979
-  @darrow1929
----
-
 # What Makes You You {#sec-personal-identity}
 
 {{< include _authorial-endorsement.md >}}
@@ -69,7 +47,7 @@ fill in the blank in the following sentence:
 
 :::{#thesis-personal-identity-template .thesis}
 Template of an Account
-:   A at time t is the same person as B at time t\* if and only if \_\_\_\_\_\_.
+:   $A$ at time $t$ is the same person as $B$ at time $t^*$ if and only if \_\_\_\_\_\_.
 :::
 
 In other words, when we're looking at or thinking about a person at one time,
@@ -94,15 +72,15 @@ them. You wore one yesterday, and the other today. I see you today and say:
 they're exactly the same design. In another sense, no: you have changed your
 shirt since I last saw you.
 
-To put a label on it, I'll say that two things, A and B, are *qualitatively*
-the same when A and B are very similar to one another. I call this sort of
-sameness 'qualitative' because the idea is that A and B have a lot of the same
-qualities (color, shape, design, etc.). A and B are *numerically* the same
-when A *is* B. I call this sort of sameness 'numerical' because it's saying
-that A is the same as B in the way that numbers are sometimes said to be the
-same number. '2`<sup>`{=html}2`</sup>`{=html} = 4' isn't just saying that the
-number 2`<sup>`{=html}2`</sup>`{=html} and the number 4 are incredibly
-similar; it's saying that '2`<sup>`{=html}2`</sup>`{=html}' and '4' are two
+To put a label on it, I'll say that two things, $A$ and $B$, are *qualitatively*
+the same when $A$ and $B$ are very similar to one another. I call this sort of
+sameness 'qualitative' because the idea is that $A$ and $B$ have a lot of the same
+qualities (color, shape, design, etc.). $A$ and $B$ are *numerically* the same
+when $A$ *is* $B$. I call this sort of sameness 'numerical' because it's saying
+that $A$ is the same as $B$ in the way that numbers are sometimes said to be the
+same number. '$2^2 = 4$' isn't just saying that the
+number $2^2$ and the number $4$ are incredibly
+similar; it's saying that '$2^2$' and '$4$' are two
 names for one and the same number. The cars Jade and Tanner drive are
 qualitatively the same, but not numerically the same. The shirts you bought
 are qualitatively the same, but not numerically the same.
@@ -116,8 +94,8 @@ the same person as Cassius Clay, we *are* saying that they are one and the
 same person; they're numerically the same.
 
 The question I am asking in this chapter is a question about numerical
-sameness, not qualitative sameness. So, whenever I say "A is the same person
-as B," that means that A and B are numerically the same. When I do want to
+sameness, not qualitative sameness. So, whenever I say "$A$ is the same person
+as $B$," that means that $A$ and $B$ are numerically the same. When I do want to
 talk about qualitative sameness, I'll describe things as "very similar" or
 "exactly alike" or "indistinguishable."
 
@@ -137,7 +115,7 @@ next.
 The second thing I want to clarify is that I'm looking for an answer that's
 more than just a mere *rule of thumb* for telling who's who. If that were all
 that I wanted, then answering the question of personal identity would be easy:
-A at t is the same person as B at t\* when A's fingerprints and B's
+$A$ at $t$ is the same person as $B$ at $t^*$ when $A$'s fingerprints and $B$'s
 fingerprints are exactly alike. But since I want something absolutely
 exceptionless, this Fingerprints Account won't do. To see why that is,
 consider the following case:
@@ -163,7 +141,7 @@ times the same person, it's not enough for an account of personal identity
 just to get the right result in all *actually existing* cases. Here's an
 analogy to
 help see why that is. Suppose I wanted to know what makes someone a bachelor,
-and you say: Person A is a bachelor if and only if A is an unmarried man who
+and you say: Person $A$ is a bachelor if and only if $A$ is an unmarried man who
 is under eighty feet tall. That would not be an accurate account of what a
 bachelor is. And yet it's true that every actually existing unmarried man
 under eighty feet tall is a bachelor, and every actually existing bachelor is
@@ -180,7 +158,7 @@ looking for is an account of personal identity which has no exceptions even in
 principle. The same is true for other accounts which we will consider below:
 even merely hypothetical examples can serve as counterexamples to those
 accounts. (For more on how merely hypothetical cases can still be relevant
-when assessing philosophical claims, @sec-thought-experiments.)
+when assessing philosophical claims, see @sec-thought-experiments of the Introduction.)
 
 ## Some Promising and Unpromising Answers {#sec-promising-and-unpromising-answers}
 
@@ -191,7 +169,7 @@ the Fingerprints Account:
 
 :::{#thesis-fingerprints .thesis}
 The Fingerprints Account
-:   A at time t is the same person as B at time t\* if and only if A and B
+:   $A$ at time $t$ is the same person as $B$ at time $t^*$ if and only if $A$ and $B$
     have indistinguishable fingerprints.
 :::
 
@@ -212,7 +190,7 @@ What if we focused on DNA instead of fingerprints?
 
 :::{#thesis-dna .thesis}
 The DNA Account
-:   A at t is the same person as B at t\* if and only if A and B have
+:   $A$ at $t$ is the same person as $B$ at $t^*$ if and only if $A$ and $B$ have
     indistinguishable DNA.
 :::
 
@@ -237,14 +215,14 @@ whole:
 
 :::{#thesis-same-body .thesis}
 The Same Body Account
-:   A at t is the same person as B at t\* if and only if A has the same body
-    as B.
+:   $A$ at $t$ is the same person as $B$ at $t^*$ if and only if $A$ has the same body
+    as $B$.
 :::
 
 'Body' is sometimes used to mean just the torso, not including the head and
 limbs. That's not how I'm using it. When I say 'body', I mean the *whole*
-body, including the head and all the other body parts. And when I say that A
-and B have the same body, I mean that they have *numerically* the same body.
+body, including the head and all the other body parts. And when I say that $A$
+and $B$ have the same body, I mean that they have *numerically* the same body.
 Bodies obviously can change over time---indeed, your body was composed of
 almost entirely different cells seven years ago---but that's not to deny that
 the body you have now is numerically the same as the body you had seven years
@@ -275,7 +253,7 @@ following account:
 
 :::{#thesis-psych-matching .thesis}
 The Psychological Matching Account
-:   A at t is the same person as B at t\* if and only if A's psychological
+:   $A$ at $t$ is the same person as $B$ at $t^*$ if and only if A's psychological
     features are exactly the same as B's psychological features.
 :::
 
@@ -296,7 +274,7 @@ psychological features.
 
 :::{#thesis-psych-overlap .thesis}
 The Psychological Overlap Account
-:   A at t is the same person as B at t\* if and only if A's psychological
+:   $A$ at $t$ is the same person as $B$ at $t^*$ if and only if A's psychological
     features are mostly the same as B's psychological features.
 :::
 
@@ -343,8 +321,8 @@ gives us:
 
 :::{#thesis-psych-descendant .thesis}
 The Psychological Descendant Account
-:   A at t is the same person as B at t\* if and only if A is either a
-    psychological ancestor or a psychological descendant of B.
+:   $A$ at $t$ is the same person as $B$ at $t^*$ if and only if $A$ is either a
+    psychological ancestor or a psychological descendant of $B$.
 :::
 
 This gives us the right results in all of the cases we have been considering.
@@ -388,7 +366,7 @@ much more clearly pose a problem for the Same Body Account.
 The first objection I'll raise against the Same Body Account involves
 conjoined twins. Abby and Brittany Hensel are dicephalic parapagus twins.
 This means that they have two heads attached to a single torso. They are alive and well and
-are currently about 30 years old. It's easy to see why conjoined twins pose a
+are currently about 35 years old. It's easy to see why conjoined twins pose a
 problem for the Same Body Account. We would naturally describe Abby and
 Brittany as two people sharing a single body. But the Same Body Account rules
 that out, since it says that sharing a body is sufficient for being the same
@@ -561,7 +539,7 @@ own. (Spoiler: it does.)
 
 ### Arguments from Discontinuity {#sec-arguments-from-discontinuity}
 
-According to the Psychological Descendant Account, A is the same person as B
+According to the Psychological Descendant Account, $A$ is the same person as $B$
 only if one is a psychological descendant of the other. One way to put
 pressure on this account is to look at cases involving dramatic psychological
 discontinuities, breaks in the moment-by-moment chain of overlapping
@@ -715,8 +693,8 @@ each is a psychological descendant of JoJo, the Psychological Descendant
 Account will entail that each of them is the same person as her.
 
 FS2 follows from a highly plausible logical principle: the transitivity of
-identity. According to this principle, if A = B and B = C, then it follows
-that A = C. (Here, the '=' symbol signifies numerical sameness.) That's true
+identity. According to this principle, if $A$ = $B$ and $B$ = C, then it follows
+that $A$ = C. (Here, the '=' symbol signifies numerical sameness.) That's true
 no matter what you plug in for 'A', 'B', and 'C'. Suppose you find out that
 Chadwick Boseman is the actor who played the Black Panther, and you also find
 out that the actor who played the Black Panther was also the star of *Ma
@@ -734,8 +712,8 @@ Premise FS4 is motivated by a different logical principle, which I'll call
 
 ::: {#thesis-NDP .thesis}
 The No Difference Principle (NDP)
-:   If A is numerically the same as B, then at any given time, anything that's
-    true of A at that time is also true of B at that time.
+:   If $A$ is numerically the same as B, then at any given time, anything that's
+    true of $A$ at that time is also true of $B$ at that time.
 :::
 
 To illustrate the principle, consider Cassius Clay and Muhammad Ali. Cassius
@@ -749,7 +727,7 @@ guy, and he either was or wasn't in the boxing ring at that time.
 
 This principle, NDP, is also a useful tool for demonstrating that two people
 *aren't* numerically the same. NDP tells us that if, at a given time, you can
-find even a single difference between A and B, then A and B cannot be
+find even a single difference between $A$ and B, then $A$ and $B$ cannot be
 numerically the same. If you're wondering whether Emily and Haley are the same
 person, just notice that Emily is skydiving right now and Haley isn't, and
 that settles it: they must be two different people. If they *were* numerically
@@ -800,7 +778,7 @@ identity:
 
 :::{#thesis-same-soul .thesis}
 The Same Soul Account
-:   A at t is the same person as B at t\* if and only if A has the same soul as B.
+:   $A$ at $t$ is the same person as $B$ at $t^*$ if and only if $A$ has the same soul as $B$.
 :::
 
 The Same Soul Account could then be put to work in addressing the various
@@ -824,12 +802,12 @@ physical body.
 
 Let's suppose that's what you mean: you are your soul. But then the Same Soul
 Account doesn't actually answer the question of personal identity. For suppose
-that "A's soul" is just a fancy way of referring to A herself, and "B's soul"
-is just a fancy way of referring to B herself. In that case, all that the Same
-Soul Account is saying is: A is the same person as B if and only if A is the
-same person as B. And while that's true, it's also completely trivial and
+that "A's soul" is just a fancy way of referring to $A$ herself, and "B's soul"
+is just a fancy way of referring to $B$ herself. In that case, all that the Same
+Soul Account is saying is: $A$ is the same person as $B$ if and only if $A$ is the
+same person as $B$. And while that's true, it's also completely trivial and
 uninformative. It's like answering the question of what makes someone a
-bachelor by saying that A is bachelor if and only if A is a bachelor. That's
+bachelor by saying that $A$ is bachelor if and only if $A$ is a bachelor. That's
 true, but it's trivial, and it certainly doesn't tell us anything about what
 *makes* someone a bachelor.
 
@@ -870,7 +848,6 @@ who was reading this page a moment ago!
 
 The second problem involves the separability of the soul from the body. If
 these really are different parts of a person, there should be nothing in
-
 principle to stop the immaterial part of one person from coming apart from
 that person and combining with another body at a later time. Suppose it turns
 out that your immaterial part (your "soul") is the same one that used to be
@@ -903,14 +880,14 @@ a Body-And-Mind Account and a Body-Or-Mind Account.
 
 :::{#thesis-body-and-mind .thesis}
 The Body-And-Mind Account
-:   A at t is the same person as B at t\* if and only if A has the same body
-    as B *and* A is a psychological ancestor or descendant of B.
+:   $A$ at $t$ is the same person as $B$ at $t^*$ if and only if $A$ has the same body
+    as $B$ *and* $A$ is a psychological ancestor or descendant of $B$.
 :::
 
 :::{#thesis-body-or-mind .thesis}
 The Body-Or-Mind Account
-:   A at t is the same person as B at t\* if and only if A has the same body
-    as B *or* A is a psychological ancestor or descendant of B.
+:   $A$ at $t$ is the same person as $B$ at $t^*$ if and only if $A$ has the same body
+    as $B$ *or* $A$ is a psychological ancestor or descendant of $B$.
 :::
 
 Let's begin with the Body-And-Mind Account. This account does have certain
@@ -994,10 +971,54 @@ without an answer to the question of personal identity.
     personal identity and raised problems for both. Can you articulate a
     superior hybrid account that avoids some of these problems?
 
-## Sources {.unnumbered}
+## Sources and Resources {-}
 
-The debate over personal identity largely traces back to John Locke's *Essay
-Concerning Human Understanding*, [Book II, Chapter 27: "Of Identity and Diversity"](https://www.gutenberg.org/files/10615/10615-h/10615-h.htm#chap2.27), which advances a psychological account of
-personal identity and presents a version of the Body Swap Argument as well as
-an argument against the Same Soul Account. See @parfit1971a for a classic discussion of fission cases, and see @demarest2016 for an exploration of the "one person, two
-bodies" strategy.
+The debate over personal identity largely traces back to @locke1975, [Book II,
+Chapter 27: "Of Identity and
+Diversity"](https://www.gutenberg.org/files/10615/10615-h/10615-h.htm#chap2.27),
+which advances a psychological account of personal identity and presents a
+version of the Body Swap Argument as well as an argument against the Same Soul
+Account. See @parfit1971a for a classic discussion of fission cases, and see
+@demarest2016 for an exploration of the "one person, two bodies" strategy. 
+
+If you are looking for additional introductory material on the topic,
+@crashcourse2016 is not a bad place to start:
+
+{{< video https://www.youtube.com/watch?v=trqDnLNRuSc >}}
+
+There is also @vance2014 (*1000-Word Philosophy*).
+
+@kind2015 is a book-length introduction, of the sort that might be assigned
+for an undergraduate course on the topic.
+@perry1978a presents the basic issues in the form of a dialogue.
+
+There are several *Wireless Philosophy* videos on different aspects of the topic: @camp2016, @strohminger2015, and
+@dellarocca2014, -@dellarocca2014a, -@dellarocca2014b.
+
+For a classic take-down of the "soul" view, see @darrow1929 (yes, the same Darrow who
+defended John Thomas Scopes for teaching evolution in the Scopes "Monkey" Trial).
+
+@casati2008i and -@casati2008j are thought experiments presented in the form of short stories. @dennett1978 is too.
+
+One popular idea not discussed above is the "narrative view of the self". Broadly, this
+is the idea that a person constructs their own identity by integrating their experiences into
+a coherent narrative. An immediate objection to this view, as a solution to the problem of discussed above,
+is that it appears to be circular. @schechtman2014 defends a version of this view, which she calls
+the "person-life view"---to be a person is to live a "person life," a life with
+a distinctive structure. Camp's *Wireless Philosophy* video offers an overview of the basic idea:
+
+{{< video https://youtu.be/lcIqoN9oRgo >}}
+
+For an exploration of the problem from the perspective of Buddhist philosophy, see @siderits2003 and [this episode](https://historyofphilosophy.net/podcast/india/origins/buddhism-gethin) from the *History of Philosophy without any Gaps* podcast.
+
+For discussion of traditional African conceptions of persons, see @coetzee2003
+[p. 203--206] and @gyekye1978 (reprinted as -@gyekye1984),along with [this
+episode](https://historyofphilosophy.net/podcast/africana/precolonial-africa/african-person)
+of the *History of Philosophy without any Gaps* podcast.
+
+For more on the philosophical significance of the case of dicephalic twins, see @campbell2016 and @boyle2020. 
+@pihlaja2007 is a documentary on Abby and Brittany Hensel.
+
+
+
+

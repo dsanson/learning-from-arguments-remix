@@ -1,11 +1,11 @@
-# Introduction {#introduction}
+# Introduction {.unnumbered}
 
 The aim of this book is to introduce you to the topics and methods of
 philosophy by advancing a series of arguments for controversial philosophical
 conclusions. That's what I'll do in the chapters that follow. In this
-Introduction, I'll give you an overview of what I'll be arguing for in the
-different chapters (-@sec-the-chapters), explain what an argument is ([-@sec-the-elements-of-arguments]--[-@sec-premises-and-conditionals])
-and identify some common argumentative strategies ([-@sec-argumentative-strategies]--[-@sec-thought-experiments]). I'll close
+introduction, I'll give you an overview of what I'll be arguing for in the
+different chapters, explain what an argument is 
+and identify some common argumentative strategies. I'll close
 by saying a few words about what philosophy is.
 
 ## The Chapters {#sec-the-chapters}
@@ -440,7 +440,6 @@ might try to show that being painful isn't sufficient, by producing examples
 of things that are painful but aren't bad for you. Second, you might try to
 show that being painful isn't necessary, by producing examples of things that
 aren't painful but that are still bad for you. An example of
-
 *either* sort would count as a counterexample to HD and would be enough to
 show that HD is incorrect. Can you think of one?
 
@@ -692,7 +691,7 @@ other worldly observations.) As Delia Graff Fara puts it,
 > By doing philosophy we can discover eternal and mind-independent truths about
 the nature of the world by investigating our own conceptions of it, and by
 subjecting our most commonly or firmly held beliefs to what would otherwise be
-perversely strict scrutiny.
+perversely strict scrutiny. [@pyke2011]
 
 After finishing this book, I think you'll have a pretty good sense of what
 Professor Fara means by "perversely strict scrutiny." And I don't think she
@@ -704,3 +703,65 @@ identify challenges to the premises and break *them* down into their component
 parts; see whether arguments can be strengthened by small changes to how they
 are formulated; and so on. Some things can only be figured out by paying the
 closest attention to the smallest details.
+
+
+## Sources and Resources {-}
+
+Every chapter of this book ends with a section of "Sources and Resources." This is
+where I briefly explain where the arguments in the chapter came from, and offer
+suggestions for further exploration.
+
+One useful resource is [1000 Word
+Philosophy](https://wp.me/P4dj0W-1n), which offers accessible introductory articles
+covering a wide range of topics, all under 1000 words. For example, @metcalf2020 is
+a short introductory overview of different views about what philosophy is. Some of the
+articles, including this one, are also presented in video form.
+
+(Note that the "2020" in "@metcalf2020" is a link. Click on it (or hover over it) to access the
+the full reference, which includes a link the article.)
+
+Another incredibly useful resource is the [Stanford Encyclopedia of
+Philosophy](https://plato.stanford.edu/index.html), with peer-reviewed
+overview articles covering a wide range of topics. These articles can be
+technical and challenging---they are pitched to advanced undergrads and grad
+students. For example, @brown2026 is an in-depth overview of philosophical
+work on thought experiments, and @devine2023 is an overview of work on the
+philosophy of sport. 
+
+[Philosophy Compass](https://compass.onlinelibrary.wiley.com/journal/17479991) is a
+peer-reviewed journal that publishes opinionated accessible topical surveys.
+For example, @nguyen2017, on the philosophy of
+games, @meskin2011, on the philosophy of comics, and @marino2014, on
+the philosophy of sex. (Yes, I picked those examples because I thought one of them
+might intrigue you enough that you'd follow the link.)
+Philosophy Compass requires a paid subscription. Our library has paid for this. 
+Use the "Institutional Login" option to access the full text of these articles.
+
+[Wireless Philosophy](https://www.wi-phi.com/) is a curated collection
+of video lectures on a range of topics, pitched at a level appropriate to
+undergraduate courses.
+The videos at [Crash Course Philosophy](https://thecrashcourse.com/topic/philosophy/)
+are pitched to a broader audience and go into less depth, but can be useful.
+Here
+is their video introducing philosophy as a subject:
+
+{{< video https://youtu.be/1A_CAkYt3GY >}}
+
+For more serious research, you need a good searchable database. For philosophy,
+this is [PhilPapers](https://philpapers.org). Search a topic, and you will find
+more or less everything that has been written on that topic. If you are lucky,
+it will even include a link that gives you access.
+
+
+
+
+
+
+
+
+<!--
+
+TODO: add sources and resources. Also a good place to explain why these are at the end of each chapter and how to use them.
+
+-->
+

@@ -147,7 +147,7 @@ drinking, the other is about God and morality. But there's also something they
 have in common, something structural.
 
 To see what they have in common, let's recall some vocabulary that we learned
-in @sec-premises-and-conditionals. Claims of the form 'if... then...', like
+in @sec-premises-and-conditionals of the Introduction. Claims of the form 'if... then...', like
 DK2 and MA2, are called *conditionals*. The bit that comes between the 'if'
 and the 'then' is the *antecedent* of the conditional, and the bit that comes
 after the 'then' is the *consequent* of the conditional.
@@ -487,9 +487,9 @@ the argument isn't valid. Thus, not all modus ponens arguments are valid.
 I'll leave it to you to figure out what (if anything) goes wrong in these
 arguments against the validity of modus ponens and modus tollens.
 
-## Sources
+## Sources and Resources {-}
 
-The argument against modus tollens is drawn from @kolodny2010. The argument against modus ponens is drawn from
-@mcgee1985. For more on the philosophy of
+The argument against modus tollens is drawn from @kolodny2010. The argument
+against modus ponens is drawn from @mcgee1985. For more on the philosophy of
 logic, see @haack2007 or @sainsbury2001.
 

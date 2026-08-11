@@ -1,17 +1,3 @@
----
-nocite: |
-  @long1987a
-  @borges1962
-  @bradley2015
-  @grover1989
-  @gruen2014
-  @nagel1970
-  @rowland2014
-  @baker2005
-  @timmerman2017
-  @kagan2008
----
-
 # Don't Fear the Reaper {#sec-death}
 
 {{< include _authorial-endorsement.md >}}
@@ -421,7 +407,7 @@ is a surprising result, but not necessarily a bad one. After all, fearfulness
 is emotionally painful, and if this argument helps you do without that pain,
 that's good for you!
 
-## Reflection Questions
+## Reflection Questions {-}
 
 1.  Can you think of any counterexamples to the hedonist principle HD\* from
     @sec-hedonism? Could such an example give us reason to prefer HD\*\* from
@@ -437,12 +423,61 @@ that's good for you!
     fear something because it's bad for *others*? Should we fear death because
     (and only because) of how our deaths will affect other people?
 
-## Sources
+## Sources and Resources {-}
 
 The argument advanced here originates with the ancient Greek philosopher
-Epicurus, in his "Letter to Menoeceus" (see @long1987a). See @feldman1994 for a more in-depth discussion of philosophical questions
+Epicurus, in his "[Letter to Menoeceus](https://classics.mit.edu/Epicurus/menoec.html)" (link is to a public domain translation, but translation below is from 
+Long and Sedley):
+
+> Accustom yourself to the belief that death is nothing to us. For all good and
+> evil lie in sensation, whereas death is the absence of sensation. Hence a
+> correct understanding that death is nothing to us makes the mortality of life
+> enjoyable, not by adding infinite time, but by ridding us of the desire for
+> immortality. [@long1987a, p. 149].
+
+The *History of Philosophy without any Gaps* podcast has [an episode on Epicureans on death](https://historyofphilosophy.net/podcast/later-antiquity/hellenistic/epicurus-gods-death) (
+for a text alternative, see @adamson2015a [ch. 6].)
+
+See @feldman1994 for a more in-depth discussion of philosophical questions
 about death, and in particular chapter 8 of his book for a defense of the idea
 that death is bad because it deprives one of good things. The Too Many
 Thinkers argument in @sec-too-many-thinkers is drawn from @olson2009.
+
+*1000-Word Philosophy* offers not one but two articles on the fear of death, @purves2014 and @kaufman2020. @cholbi2023 (*Philosophy Compass*) offers a more in-depth overview.
+@timmerman2017 (*Wireless Philosophy*) is an introductory lecture on the topic:
+
+{{< video https://youtu.be/wbQQxRelC_Q >}}
+
+@rowland2014 (*Wireless Philosophy*) is a lecture on hedonism:
+
+{{< video https://youtu.be/yJ1dsNauhGE >}}
+
+For a deeper dive into the issues, @kagan2008 is the archive of an entire course
+on the philosophy of death, offered at Yale in Spring 2007, with taped lectures. Here is the first of several lectures on the badness of death:
+
+{{< video https://youtu.be/yJVpJ588ASc >}}
+
+@nagel1970 is a classic defense of the view that death is bad because it deprives one of future goods.
+On the possibility of posthumous harm, see @grover1989. On the idea that death is a *social* harm rather than
+a harm to the individual who dies, see @gruen2014.
+For a contemporary defense of the view that fear of future non-existence is irrational, see @bradley2015.
+
+As the Too Many Thinkers argument makes clear, questions about death are closely
+connected to questions about personal identity. The first half of Kagan's course
+on death, linked above, is actually on what it is to be a person.
+With this in mind, @baker2005 explores the relationship between answers to that question and
+how we might understanding the Christian doctrine of bodily resurrection.
+
+Worries about death are also closely tied to the desire for immortality. But
+would immortality actually be a good thing? For a short story on the topic, read
+@borges1962. For an influential argument against the desirability of
+immortality, see @williams1973b. (And for an overview of that argument, see
+@pereira2020 (*1000-Word Philosophy*). For a challenging article on boredom,
+mortality, and makes life worth living, see @millgram2004.
+
+
+
+
+
 
 

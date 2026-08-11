@@ -1,14 +1,3 @@
----
-nocite:  |
-  @crashcourse2016a
-  @harris1975
-  @leguin2017
-  @smart1973
-  @markovits2014
-  @markovits2014a
-  @markovits2014b
-  @masicampo2016
----
 
 # What Makes Things Right {#sec-utilitarianism}
 
@@ -511,7 +500,7 @@ right or wrong can be changed at whim. Finally, we saw some ways of defending
 utilitarianism against the objection that it wrongly condones killing one
 person to save five.
 
-## Reflection Questions
+## Reflection Questions {-}
 
 1.  In @sec-why-accept-act-utilitarianism, I said that act utilitarianism is
     admirably egalitarian, opposing the mistreatment of women and minorities.
@@ -533,7 +522,7 @@ person to save five.
 5.  What should an act utilitarian say about the morality of eating meat and
     other animal products?
 
-## Sources
+## Sources and Resources {-}
 
 Classic defenses of utilitarianism can be found in Jeremy Bentham's
 *Principles of Morals and Legislation* and John Stuart Mill's
@@ -544,12 +533,43 @@ defending universal values in the face of cultural disagreement. Here are some
 additional resources:
 
 
-<!-- TODO bentham and mill 
+@carritt1947 [ch. 4, "Crude Moral Theories"]
+
+@harris1975
+
+@smart1973
+
+@williams1988
+
+
+
+
+
+Mozi, Universal Love 
+https://ctext.org/mozi/universal-love-i
+https://ctext.org/mozi/universal-love-ii
+https://ctext.org/mozi/universal-love-iii
+
+
+@leguin2017: Omelas
+
+Videos:
+
+@masicampo2016: silly video of toddler solving trolley problem
+
+@markovits2015
+@markovits2014a
+@markovits2014
+
+@crashcourse2016a
+
+
+
+<!-- 
+TODO bentham and mill 
 
 - E.F. Carritt: Criticisms of Utilitarianism This is a selection from @carritt1947,
 as republished in @vaughn2012. Not sure how best to cite.
-- Bernard Williams: Utilitarianism and Integrity 
 - Alastair Norcross: Consequences Make Actions Right
-- Mozi: Universal Love
 -->
 

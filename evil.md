@@ -2,7 +2,7 @@
 
 {{< include _authorial-endorsement.md >}}
 
-## Introduction
+## Introduction {#sec-introduction-evil}
 
 Imagine that you are a tourist, visiting the distant country of Nornia.
 You see some wondrous sights: stunning skyscrapers, beautiful parks,
@@ -444,7 +444,7 @@ argued that it is not reasonable to believe that the suffering is all in
 service of some unknown greater good that, due to our limited
 perspective, we have been unable to identify.
 
-## Reflection Questions
+## Reflection Questions {-}
 
 1.  Is it possible to escape the objections raised in Sections
     [-@sec-appreciated-goods], [-@sec-character-building], and
@@ -466,64 +466,108 @@ perspective, we have been unable to identify.
     reasonable to believe in hidden reasons in the one case but not the
     other"?
 
-## Sources and Additional Reading
+## Sources and Resources {-}
 
-The "Argument from Suffering" is often called "The Problem of Evil." It has been around
-for a very long time. The Roman philosopher Lactantius (d. 325 CE) attributes it to the
-ancient Greek philosopher Epicurus (d. 270 BCE):
+<!--
+![](media/epicurus.png){width=25% .lightbox style="float:right" alt="marble bust of Epicurus"} 
+-->
 
-> God, he says, either wishes to take away evils, and is unable; or He is able,
+The "Argument from Suffering" is often called "The Problem of Evil." But 
+that label is also used more broadly to describe the problem of how to make
+sense of evil in the world.
+
+The argument has been around for a very long time. The Roman philosopher Lactantius (d. 325 CE) attributes it to the
+ancient Greek philosopher  Epicurus (d. 270 BCE):
+
+>  God, he says, either wishes to take away evils, and is unable; or He is able,
 > and is unwilling; or He is neither willing nor able, or He is both willing and
 > able. If He is willing and is unable, He is feeble, which is not in accordance
 > with the character of God; if He is able and unwilling, He is envious, which
 > is equally at variance with God; if He is neither willing nor able, He is both
 > envious and feeble, and therefore not God; if He is both willing and able,
 > which alone is suitable to God, from what source then are evils? or why does
-> He not remove them? ([Lactantius, On the anger of God
-> 13](https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VII/Lactantius/A_Treatise_on_the_Anger_of_God_Addressed_to_Donatus/Chap._XIII))
+> He not remove them? [@lactantius1885, ch. XIII]
 
-A classic discussion of the problem can be found in David Hume's *Dialogues on Natural
-Religion* (parts
-[X](https://www.gutenberg.org/files/4583/4583-h/4583-h.htm#chap10) and
-[XI](https://www.gutenberg.org/files/4583/4583-h/4583-h.htm#chap11).)
 
-Shifting to more recent work, @mackie1955 offers a robust and influential
-defense of the argument. @hick1966 offers a version of the Character Building
-Defense. @plantinga1974 offers a version of the Free Will Defense. @rowe1979
-further refines and defends the argument.
+<!--
+![](media/ramsay-portrait-of-hume.png){width=25% .lightbox style="float:right" alt="oil painting of David Hume"} 
+-->
 
-For some deeper dives, @stump1985 offers a development of a free will defense
-grounded in the commitments of Christian theology, specifically the idea that,
-as a consequence of Adam's fall, we are defective and need to be mended---something even an omnipotent being cannot do by fiat.
-@ekstrom2004 explores the idea that suffering is, at least in some cases, a form
-of religious experience: "Why," she asks, "would the divine agent permit
-instances of evil? Perhaps a reply applicable to some instances of personal
-suffering is this: in order to provide occasions in which we can perceive God,
-understand him to some degree, know him, even meet him directly." In a similar
-vein, @alimobini2013 argues, from an Islamic perspective, that the experience of
-evil and suffering is necessary to "remove our epistemic deficiencies and make
-us ready for harmony with God." @adams2000 offers an extended treatment of evil from a Christian perspective, suggesting that by grappling with a wider set of Christian values and commitments, we can find new ways to resolve the problem. For a more accessible introduction to her views, you can listen to her talk about them on a podcast [@adams2009].
+David Hume's *Dialogues Concerning Natural Religion* contains a classic and
+influential discussion of the argument. Here is his statement of the
+basic dilemma:
 
-For other attempts to move beyond the traditional framing of the problem, 
-see @clack2013, who provides an overview of approaches to the problem of evil from feminist philosophy, and 
-@perkins2007 discusses the problem of evil as it occurs in Chinese philosophy.
+> Epicurus's old questions are yet unanswered. Is he willing to prevent evil,
+> but not able? then is he impotent. Is he able, but not willing? then is he
+> malevolent. Is he both able and willing? whence then is evil? [@hume2007, part 10] ([free
+> text](https://www.gutenberg.org/files/4583/4583-h/4583-h.htm#chap10))
 
-For a personal account from a philosopher who was driven by the problem of evil to abandon her faith, see @antony2007.
-For a short story that explores the theme, see @chiang2002a.
+If you would like to explore the wide-ranging history of philosophical work on
+evil and suffering, there are [several
+episodes](https://historyofphilosophy.net/podcast/themes/evil-and-suffering)
+from the *History of Philosophy without any Gaps* podcast that touch on the
+subject.
 
-If you are looking for approachable overviews of the topic, @haslanger2013 is a nice video lecture
-and @perry1999 is an approachable dialogue designed to be assigned in 101 classes. @frances2013 is a book length introduction to the problem and possible responses.
+The contemporary debate was shaped by @mackie1955, who offers a robust and influential
+defense of the argument. In response, @hick1966 offers a version of the Character Building
+Defense, and @plantinga1974 offers a version of the Free Will Defense.
+@rowe1979 further refines and defends the argument.
 
-If you prefer to listen rather than read, Illinois State's own Daniel Breyer has a "Great Courses" series on
-topics related to evil [@breyer2019]. 
+For additional introductory material, @metcalf2014 is a 1000-Word Philosophy article on the topic, and
+@haslanger2013 is a Wireless Philosophy video lecture:
 
-There are other puzzles about the nature of God you may wish to explore. An influential treatment of 
-the "Problem of Divine Foreknowledge" can be found in @pike1965a. @frankfurt1964a offers a short discussion
-of the "Paradox of Omnipotence: can an omnipotent God create a stone so heavy that she cannot lift it?
+{{< video  https://youtu.be/9pRzyioUKp0  >}}
 
-Finally, as always, a good resource for further information is the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/), which has useful articles on the problem of evil, the concept of evil, arguments for and against the existence of God, foreknowledge, omnipotence, and so on.
+@perry1999 is an approachable introduction to the topic in the form of a
+dialogue. @frances2013 is a "comprehensive textbook," of the sort that might be
+assigned if you were taking an entire course devoted to the subject.
 
-## References
+A short story can be like an extended thought experiment, opening up new ideas about a topic.
+For this, @chiang2002a is useful.
+
+It is important to remember that the Argument from Suffering is not meant as an
+abstract exercise. If you accept the premises, you should accept the conclusion,
+even if that means abandoning other beliefs you hold dear. @antony2007 offers a
+personal autobiographical essay, about how she was driven by the problem of evil
+to abandon her faith. @adams2000 offers an alternative model: she also takes the
+problem seriously, even as she holds on to her faith. (For a taste of her approach,
+you can also listen to her appearance on the "Philosophy Bites" podcast [@adams2009].
+
+If thinking about evil has sparked your interest, another nice resource is
+@breyer2019, a "Great Courses" series on the "Dark Side of Human Nature." The best way I know to get
+access to this without paying for it is to sign up for a library card at one of our local public libraries, which give you access to it via 
+ [Kanopy](https://www.kanopy.com/en/video/6522995).
+
+@stump1985 offers a response grounded in the specific commitments of Christian theology.
+She suggests that, because of Adam's fall, our flaws need to "mended", something
+even an omnipotent being cannot do by fiat.
+
+@ekstrom2004 argues that suffering is, at least in some cases, a form of religious experience, and so
+may be justified on those grounds: "Why," she asks, "would the divine agent
+permit instances of evil? Perhaps a reply applicable to some instances of
+personal suffering is this: in order to provide occasions in which we can
+perceive God, understand him to some degree, know him, even meet him directly."
+
+@alimobini2013 offers a response grounded in the Qur'an, arguing that
+the experience of evil and suffering is necessary to "remove our epistemic
+deficiencies and make us ready for harmony with God." 
+
+If you are interested in breaking out of the traditional way of framing the problem,
+@clack2013 surveys feminist critiques. These include worries about the construction of the concept of
+evil itself, ways in which traditional attempts to respond to the argument often
+downplay the suffering of victims, and an emphasis on the ways that evil is
+often a feature of interpersonal relationships.
+
+If you would like to explore how the problem develops in a context *not* dominated by
+the "Religions of the Book" (Judaism, Christianity, Islam), see @perkins2014, a book
+on the problem of evil in Chinese philosophy.
+
+The apparent conflict between an "omnibeing" and evil is just one of several
+philosophical puzzles about the idea of such a being. Another is the problem of
+divine foreknowledge: how can an omniscient being know contingent facts about
+the future? @pike1965a is an influential treatment of this problem. And another is the paradox of omnipotence:
+can an omnipotent being create a stone that is heavier than she can lift [@frankfurt1964a]?
+
 
 
 

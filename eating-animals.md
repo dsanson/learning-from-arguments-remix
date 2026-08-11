@@ -1,22 +1,3 @@
----
-nocite: |
-  @anderson2004
-  @humaneventures
-  @chignell2016
-  @diamond1978
-  @engel2019
-  @doggett2014
-  @gruen2011
-  @harman2011
-  @huemer2019
-  @gonzalez2015
-  @jauernig
-  @korsgaard2015
-  @lomasky2013
-  @mcmahan2010
-  @singer1975
-  @fosterwallace2004
----
 
 # Eating Animals is Immoral {#sec-eating-animals}
 
@@ -720,7 +701,7 @@ decrease your meat consumption, to once a day or once a week. In other words,
 you can become a "reducetarian." Then, when you're ready, you can transition
 to a 100% (or 99%) vegetarian diet.
 
-## Reflection Questions
+## Reflection Questions {-}
 
 1.  Can the arguments from precedent or naturalness be defended against my
     objections? Or can you think of a superior line of argument in defense of
@@ -740,7 +721,7 @@ to a 100% (or 99%) vegetarian diet.
     about freeganism, the practice of eating only meat that someone else has
     purchased or thrown in the dumpster and that would otherwise go to waste?
 
-## Sources
+## Sources and Resources {-}
 
 The discussion of the Arguments from Precedent, Naturalness, and Necessity
 draws heavily from @lowe2016a. The Argument from Fred's Puppies and subsequent discussion is
@@ -748,3 +729,24 @@ drawn from @norcross2004. The argument from
 killing mice in @sec-no-impact-objection is drawn from @archer2011, and the response to that
 argument is drawn from @allanimalsaustralia2014. The statistics in @sec-no-impact-objection about the proportion of
 crops grown to feed animals are drawn from @plumer2014.
+
+
+
+
+  @anderson2004
+  @chignell2016
+  @diamond1978
+  @engel2019
+  @gruen2011
+  @harman2011
+  @huemer2019
+  @jauernig
+  @korsgaard2015
+  @lomasky2013
+  @mcmahan2010
+  @singer1975
+  @fosterwallace2004
+
+  @humaneventures: animal kill clock
+  @gonzalez2015 : Bojack episode
+  @doggett2014: wireless phil

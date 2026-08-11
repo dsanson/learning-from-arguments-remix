@@ -1,5 +1,3 @@
-
-
 # Why You Should Bet on God {#sec-wager}
 
 {{< include _authorial-endorsement.md >}}
@@ -294,7 +292,7 @@ going to look something like this:
                God exists\               God doesn't exist\            Expected Utility\ 
                50%                       50%                           &nbsp; 
   ----------- ------------------------ ----------------------- ------------------------------
-  Believe in  ∞                        2                       ∞
+  Believe in  $\infty$                        2                       $\infty$
   God                                                          
 
   Don't       1                        3                       2
@@ -315,24 +313,49 @@ upstanding religious life. Slightly better (3) is being an atheist and
 being right about it, since then you get all the benefits of an atheist
 lifestyle (for instance skipping church) without any punishment at the
 end. Top score goes to the eventuality in which you believe in God and
-God does turn out to exist, and this gets a value of infinity (∞) rather
+God does turn out to exist, and this gets a value of infinity ($\infty$) rather
 than 4, since the amount of pleasure and fulfillment you
 receive in an eternal afterlife in heaven is infinitely greater than
 what you get in any of the other eventualities.
 
 We then calculate the expected utilities in just the way we did in
 @sec-expected-utility-calculations. The calculation in the second row is
-straightforward arithmetic: (.5 x 1) + (.5 x 3) = 2. As for the first
-row, the expected utility of believing in God = (.5 x ∞) + (.5 x 2).
-What's (.5 x ∞)? In other words, how many things do you have left if you
-take infinitely many things and then remove half of them? Answer: ∞.
+straightforward arithmetic:
+
+
+$$
+\begin{align}
+  (0.5 \times 1) &+ (0.5 \times 3) \\
+  0.5 &+ 1.5 \\
+      &\ 2
+\end{align}
+$$
+
+
+
+So the expected utility for not believing in God is 2.
+As for the first
+row, the expected utility of believing in God, is:
+
+$$(0.5 \times \infty) + (0.5 \times 2)$$ 
+
+But what's $(0.5 \times \infty)$? In other words, how many things do you have left if you
+take infinitely many things and then remove half of them? Answer: $\infty$.
 (Take all the numbers and remove all the odd ones. You're still left
-with infinitely many even numbers.) Now add 1 (that is, .5 x 2), and you
-still get ∞. After all, if you add one thing to infinitely many things,
-you still have infinitely many.
+with infinitely many even numbers.) So, when we do the math,
+
+$$
+\begin{align}
+  (0.5 \times \infty) &+ (0.5 \times 2) \\
+  \infty &+ 1  \\
+  &\infty
+\end{align}
+$$
+
+So the expected utility of believing in God is $\infty$.
 
 Finally, we need to compare the expected utilities of the two options.
-Which is greater: ∞ or 2? Obviously ∞. So, the expected utility of
+Which is greater: $\infty$ or 2? Obviously $\infty$. So, the expected utility of
 believing in God is greater than the expected utility of not believing
 in God. And that's the argument for BG2.
 
@@ -380,7 +403,7 @@ decision matrix:
                God exists\             God doesn't exist\            Expected Utility\
                1%                         99%                      &nbsp; 
   ----------- ----------------------- ----------------------- ------------------------------
-  Believe in  ∞                       2                       ∞
+  Believe in  $\infty$                       2                       $\infty$
   God                                                         
 
   Don't       1                       3                       2.98
@@ -393,10 +416,10 @@ decision matrix:
 Changing the probabilities required us to recalculate the expected
 utility of not believing in God. It shot up almost a whole point! But
 the expected utility of believing in God doesn't change at all. Why is
-that? Let's crunch the numbers. What's .01 x ∞? In other words, what do
+that? Let's crunch the numbers. What's .01 x $\infty$? In other words, what do
 you get when you have infinitely many things, and you take away 99 out
-of every 100 of them? Answer: ∞. Now add 1.98 (= .99 x 2) to that, and
-you get ∞. The expected utility of believing in God doesn't change and
+of every 100 of them? Answer: $\infty$. Now add 1.98 (= .99 x 2) to that, and
+you get $\infty$. The expected utility of believing in God doesn't change and
 is still greater than the expected utility of not believing in God.
 Thus, so long as there is *some* chance that God exists, however small
 it may be, the argument for BG2 still works.
@@ -421,7 +444,7 @@ of its own.
                     God exists\               God doesn't exist\     Expected Utility\
                     50%                       50%                    &nbsp;
   ---------------- ------------------------ ----------------------- ------------------------------
-  Believe in God\      ∞                        3                       ∞
+  Believe in God\      $\infty$                        3                       $\infty$
   and be good                                                   
 
   Believe in God\      2                        4                       3
@@ -442,7 +465,7 @@ being an atheist in a Godless world (5) higher than being a
 badly-behaved believer in a Godless world (4), and I've ranked both
 ahead of the life of a well-behaved believer in a Godless world (3).
 Finally, the eventuality in which you're a well-behaved believer and God
-does exist gets ∞, since this is what will get you into heaven, and
+does exist gets $\infty$, since this is what will get you into heaven, and
 that's infinitely better than any of the other eventualities.
 
 So, what does this all mean? What it means is that---assuming that you
@@ -490,7 +513,7 @@ God.
               Generous God exists\     Stingy God exists\   No God exists\     Expected Utility\
               25%                      25%                  50%                &nbsp;
   --------- ------------------------ --------------------- ------------------ ------------------------------
-  Believe   ∞                         1,000,000                 2                  ∞
+  Believe   $\infty$                         1,000,000                 2                  $\infty$
   in God                                                                      
 
   Don't     1                         1                         3                  2
@@ -504,7 +527,7 @@ to be stingy at 1,000,000 to reflect the idea that it's still many
 orders of magnitude better than the next best eventuality, in which
 you're a nonbeliever and God doesn't exist. Again, though, the exact
 values don't really matter, nor do the exact probabilities. All that
-matters is the ∞ on the top left, since that's going to ensure an
+matters is the $\infty$ on the top left, since that's going to ensure an
 infinite expected utility for believing in God. So, even if we can't be
 sure that God rewards anyone with an infinitely valuable afterlife, we
 still get the result that we ought to believe in God.
@@ -527,10 +550,10 @@ exist. So, let's rectify that: \*
                      Christian God exists\  Zeus exists\  No God exists\   Expected\ 
                      25%                    25%           50%              Utility
   ----------------- ---------------------- ------------- ---------------- -----------
-  Believe in        ∞                      1             3                  ∞
+  Believe in        $\infty$                 1                             $\infty$
   Christian God                                                             
 
-  Believe in Zeus   1                      ∞             3                  ∞
+  Believe in Zeus   1                      $\infty$        3                $\infty$
 
   Don't believe     2                      2             4                  3
   -----------------------------------------------------------------------------------
@@ -639,7 +662,7 @@ grant that God only rewards well-behaved believers or may only reward
 believers with a finitely valuable afterlife, and even once we
 acknowledge that entry into heaven requires betting on the right God.
 
-## Reflection Questions
+## Reflection Questions {-}
 
 1.  For all we know, disbelief in God or belief in the wrong God will
     result in being sent to hell and enduring something *infinitely*
@@ -662,23 +685,73 @@ acknowledge that entry into heaven requires betting on the right God.
     worldly possessions. Would it be rational to enter the lottery? If
     not, is that a problem for BG1?
 
-## Sources
+## Sources and Resources {-}
 
-Versions of the Argument for Betting on God, also known as "Pascal's
-Wager", can be found in Abū Hāmid Muhammad al-Ghāzāli's *The Alchemy of
-Happiness* and Blaise Pascal's *Pensées*. Here are some additional
-resources:
+The "Argument for Betting on God" is also known as "Pascal's Wager". The most
+influential source for the argument is, as the name suggests, the 17th century
+French philosopher and mathematician, Blaise Pascal
+[@pascal1995a, fragment 680]. The 11th century Persian philosopher al-Ghazālī
+offers a similar pragmatic argument for believing in God:
 
----
-nocite: |
-  @alam2017 @bostrom2009 @garber2009 @hayek2015 @buchak2018 @jackson2019
-  @lycan1971 @rota2016 @pascal1995 @donaldson2013 @rinard2017
----
+> If a person calculates how long his life in this world is, and what a small
+> fraction it is of the endless eternity which has no beginning with respect to
+> the beginningless eternity which has no end, he knows that taking a little
+> trouble is insignificant when set beside such great peril. He says to himself:
+> "If they are speaking the truth, and 1 endure in such torment, what is the
+> profit of the ease of this world, the days of which are passing few? And it is
+> possible that they speak the truth!" [@al-ghazali2005, p. 91--93]
 
+@asinpalacios1920 argues that Pascal got the argument from al-Ghazālī, while
+@alam2017 suggests that this sort of pragmatic argument was a common
+trope in Islamic apologetics, and can be found in the Qur'an itself.
+
+The *History of Philosophy without any Gaps* podcast has two episodes on Pascal's Wager:
+
+-   [Pascal's Wager](https://historyofphilosophy.net/podcast/early-modern/france-and-netherlands/pascals-wager)
+-    [An interview with Liz Jackson on Pascal's Wager](https://historyofphilosophy.net/podcast/early-modern/france-and-netherlands/pascals-wager-jackson)
+
+Liz @jackson2021 also wrote the *1000-Word Philosophy* article on the topic. For
+something more in-depth, see @rota2017 (*Philosophy Compass*). There is also this video by @rinard2017 (*Wireless Philosophy*):
+
+{{< video https://youtu.be/2F_LUFIeUk0 >}}
+
+Much of the contemporary literature on the argument focuses on the "Many Gods"
+objection mentioned above, along with a "Mixed Strategies" objection not
+mentioned in the text. For a sharp presentation of the "Mixed Strategies"
+objection, see @hajek2015. For a response to the "Many Gods" objection, see
+@lycan1989. For a response to both, suggesting alternative ways to measure
+expected utility when infinity is involved, see @jackson2019.
+
+@rota2016 offers an extended defense of "committing oneself to God," framed
+around Pascal's Wager. @garber2009 explores the nature of the kind of "belief"
+that is generated indirectly, by habit rather than reason. @buchak2018 argues
+that the sort of faith involved in the wager is not "belief without evidence",
+but a commitment to act, developing an analogy between having faith in your
+partner and having faith in God.
+
+@bostrom2009 offers a short and punchy dialogue, suggesting that anyone who
+accepts such reasoning should be prepared to hand over their wallet to a mugger,
+if that mugger offers a high enough future reward, no matter how unlikely it is
+that the mugger will actually deliver that reward.
+
+A closely related puzzle, introduced by Nicolaus Bernoulli in 1713, is known as
+the "St. Petersburg Paradox" [@peterson2023]. For a fun variation on this
+puzzle that also involves the infinite reward of heaven, see
+@arntzenius2004a.
+
+@donaldson2013 (*Wireless Philosophy*) has more to say about the 
+idea that you cannot simply decide to believe something in the absence of
+evidence:
+
+{{< video https://youtu.be/uzmLXIuAspQ >}}
+
+
+<!--
 ## TODO
 
-- [ ] find better reference to al-Ghazālī.
 - [ ] consider different formatting for the assignment of values to outcomes.
 - [ ] improve spacing in tables?
 - [ ] maybe revise to use the word 'outcome' instead of 'eventuality'?
 - [ ] maybe revise to be a bit less cagey about the difference between "ranking" outcomes and assigning values to outcomes.
+
+-->

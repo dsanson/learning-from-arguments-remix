@@ -1,15 +1,3 @@
----
-nocite: |
-  @anderson2014a
-  @boonin2008
-  @cahn2022
-  @gilbert2006
-  @hampton1984
-  @hampton1997
-  @huemer2017a
-  @stark2000
-  @wellman2005
----
 # Against Prisons and Taxes {#sec-coercion}
 
 {{< include _authorial-endorsement.md >}}
@@ -486,7 +474,7 @@ certainly wouldn't be. The point, rather, is that these practices are immoral.
 Sometimes, as in the SAINT AND SINNER case, there is something that could make
 the world a better place, but no one is morally permitted to do it.
 
-## Reflection Questions
+## Reflection Questions {-}
 
 1.  I claimed in @sec-morally-relevant-differences that the government doesn't own the country. But
     how does anyone come to own anything? Try to think of a plausible general
@@ -501,18 +489,36 @@ the world a better place, but no one is morally permitted to do it.
     this the right test for evaluating whether governmental practices are
     right or wrong?
 
-## Sources
+## Sources and Resources {-}
 
 The arguments against political authority and the social contract are drawn
 from @huemer2013a [ch 1--2]. For
-classic defenses of the social contract theory, see Thomas Hobbes's
-*Leviathan*, John Locke's *Second Treatise of Government*, and Jean-Jacques
-Rousseau's *The Social Contract*. For a more contemporary defense of a social
-contract theory, see @rawls1999. I learned the SAINT
-AND SINNER example from David Boonin. Here are some additional resources:
+classic defenses of the social contract theory, see @hobbes1994a ([free text](https://www.gutenberg.org/files/3207/3207-h/3207-h)), @locke2021, and @rousseau1997a ([free text](https://www.gutenberg.org/files/46333/46333-h/46333-h.htm)). For a contemporary defense, see @rawls1999. I learned the SAINT
+AND SINNER example from David Boonin.
 
-<!-- TODO: Hobbes, Lock, Rousseau -->
+@wolff1998 is an accessible opinionated introduction to the basic question of whether there is any way to justify the
+authority of the state to make and enforce laws. For a more balanced and broad introduction to the field of political philosophy, see @hampton1997.
+@wellman2005 offers two competing perspectives, one for and the other against the claim that we have a duty to obey the law.
+@gilbert2006 argues that we are "plural subjects", and our obligation to obey the law is grounded in our joint commitment to uphold political institutions.
 
-<!-- TODO consider adding something specifically about right vs. left libertarianism -->
+On the specific issue of punishment, @boonin2008 offers an extended defense of the view that legal punishment is morally impressible and should be abolished,
+while @hampton1984 argues that the only justified form of punishment is punishment for the purpose of moral education.
+
+
+@rawls1999 attempts to derive a theory of justice from facts about the sort of social contract we *would* agree to in an idealized situation he calls "the original position".
+@anderson2014a (*Wireless Philosophy*) is a useful lecture on this idea:
+
+{{< video  https://youtu.be/nO5me_5c8dM  >}}
+
+One objection to a Rawlsian understanding of the social contract is that it at
+best involves *hypothetical* consent---each of us *would*, if we were in the
+original position, consent to the terms of the contract---and hypothetical
+consent is not enough to generate actual obligations. See @stark2000 for
+response to this objection.
+
+
+
+
+
 
 

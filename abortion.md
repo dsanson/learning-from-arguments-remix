@@ -1,19 +1,3 @@
----
-nocite: |
-  @boonin2019
-  @boonin2003
-  @cudd1990
-  @english1975
-  @callahan1986
-  @harman1999
-  @harman2003
-  @harman2021
-  @harris1986
-  @little1999
-  @norcross1990
-  @tooley1972
-  @warren1973
----
 
 # The Ethics of Abortion {#sec-abortion}
 
@@ -40,6 +24,8 @@ but permissible to abort a pregnancy that is likely to kill the mother. To
 help anchor our discussion, it will be useful to focus on a specific case.
 
 ::: {#example-unwanted-pregnancy .example}
+## UNWANTED PREGNANCY {-}
+
 Taylor just discovered that she is pregnant with Emm, a six-week-old embryo.
 The pregnancy resulted from consensual, casual sex. Taylor didn't want to
 get pregnant, and her partner wore a condom, but they were aware that
@@ -49,7 +35,6 @@ to Taylor's life. Even so, Taylor knows that going through with the
 pregnancy will be a huge burden physically, emotionally, and financially.
 So, Taylor decides to have an abortion, killing Emm.
 
-**UNWANTED PREGNANCY**
 :::
 
 Take a moment to Google *embryo at eight weeks* to get an accurate picture of
@@ -1051,5 +1036,69 @@ The Violinist argument and the critique of the Right to Life argument are
 drawn from @thomson1971. The FLO argument is
 drawn from @marquis1989, as are many of the
 criticisms of bad pro-life and pro-choice arguments discussed in sections -@sec-bad-pro-choice-arguments
-and -@sec-bad-pro-life-arguments. Here are some additional resources:
+and -@sec-bad-pro-life-arguments.
 
+
+
+
+  @boonin2019
+  @boonin2003
+  @cudd1990
+  @english1975
+  @callahan1986
+  @harman1999
+  @harman2003
+  @harman2021
+  @harris1986
+  @little1999
+  @norcross1990
+  @tooley1972
+  @warren1973
+
+
+Boonin, David. 2019. *Beyond Roe: Why Abortion Should Be Legal\--Even If
+the Fetus Is a Person*. New York, NY: Oxford University Press.
+
+Boonin, David. 2003. *A Defense of Abortion*. Cambridge Studies in
+Philosophy and Public Policy. Cambridge, UK ; New York: Cambridge
+University Press.
+
+Cudd, Ann E. 1990. "Enforced Pregnancy, Rape, and the Image of Woman."
+*Philosophical Studies* 60 (1--2): 47--59.
+<https://doi.org/10.1007/bf00370976>.
+
+English, Jane. 1975. "Abortion and the Concept of a Person." *Canadian
+Journal of Philosophy* 5 (2): 233--43.
+<https://www.jstor.org/stable/40230568>.
+
+Callahan, Sydney. 1986. "Abortion and the Sexual Agenda: A Case for
+Pro-Life Feminism." *Commonweal*, April 25, 1986.
+
+Harman, Elizabeth. 1999. "Creation Ethics: The Moral Status of Early
+Fetuses and the Ethics of Abortion." *Philosophy and Public Affairs* 28
+(4): 310--24. <https://doi.org/10.1111/j.1088-4963.1999.00310.x>.
+
+Harman, Elizabeth. 2003. "The Potentiality Problem." *Philosophical
+Studies: An International Journal for Philosophy in the Analytic
+Tradition* 114 (1/2): 173--98. <https://www.jstor.org/stable/4321378>.
+
+Harman, Elizabeth. 2021. "What Amy Coney Barrett Doesn't Understand
+about Abortion." *New York Daily News*, December 9, 2021.
+<https://www.nydailynews.com/2021/12/09/what-amy-coney-barrett-doesnt-understand-about-abortion/>.
+
+Harris, George W. 1986. "Fathers and Fetuses." *Ethics* 96 (3):
+594--603. <https://www.jstor.org/stable/2381073>.
+
+Little, Margaret Olivia. 1999. "Abortion, Intimacy, and the Duty to
+Gestate." *Ethical Theory and Moral Practice* 2 (3): 295--312.
+<https://www.jstor.org/stable/27504096>.
+
+Norcross, Alastair. 1990. "Killing, Abortion, and Contraception: A Reply
+to Marquis." *The Journal of Philosophy* 87 (5): 268--77.
+<https://doi.org/10.2307/2026835>.
+
+Tooley, Michael. 1972. "Abortion and Infanticide." *Philosophy & Public
+Affairs* 2 (1): 37--65. <https://www.jstor.org/stable/2264919>.
+
+Warren, Mary Anne. 1973. "On the Moral and Legal Status of Abortion."
+*The Monist* 57 (1): 43--61. <https://www.jstor.org/stable/27902294>.
