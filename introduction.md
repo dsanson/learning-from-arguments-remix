@@ -121,12 +121,10 @@ editing rough drafts; I identify some criteria that philosophy instructors
 commonly use when evaluating papers; and I explain the difference between
 consulting online sources and plagiarizing them.
 
-<!--
-In @sec-theses-and-arguments, I collect together the key arguments and
+In @sec-arguments, I collect together the key arguments, thought experiments, and
 theses discussed in the book. Readers may find it helpful to have a printed
 copy of this appendix at hand, or have it open in a separate tab, while
 reading through the chapters.
--->
 
 ## The Elements of Arguments {#sec-the-elements-of-arguments}
 

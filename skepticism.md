@@ -65,7 +65,7 @@ call the *Future Like Past* principle, or FLP for short:
 
 ::: {#thesis-FLP .thesis}
 Future Like Past (FLP)
-:   Future states of the world will be like past states of the world
+:   Future states of the world will be like past states of the world.
 :::
 
 The argument, in short, is that we can't know anything about the future
@@ -79,13 +79,13 @@ illustration, the argument runs as follows:
 ## Against Knowing the Future {-}
 
 - (KF1) If you are not justified in believing that FLP is true, then your
-  belief that the sun will set in the west tomorrow is unjustified
-- (KF2) You are not justified in believing that FLP is true
+  belief that the sun will set in the west tomorrow is unjustified.
+- (KF2) You are not justified in believing that FLP is true.
 - (KF3) So, your belief that the sun will set in the west tomorrow is
-  unjustified
+  unjustified.
 - (KF4) If your belief that the sun will set in the west tomorrow is
-  unjustified, then you don't know that the sun will set in the west tomorrow
-- (KF5) So, you don't know that the sun will set in the west tomorrow
+  unjustified, then you don't know that the sun will set in the west tomorrow.
+- (KF5) So, you don't know that the sun will set in the west tomorrow.
 
 :::
 
@@ -108,11 +108,11 @@ argument for that premise:
 ::: {#argument-FF .argument}
 ## The Faulty Foundation Argument {-}
 
-- (FF1) Your belief that the sun will set in the west tomorrow is based on FLP
+- (FF1) Your belief that the sun will set in the west tomorrow is based on FLP.
 - (FF2) If a belief is based on something that you aren't justified in
-  believing, then that belief itself is unjustified
+  believing, then that belief itself is unjustified.
 - (KF1) So, if you are not justified in believing that FLP is true, then your
-  belief that the sun will set in the west tomorrow is unjustified
+  belief that the sun will set in the west tomorrow is unjustified.
 
 :::
 
@@ -145,7 +145,7 @@ something like this:
 :::{#thesis-FLP-star .thesis}
 FLP\*
 :   Future states of the world will be like past states of the world *except
-    in respects in which we can expect them to differ*
+    in respects in which we can expect them to differ*.
 :::
 
 These complications needn't concern us here. All I need for the argument for
@@ -196,10 +196,10 @@ the argument:
 ## FLP is Unjustified {-}
 
 - (UJ1) If your belief in FLP is justified, then it is either justified by
-  direct observation or by inductive reasoning
-- (UJ2) Your belief in FLP isn't justified by direct observation
-- (UJ3) Your belief in FLP isn't justified by inductive reasoning
-- (KF2) So, your belief in FLP is unjustified
+  direct observation or by inductive reasoning.
+- (UJ2) Your belief in FLP isn't justified by direct observation.
+- (UJ3) Your belief in FLP isn't justified by inductive reasoning.
+- (KF2) So, your belief in FLP is unjustified.
 
 :::
 
@@ -252,11 +252,11 @@ that a bit:
 ::: {#argument-AC .argument}
 ## The Anti-Circularity Argument {-}
 
-- (AC1) All inductive reasoning about the future assumes the truth of FLP
+- (AC1) All inductive reasoning about the future assumes the truth of FLP.
 - (AC2) If all inductive reasoning about the future assumes the truth of FLP,
-  then any inductive reasoning about FLP is circular
-- (AC3) No belief can be justified by circular reasoning
-- (UJ3) So, FLP isn't justified by inductive reasoning
+  then any inductive reasoning about FLP is circular.
+- (AC3) No belief can be justified by circular reasoning.
+- (UJ3) So, FLP isn't justified by inductive reasoning.
 
 :::
 
@@ -285,9 +285,9 @@ line of reasoning, thus qualifying as circular.
 To illustrate, the inductive defense of induction might look something like
 this:
 
-*In the past, each day resembled the day that preceded it Future states of the
-world will be like past states of the world So, future days will resemble days
-in the past*
+*In the past, each day resembled the day that preceded it. Future states of the
+world will be like past states of the world. So, future days will resemble days
+in the past.*
 
 The conclusion of this line of reasoning, "Future days will resemble days in
 the past," is just another way of saying "Future states of the world will be
@@ -354,7 +354,7 @@ hypothesis*, or TDH for short:
 ::: {#thesis-TDH .thesis}
 The Dreaming Hypothesis (TDH)
 :   You are currently lying down in bed dreaming about sitting down reading a
-    philosophy textbook
+    philosophy textbook.
 :::
 
 With TDH in mind, here is how I'll argue that you don't know that you're
@@ -364,9 +364,9 @@ sitting down reading:
 ## The Dreaming Argument {-}
 
 - (DR1) If you have no way of knowing that TDH is false, then you don't know
-  that you're sitting down reading
-- (DR2) You have no way of knowing that TDH is false
-- (DR3) So you don't know that you're sitting down reading
+  that you're sitting down reading.
+- (DR2) You have no way of knowing that TDH is false.
+- (DR3) So you don't know that you're sitting down reading.
 
 :::
 
@@ -404,11 +404,11 @@ This suggests the following argument for DR1:
 ## The Competing Hypotheses Argument {-}
 
 - (CH1) One knows a certain thing only if one has some way of knowing that all
-  competing hypotheses are false
+  competing hypotheses are false.
 - (CH2) TDH is a hypothesis that competes with your belief that you're sitting
-  down reading
+  down reading.
 - (DR1) So, if you have no way of knowing that TDH is false, then you don't
-  know that you're sitting down reading
+  know that you're sitting down reading.
 
 :::
 
@@ -522,9 +522,9 @@ haven't got any evidence against it.
 ## The No Evidence Argument {-}
 
 - (NE1) If you have no evidence against something, then you have no way of
-  knowing it's false
-- (NE2) You have no evidence against TDH
-- (DR2) So, you have no way of knowing that TDH is false
+  knowing it's false.
+- (NE2) You have no evidence against TDH.
+- (DR2) So, you have no way of knowing that TDH is false.
 
 :::
 
@@ -553,9 +553,9 @@ can't know that TDH is *true*:
 ## The Flipped Evidence Argument {-}
 
 - (FE1) If you have no evidence for something, then you have no way of knowing
-  it's true
-- (FE2) You have no evidence for TDH
-- (FE3) So, you have no way of knowing that TDH is true
+  it's true.
+- (FE2) You have no evidence for TDH.
+- (FE3) So, you have no way of knowing that TDH is true.
 
 :::
 
@@ -590,10 +590,10 @@ The easiest way to see why this objection won't work is to slightly modify TDH
 as follows:
 
 ::: {#thesis-TDH-plus .thesis}
-TDH+
+The Vivid Dreaming Hypothesis (TDH+)
 :   You are currently lying down in bed dreaming about sitting down reading a
     philosophy textbook, and it's the most incredibly vivid dream you've ever
-    had
+    had.
 :::
 
 You can't know that TDH+ is false just by attending to the vividness of your
@@ -648,10 +648,10 @@ awake. Here's the argument:
 ## The No Useful Tests Argument {-}
 
 - (NU1) If you don't know that a dreaming test is reliable, then you can't
-  know whether you're dreaming by using it
-- (NU2) You can never know that a dreaming test is reliable
+  know whether you're dreaming by using it.
+- (NU2) You can never know that a dreaming test is reliable.
 - (NU3) So, you can never know whether you're dreaming by using a dreaming
-  test
+  test.
 
 :::
 

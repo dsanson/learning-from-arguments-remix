@@ -14,12 +14,12 @@ fear things that aren't bad for you. In other words:
 ::: {#argument-FD .argument}
 ## Against Fearing Death {-}
 
-- (FD1) You cease to be conscious when you die
+- (FD1) You cease to be conscious when you die.
 - (FD2) If you cease to be conscious when you die, then being dead is not bad
-  for you
-- (FD3) So, being dead is not bad for you
-- (FD4) If being dead is not bad for you, then you should not fear death
-- (FD5) So, you should not fear death
+  for you.
+- (FD3) So, being dead is not bad for you.
+- (FD4) If being dead is not bad for you, then you should not fear death.
+- (FD5) So, you should not fear death.
 
 :::
 
@@ -93,7 +93,7 @@ mind, we can revise the principle as follows:
 ::: {#thesis-HD-star .thesis}
 Hedonism (HD\*)
 :   Something is bad for you if and only if it results in more pain than you
-    would otherwise have had
+    would otherwise have had.
 :::
 
 This is still true to the core hedonist insight stated above. Eating the whole
@@ -112,11 +112,11 @@ Death argument.
 ## The Argument from Hedonism {-}
 
 - (AH1) If you cease to be conscious when you die, then being dead doesn't
-  result in more pain than you would otherwise have had
+  result in more pain than you would otherwise have had.
 - (AH2) Something is bad for you if and only if it results in more pain than
-  you would otherwise have had
+  you would otherwise have had.
 - (FD2) So, if you cease to be conscious when you die, then being dead isn't
-  bad for you
+  bad for you.
 
 :::
 
@@ -211,11 +211,11 @@ This gives us a compelling argument against HD\*\*:
 ::: {#argument-UM .argument}
 ## The Unread Mail Argument {-}
 
-- (UM1) Carly would have had more pleasure had she not met Evan
+- (UM1) Carly would have had more pleasure had she not met Evan.
 - (UM2) If Carly would have had more pleasure had she not met Evan, then: if
-  HD\*\* is true, then meeting Evan was bad for her
-- (UM3) Meeting Evan was not bad for her
-- (UM4) So, HD\*\* is false
+  HD\*\* is true, then meeting Evan was bad for her.
+- (UM3) Meeting Evan was not bad for her.
+- (UM4) So, HD\*\* is false.
 
 :::
 
@@ -248,10 +248,10 @@ once you die:
 ## Against Post-Mortem Consciousness {-}
 
 - (PC1) If Animal ceases to be conscious when you die *and* you are Animal,
-  then you cease to be conscious when you die
-- (PC2) Animal ceases to be conscious when you die
-- (PC3) You are Animal
-- (FD1) So, you cease to be conscious when you die
+  then you cease to be conscious when you die.
+- (PC2) Animal ceases to be conscious when you die.
+- (PC3) You are Animal.
+- (FD1) So, you cease to be conscious when you die.
 
 :::
 
@@ -300,9 +300,9 @@ a cat in your lap, shoo it away.) Here is the argument:
 ::: {#argument-TT .argument}
 ## The Too Many Thinkers Argument {-}
 
-- (TT1) Animal is in your chair and is thinking
-- (TT2) You are the only thing in your chair that is thinking
-- (PC3) So you are Animal
+- (TT1) Animal is in your chair and is thinking.
+- (TT2) You are the only thing in your chair that is thinking.
+- (PC3) So you are Animal.
 
 :::
 

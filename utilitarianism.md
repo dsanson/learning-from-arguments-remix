@@ -263,12 +263,12 @@ reconstructed as follows:
 ## The Organ Distribution Argument {-}
 
 - (OD1) Killing Nick has a greater positive effect on overall levels of
-  happiness than letting him live
+  happiness than letting him live.
 - (OD2) If killing Nick has a greater positive effect on overall levels of
   happiness than letting him live, then: if act utilitarianism is true, then
-  killing Nick was the right thing to do
-- (OD3) Killing Nick was not the right thing to do
-- (OD4) So, act utilitarianism is false
+  killing Nick was the right thing to do.
+- (OD3) Killing Nick was not the right thing to do.
+- (OD4) So, act utilitarianism is false.
 
 :::
 
@@ -432,11 +432,11 @@ Here, more explicitly, is the argument:
 ## The Trolley Argument {-}
 
 - (TR1) If there is no morally relevant difference between two actions A and
-  B, and A is the right thing to do, then B is the right thing to do
-- (TR2) Diverting the trolley was the right thing to do
+  B, and A is the right thing to do, then B is the right thing to do.
+- (TR2) Diverting the trolley was the right thing to do.
 - (TR3) There is no morally relevant difference between diverting the trolley
-  and killing Nick
-- (TR4) So, killing Nick was the right thing to do
+  and killing Nick.
+- (TR4) So, killing Nick was the right thing to do.
 
 :::
 

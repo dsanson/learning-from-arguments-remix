@@ -142,10 +142,10 @@ The argument evidently runs as follows:
 ::: {#argument-NO .argument}
 ## The Natural Order Argument {-}
 
-- (NO1) Other animals eat meat
+- (NO1) Other animals eat meat.
 - (NO2) If other animals do something, then it's morally permissible for you
-  to do it
-- (NO3) So, it's morally permissible for you to eat meat
+  to do it.
+- (NO3) So, it's morally permissible for you to eat meat.
 
 :::
 

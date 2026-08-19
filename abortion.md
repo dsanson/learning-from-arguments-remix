@@ -108,9 +108,9 @@ arguments will look like this:
 ::: {#argument-X .argument}
 ## The X-Schema {-}
 
-- (X1) Emm is (or has) X
-- (X2) It's always seriously immoral to kill something that is (or has) X
-- (X3) So it's seriously immoral to kill Emm
+- (X1) Emm is (or has) X.
+- (X2) It's always seriously immoral to kill something that is (or has) X.
+- (X3) So it's seriously immoral to kill Emm.
 
 :::
 
@@ -119,9 +119,9 @@ The complete schema for the pro-choice arguments will look like this:
 ::: {#argument-Y .argument}
 ## The Y-Schema {-}
 
-- (Y1) Emm isn't Y
-- (Y2) It's seriously immoral to kill something only if it is Y
-- (Y3) So it's not seriously immoral to kill Emm
+- (Y1) Emm isn't Y.
+- (Y2) It's seriously immoral to kill something only if it is Y.
+- (Y3) So it's not seriously immoral to kill Emm.
 
 :::
 
@@ -139,9 +139,9 @@ logic. The argument would go like this:
 ::: {#argument-YR .argument}
 ## The Argument from Rationality {-}
 
-- (YR1) Emm isn't rational
-- (YR2) It's seriously immoral to kill something only if it is rational
-- (YR3) So it's not seriously immoral to kill Emm
+- (YR1) Emm isn't rational.
+- (YR2) It's seriously immoral to kill something only if it is rational.
+- (YR3) So it's not seriously immoral to kill Emm.
 
 :::
 
@@ -159,9 +159,9 @@ This yields the following argument:
 ::: {#argument-YS .argument}
 ## The Argument from Self-Sufficiency {-}
 
-- (YS1) Emm isn't self-sufficient
-- (YS2) It's seriously immoral to kill something only if it is self-sufficient
-- (YS3) So it's not seriously immoral to kill Emm
+- (YS1) Emm isn't self-sufficient.
+- (YS2) It's seriously immoral to kill something only if it is self-sufficient.
+- (YS3) So it's not seriously immoral to kill Emm.
 
 :::
 
@@ -252,9 +252,9 @@ a more promising argument:
 ::: {#argument-YC .argument}
 ## The Argument from Consciousness {-}
 
-- (YC1) Emm is not conscious
-- (YC2) It's seriously immoral to kill something only if it's conscious
-- (YC3) So it's not seriously immoral to kill Emm
+- (YC1) Emm is not conscious.
+- (YC2) It's seriously immoral to kill something only if it's conscious.
+- (YC3) So it's not seriously immoral to kill Emm.
 
 :::
 
@@ -275,9 +275,9 @@ because Emm is alive:
 ::: {#argument-XL .argument}
 ## The Argument from Life {-}
 
-- (XL1) Emm is alive
-- (XL2) It's always seriously immoral to kill something that's alive
-- (XL3) So it's seriously immoral to kill Emm
+- (XL1) Emm is alive.
+- (XL2) It's always seriously immoral to kill something that's alive.
+- (XL3) So it's seriously immoral to kill Emm.
 
 :::
 
@@ -302,9 +302,9 @@ The pro-lifer might instead point to the fact that Emm has human DNA:
 ::: {#argument-XD .argument}
 ## The Argument from Human DNA {-}
 
-- (XD1) Emm has human DNA
-- (XD2) It's always seriously immoral to kill something that has human DNA
-- (XD3) So it's seriously immoral to kill Emm
+- (XD1) Emm has human DNA.
+- (XD2) It's always seriously immoral to kill something that has human DNA.
+- (XD3) So it's seriously immoral to kill Emm.
 
 :::
 
@@ -319,10 +319,10 @@ another line of argument:
 ::: {#argument-XH .argument}
 ## The Argument from Hearts {-}
 
-- (XH1) Emm has a beating heart
+- (XH1) Emm has a beating heart.
 - (XH2) It's always seriously immoral to kill something that has a beating
-  heart
-- (XH3) So it's seriously immoral to kill Emm
+  heart.
+- (XH3) So it's seriously immoral to kill Emm.
 
 :::
 
@@ -339,9 +339,9 @@ because she has the *potential* to become a person:
 ::: {#argument-XP .argument}
 ## The Argument from Potentiality {-}
 
-- (XP1) Emm is a potential person
-- (XP2) It's always seriously immoral to kill a potential person
-- (XP3) So it's seriously immoral to kill Emm
+- (XP1) Emm is a potential person.
+- (XP2) It's always seriously immoral to kill a potential person.
+- (XP3) So it's seriously immoral to kill Emm.
 
 :::
 
@@ -375,10 +375,10 @@ life. We can frame the argument like this:
 ::: {#argument-RL .argument}
 ## The Right to Life Argument {-}
 
-- (RL1) Emm has a right to life
+- (RL1) Emm has a right to life.
 - (RL2) If Emm has a right to life, then it is seriously immoral to deprive
-  Emm of Taylor's womb
-- (RL3) So, it's seriously immoral to deprive Emm of Taylor's womb
+  Emm of Taylor's womb.
+- (RL3) So, it's seriously immoral to deprive Emm of Taylor's womb.
 
 :::
 
@@ -415,13 +415,13 @@ behind that premise, it would presumably go something like this:
 ## The Requirements of Life Argument {-}
 
 - (RQ1) If something (or someone) has a right to life, and it needs a certain
-  something in order to survive, then it has a right to that thing
-- (RQ2) Emm needs Taylor's womb in order to survive
-- (RQ3) So, if Emm has a right to life, then Emm has a right to Taylor's womb
+  something in order to survive, then it has a right to that thing.
+- (RQ2) Emm needs Taylor's womb in order to survive.
+- (RQ3) So, if Emm has a right to life, then Emm has a right to Taylor's womb.
 - (RQ4) If Emm has a right to Taylor's womb, then it is seriously immoral to
-  deprive Emm of Taylor's womb
+  deprive Emm of Taylor's womb.
 - (RL2) So, if Emm has a right to life, then it is seriously immoral to
-  deprive Emm of Taylor's womb
+  deprive Emm of Taylor's womb.
 
 :::
 
@@ -486,10 +486,10 @@ make the latter argument against RQ1 explicit, as follows:
 ## The Violinist Argument {-}
 
 - (VA1) Maurissa has a right to life and needs Riley's blood in order to
-  survive
-- (VA2) Maurissa does not have a right to Riley's blood
+  survive.
+- (VA2) Maurissa does not have a right to Riley's blood.
 - (VA3) So, someone who has a right to life does not thereby have a right to
-  all the things they need in order to survive
+  all the things they need in order to survive.
 
 :::
 
@@ -536,15 +536,15 @@ something like this:
 ## The Known Risk Argument {-}
 
 - (KR1) Taylor freely chose to have sex and knew that this could lead to Emm
-  using her womb
+  using her womb.
 - (KR2) Whenever someone freely does something and knows that it could lead to
-  certain consequences, one consents to those consequences
-- (KR3) So, Taylor consented to Emm using her womb
+  certain consequences, one consents to those consequences.
+- (KR3) So, Taylor consented to Emm using her womb.
 - (KR4) If Taylor consented to Emm using her womb, then Emm has a right to
-  Taylor's womb
+  Taylor's womb.
 - (KR5) If Emm has a right to Taylor's womb, then it is seriously immoral to
-  deprive Emm of Taylor's womb
-- (KR6) So, it is seriously immoral to deprive Emm of Taylor's womb
+  deprive Emm of Taylor's womb.
+- (KR6) So, it is seriously immoral to deprive Emm of Taylor's womb.
 
 :::
 
@@ -606,9 +606,9 @@ abortion seriously immoral:
 ## The Simple FLO Argument {-}
 
 - (SF1) It is seriously immoral to kill something (or someone) if killing it
-  deprives it of a future like ours
-- (SF2) Killing Emm deprives Emm of a future like ours
-- (SF3) So, it is seriously immoral to kill Emm
+  deprives it of a future like ours.
+- (SF2) Killing Emm deprives Emm of a future like ours.
+- (SF3) So, it is seriously immoral to kill Emm.
 
 :::
 
@@ -700,11 +700,11 @@ would go like this:
 ::: {#argument-CC .argument}
 ## The Contraception Argument {-}
 
-- (CC1) Killing sperm deprives them of a future like ours
+- (CC1) Killing sperm deprives them of a future like ours.
 - (CC2) If killing sperm deprives them of a future like ours, then: if SF1 is
-  true, then it is seriously immoral to kill sperm
-- (CC3) It isn't seriously immoral to kill sperm
-- (CC4) So, SF1 is false
+  true, then it is seriously immoral to kill sperm.
+- (CC3) It isn't seriously immoral to kill sperm.
+- (CC4) So, SF1 is false.
 
 :::
 
@@ -724,11 +724,11 @@ trouble for SF1? The argument would have to go like this:
 ::: {#argument-CC-star .argument}
 ## The Revised Contraception Argument {-}
 
-- (CC1\*) Killing sperm prevents the creation of a being with FLO
+- (CC1\*) Killing sperm prevents the creation of a being with FLO.
 - (CC2\*) If killing sperm prevents the creation of a being with FLO, then: if
-  SF1 is true, then it is seriously immoral to kill sperm
-- (CC3) It isn't seriously immoral to kill sperm
-- (CC4) So, SF1 is false
+  SF1 is true, then it is seriously immoral to kill sperm.
+- (CC3) It isn't seriously immoral to kill sperm.
+- (CC4) So, SF1 is false.
 
 :::
 
@@ -751,11 +751,8 @@ kill normal human adults is that they *desire* a future full of valuable
 experiences. If that's right, then all that is supported by the proper
 explanation of the immorality of killing is the weaker premise SF1\*:
 
-::: {#thesis-SF1-star .thesis}
-SF1\*
-:   It is seriously immoral to kill something (or someone) if killing it
-    deprives it of a future like ours *that it desires*
-:::
+- (SF1\*) It is seriously immoral to kill something (or someone) if killing it
+    deprives it of a future like ours *that it desires*.
 
 But unlike SF1, SF1\* does *not* imply that it is seriously immoral to kill
 Emm. Emm is a very simple creature, which does not even have a brain, let
@@ -827,10 +824,10 @@ Argument as follows:
 
 - (MF1) It is seriously immoral to kill something (or someone) if killing it
   deprives it of a future like ours *and* the killing does not involve any
-  FLO-overriding factors
-- (MF2) Killing Emm deprives Emm of a future like ours
-- (MF3) Killing Emm does not involve any FLO-overriding factors
-- (MF4) So, it is seriously immoral to kill Emm
+  FLO-overriding factors.
+- (MF2) Killing Emm deprives Emm of a future like ours.
+- (MF3) Killing Emm does not involve any FLO-overriding factors.
+- (MF4) So, it is seriously immoral to kill Emm.
 
 :::
 

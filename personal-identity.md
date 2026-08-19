@@ -378,11 +378,11 @@ We can make the argument more explicit as follows:
 :::{#argument-CT .argument}
 ## The Conjoined Twins Argument {-}
 
-- (CT1) If the Same Body Account is true, then *either* Abby and Brittany haveperson
-  different bodies or Abby and Brittany are the same person
-- (CT2) Abby and Brittany have the same body
-- (CT3) Abby and Brittany are not the same person
-- (CT4) So, the Same Body Account is false
+- (CT1) If the Same Body Account is true, then *either* Abby and Brittany have
+  different bodies or Abby and Brittany are the same person.
+- (CT2) Abby and Brittany have the same body.
+- (CT3) Abby and Brittany are not the same person.
+- (CT4) So, the Same Body Account is false.
 
 :::
 
@@ -496,11 +496,11 @@ Here, then, is the argument:
 :::{#argument-BS .argument}
 ## The Body Swap Argument {-}
 
-- (BS1) MaleT and MaleW have the same body
+- (BS1) MaleT and MaleW have the same body.
 - (BS2) If MaleT and MaleW have the same body, then: if the Same Body Account
-  is true, then MaleT and MaleW are the same person
-- (BS3) MaleT and MaleW are not the same person
-- (BS4) So, the Same Body Account is false
+  is true, then MaleT and MaleW are the same person.
+- (BS3) MaleT and MaleW are not the same person.
+- (BS4) So, the Same Body Account is false.
 
 :::
 
@@ -607,12 +607,12 @@ Descendant Account:
 ## The Blackout Argument {-}
 
 - (BL1) The unconscious man is not a psychological descendant of the conscious
-  man
+  man.
 - (BL2) If the unconscious man is not a psychological descendant of the
   conscious man, then: if the Psychological Descendant Account is true, then
-  the conscious man is not the same person as the unconscious man
-- (BL3) The conscious man is the same person as the unconscious man
-- (BL4) So, the Psychological Descendant Account is false
+  the conscious man is not the same person as the unconscious man.
+- (BL3) The conscious man is the same person as the unconscious man.
+- (BL4) So, the Psychological Descendant Account is false.
 
 :::
 
@@ -668,13 +668,13 @@ the Psychological Descendant Account as follows:
 ## The Fission Argument {-}
 
 - (FS1) If the Psychological Descendant Account is true, then JoJo is the same
-  person as ChadRW *and* is the same person as AlexRW
+  person as ChadRW *and* is the same person as AlexRW.
 - (FS2) If JoJo is the same person as ChadRW and the same person as AlexRW,
-  then ChadRW is the same person as AlexRW
+  then ChadRW is the same person as AlexRW.
 - (FS3) So, if the Psychological Descendant Account is true, then ChadRW is
-  the same person as AlexRW
-- (FS4) ChadRW is not the same person as AlexRW
-- (FS5) So the Psychological Descendant Account is false
+  the same person as AlexRW.
+- (FS4) ChadRW is not the same person as AlexRW.
+- (FS5) So the Psychological Descendant Account is false.
 
 :::
 

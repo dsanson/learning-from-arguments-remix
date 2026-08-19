@@ -11,8 +11,8 @@ injustice, poorly designed highways, grossly corrupt government
 agencies, innocent people serving life sentences in prison, and many
 other terrible things. After seeing all this, suppose you are told that
 Nornia is run by a wise and compassionate ruler with limitless power,
-who keeps careful track of everything that goes on in his country. You
-wouldn't believe it for a second.
+who keeps careful track of everything that goes on in his country.
+You wouldn't believe that for a second.
 
 Now look around the world. You'll see some wondrous sights: stunning
 mountain peaks, beautiful prairies, staggering artistic and athletic
@@ -62,6 +62,11 @@ supposed to be a perfect being. In particular, he is supposed to be
 omnipotent (that is, maximally powerful), omniscient (all-knowing), and
 omnibenevolent (morally perfect). Let's call a being with all three of
 these qualities an *omnibeing*.
+
+:::{#thesis-omnibeing .thesis}
+Omnibeing
+:   An **omnibeing** is a being that is omnipotent (maximally powerful), omniscient (all-knowing), and omnibenevolent (morally perfect).
+:::
 
 Now, consider how an omnibeing would react to any suffering that might
 crop up in the world. Since she is omnipotent, there are no bounds
@@ -383,6 +388,7 @@ reasons:
 
 ::: {#argument-DB .argument}
 ## The Argument for Disbelief {-}
+
 - (DB1) You should not believe that all the suffering in Nornia is
   necessary for some unknown greater good that its ruler has in mind.
 - (DB2) If you should not believe that all the suffering in Nornia is

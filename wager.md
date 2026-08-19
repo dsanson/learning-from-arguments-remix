@@ -162,7 +162,14 @@ confess your feelings.
 But where exactly are these numbers coming from? To calculate the
 expected utility of a given option, you multiply the value of each
 possible outcome of the action by the likelihood of that outcome, and
-add together the results. Or put in terms of the rows and columns of
+add together the results.
+
+:::{#thesis-expected-utility .thesis}
+Expected Utility
+:   The **expected utility** of an action is a measure of how well you should expect to do if you choose a given option. Multiply the value of each outcome by its likelihood, and take the sum of those products. 
+:::
+
+Put in terms of the rows and columns of
 @tbl-1: to calculate the expected utility of the top row, you multiply
 the value in the top row of the first column by the likelihood
 associated with that column, multiply the value in the top row of the
