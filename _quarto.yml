@@ -9,9 +9,13 @@ book:
     -  "Daniel Z. Korman"
     -  "hacked up by David Sanson"
   description: "A modified version of Dan Korman's open source intro philosophy textbook, Learning from Arguments"
+  page-navigation: true
   favicon: media/favicon.png
   twitter-card: true
   open-graph: true
+  #downloads: [epub,pdf]
+  repo-url: https://github.com/dsanson/learning-from-arguments-remix
+  repo-actions: [issue, source]
 
   chapters:
     - part: Preface
@@ -36,10 +40,6 @@ book:
     - logic.md
     - writing.md
     - arguments.md
-  page-navigation: true
-  #downloads: [epub,pdf]
-  repo-url: https://github.com/dsanson/learning-from-arguments-remix
-  repo-actions: [issue, source]
 
 bibliography: [references.bib]
 citeproc: false
