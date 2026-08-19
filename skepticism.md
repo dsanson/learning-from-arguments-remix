@@ -143,7 +143,7 @@ principle we actually rely on in our reasoning is more nuanced, perhaps
 something like this:
 
 :::{#thesis-FLP-star .thesis}
-FLP\*
+Future Like Past in Expected Ways (FLP\*)
 :   Future states of the world will be like past states of the world *except
     in respects in which we can expect them to differ*.
 :::

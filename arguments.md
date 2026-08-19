@@ -3,13 +3,14 @@
 ## About this Appendix {-}
 
 This appendix collects together the key arguments, thought experiments, and
-theses discussed in the book. Readers may find it helpful to have a printed
+theses discussed in the book, in the order they appear in each chapter.
+Readers may find it helpful to have a printed
 copy of this appendix at hand, or have it open in a separate tab, while
 reading through the chapters.
 
 ## Argument Forms {-}
 
-@sec-logic describes a few common argument forms. They are collected here at the beginning of this appendix for easy reference.
+@sec-logic describes a few common argument forms. They are repeated here for easy reference.
 
 ::: {#argument-MP-form .argument}
 ## Modus Ponens {#modus-ponens-1-form .unnumbered}

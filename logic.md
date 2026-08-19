@@ -56,6 +56,10 @@ conclusion being true. You would be contradicting yourself if you accepted all
 the premises but denied the conclusion.
 
 :::{#thesis-validity .thesis}
+Validity
+:   An argument is **valid** just in case the premises guarantee the truth
+of the conclusion: it's impossible for the premises to be true without the
+conclusion being true.
 :::
 
 The problem with the Feathers Argument is that it's invalid: it doesn't follow
