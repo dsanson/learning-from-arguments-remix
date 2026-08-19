@@ -104,17 +104,6 @@ div.csl-indent {
   }
 }</script>
 <style>
-div.callout-argument.callout {
-  border-left-color: yellow;
-}
-div.callout-argument.callout-style-default .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
-}
-div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
-  content: '🥊';
-  background-image: none;
-}
 div.callout-example.callout {
   border-left-color: purple;
 }
@@ -124,6 +113,17 @@ div.callout-example.callout-style-default .callout-header {
 div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
   background-image: none;
 }
 </style>
@@ -573,7 +573,12 @@ div.callout-example.callout-style-default .callout-icon::before, div.callout-exa
 <p>But what about the Feathers Argument? You probably don’t find it any more convincing than the Cuteness Argument. But both of its premises are true. So, what <em>is</em> the problem with the Feathers Argument? The problem is that the conclusion doesn’t <em>follow</em> from the premises. Or, as philosophers like to say, the argument is not valid.</p>
 <p>A <em>valid</em> argument is an argument whose conclusion is a <em>logical consequence</em> of its premises. When an argument is valid, the premises guarantee the truth of the conclusion; it’s impossible for the premises to be true without the conclusion being true. You would be contradicting yourself if you accepted all the premises but denied the conclusion.</p>
 <div id="thesis-validity" class="thesis">
-
+<dl>
+<dt>Validity</dt>
+<dd>
+An argument is <strong>valid</strong> just in case the premises guarantee the truth of the conclusion: it’s impossible for the premises to be true without the conclusion being true.
+</dd>
+</dl>
 </div>
 <p>The problem with the Feathers Argument is that it’s invalid: it doesn’t follow from Camilla’s having feathers and feathers’ being soft that it’s wrong to eat her. There’s no contradiction in accepting the premises of that argument while denying its conclusion. The Cuteness Argument, by contrast, is valid: the claim that it’s wrong to eat Camilla <em>is</em> a logical consequence of the claim that Camilla is cute and the claim that it’s wrong to eat cute things. Anyone who accepts the premises of the Cuteness Argument is logically required to accept the conclusion as well, on pain of contradicting themselves.</p>
 <p>You might be surprised that I just called the Cuteness Argument ‘valid’. But look again at my definition of ‘valid’. That definition doesn’t require the premises of a valid argument to be true, or even plausible. All that’s required is that <em>if</em> the premises are true, then the conclusion is guaranteed to be true as well. An argument can be valid and still be a pretty bad argument, like the Cuteness Argument, because its premises are implausible. (Philosophers have a different word for arguments that are valid <em>and</em> all of whose premises are true. We call them <em>sound</em> arguments.) Also, as defined above, validity can only ever be a feature of <em>arguments</em>. So, at least in philosophical discussions, it’s best to avoid calling premises or points ‘valid’. Only arguments should be described as valid or invalid.</p>
