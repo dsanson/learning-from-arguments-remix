@@ -20,18 +20,18 @@ Camilla, and I give you the following two arguments:
 ::: {#argument-CA .argument}
 ## The Cuteness Argument {-}
 
-- (CA1) Camilla is cute
-- (CA2) It's wrong to eat cute things
-- (CA3) So, it's wrong to eat Camilla
+- (CA1) Camilla is cute.
+- (CA2) It's wrong to eat cute things.
+- (CA3) So, it's wrong to eat Camilla.
 
 :::
 
 ::: {#argument-FA .argument}
 ## The Feathers Argument {-}
 
-- (FA1) Camilla has feathers
-- (FA2) Feathers are soft
-- (FA3) So, it's wrong to eat Camilla
+- (FA1) Camilla has feathers.
+- (FA2) Feathers are soft.
+- (FA3) So, it's wrong to eat Camilla.
 
 :::
 
@@ -54,6 +54,9 @@ of its premises. When an argument is valid, the premises guarantee the truth
 of the conclusion; it's impossible for the premises to be true without the
 conclusion being true. You would be contradicting yourself if you accepted all
 the premises but denied the conclusion.
+
+:::{#thesis-validity .thesis}
+:::
 
 The problem with the Feathers Argument is that it's invalid: it doesn't follow
 from Camilla's having feathers and feathers' being soft that it's wrong to eat
@@ -82,12 +85,12 @@ see what I have in mind, consider this argument from @sec-death:
 ::: {#argument-FD-copy2 .argument}
 ## Against Fearing Death {-}
 
-- (FD1) You cease to be conscious when you die
+- (FD1) You cease to be conscious when you die.
 - (FD2) If you cease to be conscious when you die, then being dead isn't bad
-  for you
-- (FD3) So, being dead isn't bad for you
-- (FD4) If being dead isn't bad for you, then you shouldn't fear death
-- (FD5) So, you shouldn't fear death
+  for you.
+- (FD3) So, being dead isn't bad for you.
+- (FD4) If being dead isn't bad for you, then you shouldn't fear death.
+- (FD5) So, you shouldn't fear death.
 
 :::
 
@@ -126,19 +129,19 @@ arguments:
 ::: {#argument-DK-copy .argument}
 ## The Drinking Age Argument {-}
 
-- (DK1) Kristina is twenty years old
+- (DK1) Kristina is twenty years old.
 - (DK2) If Kristina is twenty years old, then Kristina is not allowed to buy
-  alcohol in the US
-- (DK3) So, Kristina is not allowed to buy alcohol in the US
+  alcohol in the US.
+- (DK3) So, Kristina is not allowed to buy alcohol in the US.
 
 :::
 
 ::: {#argument-MA .argument}
 ## The Moral Argument {-}
 
-- (MA1) There are objective moral values
-- (MA2) If there are objective moral values, then God exists
-- (MA3) So, God exists
+- (MA1) There are objective moral values.
+- (MA2) If there are objective moral values, then God exists.
+- (MA3) So, God exists.
 
 :::
 
@@ -161,9 +164,9 @@ following form:
 ::: {#argument-MP .argument}
 ## Modus Ponens {-}
 
-- If P, then Q
-- P
-- So Q
+- If P, then Q.
+- []{.blah}P.
+- So, Q.
 
 :::
 
@@ -180,9 +183,9 @@ this is also a modus ponens argument:
 ## The Rearranged Drinking Age Argument {-}
 
 - (RD1) If Kristina is twenty years old, then Kristina is not allowed to buy
-  alcohol in the US
-- (RD2) Kristina is twenty years old
-- (RD3) So, Kristina is not allowed to buy alcohol in the US
+  alcohol in the US.
+- (RD2) Kristina is twenty years old.
+- (RD3) So, Kristina is not allowed to buy alcohol in the US.
 
 :::
 
@@ -192,10 +195,10 @@ the argument. This, for instance, is *not* a modus ponens argument:
 ::: {#argument-MD .argument}
 ## The Mangled Drinking Age Argument {-}
 
-- (MD1) Jean Blanc is not allowed to buy alcohol in the US
+- (MD1) Jean Blanc is not allowed to buy alcohol in the US.
 - (MD2) If Jean Blanc is twenty years old, then Jean Blanc is not allowed to
-  buy alcohol in the US
-- (MD3) So, Jean Blanc is twenty years old
+  buy alcohol in the US.
+- (MD3) So, Jean Blanc is twenty years old.
 
 :::
 
@@ -220,9 +223,9 @@ denial, we can display the form of modus tollens arguments as follows:
 ::: {#argument-MT .argument}
 ## Modus Tollens {-}
 
-- If P then Q
-- \~Q
-- So, \~P
+- If P then Q.
+- \~Q.
+- So, \~P.
 
 :::
 
@@ -231,18 +234,18 @@ Here are some examples of modus tollens arguments:
 ::: {#argument-WF .argument}
 ## Whales Aren't Fish {-}
 
-- (WF1) If whales are fish, then whales use gills to breathe
-- (WF2) Whales don't use gills to breathe
-- (WF3) So whales aren't fish
+- (WF1) If whales are fish, then whales use gills to breathe.
+- (WF2) Whales don't use gills to breathe.
+- (WF3) So whales aren't fish.
 
 :::
 
 ::: {#argument-FM .argument}
 ## The Flipped Moral Argument {-}
 
-- (FM1) If God does not exist, then there are no objective moral values
-- (FM2) There are objective moral values
-- (FM3) So, God exists
+- (FM1) If God does not exist, then there are no objective moral values.
+- (FM2) There are objective moral values.
+- (FM3) So, God exists.
 
 :::
 
@@ -265,13 +268,13 @@ complicated arguments that involve both. For instance:
 ::: {#argument-FK .argument}
 ## The Foreknowledge Argument {-}
 
-- (FK1) God knew before you were born that you were going to read this book
+- (FK1) God knew before you were born that you were going to read this book.
 - (FK2) If God knew before you were born that you were going to read this
-  book, then you couldn't have chosen not to read this book
-- (FK3) So, you couldn't have chosen not to read this book
+  book, then you couldn't have chosen not to read this book.
+- (FK3) So, you couldn't have chosen not to read this book.
 - (FK4) If you freely choose to read this book, then you could have chosen not
-  to read this book
-- (FK5) So, you didn't freely choose to read this book
+  to read this book.
+- (FK5) So, you didn't freely choose to read this book.
 
 :::
 
@@ -291,9 +294,9 @@ conditional premise with the consequent of another conditional premise.
 ::: {#argument-chained .argument}
 ## Chained Conditional {-}
 
-- If P then Q
-- If Q then R
-- So, if P then R
+- If P then Q.
+- If Q then R.
+- So, if P then R.
 
 :::
 
@@ -306,9 +309,9 @@ Here are two examples of arguments with this form:
 ::: {#argument-FN .argument}
 ## Against Fearing Non-Existence {-}
 
-- (FN1) If you stop existing when you die, then being dead is not bad for you
-- (FN2) If being dead is not bad for you, then you shouldn't fear death
-- (FN3) So, if you stop existing when you die, then you shouldn't fear death
+- (FN1) If you stop existing when you die, then being dead is not bad for you.
+- (FN2) If being dead is not bad for you, then you shouldn't fear death.
+- (FN3) So, if you stop existing when you die, then you shouldn't fear death.
 
 :::
 
@@ -316,10 +319,10 @@ Here are two examples of arguments with this form:
 ## The Right to the Womb Argument {-}
 
 - (RW1) If the embryo has a right to life, then the embryo has a right to use
-  the mother's womb
+  the mother's womb.
 - (RW2) If the embryo has a right to use the mother's womb, then abortion is
-  immoral
-- (RW3) So, if the embryo has a right to life, then abortion is immoral
+  immoral.
+- (RW3) So, if the embryo has a right to life, then abortion is immoral.
 
 :::
 
@@ -351,9 +354,9 @@ Here's an example of an argument by universal instantiation:
 ::: {#argument-PG .argument}
 ## The Philosophical Genius Argument {-}
 
-- (PG1) All philosophers are geniuses
-- (PG2) Korman is a philosopher
-- (PG3) So, Korman is a genius
+- (PG1) All philosophers are geniuses.
+- (PG2) Korman is a philosopher.
+- (PG3) So, Korman is a genius.
 
 :::
 
@@ -370,9 +373,9 @@ TODO: repeated argument
 ::: {#argument-CA-copy .argument}
 ## The Cuteness Argument {-}
 
-- (CA1) Camilla is cute
-- (CA2) It's wrong to eat cute things
-- (CA3) So, it's wrong to eat Camilla
+- (CA1) Camilla is cute.
+- (CA2) It's wrong to eat cute things.
+- (CA3) So, it's wrong to eat Camilla.
 
 :::
 
@@ -383,9 +386,9 @@ we can see that it's a universal instantiation in disguise:
 ::: {#argument-CA-star .argument}
 ## The Cuteness Argument Reworded {-}
 
-- (CA2\*) All cute things are things that are wrong to eat
-- (CA1\*) Camilla is a cute thing
-- (CA3\*) So, Camilla is a thing that is wrong to eat
+- (CA2\*) All cute things are things that are wrong to eat.
+- (CA1\*) Camilla is a cute thing.
+- (CA3\*) So, Camilla is a thing that is wrong to eat.
 :::
 
 ## Challenging Modus Ponens and Modus Tollens
@@ -421,9 +424,9 @@ the thesis that all modus tollens arguments are valid:
 ::: {#argument-DTollens .argument}
 ## The Defective Tollens {-}
 
-- (DT1) If Olivia is in Chicago, then Olivia must be in Illinois
-- (DT2) It's not the case that Olivia must be in Illinois
-- (DT3) So, Olivia isn't in Chicago
+- (DT1) If Olivia is in Chicago, then Olivia must be in Illinois.
+- (DT2) It's not the case that Olivia must be in Illinois.
+- (DT3) So, Olivia isn't in Chicago.
 
 :::
 
@@ -461,10 +464,10 @@ thesis that all modus ponens arguments are valid.
 ::: {#argument-DP .argument}
 ## The Defective Ponens {-}
 
-- (DP1) A woman is going to win
+- (DP1) A woman is going to win.
 - (DP2) If a woman is going to win, then: if Esmée loses, then Celeste will
-  win
-- (DP3) So, if Esmée loses, then Celeste will win
+  win.
+- (DP3) So, if Esmée loses, then Celeste will win.
 
 :::
 
@@ -492,4 +495,3 @@ arguments against the validity of modus ponens and modus tollens.
 The argument against modus tollens is drawn from @kolodny2010. The argument
 against modus ponens is drawn from @mcgee1985. For more on the philosophy of
 logic, see @haack2007 or @sainsbury2001.
-

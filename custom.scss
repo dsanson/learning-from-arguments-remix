@@ -54,7 +54,7 @@ figure.quarto-float-exa,
   };
   > div {
     text-align: left;
-    padding: 1em;
+    // padding: 1em;
   }
   &> div > ul,
   &> div > ol {
@@ -78,7 +78,6 @@ figure.quarto-float-exa,
 
   ul > li {
     list-style: none;
-    text-indent: -2em;
   }
   
   dl {

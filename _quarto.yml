@@ -1,6 +1,6 @@
 project:
   type: book 
-  pre-render: quarto pandoc evil.md wager.md personal-identity.md death.md no-freedom.md skepticism.md coercion.md abortion.md eating-animals.md utilitarianism.md --lua-filter extract-arguments.lua -o _arguments.md
+  pre-render: quarto pandoc introduction.md evil.md wager.md personal-identity.md death.md no-freedom.md skepticism.md coercion.md abortion.md eating-animals.md utilitarianism.md logic.md --lua-filter extract-arguments.lua -o _arguments.md
 
 book:
   title: "Learning from Arguments"
