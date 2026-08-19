@@ -1061,7 +1061,7 @@ and -@sec-bad-pro-life-arguments.
 
 
 <!--
-Boonin, David. 2019. *Beyond Roe: Why Abortion Should Be Legal\--Even If
+Boonin, David. 2019. *Beyond Roe: Why Abortion Should Be Legal-Even If
 the Fetus Is a Person*. New York, NY: Oxford University Press.
 
 Boonin, David. 2003. *A Defense of Abortion*. Cambridge Studies in
