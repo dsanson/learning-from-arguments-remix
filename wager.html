@@ -502,6 +502,12 @@ window.Quarto = {
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./arguments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Arguments</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -636,7 +642,16 @@ Matrix&nbsp;2.1: Talking to my crush
 </div>
 <p>I’ve snuck in an extra column for <em>expected utility</em>. This is the column we’ll use to crunch the numbers, calculating what the smart choice is for you, given your preferences and the likelihoods of the different outcomes. Before I explain where these numbers (3.5 and 1.5) are coming from, let me say something about how to think about these expected utilities.</p>
 <p>In effect, the expected utility of an option tells you how well you’d do, on average, if you kept choosing that option over and over again. Imagine that you’re in an infinite loop. You choose an option, and then time rewinds and you choose that same option again and again—and 75% of the time he’s into you and 25% of the time he isn’t. The fact that confessing has an expected utility of 3.5 and not confessing has an expected utility of 1.5 tells you that on average you’d do a little over twice as well by repeatedly choosing to confess your feelings than by repeatedly choosing not to (since 3.5 is a little over twice as much as 1.5). And what <em>that</em> tells you is that the smart thing to do is to confess your feelings.</p>
-<p>But where exactly are these numbers coming from? To calculate the expected utility of a given option, you multiply the value of each possible outcome of the action by the likelihood of that outcome, and add together the results. Or put in terms of the rows and columns of <a href="#tbl-1" class="quarto-xref">Matrix&nbsp;<span>2.1</span></a>: to calculate the expected utility of the top row, you multiply the value in the top row of the first column by the likelihood associated with that column, multiply the value in the top row of the second column by the likelihood associated with <em>that</em> column, and add the results together. So, we get:</p>
+<p>But where exactly are these numbers coming from? To calculate the expected utility of a given option, you multiply the value of each possible outcome of the action by the likelihood of that outcome, and add together the results.</p>
+<div id="thesis-expected-utility" class="thesis">
+<dl>
+<dt>Expected Utility</dt>
+<dd>
+The <strong>expected utility</strong> of an action is a measure of how well you should expect to do if you choose a given option. Multiply the value of each outcome by its likelihood, and take the sum of those products.
+</dd>
+</dl>
+</div>
+<p>Put in terms of the rows and columns of <a href="#tbl-1" class="quarto-xref">Matrix&nbsp;<span>2.1</span></a>: to calculate the expected utility of the top row, you multiply the value in the top row of the first column by the likelihood associated with that column, multiply the value in the top row of the second column by the likelihood associated with <em>that</em> column, and add the results together. So, we get:</p>
 <p><span class="math display">\[
 \begin{align}
   \textsf{Confess your feelings} &amp;= (.75 \times 4) + (.25 \times 2) = 3.5 \\

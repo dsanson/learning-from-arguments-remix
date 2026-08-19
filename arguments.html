@@ -1,0 +1,2873 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A modified version of Dan Korman’s open source intro philosophy textbook, Learning from Arguments">
+
+<title>Appendix C — Arguments – Learning from Arguments</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./writing.html" rel="prev">
+<link href="./media/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-axe/axe.min.js"></script>
+<script src="site_libs/quarto-axe/axe-check.js" type="module"></script>
+<script id="quarto-axe-checker-options" type="text/plain">dHJ1ZQ==</script>
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-511db3438e442d500f6d321ddd400b28.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-eb8d3095aa90cae3ed8fd81dcba80862.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-511db3438e442d500f6d321ddd400b28.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
+  background-image: none;
+}
+div.callout-example.callout {
+  border-left-color: purple;
+}
+div.callout-example.callout-style-default .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Appendix C — Arguments – Learning from Arguments">
+<meta property="og:description" content="A modified version of Dan Korman’s open source intro philosophy textbook, Learning from Arguments">
+<meta property="og:site_name" content="Learning from Arguments">
+<meta name="twitter:title" content="Appendix C — Arguments – Learning from Arguments">
+<meta name="twitter:description" content="A modified version of Dan Korman’s open source intro philosophy textbook, Learning from Arguments">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./logic.html">Appendices</a></li><li class="breadcrumb-item"><a href="./arguments.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Arguments</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Learning from Arguments</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/dsanson/learning-from-arguments-remix" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Preface</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface-students.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface for Students</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface-instructors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface for Instructors</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evil.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Can God Allow Suffering?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wager.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Why You Should Bet on God</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./personal-identity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What Makes You You</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./death.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Don’t Fear the Reaper</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./no-freedom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">No Freedom</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./skepticism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">You Know Nothing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./coercion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Against Prisons and Taxes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./abortion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">The Ethics of Abortion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./eating-animals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Eating Animals is Immoral</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./utilitarianism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">What Makes Things Right</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./logic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Logic</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./arguments.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Arguments</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#about-this-appendix" id="toc-about-this-appendix" class="nav-link active" data-scroll-target="#about-this-appendix">About this Appendix</a></li>
+  <li><a href="#sec-can-god-allow-suffering-appendix" id="toc-sec-can-god-allow-suffering-appendix" class="nav-link" data-scroll-target="#sec-can-god-allow-suffering-appendix"><span class="header-section-number">C.1</span> Can God Allow Suffering?</a></li>
+  <li><a href="#sec-wager-appendix" id="toc-sec-wager-appendix" class="nav-link" data-scroll-target="#sec-wager-appendix"><span class="header-section-number">C.2</span> Why You Should Bet on God</a></li>
+  <li><a href="#sec-personal-identity-appendix" id="toc-sec-personal-identity-appendix" class="nav-link" data-scroll-target="#sec-personal-identity-appendix"><span class="header-section-number">C.3</span> What Makes You You</a></li>
+  <li><a href="#sec-death-appendix" id="toc-sec-death-appendix" class="nav-link" data-scroll-target="#sec-death-appendix"><span class="header-section-number">C.4</span> Don’t Fear the Reaper</a></li>
+  <li><a href="#sec-no-freedom-appendix" id="toc-sec-no-freedom-appendix" class="nav-link" data-scroll-target="#sec-no-freedom-appendix"><span class="header-section-number">C.5</span> No Freedom</a></li>
+  <li><a href="#sec-skepticism-appendix" id="toc-sec-skepticism-appendix" class="nav-link" data-scroll-target="#sec-skepticism-appendix"><span class="header-section-number">C.6</span> You Know Nothing</a></li>
+  <li><a href="#sec-coercion-appendix" id="toc-sec-coercion-appendix" class="nav-link" data-scroll-target="#sec-coercion-appendix"><span class="header-section-number">C.7</span> Against Prisons and Taxes</a></li>
+  <li><a href="#sec-abortion-appendix" id="toc-sec-abortion-appendix" class="nav-link" data-scroll-target="#sec-abortion-appendix"><span class="header-section-number">C.8</span> The Ethics of Abortion</a></li>
+  <li><a href="#sec-eating-animals-appendix" id="toc-sec-eating-animals-appendix" class="nav-link" data-scroll-target="#sec-eating-animals-appendix"><span class="header-section-number">C.9</span> Eating Animals is Immoral</a></li>
+  <li><a href="#sec-utilitarianism-appendix" id="toc-sec-utilitarianism-appendix" class="nav-link" data-scroll-target="#sec-utilitarianism-appendix"><span class="header-section-number">C.10</span> What Makes Things Right</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/arguments.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./logic.html">Appendices</a></li><li class="breadcrumb-item"><a href="./arguments.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Arguments</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-arguments" class="quarto-section-identifier">Appendix C — Arguments</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="about-this-appendix" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="about-this-appendix">About this Appendix</h2>
+<p>This appendix collects together the key arguments, thought experiments, and theses discussed in the book. Readers may find it helpful to have a printed copy of this appendix at hand, or have it open in a separate tab, while reading through the chapters.</p>
+</section>
+<section id="sec-can-god-allow-suffering-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-can-god-allow-suffering-appendix"><span class="header-section-number">C.1</span> Can God Allow Suffering?</h2>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Suffering
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">AS1.</span> There is suffering in the world.</li>
+<li><span class="li-label">AS2.</span> If there is suffering in the world, then God does not exist.</li>
+<li><span class="li-label">AS3.</span> So, God does not exist.</li>
+</ul>
+</div>
+</div>
+<div id="thesis-omnibeing-appendix" class="thesis">
+<dl>
+<dt>Omnibeing</dt>
+<dd>
+An <strong>omnibeing</strong> is a being that is omnipotent (maximally powerful), omniscient (all-knowing), and omnibenevolent (morally perfect).
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Pointless Suffering
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">PS1.</span> There is pointless suffering in the world.</li>
+<li><span class="li-label">PS2.</span> If there is pointless suffering in the world, then there is no omnibeing.</li>
+<li><span class="li-label">PS3.</span> So, there is no omnibeing.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument for Disbelief
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DB1.</span> You should not believe that all the suffering in Nornia is necessary for some unknown greater good that its ruler has in mind.</li>
+<li><span class="li-label">DB2.</span> If you should not believe that all the suffering in Nornia is necessary for some unknown greater good that its ruler has in mind, then you should not believe that all the suffering in the actual world is necessary for some unknown greater good that an omnibeing has in mind.</li>
+<li><span class="li-label">DB3.</span> So, you should not believe that all the suffering in the actual world is necessary for some unknown greater good that an omnibeing has in mind.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sec-wager-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-wager-appendix"><span class="header-section-number">C.2</span> Why You Should Bet on God</h2>
+<div id="thesis-expected-utility-appendix" class="thesis">
+<dl>
+<dt>Expected Utility</dt>
+<dd>
+The <strong>expected utility</strong> of an action is a measure of how well you should expect to do if you choose a given option. Multiply the value of each outcome by its likelihood, and take the sum of those products.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument for Confessing Feelings
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">CF1.</span> One should always choose the option with the greatest expected utility.</li>
+<li><span class="li-label">CF2.</span> Confessing your feelings has a greater expected utility than not confessing.</li>
+<li><span class="li-label">CF3.</span> So, you should confess your feelings.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument for Betting on God
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">BG1.</span> One should always choose the option with the greatest expected utility.</li>
+<li><span class="li-label">BG2.</span> Believing in God has a greater expected utility than not believing in God.</li>
+<li><span class="li-label">BG3.</span> So you should believe in God.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument for Trying to Believe
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">TB1.</span> One should always choose the option with the greatest expected utility.</li>
+<li><span class="li-label">TB2.</span> Making an effort to believe in God has greater expected utility than not making an effort to believe in God.</li>
+<li><span class="li-label">TB3.</span> So, one should make an effort to believe in God.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sec-personal-identity-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-personal-identity-appendix"><span class="header-section-number">C.3</span> What Makes You You</h2>
+<div id="thesis-personal-identity-template-appendix" class="thesis">
+<dl>
+<dt>Template of an Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at time <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at time <span class="math inline">\(t^*\)</span> if and only if ______.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>LEAVE NO TRACE
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>After robbing the mansion, Bekah realizes that she may have left some fingerprints behind. To help ensure that the police can’t prove that she was the burglar, she soaks her fingers in acid, completely searing off her fingerprints. The police track her down and, just as she hoped, they are unable to prove that she committed the burglary.</p>
+</div>
+</div>
+<div id="thesis-fingerprints-appendix" class="thesis">
+<dl>
+<dt>The Fingerprints Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at time <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at time <span class="math inline">\(t^*\)</span> if and only if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> have indistinguishable fingerprints.
+</dd>
+</dl>
+</div>
+<div id="thesis-dna-appendix" class="thesis">
+<dl>
+<dt>The DNA Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at <span class="math inline">\(t^*\)</span> if and only if <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> have indistinguishable DNA.
+</dd>
+</dl>
+</div>
+<div id="thesis-same-body-appendix" class="thesis">
+<dl>
+<dt>The Same Body Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at <span class="math inline">\(t^*\)</span> if and only if <span class="math inline">\(A\)</span> has the same body as <span class="math inline">\(B\)</span>.
+</dd>
+</dl>
+</div>
+<div id="thesis-psych-matching-appendix" class="thesis">
+<dl>
+<dt>The Psychological Matching Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at <span class="math inline">\(t^*\)</span> if and only if A’s psychological features are exactly the same as B’s psychological features.
+</dd>
+</dl>
+</div>
+<div id="thesis-psych-overlap-appendix" class="thesis">
+<dl>
+<dt>The Psychological Overlap Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at <span class="math inline">\(t^*\)</span> if and only if A’s psychological features are mostly the same as B’s psychological features.
+</dd>
+</dl>
+</div>
+<div id="thesis-psych-descendant-appendix" class="thesis">
+<dl>
+<dt>The Psychological Descendant Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at <span class="math inline">\(t^*\)</span> if and only if <span class="math inline">\(A\)</span> is either a psychological ancestor or a psychological descendant of <span class="math inline">\(B\)</span>.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Conjoined Twins Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">CT1.</span> If the Same Body Account is true, then <em>either</em> Abby and Brittany have different bodies or Abby and Brittany are the same person.</li>
+<li><span class="li-label">CT2.</span> Abby and Brittany have the same body.</li>
+<li><span class="li-label">CT3.</span> Abby and Brittany are not the same person.</li>
+<li><span class="li-label">CT4.</span> So, the Same Body Account is false.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>CONJOINED DRAMA
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Abby is dating Arie. Brittany is secretly in love with Arie and has always been jealous of their relationship. One night, while Abby is sleeping, Brittany confesses her feelings to Arie, and Arie kisses her. Later, when Abby finds out, she strangles Brittany.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>BODY SWAP
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Rachel is a neurotechnologist. Using an fMRI, a supercomputer, and advanced laser technology, she has devised a way to get a complete neuron-for-neuron scan of one person’s brain, and then rewire a second person’s brain to be an exact duplicate of it. She recruits a pair of volunteers to have their wiring “swapped” for a day: a man named Raúl and a woman named June. Rachel’s team performs the procedure on Tuesday night, and the volunteers are awakened on Wednesday. Both stare down at their bodies in disbelief. The person with the male body says ‘my name is June’ and can recount all of June’s memories but knows nothing at all about Raúl’s past. The person with the female body says ‘my name is Raúl’ and can tell you all about Raúl’s past but nothing about June’s.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Body Swap Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">BS1.</span> MaleT and MaleW have the same body.</li>
+<li><span class="li-label">BS2.</span> If MaleT and MaleW have the same body, then: if the Same Body Account is true, then MaleT and MaleW are the same person.</li>
+<li><span class="li-label">BS3.</span> MaleT and MaleW are not the same person.</li>
+<li><span class="li-label">BS4.</span> So, the Same Body Account is false.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TOTAL AMNESIA
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jiwoo is stranded on a deserted island. Adding injury to insult, a coconut fell on Jiwoo’s head at noon today, instantly resulting in total amnesia. She can’t remember how she got on the island or anything else about her past. She can’t even remember her own name.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TOTAL BLACKOUT
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Minjun is stranded on a deserted island. Adding injury to insult, a coconut fell on Minjun’s head at noon today, temporarily knocking him unconscious. While unconscious, he is not dreaming, nor does he have any thoughts or experiences or any physical sensations whatsoever. He is completely blacked out. When he finally awakens hours later, it will feel as if no time has passed.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Blackout Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">BL1.</span> The unconscious man is not a psychological descendant of the conscious man.</li>
+<li><span class="li-label">BL2.</span> If the unconscious man is not a psychological descendant of the conscious man, then: if the Psychological Descendant Account is true, then the conscious man is not the same person as the unconscious man.</li>
+<li><span class="li-label">BL3.</span> The conscious man is the same person as the unconscious man.</li>
+<li><span class="li-label">BL4.</span> So, the Psychological Descendant Account is false.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>DOUBLE TROUBLE
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Rachel’s rewiring program has been tremendously successful, and she is now performing dozens of body swaps a day. But she’s starting to get a little sloppy. Today, after rewiring Chad’s brain to duplicate JoJo’s, Rachel then accidentally rewires Alex’s brain to duplicate JoJo’s as well. As a result, both the person with Chad’s original body and the person with Alex’s original body wake up and say ‘my name is JoJo’. Both can tell you all about JoJo’s past; neither can tell you anything about Chad or Alex’s past. Rachel’s team also accidently obliterates JoJo’s original body.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Fission Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">FS1.</span> If the Psychological Descendant Account is true, then JoJo is the same person as ChadRW <em>and</em> is the same person as AlexRW.</li>
+<li><span class="li-label">FS2.</span> If JoJo is the same person as ChadRW and the same person as AlexRW, then ChadRW is the same person as AlexRW.</li>
+<li><span class="li-label">FS3.</span> So, if the Psychological Descendant Account is true, then ChadRW is the same person as AlexRW.</li>
+<li><span class="li-label">FS4.</span> ChadRW is not the same person as AlexRW.</li>
+<li><span class="li-label">FS5.</span> So the Psychological Descendant Account is false.</li>
+</ul>
+</div>
+</div>
+<div id="thesis-NDP-appendix" class="thesis">
+<dl>
+<dt>The No Difference Principle (NDP)</dt>
+<dd>
+If <span class="math inline">\(A\)</span> is numerically the same as B, then at any given time, anything that’s true of <span class="math inline">\(A\)</span> at that time is also true of <span class="math inline">\(B\)</span> at that time.
+</dd>
+</dl>
+</div>
+<div id="thesis-same-soul-appendix" class="thesis">
+<dl>
+<dt>The Same Soul Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at <span class="math inline">\(t^*\)</span> if and only if <span class="math inline">\(A\)</span> has the same soul as <span class="math inline">\(B\)</span>.
+</dd>
+</dl>
+</div>
+<div id="thesis-body-and-mind-appendix" class="thesis">
+<dl>
+<dt>The Body-And-Mind Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at <span class="math inline">\(t^*\)</span> if and only if <span class="math inline">\(A\)</span> has the same body as <span class="math inline">\(B\)</span> <em>and</em> <span class="math inline">\(A\)</span> is a psychological ancestor or descendant of <span class="math inline">\(B\)</span>.
+</dd>
+</dl>
+</div>
+<div id="thesis-body-or-mind-appendix" class="thesis">
+<dl>
+<dt>The Body-Or-Mind Account</dt>
+<dd>
+<span class="math inline">\(A\)</span> at <span class="math inline">\(t\)</span> is the same person as <span class="math inline">\(B\)</span> at <span class="math inline">\(t^*\)</span> if and only if <span class="math inline">\(A\)</span> has the same body as <span class="math inline">\(B\)</span> <em>or</em> <span class="math inline">\(A\)</span> is a psychological ancestor or descendant of <span class="math inline">\(B\)</span>.
+</dd>
+</dl>
+</div>
+</section>
+<section id="sec-death-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-death-appendix"><span class="header-section-number">C.4</span> Don’t Fear the Reaper</h2>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Fearing Death
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">FD1.</span> You cease to be conscious when you die.</li>
+<li><span class="li-label">FD2.</span> If you cease to be conscious when you die, then being dead is not bad for you.</li>
+<li><span class="li-label">FD3.</span> So, being dead is not bad for you.</li>
+<li><span class="li-label">FD4.</span> If being dead is not bad for you, then you should not fear death.</li>
+<li><span class="li-label">FD5.</span> So, you should not fear death.</li>
+</ul>
+</div>
+</div>
+<div id="thesis-HD-appendix" class="thesis">
+<dl>
+<dt>Hedonism (HD)</dt>
+<dd>
+Something is bad for you if and only if it’s painful.
+</dd>
+</dl>
+</div>
+<div id="thesis-HD-star-appendix" class="thesis">
+<dl>
+<dt>Hedonism (HD*)</dt>
+<dd>
+Something is bad for you if and only if it results in more pain than you would otherwise have had.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Hedonism
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">AH1.</span> If you cease to be conscious when you die, then being dead doesn’t result in more pain than you would otherwise have had.</li>
+<li><span class="li-label">AH2.</span> Something is bad for you if and only if it results in more pain than you would otherwise have had.</li>
+<li><span class="li-label">FD2.</span> So, if you cease to be conscious when you die, then being dead isn’t bad for you.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>STOLEN CRUISE
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Brendan is about to go on a week-long cruise. His girlfriend, Pieper, serves him undercooked chicken, in hopes that he’ll get food poisoning and will let her go in his place. Pieper’s plan succeeds, and she has a great time on the cruise. She comes back refreshed, relaxed, and feeling no remorse whatsoever.</p>
+</div>
+</div>
+<div id="thesis-HD-double-star-appendix" class="thesis">
+<dl>
+<dt>Hedonism (HD**)</dt>
+<dd>
+Something is bad for you if and only if it results in more pain <em>or less pleasure</em> than you would otherwise have had.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>UNREAD MAIL
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Carly meets Evan, and they immediately fall in love. Because things are going so well with Evan, Carly stops checking her online dating app. They have a long and entirely happy life together. It so happens that Jami had sent Carly a message shortly after Carly met Evan. If she hadn’t met Evan, she would have seen Jami’s message, fallen in love with <em>her</em>, and she and Jami would have had a long and happy life together. As a matter of fact, she would have been a little tiny bit happier with Jami than with Evan.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Unread Mail Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">UM1.</span> Carly would have had more pleasure had she not met Evan.</li>
+<li><span class="li-label">UM2.</span> If Carly would have had more pleasure had she not met Evan, then: if HD** is true, then meeting Evan was bad for her.</li>
+<li><span class="li-label">UM3.</span> Meeting Evan was not bad for her.</li>
+<li><span class="li-label">UM4.</span> So, HD** is false.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Post-Mortem Consciousness
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">PC1.</span> If Animal ceases to be conscious when you die <em>and</em> you are Animal, then you cease to be conscious when you die.</li>
+<li><span class="li-label">PC2.</span> Animal ceases to be conscious when you die.</li>
+<li><span class="li-label">PC3.</span> You are Animal.</li>
+<li><span class="li-label">FD1.</span> So, you cease to be conscious when you die.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Too Many Thinkers Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">TT1.</span> Animal is in your chair and is thinking.</li>
+<li><span class="li-label">TT2.</span> You are the only thing in your chair that is thinking.</li>
+<li><span class="li-label">PC3.</span> So you are Animal.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sec-no-freedom-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-no-freedom-appendix"><span class="header-section-number">C.5</span> No Freedom</h2>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument for Freedom
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">FR1.</span> Sometimes you perform an action after deciding to perform that action.</li>
+<li><span class="li-label">FR2.</span> If one performs an action after deciding to perform it, then one performs that action freely.</li>
+<li><span class="li-label">FR3.</span> So some of your actions are performed freely.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HYPNOTIC ACTION
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Jordan on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout <em>Freeze!</em> he will fall into a hypnotic trance and tackle the person who said it. Just then, Kabir the cop arrives on the scene, sees Tia, shouts <em>Freeze!</em>, and Jordan tackles him.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HYPNOTIC DECISION
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tia is on the run from the law and knows the cops are hot on her trail. She is also a master hypnotist. As she passes Colton on the street, she hypnotizes him and plants an irresistible post-hypnotic suggestion: whenever he hears someone shout <em>Freeze!</em> he will grow very angry with the person, decide to tackle them, and then tackle them. Just then, Kabir the cop arrives on the scene, sees Tia, and shouts <em>Freeze!</em> As a result of the hypnotic suggestion, Colton gets angry at Kabir, consciously decides to tackle him, and then tackles him.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Desire Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DS1.</span> What you choose to do is always determined by your desires.</li>
+<li><span class="li-label">DS2.</span> You can’t control your desires.</li>
+<li><span class="li-label">DS3.</span> So, what you choose to do is always determined by something you can’t control.</li>
+<li><span class="li-label">DS4.</span> If what you choose to do is always determined by something you can’t control, then you never act freely.</li>
+<li><span class="li-label">DS5.</span> So, you never act freely.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Undesired Action
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">UA1.</span> Your desire to stay in bed was stronger than your desire to get out of bed.</li>
+<li><span class="li-label">UA2.</span> If your desire to stay in bed was stronger than your desire to get out of bed, then what you choose to do is not always determined by your desires.</li>
+<li><span class="li-label">UA3.</span> So, what you choose to do is not always determined by your desires.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Desire-Defeating Action
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DD1.</span> Your desires can be changed by performing desire-defeating actions.</li>
+<li><span class="li-label">DD2.</span> If your desires can be changed by performing desire-defeating actions, then you can control your desires.</li>
+<li><span class="li-label">DD3.</span> So, you can control your desires.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Determinism
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DT1.</span> Determinism is true.</li>
+<li><span class="li-label">DT2.</span> If determinism is true, then you are never able to do otherwise.</li>
+<li><span class="li-label">DT3.</span> If you are never able to do otherwise, then none of your actions are free.</li>
+<li><span class="li-label">DT4.</span> So, none of your actions are free.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Doomed Regardless Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DM1.</span> If an action is determined to happen, then you couldn’t have done otherwise.</li>
+<li><span class="li-label">DM2.</span> If you couldn’t have done otherwise, then the action is not free.</li>
+<li><span class="li-label">DM3.</span> So, if an action is determined to happen, then it is not free.</li>
+<li><span class="li-label">DM4.</span> If an action happens randomly, then it is not free.</li>
+<li><span class="li-label">DM5.</span> Every action you perform is either determined to happen or happens randomly.</li>
+<li><span class="li-label">DM6.</span> So, none of your actions are free.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Determinism
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DT1.</span> Determinism is true.</li>
+<li><span class="li-label">DT2.</span> If determinism is true, then you are never able to do otherwise.</li>
+<li><span class="li-label">DT3.</span> If you are never able to do otherwise, then none of your actions are free.</li>
+<li><span class="li-label">DT4.</span> So, none of your actions are free.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Consequence Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">CQ1.</span> If determinism is true, then what you do is always a consequence of the laws of nature and the distant past.</li>
+<li><span class="li-label">CQ2.</span> You have no control over the laws of nature or the distant past</li>
+<li><span class="li-label">CQ3.</span> So, if determinism is true, then what you do is always a consequence of things over which you have no control.</li>
+<li><span class="li-label">CQ4.</span> If what you do is always a consequence of things over which you have no control, then you are never able to do otherwise (DT2) So, if determinism is true, you are never able to do otherwise.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HYPNOTIC BACKUP
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tia the master hypnotist is on the run from the law and hires Clay to tackle any cop who turns up. Concerned that Clay might betray her, Tia gives Clay an irresistible post-hypnotic suggestion to tackle any cop he sees, but which will kick in only if she triggers it by shouting <em>Abracadabra!</em> When Kabir the cop arrives on the scene, Tia keeps a watchful eye on Clay to see if he’s going to back out. But Clay comes through: he decides to tackle Kabir all on his own, without Tia having to trigger the post-hypnotic suggestion that would have forced him to tackle Kabir.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Determined Decision
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DT1.</span> Determinism is true.</li>
+<li><span class="li-label">DT2*.</span> If determinism is true, then you are never able to <em>decide</em> to do otherwise.</li>
+<li><span class="li-label">DT3*.</span> If you are never able to <em>decide</em> to do otherwise, then none of your actions are free.</li>
+<li><span class="li-label">DT4.</span> So, none of your actions are free.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sec-skepticism-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-skepticism-appendix"><span class="header-section-number">C.6</span> You Know Nothing</h2>
+<div id="thesis-FLP-appendix" class="thesis">
+<dl>
+<dt>Future Like Past (FLP)</dt>
+<dd>
+Future states of the world will be like past states of the world.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Knowing the Future
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">KF1.</span> If you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified.</li>
+<li><span class="li-label">KF2.</span> You are not justified in believing that FLP is true.</li>
+<li><span class="li-label">KF3.</span> So, your belief that the sun will set in the west tomorrow is unjustified.</li>
+<li><span class="li-label">KF4.</span> If your belief that the sun will set in the west tomorrow is unjustified, then you don’t know that the sun will set in the west tomorrow.</li>
+<li><span class="li-label">KF5.</span> So, you don’t know that the sun will set in the west tomorrow.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Faulty Foundation Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">FF1.</span> Your belief that the sun will set in the west tomorrow is based on FLP.</li>
+<li><span class="li-label">FF2.</span> If a belief is based on something that you aren’t justified in believing, then that belief itself is unjustified.</li>
+<li><span class="li-label">KF1.</span> So, if you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified.</li>
+</ul>
+</div>
+</div>
+<div id="thesis-FLP-star-appendix" class="thesis">
+<dl>
+<dt>FLP*</dt>
+<dd>
+Future states of the world will be like past states of the world <em>except in respects in which we can expect them to differ</em>.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>POWER POSE
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jared is getting ready for a job interview, and thinks it will help his chances if he spends five minutes “power posing” in front of the mirror. When his fiancée Ashley asks him why he thinks that will help, Jared tells her that scientists have shown that power posing releases performance-enhancing hormones into your bloodstream. Skeptical, Ashley does some Googling and informs Jared that the power-posing study has been completely discredited and is now widely regarded as “pseudo-science.”</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>FLP is Unjustified
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">UJ1.</span> If your belief in FLP is justified, then it is either justified by direct observation or by inductive reasoning.</li>
+<li><span class="li-label">UJ2.</span> Your belief in FLP isn’t justified by direct observation.</li>
+<li><span class="li-label">UJ3.</span> Your belief in FLP isn’t justified by inductive reasoning.</li>
+<li><span class="li-label">KF2.</span> So, your belief in FLP is unjustified.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Anti-Circularity Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">AC1.</span> All inductive reasoning about the future assumes the truth of FLP.</li>
+<li><span class="li-label">AC2.</span> If all inductive reasoning about the future assumes the truth of FLP, then any inductive reasoning about FLP is circular.</li>
+<li><span class="li-label">AC3.</span> No belief can be justified by circular reasoning.</li>
+<li><span class="li-label">UJ3.</span> So, FLP isn’t justified by inductive reasoning.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>MAGIC 8-BALL
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Madhu shakes up his Magic 8-Ball, asks whether Smitha has a crush on him, and it issues its verdict: <em>yes</em>. Madhu’s excitement lasts only for a moment, as he suddenly realizes that he has no reason to believe that the 8-ball can be trusted. So, he decides to check. He shakes up the 8- Ball, asks it whether it can be trusted, and it issues its verdict: <em>yes</em>. “That settles it,” Madhu thinks to himself, “the 8-ball can be trusted, and Smitha does have a crush on me!”</p>
+</div>
+</div>
+<div id="thesis-TDH-appendix" class="thesis">
+<dl>
+<dt>The Dreaming Hypothesis (TDH)</dt>
+<dd>
+You are currently lying down in bed dreaming about sitting down reading a philosophy textbook.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Dreaming Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DR1.</span> If you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading.</li>
+<li><span class="li-label">DR2.</span> You have no way of knowing that TDH is false.</li>
+<li><span class="li-label">DR3.</span> So you don’t know that you’re sitting down reading.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Competing Hypotheses Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">CH1.</span> One knows a certain thing only if one has some way of knowing that all competing hypotheses are false.</li>
+<li><span class="li-label">CH2.</span> TDH is a hypothesis that competes with your belief that you’re sitting down reading.</li>
+<li><span class="li-label">DR1.</span> So, if you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Deduction
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DE1.</span> If you know you’re sitting down reading, then you can deduce that TDH is false from things you know.</li>
+<li><span class="li-label">DE2.</span> If you can deduce something from things you know, then you have a way of knowing that thing.</li>
+<li><span class="li-label">DE3.</span> So, if you know you’re sitting down reading, then you have a way of knowing that TDH is false.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">DE3.</span> If you know you’re sitting down reading, then you have a way of knowing that TDH is false.</li>
+<li><span class="li-label">DR1.</span> If you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The No Evidence Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">NE1.</span> If you have no evidence against something, then you have no way of knowing it’s false.</li>
+<li><span class="li-label">NE2.</span> You have no evidence against TDH.</li>
+<li><span class="li-label">DR2.</span> So, you have no way of knowing that TDH is false.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Flipped Evidence Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">FE1.</span> If you have no evidence for something, then you have no way of knowing it’s true.</li>
+<li><span class="li-label">FE2.</span> You have no evidence for TDH.</li>
+<li><span class="li-label">FE3.</span> So, you have no way of knowing that TDH is true.</li>
+</ul>
+</div>
+</div>
+<div id="thesis-TDH-plus-appendix" class="thesis">
+<dl>
+<dt>The Vivid Dreaming Hypothesis (TDH+)</dt>
+<dd>
+You are currently lying down in bed dreaming about sitting down reading a philosophy textbook, and it’s the most incredibly vivid dream you’ve ever had.
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The No Useful Tests Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">NU1.</span> If you don’t know that a dreaming test is reliable, then you can’t know whether you’re dreaming by using it.</li>
+<li><span class="li-label">NU2.</span> You can never know that a dreaming test is reliable.</li>
+<li><span class="li-label">NU3.</span> So, you can never know whether you’re dreaming by using a dreaming test.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sec-coercion-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-coercion-appendix"><span class="header-section-number">C.7</span> Against Prisons and Taxes</h2>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>VIGILANTE
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jasmine discovers that some con men have set up a fake charity and are conning some people in her neighborhood. She captures them at gunpoint, takes them to her basement, and plans to keep them there for a year as punishment. Quickly realizing how expensive it is to take care of them, Jasmine goes to her neighbors and demands $50 from each of them, at gunpoint. She explains that half the money will go towards taking care of her prisoners and that the rest will go towards a community gym to help keep troubled kids off the street. Those who do not comply are locked up in her basement with her other prisoners.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>Against Taxation and Imprisonment
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">TX1.</span> If there is no morally relevant difference between two actions A and B, and A is wrong, then B is wrong.</li>
+<li><span class="li-label">TX2.</span> It is wrong for Jasmine to extort and kidnap her neighbors.</li>
+<li><span class="li-label">TX3.</span> There is no morally relevant difference between Jasmine extorting and kidnapping her neighbors and the government taxing and imprisoning its citizens.</li>
+<li><span class="li-label">TX4.</span> So, it is wrong for the government to tax and imprison its citizens.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>BUREAUCRATIC VIGILANTE
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jasmine sends an email to all of her neighbors, informing them that they must each send her $50 by April 15; that if they don’t, they’ll automatically be granted an extension, but will be charged a small late fee; and that if they still don’t pay, she will lock them in her basement. Some don’t pay even by the extended deadline, and she shows up at their door, escorts them to her home at gunpoint, and locks them in her basement.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>ELECTED VIGILANTE
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jasmine plans to start taking prisoners and demanding $50 at gunpoint from each of her neighbors to pay for the prisoners and a gym. Zhiwen thinks it would be better to demand $75, with the additional $25 going towards hiring a nurse to provide free medical care to anyone in the neighborhood. Jasmine and Zhiwen let their neighbors vote on which of them should get to set the policies for kidnapping and extortion. Many don’t vote but, of those who do, the majority prefer Jasmine. Zhiwen accepts the results of the election, and Jasmine begins kidnapping and extorting her neighbors.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>SAINT AND SINNER
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A saint and a sinner both need a kidney transplant, but there is only one kidney available. The saint refuses it and insists that it be given to the sinner. The doctor, knowing that the world will be better off if the saint survives than if the sinner survives, forcibly anesthetizes the saint and gives her the kidney against her wishes and without her consent. The saint (who would otherwise have died) goes on to live a long life and does many saintly things.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>LANDLORD
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jasmine owns an apartment complex and discovers that some of her tenants have been conning some of the other tenants. She locks the con men in the basement of the complex, and plans to keep them there for a year as punishment. Jasmine then demands an additional $50 from each of her other tenants, to cover the expense of caring of her prisoners. Tenants who do not comply are locked in the basement with the other prisoners.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>No Consent
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">NC1.</span> Someone tacitly consents to an arrangement only if (i) there is a reasonable way to opt out and (ii) explicit refusal to opt in is recognized.</li>
+<li><span class="li-label">NC2.</span> There is no reasonable way to opt out of paying taxes and following laws, and explicit refusal to opt in is not recognized.</li>
+<li><span class="li-label">NC3.</span> So, we have not tacitly consented to paying taxes and following laws.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>UNWANTED VISITORS
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jasmine and her friends arrive at their neighborhood park for their weekly soccer game, only to find a group from another neighborhood already using the park for a game of their own. Guns drawn, she directs them into her van, drives them back to their own neighborhood, and threatens to lock them in her basement if they ever return without first getting her permission. Some do ask for her permission, and most of the time she refuses. Some return without her permission, and she locks them in her basement.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument for Open Borders
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">OB1.</span> If there is no morally relevant difference between two actions A and B, and A is wrong, then B is wrong.</li>
+<li><span class="li-label">OB2.</span> It is wrong for Jasmine to restrict access to the park.</li>
+<li><span class="li-label">OB3.</span> There is no morally relevant difference between Jasmine restricting access to the park and the government restricting access to the country.</li>
+<li><span class="li-label">OB4.</span> So, it is wrong for the government to restrict access to the country.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sec-abortion-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-abortion-appendix"><span class="header-section-number">C.8</span> The Ethics of Abortion</h2>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>UNWANTED PREGNANCY
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Taylor just discovered that she is pregnant with Emm, a six-week-old embryo. The pregnancy resulted from consensual, casual sex. Taylor didn’t want to get pregnant, and her partner wore a condom, but they were aware that condoms sometimes break, which is what happened in this case. Both Taylor and Emm are healthy, and carrying out the pregnancy will not pose any threat to Taylor’s life. Even so, Taylor knows that going through with the pregnancy will be a huge burden physically, emotionally, and financially. So, Taylor decides to have an abortion, killing Emm.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The X-Schema
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">X1.</span> Emm is (or has) X.</li>
+<li><span class="li-label">X2.</span> It’s always seriously immoral to kill something that is (or has)
+<ol start="24" type="A">
+<li></li>
+</ol></li>
+<li><span class="li-label">X3.</span> So it’s seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Y-Schema
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">Y1.</span> Emm isn’t Y.</li>
+<li><span class="li-label">Y2.</span> It’s seriously immoral to kill something only if it is Y.</li>
+<li><span class="li-label">Y3.</span> So it’s not seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Rationality
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">YR1.</span> Emm isn’t rational.</li>
+<li><span class="li-label">YR2.</span> It’s seriously immoral to kill something only if it is rational.</li>
+<li><span class="li-label">YR3.</span> So it’s not seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Self-Sufficiency
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">YS1.</span> Emm isn’t self-sufficient.</li>
+<li><span class="li-label">YS2.</span> It’s seriously immoral to kill something only if it is self-sufficient.</li>
+<li><span class="li-label">YS3.</span> So it’s not seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Being Unwanted
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">YU1.</span> Emm isn’t wanted.</li>
+<li><span class="li-label">YU2.</span> It’s seriously immoral to kill something only if it is wanted.</li>
+<li><span class="li-label">YU3.</span> So it’s not seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Attachment
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">YA1.</span> Emm is attached to another human.</li>
+<li><span class="li-label">YA2.</span> It’s seriously immoral to kill something only if it isn’t attached to any other human.</li>
+<li><span class="li-label">YA3.</span> So it’s not seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>A Revised Argument from Attachment
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">YA1*.</span> Emm is bodily-attached to another human.</li>
+<li><span class="li-label">YA2*.</span> It’s seriously immoral to kill something only if it isn’t bodilyattached to any other human.</li>
+<li><span class="li-label">YA3.</span> So it’s not seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Consciousness
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">YC1.</span> Emm is not conscious.</li>
+<li><span class="li-label">YC2.</span> It’s seriously immoral to kill something only if it’s conscious.</li>
+<li><span class="li-label">YC3.</span> So it’s not seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Life
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">XL1.</span> Emm is alive.</li>
+<li><span class="li-label">XL2.</span> It’s always seriously immoral to kill something that’s alive.</li>
+<li><span class="li-label">XL3.</span> So it’s seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Human DNA
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">XD1.</span> Emm has human DNA.</li>
+<li><span class="li-label">XD2.</span> It’s always seriously immoral to kill something that has human DNA.</li>
+<li><span class="li-label">XD3.</span> So it’s seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Hearts
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">XH1.</span> Emm has a beating heart.</li>
+<li><span class="li-label">XH2.</span> It’s always seriously immoral to kill something that has a beating heart.</li>
+<li><span class="li-label">XH3.</span> So it’s seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Potentiality
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">XP1.</span> Emm is a potential person.</li>
+<li><span class="li-label">XP2.</span> It’s always seriously immoral to kill a potential person.</li>
+<li><span class="li-label">XP3.</span> So it’s seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Right to Life Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">RL1.</span> Emm has a right to life.</li>
+<li><span class="li-label">RL2.</span> If Emm has a right to life, then it is seriously immoral to deprive Emm of Taylor’s womb.</li>
+<li><span class="li-label">RL3.</span> So, it’s seriously immoral to deprive Emm of Taylor’s womb.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Requirements of Life Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">RQ1.</span> If something (or someone) has a right to life, and it needs a certain something in order to survive, then it has a right to that thing.</li>
+<li><span class="li-label">RQ2.</span> Emm needs Taylor’s womb in order to survive.</li>
+<li><span class="li-label">RQ3.</span> So, if Emm has a right to life, then Emm has a right to Taylor’s womb.</li>
+<li><span class="li-label">RQ4.</span> If Emm has a right to Taylor’s womb, then it is seriously immoral to deprive Emm of Taylor’s womb.</li>
+<li><span class="li-label">RL2.</span> So, if Emm has a right to life, then it is seriously immoral to deprive Emm of Taylor’s womb.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>THE VIOLINIST
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>During his morning jog, Riley is kidnapped and drugged. When he comes to, he finds himself lying in a hospital bed, connected by some blood-filled tubes to a woman in a separate bed. His kidnappers explain that the woman, Maurissa, is a world-famous violinist. She was found unconscious, and they are trying to save her life. Maurissa is in need of a complete blood transfusion—already underway, using Riley’s blood—which will take nine months. Riley is told that if he unplugs himself from Maurissa before the transfusion is complete, she will die immediately. When the kidnappers leave the room, Riley sees his chance to escape. With a heavy heart, he unplugs himself and sneaks away, and Maurissa dies as expected.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>THE ROCK
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You have become completely obsessed with People Magazine’s 2016 Sexiest Man of the Year, Dwayne “The Rock” Johnson. So obsessed, in fact, that the thought of living without him makes you physically ill.&nbsp;Deathly ill.&nbsp;At this point, the only thing that can save your life is the touch of The Rock’s cool hand on your fevered brow. The Rock is notified, and told that you will die if he does not come visit you in the next few days. But The Rock is a busy man and he sends his regrets. You die, as expected.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Violinist Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">VA1.</span> Maurissa has a right to life and needs Riley’s blood in order to survive.</li>
+<li><span class="li-label">VA2.</span> Maurissa does not have a right to Riley’s blood.</li>
+<li><span class="li-label">VA3.</span> So, someone who has a right to life does not thereby have a right to all the things they need in order to survive.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Known Risk Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">KR1.</span> Taylor freely chose to have sex and knew that this could lead to Emm using her womb.</li>
+<li><span class="li-label">KR2.</span> Whenever someone freely does something and knows that it could lead to certain consequences, one consents to those consequences.</li>
+<li><span class="li-label">KR3.</span> So, Taylor consented to Emm using her womb.</li>
+<li><span class="li-label">KR4.</span> If Taylor consented to Emm using her womb, then Emm has a right to Taylor’s womb.</li>
+<li><span class="li-label">KR5.</span> If Emm has a right to Taylor’s womb, then it is seriously immoral to deprive Emm of Taylor’s womb.</li>
+<li><span class="li-label">KR6.</span> So, it is seriously immoral to deprive Emm of Taylor’s womb.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>OPEN WINDOW
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Astrid lives in a dangerous neighborhood with lots of hooligans. She has bars on her windows and keeps the windows closed and latched as an extra precaution. One hot summer day, she opens the windows to get some cool air, trusting that the bars will keep the hooligans out (though knowing that they are not 100% reliable). Unfortunately, the bars are defective. Some hooligans pull them off, climb through the window, plant themselves on her couch, and start playing her PlayStation.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Simple FLO Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">SF1.</span> It is seriously immoral to kill something (or someone) if killing it deprives it of a future like ours.</li>
+<li><span class="li-label">SF2.</span> Killing Emm deprives Emm of a future like ours.</li>
+<li><span class="li-label">SF3.</span> So, it is seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HOPEFUL GONER
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Guillermo has accidentally ingested a deadly poison and is in horrible, debilitating pain. He thinks he’ll get better, but he’s wrong: the poison is quickly spreading through his body and will kill him within a few hours. Nadja, who finds Guillermo terribly annoying and would like to see him dead as soon as possible, is attempting to inject Guillermo with a substance that will kill him instantly and painlessly. Guillermo resists and pleads for Nadja to stop. But Nadja gives Guillermo the injection, despite his protests, and Guillermo dies mere hours before the poison would have killed him anyway.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Contraception Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">CC1.</span> Killing sperm deprives them of a future like ours.</li>
+<li><span class="li-label">CC2.</span> If killing sperm deprives them of a future like ours, then: if SF1 is true, then it is seriously immoral to kill sperm.</li>
+<li><span class="li-label">CC3.</span> It isn’t seriously immoral to kill sperm.</li>
+<li><span class="li-label">CC4.</span> So, SF1 is false.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Revised Contraception Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">CC1*.</span> Killing sperm prevents the creation of a being with FLO.</li>
+<li><span class="li-label">CC2*.</span> If killing sperm prevents the creation of a being with FLO, then: if SF1 is true, then it is seriously immoral to kill sperm.</li>
+<li><span class="li-label">CC3.</span> It isn’t seriously immoral to kill sperm.</li>
+<li><span class="li-label">CC4.</span> So, SF1 is false.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>CRUEL GAME
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>M’Baku is preparing to detonate an atomic bomb in the heart of a densely populated city. He has kidnapped two innocent people, Okoye and Shuri, and he commands Okoye to kill Shuri. If she complies, he will release Okoye and won’t detonate the bomb. If she refuses, he will release both of them and detonate the bomb, killing hundreds of thousands of people. Okoye tries to find a way to stop the detonation without killing Shuri, but M’Baku has thought of everything. So, with a heavy heart, Okoye kills Shuri.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Modified FLO Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">MF1.</span> It is seriously immoral to kill something (or someone) if killing it deprives it of a future like ours <em>and</em> the killing does not involve any FLO-overriding factors.</li>
+<li><span class="li-label">MF2.</span> Killing Emm deprives Emm of a future like ours.</li>
+<li><span class="li-label">MF3.</span> Killing Emm does not involve any FLO-overriding factors.</li>
+<li><span class="li-label">MF4.</span> So, it is seriously immoral to kill Emm.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>RUNNER-UP
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Krystal has struggled for years to make it as an actress, and finally gets her big audition. If she gets the role, it will catapult her into fame and fortune. As it turns out, Jacqueline gets the role. But Krystal is the runner-up and is told that if anything should happen to Jacqueline, the role will go to her. So, Krystal discreetly kills Jacqueline and gets the role.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>QUICKSAND
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ahmed is drowning in quicksand. He has gotten ahold of Omar’s pantleg, and is frantically trying to pull himself out. But in doing so he is pulling Omar into the quicksand. Ahmed is in such a panicked state that he doesn’t realize what he is doing, and Omar’s pleas fall on deaf ears. Unless Omar stops him by pushing him under, Ahmed will pull him in and scramble out over Omar’s subsumed body, killing him. So, with a heavy heart, and in order to save his own life, Omar kills Ahmed by pushing him under.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>ROCK FORCED
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The only thing that can save your life is the touch of The Rock’s cool hand on your fevered brow. As it happens, The Rock is passing through the hospital where you lay dying. You ask for his help and he refuses. You grab his hand, but he pulls it away.</p>
+</div>
+</div>
+</section>
+<section id="sec-eating-animals-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-eating-animals-appendix"><span class="header-section-number">C.9</span> Eating Animals is Immoral</h2>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Precedent
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">PR1.</span> There have been people who eat meat throughout human history.</li>
+<li><span class="li-label">PR2.</span> If there have been people doing a certain thing throughout human history, then it is morally permissible for you to do it.</li>
+<li><span class="li-label">PR3.</span> So, it is morally permissible for you to eat meat.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Majority Precedent
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">PR1*.</span> Most people have eaten meat throughout human history.</li>
+<li><span class="li-label">PR2*.</span> If most people have done a certain thing throughout human history, then it is morally permissible for you to do it.</li>
+<li><span class="li-label">PR3.</span> So, it is morally permissible for you to eat meat.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Natural Order Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">NO1.</span> Other animals eat meat.</li>
+<li><span class="li-label">NO2.</span> If other animals do something, then it’s morally permissible for you to do it.</li>
+<li><span class="li-label">NO3.</span> So, it’s morally permissible for you to eat meat.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Natural Capacity Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">CP1.</span> You are naturally capable of eating meat.</li>
+<li><span class="li-label">CP2.</span> If you are naturally capable of doing a certain thing, then it is morally permissible for you to do that thing.</li>
+<li><span class="li-label">CP3.</span> So, it is morally permissible for you to eat meat.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Necessity of Protein Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">NP1.</span> Eating meat is necessary for getting enough protein.</li>
+<li><span class="li-label">NP2.</span> If doing something is necessary for getting enough protein, then it is morally permissible for you to do it.</li>
+<li><span class="li-label">NP3.</span> So, it is morally permissible for you to eat meat.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>COCOAMONE FARM
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>As a result of a head injury, Fred’s brain stops naturally producing cocoamone, the hormone that enables humans to taste chocolate. Fred discovers that the only way to obtain useable cocoamone is to distill it from the brains of puppies. (The science behind this is very complicated and you wouldn’t understand it.) So Fred buys twenty Labrador puppies from a local breeder. He slices off their tails, yanks out their canine teeth, and castrates the males, all without anesthesia. He keeps them locked in small cages in his spare bedroom, slaughters them, grinds up their brains, and distills a month’s supply of cocoamone. He sips some cocoamone and—<em>voilà—</em>it works! So he buys twenty more puppies for the next month’s supply, mutilates them, and locks them up.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Argument from Fred’s Puppies
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">FP1.</span> If there is no morally relevant difference between two actions A and B, and A is immoral, then B is immoral.</li>
+<li><span class="li-label">FP2.</span> What Fred does is immoral.</li>
+<li><span class="li-label">FP3.</span> There is no morally relevant difference between what Fred does and you buying and eating factory-farmed meat.</li>
+<li><span class="li-label">FP4.</span> So, it is immoral for you to buy and eat factory-farmed meat.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>BRED FOR COCOAMONE
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fred goes to a breeder and buys some dogs, some male and some female. Recognizing that these dogs were bred to be human companions, he treats them well. But he breeds the dogs, intending to use their puppies for cocoamone. Once they have their puppies—which <em>weren’t</em> bred for human companionship—he takes the puppies, locks them in cages, mutilates them, slaughters them, and distills their cocoamone.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HIRED HELP
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Too squeamish to mutilate and slaughter the dogs himself, Fred hires Nysha to do it for him. She buys twenty dogs, mutilates them, keeps them confined in small cages, slaughters them, and provides Fred with one vial of cocoamone each month. He pays her for her services.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>SECOND DESSERT
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fred decides not to start his own cocoamone farm, and has now gone months without tasting chocolate. Out to dinner, for old times’ sake, he orders a chocolate mousse for dessert. To his surprise, he is able to taste the chocolate. Elated, he calls the waiter over to order a second mousse and asks if there’s something special about it. The waiter explains that, yes, the mousse is infused with cocoamone from the brains of slaughtered, mutilated puppies that they keep caged up in the back. They go through twenty puppies a day, he says. Fred is horrified. But he does not cancel his order, and he enjoys a second cocoamone-infused mousse.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>SWEATY PUPPIES
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fred’s brain stops producing cocoamone, and the only way to obtain useable cocoamone is to distill it from the sweat of puppies. He asks his friends if he can collect sweat off of their puppies, but they think that’s creepy and won’t let him do it. So he buys twenty puppies, locks them in cages, mutilates them, collects their sweat, and distills a month’s supply of cocoamone.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>PAINLESS DEATH
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fred’s brain stops producing cocoamone, and the only way to obtain useable cocoamone is to distill it from the brains of puppies. So he buys twenty puppies, lets them run around free in his apartment, takes them for walks, buys them toys, and treats them well. Then, once they’re a year old, he sneaks up on them one by one, swiftly decapitates them, grinds up their brains, and distills a month’s supply of cocoamone.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>HAPPY PUPPY SWEAT
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fred’s brain stops producing cocoamone, and the only way to obtain useable cocoamone is to distill it from the sweat of puppies. So he buys twenty puppies, lets them run around free in his apartment, takes them for walks, buys them toys, and treats them well. He collects their sweat—without killing them or harming them in any way—and distills a month’s supply of cocoamone.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>COCOAMONE LAB
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fred’s brain stops producing cocoamone. So he buys a hundred small clusters of brain cells that were painlessly extracted from living puppies without harming those puppies in any way. He keeps the cells alive in a chemical solution, and collects the cocoamone that they produce.</p>
+</div>
+</div>
+</section>
+<section id="sec-utilitarianism-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="sec-utilitarianism-appendix"><span class="header-section-number">C.10</span> What Makes Things Right</h2>
+<div id="thesis-act-utilitarianism-appendix" class="thesis">
+<dl>
+<dt>Act Utilitarianism</dt>
+<dd>
+Performing a certain action is the right thing to do if and only if it will have a more positive effect on overall levels of happiness than any other available action
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TERRORIST ATTACK
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Kristian discovers that her girlfriend Demi is planning a terrorist attack. Kristian knows that if she calls the cops on Demi, it will end their relationship, Demi will never forgive her, and she’ll feel incredibly guilty about turning Demi in. Kristian also knows that if she doesn’t tell the cops, countless people will lose their lives or their loved ones. Kristian decides not to tell the cops, and Demi carries out the devastating attack. Demi is never caught. Kristian puts it out of her mind and feels no guilt or remorse about not preventing the attack.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>CONDONED LOBOTOMIES
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The leaders of a certain oppressive country instituted a law that requires all newborn girls to be lobotomized. Dissenters were lobotomized as well. After a few generations, there are no more dissenters. The men are all happy with the arrangement, and the women are all lobotomized and have no opinion on the matter.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>ORGAN DISTRIBUTION
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Jonathan is a doctor, and his patient Nick is coming in for a routine physical. Looking over his past bloodwork, Jonathan realizes that Nick’s organs are an exact match for five patients in critical condition upstairs in the Intensive Care Unit. When Nick arrives, Jonathan kills him (painlessly), making it look like an accident. Since Nick is an organ donor, his body is rushed upstairs, and his heart, lungs, liver, and each of his kidneys are successfully transplanted into those five patients, saving their lives. No other organs arrived that day, and the five patients would have died had Jonathan not killed Nick for his organs. The five patients all go on to lead long, happy lives. No one ever finds out that Nick’s death was not an accident.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Organ Distribution Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">OD1.</span> Killing Nick has a greater positive effect on overall levels of happiness than letting him live.</li>
+<li><span class="li-label">OD2.</span> If killing Nick has a greater positive effect on overall levels of happiness than letting him live, then: if act utilitarianism is true, then killing Nick was the right thing to do.</li>
+<li><span class="li-label">OD3.</span> Killing Nick was not the right thing to do.</li>
+<li><span class="li-label">OD4.</span> So, act utilitarianism is false.</li>
+</ul>
+</div>
+</div>
+<div id="thesis-rule-utilitarianism-appendix" class="thesis">
+<dl>
+<dt>Rule Utilitarianism</dt>
+<dd>
+Performing a certain action is the right thing to do if and only if it is prescribed by the collection of rules that, if adopted, would have the greatest positive effect on overall levels of happiness
+</dd>
+</dl>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TROLLEY DRIVER
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Corrine is driving a trolley, which is hurtling down the tracks, faster than it should. Five pledges from a local fraternity have been tied to the tracks as part of an initiation ritual. By the time she sees them, it’s too late to slow down. The only way to avoid killing them is to swerve the trolley onto a side track at an upcoming junction. But the pledge master, who is asleep on the side track, will be killed if she does. Corrine decides to steer the trolley onto the side track anyway, killing the pledge master. She then stops the trolley, unties the pledges, and they all go on to lead long, happy lives.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-argument no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Argument</span>The Trolley Argument
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="li-label">TR1.</span> If there is no morally relevant difference between two actions A and B, and A is the right thing to do, then B is the right thing to do.</li>
+<li><span class="li-label">TR2.</span> Diverting the trolley was the right thing to do.</li>
+<li><span class="li-label">TR3.</span> There is no morally relevant difference between diverting the trolley and killing Nick.</li>
+<li><span class="li-label">TR4.</span> So, killing Nick was the right thing to do.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-example no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Example</span>TROLLEY LEVER
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A runaway trolley with no driver is hurtling down the tracks towards five pledges from a local fraternity. Corrine is an onlooker, standing beside the tracks. Next to her is a lever which can divert the trolley onto a side track. She could do nothing, and let the pledges die. But if she pulls the lever and diverts the trolley, it will kill the pledge master, who is asleep on the side track. Corrine decides to pull the lever, killing the pledge master and saving the pledges. She then unties the pledges, and they all go on to lead long, happy lives.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./writing.html" class="pagination-link" aria-label="Writing">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/arguments.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

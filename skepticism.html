@@ -104,17 +104,6 @@ div.csl-indent {
   }
 }</script>
 <style>
-div.callout-argument.callout {
-  border-left-color: yellow;
-}
-div.callout-argument.callout-style-default .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
-}
-div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
-  content: '🥊';
-  background-image: none;
-}
 div.callout-example.callout {
   border-left-color: purple;
 }
@@ -124,6 +113,17 @@ div.callout-example.callout-style-default .callout-header {
 div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
   background-image: none;
 }
 </style>
@@ -473,6 +473,12 @@ div.callout-example.callout-style-default .callout-icon::before, div.callout-exa
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Writing</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./arguments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Arguments</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -542,7 +548,7 @@ div.callout-example.callout-style-default .callout-icon::before, div.callout-exa
 <dl>
 <dt>Future Like Past (FLP)</dt>
 <dd>
-Future states of the world will be like past states of the world
+Future states of the world will be like past states of the world.
 </dd>
 </dl>
 </div>
@@ -559,11 +565,11 @@ Future states of the world will be like past states of the world
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">KF1.</span> If you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified</li>
-<li><span class="li-label">KF2.</span> You are not justified in believing that FLP is true</li>
-<li><span class="li-label">KF3.</span> So, your belief that the sun will set in the west tomorrow is unjustified</li>
-<li><span class="li-label">KF4.</span> If your belief that the sun will set in the west tomorrow is unjustified, then you don’t know that the sun will set in the west tomorrow</li>
-<li><span class="li-label">KF5.</span> So, you don’t know that the sun will set in the west tomorrow</li>
+<li><span class="li-label">KF1.</span> If you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified.</li>
+<li><span class="li-label">KF2.</span> You are not justified in believing that FLP is true.</li>
+<li><span class="li-label">KF3.</span> So, your belief that the sun will set in the west tomorrow is unjustified.</li>
+<li><span class="li-label">KF4.</span> If your belief that the sun will set in the west tomorrow is unjustified, then you don’t know that the sun will set in the west tomorrow.</li>
+<li><span class="li-label">KF5.</span> So, you don’t know that the sun will set in the west tomorrow.</li>
 </ul>
 </div>
 </div>
@@ -583,9 +589,9 @@ Future states of the world will be like past states of the world
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">FF1.</span> Your belief that the sun will set in the west tomorrow is based on FLP</li>
-<li><span class="li-label">FF2.</span> If a belief is based on something that you aren’t justified in believing, then that belief itself is unjustified</li>
-<li><span class="li-label">KF1.</span> So, if you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified</li>
+<li><span class="li-label">FF1.</span> Your belief that the sun will set in the west tomorrow is based on FLP.</li>
+<li><span class="li-label">FF2.</span> If a belief is based on something that you aren’t justified in believing, then that belief itself is unjustified.</li>
+<li><span class="li-label">KF1.</span> So, if you are not justified in believing that FLP is true, then your belief that the sun will set in the west tomorrow is unjustified.</li>
 </ul>
 </div>
 </div>
@@ -599,7 +605,7 @@ Future states of the world will be like past states of the world
 <dl>
 <dt>FLP*</dt>
 <dd>
-Future states of the world will be like past states of the world <em>except in respects in which we can expect them to differ</em>
+Future states of the world will be like past states of the world <em>except in respects in which we can expect them to differ</em>.
 </dd>
 </dl>
 </div>
@@ -635,10 +641,10 @@ Future states of the world will be like past states of the world <em>except in r
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">UJ1.</span> If your belief in FLP is justified, then it is either justified by direct observation or by inductive reasoning</li>
-<li><span class="li-label">UJ2.</span> Your belief in FLP isn’t justified by direct observation</li>
-<li><span class="li-label">UJ3.</span> Your belief in FLP isn’t justified by inductive reasoning</li>
-<li><span class="li-label">KF2.</span> So, your belief in FLP is unjustified</li>
+<li><span class="li-label">UJ1.</span> If your belief in FLP is justified, then it is either justified by direct observation or by inductive reasoning.</li>
+<li><span class="li-label">UJ2.</span> Your belief in FLP isn’t justified by direct observation.</li>
+<li><span class="li-label">UJ3.</span> Your belief in FLP isn’t justified by inductive reasoning.</li>
+<li><span class="li-label">KF2.</span> So, your belief in FLP is unjustified.</li>
 </ul>
 </div>
 </div>
@@ -661,10 +667,10 @@ Future states of the world will be like past states of the world <em>except in r
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">AC1.</span> All inductive reasoning about the future assumes the truth of FLP</li>
-<li><span class="li-label">AC2.</span> If all inductive reasoning about the future assumes the truth of FLP, then any inductive reasoning about FLP is circular</li>
-<li><span class="li-label">AC3.</span> No belief can be justified by circular reasoning</li>
-<li><span class="li-label">UJ3.</span> So, FLP isn’t justified by inductive reasoning</li>
+<li><span class="li-label">AC1.</span> All inductive reasoning about the future assumes the truth of FLP.</li>
+<li><span class="li-label">AC2.</span> If all inductive reasoning about the future assumes the truth of FLP, then any inductive reasoning about FLP is circular.</li>
+<li><span class="li-label">AC3.</span> No belief can be justified by circular reasoning.</li>
+<li><span class="li-label">UJ3.</span> So, FLP isn’t justified by inductive reasoning.</li>
 </ul>
 </div>
 </div>
@@ -672,7 +678,7 @@ Future states of the world will be like past states of the world <em>except in r
 <p>The case for AC1 is the same as the case for premise FF1 of the Faulty Foundation Argument. All inductive reasoning about what’s going to happen in the future either explicitly or at least implicitly relies on FLP. In the past the sun has set in the west, and future states of the world will be like past states of the world, so in the future it’ll set in the west. The laws of planetary motion have always been this way in the past, and future states of the world will be like past states of the world, so in the future they’ll be like this. In the past, beer before liquor makes you sicker, and future states of the world will be like past states of the world, so… you get the idea. All of these lines of reasoning rely on FLP. That’s what AC1 says.</p>
 <p>AC2 involves the notion of <em>circularity</em>. A circular line of reasoning is one whose conclusion also appears as a premise of that reasoning. To see the idea behind AC2, suppose it’s true that inductive reasoning about future states of the world always assumes the truth of FLP. Well, FLP itself is about future states of the world: it says that future states are going to be like past states. So, it follows that inductive reasoning about FLP assumes the truth of FLP. In other words, FLP will be both a premise and the conclusion of that line of reasoning, thus qualifying as circular.</p>
 <p>To illustrate, the inductive defense of induction might look something like this:</p>
-<p><em>In the past, each day resembled the day that preceded it Future states of the world will be like past states of the world So, future days will resemble days in the past</em></p>
+<p><em>In the past, each day resembled the day that preceded it. Future states of the world will be like past states of the world. So, future days will resemble days in the past.</em></p>
 <p>The conclusion of this line of reasoning, “Future days will resemble days in the past,” is just another way of saying “Future states of the world will be like past states of the world,” which is the second premise of the reasoning. That means that you’ve got one and the same claim showing up both as a premise and as the conclusion of the reasoning. That fits our definition of circularity.</p>
 <p>As for AC3, it’s easy to see that circular reasoning is terrible reasoning. As an illustration, consider the following case, involving a Magic 8-Ball toy (which randomly displays answers like Yes, No, and Maybe when you shake it up):</p>
 <div class="callout callout-style-simple callout-example no-icon callout-titled">
@@ -699,7 +705,7 @@ Future states of the world will be like past states of the world <em>except in r
 <dl>
 <dt>The Dreaming Hypothesis (TDH)</dt>
 <dd>
-You are currently lying down in bed dreaming about sitting down reading a philosophy textbook
+You are currently lying down in bed dreaming about sitting down reading a philosophy textbook.
 </dd>
 </dl>
 </div>
@@ -715,9 +721,9 @@ You are currently lying down in bed dreaming about sitting down reading a philos
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">DR1.</span> If you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading</li>
-<li><span class="li-label">DR2.</span> You have no way of knowing that TDH is false</li>
-<li><span class="li-label">DR3.</span> So you don’t know that you’re sitting down reading</li>
+<li><span class="li-label">DR1.</span> If you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading.</li>
+<li><span class="li-label">DR2.</span> You have no way of knowing that TDH is false.</li>
+<li><span class="li-label">DR3.</span> So you don’t know that you’re sitting down reading.</li>
 </ul>
 </div>
 </div>
@@ -740,9 +746,9 @@ You are currently lying down in bed dreaming about sitting down reading a philos
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">CH1.</span> One knows a certain thing only if one has some way of knowing that all competing hypotheses are false</li>
-<li><span class="li-label">CH2.</span> TDH is a hypothesis that competes with your belief that you’re sitting down reading</li>
-<li><span class="li-label">DR1.</span> So, if you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading</li>
+<li><span class="li-label">CH1.</span> One knows a certain thing only if one has some way of knowing that all competing hypotheses are false.</li>
+<li><span class="li-label">CH2.</span> TDH is a hypothesis that competes with your belief that you’re sitting down reading.</li>
+<li><span class="li-label">DR1.</span> So, if you have no way of knowing that TDH is false, then you don’t know that you’re sitting down reading.</li>
 </ul>
 </div>
 </div>
@@ -816,9 +822,9 @@ TODO: This definition of 'deduction' is weird' and the example is too.
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">NE1.</span> If you have no evidence against something, then you have no way of knowing it’s false</li>
-<li><span class="li-label">NE2.</span> You have no evidence against TDH</li>
-<li><span class="li-label">DR2.</span> So, you have no way of knowing that TDH is false</li>
+<li><span class="li-label">NE1.</span> If you have no evidence against something, then you have no way of knowing it’s false.</li>
+<li><span class="li-label">NE2.</span> You have no evidence against TDH.</li>
+<li><span class="li-label">DR2.</span> So, you have no way of knowing that TDH is false.</li>
 </ul>
 </div>
 </div>
@@ -836,9 +842,9 @@ TODO: This definition of 'deduction' is weird' and the example is too.
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">FE1.</span> If you have no evidence for something, then you have no way of knowing it’s true</li>
-<li><span class="li-label">FE2.</span> You have no evidence for TDH</li>
-<li><span class="li-label">FE3.</span> So, you have no way of knowing that TDH is true</li>
+<li><span class="li-label">FE1.</span> If you have no evidence for something, then you have no way of knowing it’s true.</li>
+<li><span class="li-label">FE2.</span> You have no evidence for TDH.</li>
+<li><span class="li-label">FE3.</span> So, you have no way of knowing that TDH is true.</li>
 </ul>
 </div>
 </div>
@@ -851,9 +857,9 @@ TODO: This definition of 'deduction' is weird' and the example is too.
 <p>The easiest way to see why this objection won’t work is to slightly modify TDH as follows:</p>
 <div id="thesis-TDH-plus" class="thesis">
 <dl>
-<dt>TDH+</dt>
+<dt>The Vivid Dreaming Hypothesis (TDH+)</dt>
 <dd>
-You are currently lying down in bed dreaming about sitting down reading a philosophy textbook, and it’s the most incredibly vivid dream you’ve ever had
+You are currently lying down in bed dreaming about sitting down reading a philosophy textbook, and it’s the most incredibly vivid dream you’ve ever had.
 </dd>
 </dl>
 </div>
@@ -877,9 +883,9 @@ You are currently lying down in bed dreaming about sitting down reading a philos
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><span class="li-label">NU1.</span> If you don’t know that a dreaming test is reliable, then you can’t know whether you’re dreaming by using it</li>
-<li><span class="li-label">NU2.</span> You can never know that a dreaming test is reliable</li>
-<li><span class="li-label">NU3.</span> So, you can never know whether you’re dreaming by using a dreaming test</li>
+<li><span class="li-label">NU1.</span> If you don’t know that a dreaming test is reliable, then you can’t know whether you’re dreaming by using it.</li>
+<li><span class="li-label">NU2.</span> You can never know that a dreaming test is reliable.</li>
+<li><span class="li-label">NU3.</span> So, you can never know whether you’re dreaming by using a dreaming test.</li>
 </ul>
 </div>
 </div>
