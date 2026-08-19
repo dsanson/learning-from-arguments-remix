@@ -104,5 +104,3 @@ format:
 
   # typst:
   #   citeproc: false
-
-  pdf: default
