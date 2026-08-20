@@ -27,26 +27,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -104,17 +85,6 @@ div.csl-indent {
   }
 }</script>
 <style>
-div.callout-argument.callout {
-  border-left-color: yellow;
-}
-div.callout-argument.callout-style-default .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
-}
-div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
-  content: '🥊';
-  background-image: none;
-}
 div.callout-example.callout {
   border-left-color: purple;
 }
@@ -124,6 +94,17 @@ div.callout-example.callout-style-default .callout-header {
 div.callout-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-example.callout-style-default .callout-icon::before, div.callout-example.callout-titled .callout-icon::before {
   content: '💭';
+  background-image: none;
+}
+div.callout-argument.callout {
+  border-left-color: yellow;
+}
+div.callout-argument.callout-style-default .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-argument .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-argument.callout-style-default .callout-icon::before, div.callout-argument.callout-titled .callout-icon::before {
+  content: '🥊';
   background-image: none;
 }
 </style>
@@ -486,14 +467,8 @@ div.callout-example.callout-style-default .callout-icon::before, div.callout-exa
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#bibliography" id="toc-bibliography" class="nav-link active" data-scroll-target="#bibliography">References</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/preface-students.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -523,7 +498,7 @@ div.callout-example.callout-style-default .callout-icon::before, div.callout-exa
 <p>Each chapter offers a sustained argument for some controversial thesis, specifically written for an audience of beginners. The aim is to introduce newcomers to the dynamics of philosophical argumentation, using some of the arguments standardly covered in an introductory philosophy course, but without the additional hurdles one encounters when reading the primary sources of the arguments: challenging writing, obscure jargon, and references to unfamiliar books, philosophers, or schools of thought.</p>
 <p>The different chapters aren’t all written from the <em>same</em> perspective. This is obvious from a quick glance at the opening chapters: the first chapter argues that you shouldn’t believe in God, while the second argues that you should. You’ll also find that chapters 3 and 4 contain arguments pointing to different conclusions about the relationship between people and their bodies, and chapter 7 contains arguments against the very theory of morality that’s defended in chapter 10. So, you will be exposed to a variety of different philosophical perspectives, and you should be on the lookout for ways in which the arguments in one chapter provide the resources for resisting arguments in other chapters.</p>
 <p>And while there are chapters arguing both for and against belief in God, that isn’t the case for other topics we’ll cover. For instance, there’s a chapter arguing that you don’t have free will, but no chapter arguing that you <em>do</em> have free will. That doesn’t mean that you’ll only get to hear one side of the argument. Along the way you will be exposed to many of the standard objections to the views and arguments I’m advancing, and you can decide for yourself whether those objections are convincing. Those who need help finding the flaws in the reasoning (or ideas for paper topics) can look to the reflection questions at the end of each chapter for some clues.</p>
-<p>As I said, the arguments advanced in the book are not my own, and at the end of each chapter I point out the original sources of the arguments. In some chapters, the central arguments have a long history, and the formulations I use can’t be credited to any one philosopher in particular. Other chapters, however, are more directly indebted to the work of specific contemporary philosophers, reproducing the contents of their books and articles (though often with some modifications and simplifications). In particular, chapter <a href="coercion.html" class="quarto-xref"><span>7&nbsp; Against Prisons and Taxes</span></a> closely follows the opening chapters of <span class="citation" data-cites="huemer2013a">Huemer (<a href="#ref-huemer2013a" role="doc-biblioref">2013</a>)</span>; <a href="abortion.html" class="quarto-xref"><span>8&nbsp; The Ethics of Abortion</span></a> reproduces the central arguments of <span class="citation" data-cites="thomson1971">Thomson (<a href="#ref-thomson1971" role="doc-biblioref">1971</a>)</span> and <span class="citation" data-cites="marquis1989">Marquis (<a href="#ref-marquis1989" role="doc-biblioref">1989</a>)</span>; and <a href="eating-animals.html" class="quarto-xref"><span>9&nbsp; Eating Animals is Immoral</span></a> draws heavily from <span class="citation" data-cites="lowe2016a">Lowe (<a href="#ref-lowe2016a" role="doc-biblioref">2016</a>)</span> and <span class="citation" data-cites="norcross2004">Norcross (<a href="#ref-norcross2004" role="doc-biblioref">2004</a>)</span>.</p>
+<p>As I said, the arguments advanced in the book are not my own, and at the end of each chapter I point out the original sources of the arguments. In some chapters, the central arguments have a long history, and the formulations I use can’t be credited to any one philosopher in particular. Other chapters, however, are more directly indebted to the work of specific contemporary philosophers, reproducing the contents of their books and articles (though often with some modifications and simplifications). In particular, chapter <a href="coercion.html" class="quarto-xref"><span>7&nbsp; Against Prisons and Taxes</span></a> closely follows the opening chapters of <span class="citation" data-cites="huemer2013a">@huemer2013a</span>; <a href="abortion.html" class="quarto-xref"><span>8&nbsp; The Ethics of Abortion</span></a> reproduces the central arguments of <span class="citation" data-cites="thomson1971">@thomson1971</span> and <span class="citation" data-cites="marquis1989">@marquis1989</span>; and <a href="eating-animals.html" class="quarto-xref"><span>9&nbsp; Eating Animals is Immoral</span></a> draws heavily from <span class="citation" data-cites="lowe2016a">@lowe2016a</span> and <span class="citation" data-cites="norcross2004">@norcross2004</span>.</p>
 <!--
 
 TODO: why are these citations not being processed?
@@ -532,31 +507,11 @@ TODO: why are these citations not being processed?
 <p>I’m grateful to Jeff Bagwell, Jacob Berger, Matt Davidson, Nikki Evans, Jason Fishbein, Bill Hartmann, Colton Heiberg, Will Huesser, İrem Kurtsal, Leo Iacono, Jeonggyu Lee, Clayton Littlejohn, Neil Manson, David Mokriski, Charles Perkins, Seán Pierce, Ryan Ross, David Shoemaker, Neil Sinhababu, Dan Sturgis, Joshua Tepley, and Travis Timmerman for helpful suggestions, and to the Facebook Hivemind for help selecting the further readings for the various chapters. Special thanks are due to Chad Carmichael, David King, Jonathan Livengood, and Daniel Story for extensive feedback on earlier drafts of the textbook, and to the students in my 2019 Freshman Seminar: Shreya Acharya, Maile Buckman, Andrea Chavez, Dylan Choi, Lucas Goefft, Mino Han, PK Kottapalli, Mollie Kraus, Mia Lombardo, Dean Mantelzak, Sam Min, Vivian Nguyen, Ariana Pacheco Lara, Kaelen Perrochet, Rijul Singhal, Austin Tam, Jennifer Vargas, Kerry Wang, and Lilly Witonsky. Finally, thanks to Renée Jorgensen for permission to use her portrait of the great 20th century philosopher and logician Ruth Barcan Marcus on the cover. You can see more of her portraits of philosophers here: <a href="https://www.reneebolinger.com/portraits.html">www.reneebolinger.com/portraits.html</a></p>
 
 
-<section id="bibliography" class="level1 unnumbered">
-<h1 class="unnumbered">References</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-huemer2013a" class="csl-entry" role="listitem">
-Huemer, Michael. 2013. <em>The Problem of Political Authority: An Examination of the Right to Coerce and the Duty to Obey</em>. Palgrave Macmillan.
-</div>
-<div id="ref-lowe2016a" class="csl-entry" role="listitem">
-Lowe, Dan. 2016. <span>“Common <span>Arguments</span> for the <span>Moral</span> <span>Acceptability</span> of <span>Eating</span> <span>Meat:</span> <span>A</span> <span>Discussion</span> for <span>Students</span>.”</span> <em>Between the Species</em> 19 (1): 173–93. <a href="https://digitalcommons.calpoly.edu/bts/vol19/iss1/7/">https://digitalcommons.calpoly.edu/bts/vol19/iss1/7/</a>.
-</div>
-<div id="ref-marquis1989" class="csl-entry" role="listitem">
-Marquis, Don. 1989. <span>“Why <span>Abortion</span> Is <span>Immoral</span>.”</span> <em>The Journal of Philosophy</em> 86 (4): 183–202. <a href="https://doi.org/10.2307/2026961">https://doi.org/10.2307/2026961</a>.
-</div>
-<div id="ref-norcross2004" class="csl-entry" role="listitem">
-Norcross, Alastair. 2004. <span>“Puppies, <span>Pigs,</span> and <span>People:</span> <span>Eating</span> <span>Meat</span> and <span>Marginal</span> <span>Cases</span>.”</span> <em>Philosophical Perspectives</em> 18 (1): 229–45. <a href="https://doi.org/10.1111/j.1520-8583.2004.00027.x">https://doi.org/10.1111/j.1520-8583.2004.00027.x</a>.
-</div>
-<div id="ref-thomson1971" class="csl-entry" role="listitem">
-Thomson, Judith Jarvis. 1971. <span>“A Defense of Abortion.”</span> <em>Philosophy &amp; Public Affairs</em> 1 (1): 47–66. <a href="https://www.jstor.org/stable/2265091">https://www.jstor.org/stable/2265091</a>.
-</div>
-</div>
-<aside id="footnotes" class="footnotes footnotes-end-of-section" role="doc-footnote">
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn1"><p>The use if the first person ‘I’ becomes confusing when an open-source textbook is hacked up and remixed by someone other than the original author. I (David Sanson) have attempted to resolve this problem. For the most part, it should not matter. The acknowledgements at the end of this preface are untouched, and should be read as coming from Daniel Korman.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside>
 </section>
 
 </main> <!-- /main -->
@@ -990,4 +945,4 @@ Thomson, Judith Jarvis. 1971. <span>“A Defense of Abortion.”</span> <em>Phil
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/preface-students.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/dsanson/learning-from-arguments-remix/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dsanson/learning-from-arguments-remix/blob/main/preface-students.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
