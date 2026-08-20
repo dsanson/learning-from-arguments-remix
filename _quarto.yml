@@ -42,7 +42,7 @@ book:
     - arguments.md
 
 bibliography: [references.bib]
-citeproc: true
+citeproc: false
 reference-location: section
 reference-section-title: References
 section-bibliographies:
