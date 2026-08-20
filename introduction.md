@@ -148,7 +148,6 @@ As an illustration, consider the following argument:
 - (FD3) So, being dead isn't bad for you.
 - (FD4) If being dead isn't bad for you, then you shouldn't fear death.
 - (FD5) So, you shouldn't fear death.
-
 :::
 
 The argument has three premises: FD1, FD2, and FD4. FD5 is the conclusion of

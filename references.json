@@ -252,7 +252,7 @@
       },
       {
         "family": "Nussbaum",
-        "given": "Martha Craven"
+        "given": "Martha"
       }
     ],
     "issued": {
@@ -265,7 +265,7 @@
     "publisher": "Oxford University Press",
     "publisher-place": "Oxford",
     "source": "PhilPapers",
-    "title": "Animal Rights and the Values of Nonhuman Life",
+    "title": "Animal rights and the values of nonhuman life",
     "type": "chapter"
   },
   {
@@ -344,7 +344,7 @@
     "language": "en-US",
     "title": "Ordering the vegetarian meal? There’s more animal blood on your hands",
     "title-short": "Ordering the vegetarian meal?",
-    "type": "article-journal",
+    "type": "article-magazine",
     "URL": "http://theconversation.com/ordering-the-vegetarian-meal-theres-more-animal-blood-on-your-hands-4659"
   },
   {
@@ -603,7 +603,8 @@
     "publisher-place": "New York",
     "source": "K10plus ISBN",
     "title": "The Immortal",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/ZBALT9GB?page=NaN&annotation=6S8JRAWE"
   },
   {
     "id": "bostrom2009",
@@ -795,7 +796,8 @@
     "publisher-place": "New York",
     "source": "Library of Congress ISBN",
     "title": "When is faith rational?",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/6QKTAHRK?page=170&annotation=D83AV4Z2"
   },
   {
     "id": "callahan1986",
@@ -883,7 +885,8 @@
     "publisher-place": "Oxford",
     "source": "K10plus ISBN",
     "title": "Animalism and the varieties of conjoined twinning",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/6ITX5YXB?page=238&annotation=NQKLWJCD"
   },
   {
     "id": "carritt1947",
@@ -955,7 +958,8 @@
     "publisher": "Columbia University Press",
     "publisher-place": "New York; Chichester",
     "title": "Partial amnesia",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/3ZHFMHHP?page=26&annotation=WIDMAK7F"
   },
   {
     "id": "casati2008j",
@@ -983,7 +987,8 @@
     "publisher": "Columbia University Press",
     "publisher-place": "New York; Chichester",
     "title": "Person transplant",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/3ZHFMHHP?page=29&annotation=5Z9Q6Q8G"
   },
   {
     "id": "chapman2014",
@@ -1033,7 +1038,8 @@
     "note": "Item ID: _:n1",
     "publisher": "Tor",
     "title": "Hell is the Absence of God",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/3SRAMB9D?page=NaN&annotation=BFHRT3NI"
   },
   {
     "id": "chignell2016",
@@ -2018,7 +2024,7 @@
     },
     "number": "S02E05",
     "publisher": "Netflix",
-    "title": "Chickens",
+    "title": "Bojack Horseman: Chickens",
     "type": "broadcast",
     "URL": "https://youtu.be/y4xytsouUYo"
   },
@@ -2317,7 +2323,8 @@
     "page": "65--75",
     "publisher": "W. W. Norton & Company",
     "title": "Pascal's ultimate gamble",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/94DQRUEV?page=94&annotation=7L4NV9CG"
   },
   {
     "id": "hampton1984",
@@ -2647,7 +2654,8 @@
     "publisher-place": "Indianapolis (Ind.)",
     "source": "BnF ISBN",
     "title": "Leviathan",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/SRDV9FSQ?page=81&annotation=LPEX52Q2"
   },
   {
     "id": "holton2013",
@@ -2808,7 +2816,8 @@
     "publisher-place": "Cambridge",
     "source": "BnF ISBN",
     "title": "Dialogues concerning Natural Religion",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/KATYR7TQ?page=57&annotation=L3DQ4I5Y"
   },
   {
     "id": "inwagen1986b",
@@ -3930,7 +3939,8 @@
     "publisher-place": "New York",
     "source": "Library of Congress ISBN",
     "title": "Inclusive Care",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/CFKFNL6A?page=NaN&annotation=YU7S4IMR"
   },
   {
     "id": "nagel1970",
@@ -4245,7 +4255,8 @@
         "given": "Honor"
       }
     ],
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/2HLZRNGD?page=48&annotation=CTUTI64M"
   },
   {
     "id": "pereira2020",
@@ -4764,7 +4775,8 @@
         "given": "Victor"
       }
     ],
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/XRUFULT3?page=95&annotation=QB4NRJNP"
   },
   {
     "id": "rowe1979",
@@ -4952,13 +4964,13 @@
   },
   {
     "id": "singer1975",
-    "citation-key": "singer1975",
-    "container-author": [
+    "author": [
       {
         "family": "Singer",
         "given": "Peter"
       }
     ],
+    "citation-key": "singer1975",
     "container-title": "Animal liberation",
     "issued": {
       "date-parts": [
@@ -5323,7 +5335,8 @@
     "publisher": "Westview Press",
     "publisher-place": "New York",
     "title": "The powers of rational beings: freedom of the will",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/TK9CZZZB?page=278&annotation=XM264MP5"
   },
   {
     "id": "warren1973",
@@ -5434,7 +5447,8 @@
     "publisher": "Cambridge University Press",
     "publisher-place": "Cambridge",
     "title": "The Makropulos case: reflections on the tedium of immortality",
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/4GJX9CHQ?page=90&annotation=NHK89NDS"
   },
   {
     "id": "wilson2003",
@@ -5546,6 +5560,7 @@
         "given": "Burton"
       }
     ],
-    "type": "chapter"
+    "type": "chapter",
+    "URL": "zotero://open-pdf/library/items/9HDASIYA?page=NaN&annotation=QMS62NMV"
   }
 ]

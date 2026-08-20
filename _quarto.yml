@@ -42,7 +42,7 @@ book:
     - arguments.md
 
 bibliography: [references.bib]
-citeproc: false
+citeproc: true
 reference-location: section
 reference-section-title: References
 section-bibliographies:
@@ -71,19 +71,6 @@ tbl-cap-location: bottom
 crossref:
   tbl-title: Matrix
   tbl-prefix: Matrix
-  # def-title: T
-  # def-prefix: T
-  # custom:
-  # - caption-location: top
-  #   key: arg
-  #   kind: float
-  #   reference-prefix: "A"
-  #   space-before-numbering: false
-  # - caption-location: top
-  #   key: exa
-  #   kind: float
-  #   reference-prefix: "TE" 
-  #   space-before-numbering: false
 
 format:
   html:
@@ -103,4 +90,4 @@ format:
     css: epub.css
 
   # typst:
-  #   citeproc: false
+  #   citeproc: true
