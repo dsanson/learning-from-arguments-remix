@@ -530,7 +530,7 @@ broader overview of theories of well-being and morality. See the opening
 chapter of @mason2022 (titled 'Feminism in the Multicultural Context') on
 defending universal values in the face of cultural disagreement. 
 
-*CrashCourse* has a short overview [@crashcourse2016a]:
+*CrashCourse* has a short overview of utilitarianism [@crashcourse2016a]:
 
 
 {{< 
@@ -540,7 +540,7 @@ defending universal values in the face of cultural disagreement.
 >}}
 
 
-*Wireless Philosophy* offers a three-lecture series on Utilitarianism [
+*Wireless Philosophy* offers a three-lecture series on utilitarianism [
 @markovits2014; -@markovits2014a; -@markovits2015]. Here is the first:
 
 {{< 
@@ -553,13 +553,13 @@ defending universal values in the face of cultural disagreement.
 @leguin2017 is a classic short story which raises the question of whether it is morally acceptable to harm one
 to make many happy.
 
-@carritt1947 [ch. 4, "Crude Moral Theories"] offers several objections to Utilitarianism.
+@carritt1947 [ch. 4, "Crude Moral Theories"] offers several objections to utilitarianism.
 @smart1973 offers two essays, one by Smart defending Utilitarianism, and one by Williams raising objections to the view.
 
+@taurek1977 considers a case in which you must choose between saving one person or saving five, and argues against the view that you are morally required to save the five instead of the one.
+
 For the articulation and defense of a consequentialist view in traditional
-Chinese Philosophy, see @mozi2020 (the title of this selection is also
-translated as "Universal Love") [free
-text](https://ctext.org/mozi/universal-love-i).
+Chinese Philosophy, see Mozi's "Inclusive Love" [-@mozi2020]. The title of this piece can also be translated as "Universal Love", as it is in this [free online version](https://ctext.org/mozi/universal-love-i).
 
 @harris1975 imagines a "Survival Lottery", where, whenever anyone needs an organ transplant to survive,
 a donor is chosen at random, against their will, from the wider population. 
@@ -572,11 +572,4 @@ to the Trolley Problem:
   title="A two-year-old's solution to the trolley problem"
   aria-label="youtube video"
 >}}
-
-
-<!--
-@taurek1977
-
-- Alastair Norcross: Consequences Make Actions Right
--->
 

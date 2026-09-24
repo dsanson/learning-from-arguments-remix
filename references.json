@@ -3180,44 +3180,6 @@
     "volume": "2"
   },
   {
-    "id": "locke1975",
-    "author": [
-      {
-        "family": "Locke",
-        "given": "John"
-      }
-    ],
-    "citation-key": "locke1975",
-    "editor": [
-      {
-        "family": "Nidditch",
-        "given": "Peter H."
-      }
-    ],
-    "ISBN": "978-0-19-824386-1",
-    "issued": {
-      "date-parts": [
-        [
-          "1975"
-        ]
-      ]
-    },
-    "language": "en",
-    "number-of-pages": "914",
-    "original-date": {
-      "date-parts": [
-        [
-          "1690"
-        ]
-      ]
-    },
-    "publisher": "Clarendon Press",
-    "publisher-place": "Oxford",
-    "source": "Google Books",
-    "title": "An essay concerning human understanding",
-    "type": "book"
-  },
-  {
     "id": "locke2021",
     "author": [
       {
@@ -5176,6 +5138,34 @@
     "type": "article-journal",
     "URL": "https://www.pdcnet.org/pdc/bvdb.nsf/purchase?openform&fp=faithphil&id=faithphil_1985_0002_0004_0392_0423",
     "volume": "2"
+  },
+  {
+    "id": "taurek1977",
+    "author": [
+      {
+        "family": "Taurek",
+        "given": "John M."
+      }
+    ],
+    "citation-key": "taurek1977",
+    "container-title": "Philosophy & Public Affairs",
+    "container-title-short": "Philos. Public Aff.",
+    "ISSN": "0048-3915",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "1977"
+        ]
+      ]
+    },
+    "page": "293–316",
+    "publisher": "Wiley",
+    "source": "JSTOR",
+    "title": "Should the numbers count?",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/2264945",
+    "volume": "6"
   },
   {
     "id": "thomson1971",
