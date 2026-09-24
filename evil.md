@@ -290,7 +290,7 @@ wholesome actions but never because they freely choose to do so. This,
 the idea goes, is why God decided to give us free will, even though that
 requires allowing some suffering. Call this *The Free Will Defense*.
 
-The Free Will Defense is well equipped to handle many of the alleged
+The Free Will Defense is well-equipped to handle many of the alleged
 cases of pointless suffering considered above. No one can ever *freely*
 make good choices unless God steps back and permits people to sometimes
 make bad choices, including warring and torturing. So, the Free Will

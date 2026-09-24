@@ -1,4 +1,3 @@
-
 # What Makes Things Right {#sec-utilitarianism}
 
 {{< include _authorial-endorsement.md >}}
@@ -576,6 +575,8 @@ to the Trolley Problem:
 
 
 <!--
+@taurek1977
+
 - Alastair Norcross: Consequences Make Actions Right
 -->
 

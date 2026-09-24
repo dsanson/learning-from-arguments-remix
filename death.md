@@ -78,7 +78,7 @@ There are multiple problems with HD. First, there are all sorts of things that
 are bad for you that aren't themselves painful. For instance, eating a whole
 large pizza in one sitting isn't painful, but it is bad for you. Second, there
 are all sorts of painful things that aren't bad for you. For instance, a
-deeptissue massage isn't bad for you, but it can be somewhat unpleasant while
+deep tissue massage isn't bad for you, but it can be somewhat unpleasant while
 it's happening.
 
 Thinking a bit more about these examples can help us see what's missing from
@@ -240,7 +240,7 @@ just have to wait and see.
 
 I say we don't have to wait and see. We can settle the matter right now. Start
 by noticing that, right where you are, there is a living, breathing,
-fleshand-blood human animal. For simplicity, I'll refer to it as 'Animal'.
+flesh-and-blood human animal. For simplicity, I'll refer to it as 'Animal'.
 Here, then, is the argument that you will permanently cease to be conscious
 once you die:
 
