@@ -4156,6 +4156,35 @@
     "type": "chapter"
   },
   {
+    "id": "otsuka2006",
+    "author": [
+      {
+        "family": "Otsuka",
+        "given": "Michael"
+      }
+    ],
+    "citation-key": "otsuka2006",
+    "container-title": "Philosophy & Public Affairs",
+    "container-title-short": "Philos. Public Aff.",
+    "DOI": "10.1111/j.1088-4963.2006.00058.x",
+    "ISSN": "0048-3915",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "2006"
+        ]
+      ]
+    },
+    "page": "109–135",
+    "publisher": "Wiley",
+    "source": "JSTOR",
+    "title": "Saving lives, moral theory, and the claims of individuals",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/3557998",
+    "volume": "34"
+  },
+  {
     "id": "parfit1971a",
     "author": [
       {

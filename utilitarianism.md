@@ -556,10 +556,12 @@ to make many happy.
 @carritt1947 [ch. 4, "Crude Moral Theories"] offers several objections to utilitarianism.
 @smart1973 offers two essays, one by Smart defending Utilitarianism, and one by Williams raising objections to the view.
 
-@taurek1977 considers a case in which you must choose between saving one person or saving five, and argues against the view that you are morally required to save the five instead of the one.
 
-For the articulation and defense of a consequentialist view in traditional
-Chinese Philosophy, see Mozi's "Inclusive Love" [-@mozi2020]. The title of this piece can also be translated as "Universal Love", as it is in this [free online version](https://ctext.org/mozi/universal-love-i).
+For an early consequentialist view, see the treatise, "Inclusive Love" (also translated as "Universal Love"), by the 5th century Chinese philosopher Mozi [-@mozi2020].
+[Here is free online version, in both Chinese and English](https://ctext.org/mozi/universal-love-i).
+
+@taurek1977 considers a case in which you must choose between saving one person or saving five, and argues against the utilitarian view that you are morally required to save the five instead of the one.
+For an extended critical discussion of the issues raised by Taurek's argument and possible responses, utilitarian or otherwise, see @otsuka2006.
 
 @harris1975 imagines a "Survival Lottery", where, whenever anyone needs an organ transplant to survive,
 a donor is chosen at random, against their will, from the wider population. 
