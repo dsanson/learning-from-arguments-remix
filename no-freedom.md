@@ -185,7 +185,6 @@ saying.
 Some will be tempted to reject DS4, insisting that even if your choices are
 determined by desires that are outside your control, they're still *your*
 choices and *your* desires, and that's enough to make them free. But
-
 HYPNOTIC DECISION shows why that's a misguided response. It's plain to see
 that Colton wasn't acting freely when he tackled Kabir. And yet it's true that
 *he* chose to tackle Kabir, as a result of *his* desire to tackle Kabir. So,
@@ -234,7 +233,6 @@ banana and toothpaste omelet for lunch, and eat the whole thing despite how
 disgusting it tastes. Does that show that your actions aren't determined by
 your desires? No, it just shows that your desire to do something absurd and
 unpredictable is stronger than your desire to eat
-
 something tasty. Or maybe you'll flip a coin to decide where to go for lunch:
 Panda Express if it's heads, Taco Bell if it's tails. It comes up heads and
 you go to Panda Express despite feeling more like Taco Bell. Does that show
@@ -274,7 +272,7 @@ or drugs so strongly, I can change those desires by taking actions that lead
 me to have the desires I'd prefer to have.
 
 Let's call these actions that enable one to overcome one's desires
-"desiredefeating actions." One could try to argue against DS2 on the grounds
+"desire-defeating actions." One could try to argue against DS2 on the grounds
 that we are able to control our desires by performing desire-defeating
 actions:
 
@@ -292,7 +290,7 @@ I find this argument unconvincing, and here's why. In order to decide to
 perform a desire-defeating action, you have to *want* to perform it. If I had
 no desire to watch the videos to help curb my craving for meat, I wouldn't
 have. More generally, whether you *do* end up choosing to perform a
-desiredefeating action is determined by whether you have a *strong enough
+desire-defeating action is determined by whether you have a *strong enough
 desire* to perform that desire-defeating action.
 
 To see why that's a problem for the Argument from Desire-Defeating Action,
@@ -509,7 +507,6 @@ arguably draws support from one of our best confirmed physical theories,
 quantum mechanics, which is standardly interpreted as saying that some things
 happen just as a matter of chance and that the laws of nature to some extent
 leave open what will happen next. But if there is
-
 genuine randomness in the physical universe (not just the apparent randomness
 you get with One Potato Two Potato), then determinism is false: the laws of
 nature don't guarantee that a specific future will result from past physical
@@ -616,8 +613,8 @@ reasoning.
 - (CQ3) So, if determinism is true, then what you do is always a consequence
   of things over which you have no control.
 - (CQ4) If what you do is always a consequence of things over which you have
-  no control, then you are never able to do otherwise (DT2) So, if determinism
-  is true, you are never able to do otherwise.
+  no control, then you are never able to do otherwise.
+- (DT2) So, if determinism is true, you are never able to do otherwise.
 
 :::
 
@@ -747,7 +744,6 @@ sense to punish people---and to threaten would-be criminals with
 punishment---to the extent that this has a positive effect on their behavior.
 In a world without free will, punishment must be seen as "forward-looking" as
 opposed to "backward-looking." We should punish
-
 people because punishment (and the threat thereof) has certain desirable
 consequences, not because it "sets things right" by addressing some past
 wrongdoing.

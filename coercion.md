@@ -232,7 +232,6 @@ government but not Jasmine is allowed to do these things. But I see no more
 reason to think that the country literally belongs to the government than that
 some street corner literally belongs to the drug dealers that have claimed it.
 It's true that the government *acts* like they own the place, and
-
 that they have enough power to cow people into letting them do what they want.
 But there's no good reason to think that some patch of the surface of the
 Earth is literally owned by the government. It's just not plausible that the

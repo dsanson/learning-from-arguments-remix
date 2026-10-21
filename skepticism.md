@@ -243,7 +243,7 @@ That's UJ2.
 
 All that remains to be done is to defend UJ3. If I can show that it's true
 that FLP can't be justified by inductive inference---then we have a
-wellmotivated argument that your belief in FLP isn't justified, and an
+well-motivated argument that your belief in FLP isn't justified, and an
 argument from there to the conclusion that you don't know that the sun will
 set in the west tomorrow. The idea behind UJ3 is that any inductive
 justification for FLP would be circular, and circularity is bad. Unpacking
