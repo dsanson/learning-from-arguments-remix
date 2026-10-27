@@ -136,6 +136,7 @@ Y-schema, starting with the observation that Emm isn't rational. In other
 words, she isn't capable of conscious self-reflection or using reason and
 logic. The argument would go like this:
 
+
 ::: {#argument-YR .argument}
 ## The Argument from Rationality {-}
 
@@ -152,7 +153,7 @@ kill such an infant. But obviously it is. So YR2 is false, and the argument
 fails.
 
 Other instances of the Y-schema fail for the same reason. You might think that
-it isn't seriously immoral to kill Emm because Emm isn't selfsufficient: she
+it isn't seriously immoral to kill Emm because Emm isn't self-sufficient: she
 is entirely dependent on Taylor and wouldn't be able to survive on her own.
 This yields the following argument:
 
@@ -229,7 +230,7 @@ Attachment as follows:
 
 - (YA1\*) Emm is bodily-attached to another human.
 - (YA2\*) It's seriously immoral to kill something only if it isn't
-  bodilyattached to any other human.
+  bodily-attached to any other human.
 - (YA3) So it's not seriously immoral to kill Emm.
 :::
 
@@ -244,7 +245,6 @@ seriously immoral.
 Finally, the pro-choicer might try a different tactic, pointing to the fact
 that Emm is not *conscious*. That's true: Emm won't become conscious until
 five months into the pregnancy at the earliest. Moreover, this avoids all the
-
 counterexamples we have seen thus far. After all, even healthy, unwanted
 conjoined twins in baby wraps are conscious. So, we get what might seem to be
 a more promising argument:
@@ -1042,22 +1042,22 @@ drawn from @marquis1989, as are many of the
 criticisms of bad pro-life and pro-choice arguments discussed in sections -@sec-bad-pro-choice-arguments
 and -@sec-bad-pro-life-arguments.
 
+Here are several other articles on the topic, all of which are worth reading:
 
 
-
-  @boonin2019
-  @boonin2003
-  @cudd1990
-  @english1975
-  @callahan1986
-  @harman1999
-  @harman2003
-  @harman2021
-  @harris1986
-  @little1999
-  @norcross1990
-  @tooley1972
-  @warren1973
+-   @boonin2019
+-   @boonin2003
+-   @cudd1990
+-   @english1975
+-   @callahan1986
+-   @harman1999
+-   @harman2003
+-   @harman2021
+-   @harris1986
+-   @little1999
+-   @norcross1990
+-   @tooley1972
+-   @warren1973
 
 
 <!--
