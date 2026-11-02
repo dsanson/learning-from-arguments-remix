@@ -313,6 +313,7 @@ came from a CAFO---which, as I said above, is almost certainly the case if you
 are not making a special effort and financial sacrifice to buy only humanely
 raised meat. (If you *are* making this effort, the argument does not apply to
 you. But a revised version of the argument might. More on this in @sec-beyond-factory-farming.)
+
 I will argue that it is immoral for you to buy and eat that meat by presenting
 you with a fictional case involving the horrific treatment of puppies, and
 arguing that there is no morally relevant difference between what is done in
@@ -383,7 +384,9 @@ the case of you and the farm animals whose flesh you are buying and eating.
 Labrador puppies are cute and cuddly, for instance, whereas chickens and pigs
 are ugly and smelly. That's a difference. But it isn't a *morally relevant*
 difference. How cute or ugly something or someone is doesn't make any
-difference to what we are morally permitted to do to them. } So, what might be
+difference to what we are morally permitted to do to them. 
+
+So, what might be
 a morally relevant difference between the cases, that is, a difference that
 could potentially make for a moral difference? I'll consider five
 possibilities: that puppies aren't bred to be consumed, that Fred's cruelty is
