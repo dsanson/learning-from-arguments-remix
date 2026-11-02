@@ -837,7 +837,7 @@ additional condition for a killing to be classified as seriously immoral, we
 need to include an additional premise, MF3, affirming that killing Emm meets
 that condition.
 
-To evaluate MF3, we have to consider various candidate FLOoverriding factors
+To evaluate MF3, we have to consider various candidate FLO-overriding factors
 that might be present in the case of Emm. To check whether a factor is
 FLO-overriding, remember, we have to check whether it's the sort of factor
 whose presence could justify killing a normal human adult. So let's look at
@@ -940,7 +940,7 @@ FLO-lifer can consistently grant that abortion is permissible in such cases.
 Can a FLO-lifer grant that abortion is permissible in the case of a healthy
 pregnancy that results from rape? In such cases, the embryo does have FLO, so
 the FLO-lifer can and should make this concession so long as such cases
-involve a FLO-overriding factor. What might that FLOoverriding factor be? Here
+involve a FLO-overriding factor. What might that FLO-overriding factor be? Here
 is a plausible candidate: that the embryo's dependence on the mother was the
 result of violent actions that she was not able to control. To see that this
 counts as a FLO-overriding factor, recall THE VIOLINIST from @sec-violinist-argument. As
@@ -952,7 +952,7 @@ actions (by the kidnappers) that he was not able to control.
 
 What we have just seen is that the best argument against abortion cannot be
 used to show that aborting pregnancies resulting from rape or pregnancies that
-threaten the life of the mother are seriously immoral. Prolifers who do not
+threaten the life of the mother are seriously immoral. Pro-lifers who do not
 want to make an exception even in these special cases must look elsewhere for
 an argument to support this position. And it is hard to see what such an
 argument would look like, since the obvious candidates---for instance that
