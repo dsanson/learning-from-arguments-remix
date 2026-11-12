@@ -30,7 +30,7 @@ we'll call "act utilitarianism."
 Act Utilitarianism
 :   Performing a certain action is the right thing to do if and only if it
     will have a more positive effect on overall levels of happiness than any
-    other available action
+    other available action.
 :::
 
 By 'happiness', I mean any sort of pleasurable mental state, including both
